@@ -1,0 +1,17 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/nagash/body/nagash_boss_body.wsmodel" >
+			<META_DATA>audio_entity_type:wh_skeleton_LH</META_DATA>			<META_DATA>audio_armour_type:plate</META_DATA></VARIANT_MESH>
+	</SLOT>
+		<SLOT name="sword" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/nagash/body/nagash_boss_mortis.wsmodel" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="staff" attach_point="be_prop_5" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/nagash/body/nagash_boss_alakanash.wsmodel" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:staff</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="dummy" >
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/ksl/ksl_dummy.rigid_model_v2" />
+    </SLOT>
+</VARIANT_MESH>

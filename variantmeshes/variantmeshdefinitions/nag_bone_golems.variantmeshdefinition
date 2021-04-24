@@ -1,0 +1,41 @@
+<VARIANT_MESH>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/bird-bird-hum_heads.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/TK_heads.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/orc-skav-hum_heads.rigid_model_v2"  />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/dog-croc_heads.rigid_model_v2"  />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/skav-bird-beast-heads.rigid_model_v2"  />
+
+	</SLOT>
+	<SLOT name="torso" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_body_01.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dlc_wef_treekin</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_body_01.rigid_model_v2"  >
+			<META_DATA>audio_entity_type:wh_dlc_wef_treekin</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_legs_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_legs_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_legs_01.rigid_model_v2"  />
+	</SLOT>
+
+	<SLOT name="body_armor" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_body_armor_01.rigid_model_v2"  />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_body_armor_02.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="leg_armor" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_leg_armor_01.rigid_model_v2"  />
+	</SLOT>
+
+	<SLOT name="shields" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_shield_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_shield_02.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_shield_03.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="weapons" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_weapon_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_weapon_02.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu2/nag/nag_bone_golems/nag_golem_weapon_03.rigid_model_v2"  />
+	</SLOT>
+
+</VARIANT_MESH>

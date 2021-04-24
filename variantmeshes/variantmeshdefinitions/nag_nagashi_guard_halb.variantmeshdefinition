@@ -1,0 +1,9 @@
+<VARIANT_MESH>
+	<META_DATA>equipment</META_DATA>	<SLOT name="body" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/nag_nagashi_guard_base.VariantMeshDefinition" />
+	</SLOT>
+	<SLOT name="weapon" attach_point="be_prop_0" >
+		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/tmb_tomb_guard_halberd_2h_set.VariantMeshDefinition" />
+	</SLOT>
+
+</VARIANT_MESH>
