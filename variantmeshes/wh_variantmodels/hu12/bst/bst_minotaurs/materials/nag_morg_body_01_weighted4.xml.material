@@ -1,6 +1,6 @@
 <material>
   <name>nag_morg_body_01_weighted4.xml</name>
-  <shader>shaders/weighted4_tinted_metal_emissive.xml.shader</shader>
+  <shader>shaders/weighted4_default.xml.shader</shader>
   <sort_override>255</sort_override>
   <textures>
     <texture>
@@ -31,83 +31,18 @@
       <slot>s_specular</slot>
       <source>VariantMeshes/wh_variantmodels\hu12\bst\bst_minotaurs\tex\nag_morg_harb_specular.dds</source>
     </texture>
-  <texture>
-   <slot>s_mask1</slot>
-   <source>VariantMeshes/wh_variantmodels\hu12\bst\bst_minotaurs\tex\nag_morg_harb_mask.dds</source>
-  </texture>
-
-  <texture>
-   <slot>s_emissive_direction</slot>
-   <source>commontextures/default_white.dds</source>
-  </texture>
-  <texture>
-   <slot>s_emissive_distortion</slot>
-   <source>commontextures/default_white.dds</source>
-  </texture>
-  <texture>
-   <slot>s_emissive_texture</slot>
-   <source>commontextures/default_white.dds</source>
-  </texture>
-
-<texture>
-   <slot>s_Texture11918</slot>
-   <source>commontextures/winds_of_magic_noise.dds</source>
-  </texture>
-  <texture>
-   <slot>s_Texture11919</slot>
-   <source>commontextures/winds_of_magic_specular.dds</source>
-  </texture>
-  <texture>
-   <slot>s_dither</slot>
-   <source>commontextures/dither.dds</source>
-  </texture>
- </textures>
- <params>
-  <param>
-   <name>emissive_distort_strength</name>
-   <type>float</type>
-   <value>0.05</value>
-  </param>
-  <param>
-   <name>emissive_fresnel_strength</name>
-   <type>float</type>
-   <value>0.12</value>
-  </param>
-  <param>
-   <name>emissive_pulse_speed</name>
-   <type>float</type>
-   <value>1</value>
-  </param>
-  <param>
-   <name>emissive_pulse_strength</name>
-   <type>float</type>
-   <value>0.1</value>
-  </param>
-  <param>
-   <name>emissive_speed</name>
-   <type>float</type>
-   <value>0.1</value>
-  </param>
-  <param>
-   <name>emissive_strength</name>
-   <type>float</type>
-   <value>0.35</value>
-  </param>
-  <param>
-   <name>emissive_tiling</name>
-   <type>float2</type>
-   <value>1,1</value>
-  </param>
-  <param>
-   <name>emissive_tint</name>
-   <type>float3</type>
-   <value>0,5,5</value>
-  </param>
-  <param>
-   <name>metal_tint_variation</name>
-   <type>float</type>
-   <value>1</value>
-  </param>
- </params>
+    <texture>
+      <slot>s_dither</slot>
+      <source>commontextures/dither.dds</source>
+    </texture>
+    <texture>
+      <slot>s_Texture1</slot>
+      <source>commontextures/winds_of_magic_noise.dds</source>
+    </texture>
+    <texture>
+      <slot>s_Texture2</slot>
+      <source>commontextures/winds_of_magic_specular.dds</source>
+    </texture>
+  </textures>
+  <params />
 </material>
-

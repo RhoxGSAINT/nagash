@@ -5,37 +5,37 @@ local bdsm = get_bdsm()
 bdsm._mortarchs = {}
 local mortarchs = {
     {
-        subtype = "wh2_dlc11_cst_harkon",
+        subtype = "nag_mortarch_luthor",
         forename = "1937224331",
         surname = "",
         acquired = false,
     },
     {
-        subtype = "dlc04_vmp_vlad_con_carstein",
+        subtype = "nag_mortarch_vlad",
         forename = "1937224332",
         surname = "",
         acquired = false,
     },
     {
-        subtype = "vmp_mannfred_von_carstein",
+        subtype = "nag_mortarch_mannfred",
         forename = "1937224333",
         surname = "",
         acquired = false,
     },
     {
-        subtype = "wh2_dlc09_tmb_arkhan",
+        subtype = "nag_mortarch_arkhan",
         forename = "1937224334",
         surname = "",
         acquired = false,
     },
     {
-        subtype = "nag_neferata",
+        subtype = "nag_mortarch_neferata",
         forename = "1937224329",
         surname = "",
         acquired = false,
     },
     {
-        subtype = "nag_krell",
+        subtype = "nag_mortarch_krell",
         forename = "1937224330",
         surname = "",
         acquired = false,

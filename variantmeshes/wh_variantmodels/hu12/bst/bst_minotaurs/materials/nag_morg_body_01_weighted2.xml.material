@@ -1,6 +1,6 @@
 <material>
   <name>nag_morg_body_01_weighted4.xml</name>
-  <shader>shaders/weighted2_default.xml.shader</shader>
+  <shader>shaders/weighted4_default.xml.shader</shader>
   <sort_override>255</sort_override>
   <textures>
     <texture>
