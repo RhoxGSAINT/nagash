@@ -19,8 +19,10 @@ local function init()
 
     if option == "intro" then
         f = bdsm.first_turn_begin
-    else
+    elseif option == "bp" then
         f = bdsm.mid_game_start
+    elseif option == "domination" then
+        f = bdsm.world_domination_start
     end
 
     if cm:is_new_game() then

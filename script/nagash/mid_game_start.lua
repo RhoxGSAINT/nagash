@@ -3,6 +3,21 @@
 
 local bdsm = get_bdsm()
 
+--- DEV OPTION
+-- Give Nagash the entire world except for BP.
+function bdsm:world_domination_start()
+    local region_list = cm:model():world():region_manager():region_list()
+    local faction_key = self:get_faction_key()
+
+    for i = 0, region_list:num_items() -1 do
+        local region = region_list:item_at(i)
+        local region_name = region:name()
+        if region_name ~= "wh2_main_great_mortis_delta_black_pyramid_of_nagash" then
+            cm:transfer_region_to_faction(region_name, faction_key)
+        end
+    end
+end
+
 -- set Black Pyramid to ruined, give Nagash the BP horde, spawn Nagash and Arkhan to the faction
 function bdsm:mid_game_start()
     local sentinels_key = "wh2_dlc09_tmb_the_sentinels"
