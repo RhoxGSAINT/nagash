@@ -66,7 +66,7 @@ function bdsm:first_turn_begin()
         end, 0.1)
 
         -- TODO post-battle cutscene, do it prettily
-        self:trigger_intro_battle()
+        -- self:trigger_intro_battle()
     end
 end
 
