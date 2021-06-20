@@ -34,12 +34,12 @@ local function init()
             bdsm:all_morts()
         end
     else
-        if option == "intro" then
+        -- if option == "intro" then
             if not cm:get_saved_value("bdsm_first_turn_completed") and cm:get_saved_value("bdsm_intro_battle_completed") then
                 -- trigger post-battle stuff
                 bdsm:post_intro_battle()
             end
-        end
+        -- end
     end
 end
 

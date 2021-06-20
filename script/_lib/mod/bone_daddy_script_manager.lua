@@ -23,6 +23,17 @@ function bdsm:get_faction_leader()
     return self:get_faction():faction_leader()
 end
 
+--- Bit of a misnomer, doesn't actually do anything with the game's DB; just grabs a Lua file that has a table, and returns that table.
+---@param db_name string
+---@return string[]
+function bdsm:load_db(db_name)
+    if not is_string(db_name) then return end
+
+    local db_path = self._default_module_path.."db/"
+
+    return require(db_path)
+end
+
 function bdsm:init()
     -- initialize the log
     self:log_init()

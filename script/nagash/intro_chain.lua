@@ -36,9 +36,12 @@ function bdsm:first_turn_begin()
             5
         )
 
+        local unit_list = bdsm:load_db("starting_units")
+        unit_list = table.concat(unit_list, ",")
+
         cm:create_force_with_general(
             faction_key,
-            "wh_main_vmp_inf_zombie",
+            unit_list,
             nagashizar_key,
             x,
             y,
