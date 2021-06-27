@@ -1,5 +1,6 @@
 -- add a new unit to the starting army by adding a new line, putting the main_unit key in "" quotes, and ending the line in a comma!
 -- remove by just putting -- in front of a unit, or deleting that line.
+---@type string[]
 return {
     "nag_bone_golems",
     "nag_nagashi_guard",

@@ -29,7 +29,7 @@ end
 function bdsm:load_db(db_name)
     if not is_string(db_name) then return end
 
-    local db_path = self._default_module_path.."db/"
+    local db_path = self._default_module_path.."db/"..db_name
 
     return require(db_path)
 end
