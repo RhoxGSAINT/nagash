@@ -1,0 +1,23 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+nag_outpost_primary_main			military	false	wh_main_sch_settlement_major	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_primary_main_coast			military	false	wh_main_sch_settlement_major_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_secondary_main			military	false	wh_main_sch_settlement_minor	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_secondary_main_coast			military	false	wh_main_sch_settlement_minor_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpostnorsca_primary_main			money	false	wh_main_sch_norsca_settlement_major	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpostnorsca_primary_main_coast			money	false	wh_main_sch_norsca_settlement_major_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpostnorsca_secondary_main			money	false	wh_main_sch_norsca_settlement_minor	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpostnorsca_secondary_main_coast			money	false	wh_main_sch_norsca_settlement_minor_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_main_port			money	true	wh_main_sch_port		0	
+nag_outpost_primary_research			money	false	nag_outpost_primary_research		6	
+nag_outpost_primary_arcane			money	false	nag_outpost_primary_arcane		7	
+nag_outpost_primary_support			money	false	nag_outpost_primary_support		8	
+nag_outpost_primary_nehek			money	false	nag_outpost_primary_nehek		1	
+nag_outpost_primary_nagashizzar			money	false	nag_outpost_primary_nagashizzar		2	
+nag_outpost_primary_coast			money	false	nag_outpost_primary_coast		3	
+nag_outpost_primary_count			money	false	nag_outpost_primary_count		4	
+nag_outpost_primary_warpstone			money	false	nag_outpost_primary_warpstone		5	
+nag_outpost_secondary_fields			money	false	nag_outpost_secondary_fields		1	
+nag_outpost_secondary_corruption			money	false	nag_outpost_secondary_corruption		2	
+nag_outpost_secondary_syphon			money	false	nag_outpost_secondary_syphon		3	
+nag_outpost_secondary_energy			money	false	nag_outpost_secondary_energy		4	

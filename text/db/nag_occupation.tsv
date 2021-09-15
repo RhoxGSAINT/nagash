@@ -1,0 +1,9 @@
+Loc PackedFile	1
+key	text	tooltip
+culture_settlement_occupation_options_tooltip_909090	PH Do Nothing PH	true
+culture_settlement_occupation_options_tooltip_909091	[PH] Raze	true
+culture_settlement_occupation_options_tooltip_909092	[PH] Sack	true
+culture_settlement_occupation_options_tooltip_909093	[PH] Occupy	true
+culture_settlement_occupation_options_tooltip_909094	[PH] Colonize	true
+culture_settlement_occupation_options_tooltip_909095	[PH] Loot	true
+culture_settlement_occupation_options_tooltip_909096	[PH] Resettle	true

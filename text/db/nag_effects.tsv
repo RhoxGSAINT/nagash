@@ -1,0 +1,232 @@
+Loc PackedFile	1
+key	text	tooltip
+effects_description_nag_effect_horde_growth	Undead Horde growth: %+n	true
+effects_description_nag_effect_horde_replenishment	Casualty replenishment rate: %+n%	true
+effects_description_nag_effect_patrol_dummy	Defence: Undead Patrols may spawn from this location	false
+effects_description_nag_effect_warpstone_token	Warpstone: %+n%	false
+effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence: %+n for Bone Golems	true
+effects_description_nag_effect_landmark_nagash_buff_ethereal_magic_res	Magic resistance: %n% for all Ethereal units	true
+effects_description_nag_effect_landmark_nagash_buff_morghasts_regen	Ability: "Regeneration" for Morghasts Units	true
+effects_description_nag_effect_landmark_nagash_enemy_undead_hex	Enemy Leadership: %+n when fighting against Undead	true
+effects_description_nag_effect_landmark_nagash_character_wom_reserves	Winds of Magic power reserve: %+n	true
+effects_description_nag_effect_landmark_arkhan_character_melee	Melee attack: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
+effects_description_nag_effect_landmark_arkhan_character_defence	Melee defence: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
+effects_description_nag_effect_landmark_arkhan_character_wom_reserves	Winds of Magic power reserve: %+n	true
+effects_description_nag_effect_landmark_arkhan_buff_magic_attacks_scorpion	Enables magical attacks for Tomb Scorpion	true
+effects_description_nag_effect_landmark_arkhan_buff_magic_attacks_warshpinx	Enables magical attacks for Khemrian Warsphinx	true
+effects_description_nag_effect_landmark_manny_character_wom_reserves	Winds of Magic power reserve: %+n	true
+effects_description_nag_effect_landmark_manny_spell_cost	Winds of Magic cost: %n% for Lore of Vampires	true
+effects_description_nag_effect_landmark_manny_movement	Campaign movement range: %+n%	true
+effects_description_nag_effect_landmark_manny_recruit_rank_knights	Recruit rank: %+n for Black Knight units	true
+effects_description_nag_effect_landmark_neffy_buff_ushabti_melee	Melee attack: %+n for Ushabti	true
+effects_description_nag_effect_landmark_neffy_buff_ushabti_defence	Melee defence: %+n for Ushabti	true
+effects_description_nag_effect_landmark_neffy_buff_bats_refuse_to_die	Ability: "Refuse to Die" for Fell Bats [TEMP ABILITY]	true
+effects_description_nag_effect_landmark_neffy_horde_replenishment	Casualty replenishment rate: %+n%	true
+effects_description_nag_effect_landmark_krell_attrition_immunity	All units in Krell's army are immune to all attrition	true
+effects_description_nag_effect_landmark_krell_buff_guard_phys	Physical resistance: %n% for Grave Guard & Nagashizzar Guard Units	true
+effects_description_nag_effect_landmark_krell_buff_guard_melee	Melee attack: %+n for for Grave Guard & Nagashizzar Guard Units	true
+effects_description_nag_effect_landmark_vlad_guerrilla_deployment	Attribute: Vanguard Deployment for all units	true
+effects_description_nag_effect_landmark_vlad_movement	Campaign movement range: %+n%	true
+effects_description_nag_effect_landmark_vlad_buff_dags_fatigue_res	Vigour loss reduction: %+n% for Dire Wolves	true
+effects_description_nag_effect_landmark_vlad_buff_dags_melee	Melee attack: %+n for Dire Wolves	true
+effects_description_nag_effect_landmark_luthor_character_defence	Melee defence: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
+effects_description_nag_effect_landmark_luthor_magic_resistance	Magic resistance: %n% for all units	true
+effects_description_nag_effect_unit_cap_nagashi_guard	Unit capacity: %+n\\nNagashizzar Guard	true
+effects_description_nag_effect_unit_cap_nagashi_guard_halb	Unit capacity: %+n\\nNagashizzar Guard (Halberds)	true
+effects_description_nag_effect_unit_cap_bone_golems	Unit capacity: %+n\\nBone Golems	true
+effects_description_nag_effect_unit_cap_morghasts	Unit capacity: %+n\\nMorghasts	true
+effects_description_nag_effect_unit_cap_sand_crawlies	Unit capacity: %+n\\nSand Crawlers	true
+effects_description_nag_effect_unit_cap_carrion_riders	Unit capacity: %+n\\nCarrion Riders	true
+effects_description_nag_effect_unit_cap_mortis_engine	Unit capacity: %+n\\nMortis Engine	true
+effects_description_nag_effect_unit_cap_bone_thrower	Unit capacity: %+n\\nBone Thrower	true
+effects_description_nag_effect_unit_cap_bone_giant_0	Unit capacity: %+n\\nBone Giant	true
+effects_description_nag_effect_unit_cap_dire_wolves	Unit capacity: %+n\\nDire Wolves	true
+effects_description_nag_effect_unit_cap_fell_bats	Unit capacity: %+n\\nFell Bats	true
+effects_description_nag_effect_unit_cap_sepulchral_stalkers_0	Unit capacity: %+n\\nSepulchral Stalkers	true
+effects_description_nag_effect_unit_cap_hexwraiths	Unit capacity: %+n\\nHexwraiths	true
+effects_description_nag_effect_unit_cap_skeleton_horsemen_0	Unit capacity: %+n\\nSkeleton Horsemen	true
+effects_description_nag_effect_unit_cap_skeleton_horsemen_archers_0	Unit capacity: %+n\\nSkeleton Horse Archers	true
+effects_description_nag_effect_unit_cap_skeleton_chariot_0	Unit capacity: %+n\\nSkeleton Chariots	true
+effects_description_nag_effect_unit_cap_skeleton_archer_chariot_0	Unit capacity: %+n\\nSkeleton Archer Chariots	true
+effects_description_nag_effect_unit_cap_necropolis_knights_0	Unit capacity: %+n\\nNecropolis Knights	true
+effects_description_nag_effect_unit_cap_necropolis_knights_1	Unit capacity: %+n\\nNecropolis Knights (Halberds)	true
+effects_description_nag_effect_unit_cap_screaming_skull_catapult_0	Unit capacity: %+n\\nScreaming Skull Catapults	true
+effects_description_nag_effect_unit_cap_casket_of_souls_0	Unit capacity: %+n\\nCasket of Souls	true
+effects_description_nag_effect_unit_cap_ushabti_0	Unit capacity: %+n\\nUshabti	true
+effects_description_nag_effect_unit_cap_ushabti_1	Unit capacity: %+n\\nUshabti (Great Bow)	true
+effects_description_nag_effect_unit_cap_tomb_scorpion_0	Unit capacity: %+n\\nTomb Scorpion	true
+effects_description_nag_effect_unit_cap_necrosphinx_0	Unit capacity: %+n\\nNecrosphinx	true
+effects_description_nag_effect_unit_cap_nehekhara_horsemen_0	Unit capacity: %+n\\nNehekhara Horsemen	true
+effects_description_nag_effect_unit_cap_nehekhara_warriors_0	Unit capacity: %+n\\nNehekhara Warriors	true
+effects_description_nag_effect_unit_cap_khemrian_warsphinx_0	Unit capacity: %+n\\nKhemrian Warsphinx	true
+effects_description_nag_effect_unit_cap_tomb_guard_0	Unit capacity: %+n\\nTomb Guard	true
+effects_description_nag_effect_unit_cap_tomb_guard_1	Unit capacity: %+n\\nTomb Guard (Halberds)	true
+effects_description_nag_effect_unit_cap_cairn_wraiths	Unit capacity: %+n\\nCairn Wraiths	true
+effects_description_nag_effect_unit_cap_grave_guard_0	Unit capacity: %+n\\nGrave Guard	true
+effects_description_nag_effect_unit_cap_grave_guard_1	Unit capacity: %+n\\nGrave Guard (Great Weapons)	true
+effects_description_nag_effect_unit_cap_vargheists	Unit capacity: %+n\\nVargheists	true
+effects_description_nag_effect_unit_cap_blood_knights_0	Unit capacity: %+n\\nBlood Knights	true
+effects_description_nag_effect_unit_cap_black_knights_0	Unit capacity: %+n\\nBlack Knights	true
+effects_description_nag_effect_unit_cap_black_knights_3	Unit capacity: %+n\\nBlack Knights (Lances & Barding)	true
+effects_description_nag_effect_unit_cap_corpse_cart_1	Unit capacity: %+n\\nCorpse Cart (Balefire)	true
+effects_description_nag_effect_unit_cap_corpse_cart_2	Unit capacity: %+n\\nCorpse Cart (Unholy Lodestone)	true
+effects_description_nag_effect_unit_cap_bloated_corpse_0	Unit capacity: %+n\\nBloated Corpse	true
+effects_description_nag_effect_unit_cap_zombie_gunnery_mob_1	Unit capacity: %+n\\nZombie Pirate Gunnery Mob (Handguns)	true
+effects_description_nag_effect_unit_cap_deck_gunners_0	Unit capacity: %+n\\nDeck Gunners	true
+effects_description_nag_effect_unit_cap_depth_guard_0	Unit capacity: %+n\\nDepth Guard	true
+effects_description_nag_effect_unit_cap_terrorgheist	Unit capacity: %+n\\nDeath Shriek Terrorgheist	true
+effects_description_nag_effect_army_ranged_ammo_skill	Ammunition: %+n% for all Ranged units	true
+effects_description_nag_effect_army_ranged_missile_strength_skill	Missile strength: %+n% for all Ranged units	true
+effects_description_nag_effect_army_infantry_armour_skill	Armour: %+n for all Infantry units	true
+effects_description_nag_effect_army_infantry_melee_attack_skill	Melee attack: %+n for all Infantry units	true
+effects_description_nag_effect_army_cav_speed_skill	Speed: %+n% for all Cavalry and Chariot units	true
+effects_description_nag_effect_army_cav_charge_bonus_skill	Charge bonus: %+n for all Cavalry and Chariot units	true
+effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all Warbeast and Monstrous Infantry units	true
+effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all Warbeast and Monstrous Infantry units	true
+effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
+effects_description_nag_effect_army_spirit_magic_resistance_skill	Magic resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
+effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
+effects_description_nag_effect_army_construct_melee_attack_skill	Melee attack: %+n for all Monster and Large Construct units	true
+effects_description_nag_effect_army_construct_charge_bonus_skill	Charge bonus: %+n for all Monster and Large Construct units	true
+effects_description_nag_effect_army_vet_vamp_strider_skill	Attribute: Strider for Sylvanian units	true
+effects_description_nag_effect_army_vet_vamp_melee_attack_skill	Melee attack: %+n for Sylvanian units	true
+effects_description_nag_effect_army_vet_vamp_speed_skill	Speed: %+n% for Sylvanian units	true
+effects_description_nag_effect_army_vet_vamp_damage_base_skill	Weapon strength: %+n% for Sylvanian units	true
+effects_description_nag_effect_army_vet_nehek_realm_of_souls_skill	Ability: "Mortal Realm of Souls" for Nehekharan units	true
+effects_description_nag_effect_army_vet_nehek_melee_defence_skill	Melee defence: %+n for Nehekharan units	true
+effects_description_nag_effect_army_vet_nehek_damage_base_skill	Weapon strength: %+n% for Nehekharan units	true
+effects_description_nag_effect_army_vet_coast_missile_damage_ap_skill	Armour-piercing missile damage: %+n% for Coast units	true
+effects_description_nag_effect_army_vet_coast_missile_damage_base_skill	Missile strength: %+n% for Coast units	true
+effects_description_nag_effect_army_vet_coast_physical_resistance_skill	Physical resistance: %n% for Coast units	true
+effects_description_nag_effect_army_vet_coast_damage_base_skill	Weapon strength: %+n% for Coast units	true
+effects_description_nag_effect_army_vet_nagash_deathblow_skill	Ability: "Deathblow" for Nagashizzar units	true
+effects_description_nag_effect_army_vet_nagash_fatigue_res_skill	Attribute: Fatigue Resistance for Nagashizzar units	true
+effects_description_nag_effect_army_vet_nagash_ward_save_skill	Ward save: %n% for Nagashizzar units	true
+effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength: %+n% for Nagashizzar units	true
+effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts and Vargheists	true
+effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeletons, Skeleton Archers, Nehekaran Warriors, Tomb Guard, Skeleton Horsemen, Skeleton Horse Archers, Nehekaran Horsemen, Skeleton Chariots and Skeleton Archer Chariots	true
+effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Bloated Corpses and Death Shreik Terrorgheists	true
+effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Cairn Wraiths, Nagashizzar Guard, Sand Crawlers, Bone Golems, Morghasts, Hexwraiths, Carrion Riders and Mortis Engines	true
+effects_description_nag_spell_nagash_enable_abyssal_swarm	Spell: "Abyssal Swarm"	true
+effects_description_nag_spell_nagash_cooldown_abyssal_swarm	Cooldown: %+n% to "Abyssal Swarm"	true
+effects_description_nag_spell_nagash_enable_abyssal_swarm_upgrade	Overcast spell: "Abyssal Swarm Upgraded"	true
+effects_description_nag_spell_nagash_miscast_reduction_abyssal_swarm_upgraded	Miscast base chance: %+n% for "Abyssal Swarm Upgraded"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_abyssal_swarm	Winds of Magic cost: %n for "Abyssal Swarm"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_abyssal_swarm_upgraded	Winds of Magic cost: %n for "Abyssal Swarm Upgraded"	true
+effects_description_nag_spell_nagash_enable_breath_of_darkness	Spell: "Breath of Darkness"	true
+effects_description_nag_spell_nagash_cooldown_breath_of_darkness	Cooldown: %+n% to "Breath of Darkness"	true
+effects_description_nag_spell_nagash_enable_breath_of_darkness_upgrade	Overcast spell: "Breath of Darkness Upgraded"	true
+effects_description_nag_spell_nagash_miscast_reduction_breath_of_darkness_upgraded	Miscast base chance: %+n% for "Breath of Darkness Upgraded"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_breath_of_darkness	Winds of Magic cost: %n for "Breath of Darkness"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_breath_of_darkness_upgraded	Winds of Magic cost: %n for "Breath of Darkness Upgraded"	true
+effects_description_nag_spell_nagash_enable_soul_stealer	Spell: "The Soul Stealer"	true
+effects_description_nag_spell_nagash_cooldown_soul_stealer	Cooldown: %+n% to "The Soul Stealer"	true
+effects_description_nag_spell_nagash_enable_dark_riders	Spell: "The Dark Riders"	true
+effects_description_nag_spell_nagash_cooldown_dark_riders	Cooldown: %+n% to "The Dark Riders"	true
+effects_description_nag_spell_nagash_enable_dark_riders_upgrade	Overcast spell: "The Dark Riders Upgraded"	true
+effects_description_nag_spell_nagash_miscast_reduction_dark_riders_upgraded	Miscast base chance: %+n% for "The Dark Riders Upgraded"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_dark_riders	Winds of Magic cost: %n for "The Dark Riders"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_dark_riders_upgraded	Winds of Magic cost: %n for "The Dark Riders Upgraded"	true
+effects_description_nag_spell_nagash_enable_grave_call_master	Spell: "The Grave Call"	true
+effects_description_nag_spell_nagash_cooldown_grave_call_master	Cooldown: %+n% to "The Grave Call"	true
+effects_description_nag_spell_nagash_enable_grave_call_master_upgrade	Overcast spell: "The Grave Call Upgraded"	true
+effects_description_nag_spell_nagash_miscast_reduction_grave_call_master_upgraded	Miscast base chance: %+n% for "The Grave Call Upgraded"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_grave_call_master	Winds of Magic cost: %n for "The Grave Call"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_grave_call_master_upgraded	Winds of Magic cost: %n for "The Grave Call Upgraded"	true
+effects_description_nag_spell_nagash_enable_hand_of_dust	Spell: "The Hand of Dust"	true
+effects_description_nag_spell_nagash_cooldown_hand_of_dust	Cooldown: %+n% to "The Hand of Dust"	true
+effects_description_nag_spell_nagash_enable_harbinger	Spell: "The Harbinger"	true
+effects_description_nag_spell_nagash_cooldown_harbinger	Cooldown: %+n% to "The Harbinger"	true
+effects_description_nag_spell_nagash_enable_harbinger_upgrade	Overcast spell: "The Harbinger Upgraded"	true
+effects_description_nag_spell_nagash_miscast_reduction_harbinger_upgraded	Miscast base chance: %+n% for "The Harbinger Upgraded"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_harbinger	Winds of Magic cost: %n for "The Harbinger"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_harbinger_upgraded	Winds of Magic cost: %n for "The Harbinger Upgraded"	true
+effects_description_nag_effect_nagash_enable_death_magic_incarnate	Passive ability: "Death Magic Incarnate" is Temp and if it isn't i haven't changed this loc, send your pontus to 21 please dont send me pontus	true
+effects_description_nag_nag_effect_self_arkhan_melee_attack_nehek	Melee attack: %+n for Nehekhara Warriors and Nehekhara Horsemen units	true
+effects_description_nag_nag_effect_self_arkhan_rank_nehek_plus	Recruit rank: %+n for Nehekhara Warriors, Nehekhara Horsemen, Dire Wolves and Hexwraiths units	true
+effects_description_nag_effect_self_krell_infantry_melee_defence_skill	Melee defence: %+n for all Infantry units	true
+effects_description_nag_effect_self_krell_infantry_upkeep_skill	No upkeep cost for Grave Guard & Nagashizzar Guard units	true
+effects_description_nag_effect_self_krell_melee_attack_versus_nor_chs_bst	Melee attack: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
+effects_description_nag_effect_self_krell_melee_damage_versus_nor_chs_bst	Weapon strength: %+n% for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
+effects_description_nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	Charge bonus: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
+effects_description_nag_effect_self_luthor_missile_strength_arty	Missile strength: %+n% for all Artillery units	true
+effects_description_nag_effect_self_luthor_missile_strength_gunnery_carronade	Missile strength: %+n% for Zombie Pirate Gunnery Mob units	true
+effects_description_nag_effect_enable_mount_arkhan_abyssal	Mount: Razark (Abyssal Terror)	true
+effects_description_nag_effect_enable_mount_mannfred_abyssal	Mount: Ashigaroth (Abyssal Terror)	true
+effects_description_nag_effect_enable_mount_neferata_abyssal	Mount: Nagadron (Abyssal Terror)	true
+effects_description_nag_effect_force_army_battle_melee_attack_all_defending	Melee attack: %+n for all units when defending	true
+effects_description_nag_effect_force_army_battle_melee_defence_all_defending	Melee defence: %+n for all units when defending	true
+effects_description_nag_effect_agent_enable_recruitment_champion_tmb	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Tomb Prince	true
+effects_description_nag_effect_agent_enable_recruitment_wizard_tmb	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Liche Priest	true
+effects_description_nag_effect_agent_enable_recruitment_dignitary_vmp	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Vampire	true
+effects_description_nag_effect_agent_enable_recruitment_champion_vmp	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Wight King	true
+effects_description_nag_effect_agent_enable_recruitment_engineer_cst	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Gunnery Wight	true
+effects_description_nag_effect_agent_enable_recruitment_archai	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Morghast Archai	true
+effects_description_nag_effect_agent_cap_increase_liche_priest	Hero capacity: %+n for Liche Priests	true
+effects_description_nag_effect_agent_cap_increase_gunnery_wight	Hero capacity: %+n for Gunnery Wights	true
+effects_description_nag_effect_agent_cap_increase_vampire	Hero capacity: %+n for Vampires	true
+effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+n for Tomb Princes & Wight Kings	true
+effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archais	true
+effects_description_nag_effect_dummy_bel_spells_rename_references	Bel Army Abilities go here:	true
+effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true
+effects_description_nag_effect_enable_bound_spell_nagash_hand_of_dust	Bound spell: "The Hand of Dust"	true
+effects_description_nag_effect_enable_bound_spell_nagash_breath_of_darkness	Bound spell: "Breath of Darkness"	true
+effects_description_nag_effect_enable_bound_spell_nagash_abyssal_swarm	Bound spell: "Abyssal Swarm"	true
+effects_description_nag_effect_enable_bound_spell_nagash_soul_stealer	Bound spell: "The Soul Stealer"	true
+effects_description_nag_effect_enable_bound_spell_nagash_purple_sun	Bound spell: "The Purple Sun of Xereus"	true
+effects_description_nag_effect_enable_bound_spell_nagash_banishment	Bound spell: "Banishment"	true
+effects_description_nag_effect_enable_bound_spell_nagash_wind_of_death	Bound spell: "Wind of Death"	true
+effects_description_nag_effect_enable_bound_spell_nagash_skullstorm	Bound spell: "Sakhmet's Incantation of the Skullstorm"	true
+effects_description_nag_effect_enable_bound_spell_deep_krakens_pull	Bound spell: "Kraken's Pull"	true
+effects_description_nag_effect_melee_attack_traitor_steed	Melee attack (when riding Skeletal Steed): %+n	true
+effects_description_nag_effect_melee_defence_traitor_steed	Melee defence (when riding Skeletal Steed): %+n	true
+effects_description_nag_effect_melee_attack_traitor_foot	Melee attack (when on foot): %+n	true
+effects_description_nag_effect_melee_defence_traitor_foot	Melee defence (when on foot): %+n	true
+effects_description_nag_effect_unit_xp_levels_all_horsemen_serpent_cavalry	Recruit rank: %+n for All Skeletal Cavalry units	true
+effects_description_nag_effect_unit_xp_levels_all_skeleton	Recruit rank: %+n for All Skeletal Infantry units	true
+effects_description_nag_effect_physical_resistance_ghouls_zombies	Physical resistance: %n% for Ghoul and Zombie units	true
+effects_description_nag_effect_force_unit_stat_melee_attack_vs_undead	Melee attack: %+n when fighting against Vampire Counts, Vampire Coast and Tomb Kings	true
+effects_description_nag_effect_self_arkhan_stat_enable_flaming_attacks_vs_tmb	Enables flaming attacks when fighting against Tomb Kings	true
+effects_description_nag_effect_self_arkhan_chariot_speed	Speed: %+n% for Chariot units	true
+effects_description_nag_effect_self_arkhan_enable_mortarch_of_sacrements_summon	Ability: "Unholy Communion"	true
+effects_description_nag_effect_number_uses_mortarch_of_sacrements	Ability number of uses: %+n for "Unholy Communion"	true
+effects_description_nag_effect_self_enable_ability_mortarch_of_despair	Ability: "Repair Beyond Despair"	true
+effects_description_nag_effect_self_enable_ability_armour_of_barrow	Ability: "Armour of the Barrow"	true
+effects_description_nag_effect_self_vlad_to_isabella_buff	Undying Love: %+n to Melee Attack and Melee Defence to Isabella, when she and Vlad are in the same army (UNIT SETS NOT LINKED)	true
+effects_description_nag_effect_self_isabella_to_vlad_buff	Undying Love: %+n to Melee Attack and Melee Defence to Vlad, when he and Isabella are in the same army (UNIT SETS NOT LINKED)	true
+effects_description_nag_effect_self_vlad_enable_mortarch_of_shadows_aura	Ability: "Aura of Dark Grandeur"	true
+effects_description_nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	Improves "Aura of Dark Grandeur" with a penalty to enemy accuaracy and a larger area of effect	true
+effects_description_nag_effect_double_spell_range_mortarch_of_night_dummy	Spell Range: %+n% to Lore of Vampires spells	true
+effects_description_nag_double_magic_lore_of_vampires_cooldown_rate	Cooldown: %+n% to Lore of Vampires spells	true
+effects_description_nag_double_vampires_enable_invocation_of_nehek	Spell: "Invocation of Nehek"	true
+effects_description_nag_double_vampires_reduce_wom_cost_invocation_of_nehek	Winds of Magic cost: %n for "Invocation of Nehek"	true
+effects_description_nag_double_vampires_cooldown_invocation_of_nehek	Cooldown: %+n% to "Invocation of Nehek"	true
+effects_description_nag_double_vampires_enable_invocation_of_nehek_upgraded	Overcast spell: "Invocation of Nehek Upgraded"	true
+effects_description_nag_double_vampires_miscast_reduction_invocation_of_nehek_upgraded	Miscast base chance: %+n% for "Invocation of Nehek Upgraded"	true
+effects_description_nag_double_vampires_reduce_wom_cost_invocation_of_nehek_upgraded	Winds of Magic cost: %n for "Invocation of Nehek Upgraded"	true
+effects_description_nag_double_vampires_enable_vanhels_danse_macabre	Spell: "Vanhel's Danse Macabre"	true
+effects_description_nag_double_vampires_cooldown_vanhels_danse_macabre	Cooldown: %+n% to "Vanhel's Danse Macabre"	true
+effects_description_nag_double_vampires_reduce_wom_cost_vanhels_danse_macabre	Winds of Magic cost: %n for "Vanhel's Danse Macabre"	true
+effects_description_nag_double_vampires_enable_vanhels_danse_macabre_upgraded	Overcast spell: "Vanhel's Danse Macabre Upgraded"	true
+effects_description_nag_double_vampires_miscast_reduction_vanhels_danse_macabre_upgraded	Miscast base chance: %+n% for "Vanhel's Danse Macabre Upgraded"	true
+effects_description_nag_double_vampires_reduce_wom_cost_vanhels_danse_macabre_upgraded	Winds of Magic cost: %n for "Vanhel's Danse Macabre Upgraded"	true
+effects_description_nag_double_vampires_enable_gaze_of_nagash	Spell: "Gaze of Nagash"	true
+effects_description_nag_double_vampires_cooldown_gaze_of_nagash	Cooldown: %+n% to "Gaze of Nagash"	true
+effects_description_nag_double_vampires_reduce_wom_cost_gaze_of_nagash	Winds of Magic cost: %n for "Gaze of Nagash"	true
+effects_description_nag_double_vampires_enable_gaze_of_nagash_upgraded	Overcast spell: "Gaze of Nagash Upgraded"	true
+effects_description_nag_double_vampires_miscast_reduction_gaze_of_nagash_upgraded	Miscast base chance: %+n% for "Gaze of Nagash Upgraded"	true
+effects_description_nag_double_vampires_reduce_wom_cost_gaze_of_nagash_upgraded	Winds of Magic cost: %n for "Gaze of Nagash Upgraded"	true
+effects_description_nag_double_vampires_enable_raise_dead	Spell: "Raise Dead"	true
+effects_description_nag_double_vampires_cooldown_raise_dead	Cooldown: %+n% to "Raise Dead"	true
+effects_description_nag_double_mod_amount_of_uses_raise_dead	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded"	true
+effects_description_nag_double_vampires_enable_raise_dead_upgraded	Overcast spell: "Raise Dead Upgraded"	true
+effects_description_nag_double_vampires_miscast_reduction_raise_dead_upgraded	Miscast base chance: %+n% for "Raise Dead Upgraded"	true
+effects_description_nag_double_vampires_enable_curse_of_years	Spell: "Curse of Years"	true
+effects_description_nag_double_vampires_reduce_wom_cost_curse_of_years	Winds of Magic cost: %n for "Curse of Years"	true
+effects_description_nag_double_vampires_cooldown_curse_of_years	Cooldown: %+n% to "Curse of Years"	true
+effects_description_nag_double_vampires_enable_wind_of_death	Spell: "Wind of Death"	true
+effects_description_nag_double_vampires_cooldown_wind_of_death	Cooldown: %+n% to "Wind of Death"	true
+effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death	Winds of Magic cost: %n for "Wind of Death"	true
+effects_description_nag_double_vampires_enable_wind_of_death_upgraded	Overcast spell: "Wind of Death Upgraded"	true
+effects_description_nag_double_vampires_miscast_reduction_wind_of_death_upgraded	Miscast base chance: %+n% for "Wind of Death Upgraded"	true
+effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death_upgraded	Winds of Magic cost: %n for "Wind of Death Upgraded"	true

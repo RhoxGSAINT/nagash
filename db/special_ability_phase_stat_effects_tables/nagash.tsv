@@ -1,0 +1,7 @@
+special_ability_phase_stat_effects_tables	3
+phase	stat	value	how
+wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_melee_attack	-6.0	add
+wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_morale	-4.0	add
+wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_accuracy	0.75	mult
+wh_dlc04_lord_passive_aura_of_dark_majesty	stat_melee_attack	-6.0	add
+wh_dlc04_lord_passive_aura_of_dark_majesty	stat_morale	-4.0	add

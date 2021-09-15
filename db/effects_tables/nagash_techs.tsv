@@ -1,0 +1,9 @@
+effects_tables	3
+effect	icon	priority	icon_negative	category	is_positive_value_good
+nag_arkhan_unlock	army.png	1	army.png	campaign	true
+nag_luthor_unlock	army.png	1	army.png	campaign	true
+nag_krell_unlock	army.png	1	army.png	campaign	true
+nag_mannfred_unlock	army.png	1	army.png	campaign	true
+nag_neferata_unlock	army.png	1	army.png	campaign	true
+nag_vlad_unlock	army.png	1	army.png	campaign	true
+nag_archai_cap	agent.png	1	agent.png	campaign	true

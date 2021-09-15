@@ -1,0 +1,10 @@
+Loc PackedFile	1
+key	text	tooltip
+pooled_resources_display_name_nag_souls	[PH] Souls Resource	false
+pooled_resources_positive_factors_display_name_nag_souls	[PH] Gained	false
+pooled_resources_negative_factors_display_name_nag_souls	[PH] Spent	false
+pooled_resources_description_nag_souls	[PH] Souls are cool	false
+pooled_resources_display_name_nag_warpstone	[PH] Warpstone Resource	false
+pooled_resources_positive_factors_display_name_nag_warpstone	[PH] Owned	false
+pooled_resources_negative_factors_display_name_nag_warpstone	[PH] Used	false
+pooled_resources_description_nag_warpstone	[PH] Warpstone is tasty	false

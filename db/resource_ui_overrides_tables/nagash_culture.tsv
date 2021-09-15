@@ -1,0 +1,29 @@
+resource_ui_overrides_tables	0
+override_faction	override_subculture	source_resource	target_resource
+	nag_nagash	res_location_brt_wef_hef	
+	nag_nagash	res_location_brt	
+	nag_nagash	res_location_def	
+	nag_nagash	res_location_dwf_grn_skv	
+	nag_nagash	res_location_dwf_grn	
+	nag_nagash	res_location_dwf_skv	
+	nag_nagash	res_location_dwf	
+	nag_nagash	res_location_emp_brt	
+	nag_nagash	res_location_emp_vmp_brt	
+	nag_nagash	res_location_emp_vmp	
+	nag_nagash	res_location_emp	
+	nag_nagash	res_location_grn	
+	nag_nagash	res_location_hef_def	
+	nag_nagash	res_location_hef_wef	
+	nag_nagash	res_location_hef	
+	nag_nagash	res_location_lzd	
+	nag_nagash	res_location_skv_lzd	
+	nag_nagash	res_location_skv	
+	nag_nagash	res_location_tmb	
+	nag_nagash	res_location_vmp_arkhan	
+	nag_nagash	res_location_vmp	
+	nag_nagash	res_location_xef_emp_brt	
+	nag_nagash	res_nag_coast	res_nag_coast_ui
+	nag_nagash	res_nag_counts	res_nag_counts_ui
+	nag_nagash	res_nag_nagash	res_nag_nagash_ui
+	nag_nagash	res_nag_nehek	res_nag_nehek_ui
+	nag_nagash	res_nag_warpstone	res_nag_warpstone_ui

@@ -1,0 +1,111 @@
+building_culture_variants_tables	4
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+nag_settlement_cavalry_1				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_1	true
+nag_settlement_cavalry_2				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_2	true
+nag_settlement_cavalry_3				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_3	true
+nag_settlement_cavalry_4				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_4	true
+nag_settlement_chariots_1				wh_main_PLACEHOLDER	tmb_ chariot_artillery	false	wh2_dlc09_tmb_chariots_1	true
+nag_settlement_chariots_2				wh_main_PLACEHOLDER	tmb_ chariot_artillery	false	wh2_dlc09_tmb_chariots_2	true
+nag_settlement_chariots_3				wh_main_PLACEHOLDER	tmb_ chariot_artillery	false	wh2_dlc09_tmb_chariots_3	true
+nag_settlement_citadel_1				wh_main_PLACEHOLDER	tmb_citadel	false	wh2_dlc09_tmb_citadel_1	true
+nag_settlement_defence_major_1				wh_main_PLACEHOLDER	tmb_ walls	false	wh2_dlc09_tmb_walls_1	true
+nag_settlement_defence_major_2				wh_main_PLACEHOLDER	tmb_ walls	false	wh2_dlc09_tmb_walls_2	true
+nag_settlement_defence_major_3				wh_main_PLACEHOLDER	tmb_ walls	false	wh2_dlc09_tmb_walls_3	true
+nag_settlement_estate_1				wh_main_PLACEHOLDER	tmb_estate	false	wh2_dlc09_tmb_estate_1	true
+nag_settlement_growth_1				wh_main_PLACEHOLDER	tmb_ growth	false	wh2_dlc09_tmb_growth_1	true
+nag_settlement_growth_2				wh_main_PLACEHOLDER	tmb_ growth	false	wh2_dlc09_tmb_growth_2	true
+nag_settlement_growth_3				wh_main_PLACEHOLDER	tmb_ growth	false	wh2_dlc09_tmb_growth_3	true
+nag_settlement_hierotitan_1				wh_main_PLACEHOLDER	tmb_hierotitan	false	wh2_dlc09_tmb_hierotitan_1	true
+nag_settlement_income_1				wh_main_PLACEHOLDER	tmb_ income	false	wh2_dlc09_tmb_income_1	true
+nag_settlement_income_2				wh_main_PLACEHOLDER	tmb_ income	false	wh2_dlc09_tmb_income_2	true
+nag_settlement_income_3				wh_main_PLACEHOLDER	tmb_ income	false	wh2_dlc09_tmb_income_3	true
+nag_settlement_infantry_1				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	wh2_dlc09_tmb_infantry_1	true
+nag_settlement_infantry_2				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	wh2_dlc09_tmb_infantry_2	true
+nag_settlement_infantry_3				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	wh2_dlc09_tmb_infantry_3	true
+nag_settlement_necrosphinx_1				wh_main_PLACEHOLDER	tmb_necrosphinx	false	wh2_dlc09_tmb_necrosphinx_1	true
+nag_settlement_scorpions_1				wh_main_PLACEHOLDER	tmb_ flying_scorpions	false	wh2_dlc09_tmb_scorpions_1	true
+nag_settlement_ushabti_1				wh_main_PLACEHOLDER	tmb_ushabti	false	wh2_dlc09_tmb_ushabti_1	true
+nag_settlement_ushabti_2				wh_main_PLACEHOLDER	tmb_ushabti	false	wh2_dlc09_tmb_ushabti_2	true
+nag_settlement_warsphinx_1				wh_main_PLACEHOLDER	tmb_ warsphinx	false	wh2_dlc09_tmb_warsphinx_1	true
+wh2_dlc09_special_settlement_altdorf_nag_1				wh_main_PLACEHOLDER	empire_city_altdorf	false	%placeholder%	true
+wh2_dlc09_special_settlement_altdorf_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_athel_loren_nag_1				wh_main_PLACEHOLDER	wood_elves_city	false	%placeholder%	true
+wh2_dlc09_special_settlement_athel_loren_nag_ruin				wh_main_PLACEHOLDER	wood_elves_city	false	%placeholder%	true
+wh2_dlc09_special_settlement_black_crag_nag_1				wh_main_PLACEHOLDER	dwarfs_black_crag	false	%placeholder%	true
+wh2_dlc09_special_settlement_black_crag_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_castle_drakenhof_nag_1				wh_main_PLACEHOLDER	vampire_city_castle_drakenhof	false	%placeholder%	true
+wh2_dlc09_special_settlement_castle_drakenhof_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_couronne_nag_1				wh_main_PLACEHOLDER	bretonnia_city_couronne	false	%placeholder%	true
+wh2_dlc09_special_settlement_couronne_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_eight_peaks_nag_1				wh_main_PLACEHOLDER	dwarf_eight_peaks	false	%placeholder%	true
+wh2_dlc09_special_settlement_eight_peaks_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_gaean_vale_nag_1				wh_main_PLACEHOLDER	wh2_dlc10_hef_alarielle_settlement	false	%placeholder%	true
+wh2_dlc09_special_settlement_gaean_vale_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_hexoatl_nag_1				wh_main_PLACEHOLDER	lizardmen_city_hexoatl	false	%placeholder%	true
+wh2_dlc09_special_settlement_hexoatl_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_itza_nag_1				wh_main_PLACEHOLDER	lizardmen_city_itza	false	%placeholder%	true
+wh2_dlc09_special_settlement_itza_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_karaz_a_karak_nag_1				wh_main_PLACEHOLDER	dwarf_city_karaz_a_karak	false	%placeholder%	true
+wh2_dlc09_special_settlement_karaz_a_karak_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_khemri_nag_1				wh_main_PLACEHOLDER	tomb_kings_city_khemri	false	%placeholder%	true
+wh2_dlc09_special_settlement_khemri_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_kislev_nag_1				wh_main_PLACEHOLDER	kislev_city_kislev	false	%placeholder%	true
+wh2_dlc09_special_settlement_kislev_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_konquata_nag_1				wh_main_PLACEHOLDER	lizardmen_city	false	%placeholder%	true
+wh2_dlc09_special_settlement_konquata_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_lahmia_nag_1				wh_main_PLACEHOLDER	tomb_kings_city_lahmia	false	%placeholder%	true
+wh2_dlc09_special_settlement_lahmia_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_lothern_nag_1				wh_main_PLACEHOLDER	high_elves_city_lothern	false	%placeholder%	true
+wh2_dlc09_special_settlement_lothern_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_miragliano_nag_1				wh_main_PLACEHOLDER	tilea_city_miragliano	false	%placeholder%	true
+wh2_dlc09_special_settlement_miragliano_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_naggarond_nag_1				wh_main_PLACEHOLDER	dark_elves_city_naggarond	false	%placeholder%	true
+wh2_dlc09_special_settlement_naggarond_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc09_special_settlement_pyramid_of_nagash_nag_1				wh_main_PLACEHOLDER	special_pyramid_of_nagash_settlement	false	%placeholder%	true
+wh2_dlc09_special_settlement_pyramid_of_nagash_nag_ruin				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
+wh2_dlc15_special_settlement_massif_orcal_nag_1				wh_main_PLACEHOLDER	greenskins_orc_city	false	%placeholder%	true
+wh2_dlc15_special_settlement_massif_orcal_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc15_special_settlement_tor_yvresse_nag_1				wh_main_PLACEHOLDER	high_elves_city	false	%placeholder%	true
+wh2_dlc15_special_settlement_tor_yvresse_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_settlement_sartosa_nag_1				wh_main_PLACEHOLDER	sartosa_settlement	false	%placeholder%	true
+wh2_main_special_settlement_sartosa_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_settlement_the_awakening_nag_1				wh_main_PLACEHOLDER	awakening_settlement	false	%placeholder%	true
+wh2_main_special_settlement_the_awakening_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_dlc11_special_settlement_galleons_graveyard_nag_1				wh_main_PLACEHOLDER	galleons_graveyard	false	%placeholder%	true
+wh2_dlc11_special_settlement_galleons_graveyard_nag_ruin				wh_main_PLACEHOLDER	galleons_graveyard	false	%placeholder%	true
+wh2_main_special_settlement_hellpit_nag_1				wh_main_PLACEHOLDER	skaven_city_hell_pit	false	%placeholder%	true
+wh2_main_special_settlement_hellpit_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_settlement_skavenblight_nag_1				wh_main_PLACEHOLDER	skaven_city_skavenblight	false	%placeholder%	true
+wh2_main_special_settlement_skavenblight_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_empire_fort_nag_1				wh_main_PLACEHOLDER	empire_fort	false	%placeholder%	true
+wh2_main_special_empire_fort_nag_ruins				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_fortress_gate_eagle_nag_1				wh_main_PLACEHOLDER	high_elves_fortress_gate_eagle	false	%placeholder%	true
+wh2_main_special_fortress_gate_eagle_nag_ruins				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_fortress_gate_griffon_nag_1				wh_main_PLACEHOLDER	high_elves_fortress_gate_griffon	false	%placeholder%	true
+wh2_main_special_fortress_gate_griffon_nag_ruins				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_fortress_gate_phoenix_nag_1				wh_main_PLACEHOLDER	high_elves_fortress_gate_phoenix	false	%placeholder%	true
+wh2_main_special_fortress_gate_phoenix_nag_ruins				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_fortress_gate_unicorn_nag_1				wh_main_PLACEHOLDER	high_elves_fortress_gate_unicorn	false	%placeholder%	true
+wh2_main_special_fortress_gate_unicorn_nag_ruins				wh_main_PLACEHOLDER	wh_main_settlement_default_ruin	false	%placeholder%	true
+wh2_main_special_settlement_colony_major_nag_1				wh_main_PLACEHOLDER	high_elves_city_colony	false	%placeholder%	true
+wh2_main_special_settlement_colony_major_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_main_special_settlement_colony_minor_nag_1				wh_main_PLACEHOLDER	high_elves_city_colony	false	%placeholder%	true
+wh2_main_special_settlement_colony_minor_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_main_wef_oak_of_ages_nag_1				wh_main_PLACEHOLDER	wood_elves_city_oak_of_ages	false	%placeholder%	true
+wh2_main_wef_oak_of_ages_nag_ruin				wh_main_PLACEHOLDER	wh_main_settlement_dwarf_ruin	false	%placeholder%	true
+wh2_dlc15_special_morgheim_necropolis_nag_1				wh_main_PLACEHOLDER	vmp_tmb_mourkain	false	%placeholder%	true
+wh2_main_special_galbaraz_mourkain_nag_1				wh_main_PLACEHOLDER	wh2_dlc15_special_boneyard	false	%placeholder%	true
+wh2_dlc14_special_dragon_isle_port_nag_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh2_dlc14_special_dragon_isle_port_ruin_nag				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh2_main_special_lothern_port_nag_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh2_main_special_lothern_port_nag_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_main_special_erengrad_port_nag_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_main_special_erengrad_port_nag_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_main_special_marienburg_port_nag_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_main_special_marienburg_port_nag_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_twa03_special_albion_port_nag_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_twa03_special_albion_port_nag_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh2_dlc14_special_copher_port_nag_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh2_dlc14_special_copher_port_nag_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_main_brt_legendary_port_nag_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+wh_main_brt_legendary_port_nag_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true

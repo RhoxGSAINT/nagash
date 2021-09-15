@@ -1,0 +1,17 @@
+Loc PackedFile	1
+key	text	tooltip
+resources_onscreen_text_res_nag_coast_ui	Watery Graves	true
+resources_description_res_nag_coast_ui	This area contains the remians of the drownded dead; establish an outpost here to recruit local Coast units into your armies.	true
+resources_long_description_res_nag_coast_ui	 	true
+resources_onscreen_text_res_nag_counts_ui	Stone Crypts	true
+resources_description_res_nag_counts_ui	This area contains the remains of the recent and not so recent dead; establish an outpost here to recruit local Counts units into your armies.	true
+resources_long_description_res_counts_ui	 	true
+resources_onscreen_text_res_nag_nagash_ui	Ancient Catacombs	true
+resources_description_res_nag_nagash_ui	This area contains the remains from civilizations long since forgotten; establish an outpost here to recruit local Nagashizzar units into your armies.	true
+resources_long_description_res_nag_nagash_ui	 	true
+resources_onscreen_text_res_nag_nehek_ui	Nehekaran Tombs	true
+resources_description_res_nag_nehek_ui	This area contains the remians of ancient nehekaran warriors; establish an outpost here to recruit local Nehekaran units into your armies.	true
+resources_long_description_res_nag_nehek_ui	 	true
+resources_onscreen_text_res_nag_warpstone_ui	Warpstone Deposit	true
+resources_description_res_nag_warpstone_ui	This area contains a deposit of Warpstone, desired and treasured by Nagash	true
+resources_long_description_res_nag_warpstone_ui	 	true

@@ -1,0 +1,24 @@
+campaign_groups_tables	0
+id
+nagash_feature
+nagash_do_nothing
+nagash_raze_without_occupy
+nagash_sack
+nagash_kill
+nagash_enslave
+nagash_release
+nagash_csc
+nagash_gift
+nagash_bp_horde
+nagash_husk_horde
+nagash_arkhan_horde
+nagash_krell_horde
+nagash_neferata_horde
+nagash_vlad_horde
+nagash_mannfred_horde
+nagash_harkon_horde
+nagash_traitor_horde
+nagash_occupy
+nagash_colonise
+nagash_loot
+nagash_resettle

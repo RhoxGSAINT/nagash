@@ -1,0 +1,280 @@
+Loc PackedFile	1
+key	text	tooltip
+character_skills_localised_name_nag_skill_army_buff_ranged	Ranged Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_ranged	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_infantry	Infantry Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_infantry	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_cav	Cav & Chariot Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_cav	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_beasts	Warbeasts & Monstrous Inf Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_beasts	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_spirit	Magical/Spirit Units Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_spirit	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_construct	Monsters & Constructs Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_construct	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_vet_vamp	Sylvanian Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_vet_vamp	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_vet_nehek	Nehekharan Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_vet_nehek	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_vet_coast	Coast Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_vet_coast	[PH]	true
+character_skills_localised_name_nag_skill_army_buff_vet_nagash	Nagashizzar Buff [PH]	true
+character_skills_localised_description_nag_skill_army_buff_vet_nagash	[PH]	true
+character_skills_localised_name_nag_skill_campaign_movement	The Restless Dead	true
+character_skills_localised_description_nag_skill_campaign_movement	A Lord of Undeath's minions do not suffer exhaustion, they can walk for leagues and never suffer.	true
+character_skills_localised_name_nag_skill_campaign_corruption	Glory of Nagash	true
+character_skills_localised_description_nag_skill_campaign_corruption	Speak these words and watch the landscape around you twist and crack, corrupted by his name alone.	true
+character_skills_localised_name_nag_skill_campaign_raiding	Soul Harvester	true
+character_skills_localised_description_nag_skill_campaign_raiding	More valuable than gold or jewels, the greatest spoils of war are the lifeforces that own them.	true
+character_skills_localised_name_nag_skill_campaign_replenishment	Undying Horde	true
+character_skills_localised_description_nag_skill_campaign_replenishment	Once slain in battle, the foe belongs to the Undead Lord, and will rise again, eager to serve.	true
+character_skills_localised_name_nag_skill_campaign_growth	Dark Conduit	true
+character_skills_localised_description_nag_skill_campaign_growth	The corrupting influence of Dark Magic emanates from this lord like a beacon to all shadowy and otherworldy beings.	true
+character_skills_localised_name_nag_skill_campaign_recruit	Endless Undeath	true
+character_skills_localised_description_nag_skill_campaign_recruit	All creatures that once were living, then were dead, but now are neither, rise to answer the call of the Lord of Undeath	true
+character_skills_localised_name_nag_skill_campaign_attrition	Imperishable	true
+character_skills_localised_description_nag_skill_campaign_attrition	By which the Undead armies of Nagash may remain deathless, undying and forever hungry for slaughter.	true
+character_skills_localised_name_nag_skill_campaign_loot	All is Mine!	true
+character_skills_localised_description_nag_skill_campaign_loot	To the victor, the spoils. All of them. Always.	true
+character_skills_localised_name_nag_skill_campaign_ambush	Eternal and Vigilant	true
+character_skills_localised_description_nag_skill_campaign_ambush	They stand watch over the land, ever living, ever vigilant waiting for opportunistic agents who dare to strike.	true
+character_skills_localised_name_nag_skill_campaign_self_defense	Renowned & Feared	true
+character_skills_localised_description_nag_skill_campaign_self_defense	This Lord's many deeds - both on and off the battlefield - have brought them renown among their allies and made them feared by their enemies.	true
+character_skills_localised_name_nag_skill_campaign_jolly_roger	Black Flag	true
+character_skills_localised_description_nag_skill_campaign_jolly_roger	Beware those who sail under the black flag - they give no quarter and never, ever give up the chase.	true
+character_skills_localised_name_nag_skill_campaign_immortal_horror	Immortal Horror	true
+character_skills_localised_description_nag_skill_campaign_immortal_horror	Such a beast is all but impossible to destroy - an immortal horror doomed to haunt eternity!	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_corruption	Glory to Me!	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_corruption	"In that dread desert, beneath the moon's pale gaze, dead men walk. They haunt the shifting dunes of the breathless, windless night, brandish weapons of bronze in mocking challenge and bitter resentment of the life they no longer possess. And sometimes, in ghastly dry voices, like the rustling of sun-baked reeds, they whisper the one word they remember from life. The name of the one who cursed them to their existence, more than death but less than life. They whisper the name, Nagash..."	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_raiding	Soul Harvester	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_raiding	More valuable than gold or jewels, the greatest spoils of war are the lifeforces that own them.	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_replenishment	Undying Horde	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_replenishment	Once slain in battle, the foe belongs to the Undead Lord, and will rise again, eager to serve.	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_growth	Dark Conduit	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_growth	The corrupting influence of Dark Magic emanates from this lord like a beacon to all shadowy and otherworldy beings.	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_recruit	Endless Undeath	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_recruit	All creatures that once were living, then were dead, but now are neither, rise to answer the call of the Lord of Undeath	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_attrition	Imperishable	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_attrition	By which the Undead armies of Nagash may remain deathless, undying and forever hungry for slaughter.	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_loot	All is Mine!	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_loot	To the victor, the spoils. All of them. Always.	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_ambush	Eternal and Vigilant	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_ambush	They stand watch over the land, ever living, ever vigilant waiting for opportunistic agents who dare to strike.	true
+character_skills_localised_name_nag_skill_campaign_nagash_big_self_defense	Death & Undeath	true
+character_skills_localised_description_nag_skill_campaign_nagash_big_self_defense	Those who walk the lands of the dead soon meet death, then undeath.	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_corruption	Glory to Me!	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_corruption	"In that dread desert, beneath the moon's pale gaze, dead men walk. They haunt the shifting dunes of the breathless, windless night, brandish weapons of bronze in mocking challenge and bitter resentment of the life they no longer possess. And sometimes, in ghastly dry voices, like the rustling of sun-baked reeds, they whisper the one word they remember from life. The name of the one who cursed them to their existence, more than death but less than life. They whisper the name, Nagash..."	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_raiding	Soul Harvester	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_raiding	More valuable than gold or jewels, the greatest spoils of war are the lifeforces that own them.	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_replenishment	Undying Horde	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_replenishment	Once slain in battle, the foe belongs to the Undead Lord, and will rise again, eager to serve.	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_growth	Dark Conduit	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_growth	The corrupting influence of Dark Magic emanates from this lord like a beacon to all shadowy and otherworldy beings.	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_recruit	Endless Undeath	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_recruit	All creatures that once were living, then were dead, but now are neither, rise to answer the call of the Lord of Undeath	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_attrition	Imperishable	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_attrition	By which the Undead armies of Nagash may remain deathless, undying and forever hungry for slaughter.	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_loot	All is Mine!	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_loot	To the victor, the spoils. All of them. Always.	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_ambush	Eternal and Vigilant	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_ambush	They stand watch over the land, ever living, ever vigilant waiting for opportunistic agents who dare to strike.	true
+character_skills_localised_name_nag_skill_campaign_nagash_small_self_defense	Death & Undeath	true
+character_skills_localised_description_nag_skill_campaign_nagash_small_self_defense	Those who walk the lands of the dead soon meet death, then undeath.	true
+character_skills_localised_name_nag_skill_wh_main_spell_nagash_abyssal_swarm	Razkhar	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_abyssal_swarm	[PH]	true
+character_skills_localised_name_nag_skill_wh_main_spell_nagash_breath_of_darkness	Morkharn	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_breath_of_darkness	[PH]	true
+character_skills_localised_name_nag_skill_wh_main_spell_nagash_soul_stealer	Khizaar	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_soul_stealer	[PH]	true
+character_skills_localised_name_nag_skill_wh_main_spell_nagash_dark_riders	Akar'aran	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_dark_riders	[PH]	true
+character_skills_localised_name_nag_skill_wh_main_spell_nagash_grave_call_master	Ryze	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_grave_call_master	[PH]	true
+character_skills_localised_name_nag_skill_wh_main_spell_nagash_hand_of_dust	Sulekhim	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_hand_of_dust	[PH]	true
+character_skills_localised_name_nag_skill_wh_main_spell_nagash_harbinger	Kandorak	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_harbinger	[PH]	true
+character_skills_localised_name_nag_skill_magic_nagash_arch_necromancer	Arch Necromancer	true
+character_skills_localised_description_nag_skill_magic_nagash_arch_necromancer	[PH]	true
+character_skills_localised_name_nag_skill_magic_nagash_death_magic_incarnate	Death Magic Incarnate	true
+character_skills_localised_description_nag_skill_magic_nagash_death_magic_incarnate	[PH]	true
+character_skills_localised_name_nag_skill_wh_main_spell_death_spirit_leech	Spirit Leech	true
+character_skills_localised_description_nag_skill_wh_main_spell_death_spirit_leech		true
+character_skills_localised_name_nag_skill_wh_main_lore_passive_life_leeching	Life-Leeching	true
+character_skills_localised_description_nag_skill_wh_main_lore_passive_life_leeching		true
+character_skills_localised_name_nag_skill_wh_main_spell_death_soulblight	Soulblight	true
+character_skills_localised_description_nag_skill_wh_main_spell_death_soulblight		true
+character_skills_localised_name_nag_skill_wh_main_spell_death_the_purple_sun_of_xereus	The Purple Sun of Xereus	true
+character_skills_localised_description_nag_skill_wh_main_spell_death_the_purple_sun_of_xereus		true
+character_skills_localised_name_nag_skill_wh_main_spell_vampires_gaze_of_nagash	Gaze of Nagash	true
+character_skills_localised_description_nag_skill_wh_main_spell_vampires_gaze_of_nagash		true
+character_skills_localised_name_nag_skill_wh_main_lore_passive_the_curse_of_undeath	The Curse of Undeath	true
+character_skills_localised_description_nag_skill_wh_main_lore_passive_the_curse_of_undeath		true
+character_skills_localised_name_nag_skill_wh_main_spell_vampires_invocation_of_nehek	Invocation of Nehek	true
+character_skills_localised_description_nag_skill_wh_main_spell_vampires_invocation_of_nehek		true
+character_skills_localised_name_nag_skill_wh_main_spell_vampires_wind_of_death	Wind of Death	true
+character_skills_localised_description_nag_skill_wh_main_spell_vampires_wind_of_death		true
+character_skills_localised_name_nag_skill_wh_main_spell_nehekhara_djafs_incantation_of_cursed_blades	Djaf's Incantation of Cursed Blades	true
+character_skills_localised_description_nag_skill_wh_main_spell_nehekhara_djafs_incantation_of_cursed_blades		true
+character_skills_localised_name_nag_skill_wh_main_lore_passive_the_restless_dead	The Restless Dead	true
+character_skills_localised_description_nag_skill_wh_main_lore_passive_the_restless_dead		true
+character_skills_localised_name_nag_skill_wh_main_spell_nehekhara_sakhmets_incantation_of_the_skullstorm	Sakhmet's Incantation of the Skullstorm	true
+character_skills_localised_description_nag_skill_wh_main_spell_nehekhara_sakhmets_incantation_of_the_skullstorm		true
+character_skills_localised_name_nag_skill_wh_main_spell_nehekhara_usirians_incantation_of_vengeance	Usirian's Incantation of Vengeance	true
+character_skills_localised_description_nag_skill_wh_main_spell_nehekhara_usirians_incantation_of_vengeance		true
+character_skills_localised_name_nag_skill_wh_main_spell_light_banishment	Banishment	true
+character_skills_localised_description_nag_skill_wh_main_spell_light_banishment		true
+character_skills_localised_name_nag_skill_wh_main_lore_passive_exorcism	Exorcism	true
+character_skills_localised_description_nag_skill_wh_main_lore_passive_exorcism		true
+character_skills_localised_name_nag_skill_wh_main_spell_light_bironas_timewarp	Birona's Timewarp	true
+character_skills_localised_description_nag_skill_wh_main_spell_light_bironas_timewarp		true
+character_skills_localised_name_nag_skill_wh_main_spell_light_shems_burning_gaze	Shem's Burning Gaze	true
+character_skills_localised_description_nag_skill_wh_main_spell_light_shems_burning_gaze		true
+character_skills_localised_name_nag_skill_magic_nagash_dummy_breath_grave_call	Breath of Darkness [HIDDEN]	true
+character_skills_localised_description_nag_skill_magic_nagash_dummy_breath_grave_call		true
+character_skills_localised_name_nag_skill_magic_nagash_dummy_spirit_leech_gaze_of_nagash	Gaze of Nagash [HIDDEN]	true
+character_skills_localised_description_nag_skill_magic_nagash_dummy_spirit_leech_gaze_of_nagash		true
+character_skills_localised_name_nag_skill_magic_nagash_dummy_cursed_blades_banishment	Cursed Blades [HIDDEN]	true
+character_skills_localised_description_nag_skill_magic_nagash_dummy_cursed_blades_banishment		true
+character_skills_localised_name_nag_skill_personal_nagash_supreme_lord	Supreme Lord of Undeath	true
+character_skills_localised_description_nag_skill_personal_nagash_supreme_lord	The Supreme Lord of Undeath, the ultimate personification of death and the undead, an ancient, evil being who seeks to conquer this cruel, chaotic world and bring about an age of undeath that will rule for all eternity.	true
+character_skills_localised_name_nag_skill_personal_nagash_undying_king	Undying King	true
+character_skills_localised_description_nag_skill_personal_nagash_undying_king	"Rise! The Undying King commands you! Come to me! "	true
+character_skills_localised_name_nag_skill_personal_nagash_great_necromancer	Great Necromancer	true
+character_skills_localised_description_nag_skill_personal_nagash_great_necromancer	"There will be no escape, no blessed oblivion. I can end your life as easily as I can extinguish a candle, and before your corpse is cold, I can reach out and grasp your soul. You will be my slave for all eternity, and I shall laugh at the depths of your pain. Such is the power of Nagash."	true
+character_skills_localised_name_nag_skill_personal_nagash_world_at_peace	Death is Peace	true
+character_skills_localised_description_nag_skill_personal_nagash_world_at_peace	"The dead do not squabble as this land’s rulers do. The dead do not fight one another. The dead have no desires, no petty jealousies or ambitions. A world of the dead is a world at peace..."	true
+character_skills_localised_name_nag_skill_personal_nagash_fate_of_flesh	The Fate of Flesh	true
+character_skills_localised_description_nag_skill_personal_nagash_fate_of_flesh	"See the fate of all flesh and know despair!"	true
+character_skills_localised_name_nag_skill_unique_nagash_morikhane	Morikhane – Black Armour of Nagash	true
+character_skills_localised_description_nag_skill_unique_nagash_morikhane	 Nagash's armour is forged from an alloy of lead and meteoric iron. Over the millennia the armour has fused itself with his body, so it may only be worn by Nagash. Obviously, the armour does not prevent him casting spells.	true
+character_skills_localised_name_nag_skill_unique_nagash_mortis	Mortis – The Great Blade of Death	true
+character_skills_localised_description_nag_skill_unique_nagash_mortis	Mortis is a huge magic sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it. The sword increases his already considerable strength, and wounds caused by the sword can be used to heal Nagash himself.	true
+character_skills_localised_name_nag_skill_unique_nagash_nine_books	Nine Books of Nagash	true
+character_skills_localised_description_nag_skill_unique_nagash_nine_books	Nagash was the first and greatest of all the Necromancers, and he created almost all of the spells that allow these followers of the dark arts to raise and control the Undead. The secrets of his magical spells are recorded in nine massive tomes known as the Nine Books of Nagash. Each book contains the secrets of one of Nagash's Necromantic spells.	true
+character_skills_localised_name_nag_skill_unique_nagash_alakanash	Alakanash – Staff of Power	true
+character_skills_localised_description_nag_skill_unique_nagash_alakanash	The Staff of Power was created by Nagash to allow him to store the additional power he needed to carry out his most arcane and dangerous magical spells.	true
+character_skills_localised_name_nag_skill_unique_nagash_crown	The Crown of Sorcery	true
+character_skills_localised_description_nag_skill_unique_nagash_crown	The Crown of Sorcery sometimes known as the Crown of Nagash is a magical crown/circlet forged by the great Necromancer Nagash around -1300 IC in his fortress of Nagashizzar in Cripple Peak. The crown is infused with part of Nagash's malicious spirit, partially holding his spirit to the mortal world, and exerts a corrupting influence on anyone who wears it.	true
+character_skills_localised_name_nag_skill_personal_arkhan_unique_3	Legions of Death	true
+character_skills_localised_description_nag_skill_personal_arkhan_unique_3	Although not as numerous as Settra's grand army, Arkhan's Undead legions are bolstered by the Liche King's unparalleled necromantic dexterity.	true
+character_skills_localised_name_nag_skill_personal_arkhan_unique_5	Right-Hand of Nagash	true
+character_skills_localised_description_nag_skill_personal_arkhan_unique_5	The first and most loyal of the Great Necromancer's followers will stand at his side once again. So it is written…	true
+character_skills_localised_name_nag_skill_self_luthor_smuggler	Smuggler	true
+character_skills_localised_description_nag_skill_self_luthor_smuggler	If there's duty to be paid, rest assured that this one will find a way around it.	true
+character_skills_localised_name_nag_skill_self_luthor_arsonist	Arsonist	true
+character_skills_localised_description_nag_skill_self_luthor_arsonist	Fire, to destroy all that you have done; fire, to end all you've become.	true
+character_skills_localised_name_nag_skill_personal_luthor_man_of_war	Man-o-War	true
+character_skills_localised_description_nag_skill_personal_luthor_man_of_war	Some seafarers appear to have been born for the role.	true
+character_skills_localised_name_nag_skill_personal_luthor_hand_cannon	Hand Cannon	true
+character_skills_localised_description_nag_skill_personal_luthor_hand_cannon	By which death is expertly dealt, assuming it doesn't blow your hand off in the process!	true
+character_skills_localised_name_nag_skill_personal_luthor_pirate_king	Pirate King	true
+character_skills_localised_description_nag_skill_personal_luthor_pirate_king	His crimes are without number and his villainy without end… behold the Pirate King!	true
+character_skills_localised_name_nag_skill_self_krell_hatred_of_the_gods	Hatred of the Gods	true
+character_skills_localised_description_nag_skill_self_krell_hatred_of_the_gods	No longer a plaything of Gods, take their given many gifts, including formidable fighting skills and strike at them!	true
+character_skills_localised_name_nag_skill_personal_krell_immortal_challenger	Immortal Challenger	true
+character_skills_localised_description_nag_skill_personal_krell_immortal_challenger	Having forever escaped the shackles of mortality, with Nagash's assistance, Krell will never stop - he'll keep coming back until they're all *very* dead!	true
+character_skills_localised_name_nag_skill_personal_krell_champion_of_nagash	Champion of Nagash	true
+character_skills_localised_description_nag_skill_personal_krell_champion_of_nagash	Nagash's great champion, Krell, a raging spirit within ancient bones, clad in dark enchanted armour. A Berserker tactician with the power of immortality. Victory is certain with this herald of slaughter.	true
+character_skills_localised_name_nag_skill_personal_krell_might_makes_wight	Might Makes Wight	true
+character_skills_localised_description_nag_skill_personal_krell_might_makes_wight	Woe to the conquered, in a world where "might makes right" be mighty enough to conquer death.	true
+character_skills_localised_name_nag_skill_personal_krell_spectral_executioner	Spectral Executioner	true
+character_skills_localised_description_nag_skill_personal_krell_spectral_executioner	Krell beat death long before even Nagash had found him, appearing as a Spectral Executioner offering battle to any who'd face him slaying all who matched blades with the ghost.	true
+character_skills_localised_name_nag_skill_personal_krell_skull_throne	Skulls for the Skull Throne	true
+character_skills_localised_description_nag_skill_personal_krell_skull_throne	So many skulls did Krell lay at Khorne's feet, so much blood did he spill in his name. Old habits die hard, yet it is not Khorne's Skull Throne that piles ever higher it's the Supreme Lord of Undeath's.	true
+character_skills_localised_name_nag_skill_personal_krell_abandoned_by_khorne	Forsaken by Khorne	true
+character_skills_localised_description_nag_skill_personal_krell_abandoned_by_khorne	When Krell perished there was no dark trumpet call, no chariot of brass to bear his spirit to an eternity of battle. There was just the cold, wet hillside and the cheering of his foes.	true
+character_skills_localised_name_nag_skill_personal_krell_the_doomed_legion	The Doomed Legion	true
+character_skills_localised_description_nag_skill_personal_krell_the_doomed_legion	Commander of the Doomed Legion, raised by Nagash as Krell's personal minions, they serve in the forefront of Nagash's battles refusing to give ground, enduring, undying.	true
+character_skills_localised_name_nag_skill_personal_krell_his_will_be_done	His Will be Done	true
+character_skills_localised_description_nag_skill_personal_krell_his_will_be_done	Krell hears Nagash's ghostly voice with a clarity matched by none save Arkhan the Black, and he obey's his master without hesitation. Where Krell walks, it is Nagash's will that is done.	true
+character_skills_localised_name_nag_skill_unique_arkhan_staff_of_nagash	Staff of Nagash	true
+character_skills_localised_description_nag_skill_unique_arkhan_staff_of_nagash	Created by the Arch-Necromancer, the staff harnesses Dark Magic from deep within the accursed Black Pyramid.	true
+character_skills_localised_name_nag_skill_unique_arkhan_the_tomb_blade_of_arkhan	The Tomb Blade of Arkhan	true
+character_skills_localised_description_nag_skill_unique_arkhan_the_tomb_blade_of_arkhan	The sword burns away the flesh of Arkhan's victims, leaving nothing but a charred skeleton, bound to the Liche King's dark will for all eternity.	true
+character_skills_localised_name_nag_skill_unique_vlad_blood_drinker	Blood Drinker	true
+character_skills_localised_description_nag_skill_unique_vlad_blood_drinker	This accursed blade drinks deep of its victim's blood, restoring vigour and strength to the one who brandishes it.	true
+character_skills_localised_name_nag_skill_unique_vlad_the_carstein_ring	The Carstein Ring 	true
+character_skills_localised_description_nag_skill_unique_vlad_the_carstein_ring	An ancestral ring, set with a gem of deep, sanguine claret that has granted the von Carsteins everlasting Undeath.	true
+character_skills_localised_name_nag_skill_unique_vlad_von_carstein_mesmerising_aura	Mesmerising Aura 	true
+character_skills_localised_description_nag_skill_unique_vlad_von_carstein_mesmerising_aura	The Lord of the von Carsteins exudes a distracting and sensational air, giving all before him pause.	true
+character_skills_localised_name_nag_skill_unique_luthor_slann_gold	Slann Gold	true
+character_skills_localised_description_nag_skill_unique_luthor_slann_gold	It is well known that Lustrian gold is enchanted with all manner of esoteric properties; Harkon thinks it will restore his fractured mind! 	true
+character_skills_localised_name_nag_skill_unique_krell_chaos_tomb_blade	Chaos Tomb Blade	true
+character_skills_localised_description_nag_skill_unique_krell_chaos_tomb_blade	This evil weapon not only fills its wielder with an unholy energy but also entraps the souls of those it cleaves, binding their jleshless remains in servitude.	true
+character_skills_localised_name_nag_skill_unique_krell_armour_of_the_barrows	Amour of the Barrows	true
+character_skills_localised_description_nag_skill_unique_krell_armour_of_the_barrows	The passage of the ages has strengthened rather than weakened this elaborate Chaos plate armour. Such is the aura of entropy that surrounds it that it has the power to decay the magic of enemy weapons in an instant.	true
+character_skills_localised_name_nag_skill_unique_krell_black_axe_of_krell	The Black Axe of Krell	true
+character_skills_localised_description_nag_skill_unique_krell_black_axe_of_krell	When the Black Axe of Krell bites into flesh, it leaves behind jagged shards that swiftly eat their way into the victim's heart.	true
+character_skills_localised_name_nag_skill_unique_neferatal_dagger_of_jet	Dagger of Jet	true
+character_skills_localised_description_nag_skill_unique_neferatal_dagger_of_jet	Akmet-kar, the Dagger of Jet whose cursed edge screams with the death agonies of innocents and saps the vitality and fighting spirit of its victims.	true
+character_skills_localised_name_nag_skill_unique_neferatal_staff_of_pain	Staff of Pain	true
+character_skills_localised_description_nag_skill_unique_neferatal_staff_of_pain	Aken-seth, the Staff of Pain, whose enchantments add crippling agonies to any sorceries she wields.	true
+character_skills_localised_name_nag_skill_unique_mannfred_armour_of_templehof	Armour of Templehof	true
+character_skills_localised_description_nag_skill_unique_mannfred_armour_of_templehof	A product of twisted sorcery, this construct fu ses with the wearer, giving him tremendous endurance. 	true
+character_skills_localised_name_nag_skill_unique_mannfred_sword_of_unholy_power	Sword of Unholy Power	true
+character_skills_localised_description_nag_skill_unique_mannfred_sword_of_unholy_power	Whenever this blade tastes blood, its wielder seems to exert greater control over the vvtnds of Magic. 	true
+character_skills_localised_name_nag_skill_unique_isabella_blood_chalice_of_bathori	Blood Chalice of Bathori	true
+character_skills_localised_description_nag_skill_unique_isabella_blood_chalice_of_bathori	The life essence of many wretched, innocent smallfolk ensures that those who drink from this cursed cup thrive with newfound power.	true
+character_skills_localised_name_nag_skill_mount_arkhan_abyssal	Razark, The Doom of Traitors	true
+character_skills_localised_description_nag_skill_mount_arkhan_abyssal	The dread abyssal ridden by Arkhan the Black was known to myth as Razarak. Whilst other dread abyssals scoured the depths of the Underworld, Razarak always sought lofty perches from which to track its prey. Such behavior was well-suited to its duties, for treachery is best judged from on high.	true
+character_skills_localised_name_nag_skill_mount_mannfred_abyssal	Ashigaroth, Gourger Upon the Meek	true
+character_skills_localised_description_nag_skill_mount_mannfred_abyssal	The dread abyssal ridden by Mannfred von Carstein was known to myth as Ashigaroth. Now reborn as a creature of chill bone in the mortal world, Ashigaroth hunts the living as readily as it ever did the dead, galloping through the skies to follow the spirit-spoor of prey.	true
+character_skills_localised_name_nag_skill_mount_neferata_abyssal	Nagadron, The Adevore	true
+character_skills_localised_description_nag_skill_mount_neferata_abyssal	The dread abyssal ridden by Neferata was known to myth as Nagadron. So voracious is Nagadron that it needs little goading to feast upon other prey, and gorges itself upon the living as eagerly as it did the souls of the dead.	true
+character_skills_localised_name_nag_skill_mount_arkhan_skeletal_steed	Skeletal Steed	true
+character_skills_localised_description_nag_skill_mount_arkhan_skeletal_steed	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	true
+character_skills_localised_name_nag_skill_mount_arkhan_skeleton_chariot	Skeleton Chariot	true
+character_skills_localised_description_nag_skill_mount_arkhan_skeleton_chariot	The pride of Nehekharan armies, impacting enemy lines with bone-shattering force and grinding the corpses beneath their heavy wheels.	true
+character_skills_localised_name_nag_skill_mount_mannfred_barded_nightmare	Barded Nightmare	true
+character_skills_localised_description_nag_skill_mount_mannfred_barded_nightmare	Mannfred can ride an armoured steed of defiled flesh and bone; such an abominable horse is known as a 'Nightmare'.	true
+character_skills_localised_name_nag_skill_mount_luthor_harkon_terrorgheist	Death Shriek Terrorgheist	true
+character_skills_localised_description_nag_skill_mount_luthor_harkon_terrorgheist	Harkon's personal mount is a dreadful thing indeed - a Terrorgheist with a piercing, banshee-like shriek that has the power to stun any who hear it.	true
+character_skills_localised_name_nag_skill_supreme_innate_nagash	Supreme Lord of Undeath	true
+character_skills_localised_description_nag_skill_supreme_innate_nagash	*Insert Big Bone Daddy Autobiography here* [TEMP] Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	true
+character_skills_localised_name_nag_skill_mortarch_innate_arkhan	Mortarch of Sacraments	true
+character_skills_localised_description_nag_skill_mortarch_innate_arkhan	*Insert Arkhan's Mortarch Autobiography here*	true
+character_skills_localised_name_nag_skill_mortarch_innate_krell	Mortarch of Despair	true
+character_skills_localised_description_nag_skill_mortarch_innate_krell	*Insert Krell's Mortarch Autobiography here*	true
+character_skills_localised_name_nag_skill_mortarch_innate_vlad	Mortarch of Shadows	true
+character_skills_localised_description_nag_skill_mortarch_innate_vlad	*Insert Vlad's Mortarch Autobiography here*	true
+character_skills_localised_name_nag_skill_mortarch_innate_mannfred	Mortarch of Night	true
+character_skills_localised_description_nag_skill_mortarch_innate_mannfred	*Insert Mannfred's Mortarch Autobiography here*	true
+character_skills_localised_name_nag_skill_mortarch_innate_luthor	Mortarch of the Abyss	true
+character_skills_localised_description_nag_skill_mortarch_innate_luthor	*Insert Luthor's Mortarch Autobiography here*	true
+character_skills_localised_name_nag_skill_mortarch_innate_neferata	Mortarch of Blood	true
+character_skills_localised_description_nag_skill_mortarch_innate_neferata	*Insert Neferata's Mortarch Autobiography here*	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_first_book	Knowledge of the First Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_first_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_second_book	Knowledge of the Second Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_second_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_third_book	Knowledge of the Third Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_third_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_fouth_book	Knowledge of the Fourth Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_fouth_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_fifth_book	Knowledge of the Fifth Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_fifth_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_sixth_book	Knowledge of the Sixth Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_sixth_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_seventh_book	Knowledge of the Seventh Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_seventh_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_eighth_book	Knowledge of the Eighth Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_eighth_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_traitor_kings_innate_ninth_book	Knowledge of the Ninth Book	true
+character_skills_localised_description_nag_skill_traitor_kings_innate_ninth_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
+character_skills_localised_name_nag_skill_mannfred_unique_loremaster_lore_of_vampires	Loremaster, Lore of Vampires	true
+character_skills_localised_description_nag_skill_mannfred_unique_loremaster_lore_of_vampires	This one is no apprentice in the black arts but a master of Necromancy and Dark Magic.	true
+character_skills_localised_name_nag_double_vmp_magic_vampires_01_invocation_of_nehek	Invocation of Nehek	true
+character_skills_localised_description_nag_double_vmp_magic_vampires_01_invocation_of_nehek		true
+character_skills_localised_name_nag_double_vmp_magic_vampires_02_vanhels_danse_macabre	Vanhel's Danse Macabre	true
+character_skills_localised_description_nag_double_vmp_magic_vampires_02_vanhels_danse_macabre		true
+character_skills_localised_name_nag_double_vmp_magic_vampires_04_gaze_of_nagash	Gaze of Nagash	true
+character_skills_localised_description_nag_double_vmp_magic_vampires_04_gaze_of_nagash		true
+character_skills_localised_name_nag_double_vmp_magic_vampires_05_raise_dead	Raise Dead	true
+character_skills_localised_description_nag_double_vmp_magic_vampires_05_raise_dead		true
+character_skills_localised_name_nag_double_vmp_magic_vampires_09_curse_of_years	Curse of Years	true
+character_skills_localised_description_nag_double_vmp_magic_vampires_09_curse_of_years		true
+character_skills_localised_name_nag_double_vmp_magic_vampires_10_wind_of_death	Wind of Death	true
+character_skills_localised_description_nag_double_vmp_magic_vampires_10_wind_of_death		true
+character_skills_localised_name_nag_double_vmp_magic_vampires_dummy_invocation_of_nehek	Invocation of Nehek [HIDDEN]	true
+character_skills_localised_description_nag_double_vmp_magic_vampires_dummy_invocation_of_nehek		true

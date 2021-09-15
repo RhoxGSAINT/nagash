@@ -1,0 +1,4 @@
+resource_cost_pooled_resource_junctions_tables	0
+pooled_resource_factor	resource_cost	amount
+nag_souls_mort	nag_souls_mort	-100
+nag_souls_mort	nag_souls_archai	-50

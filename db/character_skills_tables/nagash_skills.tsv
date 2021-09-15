@@ -1,0 +1,141 @@
+character_skills_tables	5
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+nag_skill_army_buff_ranged	battle_ammo.png		Ranged Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_infantry	battle_armour.png		Infantry Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_cav	battle_speed.png		Cav & Chariot Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_beasts	battle_charge.png		Warbeasts & Monstrous Inf Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_spirit	battle_magic.png		Magical/Spirit Units Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_construct	battle_charge.png		Monsters & Constructs Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_vet_vamp	battle_vampiric.png		Sylvanian Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_vet_nehek	battle_nehek.png		Nehekharan Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_vet_coast	battle_coast.png		Coast Buff	0	false	false	false	0.0	0
+nag_skill_army_buff_vet_nagash	battle_nagashizzar.png		Nagashizzar Buff	0	false	false	false	0.0	0
+nag_skill_campaign_movement	campaign_movement.png		Route Marcher	0	false	false	false	0.0	0
+nag_skill_campaign_corruption	campaign_vampiric_corruption.png		Glory of Nagash	0	false	false	false	0.0	0
+nag_skill_campaign_raiding	campaign_military_spending.png		Soul Harvester	0	false	false	false	0.0	0
+nag_skill_campaign_replenishment	campaign_replenishment.png		Undying Horde	0	false	false	false	0.0	0
+nag_skill_campaign_growth	campaign_growth.png		Dark Conduit	0	false	false	false	0.0	0
+nag_skill_campaign_recruit	campaign_army.png		Endless Undeath	0	false	false	false	0.0	0
+nag_skill_campaign_attrition	campaign_disaster.png		Imperishable	0	false	false	false	0.0	0
+nag_skill_campaign_loot	campaign_military_spending.png		All is Mine!	0	false	false	false	0.0	0
+nag_skill_campaign_ambush	campaign_ambush.png		Eternal and Vigilant	0	false	false	false	0.0	0
+nag_skill_campaign_self_defense	campaign_agent.png		Renowned & Feared	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_corruption	campaign_vampiric_corruption.png		Glory to Me!	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_raiding	campaign_military_spending.png		Soul Harvester	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_replenishment	campaign_replenishment.png		Undying Horde	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_growth	campaign_growth.png		Dark Conduit	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_recruit	campaign_army.png		Endless Undeath	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_attrition	campaign_disaster.png		Imperishable	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_loot	campaign_military_spending.png		All is Mine!	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_ambush	campaign_ambush.png		Eternal and Vigilant	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_big_self_defense	campaign_agent.png		Death & Undeath	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_corruption	campaign_vampiric_corruption.png		Glory to Me!	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_raiding	campaign_military_spending.png		Soul Harvester	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_replenishment	campaign_replenishment.png		Undying Horde	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_growth	campaign_growth.png		Dark Conduit	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_recruit	campaign_army.png		Endless Undeath	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_attrition	campaign_disaster.png		Imperishable	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_loot	campaign_military_spending.png		All is Mine!	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_ambush	campaign_ambush.png		Eternal and Vigilant	0	false	false	false	0.0	0
+nag_skill_campaign_nagash_small_self_defense	campaign_agent.png		Death & Undeath	0	false	false	false	0.0	0
+nag_skill_campaign_jolly_roger	campaign_agent.png		Black Flag	0	false	false	false	0.0	0
+nag_skill_campaign_immortal_horror	campaign_wound_time.png	Such a beast is all but impossible to destroy - an immortal horror doomed to haunt eternity!	Immortal Horror	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nagash_abyssal_swarm	nagash_abyssal_swarm.png	The wizard binds the bones of predatory creatures with dark magic, causing them to rise from their animal graves.	Razkhar - Abyssal Swarm	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nagash_breath_of_darkness	nagash_breath_of_darkness.png	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	Morkharn - Breath of Darkness	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nagash_soul_stealer	nagash_soul_stealer.png	The wizard tears the souls from his victims' bodies before breathing unlife into their sundered corpses.	Khizaar - The Soul Stealer	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nagash_dark_riders	nagash_dark_riders.png	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	Akar'aran - The Dark Riders	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nagash_grave_call_master	nagash_grave_call.png	Dwaring forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	Ryze - The Grave Call	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nagash_hand_of_dust	nagash_hand_of_dust.png	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	Sulekhim - The Hand of Dust	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nagash_harbinger	nagash_harbinger.png	The greatest practitioners of the dark arts can summon forth the most fearsome champions and creatures of undeath.	Kandorak - The Harbinger	0	false	false	false	0.0	0
+nag_skill_magic_nagash_arch_necromancer	character_magic.png		Arch Necromancer	0	false	false	false	0.0	0
+nag_skill_magic_nagash_death_magic_incarnate	character_magic.png		Death Magic Incarnate	0	false	false	false	0.0	0
+nag_skill_magic_nagash_dummy_breath_grave_call	battle_attack.png		Breath of Darkness [HIDDEN]	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_death_spirit_leech	wh_main_spell_death_spirit_leech.png		Spirit Leech	0	false	false	false	0.0	0
+nag_skill_wh_main_lore_passive_life_leeching	wh_main_lore_passive_life_leeching.png		Life-Leeching	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_death_soulblight	wh_main_spell_death_soulblight.png		Soulblight	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_death_the_purple_sun_of_xereus	wh_main_spell_death_the_purple_sun_of_xereus.png		The Purple Sun of Xereus	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_vampires_gaze_of_nagash	wh_main_spell_vampires_gaze_of_nagash.png		Gaze of Nagash	0	false	false	false	0.0	0
+nag_skill_wh_main_lore_passive_the_curse_of_undeath	wh_main_lore_passive_the_curse_of_undeath.png		The Curse of Undeath	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_vampires_invocation_of_nehek	wh_main_spell_vampires_invocation_of_nehek.png		Invocation of Nehek	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_vampires_wind_of_death	wh_main_spell_vampires_wind_of_death.png		Wind of Death	0	false	false	false	0.0	0
+nag_skill_magic_nagash_dummy_spirit_leech_gaze_of_nagash	battle_attack.png	 	Gaze of Nagash [HIDDEN]	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nehekhara_djafs_incantation_of_cursed_blades	wh2_dlc09_spell_nehekhara_djafs_incantation_of_cursed_blades.png		Djaf's Incantation of Cursed Blades	0	false	false	false	0.0	0
+nag_skill_wh_main_lore_passive_the_restless_dead	wh2_dlc09_lore_nehekhara.png		The Restless Dead	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nehekhara_sakhmets_incantation_of_the_skullstorm	wh2_dlc09_spell_nehekhara_sakhmets_incantation_of_the_skullstorm.png		Sakhmet's Incantation of the Skullstorm	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_nehekhara_usirians_incantation_of_vengeance	wh2_dlc09_spell_nehekhara_usirians_incantation_of_vengeance.png		Usirian's Incantation of Vengeance	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_light_banishment	wh_main_spell_light_banishment.png		Banishment	0	false	false	false	0.0	0
+nag_skill_wh_main_lore_passive_exorcism	wh_main_lore_passive_exorcism.png		Exorcism	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_light_bironas_timewarp	wh_main_spell_light_bironas_timewarp.png		Birona's Timewarp	0	false	false	false	0.0	0
+nag_skill_wh_main_spell_light_shems_burning_gaze	wh_main_spell_light_shems_burning_gaze.png		Shem's Burning Gaze	0	false	false	false	0.0	0
+nag_skill_magic_nagash_dummy_cursed_blades_banishment	battle_attack.png		Cursed Blades [HIDDEN]	0	false	false	false	0.0	0
+nag_skill_personal_nagash_supreme_lord	supreme_lord.png	The Supreme Lord of Undeath, the ultimate personification of death and the undead, an ancient, evil being who seeks to conquer this cruel, chaotic world and bring about an age of undeath that will rule for all eternity.	Supreme Lord of Undeath	0	false	false	false	0.0	0
+nag_skill_personal_nagash_undying_king	undying_king.png	"Rise! The Undying King commands you! Come to me! "	Undying King	0	false	false	false	0.0	0
+nag_skill_personal_nagash_great_necromancer	wh2_dlc11_cynosure.png	"There will be no escape, no blessed oblivion. I can end your life as easily as I can extinguish a candle, and before your corpse is cold, I can reach out and grasp your soul. You will be my slave for all eternity, and I shall laugh at the depths of your pain. Such is the power of Nagash."	Great Necromancer	0	false	false	false	0.0	0
+nag_skill_personal_nagash_world_at_peace	wh2_hef_wrath_of_khaine.png	"The dead do not squabble as this land’s rulers do. The dead do not fight one another. The dead have no desires, no petty jealousies or ambitions. A world of the dead is a world at peace..."	Death is Peace	0	false	false	false	0.0	0
+nag_skill_personal_nagash_fate_of_flesh	wh2_dlc11_kidnapper.png	"See the fate of all flesh and know despair!"	The Fate of Flesh	0	false	false	false	0.0	0
+nag_skill_unique_nagash_morikhane	item_armour.png	 Nagash's armour is forged from an alloy of lead and meteoric iron. Over the millennia the armour has fused itself with his body, so it may only be worn by Nagash. Obviously, the armour does not prevent him casting spells.	Morikhane – Black Armour of Nagash	40	false	false	false	0.0	0
+nag_skill_unique_nagash_mortis	item_weapon.png	Mortis is a huge magic sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it. The sword increases his already considerable strength, and wounds caused by the sword can be used to heal Nagash himself.	Mortis – The Great Blade of Death	40	false	false	false	0.0	0
+nag_skill_unique_nagash_nine_books	item_enchanted_item.png	Nagash was the first and greatest of all the Necromancers, and he created almost all of the spells that allow these followers of the dark arts to raise and control the Undead. The secrets of his magical spells are recorded in nine massive tomes known as the Nine Books of Nagash. Each book contains the secrets of one of Nagash's Necromantic spells.	Nine Books of Nagash	40	false	false	false	0.0	0
+nag_skill_unique_nagash_alakanash	item_arcane_item.png	The Staff of Power was created by Nagash to allow him to store the additional power he needed to carry out his most arcane and dangerous magical spells.	Alakanash – Staff of Power	40	false	false	false	0.0	0
+nag_skill_unique_nagash_crown	item_talisman.png	The Crown of Sorcery sometimes known as the Crown of Nagash is a magical crown/circlet forged by the great Necromancer Nagash around -1300 IC in his fortress of Nagashizzar in Cripple Peak. The crown is infused with part of Nagash's malicious spirit, partially holding his spirit to the mortal world, and exerts a corrupting influence on anyone who wears it.	The Crown of Sorcery	40	false	false	false	0.0	0
+nag_skill_personal_arkhan_unique_3	character_morale.png	Although not as numerous as Settra's grand army, Arkhan's Undead legions are bolstered by the Liche King's unparalleled necromantic dexterity.	Legions of Death	0	false	false	false	0.0	0
+nag_skill_personal_arkhan_unique_5	character_health.png	The first and most loyal of the Great Necromancer's followers will stand at his side once again. So it is written…	Right-Hand of Nagash	9	false	false	false	0.0	0
+nag_skill_self_krell_hatred_of_the_gods	character_damage.png		Hatred of the Gods	0	false	false	false	0.0	0
+nag_skill_personal_krell_immortal_challenger	wh_pro03_lord_abilities_lord_of_undeath.png		Immortal Challenger	0	false	false	false	0.0	0
+nag_skill_personal_krell_champion_of_nagash	wh_main_character_abilities_heroic_killing_blow.png		Champion of Nagash	0	false	false	false	0.0	0
+nag_skill_personal_krell_might_makes_wight	wh2_hef_wrath_of_khaine.png		Might Makes Wight	0	false	false	false	0.0	0
+nag_skill_personal_krell_spectral_executioner	character_raise_dead.png		Spectral Executioner	0	false	false	false	0.0	0
+nag_skill_personal_krell_skull_throne	character_wound_time.png		Skulls for the Skull Throne	0	false	false	false	0.0	0
+nag_skill_personal_krell_abandoned_by_khorne	character_chaos_corruption.png		Forsaken by Khorne	0	false	false	false	0.0	0
+nag_skill_personal_krell_the_doomed_legion	wh_pro03_lord_abilities_lord_of_undeath.png		The Doomed Legion	0	false	false	false	0.0	0
+nag_skill_personal_krell_his_will_be_done	wh2_dlc11_loyalty.png		His Will be Done	0	false	false	false	0.0	0
+nag_skill_self_luthor_smuggler	wh2_dlc11_smuggler.png	If there's duty to be paid, rest assured that this one will find a way around it.	Smuggler	0	false	false	false	0.0	0
+nag_skill_self_luthor_arsonist	wh2_dlc11_arson.png	Fire, to destroy all that you have done; fire, to end all you've become.	Arsonist	0	false	false	false	0.0	0
+nag_skill_personal_luthor_man_of_war	character_experience.png	Some seafarers appear to have been born for the role.	Man-o-War	0	false	false	false	0.0	0
+nag_skill_personal_luthor_hand_cannon	character_ranged_damage.png	By which death is expertly dealt, assuming it doesn't blow your hand off in the process!	Hand Cannon	0	false	false	false	0.0	0
+nag_skill_personal_luthor_pirate_king	character_military_spending.png	His crimes are without number and his villainy without end… behold the Pirate King!	Pirate King	0	false	false	false	0.0	0
+nag_skill_unique_arkhan_staff_of_nagash	item_arcane_item.png	Created by the Arch-Necromancer, the staff harnesses Dark Magic from deep within the accursed Black Pyramid.	Staff of Nagash	9	false	false	false	0.0	0
+nag_skill_unique_arkhan_the_tomb_blade_of_arkhan	item_weapon.png	The sword burns away the flesh of Arkhan's victims, leaving nothing but a charred skeleton, bound to the Liche King's dark will for all eternity.	The Tomb Blade of Arkhan	5	false	false	false	0.0	0
+nag_skill_unique_vlad_blood_drinker	item_weapon.png	This accursed blade drinks deep of its victim's blood, restoring vigour and strength to the one who brandishes it.	Blood Drinker	7	false	false	false	0.0	0
+nag_skill_unique_vlad_the_carstein_ring	item_talisman.png	An ancestral ring, set with a gem of deep, sanguine claret that has granted the von Carsteins everlasting Undeath.	The Carstein Ring 	12	false	false	false	0.0	0
+nag_skill_unique_vlad_von_carstein_mesmerising_aura	character_cooldown.png	The Lord of the von Carsteins exudes a distracting and sensational air, giving all before him pause.	Mesmerising Aura 	6	false	false	false	0.0	0
+nag_skill_unique_luthor_slann_gold	item_enchanted_item.png	It is well known that Lustrian gold is enchanted with all manner of esoteric properties; Harkon thinks it will restore his fractured mind! 	Slann Gold	14	false	false	false	0.0	0
+nag_skill_unique_krell_chaos_tomb_blade	item_talisman.png	 	Chaos Tomb Blade	8	false	false	false	0.0	0
+nag_skill_unique_krell_armour_of_the_barrows	item_armour.png		Amour of the Barrows	10	false	false	false	0.0	0
+nag_skill_unique_krell_black_axe_of_krell	item_weapon.png		The Black Axe of Krell	13	false	false	false	0.0	0
+nag_skill_unique_mannfred_armour_of_templehof	item_armour.png	 	Armour of Templehof	12	false	false	false	0.0	0
+nag_skill_unique_mannfred_sword_of_unholy_power	item_weapon.png	 	Sword of Unholy Power	7	false	false	false	0.0	0
+nag_skill_unique_neferatal_dagger_of_jet	item_weapon.png		Dagger of Jet	8	false	false	false	0.0	0
+nag_skill_unique_neferatal_staff_of_pain	item_arcane_item.png		Staff of Pain	12	false	false	false	0.0	0
+nag_skill_unique_isabella_blood_chalice_of_bathori	item_talisman.png	The life essence of many wretched, innocent smallfolk ensures that those who drink from this cursed cup thrive with newfound power.	Blood Chalice of Bathori	8	false	false	false	0.0	0
+nag_skill_mount_arkhan_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
+nag_skill_mount_arkhan_skeleton_chariot	mount_skeleton_chariot.png	The pride of Nehekharan armies, impacting enemy lines with bone-shattering force and grinding the corpses beneath their heavy wheels.	Skeleton Chariot	13	false	false	false	0.0	0
+nag_skill_mount_arkhan_abyssal	mount_skullmuncha.png		Razark, The Doom of Traitors	17	false	false	false	0.0	0
+nag_skill_mount_mannfred_barded_nightmare	mount_barded_nightmare.png	Mannfred can ride an armoured steed of defiled flesh and bone; such an abominable horse is known as a 'Nightmare'.	Barded Nightmare	7	false	false	false	0.0	0
+nag_skill_mount_mannfred_abyssal	mount_skullmuncha.png		Ashigaroth, Gourger Upon the Meek	17	false	false	false	0.0	0
+nag_skill_mount_neferata_abyssal	mount_skullmuncha.png		Nagadron, The Adevore	17	false	false	false	0.0	0
+nag_skill_mount_luthor_harkon_terrorgheist	mount_terrorgheist.png	Harkon's personal mount is a dreadful thing indeed - a Terrorgheist with a piercing, banshee-like shriek that has the power to stun any who hear it.	Death Shriek Terrorgheist	17	false	false	false	0.0	0
+nag_skill_mannfred_unique_loremaster_lore_of_vampires	character_magic.png	This one is no apprentice in the black arts but a master of Necromancy and Dark Magic.	Loremaster, Lore of Vampires	8	false	false	false	0.0	0
+nag_double_vmp_magic_vampires_01_invocation_of_nehek	wh_main_spell_vampires_invocation_of_nehek.png	 	Invocation of Nehek	0	false	false	false	0.0	0
+nag_double_vmp_magic_vampires_02_vanhels_danse_macabre	wh_main_spell_vampires_vanhels_danse_macabre.png	 	Vanhel's Danse Macabre	0	false	false	false	0.0	0
+nag_double_vmp_magic_vampires_04_gaze_of_nagash	wh_main_spell_vampires_gaze_of_nagash.png	 	Gaze of Nagash	0	false	false	false	0.0	0
+nag_double_vmp_magic_vampires_05_raise_dead	wh_main_spell_vampires_raise_dead.png	 	Raise Dead	0	false	false	false	0.0	0
+nag_double_vmp_magic_vampires_09_curse_of_years	wh_main_spell_vampires_curse_of_years.png	 	Curse of Years	0	false	false	false	0.0	0
+nag_double_vmp_magic_vampires_10_wind_of_death	wh_main_spell_vampires_wind_of_death.png	 	Wind of Death	0	false	false	false	0.0	0
+nag_double_vmp_magic_vampires_dummy_invocation_of_nehek	battle_attack.png	 	Invocation of Nehek [HIDDEN]	0	false	false	false	0.0	0
+nag_skill_supreme_innate_nagash	trait_mortarch.png	Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	The Supreme Lord of Undeath	0	true	false	false	5.0	0
+nag_skill_mortarch_innate_arkhan	trait_mortarch.png		Mortarch of Sacraments	0	true	false	false	5.0	0
+nag_skill_mortarch_innate_krell	trait_mortarch.png		Mortarch of Despair	0	true	false	false	5.0	0
+nag_skill_mortarch_innate_vlad	trait_mortarch.png		Mortarch of Shadows	0	true	false	false	5.0	0
+nag_skill_mortarch_innate_mannfred	trait_mortarch.png		Mortarch of Night	0	true	false	false	5.0	0
+nag_skill_mortarch_innate_luthor	trait_mortarch.png		Mortarch of the Abyss	0	true	false	false	5.0	0
+nag_skill_mortarch_innate_neferata	trait_mortarch.png		Mortarch of Blood	0	true	false	false	5.0	0
+nag_skill_traitor_kings_innate_first_book	trait_book_1.png		Knowledge of the First Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_second_book	trait_book_2.png		Knowledge of the Second Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_third_book	trait_book_3.png		Knowledge of the Third Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_fouth_book	trait_book_4.png		Knowledge of the Fourth Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_fifth_book	trait_book_5.png		Knowledge of the Fith Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_sixth_book	trait_book_6.png		Knowledge of the Sixth Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_seventh_book	trait_book_7.png		Knowledge of the Seventh Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_eighth_book	trait_book_8.png		Knowledge of the Eighth Book	0	true	false	false	1.0	0
+nag_skill_traitor_kings_innate_ninth_book	trait_book_9.png		Knowledge of the Ninth Book	0	true	false	false	1.0	0

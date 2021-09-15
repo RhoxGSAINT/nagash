@@ -1,0 +1,4 @@
+special_ability_phase_displays_tables	1
+key	active_vfx	banner_vfx	entity_vfx	entity_vfx_attach_type
+belisarians_nagash_pet_blyramid			belisarians_nagash_floating_blyramid	hips
+belisarians_nagash_floating_vandus_catus			belisarians_nagash_floating_vandus_catus	logical_top

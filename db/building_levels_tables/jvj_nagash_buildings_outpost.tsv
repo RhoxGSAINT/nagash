@@ -1,0 +1,40 @@
+building_levels_tables	16
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	faction_unique	religion_requirement	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution
+nag_outpost_primary_main_ruin	nag_outpost_primary_main	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpost_primary_main_1	nag_outpost_primary_main	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0.0	0	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_2	nag_outpost_primary_main	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0.0	1	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_3	nag_outpost_primary_main	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0.0	2	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_4	nag_outpost_primary_main	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0.0	4	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_5	nag_outpost_primary_main	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0.0	5	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_coast_ruin	nag_outpost_primary_main_coast	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpost_primary_main_coast_1	nag_outpost_primary_main_coast	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	0	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_coast_2	nag_outpost_primary_main_coast	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	1	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_coast_3	nag_outpost_primary_main_coast	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	2	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_coast_4	nag_outpost_primary_main_coast	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	4	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_primary_main_coast_5	nag_outpost_primary_main_coast	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	5	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpostnorsca_primary_main_ruin	nag_outpostnorsca_primary_main	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpostnorsca_primary_main_1	nag_outpostnorsca_primary_main	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major	false	0.0	0	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpostnorsca_primary_main_coast_ruin	nag_outpostnorsca_primary_main_coast	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpostnorsca_primary_main_coast_1	nag_outpostnorsca_primary_main_coast	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	0	true	0	wh2_cam_settlement_major_tombkings	true	0	0
+nag_outpost_main_port_ruin	nag_outpost_main_port	0	1	0	0		false	0	0	0	0	false				true	nag_outpost_main_port	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpost_main_port_1	nag_outpost_main_port	1	1	500	0		false	0	0	0	0	false				true	nag_outpost_main_port	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_research_1	nag_outpost_primary_research	0	1	750	0		false	0	0	0	0	false				true	nag_outpost_primary_research	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_arcane_1	nag_outpost_primary_arcane	0	1	750	0		false	0	0	0	0	false				true	nag_outpost_primary_arcane	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_support_1	nag_outpost_primary_support	0	1	750	0		false	0	0	0	0	false				true	nag_outpost_primary_support	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_nehek_1	nag_outpost_primary_nehek	0	0	1250	0		false	0	0	0	0	false				true	nag_outpost_primary_nehek	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_nagashizzar_1	nag_outpost_primary_nagashizzar	0	0	1250	0		false	0	0	0	0	false				true	nag_outpost_primary_nagashizzar	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_coast_1	nag_outpost_primary_coast	0	0	1250	0		false	0	0	0	0	false				true	nag_outpost_primary_coast	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_count_1	nag_outpost_primary_count	0	0	1250	0		false	0	0	0	0	false				true	nag_outpost_primary_count	false	0.0	0	true	1		true	0	0
+nag_outpost_primary_warpstone_1	nag_outpost_primary_warpstone	0	0	1500	0		false	0	0	0	0	false				true	nag_outpost_primary_warpstone	false	0.0	0	true	1		true	0	0
+nag_outpost_secondary_main_ruin	nag_outpost_secondary_main	0	1	0	0		false	0	0	0	0	false				true	nag_outpost_secondary_main	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpost_secondary_main_1	nag_outpost_secondary_main	1	1	300	0		false	0	0	0	0	false				true	nag_outpost_secondary_main	false	0.0	0	true	0		true	0	0
+nag_outpost_secondary_main_coast_ruin	nag_outpost_secondary_main_coast	0	1	0	0		false	0	0	0	0	false				true	nag_outpost_secondary_main_coast	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpost_secondary_main_coast_1	nag_outpost_secondary_main_coast	1	1	300	0		false	0	0	0	0	false				true	nag_outpost_secondary_main_coast	false	0.0	0	true	0		true	0	0
+nag_outpostnorsca_secondary_main_ruin	nag_outpostnorsca_secondary_main	0	1	0	0		false	0	0	0	0	false				true	nag_outpostnorsca_secondary_main	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpostnorsca_secondary_main_1	nag_outpostnorsca_secondary_main	1	1	300	0		false	0	0	0	0	false				true	nag_outpostnorsca_secondary_main	false	0.0	0	true	0		true	0	0
+nag_outpostnorsca_secondary_coast_main_ruin	nag_outpostnorsca_secondary_main_coast	0	1	0	0		false	0	0	0	0	false				true	nag_outpostnorsca_secondary_main_coast	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
+nag_outpostnorsca_secondary_main_coast_1	nag_outpostnorsca_secondary_main_coast	1	1	300	0		false	0	0	0	0	false				true	nag_outpostnorsca_secondary_main_coast	false	0.0	0	true	0		true	0	0
+nag_outpost_secondary_fields_1	nag_outpost_secondary_fields	0	1	500	0		false	0	0	0	0	false				true	nag_outpost_secondary_fields	false	0.0	0	true	1		true	0	0
+nag_outpost_secondary_corruption_1	nag_outpost_secondary_corruption	0	1	500	0		false	0	0	0	0	false				true	nag_outpost_secondary_corruption	false	0.0	0	true	1		true	0	0
+nag_outpost_secondary_syphon_1	nag_outpost_secondary_syphon	0	1	500	0		false	0	0	0	0	false				true	nag_outpost_secondary_syphon	false	0.0	0	true	1		true	0	0
+nag_outpost_secondary_energy_1	nag_outpost_secondary_energy	0	1	500	0		false	0	0	0	0	false				true	nag_outpost_secondary_energy	false	0.0	0	true	1		true	0	0

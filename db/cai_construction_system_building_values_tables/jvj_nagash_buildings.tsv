@@ -1,0 +1,118 @@
+cai_construction_system_building_values_tables	0
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
+		nag_bpyramid_main_1	nag_bpyramid_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_bpyramid_ew2_mortuary_1	nag_bpyramid_ew2_mortuary_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_bpyramid_ew1_barracks_1	nag_bpyramid_ew1_barracks_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ww1_stables_1	nag_bpyramid_ww1_stables_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ww2_warmachines_1	nag_bpyramid_ww2_warmachines_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_main_obelisk_1	nag_bpyramid_main_obelisk_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ew4_other_1	nag_bpyramid_ew4_other_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ww4_extra_1	nag_bpyramid_ww4_extra_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ew3_growth_1	nag_bpyramid_ew3_growth_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ww3_industry_1	nag_bpyramid_ww3_industry_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_outpost_primary_main_1	nag_outpost_primary_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_main_coast_1	nag_outpost_primary_main_coast_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpostnorsca_primary_main_1	nag_outpostnorsca_primary_main_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpostnorsca_primary_main_coast_1	nag_outpostnorsca_primary_main_coast_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_main_port_1	nag_outpost_main_port_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_outpost_secondary_main_1	nag_outpost_secondary_main_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_secondary_main_coast_1	nag_outpost_secondary_main_coast_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpostnorsca_secondary_main_1	nag_outpostnorsca_secondary_main_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpostnorsca_secondary_main_coast_1	nag_outpostnorsca_secondary_main_coast_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_research_1	nag_outpost_primary_research_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_arcane_1	nag_outpost_primary_arcane_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_support_1	nag_outpost_primary_support_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_nehek_1	nag_outpost_primary_nehek_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_nagashizzar_1	nag_outpost_primary_nagashizzar_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_coast_1	nag_outpost_primary_coast_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_count_1	nag_outpost_primary_count_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_warpstone_1	nag_outpost_primary_warpstone_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	100
+		nag_outpost_secondary_fields_1	nag_outpost_secondary_fields_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_outpost_secondary_corruption_1	nag_outpost_secondary_corruption_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_outpost_secondary_syphon_1	nag_outpost_secondary_syphon_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_outpost_secondary_energy_1	nag_outpost_secondary_energy_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_nagash_horde_special_1	nag_nagash_horde_special_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_arkhan_horde_special_1	nag_arkhan_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_vlad_horde_special_1	nag_vlad_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_neffy_horde_special_1	nag_neffy_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_manny_horde_special_1	nag_manny_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_krell_horde_special_1	nag_krell_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_luthor_horde_special_1	nag_luthor_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_arkhan_horde_landmark_0	nag_arkhan_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_vlad_horde_landmark_0	nag_vlad_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_neffy_horde_landmark_0	nag_neffy_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_manny_horde_landmark_0	nag_manny_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_krell_horde_landmark_0	nag_krell_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_luthor_horde_landmark_0	nag_luthor_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_horde_military1_barracks_1	nag_horde_military1_barracks_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_military2_stables_1	nag_horde_military2_stables_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_military3_warmachines_1	nag_horde_military3_warmachines_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_military4_monsters_1	nag_horde_military4_monsters_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_support1_smith_1	nag_horde_support1_smith_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_horde_support2_worship_1	nag_horde_support2_worship_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_infrastructure1_growth_1	nag_horde_infrastructure1_growth_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_infrastructure2_industry_1	nag_horde_infrastructure2_industry_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_infrastructure3_energy_1	nag_horde_infrastructure3_energy_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_infrastructure4_other_1	nag_horde_infrastructure4_other_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_subhorde_main_1	nag_subhorde_main_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_subhorde_military1_barracks_1	nag_subhorde_military1_barracks_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_subhorde_military2_stables_1	nag_subhorde_military2_stables_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_subhorde_support2_worship_1	nag_subhorde_support2_worship_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_subhorde_infrastructure1_growth_1	nag_subhorde_infrastructure1_growth_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_subhorde_infrastructure2_industry_1	nag_subhorde_infrastructure2_industry_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		wh2_dlc09_special_settlement_altdorf_nag_1	wh2_dlc09_special_settlement_altdorf_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_athel_loren_nag_1	wh2_dlc09_special_settlement_athel_loren_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_black_crag_nag_1	wh2_dlc09_special_settlement_black_crag_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_castle_drakenhof_nag_1	wh2_dlc09_special_settlement_castle_drakenhof_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_couronne_nag_1	wh2_dlc09_special_settlement_couronne_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_eight_peaks_nag_1	wh2_dlc09_special_settlement_eight_peaks_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_gaean_vale_nag_1	wh2_dlc09_special_settlement_gaean_vale_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_hexoatl_nag_1	wh2_dlc09_special_settlement_hexoatl_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_itza_nag_1	wh2_dlc09_special_settlement_itza_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_karaz_a_karak_nag_1	wh2_dlc09_special_settlement_karaz_a_karak_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_khemri_nag_1	wh2_dlc09_special_settlement_khemri_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_kislev_nag_1	wh2_dlc09_special_settlement_kislev_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_konquata_nag_1	wh2_dlc09_special_settlement_konquata_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_lahmia_nag_1	wh2_dlc09_special_settlement_lahmia_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_lothern_nag_1	wh2_dlc09_special_settlement_lothern_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_miragliano_nag_1	wh2_dlc09_special_settlement_miragliano_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_naggarond_nag_1	wh2_dlc09_special_settlement_naggarond_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc09_special_settlement_pyramid_of_nagash_nag_1	wh2_dlc09_special_settlement_pyramid_of_nagash_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc15_special_settlement_massif_orcal_nag_1	wh2_dlc15_special_settlement_massif_orcal_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc15_special_settlement_tor_yvresse_nag_1	wh2_dlc15_special_settlement_tor_yvresse_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_settlement_sartosa_nag_1	wh2_main_special_settlement_sartosa_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_settlement_the_awakening_nag_1	wh2_main_special_settlement_the_awakening_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc11_special_settlement_galleons_graveyard_nag_1	wh2_dlc11_special_settlement_galleons_graveyard_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_settlement_hellpit_nag_1	wh2_main_special_settlement_hellpit_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_settlement_skavenblight_nag_1	wh2_main_special_settlement_skavenblight_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_empire_fort_nag_1	wh2_main_special_empire_fort_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_fortress_gate_eagle_nag_1	wh2_main_special_fortress_gate_eagle_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_fortress_gate_griffon_nag_1	wh2_main_special_fortress_gate_griffon_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_fortress_gate_phoenix_nag_1	wh2_main_special_fortress_gate_phoenix_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_fortress_gate_unicorn_nag_1	wh2_main_special_fortress_gate_unicorn_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_settlement_colony_major_nag_1	wh2_main_special_settlement_colony_major_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_settlement_colony_minor_nag_1	wh2_main_special_settlement_colony_minor_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_wef_oak_of_ages_nag_1	wh2_main_wef_oak_of_ages_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc15_special_morgheim_necropolis_nag_1	wh2_dlc15_special_morgheim_necropolis_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_galbaraz_mourkain_nag_1	wh2_main_special_galbaraz_mourkain_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_twa03_special_ogham_stones_nag_1	wh2_twa03_special_ogham_stones_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc14_special_dragon_isle_port_nag_1	wh2_dlc14_special_dragon_isle_port_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_main_special_lothern_port_nag_1	wh2_main_special_lothern_port_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh_main_special_erengrad_port_nag_1	wh_main_special_erengrad_port_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh_main_special_marienburg_port_nag_1	wh_main_special_marienburg_port_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh_twa03_special_albion_port_nag_1	wh_twa03_special_albion_port_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh2_dlc14_special_copher_port_nag_1	wh2_dlc14_special_copher_port_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		wh_main_brt_legendary_port_nag_1	wh_main_brt_legendary_port_nag_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_settlement_cavalry_1	nag_settlement_cavalry_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_chariots_1	nag_settlement_chariots_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_citadel_1	nag_settlement_citadel_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_defence_major_1	nag_settlement_defence_major_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	20
+		nag_settlement_estate_1	nag_settlement_estate_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_growth_1	nag_settlement_growth_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_settlement_hierotitan_1	nag_settlement_hierotitan_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_income_1	nag_settlement_income_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_settlement_infantry_1	nag_settlement_infantry_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_necrosphinx_1	nag_settlement_necrosphinx_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_scorpions_1	nag_settlement_scorpions_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_ushabti_1	nag_settlement_ushabti_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_warsphinx_1	nag_settlement_warsphinx_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50

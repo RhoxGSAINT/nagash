@@ -1,0 +1,46 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+nag_bpyramid_main			military	false	nag_bpyramid_main	data\UI\Buildings\tier_icons\tier_coast_ship.png	0	
+nag_bpyramid_main_obelisk			military	false	nag_bpyramid_main_obelisk		1	nag_nagash_boss
+nag_bpyramid_ew1_barracks			military	false	nag_bpyramid_ew1_barracks		1	nag_nagash_boss
+nag_bpyramid_ww1_stables			military	false	nag_bpyramid_ww1_stables		1	nag_nagash_boss
+nag_bpyramid_ew2_mortuary			military	false	nag_bpyramid_ew2_mortuary		1	nag_nagash_boss
+nag_bpyramid_ww2_warmachines			military	false	nag_bpyramid_ww2_warmachines		1	nag_nagash_boss
+nag_bpyramid_ew3_growth			money	false	nag_bpyramid_ew3_growth		1	nag_nagash_boss
+nag_bpyramid_ww3_industry			money	false	nag_bpyramid_ww3_industry		2	nag_nagash_boss
+nag_bpyramid_ew4_other			military	false	nag_bpyramid_ew4_other		2	nag_nagash_boss
+nag_bpyramid_ww4_extra			military	false	nag_bpyramid_ww4_extra		1	nag_nagash_boss
+nag_bpyramid_hidden			military	false	nag_bpyramid_hidden		0	nag_nagash_boss
+nag_arkhan_horde_special			military	false	nag_arkhan_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_vlad_horde_special			military	false	nag_vlad_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_neffy_horde_special			military	false	nag_neffy_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_manny_horde_special			military	false	nag_manny_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_krell_horde_special			military	false	nag_krell_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_luthor_horde_special			military	false	nag_luthor_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_arkhan_horde_landmark			military	false	nag_arkhan_horde_landmark		2	nag_mortarch_arkhan
+nag_vlad_horde_landmark			military	false	nag_vlad_horde_landmark		2	nag_mortarch_vlad
+nag_neffy_horde_landmark			military	false	nag_neffy_horde_landmark		2	nag_mortarch_neferata
+nag_manny_horde_landmark			military	false	nag_manny_horde_landmark		2	nag_mortarch_mannfred
+nag_krell_horde_landmark			military	false	nag_krell_horde_landmark		2	nag_mortarch_krell
+nag_luthor_horde_landmark			military	false	nag_luthor_horde_landmark		2	nag_mortarch_luthor
+nag_horde_military1_barracks			military	false	nag_horde_military1_barracks		3	
+nag_horde_military2_stables			military	false	nag_horde_military2_stables		4	
+nag_horde_military3_warmachines			military	false	nag_horde_military3_warmachines		5	
+nag_horde_military4_monsters			military	false	nag_horde_military4_monsters		6	
+nag_horde_support1_smith			military	false	nag_horde_support1_smith		7	
+nag_horde_support2_worship			military	false	nag_horde_support2_worship		8	
+nag_horde_support3_wizards			military	false	nag_horde_support3_wizards		9	
+nag_horde_infrastructure1_growth			money	false	nag_horde_infrastructure1_growth		10	
+nag_horde_infrastructure2_industry			money	false	nag_horde_infrastructure2_industry		11	
+nag_horde_infrastructure3_energy			money	false	nag_horde_infrastructure3_energy		12	
+nag_horde_infrastructure4_other			money	false	nag_horde_infrastructure4_other		13	
+nag_nagash_horde_special			military	false	nag_nagash_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_nagash_horde_landmark			military	false	nag_nagash_horde_landmark		2	nag_nagash_husk
+nag_subhorde_main			military	false	nag_subhorde_main	data\UI\Buildings\tier_icons\tier_coast_ship.png	1	
+nag_subhorde_military1_barracks			military	false	nag_subhorde_military1_barracks		3	
+nag_subhorde_military2_stables			military	false	nag_subhorde_military2_stables		4	
+nag_subhorde_military3_warmachines			military	false	nag_subhorde_military3_warmachines		5	
+nag_subhorde_military4_monsters			military	false	nag_subhorde_military4_monsters		6	
+nag_subhorde_support2_worship			military	false	nag_subhorde_support2_worship		8	
+nag_subhorde_infrastructure1_growth			money	false	nag_subhorde_infrastructure1_growth		10	
+nag_subhorde_infrastructure2_industry			money	false	nag_subhorde_infrastructure2_industry		11	

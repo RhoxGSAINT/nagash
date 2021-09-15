@@ -1,0 +1,58 @@
+building_chains_tables	6
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+nag_settlement_cavalry			military	false	nag_sch_settlement_cavalry		2	
+nag_settlement_chariots			military	false	nag_sch_settlement_chariots		0	
+nag_settlement_citadel			military	false	nag_sch_settlement_citadel		13	
+nag_settlement_defence_major			military	false	nag_sch_settlement_defence_major		9	
+nag_settlement_estate			money	false	nag_sch_settlement_estate		14	
+nag_settlement_growth			money	false	nag_sch_settlement_growth		11	
+nag_settlement_hierotitan			military	false	nag_sch_settlement_hierotitan		8	
+nag_settlement_income			money	false	nag_sch_settlement_income		12	
+nag_settlement_infantry			military	false	nag_sch_settlement_infantry		1	
+nag_settlement_necrosphinx			military	false	nag_sch_settlement_necrosphinx		7	
+nag_settlement_scorpions			military	false	nag_sch_settlement_scorpions		5	
+nag_settlement_ushabti			military	false	nag_sch_settlement_ushabti		4	
+nag_settlement_warsphinx			military	false	nag_sch_settlement_warsphinx		6	
+wh2_dlc09_special_settlement_altdorf_nag			money	false	wh_main_sch_special_settlement_altdorf		0	
+wh2_dlc09_special_settlement_athel_loren_nag			money	false	wh_dlc05_sch_wef_settlement_major_main		0	
+wh2_dlc09_special_settlement_black_crag_nag			money	false	wh_main_sch_special_settlement_black_crag		0	
+wh2_dlc09_special_settlement_castle_drakenhof_nag			money	false	wh_main_sch_special_settlement_castle_drakenhof		0	
+wh2_dlc09_special_settlement_couronne_nag			money	false	wh_main_sch_special_settlement_couronne		0	
+wh2_dlc09_special_settlement_eight_peaks_nag			money	false	wh_main_sch_special_settlement_eight_peaks		0	
+wh2_dlc09_special_settlement_gaean_vale_nag			money	false	wh2_main_sch_special_settlement_gaean_vale		0	
+wh2_dlc09_special_settlement_hexoatl_nag			money	false	wh2_main_sch_special_settlement_hexoatl		0	
+wh2_dlc09_special_settlement_itza_nag			money	false	wh2_main_sch_special_settlement_itza		0	
+wh2_dlc09_special_settlement_karaz_a_karak_nag			money	false	wh_main_sch_special_settlement_karaz_a_karak		0	
+wh2_dlc09_special_settlement_khemri_nag			money	false	wh2_main_sch_special_settlement_khemri	data\UI\Buildings\tier_icons\tier_tmb_khemri.png	0	
+wh2_dlc09_special_settlement_kislev_nag			money	false	wh_main_sch_special_settlement_kislev		0	
+wh2_dlc09_special_settlement_konquata_nag			money	false	wh2_twa03_sch_special_settlement_konquata	data\UI\Buildings\tier_icons\tier_tmb_konquata.png	0	
+wh2_dlc09_special_settlement_lahmia_nag			money	false	wh2_main_sch_special_settlement_lahmia	data\UI\Buildings\tier_icons\tier_tmb_lahmia.png	0	
+wh2_dlc09_special_settlement_lothern_nag			money	false	wh2_main_sch_special_settlement_lothern		0	
+wh2_dlc09_special_settlement_miragliano_nag			money	false	wh_main_sch_special_settlement_miragliano		0	
+wh2_dlc09_special_settlement_naggarond_nag			money	false	wh2_main_sch_special_settlement_naggarond		0	
+wh2_dlc09_special_settlement_pyramid_of_nagash_nag			money	false	wh2_main_sch_special_settlement_pyramid_of_nagash		0	
+wh2_dlc15_special_settlement_massif_orcal_nag			money	false	wh2_dlc15_sch_special_settlement_massif_orcal	data\UI\Buildings\tier_icons\tier_greenskins_orc_city.png	0	
+wh2_dlc15_special_settlement_tor_yvresse_nag			money	false	wh2_dlc15_sch_special_settlement_tor_yvresse	data\UI\Buildings\tier_icons\tier_hef_city.png	0	
+wh2_dlc11_special_settlement_galleons_graveyard_nag			money	false	wh2_dlc11_sch_special_settlement_galleons_graveyard	data\UI\Buildings\tier_icons\tier_coast_galleons_graveyard.png	0	
+wh2_main_special_settlement_sartosa_nag			money	false	wh2_main_sch_special_settlement_sartosa		0	
+wh2_main_special_settlement_the_awakening_nag			money	false	wh2_main_sch_special_settlement_the_awakening		0	
+wh2_main_special_settlement_hellpit_nag			money	false	wh2_main_sch_special_settlement_hellpit		0	
+wh2_main_special_settlement_skavenblight_nag			money	false	wh2_main_sch_special_settlement_skavenblight		0	
+wh2_main_special_empire_fort_nag			military	false	wh2_main_sch_empire_fort		0	
+wh2_main_special_fortress_gate_eagle_nag			military	false	wh2_main_sch_fortress_gate_eagle		0	
+wh2_main_special_fortress_gate_griffon_nag			military	false	wh2_main_sch_fortress_gate_griffon		0	
+wh2_main_special_fortress_gate_phoenix_nag			military	false	wh2_main_sch_fortress_gate_phoenix		0	
+wh2_main_special_fortress_gate_unicorn_nag			military	false	wh2_main_sch_fortress_gate_unicorn		0	
+wh2_main_special_settlement_colony_major_nag			money	false	wh2_main_sch_special_settlement_elven_colony_major		0	
+wh2_main_special_settlement_colony_minor_nag			money	false	wh2_main_sch_special_settlement_elven_colony_minor		0	
+wh_dlc05_wef_oak_of_ages_nag			money	true	wh_dlc05_sch_wef_oak_of_ages	data\UI\Buildings\tier_icons\tier_wood_elves_city_oak_of_ages.png	0	
+wh2_main_special_galbaraz_mourkain_nag			military	false	wh2_main_sch_special_galbaraz_mourkain		0	
+wh2_dlc15_special_morgheim_necropolis_nag			military	false	wh2_dlc15_special_morgheim_necropolis		0	
+wh2_twa03_special_ogham_stones_nag			happiness	false	wh2_twa03_ogham_stones		0	
+wh2_dlc14_special_dragon_isle_port_nag			money	false	wh2_dlc14_sch_special_dragon_isle_port		0	
+wh2_main_special_lothern_port_nag			military	false	wh2_main_sch_special_lothern_port		0	
+wh_main_special_erengrad_port_nag			money	false	wh_main_sch_special_erengrad_port		0	
+wh_main_special_marienburg_port_nag			money	false	wh_main_sch_special_marienburg_port		0	
+wh_twa03_special_albion_port_nag			money	false	wh_twa03_sch_special_albion_port		0	
+wh2_dlc14_special_copher_port_nag			money	false	wh2_dlc14_sch_special_copher_port		0	
+wh_main_bretonnia_legendary_bordeleaux_nag			money	true	wh_main_sch_bretonnia_legendary_bordeleaux		9	

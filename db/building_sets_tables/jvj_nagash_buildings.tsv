@@ -1,0 +1,25 @@
+building_sets_tables	3
+key	icon	sort_order	colour_r	colour_g	colour_b
+nag_bpyramid_new_horde	placeholder	0	255	255	255
+nag_bpyramid_hidden	placeholder	0	0	0	0
+nag_bpyramid_settlement	placeholder	4	62	61	56
+nag_bpyramid_settlement_support	placeholder	1	100	20	60
+nag_bpyramid_ew_recruitment	placeholder	6	120	20	20
+nag_bpyramid_ww_recruitment	placeholder	3	120	20	20
+nag_bpyramid_ew_military_support	placeholder	7	75	65	88
+nag_bpyramid_ww_military_support	placeholder	2	75	65	88
+nag_bpyramid_ew_infrastructure	placeholder	8	62	71	57
+nag_bpyramid_ww_infrastructure	placeholder	1	62	71	57
+nag_outpost_primary_outpost	UI/Buildings/Icons/vampire_cat_support.png	5	75	65	88
+nag_outpost_secondary_outpost	UI/Buildings/Icons/vampire_cat_civic.png	7	62	71	57
+nag_outpost_unique	placeholder	1	100	20	60
+nag_horde_settlement	placeholder	0	62	61	56
+nag_horde_unique	placeholder	1	100	20	60
+nag_horde_recruitment	placeholder	2	120	20	20
+nag_horde_military_support	placeholder	3	75	65	88
+nag_horde_infrastructure	placeholder	5	62	71	57
+nag_subhorde_settlement	placeholder	0	62	61	56
+nag_subhorde_unique	placeholder	1	100	20	60
+nag_subhorde_recruitment	placeholder	2	120	20	20
+nag_subhorde_military_support	placeholder	3	75	65	88
+nag_subhorde_infrastructure	placeholder	5	62	71	57
