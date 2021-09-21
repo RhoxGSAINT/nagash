@@ -1,6 +1,5 @@
-if __game_mode ~= __lib_type_campaign or cm:get_campaign_name() ~= "main_warhammer" then
-    return
-end
+--- Campaign only!
+if __game_mode ~= __lib_type_campaign or cm:get_campaign_name() ~= "main_warhammer" then return end
 
 ---@class bdsm
 local bdsm = {
@@ -163,13 +162,7 @@ end
 
 -- TODO set up army caps, so the only-legendary-lord thing will work with UI and AI
 
--- TODO work on Blyramid upgrade prototype and design
-
--- TODO set up Sentinels of Blyramid occupation
-
 -- TODO set up the Blyramid ritual chain
-
--- TODO work on Mortarch UI prototype, some pretty screen with each lord displayed
 
 -- TODO set up the starting QB
 

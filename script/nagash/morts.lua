@@ -1,3 +1,7 @@
+--- TODO hook in the various Mortarch unlocks and spawns
+--- TODO lock the various Mortarch events behind whatever conditions
+--- TODO trigger whatever scripted effects for each event.
+
 ----- Handle the Mortarch systems
 
 local bdsm = get_bdsm()
@@ -46,10 +50,9 @@ local mortarchs = {
 --[[ 
     agent subtype
     mf horde type (?)
-    PR tracker listeners
-    Acquisition listeners
-    Acquisition state
-    porthole UIC details and shtuff
+    acquisition state
+    tech key?
+    spawn details (ie. spawn with Nagash, or spawn in predefined locations, or what)
 --]]
 
 ---@class mortarch
@@ -68,19 +71,8 @@ function mortarch:init()
     -- if acquired, start the tracking for PR and stuff if needed!
 end
 
---- objective key (also links to loc key) ; event ; callback/conditional ; tracker var ; limit
-function mortarch:add_acquisition_condition(callback)
-    local str = "hello " ..
-    "hello" .. " my friends" ..
-    ""
-end
+function mortarch:spawn()
 
---- Sets the number of conditions required to unlock this Mortarch
----@param num number The number of conditions required
-function mortarch:set_acquisition_condition_requirement(num)
-    if not is_number(num) then return end
-
-    self._acquisition_num = num
 end
 
 --- TODO initialize the mortarch objects in the first place!
@@ -109,7 +101,21 @@ function bdsm:instantiate_mortarchs()
     end
 end
 
-function bdsm:unlock_mortarch()
+function bdsm:get_mortarch_with_key(mortarch_key)
+    if not is_string(mortarch_key) then return end
+
+    local mortarchs = self._mortarchs
+    for i = 1, #mortarchs do
+        if mortarchs[i].subtype == mortarch_key then
+            return mortarchs[i]
+        end
+    end
+end
+
+function bdsm:unlock_mortarch(mortarch_key)
+    local mort = self:get_mortarch_with_key(mortarch_key)
+    if not mort then return end
+
 
 end
 
@@ -119,6 +125,7 @@ function bdsm:all_morts()
     local nagash = self:get_faction_leader()
     local region = nagash:region()
     local region_key = region:name()
+
 
     for i = 1, #mortarchs do
         local mort = mortarchs[i]

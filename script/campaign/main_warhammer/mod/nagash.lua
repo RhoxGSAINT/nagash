@@ -7,6 +7,24 @@ end
 
 local faction_key = bdsm._faction_key
 
+local function init_listeners()
+    --- Whenever a settlement is occupied by Nagash, auto-set the level to 1.
+    core:add_listener(
+        "NagashWimp",
+        "RegionFactionChangeEvent",
+        function(context)
+            local reg = context:region()
+            local daddy = reg:owning_faction()
+            return not reg:is_abandoned() and not daddy:is_null_interface() and daddy:name() == faction_key --and reg:settlement():primary_slot():building():building_level() > 1
+        end,
+        function (context)
+            local reg = context:region()
+            cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
+        end,
+        true
+    )
+end
+
 local function init()
     local option = "bp"
     local all_morts = true
@@ -41,6 +59,8 @@ local function init()
             end
         -- end
     end
+
+    init_listeners()
 end
 
 cm:add_first_tick_callback(init)
