@@ -5,3 +5,12 @@ wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_morale	-4.0	add
 wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_accuracy	0.75	mult
 wh_dlc04_lord_passive_aura_of_dark_majesty	stat_melee_attack	-6.0	add
 wh_dlc04_lord_passive_aura_of_dark_majesty	stat_morale	-4.0	add
+nag_neferata_abilities_mortarch_of_blood_death	stat_armour	-60.0	add
+nag_neferata_abilities_mortarch_of_blood_death	stat_melee_defence	-30.0	add
+nag_neferata_item_passive_staff_of_pain	scalar_speed	0.75	mult
+nag_neferata_item_passive_staff_of_pain	stat_melee_defence	-8.0	add
+nag_unit_contact_screaming_blade	scalar_missile_damage_ap	0.85	mult
+nag_unit_contact_screaming_blade	scalar_missile_damage_base	0.85	mult
+nag_unit_contact_screaming_blade	scalar_speed	0.85	mult
+nag_unit_contact_screaming_blade	stat_melee_damage_ap	0.85	mult
+nag_unit_contact_screaming_blade	stat_melee_damage_base	0.85	mult

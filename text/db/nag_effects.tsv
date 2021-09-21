@@ -193,9 +193,17 @@ effects_description_nag_effect_number_uses_mortarch_of_sacrements	Ability number
 effects_description_nag_effect_self_enable_ability_mortarch_of_despair	Ability: "Repair Beyond Despair"	true
 effects_description_nag_effect_self_enable_ability_armour_of_barrow	Ability: "Armour of the Barrow"	true
 effects_description_nag_effect_self_vlad_to_isabella_buff	Undying Love: %+n to Melee Attack and Melee Defence to Isabella, when she and Vlad are in the same army (UNIT SETS NOT LINKED)	true
+effects_description_nag_effect_self_neferata_enable_ability_mortarch_of_blood	Ability: "Beautiful Death"	true
+effects_description_nag_effect_self_neferata_melee_damage_vs_gullable	Weapon strength: %+n% when fighting against Elves, Humans, Dwarfs & Undead	true
+effects_description_nag_effect_self_neferata_speed_vampires	Speed: %+n% for Vampiric units	true
+effects_description_nag_effect_self_neferata_enable_ability_blood_queen	Ability: "Blood Queen"	true
+effects_description_nag_effect_self_neferata_ward_save_physical_vs_lybaras	Physical resistance: %n% for Neferata when fighting against Lybaras	true
+effects_description_nag_effect_self_neferata_melee_defence_vs_lybaras	Melee defence: %+n for Neferata when fighting against Lybaras	true
 effects_description_nag_effect_self_isabella_to_vlad_buff	Undying Love: %+n to Melee Attack and Melee Defence to Vlad, when he and Isabella are in the same army (UNIT SETS NOT LINKED)	true
 effects_description_nag_effect_self_vlad_enable_mortarch_of_shadows_aura	Ability: "Aura of Dark Grandeur"	true
 effects_description_nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	Improves "Aura of Dark Grandeur" with a penalty to enemy accuaracy and a larger area of effect	true
+effects_description_nag_effect_item_neferata_ability_dagger_of_jet	Ability: "Dagger of Jet"	true
+effects_description_nag_effect_item_neferata_ability_enable_staff_of_pain	Ability: "Staff of Pain"	true
 effects_description_nag_effect_double_spell_range_mortarch_of_night_dummy	Spell Range: %+n% to Lore of Vampires spells	true
 effects_description_nag_double_magic_lore_of_vampires_cooldown_rate	Cooldown: %+n% to Lore of Vampires spells	true
 effects_description_nag_double_vampires_enable_invocation_of_nehek	Spell: "Invocation of Nehek"	true

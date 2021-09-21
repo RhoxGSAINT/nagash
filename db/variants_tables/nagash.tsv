@@ -4,6 +4,7 @@ nag_nagash_husk		nag_nagash_husk		1.0	1.2	0.0
 nag_nagash_revenant		nag_nagash_revenant		1.0	1.2	0.0	
 nag_nagash_boss		nag_nagash_boss		1.0	4.0	0.0	
 nag_neferata		nag_neferata		1.0	1.2	0.0	
+nag_neferata_abyssal		nag_neferata_abyssal		1.0	1.2	0.0	
 nag_morghasts		nag_morghasts	hu12\bst\bst_minotaurs\low_poly\bst_minotaur_axe_axe_lowlod	1.0	1.0	0.05	
 nag_morghasts_archai		nag_morghasts_archai	hu12\bst\bst_minotaurs\low_poly\bst_minotaur_lowlod	1.0	1.1	0.05	
 nag_nagashi_guard		nag_nagashi_guard	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
@@ -17,3 +18,4 @@ nag_giant_spoop		nag_giant_spoop		1.0	1.0	0.0
 nag_abyssal_razark	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	nag_abyssal_razark		1.0	1.667	0.0	
 nag_abyssal_adevore	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	nag_abyssal_adevore		1.0	1.667	0.0	
 nag_abyssal_ashigaroth	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	nag_abyssal_ashigaroth		1.0	1.667	0.0	
+nag_bone_colossus		nag_bone_colossus		1.0	1.4	0.0	

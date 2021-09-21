@@ -88,3 +88,11 @@ unit_abilities_onscreen_name_nag_vlad_passive_mortarch_of_shadows_aura_upgrade	A
 unit_abilities_tooltip_text_nag_vlad_passive_mortarch_of_shadows_aura_upgrade	Vlad motivates his devoted followers with his majestic presence; the Lord of Undeath is without peer.	true
 unit_abilities_tooltip_text_nag_arkhan_abilities_mortarch_of_sacrements_swarm	An Unholy swarm obliterates all in its path.	true
 unit_abilities_onscreen_name_nag_arkhan_abilities_mortarch_of_sacrements_swarm	Unholy Communion	true
+unit_abilities_tooltip_text_nag_nag_neferata_abilities_mortarch_of_blood_death	Neferrata calls forth her handmaidens to swarm and envelop the target in a whirlwind of beauty and death.	true
+unit_abilities_onscreen_name_nag_neferata_abilities_mortarch_of_blood_death	Beautiful Death	true
+unit_abilities_tooltip_text_nag_neferata_passive_blood_queen	As the first Vampire, Neferata does not need to feast on the blood to revel in its pleasures, but she still does so willingly, gracefully ripping apart her victims and dancing in the red clouds that spill forth.	true
+unit_abilities_onscreen_name_nag_neferata_passive_blood_queen	Blood Queen	true
+unit_abilities_tooltip_text_nag_neferata_item_passive_staff_of_pain	This ancient staff imbues any sorceries Neferata wields with pain and torment, causing waves of crippling agony to pulse outwards.	true
+unit_abilities_onscreen_name_nag_neferata_item_passive_staff_of_pain	Staff of Pain	true
+unit_abilities_tooltip_text_nag_neferata_item_passive_dagger_of_jet	This blade has seen the blood of countless victims who have been sacrificed on its edge, their screams echoing out whenever the blade is drawn. So much pain and anguish has twisted the obsidian dagger to a point that it has developed Vampiric powers of its own.	true
+unit_abilities_onscreen_name_nag_neferata_item_passive_dagger_of_jet	Dagger of Jet	true

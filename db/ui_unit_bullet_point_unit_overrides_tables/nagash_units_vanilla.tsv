@@ -126,3 +126,7 @@ armour_piercing	nag_vanilla_cst_mon_terrorgheist
 armoured	nag_vanilla_cst_mon_terrorgheist
 regeneration	nag_vanilla_cst_mon_terrorgheist
 terror	nag_vanilla_cst_mon_terrorgheist
+anti_infantry	nag_bone_colossus
+armour_piercing	nag_bone_colossus
+cumbersome	nag_bone_colossus
+terror	nag_bone_colossus

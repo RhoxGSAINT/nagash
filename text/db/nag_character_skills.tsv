@@ -188,6 +188,18 @@ character_skills_localised_name_nag_skill_personal_krell_the_doomed_legion	The D
 character_skills_localised_description_nag_skill_personal_krell_the_doomed_legion	Commander of the Doomed Legion, raised by Nagash as Krell's personal minions, they serve in the forefront of Nagash's battles refusing to give ground, enduring, undying.	true
 character_skills_localised_name_nag_skill_personal_krell_his_will_be_done	His Will be Done	true
 character_skills_localised_description_nag_skill_personal_krell_his_will_be_done	Krell hears Nagash's ghostly voice with a clarity matched by none save Arkhan the Black, and he obey's his master without hesitation. Where Krell walks, it is Nagash's will that is done.	true
+character_skills_localised_name_nag_skill_personal_neferata_deathly_vigour	Deathly Vigour	true
+character_skills_localised_description_nag_skill_personal_neferata_deathly_vigour	If anything, this one has an even greater lust for life than they did before their death.	true
+character_skills_localised_name_nag_skill_personal_neferata_twilights_allure	Twilights Allure	true
+character_skills_localised_description_nag_skill_personal_neferata_twilights_allure	"One hundred and thirty-six of her followers have raised armies, fleets and beasts to hurl themselves against my walls. They come from north, east, south. sea, sky and sand, from the jungles and the mountains too. They pour forth in a limitless tide and they are broken on my walls."	true
+character_skills_localised_name_nag_skill_personal_neferata_queen_of_mysteries	Queen of Mysteries	true
+character_skills_localised_description_nag_skill_personal_neferata_queen_of_mysteries	Ancient, powerful, beautiful, seductive and cunning, traits that give the Queen of Mysteries advantage on the battlefied with both blade and tongue.	true
+character_skills_localised_name_nag_skill_personal_neferata_first_of_vampires	First of the Vampires	true
+character_skills_localised_description_nag_skill_personal_neferata_first_of_vampires	Queen of Lahmia and First of the Vampires, Neferata distiled an Elixer of Life which cursed her for all eternity. Neferata and her court became stricken by an unquenchable thirst for mortal blood. Lahmia became the birthplace of the Vampires.	true
+character_skills_localised_name_nag_skill_personal_neferata_grand_masquerade	The Grand Masquerade	true
+character_skills_localised_description_nag_skill_personal_neferata_grand_masquerade	"You are a greater fool than even I believed, and never shall you join my kin. We are guests at the ultimate masquerade, and your kind is simply not invited."	true
+character_skills_localised_name_nag_skill_personal_neferata_web_of_spies	Web of Spies	true
+character_skills_localised_description_nag_skill_personal_neferata_web_of_spies	"Behind every great man is a great woman. And behind those great women is me."	true
 character_skills_localised_name_nag_skill_unique_arkhan_staff_of_nagash	Staff of Nagash	true
 character_skills_localised_description_nag_skill_unique_arkhan_staff_of_nagash	Created by the Arch-Necromancer, the staff harnesses Dark Magic from deep within the accursed Black Pyramid.	true
 character_skills_localised_name_nag_skill_unique_arkhan_the_tomb_blade_of_arkhan	The Tomb Blade of Arkhan	true
@@ -228,6 +240,8 @@ character_skills_localised_name_nag_skill_mount_arkhan_skeleton_chariot	Skeleton
 character_skills_localised_description_nag_skill_mount_arkhan_skeleton_chariot	The pride of Nehekharan armies, impacting enemy lines with bone-shattering force and grinding the corpses beneath their heavy wheels.	true
 character_skills_localised_name_nag_skill_mount_mannfred_barded_nightmare	Barded Nightmare	true
 character_skills_localised_description_nag_skill_mount_mannfred_barded_nightmare	Mannfred can ride an armoured steed of defiled flesh and bone; such an abominable horse is known as a 'Nightmare'.	true
+character_skills_localised_name_nag_skill_mount_neferata_warhorse	Barded Nightmare	true
+character_skills_localised_description_nag_skill_mount_neferata_warhorse	Neferata can ride an armoured steed of defiled flesh and bone; such an abominable horse is known as a 'Nightmare'.	true
 character_skills_localised_name_nag_skill_mount_luthor_harkon_terrorgheist	Death Shriek Terrorgheist	true
 character_skills_localised_description_nag_skill_mount_luthor_harkon_terrorgheist	Harkon's personal mount is a dreadful thing indeed - a Terrorgheist with a piercing, banshee-like shriek that has the power to stun any who hear it.	true
 character_skills_localised_name_nag_skill_supreme_innate_nagash	Supreme Lord of Undeath	true

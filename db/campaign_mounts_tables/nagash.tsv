@@ -1,0 +1,5 @@
+campaign_mounts_tables	8
+model	animation_set	variant	scale	actor	ignore_rider_variant_scale	vfx_filter	banner_relative_to_mount
+nag_cam_abyssal_adevore	cam_bc2_griffon	nag_abyssal_adevore	0.5	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph	false	0	false
+nag_cam_abyssal_ashigaroth	cam_bc2_griffon	nag_abyssal_ashigaroth	0.5	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph	false	0	false
+nag_cam_abyssal_razark	cam_bc2_griffon	nag_abyssal_razark	0.5	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph	false	0	false

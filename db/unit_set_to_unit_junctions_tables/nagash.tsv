@@ -318,3 +318,22 @@ hero				nag_characters	false
 			nag_vanilla_tmb_veh_skeleton_chariot_0	nag_chariots	false
 			wh2_dlc09_tmb_cha_tomb_king_2	nag_chariots	false
 			wh2_dlc09_tmb_cha_tomb_prince_2	nag_chariots	false
+			nag_mortarch_neferata	nag_vampiric	false
+			nag_mortarch_neferata_warhorse	nag_vampiric	false
+			nag_mortarch_neferata_abyssal	nag_vampiric	false
+			nag_mortarch_vlad	nag_vampiric	false
+			nag_mortarch_mannfred	nag_vampiric	false
+			nag_mortarch_mannfred_warhorse	nag_vampiric	false
+			nag_mortarch_mannfred_abyssal	nag_vampiric	false
+			nag_mortarch_luthor	nag_vampiric	false
+			nag_mortarch_luthor_terrorgheist	nag_vampiric	false
+			wh2_dlc11_cst_cha_gunnery_wight_0	nag_vampiric	false
+			wh2_dlc11_cst_cha_gunnery_wight_1	nag_vampiric	false
+			wh_dlc05_vmp_cha_vampire_shadows_0	nag_vampiric	false
+			wh_dlc05_vmp_cha_vampire_shadows_1	nag_vampiric	false
+			wh_dlc05_vmp_cha_vampire_shadows_2	nag_vampiric	false
+			wh_main_vmp_cha_vampire_0	nag_vampiric	false
+			wh_main_vmp_cha_vampire_1	nag_vampiric	false
+			wh_main_vmp_cha_vampire_2	nag_vampiric	false
+			nag_vanilla_vmp_cav_blood_knights_0	nag_vampiric	false
+			nag_vanilla_cst_inf_depth_guard_0	nag_vampiric	false

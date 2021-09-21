@@ -1,2 +1,4 @@
 special_ability_to_auto_deactivate_flags_tables	0
 deactivate_flag	special_ability
+morale_is_broken_or_lower	nag_neferata_passive_blood_queen
+other_abilities_none_on_wind_up	nag_neferata_item_passive_staff_of_pain

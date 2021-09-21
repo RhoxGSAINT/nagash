@@ -1,0 +1,14 @@
+<VARIANT_MESH>
+	<META_DATA>equipment</META_DATA>	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1b\vmp\vmp_neferata\nag_neferata_body_new.rigid_model_v2" >
+			<META_DATA>audio_armour_type:plate</META_DATA>			<META_DATA>audio_entity_type:wh2_def_elf_female_default_LORD</META_DATA>			<META_DATA>audio_actor_id:actor_06</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="sword" attach_point="be_prop_1" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1b\vmp\vmp_neferata\nag_neferata_dagger.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:sword</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="staff" attach_point="be_prop_5" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1b\vmp\vmp_neferata\nag_neferata_staff.rigid_model_v2" >
+			<META_DATA>equipment</META_DATA>			<META_DATA>audio_melee_weapon_type:halberd</META_DATA></VARIANT_MESH>
+	</SLOT>
+</VARIANT_MESH>
