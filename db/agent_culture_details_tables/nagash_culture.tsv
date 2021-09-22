@@ -8,4 +8,4 @@ key	agent	culture	associated_unit	season	level	agent_recruited_movie	gender	icon
 909095	minister	nag_nagash			0				ui/campaign ui/agents/paladin.png	true
 909096	runesmith	nag_nagash			0				ui/campaign ui/agents/paladin.png	true
 909097	spy	nag_nagash	nag_morghasts_archai		0				ui/campaign ui/agents/paladin.png	true
-909098	wizard	nag_nagash	wh2_dlc09_tmb_cha_liche_priest_death_0		0				ui/campaign ui/agents/wh_main_wizard.png	true
+909098	wizard	nag_nagash	wh2_dlc09_tmb_cha_liche_priest_death_0		0		m		ui/campaign ui/agents/wh_main_wizard.png	true
