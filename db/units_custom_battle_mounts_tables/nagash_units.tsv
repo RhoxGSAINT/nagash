@@ -9,3 +9,5 @@ nag_mortarch_luthor	nag_mortarch_luthor_terrorgheist	ui/campaign ui/mounts/mount
 nag_mortarch_arkhan	nag_mortarch_arkhan_warhorse	ui/campaign ui/mounts/mount_skeletal_steed_tmb.png
 nag_mortarch_arkhan	nag_mortarch_arkhan_chariot	ui/campaign ui/mounts/mount_skeleton_chariot.png
 nag_mortarch_arkhan	nag_mortarch_arkhan_abyssal	ui/campaign ui/mounts/mount_skullmuncha.png
+nag_mortarch_isabella	nag_mortarch_isabella_hellsteed	ui/campaign ui/mounts/mount_hellsteed.png
+nag_mortarch_isabella	nag_mortarch_isabella_warhorse	ui/campaign ui/mounts/mount_barded_nightmare.png

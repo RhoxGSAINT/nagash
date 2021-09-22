@@ -269,6 +269,9 @@ hero				nag_characters	false
 			nag_mortarch_vlad	vmp_all	false
 			nag_mortarch_vlad	vmp_dlc04_all_characters	false
 			nag_mortarch_vlad	wh_pro02_isabella_extra_upkeep	false
+			nag_mortarch_isabella	vmp_dlc04_all_characters	false
+			nag_mortarch_isabella_hellsteed	vmp_dlc04_all_characters	false
+			nag_mortarch_isabella_warhorse	vmp_dlc04_all_characters	false
 			nag_mortarch_mannfred	vmp_all	false
 			nag_mortarch_mannfred	vmp_characters	false
 			nag_mortarch_mannfred	vmp_dlc04_all_characters	false

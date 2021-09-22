@@ -8,7 +8,7 @@ nag_skill_node_set_mortarch_luthor	general				false	false	nag_mortarch_luthor
 nag_skill_node_set_mortarch_neferata	general				false	false	nag_mortarch_neferata
 nag_skill_node_set_mortarch_mannfred	general				false	false	nag_mortarch_mannfred
 nag_skill_node_set_mortarch_vlad	general				false	false	nag_mortarch_vlad
-nag_skill_node_set_isabella	general				false	false	nag_isabella
+nag_skill_node_set_isabella	dignitary				false	false	nag_mortarch_isabella
 nag_skill_node_set_traitor_kings	general				false	false	nag_traitor_king
 wh2_dlc09_skill_node_set_tmb_tomb_prince	champion				false	false	nag_tomb_prince
 wh2_dlc09_skill_node_set_tmb_liche_priest_death	wizard				false	false	nag_liche_priest_death

@@ -114,6 +114,8 @@ nag_skill_unique_mannfred_sword_of_unholy_power	item_weapon.png	 	Sword of Unhol
 nag_skill_unique_neferatal_dagger_of_jet	item_weapon.png		Dagger of Jet	8	false	false	false	0.0	0
 nag_skill_unique_neferatal_staff_of_pain	item_arcane_item.png		Staff of Pain	12	false	false	false	0.0	0
 nag_skill_unique_isabella_blood_chalice_of_bathori	item_talisman.png	The life essence of many wretched, innocent smallfolk ensures that those who drink from this cursed cup thrive with newfound power.	Blood Chalice of Bathori	8	false	false	false	0.0	0
+nag_skill_mount_isabella_barded_nightmare	mount_barded_nightmare.png	The most impressive Nightmares are those reared on fresh blood. Such noble monstrosities are worthy mounts.	Barded Nightmare	7	false	false	false	0.0	0
+nag_skill_mount_isabella_hellsteed	mount_hellsteed.png	"To me, my winged steed of bone and flesh; let us fly and remake the world together!"	Hellsteed	9	false	false	false	0.0	0
 nag_skill_mount_arkhan_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
 nag_skill_mount_arkhan_skeleton_chariot	mount_skeleton_chariot.png	The pride of Nehekharan armies, impacting enemy lines with bone-shattering force and grinding the corpses beneath their heavy wheels.	Skeleton Chariot	13	false	false	false	0.0	0
 nag_skill_mount_arkhan_abyssal	mount_skullmuncha.png		Razark, The Doom of Traitors	17	false	false	false	0.0	0

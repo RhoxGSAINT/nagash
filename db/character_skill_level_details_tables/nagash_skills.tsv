@@ -10,6 +10,8 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_mount_luthor_harkon_terrorgheist		x	16
 		1	nag_skill_unique_luthor_slann_gold		x	13
 		1	nag_skill_unique_isabella_blood_chalice_of_bathori		x	7
+		1	nag_skill_mount_isabella_barded_nightmare		x	7
+		1	nag_skill_mount_isabella_hellsteed		x	9
 		1	nag_skill_mount_arkhan_skeletal_steed		x	5
 		1	nag_skill_mount_arkhan_skeleton_chariot		x	12
 		1	nag_skill_mount_arkhan_abyssal		x	16

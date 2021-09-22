@@ -16,4 +16,24 @@ nag_traitor_king_02	general			nag_nagash	false	true	nag_traitor_king	1.0
 nag_traitor_king_03	general			nag_nagash	false	true	nag_traitor_king	1.0
 nag_traitor_king_04	general			nag_nagash	false	true	nag_traitor_king	1.0
 nag_traitor_king_05	general			nag_nagash	false	true	nag_traitor_king	1.0
-nag_morghast_archai	champion			nag_nagash	false	true	nag_morghast_archai	1.0
+nag_mortarch_isabella	dignitary			nag_nagash	false	true	nag_mortarch_isabella	1.0
+nag_tomb_prince_01	champion	nag_nagash			false	true	nag_tomb_prince	1.0
+nag_tomb_prince_02	champion	nag_nagash			false	true	nag_tomb_prince	1.0
+nag_tomb_prince_03	champion	nag_nagash			false	true	nag_tomb_prince	1.0
+nag_tomb_prince_04	champion	nag_nagash			false	true	nag_tomb_prince	1.0
+nag_tomb_prince_05	champion	nag_nagash			false	true	nag_tomb_prince	1.0
+nag_liche_priest_01	wizard	nag_nagash			false	true		1.0
+nag_liche_priest_02	wizard	nag_nagash			false	true		1.0
+nag_liche_priest_03	wizard	nag_nagash			false	true		1.0
+nag_liche_priest_04	wizard	nag_nagash			false	true		1.0
+nag_liche_priest_05	wizard	nag_nagash			false	true		1.0
+nag_vampire_01	dignitary	nag_nagash			false	false		1.0
+nag_vampire_02	dignitary	nag_nagash			false	false		1.0
+nag_vampire_03	dignitary	nag_nagash			false	false		1.0
+nag_wight_king_01	champion	nag_nagash			false	true	nag_wight_king	1.0
+nag_wight_king_02	champion	nag_nagash			false	true	nag_wight_king	1.0
+nag_wight_king_03	champion	nag_nagash			false	true	nag_wight_king	1.0
+nag_wight_king_04	champion	nag_nagash			false	true	nag_wight_king	1.0
+nag_gunnery_wight_01	engineer	nag_nagash			false	true	nag_gunnery_wight	1.0
+nag_gunnery_wight_02	engineer	nag_nagash			false	true	nag_gunnery_wight	1.0
+nag_morghasts_archai	spy	nag_nagash			false	true	nag_morghasts_archai	1.0

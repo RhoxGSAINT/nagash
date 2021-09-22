@@ -8,6 +8,7 @@ nag_mortarch_vlad	false	true		nag_mortarch_vlad	wh_dlc04_vo_actor_Vampire_dlc04_
 nag_mortarch_mannfred	false	true		nag_mortarch_mannfred	wh_main_vo_actor_Vampire_MannfredVonCarstein	false	-1	false	true	false	false	legendary_lords			false
 nag_mortarch_luthor	false	false		nag_mortarch_luthor	wh2_dlc11_vo_actor_VampireCoast_Luthor_Harkon	false	-1	false	true	false	false	legendary_lords			false
 nag_mortarch_arkhan	false	true		nag_mortarch_arkhan	wh2_dlc09_vo_actor_Tomb_Kings_Arkhan	false	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_isabella	true	true		nag_mortarch_isabella	wh_pro02_vo_actor_Vampire_Isabella_Von_Carstein	true	1	false	true	false	false				false
 nag_traitor_king	true	false		wh2_dlc09_tmb_cha_tomb_king_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	true	-1	false	true	false	true	tmb_tomb_king			false
 nag_tomb_prince	true	false		wh2_dlc09_tmb_cha_tomb_prince_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Prince	true	-1	false	true	false	true				false
 nag_liche_priest_death	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh2_dlc09_tmb_cha_liche_priest_death_0	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	true				false
@@ -18,5 +19,4 @@ nag_vampire	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh_main_vmp_c
 nag_vampire_shadow	true	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	wh_dlc05_vmp_cha_vampire_shadows_0	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	true	true	false	true				false
 nag_wight_king	true	false	ui/campaign ui/agents/wh_main_vmp_champion.png	wh_main_vmp_cha_wight_king_0	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false
 nag_gunnery_wight	true	false		wh2_dlc11_cst_cha_gunnery_wight_0	wh2_dlc11_vo_actor_VampireCoast_Gunnery_Wight	true	-1	false	true	false	true				false
-nag_morghast_archai	true	false	ui/campaign ui/agents/paladin.png	nag_morghasts_archai	wh_dlc05_vo_actor_grn_cha_snorko_one_finger	true	-1	false	true	false	true				false
-nag_isabella	false	true		wh_pro02_vmp_cha_isabella_von_carstein_0	wh_pro02_vo_actor_Vampire_Isabella_Von_Carstein	true	-1	false	true	false	true				false
+nag_morghasts_archai	true	false	ui/campaign ui/agents/paladin.png	nag_morghasts_archai	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false
