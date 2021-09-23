@@ -19,4 +19,4 @@ nag_vampire	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh_main_vmp_c
 nag_vampire_shadow	true	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	wh_dlc05_vmp_cha_vampire_shadows_0	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	true	true	false	true				false
 nag_wight_king	true	false	ui/campaign ui/agents/wh_main_vmp_champion.png	wh_main_vmp_cha_wight_king_0	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false
 nag_gunnery_wight	true	false		wh2_dlc11_cst_cha_gunnery_wight_0	wh2_dlc11_vo_actor_VampireCoast_Gunnery_Wight	true	-1	false	true	false	true				false
-nag_morghasts_archai	true	false	ui/campaign ui/agents/paladin.png	nag_morghasts_archai	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false
+nag_morghasts_archai	true	false	ui/campaign ui/agents/wh2_main_lzd_champion.png	nag_morghasts_archai	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false
