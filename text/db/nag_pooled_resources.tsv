@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_pooled_resources.loc
 pooled_resources_display_name_nag_souls	[PH] Souls Resource	false
 pooled_resources_positive_factors_display_name_nag_souls	[PH] Gained	false
 pooled_resources_negative_factors_display_name_nag_souls	[PH] Spent	false

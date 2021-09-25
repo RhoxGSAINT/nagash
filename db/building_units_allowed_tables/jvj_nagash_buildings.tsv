@@ -1,5 +1,5 @@
-building_units_allowed_tables	4
 key	building	unit	xp	conditions	faction	enabled
+#building_units_allowed_tables	4	db/building_units_allowed_tables/jvj_nagash_buildings
 8426830	nag_bpyramid_main_1	nag_vanilla_tmb_inf_skeleton_spearmen_0	0	0		false
 8426831	nag_bpyramid_main_1	nag_vanilla_tmb_inf_skeleton_warriors_0	0	0		false
 8426832	nag_bpyramid_main_2	nag_vanilla_tmb_inf_skeleton_archers_0	0	0		false

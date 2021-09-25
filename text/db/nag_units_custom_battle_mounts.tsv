@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_units_custom_battle_mounts.loc
 units_custom_battle_mounts_mount_name_nag_mortarch_mannfrednag_mortarch_mannfred_warhorse	Barded Nightmare	true
 units_custom_battle_mounts_localised_description_nag_mortarch_mannfrednag_mortarch_mannfred_warhorse	Covered in heavy barding and spikes, to tear the flesh of their foes.	true
 units_custom_battle_mounts_mount_name_nag_mortarch_luthornag_mortarch_luthor_terrorgheist	Death Shriek Terrorgheist	true

@@ -1,5 +1,5 @@
-units_to_groupings_military_permissions_tables	0
 unit	military_group
+#units_to_groupings_military_permissions_tables	0	db/units_to_groupings_military_permissions_tables/nagash_units
 nag_bone_golems	nag_nagash
 nag_bone_thrower	nag_nagash
 nag_carrion_riders	nag_nagash

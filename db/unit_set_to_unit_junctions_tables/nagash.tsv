@@ -1,5 +1,5 @@
-unit_set_to_unit_junctions_tables	0
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables	0	db/unit_set_to_unit_junctions_tables/nagash
 			nag_vanilla_vmp_mon_fell_bats	nag_bats_unit_set	false
 			nag_morghasts	nag_morghasts_unit_set	false
 			nag_morghasts_archai	nag_morghasts_unit_set	false

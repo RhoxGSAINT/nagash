@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables	3	db/effects_tables/nagash_skills
 nag_effect_army_ranged_ammo_skill	ammo.png	1	ammo.png	campaign	true
 nag_effect_army_ranged_missile_strength_skill	ranged_damage.png	2	raned_damage.png	campaign	true
 nag_effect_army_infantry_armour_skill	armour.png	1	armour.png	campaign	true

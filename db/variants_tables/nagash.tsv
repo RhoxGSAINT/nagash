@@ -1,5 +1,5 @@
-variants_tables	6
 variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
+#variants_tables	6	db/variants_tables/nagash
 nag_nagash_husk		nag_nagash_husk		1.0	1.2	0.0	
 nag_nagash_revenant		nag_nagash_revenant		1.0	1.2	0.0	
 nag_nagash_boss		nag_nagash_boss		1.0	4.0	0.0	

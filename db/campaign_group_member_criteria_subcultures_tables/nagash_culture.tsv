@@ -1,5 +1,5 @@
-campaign_group_member_criteria_subcultures_tables	0
 member	subculture
+#campaign_group_member_criteria_subcultures_tables	0	db/campaign_group_member_criteria_subcultures_tables/nagash_culture
 nagash_do_nothing	nag_nagash
 nagash_raze_without_occupy	nag_nagash
 nagash_sack	nag_nagash

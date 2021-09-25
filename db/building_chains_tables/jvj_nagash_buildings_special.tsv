@@ -1,5 +1,5 @@
-building_chains_tables	6
 key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+#building_chains_tables	6	db/building_chains_tables/jvj_nagash_buildings_special
 nag_settlement_cavalry			military	false	nag_sch_settlement_cavalry		2	
 nag_settlement_chariots			military	false	nag_sch_settlement_chariots		0	
 nag_settlement_citadel			military	false	nag_sch_settlement_citadel		13	

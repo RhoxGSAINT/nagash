@@ -1,5 +1,5 @@
-special_ability_groups_tables	9
 ability_group	icon_path	special_edition_mask	sort_order	is_naval	colour_r	colour_g	colour_b	button_name	sound_event	is_composite_group	show_lore_icon
+#special_ability_groups_tables	9	db/special_ability_groups_tables/nagash
 wh2_main_lore_nagash	UI\Battle UI\ability_icons\wh2_main_lore_passive_spiteful_conjuration.png	0	0	false	135	25	131	lore_fire_magic	Play_WH_UI_Ability_Click_Generic_Death	false	true
 wh2_main_lore_nagash_death_vamp	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	97	91	87	lore_death	Play_WH_UI_Ability_Click_Generic_Light	true	false
 wh2_main_lore_nagash_nehek_light	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	97	91	87	lore_death	Play_WH_UI_Ability_Click_Generic_Light	true	false

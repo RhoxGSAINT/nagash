@@ -1,5 +1,5 @@
-particle_effects_tables	0
 key
+#particle_effects_tables	0	db/particle_effects_tables/nagash
 belisarians_nagash_fist_projectile
 belisarians_nagash_dark_breath
 belisarians_nagash_floating_blyramid

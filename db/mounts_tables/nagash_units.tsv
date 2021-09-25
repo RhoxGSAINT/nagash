@@ -1,5 +1,5 @@
-mounts_tables	10
 key	animation	entity	audio_armour_type	variant	voiceover
+#mounts_tables	10	db/mounts_tables/nagash_units
 nag_carrion_riders	bi1b_carrion	wh2_dlc09_tmb_flying_carrion	body	cr_nag_carrion_mount	wh2_dlc09_vo_culture_Carrion
 nag_lon_mortis_sphinx	bc1_warsphinx	cr_lon_mon_mortis_sphinx	bone	nag_lon_mortis_sphinx	vo_culture_None
 nag_abyssal_razark	bc2_griffon	wh_main_flying_griffon_blood	plate	nag_abyssal_razark	wh_main_vo_culture_Griffin_DemiGryph_Hippogryph

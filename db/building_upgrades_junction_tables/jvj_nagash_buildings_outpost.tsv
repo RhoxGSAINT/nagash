@@ -1,5 +1,5 @@
-building_upgrades_junction_tables	0
 from	to
+#building_upgrades_junction_tables	0	db/building_upgrades_junction_tables/jvj_nagash_buildings_outpost
 nag_outpost_primary_main_ruin	nag_outpost_primary_main_1
 nag_outpost_primary_main_1	nag_outpost_primary_main_2
 nag_outpost_primary_main_2	nag_outpost_primary_main_3

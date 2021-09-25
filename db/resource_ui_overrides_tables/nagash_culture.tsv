@@ -1,5 +1,5 @@
-resource_ui_overrides_tables	0
 override_faction	override_subculture	source_resource	target_resource
+#resource_ui_overrides_tables	0	db/resource_ui_overrides_tables/nagash_culture
 	nag_nagash	res_location_brt_wef_hef	
 	nag_nagash	res_location_brt	
 	nag_nagash	res_location_def	

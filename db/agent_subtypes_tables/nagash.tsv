@@ -1,5 +1,5 @@
-agent_subtypes_tables	19
 key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	audio_vo_culture_override	spam_click_vo_enabled
+#agent_subtypes_tables	19	db/agent_subtypes_tables/nagash
 nag_nagash_boss	false	true		nag_nagash_boss	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	false	-1	false	true	false	false	legendary_lords			false
 nag_nagash_husk	false	true		nag_nagash_husk	wh_main_vo_actor_Vampire_MasterNecromancer	false	-1	false	true	false	false	legendary_lords			false
 nag_mortarch_neferata	false	true		nag_mortarch_neferata	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	false	true	false	false	legendary_lords			false

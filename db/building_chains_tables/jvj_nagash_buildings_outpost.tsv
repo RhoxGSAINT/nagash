@@ -1,5 +1,5 @@
-building_chains_tables	6
 key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+#building_chains_tables	6	db/building_chains_tables/jvj_nagash_buildings_outpost
 nag_outpost_primary_main			military	false	wh_main_sch_settlement_major	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
 nag_outpost_primary_main_coast			military	false	wh_main_sch_settlement_major_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
 nag_outpost_secondary_main			military	false	wh_main_sch_settlement_minor	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	

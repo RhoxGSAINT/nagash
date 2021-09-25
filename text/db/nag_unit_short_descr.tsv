@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_unit_short_descr.loc
 unit_description_short_texts_text_		false
 unit_description_short_texts_text_nag_nagash_husk	I am back!	false
 unit_description_short_texts_text_nag_nagash_revenant	nag_nagash_revenant	false

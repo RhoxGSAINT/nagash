@@ -1,5 +1,5 @@
-building_effects_junction_tables	3
 building	effect	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables	3	db/building_effects_junction_tables/jvj_nagash_buildings_special
 nag_settlement_cavalry_1	nag_effect_unit_cap_skeleton_horsemen_0	building_to_faction_own	2.0	2.0	0.0
 nag_settlement_cavalry_1	nag_effect_unit_cap_skeleton_horsemen_archers_0	building_to_faction_own	2.0	2.0	0.0
 nag_settlement_cavalry_2	nag_effect_unit_cap_nehekhara_horsemen_0	building_to_faction_own	1.0	1.0	0.0

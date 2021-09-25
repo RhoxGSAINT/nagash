@@ -1,5 +1,5 @@
-military_force_types_tables	4
 key
+#military_force_types_tables	4	db/military_force_types_tables/natasha_horde
 nag_bp_horde
 nag_husk_horde
 nag_arkhan_horde

@@ -1,5 +1,5 @@
-building_chains_tables	6
 key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+#building_chains_tables	6	db/building_chains_tables/jvj_nagash_buildings_horde
 nag_bpyramid_main			military	false	nag_bpyramid_main	data\UI\Buildings\tier_icons\tier_coast_ship.png	0	
 nag_bpyramid_main_obelisk			military	false	nag_bpyramid_main_obelisk		1	nag_nagash_boss
 nag_bpyramid_ew1_barracks			military	false	nag_bpyramid_ew1_barracks		1	nag_nagash_boss

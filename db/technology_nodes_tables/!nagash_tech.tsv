@@ -1,5 +1,5 @@
-technology_nodes_tables	3
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost
+#technology_nodes_tables	3	db/technology_nodes_tables/!nagash_tech
 nag_arkhan_battle_1			5	nag_arkhan_battle_1	nagash_tech	1	200	0	0		
 nag_arkhan_battle_2			6	nag_arkhan_battle_2	nagash_tech	1	200	0	0		
 nag_arkhan_battle_3			7	nag_arkhan_battle_3	nagash_tech	1	200	0	0		

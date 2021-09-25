@@ -1,5 +1,5 @@
-technologies_tables	5
 key	building_level	position_index	icon_name	military_prestige	naval_prestige	economic_prestige	enlightenment_prestige	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
+#technologies_tables	5	db/technologies_tables/nagash_tech
 nag_nagash_1	wh_main_chs_port	1	wh_main_chs_skulls_for_the_skull_throne	0	0	0	0	false	false	"placeholder.tga"	1486766531	false	false	true
 nag_nagash_2	wh_main_chs_port	1	wh_main_chs_skulls_for_the_skull_throne	0	0	0	0	false	false	"placeholder.tga"	1486766532	false	false	true
 nag_nagash_3	wh_main_chs_port	1	wh_main_chs_skulls_for_the_skull_throne	0	0	0	0	false	false	"placeholder.tga"	1486766533	false	false	true

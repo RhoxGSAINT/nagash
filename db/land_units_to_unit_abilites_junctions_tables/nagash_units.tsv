@@ -1,5 +1,5 @@
-land_units_to_unit_abilites_junctions_tables	0
 ability	land_unit
+#land_units_to_unit_abilites_junctions_tables	0	db/land_units_to_unit_abilites_junctions_tables/nagash_units
 wh_main_unit_passive_unstable	nag_nagash_husk
 wh_main_unit_passive_unstable	nag_nagash_revenant
 wh_main_unit_passive_unstable	nag_nagash_boss

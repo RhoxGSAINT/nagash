@@ -1,5 +1,5 @@
-campaign_building_chain_slot_unlocks_tables	1
 building_chain	level	active_slot_count
+#campaign_building_chain_slot_unlocks_tables	1	db/campaign_building_chain_slot_unlocks_tables/jvj_nagash_buildings
 nag_outpost_primary_main_coast	1	2
 nag_outpost_secondary_main_coast	1	2
 nag_outpostnorsca_primary_main_coast	1	2

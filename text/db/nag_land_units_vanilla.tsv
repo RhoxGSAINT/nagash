@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_land_units_vanilla.loc
 land_units_onscreen_name_nag_vanilla_tmb_inf_skeleton_archers_0	Skeleton Archers	true
 land_units_onscreen_name_nag_vanilla_tmb_inf_skeleton_spearmen_0	Skeleton Spearmen	true
 land_units_onscreen_name_nag_vanilla_tmb_inf_skeleton_warriors_0	Skeleton Warriors	true

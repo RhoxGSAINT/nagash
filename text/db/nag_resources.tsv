@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_resources.loc
 resources_onscreen_text_res_nag_coast_ui	Watery Graves	true
 resources_description_res_nag_coast_ui	This area contains the remians of the drownded dead; establish an outpost here to recruit local Coast units into your armies.	true
 resources_long_description_res_nag_coast_ui	 	true

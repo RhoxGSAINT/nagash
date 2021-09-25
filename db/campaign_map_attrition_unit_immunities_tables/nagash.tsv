@@ -1,5 +1,5 @@
-campaign_map_attrition_unit_immunities_tables	0
 attrition	unit
+#campaign_map_attrition_unit_immunities_tables	0	db/campaign_map_attrition_unit_immunities_tables/nagash
 desert	nag_carrion_riders
 non_vampire_territory	nag_carrion_riders
 vampire_territory	nag_carrion_riders

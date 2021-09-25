@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_agent_subtypes__.loc
 agent_subtypes_onscreen_name_override_nag_nagash_boss	Nagash	true
 agent_subtypes_description_text_override_nag_nagash_boss	Spooky Scary Skeleton [PH]	true
 agent_subtypes_onscreen_name_override_nag_nagash_husk	Nagash	true

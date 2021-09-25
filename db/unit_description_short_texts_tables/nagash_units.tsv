@@ -1,5 +1,5 @@
-unit_description_short_texts_tables	0
 key
+#unit_description_short_texts_tables	0	db/unit_description_short_texts_tables/nagash_units
 nag_nagash_husk
 nag_nagash_revenant
 nag_nagash_boss

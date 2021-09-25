@@ -1,5 +1,5 @@
-building_downgrade_junctions_tables	0
 from	to
+#building_downgrade_junctions_tables	0	db/building_downgrade_junctions_tables/jvj_nagash_buildings
 nag_bpyramid_main_1	nag_bpyramid_main_1
 nag_bpyramid_main_2	nag_bpyramid_main_2
 nag_bpyramid_main_3	nag_bpyramid_main_3

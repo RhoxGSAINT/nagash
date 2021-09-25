@@ -1,5 +1,5 @@
-building_culture_variants_tables	4
 building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables	4	db/building_culture_variants_tables/jvj_nagash_buildings_outpost
 nag_outpost_primary_main_ruin				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
 nag_outpost_primary_main_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
 nag_outpost_primary_main_2				wh_main_PLACEHOLDER	tmb_settlement	false	%placeholder%	true

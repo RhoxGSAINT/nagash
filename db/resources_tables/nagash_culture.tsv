@@ -1,5 +1,5 @@
-resources_tables	5
 key	unit	trade_value	icon_filepath	strategic_value	in_encyclopedia	show_on_city_infobar
+#resources_tables	5	db/resources_tables/nagash_culture
 res_nag_coast		0		0	false	true
 res_nag_counts		0		0	false	true
 res_nag_nagash		0		0	false	true

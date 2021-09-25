@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_occupation.loc
 culture_settlement_occupation_options_tooltip_909090	PH Do Nothing PH	true
 culture_settlement_occupation_options_tooltip_909091	[PH] Raze	true
 culture_settlement_occupation_options_tooltip_909092	[PH] Sack	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_building_sets.loc
 building_sets_onscreen_name_nag_bpyramid_new_horde	[PH]	true
 building_sets_onscreen_description_nag_bpyramid_new_horde	[PH]	true
 building_sets_onscreen_name_nag_bpyramid_hidden	OwO	true

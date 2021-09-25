@@ -1,5 +1,5 @@
-ancillary_to_included_agents_tables	0
 ancillary	agent
+#ancillary_to_included_agents_tables	0	db/ancillary_to_included_agents_tables/nagash
 nag_anc_mount_mannfred_abyssal	general
 nag_anc_mount_arkhan_abyssal	general
 nag_anc_mount_neferata_abyssal	general

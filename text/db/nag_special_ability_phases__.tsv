@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_special_ability_phases__.loc
 special_ability_phases_onscreen_name_wh_main_spell_nagash_abyssal_swarm_upgrade	[[col:red]][[img:icon_speed]][[/img]]Swarmed by Bats[[/col]]	true
 special_ability_phases_onscreen_name_nag_unit_passive_mortal_realm_of_souls	[PH]	true
 special_ability_phases_onscreen_name_wh_dlc04_lord_passive_aura_of_dark_majesty	Aura of Dark Grandeur	true

@@ -1,5 +1,5 @@
-Loc PackedFile	1
 key	text	tooltip
+#Loc PackedFile	1	text/db/nag_building_culture_variants.loc
 building_culture_variants_name_nag_outpost_primary_main_ruin	Wasteland	true
 building_culture_variants_name_nag_outpost_primary_main_1	Open Graves	true
 building_culture_variants_name_nag_outpost_primary_main_2	Crypts	true

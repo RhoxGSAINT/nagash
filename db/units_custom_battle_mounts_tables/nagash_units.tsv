@@ -1,5 +1,5 @@
-units_custom_battle_mounts_tables	1
 base_unit	mounted_unit	icon_name
+#units_custom_battle_mounts_tables	1	db/units_custom_battle_mounts_tables/nagash_units
 nag_nagash_husk	nag_nagash_boss	
 nag_mortarch_neferata	nag_mortarch_neferata_warhorse	ui/campaign ui/mounts/mount_barded_nightmare.png
 nag_mortarch_neferata	nag_mortarch_neferata_abyssal	ui/campaign ui/mounts/mount_skullmuncha.png

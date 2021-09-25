@@ -1,4 +1,4 @@
-unit_variants_colours_tables	5
 key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	unit_variant	subculture
+#unit_variants_colours_tables	5	db/unit_variants_colours_tables/nagash
 666301190		100	50	0	30	30	30	soldier	0	0	0	nag_nagashi_guard	
 666301191		100	50	0	30	30	30	soldier	0	0	0	nag_nagashi_guard_halb	

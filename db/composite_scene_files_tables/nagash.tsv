@@ -1,5 +1,5 @@
-composite_scene_files_tables	0
 scene_filepath
+#composite_scene_files_tables	0	db/composite_scene_files_tables/nagash
 composite_scene/spells_and_abilities/nagash_soul_stealer.csc
 composite_scene/spells_and_abilities/abyss_hounds.csc
 composite_scene/spells_and_abilities/abyss_bats.csc

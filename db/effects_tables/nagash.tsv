@@ -1,5 +1,5 @@
-effects_tables	3
 effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables	3	db/effects_tables/nagash
 nag_effect_patrol_dummy	hunter_effect_icons_wanted_level.png	1	hunter_effect_icons_wanted_level.png	campaign	true
 nag_effect_warpstone_token	icon_ritual_currency_skv_bundle.png	1	icon_ritual_currency_skv_bundle.png	campaign	true
 nag_effect_horde_growth	growth.png	140	growth.png	campaign	true
