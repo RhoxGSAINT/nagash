@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_character_skills.loc
+#Loc PackedFile;1;text/db/nag_character_skills.loc		
 character_skills_localised_name_nag_skill_army_buff_ranged	Ranged Buff [PH]	true
 character_skills_localised_description_nag_skill_army_buff_ranged	[PH]	true
 character_skills_localised_name_nag_skill_army_buff_infantry	Infantry Buff [PH]	true

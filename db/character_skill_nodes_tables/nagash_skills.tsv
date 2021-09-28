@@ -1,5 +1,5 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables	5	db/character_skill_nodes_tables/nagash_skills
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/nagash_skills										
 nag_skill_supreme_innate_nagash		nag_skill_supreme_innate_nagash	nag_skill_node_set_nagash_boss		6.0	0.0		0	0	true
 nag_skill_supreme_nagash_unique_0		nag_skill_unique_nagash_morikhane	nag_skill_node_set_nagash_boss		0.0	0.0		0	0	true
 nag_skill_supreme_nagash_unique_1		nag_skill_unique_nagash_mortis	nag_skill_node_set_nagash_boss		0.0	1.0		0	0	true

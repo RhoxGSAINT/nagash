@@ -1,5 +1,5 @@
 key	icon	sort_order	colour_r	colour_g	colour_b
-#building_sets_tables	3	db/building_sets_tables/jvj_nagash_buildings
+#building_sets_tables;3;db/building_sets_tables/jvj_nagash_buildings					
 nag_bpyramid_new_horde	placeholder	0	255	255	255
 nag_bpyramid_hidden	placeholder	0	0	0	0
 nag_bpyramid_settlement	placeholder	4	62	61	56

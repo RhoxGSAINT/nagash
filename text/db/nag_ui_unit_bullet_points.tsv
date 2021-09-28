@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_ui_unit_bullet_points.loc
+#Loc PackedFile;1;text/db/nag_ui_unit_bullet_points.loc		
 ui_unit_bullet_point_enums_onscreen_name_		true
 ui_unit_bullet_point_enums_tooltip_		true
 ui_unit_bullet_point_enums_onscreen_name_nag_morghasts	Heralds of the Accursed One	true

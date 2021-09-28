@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_technologies.loc
+#Loc PackedFile;1;text/db/nag_technologies.loc		
 technologies_onscreen_name_nag_01	Clear the Basement	false
 technologies_short_description_nag_01	[PH]	false
 technologies_onscreen_name_nag_02	Summon Legions	false

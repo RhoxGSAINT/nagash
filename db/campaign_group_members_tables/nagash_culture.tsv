@@ -1,5 +1,5 @@
 id	group	priority
-#campaign_group_members_tables	1	db/campaign_group_members_tables/nagash_culture
+#campaign_group_members_tables;1;db/campaign_group_members_tables/nagash_culture		
 nagash_feature	nagash_feature	0.0
 nagash_do_nothing	nagash_do_nothing	0.0
 nagash_raze_without_occupy	nagash_raze_without_occupy	0.0

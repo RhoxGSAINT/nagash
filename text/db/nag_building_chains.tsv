@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_building_chains.loc
+#Loc PackedFile;1;text/db/nag_building_chains.loc		
 building_chains_chain_tooltip_nag_bpyramid_main	Core Chambers of the Black Pyramid	true
 building_chains_chain_tooltip_nag_bpyramid_ew2_mortuary	Chambers of the Spirits	true
 building_chains_chain_tooltip_nag_bpyramid_ew1_barracks	Chambers of the Beasts	true

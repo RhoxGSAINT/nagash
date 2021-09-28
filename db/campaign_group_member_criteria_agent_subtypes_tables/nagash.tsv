@@ -1,5 +1,5 @@
 member	agent_subtype
-#campaign_group_member_criteria_agent_subtypes_tables	0	db/campaign_group_member_criteria_agent_subtypes_tables/nagash
+#campaign_group_member_criteria_agent_subtypes_tables;0;db/campaign_group_member_criteria_agent_subtypes_tables/nagash	
 nagash_bp_horde	nag_nagash_boss
 nagash_husk_horde	nag_nagash_husk
 nagash_arkhan_horde	nag_mortarch_arkhan

@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_agent_culture_details.loc
+#Loc PackedFile;1;text/db/nag_agent_culture_details.loc		
 agent_culture_details_onscreen_name_909090	Tomb Prince	true
 agent_culture_details_description_text_909090	Tomb Princes are the sons of the Tomb Kings. Each of the kings of ancient Nehekhara had many heirs, but only one could succeed his father to the throne.	true
 agent_culture_details_onscreen_name_909091		true

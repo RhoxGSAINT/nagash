@@ -1,5 +1,5 @@
 key	officer_1	officer_2	standard_bearer_1	standard_bearer_2	musician_1	musician_2	personality_location	additional_personalities
-#land_units_officers_tables	4	db/land_units_officers_tables/nagash_units
+#land_units_officers_tables;4;db/land_units_officers_tables/nagash_units								
 nag_mortis_engine							front	nag_mortis_engine
 nag_carrion_wraiths	nag_carrion_wraiths						front	
 nag_neferata_abyssal	nag_neferata_abyssal						front	

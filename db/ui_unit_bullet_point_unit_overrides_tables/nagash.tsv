@@ -1,5 +1,5 @@
 bullet_point	unit_key
-#ui_unit_bullet_point_unit_overrides_tables	0	db/ui_unit_bullet_point_unit_overrides_tables/nagash
+#ui_unit_bullet_point_unit_overrides_tables;0;db/ui_unit_bullet_point_unit_overrides_tables/nagash	
 meat_shield	nag_inf_zombie_construct
 damage_dealer	nag_inf_crypt_ghouls_construct
 poison	nag_inf_crypt_ghouls_construct

@@ -1,5 +1,5 @@
 building	effect	effect_scope	value	value_damaged	value_ruined
-#building_effects_junction_tables	3	db/building_effects_junction_tables/jvj_nagash_buildings_horde
+#building_effects_junction_tables;3;db/building_effects_junction_tables/jvj_nagash_buildings_horde					
 nag_bpyramid_main_1	nag_effect_horde_growth	force_to_force_own	3.0	3.0	0.0
 nag_bpyramid_main_1	wh_main_effect_force_all_recruitment_points	force_to_force_own	4.0	2.0	0.0
 nag_bpyramid_main_1	wh_main_effect_religion_conversion_undeath	force_to_character_own_provincetext	2.0	1.0	0.0

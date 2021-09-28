@@ -1,5 +1,5 @@
 building	effect	effect_scope	value	value_damaged	value_ruined
-#building_effects_junction_tables	3	db/building_effects_junction_tables/jvj_nagash_buildings_outpost
+#building_effects_junction_tables;3;db/building_effects_junction_tables/jvj_nagash_buildings_outpost					
 nag_outpost_primary_main_1	wh_main_effect_religion_conversion_undeath	region_to_region_own	4.0	1.0	1.0
 nag_outpost_primary_main_1	wh_main_effect_religion_osmosis_undeath	region_to_province_own	2.0	1.0	0.0
 nag_outpost_primary_main_1	wh_main_effect_economy_gdp_culture	building_to_building_own	100.0	50.0	0.0

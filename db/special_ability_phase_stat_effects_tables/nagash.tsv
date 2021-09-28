@@ -1,5 +1,5 @@
 phase	stat	value	how
-#special_ability_phase_stat_effects_tables	3	db/special_ability_phase_stat_effects_tables/nagash
+#special_ability_phase_stat_effects_tables;3;db/special_ability_phase_stat_effects_tables/nagash			
 wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_melee_attack	-6.0	add
 wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_morale	-4.0	add
 wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_accuracy	0.75	mult
@@ -14,3 +14,7 @@ nag_unit_contact_screaming_blade	scalar_missile_damage_base	0.85	mult
 nag_unit_contact_screaming_blade	scalar_speed	0.85	mult
 nag_unit_contact_screaming_blade	stat_melee_damage_ap	0.85	mult
 nag_unit_contact_screaming_blade	stat_melee_damage_base	0.85	mult
+nag_army_abilities_batocalypse_02	stat_morale	-5.0	add
+nag_army_abilities_batocalypse_02	scalar_speed	0.8	mult
+nag_army_abilities_batocalypse_02	stat_melee_defence	0.8	mult
+nag_army_abilities_batocalypse_02	scalar_missile_range	0.5	mult

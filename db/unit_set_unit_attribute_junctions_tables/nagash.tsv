@@ -1,4 +1,4 @@
 key	unit_attribute	unit_set
-#unit_set_unit_attribute_junctions_tables	0	db/unit_set_unit_attribute_junctions_tables/nagash
+#unit_set_unit_attribute_junctions_tables;0;db/unit_set_unit_attribute_junctions_tables/nagash		
 nag_army_vamp_strider	strider	nag_army_vamp_units
 nag_army_nagashizzar_fatigue_res	fatigue_res	nag_army_nagashizzar_units

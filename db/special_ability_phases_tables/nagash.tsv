@@ -1,5 +1,5 @@
 id	duration	effect_type	requested_stance	unbreakable	cant_move	freeze_fatigue	fatigue_change_ratio	inspiration_aura_range_mod	ability_recharge_change	hp_change_frequency	heal_amount_duplicate	damage_chance	damage_amount	max_damaged_entities	heal_amount	resurrect	mana_regen_mod	mana_max_depletion_mod	imbue_magical	imbue_ignition	imbue_contact	phase_display	phase_audio	recharge_time	is_hidden_in_ui	affects_allies	affects_enemies	replenish_ammo	composite_scene_group
-#special_ability_phases_tables	35	db/special_ability_phases_tables/nagash
+#special_ability_phases_tables;35;db/special_ability_phases_tables/nagash																													
 wh_main_spell_nagash_breath_of_darkness	15.0	positive		false	false	false	0.0	0.0	0.0	0.5	50	0.0	0	0	50	true	0.0	0.0	false	0		wh_main_spell_vampires_invocation_of_nehek		-1.0	false	true	true	0.0	
 wh_main_spell_nagash_breath_of_darkness_upgraded	15.0	positive		false	false	false	-1.0	0.0	0.0	0.5	50	0.0	0	0	50	false	0.0	0.0	false	0		wh_main_spell_vampires_invocation_of_nehek		-1.0	false	true	true	0.0	
 wh_main_spell_nagash_become_construct	3.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
@@ -17,3 +17,5 @@ nag_neferata_passive_blood_queen	-1.0	positive		false	false	false	0.0	0.0	0.0	0.
 nag_neferata_item_passive_staff_of_pain	10.0	negative		false	false	false	0.0	0.0	0.0	1.0	0	1.0	4	2	0	false	0.0	0.0	false	0		wh_main_generic_hp_damage_passive		-1.0	false	true	true	0.0	
 nag_unit_contact_screaming_blade	10.0	negative		false	false	false	0.0	0.0	0.0	0.5	0	1.0	8	1	0	false	0.0	0.0	false	0		wh2_dlc14_spell_stealth_brittle_bone		-1.0	false	true	true	0.0	
 nag_neferata_item_passive_dagger_of_jet	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0	nag_unit_contact_screaming_blade			-1.0	false	true	true	0.0	
+nag_army_abilities_batocalypse_01	10.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_negative_one_shot	-1.0	false	false	true	0.0	
+nag_army_abilities_batocalypse_02	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_negative_one_shot	-1.0	false	false	true	0.0	

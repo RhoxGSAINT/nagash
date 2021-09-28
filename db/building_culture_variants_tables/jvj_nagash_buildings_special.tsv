@@ -1,5 +1,5 @@
 building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables	4	db/building_culture_variants_tables/jvj_nagash_buildings_special
+#building_culture_variants_tables;4;db/building_culture_variants_tables/jvj_nagash_buildings_special								
 nag_settlement_cavalry_1				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_1	true
 nag_settlement_cavalry_2				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_2	true
 nag_settlement_cavalry_3				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_3	true

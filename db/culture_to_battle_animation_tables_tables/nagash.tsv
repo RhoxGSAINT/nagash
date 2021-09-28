@@ -1,5 +1,5 @@
 battle_animations_table	culture_pack
-#culture_to_battle_animation_tables_tables	0	db/culture_to_battle_animation_tables_tables/nagash
+#culture_to_battle_animation_tables_tables;0;db/culture_to_battle_animation_tables_tables/nagash	
 hu1b_bretonnian_sword_and_chalice	nag_nagash
 hu1_krell_2handed_axe	nag_nagash
 wm_bolt_thrower02	nag_nagash

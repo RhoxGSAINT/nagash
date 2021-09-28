@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_building_short_description_texts.loc
+#Loc PackedFile;1;text/db/nag_building_short_description_texts.loc		
 building_short_description_texts_short_description_		true
 building_short_description_texts_short_description_nag_bpyramid_main_1	[PH]	false
 building_short_description_texts_short_description_nag_bpyramid_main_2	[PH]	false

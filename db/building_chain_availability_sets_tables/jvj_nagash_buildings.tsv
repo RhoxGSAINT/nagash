@@ -1,5 +1,5 @@
 building_chain	id
-#building_chain_availability_sets_tables	0	db/building_chain_availability_sets_tables/jvj_nagash_buildings
+#building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/jvj_nagash_buildings	
 nag_bpyramid_main	nag_nagash
 nag_bpyramid_ew2_mortuary	nag_nagash
 nag_bpyramid_ew1_barracks	nag_nagash

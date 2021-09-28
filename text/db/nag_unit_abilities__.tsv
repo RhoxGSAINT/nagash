@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_unit_abilities__.loc
+#Loc PackedFile;1;text/db/nag_unit_abilities__.loc		
 unit_abilities_tooltip_text_wh_main_spell_nagash_dark_riders	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_dark_riders	The Dark Riders	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_dark_riders_upgraded	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true

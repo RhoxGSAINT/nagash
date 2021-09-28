@@ -1,5 +1,5 @@
 unique_id	factor	resource
-#pooled_resource_factor_junctions_tables	0	db/pooled_resource_factor_junctions_tables/nagash
+#pooled_resource_factor_junctions_tables;0;db/pooled_resource_factor_junctions_tables/nagash		
 nag_souls_other	wh2_main_resource_factor_other	nag_souls
 nag_warpstone_other	wh2_main_resource_factor_other	nag_warpstone
 nag_souls_mort	nag_souls_mort	nag_souls

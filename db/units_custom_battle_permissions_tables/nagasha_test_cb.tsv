@@ -1,5 +1,5 @@
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
-#units_custom_battle_permissions_tables	8	db/units_custom_battle_permissions_tables/nagasha_test_cb
+#units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/nagasha_test_cb								
 att_fact_blue	true	wh2_dlc09_tmb_art_casket_of_souls_0	true	true				false
 att_fact_blue	true	wh2_dlc09_tmb_art_screaming_skull_catapult_0	true	true				false
 att_fact_blue	true	wh2_dlc09_tmb_cav_hexwraiths	true	true				false

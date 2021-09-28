@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_ancillaries.loc
+#Loc PackedFile;1;text/db/nag_ancillaries.loc		
 ancillaries_onscreen_name_nag_anc_mount_mannfred_barded_nightmare	Barded Nightmare	true
 ancillaries_colour_text_nag_anc_mount_mannfred_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares. They are Undead stallions clad in baroque barding.	true
 ancillaries_onscreen_name_nag_anc_mount_neferata_warhorse	Barded Nightmare	true

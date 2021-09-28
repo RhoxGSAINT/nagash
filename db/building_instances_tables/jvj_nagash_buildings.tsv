@@ -1,5 +1,5 @@
 key	num_instances
-#building_instances_tables	0	db/building_instances_tables/jvj_nagash_buildings
+#building_instances_tables;0;db/building_instances_tables/jvj_nagash_buildings	
 nag_bpyramid_main	1
 nag_bpyramid_main_obelisk	1
 nag_bpyramid_ew1_barracks	1

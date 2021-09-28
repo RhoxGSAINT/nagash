@@ -1,5 +1,5 @@
 from	to
-#building_upgrades_junction_tables	0	db/building_upgrades_junction_tables/jvj_nagash_buildings_special
+#building_upgrades_junction_tables;0;db/building_upgrades_junction_tables/jvj_nagash_buildings_special	
 nag_settlement_cavalry_1	nag_settlement_cavalry_2
 nag_settlement_cavalry_2	nag_settlement_cavalry_3
 nag_settlement_cavalry_3	nag_settlement_cavalry_4

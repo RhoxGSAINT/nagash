@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_character_skill_node_sets.loc
+#Loc PackedFile;1;text/db/nag_character_skill_node_sets.loc		
 character_skill_node_sets_enc_title_nag_skill_node_set_nagash_husk	Nagash Skills [PH]	true
 character_skill_node_sets_enc_title_nag_skill_node_set_nagash_boss	Nagash Skills [PH]	true
 character_skill_node_sets_enc_title_nag_skill_node_set_mortarch_arkhan	Arkhan the Black Skills [PH]	true

@@ -1,5 +1,5 @@
 building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
-#building_culture_variants_tables	4	db/building_culture_variants_tables/jvj_nagash_buildings_horde
+#building_culture_variants_tables;4;db/building_culture_variants_tables/jvj_nagash_buildings_horde								
 nag_bpyramid_main_1				wh_main_PLACEHOLDER	special_pyramid_of_nagash_settlement	false	nag_bpyramid_main_1	true
 nag_bpyramid_main_2				wh_main_PLACEHOLDER	special_pyramid_of_nagash_settlement	false	nag_bpyramid_main_2	true
 nag_bpyramid_main_3				wh_main_PLACEHOLDER	special_pyramid_of_nagash_settlement	false	nag_bpyramid_main_3	true

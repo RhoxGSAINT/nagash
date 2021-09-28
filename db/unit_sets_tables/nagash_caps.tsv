@@ -1,5 +1,5 @@
 key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
-#unit_sets_tables	2	db/unit_sets_tables/nagash_caps
+#unit_sets_tables;2;db/unit_sets_tables/nagash_caps				
 nag_effect_unit_cap_nagashi_guard	false	-1	-1	
 nag_effect_unit_cap_nagashi_guard_halb	false	-1	-1	
 nag_effect_unit_cap_bone_golems	false	-1	-1	

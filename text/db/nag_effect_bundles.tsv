@@ -1,4 +1,4 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_effect_bundles.loc
+#Loc PackedFile;1;text/db/nag_effect_bundles.loc		
 effect_bundles_localised_description_nag_bundle_stance_army_settlement_horde	Sets up a defensive camp, allowing for building construction, recruitment and replenishment, regardless of territory.	true
 effect_bundles_localised_title_nag_bundle_stance_army_settlement_horde	Stance: Encamp	true

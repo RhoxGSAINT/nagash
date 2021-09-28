@@ -1,5 +1,5 @@
 agent	faction	subtype
-#faction_agent_permitted_subtypes_tables	0	db/faction_agent_permitted_subtypes_tables/nagash
+#faction_agent_permitted_subtypes_tables;0;db/faction_agent_permitted_subtypes_tables/nagash		
 general	nag_nagash	nag_nagash_boss
 general	nag_nagash	nag_nagash_husk
 general	nag_nagash	nag_mortarch_neferata

@@ -1,4 +1,4 @@
 formation	sub_culture
-#formations_to_subcultures_tables	0	db/formations_to_subcultures_tables/nagash_culture
+#formations_to_subcultures_tables;0;db/formations_to_subcultures_tables/nagash_culture	
 test_melee_forward_simple	nag_nagash
 test_missile_forward_simple	nag_nagash

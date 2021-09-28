@@ -1,5 +1,5 @@
 key	agent_key	campaign_key	faction_key	subculture	for_army	for_navy	agent_subtype_key
-#character_skill_node_sets_tables	2	db/character_skill_node_sets_tables/nagash_skills
+#character_skill_node_sets_tables;2;db/character_skill_node_sets_tables/nagash_skills							
 nag_skill_node_set_nagash_husk	general				false	false	nag_nagash_husk
 nag_skill_node_set_nagash_boss	general				false	false	nag_nagash_boss
 nag_skill_node_set_mortarch_arkhan	general				false	false	nag_mortarch_arkhan

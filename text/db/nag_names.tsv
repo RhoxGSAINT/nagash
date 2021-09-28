@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_names.loc
+#Loc PackedFile;1;text/db/nag_names.loc		
 names_name_1937224328	Nagash	true
 names_name_1937224329	Vlad von Carstein	true
 names_name_1937224330	Mannfred von Carstein	true

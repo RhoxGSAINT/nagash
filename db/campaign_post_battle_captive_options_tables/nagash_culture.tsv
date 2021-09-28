@@ -1,5 +1,5 @@
 campaign_group	captive_option	effect_bundle	effect_bundle_turns	icon_path	resource_transaction	audio_captive_option_override
-#campaign_post_battle_captive_options_tables	5	db/campaign_post_battle_captive_options_tables/nagash_culture
+#campaign_post_battle_captive_options_tables;5;db/campaign_post_battle_captive_options_tables/nagash_culture						
 nagash_enslave	enslave		1	ui/skins/default/placeholder.png		
 nagash_kill	kill		1	ui/skins/default/placeholder.png		
 nagash_release	release		1	ui/skins/default/placeholder.png		

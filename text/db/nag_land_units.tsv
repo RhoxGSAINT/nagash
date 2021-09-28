@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/nag_land_units.loc
+#Loc PackedFile;1;text/db/nag_land_units.loc		
 land_units_onscreen_name_nag_nagash_husk	Nagash	true
 land_units_onscreen_name_nag_nagash_revenant	Nagash, level 30 scoundrel	true
 land_units_onscreen_name_nag_nagash_boss	Nagash, Supreme Bone Daddio	true

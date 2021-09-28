@@ -1,5 +1,5 @@
 key	model_id	building_bmd	port_bmd	construction_bmd	damaged_bmd	destroyed_bmd	port_construction_bmd	port_walled_bmd	wall_bmd	on_sea_bmd
-#campaign_settlement_display_buildings_tables	7	db/campaign_settlement_display_buildings_tables/nagash_culture
+#campaign_settlement_display_buildings_tables;7;db/campaign_settlement_display_buildings_tables/nagash_culture										
 7784598	nag_bpyramid_1	prefabs/campaign/tmb_blackpyramid_06.bmd								
 7784599	nag_bpyramid_2	prefabs/campaign/tmb_blackpyramid_06.bmd								
 7784600	nag_bpyramid_3	prefabs/campaign/tmb_blackpyramid_06.bmd								

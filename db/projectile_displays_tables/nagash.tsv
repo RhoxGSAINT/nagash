@@ -1,5 +1,5 @@
 key	display_model	impact	launch_fx	trail_fx	stationary_fx	airborne_anim	landing_anim	tip_offset	trail_spin	launch_camera_shake	impact_bounce	impact_penetrate	impact_blood	impact_bounce_blood	impact_penetrate_blood
-#projectile_displays_tables	10	db/projectile_displays_tables/nagash
+#projectile_displays_tables;10;db/projectile_displays_tables/nagash															
 wh_main_spell_nagash_hand_of_dust		wh2_main_spell_dark_magic_doombolt		belisarians_nagash_fist_projectile				0.0	false	wh_main_unit_launch_light	wh2_main_spell_dark_magic_doombolt	wh2_main_spell_dark_magic_doombolt			
 nag_bone_thrower	projectiles\wh_tmb_necrolith_colossus_arrow_01_projectile.rigid_model_v2	wh_main_impact_medium		wh_main_weapon_trail_arrow_medium				0.0	false		wh_main_bounce_impact	wh_main_impact_very_large			
 nag_bone_thrower_cluster	projectiles\tmb_skull_projectile.rigid_model_v2	wh2_main_unit_abilities_drop_rocks		wh_main_weapon_trail_arrow_medium				0.0	true		wh2_main_unit_abilities_drop_rocks	wh2_main_unit_abilities_drop_rocks			

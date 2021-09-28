@@ -1,5 +1,5 @@
 child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset
-#technology_node_links_tables	2	db/technology_node_links_tables/nagash_tech
+#technology_node_links_tables;2;db/technology_node_links_tables/nagash_tech						
 nag_arkhan_battle_1	nag_arkhan_unlock	0	3	4	0.0	0.0
 nag_arkhan_battle_2	nag_arkhan_unlock	0	3	4	0.0	0.0
 nag_arkhan_battle_3	nag_arkhan_unlock	0	3	4	0.0	0.0

@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/PH_pr_factors.loc
+#Loc PackedFile;1;text/db/PH_pr_factors.loc		
 pooled_resource_factors_display_name_positive_		false
 pooled_resource_factors_display_name_negative_		false
 pooled_resource_factors_display_name_positive_nag_souls_mort	not a thing	false

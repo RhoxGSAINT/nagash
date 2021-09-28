@@ -1,5 +1,5 @@
 from	to	automatic
-#military_force_type_conversions_tables	0	db/military_force_type_conversions_tables/natasha_horde
+#military_force_type_conversions_tables;0;db/military_force_type_conversions_tables/natasha_horde		
 nag_bp_horde	HORDE	false
 nag_bp_horde	ARMY	true
 HORDE	nag_bp_horde	false

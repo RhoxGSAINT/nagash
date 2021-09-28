@@ -1,5 +1,5 @@
 key	text	tooltip
-#Loc PackedFile	1	text/db/PH_nag_tech.loc
+#Loc PackedFile;1;text/db/PH_nag_tech.loc		
 technologies_onscreen_name_nag_arkhan_battle_1	Skellie Spears & Warriors, Maybe Bats	false
 technologies_onscreen_name_nag_arkhan_battle_2	Skellie Spears & Warriors, Maybe Bats	false
 technologies_onscreen_name_nag_arkhan_battle_3	Arkhan Uniques	false

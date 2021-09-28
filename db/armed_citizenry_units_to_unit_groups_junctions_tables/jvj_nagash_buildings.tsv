@@ -1,5 +1,5 @@
 id	priority	unit	unit_group
-#armed_citizenry_units_to_unit_groups_junctions_tables	0	db/armed_citizenry_units_to_unit_groups_junctions_tables/jvj_nagash_buildings
+#armed_citizenry_units_to_unit_groups_junctions_tables;0;db/armed_citizenry_units_to_unit_groups_junctions_tables/jvj_nagash_buildings			
 2106184	1	nag_morghasts	nag_morghasts
 2106185	2	nag_nagashi_guard	nag_nagashi_guard
 2106186	3	nag_nagashi_guard_halb	nag_nagashi_guard_halb
