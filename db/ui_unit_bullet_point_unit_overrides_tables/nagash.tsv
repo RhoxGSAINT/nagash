@@ -97,3 +97,7 @@ very_fast	nag_mortarch_isabella_hellsteed
 armoured	nag_mortarch_isabella_warhorse
 melee_expert	nag_mortarch_isabella_warhorse
 spellcaster	nag_mortarch_isabella_warhorse
+anti_large	nag_endless_tomb
+armour_piercing_ranged	nag_endless_tomb
+construct	nag_endless_tomb
+terror	nag_endless_tomb

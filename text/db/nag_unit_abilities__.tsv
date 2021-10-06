@@ -96,3 +96,13 @@ unit_abilities_tooltip_text_nag_neferata_item_passive_staff_of_pain	This ancient
 unit_abilities_onscreen_name_nag_neferata_item_passive_staff_of_pain	Staff of Pain	true
 unit_abilities_tooltip_text_nag_neferata_item_passive_dagger_of_jet	This blade has seen the blood of countless victims who have been sacrificed on its edge, their screams echoing out whenever the blade is drawn. So much pain and anguish has twisted the obsidian dagger to a point that it has developed Vampiric powers of its own.	true
 unit_abilities_onscreen_name_nag_neferata_item_passive_dagger_of_jet	Dagger of Jet	true
+unit_abilities_tooltip_text_nag_army_abilities_batocalypse	Summons bats from every corner of the World, they will block the Sun and poop EVERYWHERE!	true
+unit_abilities_onscreen_name_nag_army_abilities_batocalypse	Batocalypse	true
+unit_abilities_tooltip_text_nag_army_abilities_endless_tomb	Unearths Endless Tomb, Tomb that contains seamlessly unlimited number of skeletons.	true
+unit_abilities_onscreen_name_nag_army_abilities_endless_tomb	Endless Tomb	true
+unit_abilities_tooltip_text_nag_army_abilities_endless_tomb_hidden_dummy	Endless tomb behind the scenes makes summon of summon work [HIDDEN]	true
+unit_abilities_onscreen_name_nag_army_abilities_endless_tomb_hidden_dummy	Endless tomb behind the scenes makes summon of summon work [HIDDEN]	true
+unit_abilities_tooltip_text_nag_army_abilities_endless_tomb_hidden_raise_dead	Tomb will spit another batch of skeletons.	true
+unit_abilities_onscreen_name_nag_army_abilities_endless_tomb_hidden_raise_dead	Raise skeletons	true
+unit_abilities_tooltip_text_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDDEN]	true
+unit_abilities_onscreen_name_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDDEN]	true

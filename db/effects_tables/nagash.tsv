@@ -46,3 +46,4 @@ nag_effect_agent_cap_increase_prince_wight	tomb_prince.png	4	tomb_prince.png	cam
 nag_effect_agent_cap_increase_archai	mourngul_haunter.png	4	mourngul_haunter.png	campaign	true
 nag_effect_dummy_bel_spells_rename_references	spell_ability.png	1	spell_ability.png	campaign	false
 nag_ability_enable_batocalypse	general_ability.png	101	general_ability.png	battle	true
+nag_ability_enable_endless_tomb	general_ability.png	101	general_ability.png	battle	true

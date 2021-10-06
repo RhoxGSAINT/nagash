@@ -19,3 +19,4 @@ nag_unit_contact_screaming_blade	10.0	negative		false	false	false	0.0	0.0	0.0	0.
 nag_neferata_item_passive_dagger_of_jet	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0	nag_unit_contact_screaming_blade			-1.0	false	true	true	0.0	
 nag_army_abilities_batocalypse_01	10.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_negative_one_shot	-1.0	false	false	true	0.0	
 nag_army_abilities_batocalypse_02	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_negative_one_shot	-1.0	false	false	true	0.0	
+nag_endless_tomb_visuals	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		belisarians_nagash_endless_tomb		-1.0	false	true	true	0.0	

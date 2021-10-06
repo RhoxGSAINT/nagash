@@ -1,3 +1,5 @@
 army_special_ablility	faction
 #army_special_abilities_for_faction_junctions_tables;0;db/army_special_abilities_for_faction_junctions_tables/nagash	
 nag_army_abilities_batocalypse	nag_nagash
+nag_army_abilities_endless_tomb	nag_nagash
+nag_army_abilities_endless_tomb_hidden_dummy	nag_nagash
