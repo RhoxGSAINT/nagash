@@ -91,7 +91,7 @@ character_skills_localised_description_nag_skill_wh_main_spell_nagash_dark_rider
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_grave_call_master	Ryze	true
 character_skills_localised_description_nag_skill_wh_main_spell_nagash_grave_call_master	[PH]	true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_hand_of_dust	Sulekhim	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_hand_of_dust	[PH]	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_hand_of_dust	[PH] Merely a touch spell, but one that can reach all over the battlefield...	true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_harbinger	Kandorak	true
 character_skills_localised_description_nag_skill_wh_main_spell_nagash_harbinger	[PH]	true
 character_skills_localised_name_nag_skill_magic_nagash_arch_necromancer	Arch Necromancer	true
@@ -249,19 +249,19 @@ character_skills_localised_description_nag_skill_mount_neferata_warhorse	Neferat
 character_skills_localised_name_nag_skill_mount_luthor_harkon_terrorgheist	Death Shriek Terrorgheist	true
 character_skills_localised_description_nag_skill_mount_luthor_harkon_terrorgheist	Harkon's personal mount is a dreadful thing indeed - a Terrorgheist with a piercing, banshee-like shriek that has the power to stun any who hear it.	true
 character_skills_localised_name_nag_skill_supreme_innate_nagash	Supreme Lord of Undeath	true
-character_skills_localised_description_nag_skill_supreme_innate_nagash	*Insert Big Bone Daddy Autobiography here* [TEMP] Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	true
+character_skills_localised_description_nag_skill_supreme_innate_nagash	[PH] *Insert Big Bone Daddy Autobiography here*Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	true
 character_skills_localised_name_nag_skill_mortarch_innate_arkhan	Mortarch of Sacraments	true
-character_skills_localised_description_nag_skill_mortarch_innate_arkhan	*Insert Arkhan's Mortarch Autobiography here*	true
+character_skills_localised_description_nag_skill_mortarch_innate_arkhan	Thousands of years plotting, misleading, waiting for His return. The First of the Mortarchs finally reaps his rewards.	true
 character_skills_localised_name_nag_skill_mortarch_innate_krell	Mortarch of Despair	true
-character_skills_localised_description_nag_skill_mortarch_innate_krell	*Insert Krell's Mortarch Autobiography here*	true
+character_skills_localised_description_nag_skill_mortarch_innate_krell	Once a servant of Khorne, then Kemmler. Always the unsleeping agent marked for Nagash's future plans.	true
 character_skills_localised_name_nag_skill_mortarch_innate_vlad	Mortarch of Shadows	true
-character_skills_localised_description_nag_skill_mortarch_innate_vlad	*Insert Vlad's Mortarch Autobiography here*	true
+character_skills_localised_description_nag_skill_mortarch_innate_vlad	Perhaps the most unwilling of the Mortarchs, Vashanesh is cursed with blood, bound with a ring, enthralled by promises.	true
 character_skills_localised_name_nag_skill_mortarch_innate_mannfred	Mortarch of Night	true
-character_skills_localised_description_nag_skill_mortarch_innate_mannfred	*Insert Mannfred's Mortarch Autobiography here*	true
+character_skills_localised_description_nag_skill_mortarch_innate_mannfred	Powerful, ambitious, unreliable... but definitely surpassed.	true
 character_skills_localised_name_nag_skill_mortarch_innate_luthor	Mortarch of the Abyss	true
-character_skills_localised_description_nag_skill_mortarch_innate_luthor	*Insert Luthor's Mortarch Autobiography here*	true
+character_skills_localised_description_nag_skill_mortarch_innate_luthor	[PH] *Insert Luthor's Mortarch Autobiography here* I honestly have no idea why Luthor is even fighting here	true
 character_skills_localised_name_nag_skill_mortarch_innate_neferata	Mortarch of Blood	true
-character_skills_localised_description_nag_skill_mortarch_innate_neferata	*Insert Neferata's Mortarch Autobiography here*	true
+character_skills_localised_description_nag_skill_mortarch_innate_neferata	A spider queen, amidst her web of thralls, handmaidens and lies.	true
 character_skills_localised_name_nag_skill_traitor_kings_innate_first_book	Knowledge of the First Book	true
 character_skills_localised_description_nag_skill_traitor_kings_innate_first_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
 character_skills_localised_name_nag_skill_traitor_kings_innate_second_book	Knowledge of the Second Book	true
