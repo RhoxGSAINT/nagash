@@ -44,7 +44,6 @@ nag_outpost_primary_main_elven_minor_colony			money	false	wh2_main_sch_special_s
 nag_outpost_primary_main_oak_of_ages			money	false	wh_dlc05_sch_wef_oak_of_ages	data\UI\Buildings\tier_icons\tier_wood_elves_city_oak_of_ages.png	0	
 nag_outpost_landmark_boneyard_mourkain			military	false	wh2_main_sch_special_galbaraz_mourkain		1	
 nag_outpost_landmark_necropolis_mourkain			military	false	wh2_dlc15_special_morgheim_necropolis		1	
-nag_outpost_landmark_ogham_stones			happiness	false	wh2_twa03_ogham_stones		1	
 nag_outpost_landmark_dragon_isle_port			money	false	wh2_dlc14_sch_special_dragon_isle_port		0	
 nag_outpost_landmark_lothern_port			military	false	wh2_main_sch_special_lothern_port		0	
 nag_outpost_landmark_erengrad_port			money	false	wh_main_sch_special_erengrad_port		0	

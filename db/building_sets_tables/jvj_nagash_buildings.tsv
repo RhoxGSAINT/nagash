@@ -12,7 +12,9 @@ nag_bpyramid_ew_infrastructure	placeholder	8	62	71	57
 nag_bpyramid_ww_infrastructure	placeholder	1	62	71	57
 nag_outpost_primary_outpost	UI/Buildings/Icons/vampire_cat_support.png	5	75	65	88
 nag_outpost_secondary_outpost	UI/Buildings/Icons/vampire_cat_civic.png	7	62	71	57
-nag_outpost_unique	placeholder	1	100	20	60
+nag_outpost_special_growth	UI/Buildings/Icons/vampire_coast_cat_ship_unique.png	2	62	61	56
+nag_outpost_unique	UI/Buildings/Icons/empire_cat_landmark.png	3	100	20	60
+nag_outpost_special_recruitment	UI/Buildings/Icons/vampire_cat_recruitment.png	4	120	20	20
 nag_horde_settlement	placeholder	0	62	61	56
 nag_horde_unique	placeholder	1	100	20	60
 nag_horde_recruitment	placeholder	2	120	20	20

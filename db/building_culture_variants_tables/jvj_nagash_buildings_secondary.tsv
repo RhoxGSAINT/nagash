@@ -2,7 +2,6 @@ building	culture	subculture	faction	description	icon	disables	short_description	
 #building_culture_variants_tables;4;db/building_culture_variants_tables/jvj_nagash_buildings_secondary								
 nag_outpost_landmark_necropolis_mourkain_1				wh_main_PLACEHOLDER	vmp_tmb_mourkain	false	%placeholder%	true
 nag_outpost_landmark_boneyard_mourkain_1				wh_main_PLACEHOLDER	wh2_dlc15_special_boneyard	false	%placeholder%	true
-nag_outpost_landmark_ogham_stones_1				wh_main_PLACEHOLDER	wh2_twa03_special_albion_ogham_stones	false	%placeholder%	true
 nag_outpost_landmark_dragon_isle_port_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
 nag_outpost_landmark_dragon_isle_port_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
 nag_outpost_landmark_lothern_port_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
@@ -17,11 +16,11 @@ nag_outpost_landmark_copher_port_1				wh_main_PLACEHOLDER	vampire_port	false	%pl
 nag_outpost_landmark_copher_port_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
 nag_outpost_landmark_bordeleaux_port_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
 nag_outpost_landmark_bordeleaux_port_ruin				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
-nag_outpost_special_nagashizzar_1				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	%placeholder%	true
-nag_outpost_special_nagashizzar_2				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	%placeholder%	true
-nag_outpost_special_nagashizzar_3				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	%placeholder%	true
-nag_outpost_special_nagashizzar_4				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	%placeholder%	true
-nag_outpost_special_nagashizzar_5				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	%placeholder%	true
+nag_outpost_special_nagashizzar_1				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	nag_outpost_special_nagashizzar_1	true
+nag_outpost_special_nagashizzar_2				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	nag_outpost_special_nagashizzar_2	true
+nag_outpost_special_nagashizzar_3				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	nag_outpost_special_nagashizzar_3	true
+nag_outpost_special_nagashizzar_4				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	nag_outpost_special_nagashizzar_4	true
+nag_outpost_special_nagashizzar_5				wh_main_PLACEHOLDER	wh2_dlc14_special_nagashizzar_vmp	false	nag_outpost_special_nagashizzar_5	true
 nag_outpost_special_mourkain_1				wh_main_PLACEHOLDER	wh2_dlc15_special_boneyard	false	%placeholder%	true
 nag_outpost_special_mourkain_2				wh_main_PLACEHOLDER	wh2_dlc15_special_boneyard	false	%placeholder%	true
 nag_outpost_special_mourkain_3				wh_main_PLACEHOLDER	wh2_dlc15_special_boneyard	false	%placeholder%	true
@@ -52,18 +51,18 @@ nag_outpost_special_quintex_2				wh_main_PLACEHOLDER	special_quintex	false	%plac
 nag_outpost_special_quintex_3				wh_main_PLACEHOLDER	special_quintex	false	%placeholder%	true
 nag_outpost_special_quintex_4				wh_main_PLACEHOLDER	special_quintex	false	%placeholder%	true
 nag_outpost_special_quintex_5				wh_main_PLACEHOLDER	special_quintex	false	%placeholder%	true
-nag_outpost_primary_research_1				wh_main_PLACEHOLDER	vampire_necromancers	false	%placeholder%	true
-nag_outpost_primary_arcane_1				wh_main_PLACEHOLDER	empire_mages	false	%placeholder%	true
-nag_outpost_primary_support_1				wh_main_PLACEHOLDER	nor_reccruitment_bonus	false	%placeholder%	true
-nag_outpost_primary_nehek_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_outpost_primary_nagashizzar_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_outpost_primary_coast_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_outpost_primary_count_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_outpost_primary_warpstone_1				wh_main_PLACEHOLDER	dlc12_skv_warpstone_tractor_beam	false	%placeholder%	true
-nag_outpost_secondary_fields_1				wh_main_PLACEHOLDER	vampire_forest	false	%placeholder%	true
-nag_outpost_secondary_corruption_1				wh_main_PLACEHOLDER	vampire_cursed_ground	false	%placeholder%	true
-nag_outpost_secondary_syphon_1				wh_main_PLACEHOLDER	vampire_jail	false	%placeholder%	true
-nag_outpost_secondary_energy_1				wh_main_PLACEHOLDER	vampire_balefire	false	%placeholder%	true
+nag_outpost_primary_research_1				wh_main_PLACEHOLDER	vampire_necromancers	false	nag_outpost_primary_research_1	true
+nag_outpost_primary_arcane_1				wh_main_PLACEHOLDER	empire_mages	false	nag_outpost_primary_arcane_1	true
+nag_outpost_primary_support_1				wh_main_PLACEHOLDER	nor_reccruitment_bonus	false	nag_outpost_primary_support_1	true
+nag_outpost_primary_nehek_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	nag_outpost_primary_nehek_1	true
+nag_outpost_primary_nagashizzar_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	nag_outpost_primary_nagashizzar_1	true
+nag_outpost_primary_coast_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	nag_outpost_primary_coast_1	true
+nag_outpost_primary_count_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	nag_outpost_primary_count_1	true
+nag_outpost_primary_warpstone_1				wh_main_PLACEHOLDER	dlc12_skv_warpstone_tractor_beam	false	nag_outpost_primary_warpstone_1	true
+nag_outpost_secondary_fields_1				wh_main_PLACEHOLDER	vampire_forest	false	nag_outpost_secondary_fields_1	true
+nag_outpost_secondary_corruption_1				wh_main_PLACEHOLDER	vampire_cursed_ground	false	nag_outpost_secondary_corruption_1	true
+nag_outpost_secondary_syphon_1				wh_main_PLACEHOLDER	vampire_jail	false	nag_outpost_secondary_syphon_1	true
+nag_outpost_secondary_energy_1				wh_main_PLACEHOLDER	vampire_balefire	false	nag_outpost_secondary_energy_1	true
 nag_settlement_cavalry_1				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_1	true
 nag_settlement_cavalry_2				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_2	true
 nag_settlement_cavalry_3				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_3	true
@@ -91,21 +90,12 @@ nag_settlement_scorpions_1				wh_main_PLACEHOLDER	tmb_ flying_scorpions	false	wh
 nag_settlement_ushabti_1				wh_main_PLACEHOLDER	tmb_ushabti	false	wh2_dlc09_tmb_ushabti_1	true
 nag_settlement_ushabti_2				wh_main_PLACEHOLDER	tmb_ushabti	false	wh2_dlc09_tmb_ushabti_2	true
 nag_settlement_warsphinx_1				wh_main_PLACEHOLDER	tmb_ warsphinx	false	wh2_dlc09_tmb_warsphinx_1	true
-wh2_main_vmp_resource_animals_1	nag_nagash			wh_main_PLACEHOLDER	empire_resource_animals	false	nag_resource_animals_1	true
-wh2_main_vmp_resource_animals_2	nag_nagash			wh_main_PLACEHOLDER	empire_resource_animals	false	nag_resource_animals_2	true
-wh2_main_vmp_resource_animals_3	nag_nagash			wh_main_PLACEHOLDER	empire_resource_animals	false	nag_resource_animals_3	true
 wh2_main_vmp_resource_gemstones_1	nag_nagash			wh_main_PLACEHOLDER	dwarf_gemstones	false	nag_resource_gems_1	true
 wh2_main_vmp_resource_gemstones_2	nag_nagash			wh_main_PLACEHOLDER	dwarf_gemstones	false	nag_resource_gems_2	true
 wh2_main_vmp_resource_gemstones_3	nag_nagash			wh_main_PLACEHOLDER	dwarf_gemstones	false	nag_resource_gems_3	true
-wh2_main_vmp_resource_medicine_1	nag_nagash			wh_main_PLACEHOLDER	empire_resource_medicine	false	nag_resource_medicine_1	true
-wh2_main_vmp_resource_medicine_2	nag_nagash			wh_main_PLACEHOLDER	empire_resource_medicine	false	nag_resource_medicine_2	true
-wh2_main_vmp_resource_medicine_3	nag_nagash			wh_main_PLACEHOLDER	empire_resource_medicine	false	nag_resource_medicine_3	true
 wh2_main_vmp_resource_obsidian_1	nag_nagash			wh_main_PLACEHOLDER	empire_resource_obsidian	false	nag_resource_obsidian_1	true
 wh2_main_vmp_resource_obsidian_2	nag_nagash			wh_main_PLACEHOLDER	empire_resource_obsidian	false	nag_resource_obsidian_2	true
 wh2_main_vmp_resource_obsidian_3	nag_nagash			wh_main_PLACEHOLDER	empire_resource_obsidian	false	nag_resource_obsidian_3	true
-wh2_main_vmp_resource_spices_1	nag_nagash			wh_main_PLACEHOLDER	empire_resource_spices	false	nag_resource_spices_1	true
-wh2_main_vmp_resource_spices_2	nag_nagash			wh_main_PLACEHOLDER	empire_resource_spices	false	nag_resource_spices_2	true
-wh2_main_vmp_resource_spices_3	nag_nagash			wh_main_PLACEHOLDER	empire_resource_spices	false	nag_resource_spices_3	true
 wh_main_vmp_resource_dyes_1	nag_nagash			wh_main_PLACEHOLDER	empire_cinnabar	false	nag_resource_dyes_1	true
 wh_main_vmp_resource_dyes_2	nag_nagash			wh_main_PLACEHOLDER	empire_cinnabar	false	nag_resource_dyes_2	true
 wh_main_vmp_resource_dyes_3	nag_nagash			wh_main_PLACEHOLDER	empire_cinnabar	false	nag_resource_dyes_3	true
@@ -118,14 +108,9 @@ wh_main_vmp_resource_gold_3	nag_nagash			wh_main_PLACEHOLDER	empire_gold	false	n
 wh_main_vmp_resource_iron_1	nag_nagash			wh_main_PLACEHOLDER	empire_iron	false	nag_resource_iron_1	true
 wh_main_vmp_resource_iron_2	nag_nagash			wh_main_PLACEHOLDER	empire_iron	false	nag_resource_iron_2	true
 wh_main_vmp_resource_iron_3	nag_nagash			wh_main_PLACEHOLDER	empire_iron	false	nag_resource_iron_3	true
-wh_main_vmp_resource_iron_military	nag_nagash			wh_main_PLACEHOLDER	wh_main_vmp_resource_iron_military	false	nag_resource_iron_military	true
 wh_main_vmp_resource_marble_1	nag_nagash			wh_main_PLACEHOLDER	empire_marble	false	nag_resource_marble_1	true
 wh_main_vmp_resource_marble_2	nag_nagash			wh_main_PLACEHOLDER	empire_marble	false	nag_resource_marble_2	true
 wh_main_vmp_resource_marble_3	nag_nagash			wh_main_PLACEHOLDER	empire_marble	false	nag_resource_marble_3	true
-wh_main_vmp_resource_pastures_1	nag_nagash			wh_main_PLACEHOLDER	empire_farm	false	nag_resource_pastures_1	true
-wh_main_vmp_resource_pastures_2	nag_nagash			wh_main_PLACEHOLDER	empire_farm	false	nag_resource_pastures_2	true
-wh_main_vmp_resource_pastures_3	nag_nagash			wh_main_PLACEHOLDER	empire_farm	false	nag_resource_pastures_3	true
-wh_main_vmp_resource_pastures_timber_military	nag_nagash			wh_main_PLACEHOLDER	wh_main_vmp_resource_pastures_timber_military	false	nag_resource_timber_furs_military	true
 wh_main_vmp_resource_pottery_1	nag_nagash			wh_main_PLACEHOLDER	empire_pottery	false	nag_resource_pottery_1	true
 wh_main_vmp_resource_pottery_2	nag_nagash			wh_main_PLACEHOLDER	empire_pottery	false	nag_resource_pottery_2	true
 wh_main_vmp_resource_pottery_3	nag_nagash			wh_main_PLACEHOLDER	empire_pottery	false	nag_resource_pottery_3	true
@@ -138,3 +123,6 @@ wh_main_vmp_resource_timber_3	nag_nagash			wh_main_PLACEHOLDER	empire_timber	fal
 wh_main_vmp_resource_wine_1	nag_nagash			wh_main_PLACEHOLDER	empire_orchards	false	nag_resource_wine_1	true
 wh_main_vmp_resource_wine_2	nag_nagash			wh_main_PLACEHOLDER	empire_orchards	false	nag_resource_wine_2	true
 wh_main_vmp_resource_wine_3	nag_nagash			wh_main_PLACEHOLDER	empire_orchards	false	nag_resource_wine_3	true
+wh2_twa03_special_ogham_stones_1	nag_nagash			wh_main_PLACEHOLDER	wh2_twa03_special_albion_ogham_stones	false	nag_special_ogham_stones_1	true
+wh2_twa03_special_ogham_stones_2	nag_nagash			wh_main_PLACEHOLDER	wh2_twa03_special_albion_ogham_stones	true	nag_special_ogham_stones_2	true
+wh2_twa03_special_ogham_stones_3	nag_nagash			wh_main_PLACEHOLDER	wh2_twa03_special_albion_ogham_stones	true	nag_special_ogham_stones_3	true

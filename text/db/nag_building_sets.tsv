@@ -20,10 +20,6 @@ building_sets_onscreen_name_nag_bpyramid_ew_infrastructure	East Wing Infrastruct
 building_sets_onscreen_description_nag_bpyramid_ew_infrastructure	[PH]	true
 building_sets_onscreen_name_nag_bpyramid_ww_infrastructure	West Wing Infrastructure	true
 building_sets_onscreen_description_nag_bpyramid_ww_infrastructure	[PH]	true
-building_sets_onscreen_name_nag_outpost_primary_outpost	[PH]	true
-building_sets_onscreen_description_nag_outpost_primary_outpost	[PH]	true
-building_sets_onscreen_name_nag_outpost_secondary_outpost	[PH]	true
-building_sets_onscreen_description_nag_outpost_secondary_outpost	[PH]	true
 building_sets_onscreen_name_nag_horde_settlement	[PH]	true
 building_sets_onscreen_description_nag_horde_settlement	[PH]	true
 building_sets_onscreen_name_nag_horde_unique	[PH]	true
@@ -45,4 +41,12 @@ building_sets_onscreen_description_nag_subhorde_military_support	[PH]	true
 building_sets_onscreen_name_nag_subhorde_infrastructure	[PH]	true
 building_sets_onscreen_description_nag_subhorde_infrastructure	[PH]	true
 building_sets_onscreen_name_nag_outpost_unique	Landmark	true
-building_sets_onscreen_description_nag_outpost_unique	[PH]	true
+building_sets_onscreen_description_nag_outpost_unique	Easily recognised from a distance, and unique to their home regions, landmarks enable travellers – and armies – to get their bearings.	true
+building_sets_onscreen_name_nag_outpost_primary_outpost	Advanced Infrastructure	true
+building_sets_onscreen_description_nag_outpost_primary_outpost	Dark magic surges through huge obsidian stuctures that tower over the land.	true
+building_sets_onscreen_name_nag_outpost_secondary_outpost	Basic Infrastructure	true
+building_sets_onscreen_description_nag_outpost_secondary_outpost	Accursed places where a necrotic energy seeps through all things, dead, living and in-between.	true
+building_sets_onscreen_name_nag_outpost_special_growth	Undead Fortress	true
+building_sets_onscreen_description_nag_outpost_special_growth	A mighty Stronghold built by the tireless labour of countless Undead.	true
+building_sets_onscreen_name_nag_outpost_special_recruitment	Special Recruitment	true
+building_sets_onscreen_description_nag_outpost_special_recruitment	The dead lay here, waiting for a master to guide them.	true

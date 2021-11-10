@@ -186,7 +186,7 @@ building_short_description_texts_short_description_nag_outpost_primary_main_sett
 building_short_description_texts_short_description_wh2_main_special_settlement_colony_minor_nag_1	[PH]	true
 building_short_description_texts_short_description_nag_outpost_primary_main_oak_of_ages_1	No more flowers, just earth, wood and bones.	true
 building_short_description_texts_short_description_wh2_main_special_galbaraz_mourkain_nag_1	[PH]	true
-building_short_description_texts_short_description_wh2_twa03_special_ogham_stones_nag_1	[PH]	true
+building_short_description_texts_short_description_nag_special_ogham_stones_1	Corrupted and restored, the once-derelict Ogham Stones channel their considerable powers to serve your cause.	true
 building_short_description_texts_short_description_wh2_dlc14_special_dragon_isle_port_nag_1	[PH] Fake Landmark use regular Port Dewcription	true
 building_short_description_texts_short_description_wh2_main_special_lothern_port_nag_1	[PH] Fake Landmark use regular Port Dewcription	true
 building_short_description_texts_short_description_wh_main_special_erengrad_port_nag_1	[PH] Fake Landmark use regular Port Dewcription	true
@@ -194,11 +194,11 @@ building_short_description_texts_short_description_wh_main_special_marienburg_po
 building_short_description_texts_short_description_wh_twa03_special_albion_port_nag_1	[PH] Fake Landmark use regular Port Dewcription	true
 building_short_description_texts_short_description_wh2_dlc14_special_copher_port_nag_1	[PH] Fake Landmark use regular Port Dewcription	true
 building_short_description_texts_short_description_wh_main_brt_legendary_port_nag_1	[PH] Fake Landmark use regular Port Dewcription	true
-building_short_description_texts_short_description_nag_outpost_special_nagashizzar_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_special_nagashizzar_2	[PH]	true
-building_short_description_texts_short_description_nag_outpost_special_nagashizzar_3	[PH]	true
-building_short_description_texts_short_description_nag_outpost_special_nagashizzar_4	[PH]	true
-building_short_description_texts_short_description_nag_outpost_special_nagashizzar_5	[PH]	true
+building_short_description_texts_short_description_nag_outpost_special_nagashizzar_1	Nagashizzar, which means "Glory of Nagash" in High Nehekharan, known also the Cursed Pit.	true
+building_short_description_texts_short_description_nag_outpost_special_nagashizzar_2	Four mighty gates guard the approaches to Nagashizzar, made from a nameless black metal which shines like burning obsidian and is ten times harder than steel.	true
+building_short_description_texts_short_description_nag_outpost_special_nagashizzar_3	The Warpstone mines beneath Nagashizzar form a huge honeycomb of galleries and mineshafts, patrolled by untiring sentries from Nagash's Undead legions.	true
+building_short_description_texts_short_description_nag_outpost_special_nagashizzar_4	Within his audience chamber at the height of the peak Nagash sits on his throne of skulls. He has brooded here for over a millennium, waiting and planning, guiding his agents by the power of his thoughts.	true
+building_short_description_texts_short_description_nag_outpost_special_nagashizzar_5	Nagashizzar the Black City, is one of the mightiest fortresses the world has ever seen, excavated from the living rock of Cripple Peak.	true
 building_short_description_texts_short_description_nag_outpost_special_mourkain_1	[PH]	true
 building_short_description_texts_short_description_nag_outpost_special_mourkain_2	[PH]	true
 building_short_description_texts_short_description_nag_outpost_special_mourkain_3	[PH]	true
@@ -229,18 +229,18 @@ building_short_description_texts_short_description_nag_outpost_special_quintex_2
 building_short_description_texts_short_description_nag_outpost_special_quintex_3	[PH]	true
 building_short_description_texts_short_description_nag_outpost_special_quintex_4	[PH]	true
 building_short_description_texts_short_description_nag_outpost_special_quintex_5	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_research_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_arcane_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_support_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_nehek_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_nagashizzar_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_coast_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_count_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_primary_warpstone_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_secondary_fields_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_secondary_corruption_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_secondary_syphon_1	[PH]	true
-building_short_description_texts_short_description_nag_outpost_secondary_energy_1	[PH]	true
+building_short_description_texts_short_description_nag_outpost_primary_research_1	A colossal black tower of carved obsidian pierces through the landscape with a shrouded dark aura puzzling at its base.	true
+building_short_description_texts_short_description_nag_outpost_primary_arcane_1	The ground has split in two, a chilling wind gushes into the chasm, ferrying a stream of souls to its depths.	true
+building_short_description_texts_short_description_nag_outpost_primary_support_1	Legions of ancient warriors encased behind grand carved stones, waiting to hear their call to battle.	true
+building_short_description_texts_short_description_nag_outpost_primary_nehek_1	Underneath these sandstone tombs lay the vast dorment armies of Nehekhara.	true
+building_short_description_texts_short_description_nag_outpost_primary_nagashizzar_1	Glory of Nagash, forever and always.	true
+building_short_description_texts_short_description_nag_outpost_primary_coast_1	Hear the siren's call, as the dead are calling.	true
+building_short_description_texts_short_description_nag_outpost_primary_count_1	No pulse, no breath, no life, yet still they stir.	true
+building_short_description_texts_short_description_nag_outpost_primary_warpstone_1	Warpstone is Nagash's most valuable resource and he will strip the earth bare to get it all.	true
+building_short_description_texts_short_description_nag_outpost_secondary_fields_1	Unstable footing accompanied by a mysterious crunching sound...	true
+building_short_description_texts_short_description_nag_outpost_secondary_corruption_1	There are some places in the world where no living thing should tread.	true
+building_short_description_texts_short_description_nag_outpost_secondary_syphon_1	Obscured behind chocking mists, a vast grasping bog that saps the energy for all who venture through it.	true
+building_short_description_texts_short_description_nag_outpost_secondary_energy_1	Dont get too close now, you might just lose your soul.	true
 building_short_description_texts_short_description_nag_settlement_cavalry_1	[PH]	true
 building_short_description_texts_short_description_nag_settlement_cavalry_2	[PH]	true
 building_short_description_texts_short_description_nag_settlement_cavalry_3	[PH]	true
@@ -268,50 +268,36 @@ building_short_description_texts_short_description_nag_settlement_walls_1	[PH]	t
 building_short_description_texts_short_description_nag_settlement_walls_2	[PH]	true
 building_short_description_texts_short_description_nag_settlement_walls_3	[PH]	true
 building_short_description_texts_short_description_nag_settlement_warsphinx_1	[PH]	true
-building_short_description_texts_short_description_nag_resource_animals_1	The collection of exotic fauna for private menageries is an established market - the curious will pay to see them. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_animals_2	Once hunted, the creatures are stored in pens and cages for spectators or potential buyers. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_animals_3	Busy, noisy markets of the rich and powerful, where buyers vie for ownership of their exotic beasts. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_gems_1	A gem mineshaft is for digging into the mountains in search of precious stones, something Dwarfs are very good at.  [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_gems_2	Gem mines are valuable resources, especially if they have a high yield.  [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_gems_3	Members of the Gemcutters' Guild are respected both for their craft and for the riches they create.   [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_medicine_1	There are always those without any formal medical training, who know older ways and which herbs will cure which ills. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_medicine_2	For herbs that prove difficult to acquire, growing them artificially is the answer. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_medicine_3	Alchemists study not just what herbs interact with what substance, but why, and then record the lore in tomes for antiquity. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_obsidian_1	Volcanic ore is quite rare, and a precious resource for most due to the way it can interact with certain magic lores. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_obsidian_2	Items, such as talismans, made from obsidian often hold arcane power, and so those skilled in its manufacture are widely sought. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_obsidian_3	To be skilled at carving obsidian is to be skilled in sigils and symbols of power, for obsidian soaks in the ensorcelled. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_spices_1	Strange, exotic - even sensuous - smells fill the air at this market. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_spices_2	Gathered from the far flung east, spices from many foreign realms can be traded here. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_spices_3	Races from the east come to trade and bring with them exotic wares and spices. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_dyes_1	Deep in the red pits can be found mercury in the raw form of cinnabar. A material often used in Dark Magic rituals. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_dyes_2	The Blood Mines are red as cinnabar - and occasionally Warpstone - are found here in significant seams. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_dyes_3	Best not choose the dark green powder, though, it certainly isn't snuff! [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_furs_1	To hunt here is to become the hunted, for the prey is vicious and probably dead already… [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_furs_2	Should the smallfolk organise themselves, a whole expedition will venture into the haunted woods in search of game. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_furs_3	What is the Flayer? A myth, but one that is all too real. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_gold_1	Gold found here is always tarnished and far from the pure element so beloved by Dwarfs. Nevertheless, it has value. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_gold_2	When a Vampire Count discovers a large seam of gold, he will send his minions forth to scour it clean. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_gold_3	A great furnace with an ornate, brazen face, and yellow-green balefire within its sneering mouth. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_iron_1	The blackest iron ore can be found in the deepest pits, underneath the mountains upon which gothic castles perch. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_iron_2	Since before the building of Nagashizzar, Necromancers have used Zombies to burrow and mine mountains for their minerals. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_iron_3	Cursed iron ore is laced with Warpstone. Such mines are prized. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_iron_military	Burning with balefire, an unholy forge is a relic of Stirland's more prosperous days, now defiled and used by a Vampire's thralls. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_marble_1	The dread castles of Sylvania are made from stone shaped by stone cutters, under von Carstein's thrall. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_marble_2	There is an art to creating a memorable tombstone or grand mausoleum. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_marble_3	Some gargoyles are fashioned by sculptors - others just appear, as if they flew there themselves. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_pastures_1	The low-born of Sylvania that have heartbeats must still make a living. Most do in the cursed fields, tending to withering crops. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_pastures_2	Sylvanian peasants tend to wretched farms, continuing the pretence that the realm's nobles are kind and generous lords.  [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_pastures_3	At night, the mill by the blood-clotted streams begins to turn, mixing grains with grinded bone. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_pottery_1	Beneath the blood-clotted streams and rank sewage are pits of dense, dark clay. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_pottery_2	Using the raw clay compound, urn makers create opulent vessels to carry the ashes of powerful beings. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_pottery_3	Perhaps there is some spirit trapped within, burning in abject agony every time the kilns are lit? [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_salt_1	Stagnant ponds can be found by their disgusting reek, the brackish water full of brine and other things… [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_salt_2	The only thing that rises from the crumbling salt marshes of Sylvania are bony hands reaching toward the sky. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_salt_3	Deep in the dead marches are salt pans, containing piles and piles of bones, bleached and scoured white. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_timber_1	Foresting in Hunger Wood or the Spider Haunts is surely a fool's job? [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_timber_2	Once part of Stirland's burgeoning timber industry, the sawmills have remained in a ruined, yet operational state since the Vampire Wars… [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_timber_3	From the ruined sawmills, Zombie bearers transport their cursed loads to large sheds long-thought abandoned by mortals.   [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_timber_furs_military	There is a cabin in the woods, you know, where darkness dwells eternally… [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_wine_1	When a Vampire drinks an "aged red" from a wine glass, chances are it hasn't been made from grapes… [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_wine_2	Sylvanian orchards contain low-hanging, spooky trees, whose thorny branches are as likely to grab a passer-by as provide fruit. [PH - Change to match faction if needed]	true
-building_short_description_texts_short_description_nag_resource_wine_3	The Vampire Counts crave the illusion that they are nobles, and so they bottle their own "special" vintages. [PH - Change to match faction if needed]	true
+building_short_description_texts_short_description_nag_resource_gems_1	Gem mines are valuable resources, especially if they have a high yield.	true
+building_short_description_texts_short_description_nag_resource_gems_2	Precious gems are said to capture the eyes, minds and hearts of the living, so maybe their souls too.	true
+building_short_description_texts_short_description_nag_resource_gems_3	The opulence of the unliving knows no bounds and requires magnificent stones to be unearthed in ever-increasing amounts...	true
+building_short_description_texts_short_description_nag_resource_obsidian_1	Volcanic ore is quite rare, and a precious resource for Nagash due to the way it can interact with certain magic lores.	true
+building_short_description_texts_short_description_nag_resource_obsidian_2	Items, such as talismans, made from obsidian often hold arcane power, it is this reason that Nagash uses it to build his strongholds.	true
+building_short_description_texts_short_description_nag_resource_obsidian_3	To be skilled at carving obsidian is to be skilled in sigils and symbols of power, for obsidian soaks in the ensorcelled.	true
+building_short_description_texts_short_description_nag_resource_dyes_1	Deep in the red pits can be found mercury in the raw form of cinnabar. A material often used in Dark Magic rituals.	true
+building_short_description_texts_short_description_nag_resource_dyes_2	The Blood Mines are red as cinnabar - and occasionally Warpstone - are found here in significant seams.	true
+building_short_description_texts_short_description_nag_resource_dyes_3	Best not choose the dark green powder, though, it certainly isn't snuff!	true
+building_short_description_texts_short_description_nag_resource_furs_1	To hunt here is to become the hunted, for the prey is vicious and probably dead already…	true
+building_short_description_texts_short_description_nag_resource_furs_2	Should the dead be commanded to, an expedition will venture into the haunted woods in search of beasts to be killed, then promptly unkilled.d]	true
+building_short_description_texts_short_description_nag_resource_furs_3	What is the Flayer? A myth, but one that is all too real.	true
+building_short_description_texts_short_description_nag_resource_gold_1	Gold found here is always tarnished and far from the pure element so beloved by Dwarfs. Nevertheless, it has value.	true
+building_short_description_texts_short_description_nag_resource_gold_2	When the Legions of Nagash discover a large seam of gold, they will send their minions forth to scour it clean.	true
+building_short_description_texts_short_description_nag_resource_gold_3	A great furnace with an ornate, brazen face, and yellow-green balefire within its sneering mouth.	true
+building_short_description_texts_short_description_nag_resource_iron_1	The blackest iron ore can be found in the deepest pits, underneath the mountains upon which gothic castles perch.	true
+building_short_description_texts_short_description_nag_resource_iron_2	Since before the building of Nagashizzar, Necromancers have used Zombies to burrow and mine mountains for their minerals.	true
+building_short_description_texts_short_description_nag_resource_iron_3	Cursed iron ore is laced with Warpstone. Such mines are prized.	true
+building_short_description_texts_short_description_nag_resource_marble_1	The dread castles of the Legions of Nagash are made from stone shaped by the dead themselves.	true
+building_short_description_texts_short_description_nag_resource_marble_2	There is an art to creating a memorable tombstone or grand mausoleum.	true
+building_short_description_texts_short_description_nag_resource_marble_3	Some gargoyles are fashioned by sculptors - others just appear, as if they flew there themselves.	true
+building_short_description_texts_short_description_nag_resource_pottery_1	Beneath the blood-clotted streams and rank sewage are pits of dense, dark clay.	true
+building_short_description_texts_short_description_nag_resource_pottery_2	Using the raw clay compound, urn makers create opulent vessels to carry the ashes of powerful beings.	true
+building_short_description_texts_short_description_nag_resource_pottery_3	Perhaps there is some spirit trapped within, burning in abject agony every time the kilns are lit?	true
+building_short_description_texts_short_description_nag_resource_salt_1	Stagnant ponds can be found by their disgusting reek, the brackish water full of brine and other things…	true
+building_short_description_texts_short_description_nag_resource_salt_2	The only thing that rises from these crumbling salt marshes are bony hands reaching toward the sky.	true
+building_short_description_texts_short_description_nag_resource_salt_3	Deep in the dead marches are salt pans, containing piles and piles of bones, bleached and scoured white.	true
+building_short_description_texts_short_description_nag_resource_timber_1	Foresting in Hunger Wood or the Spider Haunts is surely a fool's job?	true
+building_short_description_texts_short_description_nag_resource_timber_2	Once part of a burgeoning timber industry, the sawmills have remained in a ruined, yet operational state since...	true
+building_short_description_texts_short_description_nag_resource_timber_3	From the ruined sawmills, Zombie bearers transport their cursed loads to large sheds long-thought abandoned by mortals.	true
+building_short_description_texts_short_description_nag_resource_wine_1	When a Vampire drinks an "aged red" from a wine glass, chances are it hasn't been made from grapes…	true
+building_short_description_texts_short_description_nag_resource_wine_2	These orchards contain low-hanging, spooky trees, whose thorny branches are as likely to grab a passer-by as provide fruit.	true
+building_short_description_texts_short_description_nag_resource_wine_3	Vampires crave the illusion that they are nobles, and so they bottle their own "special" vintages.	true

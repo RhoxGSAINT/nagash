@@ -226,7 +226,6 @@ nag_outpost_primary_main_oak_of_ages_1	nag_outpost_primary_main_oak_of_ages	1	1	
 nag_outpost_primary_main_oak_of_ages_ruin	nag_outpost_primary_main_oak_of_ages	0	1	0	0		false	0	0	0	0	false				true	wh_dlc05_elf_oak_of_ages	false	0.0	0	true	0	wh_cam_settlement_generic_ruin	true	0	0
 nag_outpost_landmark_necropolis_mourkain_1	nag_outpost_landmark_necropolis_mourkain	0	4	5000	0		false	0	0	0	0	false				true	wh2_dlc15_special_morgheim_necropolis_tmb	false	0.0	0	true	1		true	0	0
 nag_outpost_landmark_boneyard_mourkain_1	nag_outpost_landmark_boneyard_mourkain	0	4	4000	0		false	0	0	0	0	false				true	wh2_main_special_galbaraz_mourkain_tmb	false	0.0	0	true	1		true	0	0
-nag_outpost_landmark_ogham_stones_1	nag_outpost_landmark_ogham_stones	0	3	2000	0		false	0	0	0	0	false				true	wh2_twa03_special_ogham_stones	false	0.0	0	true	1		true	0	0
 nag_outpost_landmark_dragon_isle_port_1	nag_outpost_landmark_dragon_isle_port	1	1	800	0		false	0	0	0	0	false				true	wh2_dlc14_special_dragon_isle_port	false	0.0	0	true	1		true	0	0
 nag_outpost_landmark_dragon_isle_port_ruin	nag_outpost_landmark_dragon_isle_port	0	0	0	0		false	0	0	0	0	false				true	wh2_dlc14_special_dragon_isle_port	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
 nag_outpost_landmark_lothern_port_1	nag_outpost_landmark_lothern_port	1	2	1000	0		false	0	0	0	0	false				true	wh2_main_special_lothern_port	false	0.0	0	true	1		true	0	0
