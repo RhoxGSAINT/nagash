@@ -1,0 +1,86 @@
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
+#cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/jvj_nagash_buildings_outpost																												
+		nag_outpost_primary_main_1	nag_outpost_primary_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_main_coast_1	nag_outpost_primary_main_coast_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_norsca_primary_main_1	nag_outpost_norsca_primary_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_norsca_primary_main_coast_1	nag_outpost_norsca_primary_main_coast_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_secondary_main_1	nag_outpost_secondary_main_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_secondary_main_coast_1	nag_outpost_secondary_main_coast_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_norsca_secondary_main_1	nag_outpost_norsca_secondary_main_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_norsca_secondary_main_coast_1	nag_outpost_norsca_secondary_main_coast_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_main_port_1	nag_outpost_main_port_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_outpost_primary_main_altdorf_1	nag_outpost_primary_main_altdorf_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_athel_loren_1	nag_outpost_primary_main_athel_loren_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_black_crag_1	nag_outpost_primary_main_black_crag_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_castle_drakenhof_1	nag_outpost_primary_main_castle_drakenhof_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_couronne_1	nag_outpost_primary_main_couronne_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_eight_peaks_1	nag_outpost_primary_main_eight_peaks_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_gaean_vale_1	nag_outpost_primary_main_gaean_vale_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_hexoatl_1	nag_outpost_primary_main_hexoatl_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_itza_1	nag_outpost_primary_main_itza_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_karaz_a_karak_1	nag_outpost_primary_main_karaz_a_karak_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_khemri_1	nag_outpost_primary_main_khemri_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_kislev_1	nag_outpost_primary_main_kislev_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_konquata_1	nag_outpost_primary_main_konquata_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_lahmia_1	nag_outpost_primary_main_lahmia_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_lothern_1	nag_outpost_primary_main_lothern_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_miragliano_1	nag_outpost_primary_main_miragliano_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_naggarond_1	nag_outpost_primary_main_naggarond_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_pyramid_of_nagash_1	nag_outpost_primary_main_pyramid_of_nagash_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_massif_orcal_1	nag_outpost_primary_main_massif_orcal_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_tor_yvresse_1	nag_outpost_primary_main_tor_yvresse_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_sartosa_1	nag_outpost_primary_main_sartosa_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_the_awakening_1	nag_outpost_primary_main_the_awakening_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_galleons_graveyard_1	nag_outpost_primary_main_galleons_graveyard_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_hellpit_1	nag_outpost_primary_main_hellpit_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_skavenblight_1	nag_outpost_primary_main_skavenblight_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_empire_fort_1	nag_outpost_primary_main_empire_fort_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_fortress_gate_eagle_1	nag_outpost_primary_main_fortress_gate_eagle_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_fortress_gate_griffon_1	nag_outpost_primary_main_fortress_gate_griffon_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_fortress_gate_phoenix_1	nag_outpost_primary_main_fortress_gate_phoenix_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_fortress_gate_unicorn_1	nag_outpost_primary_main_fortress_gate_unicorn_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_elven_colony_1	nag_outpost_primary_main_elven_colony_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_elven_colony_minor_1	nag_outpost_primary_main_elven_colony_minor_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_main_oak_of_ages_1	nag_outpost_primary_main_oak_of_ages_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_necropolis_mourkain_1	nag_outpost_landmark_necropolis_mourkain_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_boneyard_mourkain_1	nag_outpost_landmark_boneyard_mourkain_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_ogham_stones_1	nag_outpost_landmark_ogham_stones_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_dragon_isle_port_1	nag_outpost_landmark_dragon_isle_port_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_lothern_port_1	nag_outpost_landmark_lothern_port_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_erengrad_port_1	nag_outpost_landmark_erengrad_port_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_marienburg_port_1	nag_outpost_landmark_marienburg_port_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_albion_port_1	nag_outpost_landmark_albion_port_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_copher_port_1	nag_outpost_landmark_copher_port_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_landmark_bordeleaux_port_1	nag_outpost_landmark_bordeleaux_port_1								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_special_nagashizzar_1	nag_outpost_special_nagashizzar_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_special_mourkain_1	nag_outpost_special_mourkain_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_special_lahmia_1	nag_outpost_special_lahmia_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_special_khemri_1	nag_outpost_special_khemri_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_special_awakening_1	nag_outpost_special_awakening_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_special_drakenhof_1	nag_outpost_special_drakenhof_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_special_quintex_1	nag_outpost_special_quintex_5								-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	0	0
+		nag_outpost_primary_research_1	nag_outpost_primary_research_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_arcane_1	nag_outpost_primary_arcane_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_support_1	nag_outpost_primary_support_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_primary_nehek_1	nag_outpost_primary_nehek_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_nagashizzar_1	nag_outpost_primary_nagashizzar_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_coast_1	nag_outpost_primary_coast_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_count_1	nag_outpost_primary_count_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	50
+		nag_outpost_primary_warpstone_1	nag_outpost_primary_warpstone_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	100
+		nag_outpost_secondary_fields_1	nag_outpost_secondary_fields_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_outpost_secondary_corruption_1	nag_outpost_secondary_corruption_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_outpost_secondary_syphon_1	nag_outpost_secondary_syphon_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_outpost_secondary_energy_1	nag_outpost_secondary_energy_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_settlement_cavalry_1	nag_settlement_cavalry_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_chariots_1	nag_settlement_chariots_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_citadel_1	nag_settlement_citadel_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_defence_major_1	nag_settlement_defence_major_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	20
+		nag_settlement_estate_1	nag_settlement_estate_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	25	25
+		nag_settlement_growth_1	nag_settlement_growth_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+		nag_settlement_hierotitan_1	nag_settlement_hierotitan_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_income_1	nag_settlement_income_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_settlement_infantry_1	nag_settlement_infantry_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_necrosphinx_1	nag_settlement_necrosphinx_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_scorpions_1	nag_settlement_scorpions_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_ushabti_1	nag_settlement_ushabti_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_warsphinx_1	nag_settlement_warsphinx_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
