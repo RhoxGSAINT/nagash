@@ -1,7 +1,7 @@
 {
   "settings_text": {
     "diagnostics_files_to_ignore": "",
-    "import_files_to_ignore": ""
+    "import_files_to_ignore": ".git/\n.gitignore\nREADME.md\n.gitattributes\n.vscode/"
   },
   "settings_string": {},
   "settings_bool": {

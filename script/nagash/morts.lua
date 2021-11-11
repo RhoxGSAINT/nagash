@@ -121,11 +121,14 @@ end
 
 --- Dev function to automatically unlock and spawn every Mortarch.
 function bdsm:all_morts()
+    local fact = self:get_faction()
     local fact_key = self:get_faction_key()
     local nagash = self:get_faction_leader()
+    local nag_mf = nagash:military_force()
     local region = nagash:region()
     local region_key = region:name()
 
+    cm:spawn_agent_at_military_force(fact, nag_mf, "dignitary", "nag_mortarch_isabella")
 
     for i = 1, #mortarchs do
         local mort = mortarchs[i]
