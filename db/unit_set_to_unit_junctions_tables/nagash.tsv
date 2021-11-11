@@ -340,3 +340,13 @@ hero				nag_characters	false
 			wh_main_vmp_cha_vampire_2	nag_vampiric	false
 			nag_vanilla_vmp_cav_blood_knights_0	nag_vampiric	false
 			nag_vanilla_cst_inf_depth_guard_0	nag_vampiric	false
+			nag_vanilla_vmp_inf_crypt_ghouls	nag_crypt_ghouls	false
+			wh_dlc05_vmp_cha_vampire_shadows_0	nag_female_vampires	false
+			wh_dlc05_vmp_cha_vampire_shadows_1	nag_female_vampires	false
+			wh_dlc05_vmp_cha_vampire_shadows_2	nag_female_vampires	false
+			wh_main_vmp_cha_vampire_0	nag_female_vampires	false
+			wh_main_vmp_cha_vampire_1	nag_female_vampires	false
+			wh_main_vmp_cha_vampire_2	nag_female_vampires	false
+			nag_mortarch_isabella	nag_female_vampires	false
+			nag_mortarch_isabella_hellsteed	nag_female_vampires	false
+			nag_mortarch_isabella_warhorse	nag_female_vampires	false

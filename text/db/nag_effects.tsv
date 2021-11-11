@@ -3,7 +3,7 @@ key	text	tooltip
 effects_description_nag_effect_horde_growth	Undead Horde growth: %+n	true
 effects_description_nag_effect_horde_replenishment	Casualty replenishment rate: %+n%	true
 effects_description_nag_effect_patrol_dummy	Defence: Undead Patrols may spawn from this location	false
-effects_description_nag_effect_warpstone_token	Warpstone: %+n%	false
+effects_description_nag_effect_warpstone_token	Warpstone: %+n	false
 effects_description_nag_building_effect_cannot_grow_enable	This settlement cannot grow on its own	true
 effects_description_nag_building_effect_cannot_grow_disable	Allows the settlement to grow	true
 effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence: %+n for Bone Golems	true
@@ -64,6 +64,7 @@ effects_description_nag_effect_unit_cap_khemrian_warsphinx_0	Unit capacity: %+n\
 effects_description_nag_effect_unit_cap_tomb_guard_0	Unit capacity: %+n\\nTomb Guard	true
 effects_description_nag_effect_unit_cap_tomb_guard_1	Unit capacity: %+n\\nTomb Guard (Halberds)	true
 effects_description_nag_effect_unit_cap_cairn_wraiths	Unit capacity: %+n\\nCairn Wraiths	true
+effects_description_nag_effect_unit_cap_crypt_ghouls	Unit capacity: %+n\\nCrypt Ghouls	true
 effects_description_nag_effect_unit_cap_grave_guard_0	Unit capacity: %+n\\nGrave Guard	true
 effects_description_nag_effect_unit_cap_grave_guard_1	Unit capacity: %+n\\nGrave Guard (Great Weapons)	true
 effects_description_nag_effect_unit_cap_vargheists	Unit capacity: %+n\\nVargheists	true
@@ -240,3 +241,5 @@ effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death	Winds of M
 effects_description_nag_double_vampires_enable_wind_of_death_upgraded	Overcast spell: "Wind of Death Upgraded"	true
 effects_description_nag_double_vampires_miscast_reduction_wind_of_death_upgraded	Miscast base chance: %+n% for "Wind of Death Upgraded"	true
 effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death_upgraded	Winds of Magic cost: %n for "Wind of Death Upgraded"	true
+effects_description_nag_effect_upkeep_cost_reduction_crypt_ghouls	Upkeep: %+n% for Crypt Ghouls	true
+effects_description_nag_effect_enable_ability_blood_queen_dignitary_vmp	Ability: "Blood Queen" for all Female Vampires	true
