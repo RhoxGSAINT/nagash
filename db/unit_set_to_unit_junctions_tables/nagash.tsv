@@ -350,3 +350,7 @@ hero				nag_characters	false
 			nag_mortarch_isabella	nag_female_vampires	false
 			nag_mortarch_isabella_hellsteed	nag_female_vampires	false
 			nag_mortarch_isabella_warhorse	nag_female_vampires	false
+			nag_mortarch_isabella	nag_vlad_to_isabella	false
+			nag_mortarch_isabella_hellsteed	nag_vlad_to_isabella	false
+			nag_mortarch_isabella_warhorse	nag_vlad_to_isabella	false
+			nag_mortarch_vlad	nag_isabella_to_vlad	false

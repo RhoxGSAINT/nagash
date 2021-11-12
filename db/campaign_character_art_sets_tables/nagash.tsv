@@ -1,22 +1,22 @@
 art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
 #campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/nagash								
-nag_nagash_boss	general			nag_nagash	false	true	nag_nagash_boss	1.0
-nag_nagash_husk	general			nag_nagash	false	true	nag_nagash_husk	1.0
-nag_mortarch_luthor_1	general			nag_nagash	false	true	nag_mortarch_luthor	1.0
-nag_mortarch_luthor_2	general			nag_nagash	false	true	nag_mortarch_luthor	1.0
-nag_mortarch_luthor_3	general			nag_nagash	false	true	nag_mortarch_luthor	1.0
-nag_mortarch_luthor_4	general			nag_nagash	false	true	nag_mortarch_luthor	1.0
-nag_mortarch_vlad	general			nag_nagash	false	true	nag_mortarch_vlad	1.0
-nag_mortarch_mannfred	general			nag_nagash	false	true	nag_mortarch_mannfred	1.0
-nag_mortarch_arkhan	general			nag_nagash	false	true	nag_mortarch_arkhan	1.0
-nag_mortarch_krell	general			nag_nagash	false	true	nag_mortarch_krell	1.0
-nag_mortarch_neferata	general			nag_nagash	false	true	nag_mortarch_neferata	1.0
-nag_traitor_king_01	general			nag_nagash	false	true	nag_traitor_king	1.0
-nag_traitor_king_02	general			nag_nagash	false	true	nag_traitor_king	1.0
-nag_traitor_king_03	general			nag_nagash	false	true	nag_traitor_king	1.0
-nag_traitor_king_04	general			nag_nagash	false	true	nag_traitor_king	1.0
-nag_traitor_king_05	general			nag_nagash	false	true	nag_traitor_king	1.0
-nag_mortarch_isabella	dignitary			nag_nagash	false	true	nag_mortarch_isabella	1.0
+nag_nagash_boss	general	nag_nagash		nag_nagash	false	true	nag_nagash_boss	1.0
+nag_nagash_husk	general	nag_nagash		nag_nagash	false	true	nag_nagash_husk	1.0
+nag_mortarch_luthor_1	general	nag_nagash		nag_nagash	false	true	nag_mortarch_luthor	1.0
+nag_mortarch_luthor_2	general	nag_nagash		nag_nagash	false	true	nag_mortarch_luthor	1.0
+nag_mortarch_luthor_3	general	nag_nagash		nag_nagash	false	true	nag_mortarch_luthor	1.0
+nag_mortarch_luthor_4	general	nag_nagash		nag_nagash	false	true	nag_mortarch_luthor	1.0
+nag_mortarch_vlad	general	nag_nagash		nag_nagash	false	true	nag_mortarch_vlad	1.0
+nag_mortarch_mannfred	general	nag_nagash		nag_nagash	false	true	nag_mortarch_mannfred	1.0
+nag_mortarch_arkhan	general	nag_nagash		nag_nagash	false	true	nag_mortarch_arkhan	1.0
+nag_mortarch_krell	general	nag_nagash		nag_nagash	false	true	nag_mortarch_krell	1.0
+nag_mortarch_neferata	general	nag_nagash		nag_nagash	false	true	nag_mortarch_neferata	1.0
+nag_traitor_king_01	general	nag_nagash		nag_nagash	false	true	nag_traitor_king	1.0
+nag_traitor_king_02	general	nag_nagash		nag_nagash	false	true	nag_traitor_king	1.0
+nag_traitor_king_03	general	nag_nagash		nag_nagash	false	true	nag_traitor_king	1.0
+nag_traitor_king_04	general	nag_nagash		nag_nagash	false	true	nag_traitor_king	1.0
+nag_traitor_king_05	general	nag_nagash		nag_nagash	false	true	nag_traitor_king	1.0
+nag_mortarch_isabella	dignitary	nag_nagash		nag_nagash	false	false	nag_mortarch_isabella	1.0
 nag_tomb_prince_01	champion	nag_nagash			false	true	nag_tomb_prince	1.0
 nag_tomb_prince_02	champion	nag_nagash			false	true	nag_tomb_prince	1.0
 nag_tomb_prince_03	champion	nag_nagash			false	true	nag_tomb_prince	1.0

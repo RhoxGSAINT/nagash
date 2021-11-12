@@ -139,6 +139,7 @@ nag_skill_mortarch_innate_vlad	trait_mortarch.png		Mortarch of Shadows	0	true	fa
 nag_skill_mortarch_innate_mannfred	trait_mortarch.png		Mortarch of Night	0	true	false	false	5.0	0
 nag_skill_mortarch_innate_luthor	trait_mortarch.png		Mortarch of the Abyss	0	true	false	false	5.0	0
 nag_skill_mortarch_innate_neferata	trait_mortarch.png		Mortarch of Blood	0	true	false	false	5.0	0
+nag_skill_mortarch_innate_isabella	trait_mortarch.png		The Countess of Sylvania	0	true	false	false	5.0	0
 nag_skill_traitor_kings_innate_first_book	trait_book_1.png		Knowledge of the First Book	0	true	false	false	1.0	0
 nag_skill_traitor_kings_innate_second_book	trait_book_2.png		Knowledge of the Second Book	0	true	false	false	1.0	0
 nag_skill_traitor_kings_innate_third_book	trait_book_3.png		Knowledge of the Third Book	0	true	false	false	1.0	0

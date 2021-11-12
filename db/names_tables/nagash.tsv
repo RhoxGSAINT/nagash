@@ -8,6 +8,7 @@ id	names_group	type	gender	frequency
 1937224333	180	forename	m	0
 1937224334	180	forename	m	0
 1937224335	180	forename	m	0
+1937224336	180	forename	f	0
 1777692413	565429470	family_name	b	1
 1777692414	565429470	family_name	b	1
 1777692415	565429470	family_name	b	1
@@ -16,3 +17,4 @@ id	names_group	type	gender	frequency
 1777692418	565429470	family_name	b	1
 1777692419	565429470	family_name	b	1
 1777692420	565429470	family_name	b	1
+1777692421	565429470	family_name	b	1
