@@ -2,7 +2,15 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 #character_skill_level_details_tables;0;db/character_skill_level_details_tables/nagash_skills						
 		1	nag_skill_unique_nagash_morikhane		x	40
 		1	nag_skill_unique_nagash_mortis		x	40
-		1	nag_skill_unique_nagash_nine_books		x	40
+		1	nag_skill_unique_nagash_book_one		x	1
+		1	nag_skill_unique_nagash_book_two		x	1
+		1	nag_skill_unique_nagash_book_three		x	1
+		1	nag_skill_unique_nagash_book_four		x	1
+		1	nag_skill_unique_nagash_book_five		x	1
+		1	nag_skill_unique_nagash_book_six		x	1
+		1	nag_skill_unique_nagash_book_seven		x	1
+		1	nag_skill_unique_nagash_book_eight		x	1
+		1	nag_skill_unique_nagash_book_nine		x	1
 		1	nag_skill_unique_nagash_alakanash		x	40
 		1	nag_skill_unique_nagash_crown		x	40
 		1	nag_skill_unique_vlad_blood_drinker		x	6

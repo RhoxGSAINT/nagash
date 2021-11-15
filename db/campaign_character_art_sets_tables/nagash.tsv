@@ -27,9 +27,12 @@ nag_liche_priest_02	wizard	nag_nagash			false	true		1.0
 nag_liche_priest_03	wizard	nag_nagash			false	true		1.0
 nag_liche_priest_04	wizard	nag_nagash			false	true		1.0
 nag_liche_priest_05	wizard	nag_nagash			false	true		1.0
-nag_vampire_01	dignitary	nag_nagash			false	false		1.0
-nag_vampire_02	dignitary	nag_nagash			false	false		1.0
-nag_vampire_03	dignitary	nag_nagash			false	false		1.0
+nag_vampire_01	dignitary	nag_nagash			false	false	nag_vampire	1.0
+nag_vampire_02	dignitary	nag_nagash			false	false	nag_vampire	1.0
+nag_vampire_03	dignitary	nag_nagash			false	false	nag_vampire	1.0
+nag_vampire_alt_01	dignitary	nag_nagash			false	false	nag_vampire_shadow	1.0
+nag_vampire_alt_02	dignitary	nag_nagash			false	false	nag_vampire_shadow	1.0
+nag_vampire_alt_03	dignitary	nag_nagash			false	false	nag_vampire_shadow	1.0
 nag_wight_king_01	champion	nag_nagash			false	true	nag_wight_king	1.0
 nag_wight_king_02	champion	nag_nagash			false	true	nag_wight_king	1.0
 nag_wight_king_03	champion	nag_nagash			false	true	nag_wight_king	1.0

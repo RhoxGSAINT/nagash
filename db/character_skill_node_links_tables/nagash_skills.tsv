@@ -1,5 +1,14 @@
 child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
 #character_skill_node_links_tables;3;db/character_skill_node_links_tables/nagash_skills							
+nag_skill_supreme_nagash_books_1	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_2	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_3	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_4	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_5	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_6	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_7	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_8	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
+nag_skill_supreme_nagash_books_9	nag_skill_supreme_nagash_books_0	0	1	1	0.0	0.0	REQUIRED
 nag_skill_supreme_nagash_army_1	nag_skill_supreme_nagash_army_0	0	1	1	0.0	0.0	REQUIRED
 nag_skill_supreme_nagash_army_2	nag_skill_supreme_nagash_army_0	0	1	1	0.0	0.0	REQUIRED
 nag_skill_supreme_nagash_army_3	nag_skill_supreme_nagash_army_0	0	1	1	0.0	0.0	REQUIRED
@@ -53,18 +62,6 @@ nag_skill_supreme_nagash_magic1_10	nag_skill_supreme_nagash_magic1_6	0	1	1	0.0	0
 nag_skill_supreme_nagash_magic1_10	nag_skill_supreme_nagash_magic1_7	0	1	1	0.0	0.0	SUBSET_REQUIRED
 nag_skill_supreme_nagash_magic1_10	nag_skill_supreme_nagash_magic1_8	0	1	1	0.0	0.0	SUBSET_REQUIRED
 nag_skill_supreme_nagash_magic1_10	nag_skill_supreme_nagash_magic1_9	0	1	1	0.0	0.0	SUBSET_REQUIRED
-nag_skill_supreme_nagash_magic2_1	nag_skill_supreme_nagash_magic2_0	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic2_2	nag_skill_supreme_nagash_magic2_0	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic2_3	nag_skill_supreme_nagash_magic2_0	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic2_5	nag_skill_supreme_nagash_magic2_4	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic2_6	nag_skill_supreme_nagash_magic2_4	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic2_7	nag_skill_supreme_nagash_magic2_4	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic3_1	nag_skill_supreme_nagash_magic3_0	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic3_2	nag_skill_supreme_nagash_magic3_0	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic3_3	nag_skill_supreme_nagash_magic3_0	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic3_5	nag_skill_supreme_nagash_magic3_4	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic3_6	nag_skill_supreme_nagash_magic3_4	0	1	1	0.0	0.0	REQUIRED
-nag_skill_supreme_nagash_magic3_7	nag_skill_supreme_nagash_magic3_4	0	1	1	0.0	0.0	REQUIRED
 nag_skill_husk_nagash_army_1	nag_skill_husk_nagash_army_0	0	1	1	0.0	0.0	REQUIRED
 nag_skill_husk_nagash_army_2	nag_skill_husk_nagash_army_0	0	1	1	0.0	0.0	REQUIRED
 nag_skill_husk_nagash_army_3	nag_skill_husk_nagash_army_0	0	1	1	0.0	0.0	REQUIRED
