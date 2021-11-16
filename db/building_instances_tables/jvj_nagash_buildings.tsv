@@ -15,10 +15,10 @@ nag_outpost_primary_main	1
 nag_outpost_primary_main_coast	1
 nag_outpost_secondary_main	1
 nag_outpost_secondary_main_coast	1
-nag_outpostnorsca_primary_main	1
-nag_outpostnorsca_primary_main_coast	1
-nag_outpostnorsca_secondary_main	1
-nag_outpostnorsca_secondary_main_coast	1
+nag_outpost_norsca_primary_main	1
+nag_outpost_norsca_primary_main_coast	1
+nag_outpost_norsca_secondary_main	1
+nag_outpost_norsca_secondary_main_coast	1
 nag_outpost_main_port	1
 nag_outpost_primary_research	1
 nag_outpost_primary_arcane	1

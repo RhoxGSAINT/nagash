@@ -5,3 +5,5 @@ nag_nagash_group	ph	ph	faction	1	character.png	false	false	true
 nag_bundle_stance_army_settlement_horde	Sets up a defensive camp, allowing for building construction, recruitment and replenishment, regardless of territory.	Stance: Encamp	force	1	icon_effects_fortify.png	true	false	true
 nag_ability_enable_batocalypse	ph	ph	faction	0	 	false	false	true
 nag_ability_enable_endless_tomb	ph	ph	faction	0	 	false	false	true
+nag_ability_enable_blyramid_bombardment	ph	ph	faction	0	 	false	false	true
+nag_ability_enable_blyramid_itself	ph	ph	faction	0	 	false	false	true
