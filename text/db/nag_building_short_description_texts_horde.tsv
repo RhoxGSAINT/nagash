@@ -1,45 +1,45 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_building_short_description_texts_horde.loc		
 building_short_description_texts_short_description_		true
-building_short_description_texts_short_description_nag_bpyramid_main_1	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_3	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_4	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_5	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew2_mortuary_1	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew2_mortuary_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew2_mortuary_3	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_1	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_3	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_4	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_5	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww1_stables_1	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww1_stables_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww1_stables_3	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww1_stables_4	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww1_stables_5	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww2_warmachines_1	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww2_warmachines_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww2_warmachines_3	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_obelisk_1	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_obelisk_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_obelisk_3	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_obelisk_4	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_main_obelisk_5	[PH]	false
+building_short_description_texts_short_description_nag_bpyramid_main_1	The first of Nagash's great and powerful edifices. Even millennia later it is still surrounded by fell magic.	false
+building_short_description_texts_short_description_nag_bpyramid_main_2	The Pyramid seems to hum in the silent excitement of a pet crocodile.	false
+building_short_description_texts_short_description_nag_bpyramid_main_3	Positively cracking with energy, and a threat visible from afar.	false
+building_short_description_texts_short_description_nag_bpyramid_main_4	New and old chambers restored to their power, unconcealed dark magic flooding the stone and surroundings.	false
+building_short_description_texts_short_description_nag_bpyramid_main_5	Manic laughter is felt rather than just heard in the entire region, as the Black Pyramid achieves lift off.	false
+building_short_description_texts_short_description_nag_bpyramid_ew2_mortuary_1	Dangerous spirits are bound within these chambers, and armed with foul intents.	false
+building_short_description_texts_short_description_nag_bpyramid_ew2_mortuary_2	Dangerous spirits are bound within these chambers, and armed with foul intents.	false
+building_short_description_texts_short_description_nag_bpyramid_ew2_mortuary_3	Dangerous spirits are bound within these chambers, and armed with foul intents.	false
+building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_1	Stalkers and guardians of desert and fortress. There is very little difference of stance, and a communality of deadly purposes.	false
+building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_2	Stalkers and guardians of desert and fortress. There is very little difference of stance, and a communality of deadly purposes.	false
+building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_3	Stalkers and guardians of desert and fortress. There is very little difference of stance, and a communality of deadly purposes.	false
+building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_4	Stalkers and guardians of desert and fortress. There is very little difference of stance, and a communality of deadly purposes.	false
+building_short_description_texts_short_description_nag_bpyramid_ew1_barracks_5	Stalkers and guardians of desert and fortress. There is very little difference of stance, and a communality of deadly purposes.	false
+building_short_description_texts_short_description_nag_bpyramid_ww1_stables_1	Stables remind of hay, snorting muzzles, and swift noble creatures. These are not like that.	false
+building_short_description_texts_short_description_nag_bpyramid_ww1_stables_2	Stables remind of hay, snorting muzzles, and swift noble creatures. These are not like that.	false
+building_short_description_texts_short_description_nag_bpyramid_ww1_stables_3	Stables remind of hay, snorting muzzles, and swift noble creatures. These are not like that.	false
+building_short_description_texts_short_description_nag_bpyramid_ww1_stables_4	Stables remind of hay, snorting muzzles, and swift noble creatures. These are not like that.	false
+building_short_description_texts_short_description_nag_bpyramid_ww1_stables_5	Stables remind of hay, snorting muzzles, and swift noble creatures. These are not like that.	false
+building_short_description_texts_short_description_nag_bpyramid_ww2_warmachines_1	Dark magic and skeletal hands twist bones into machines of death.	false
+building_short_description_texts_short_description_nag_bpyramid_ww2_warmachines_2	Dark magic and skeletal hands twist bones into machines of death.	false
+building_short_description_texts_short_description_nag_bpyramid_ww2_warmachines_3	Dark magic and skeletal hands twist bones into machines of death.	false
+building_short_description_texts_short_description_nag_bpyramid_main_obelisk_1	A new addition to the Black Pyramid complex, a humming obelisk of dark stone to put most towers to shame.	false
+building_short_description_texts_short_description_nag_bpyramid_main_obelisk_2	A new addition to the Black Pyramid complex, a humming obelisk of dark stone to put most towers to shame.	false
+building_short_description_texts_short_description_nag_bpyramid_main_obelisk_3	A new addition to the Black Pyramid complex, a humming obelisk of dark stone to put most towers to shame.	false
+building_short_description_texts_short_description_nag_bpyramid_main_obelisk_4	A new addition to the Black Pyramid complex, a humming obelisk of dark stone to put most towers to shame.	false
+building_short_description_texts_short_description_nag_bpyramid_main_obelisk_5	A new addition to the Black Pyramid complex, a humming obelisk of dark stone to put most towers to shame.	false
 building_short_description_texts_short_description_nag_bpyramid_ew4_other_1	Magical wards as ancient as Nagash himself, bolstering any undead fighting around the Black Pyramid.	false
-building_short_description_texts_short_description_nag_bpyramid_ew4_other_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew4_other_3	[PH]	false
+building_short_description_texts_short_description_nag_bpyramid_ew4_other_2	Magical wards as ancient as Nagash himself, bolstering any undead fighting around the Black Pyramid.	false
+building_short_description_texts_short_description_nag_bpyramid_ew4_other_3	Magical wards as ancient as Nagash himself, bolstering any undead fighting around the Black Pyramid.	false
 building_short_description_texts_short_description_nag_bpyramid_ww4_extra_1	Even the air around the Pyramid feels like knife stabs. Might be the skeleton hordes, though.	false
-building_short_description_texts_short_description_nag_bpyramid_ww4_extra_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww4_extra_3	[PH]	false
+building_short_description_texts_short_description_nag_bpyramid_ww4_extra_2	Even the air around the Pyramid feels like knife stabs. Might be the skeleton hordes, though.	false
+building_short_description_texts_short_description_nag_bpyramid_ww4_extra_3	Even the air around the Pyramid feels like knife stabs. Might be the skeleton hordes, though.	false
 building_short_description_texts_short_description_nag_bpyramid_ew3_growth_1	Tight, rampant tunnels within the oppressive weight of dark stone. Careful not to slip on the many skulls.	false
-building_short_description_texts_short_description_nag_bpyramid_ew3_growth_2	So many bones and skeletons, none of them fresh, some of them pretty lively.	false
-building_short_description_texts_short_description_nag_bpyramid_ew3_growth_3	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ew3_growth_4	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww3_industry_1	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww3_industry_2	[PH]	false
-building_short_description_texts_short_description_nag_bpyramid_ww3_industry_3	[PH]	false
+building_short_description_texts_short_description_nag_bpyramid_ew3_growth_2	Tight, rampant tunnels within the oppressive weight of dark stone. Careful not to slip on the many skulls.	false
+building_short_description_texts_short_description_nag_bpyramid_ew3_growth_3	Tight, rampant tunnels within the oppressive weight of dark stone. Careful not to slip on the many skulls.	false
+building_short_description_texts_short_description_nag_bpyramid_ew3_growth_4	Tight, rampant tunnels within the oppressive weight of dark stone. Careful not to slip on the many skulls.	false
+building_short_description_texts_short_description_nag_bpyramid_ww3_industry_1	Multitudes of corrupted scarabs swarm over materials, crafting what the Great Necromancer needs.	false
+building_short_description_texts_short_description_nag_bpyramid_ww3_industry_2	Multitudes of corrupted scarabs swarm over materials, crafting what the Great Necromancer needs.	false
+building_short_description_texts_short_description_nag_bpyramid_ww3_industry_3	Multitudes of corrupted scarabs swarm over materials, crafting what the Great Necromancer needs.	false
 building_short_description_texts_short_description_nag_bpyramid_hidden_1		false
 building_short_description_texts_short_description_nag_bpyramid_landmark_0	[PH]	true
 building_short_description_texts_short_description_nag_bpyramid_landmark_1	[PH]	true

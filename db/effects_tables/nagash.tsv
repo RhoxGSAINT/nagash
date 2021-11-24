@@ -38,12 +38,12 @@ nag_effect_agent_enable_recruitment_wizard_tmb	wizard.png	3	wizard.png	campaign	
 nag_effect_agent_enable_recruitment_dignitary_vmp	vampire.png	3	vampire.png	campaign	true
 nag_effect_agent_enable_recruitment_champion_vmp	wight_king.png	3	wight_king.png	campaign	true
 nag_effect_agent_enable_recruitment_engineer_cst	gunnery_wight.png	3	gunnery_wight.png	campaign	true
-nag_effect_agent_enable_recruitment_archai	mourngul_haunter.png	3	mourngul_haunter.png	campaign	true
+nag_effect_agent_enable_recruitment_archai	saurus_scar_veteran.png	3	saurus_scar_veteran.png	campaign	true
 nag_effect_agent_cap_increase_liche_priest	wizard.png	4	wizard.png	campaign	true
 nag_effect_agent_cap_increase_gunnery_wight	gunnery_wight.png	4	gunnery_wight.png	campaign	true
 nag_effect_agent_cap_increase_vampire	vampire.png	4	vampire.png	campaign	true
 nag_effect_agent_cap_increase_prince_wight	tomb_prince.png	4	tomb_prince.png	campaign	true
-nag_effect_agent_cap_increase_archai	mourngul_haunter.png	4	mourngul_haunter.png	campaign	true
+nag_effect_agent_cap_increase_archai	saurus_scar_veteran.png	4	saurus_scar_veteran.png	campaign	true
 nag_effect_dummy_bel_spells_rename_references	spell_ability.png	1	spell_ability.png	campaign	false
 nag_ability_enable_batocalypse	general_ability.png	101	general_ability.png	battle	true
 nag_ability_enable_endless_tomb	general_ability.png	101	general_ability.png	battle	true
