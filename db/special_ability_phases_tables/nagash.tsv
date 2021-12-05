@@ -12,7 +12,8 @@ nag_krell_mortarch_of_despair_miscast_heal	26.0	positive		false	false	false	-0.3
 nag_krell_armour_passive_armour_of_barrow	15.0	negative		false	false	false	0.0	0.0	10.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_debuff_attack_passive		45.0	false	true	true	0.0	
 wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_debuff_morale_passive		-1.0	false	true	true	0.0	
 wh_dlc04_lord_passive_aura_of_dark_majesty	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_debuff_morale_passive		-1.0	false	true	true	0.0	
-nag_neferata_abilities_mortarch_of_blood_death	25.0	negative		false	true	false	0.0	0.0	0.0	1.0	0	0.0	40	1	0	false	0.0	0.0	false	0		wh2_dlc15_abilities_wardens_cage	wh2_dlc15_ability_wardens_cage	-1.0	false	true	true	0.0	
+nag_neferata_abilities_mortarch_of_blood_death_01	24.0	negative		false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		belisarians_nagash_nefferata_heart_dagger		-1.0	false	true	true	0.0	
+nag_neferata_abilities_mortarch_of_blood_death_02	1.0	negative		false	true	false	0.0	0.0	0.0	1.0	0	1.0	1000	1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 nag_neferata_passive_blood_queen	-1.0	positive		false	false	false	0.0	0.0	0.0	0.5	4	0.0	0	0	4	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 nag_neferata_item_passive_staff_of_pain	10.0	negative		false	false	false	0.0	0.0	0.0	1.0	0	1.0	4	2	0	false	0.0	0.0	false	0		wh_main_generic_hp_damage_passive		-1.0	false	true	true	0.0	
 nag_unit_contact_screaming_blade	10.0	negative		false	false	false	0.0	0.0	0.0	0.5	0	1.0	8	1	0	false	0.0	0.0	false	0		wh2_dlc14_spell_stealth_brittle_bone		-1.0	false	true	true	0.0	

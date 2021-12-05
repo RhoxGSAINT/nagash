@@ -10,6 +10,8 @@ unit_abilities_tooltip_text_wh_main_spell_nagash_harbinger	The greatest practiti
 unit_abilities_onscreen_name_wh_main_spell_nagash_harbinger	The Harbinger	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_harbinger_upgraded	The greatest practitioners of the dark arts can summon forth the most fearsome champions and creatures of undeath.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_harbinger_upgraded	The Harbinger	true
+unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_hidden_dummy	Grave Call (01) [PH]	true
+unit_abilities_onscreen_name_wh_main_spell_nagash_grave_call_hidden_dummy	Grave Call (01) [PH]	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_01	Grave Call (01) [PH]	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_grave_call_01	Grave Call (01) [PH]	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_02	Grave Call (02) [PH]	true
