@@ -1,3 +1,4 @@
 key	minimum	maximum
 #pooled_resource_factors_tables;3;db/pooled_resource_factors_tables/nagash		
 nag_souls_mort	-2147483647	2147483647
+nag_souls_ritual	-2147483647	2147483647

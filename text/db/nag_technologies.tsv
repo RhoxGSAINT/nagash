@@ -1,12 +1,32 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_technologies.loc		
-technologies_onscreen_name_nag_01	Clear the Basement	false
-technologies_short_description_nag_01	[PH]	false
-technologies_onscreen_name_nag_02	Summon Legions	false
-technologies_short_description_nag_02	[PH]	false
-technologies_onscreen_name_nag_03	Call Bae [PH]	false
-technologies_short_description_nag_03	[PH]	false
-technologies_onscreen_name_nag_04	Broken Sentinels	false
-technologies_short_description_nag_04	[PH]	false
-technologies_onscreen_name_nag_05	Clear the Other Basement	false
-technologies_short_description_nag_05	[PH]	false
+technologies_onscreen_name_nag_vlad_event_1	Undying Love	true
+technologies_onscreen_name_nag_vlad_event_2	The Emperor of Man	true
+technologies_onscreen_name_nag_vlad_event_3	Grand Nemesis	true
+technologies_short_description_nag_vlad_event_1	Vlad would risk anything, even eternal servitute under an unjust tyrant, in order to bring back his beloved Isabella.	true
+technologies_short_description_nag_vlad_event_2	Before his latest untimely demise, Vlad Von Carstein's most prized goal was the very throne of the Empire of Man. Now, it's time to collect it once more.	true
+technologies_short_description_nag_vlad_event_3	Five hundred years ago, Vlad's reign of terror met an untimely hand due to the intervention of the previous Grand Theogonist. Though different in name and body, their role is shared - it's time to take out Volkmar the so-called Grim.	true
+technologies_onscreen_name_nag_arkhan_unlock	Arkhan, Mortarch of Sacraments	true
+technologies_onscreen_name_nag_krell_unlock	Krell, Mortarch of Despair	true
+technologies_onscreen_name_nag_luthor_unlock	Luthor, Mortarch of the Abyss	true
+technologies_onscreen_name_nag_mannfred_unlock	Mannfred, Mortarch of Night	true
+technologies_onscreen_name_nag_neferata_unlock	Neferata, Mortarch of Blood	true
+technologies_onscreen_name_nag_vlad_unlock	Vlad, Mortarch of Shadows	true
+technologies_short_description_nag_arkhan_unlock	[PH]	false
+technologies_short_description_nag_krell_unlock	[PH]	false
+technologies_short_description_nag_luthor_unlock	[PH]	false
+technologies_short_description_nag_mannfred_unlock	[PH]	false
+technologies_short_description_nag_neferata_unlock	[PH]	false
+technologies_short_description_nag_vlad_unlock	[PH]	false
+technologies_onscreen_name_nag_arkhan_event_1	Trusted Servant	false
+technologies_onscreen_name_nag_arkhan_event_2	Only One Ruler	false
+technologies_onscreen_name_nag_arkhan_event_3	First Among Peers	false
+technologies_short_description_nag_arkhan_event_1	[PH] - Arkhan loves Nagash	false
+technologies_short_description_nag_arkhan_event_2	[PH] - Arkhan shall not suffer anyone to challenge the Great Necromancer, not even the king of Khemri	false
+technologies_short_description_nag_arkhan_event_3	[PH] - Arkhan prides himself in being Nagash's most faithful servant, and knows his dedication will be well rewarded in time.	false
+technologies_onscreen_name_nag_neferata_event_1	The First Vampire	false
+technologies_onscreen_name_nag_neferata_event_2	The Queen of Mysteries	false
+technologies_onscreen_name_nag_neferata_event_3	The Uncontested Queen	false
+technologies_short_description_nag_neferata_event_1	[PH] - Neferata was the first to receive the gift of undeath. She intends to be the last.	false
+technologies_short_description_nag_neferata_event_2	[PH] - From atop her lair, the Queen of Mysteries overseers the intricate web of agents she has spung across the world.	false
+technologies_short_description_nag_neferata_event_3	[PH] - Lahmia is Neferata's birth right, and has been wrestled from her fair hands for too long. This shall not stand any longer.	false

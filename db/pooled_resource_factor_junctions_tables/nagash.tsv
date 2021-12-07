@@ -3,3 +3,4 @@ unique_id	factor	resource
 nag_souls_other	wh2_main_resource_factor_other	nag_souls
 nag_warpstone_other	wh2_main_resource_factor_other	nag_warpstone
 nag_souls_mort	nag_souls_mort	nag_souls
+nag_souls_ritual	nag_souls_ritual	nag_souls

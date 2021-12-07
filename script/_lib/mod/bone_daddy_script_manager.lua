@@ -40,20 +40,10 @@ function bdsm:init()
     -- load up all the modules
     self._turn_one = self:load_module("intro_chain")
     self:load_module("mid_game_start")
+    self:load_module("tech")
     self:load_module("morts")
     self:load_module("ui")
-
-    -- grab all the missions
-    self._missions = {}
-
-    local mission_path = self._default_module_path.."missions/"
-
-    self._missions.arkhan = self:load_module("arkhant_believe_it", mission_path)
-    self._missions.harkon = self:load_module("harkon_you_believe_it", mission_path)
-    self._missions.krell = self:load_module("krell_a_rebellion", mission_path)
-    self._missions.mannfred = self:load_module("mannfred_is_an_asshole", mission_path)
-    self._missions.neferata = self:load_module("neferata", mission_path)
-    self._missions.vlad = self:load_module("vladnt_you_like_to_know", mission_path)
+    self:load_module("blyr")
 end
 
 function bdsm:log_init()
