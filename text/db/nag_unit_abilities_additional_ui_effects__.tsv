@@ -10,3 +10,5 @@ unit_abilities_additional_ui_effects_localised_text_wh2_nagash_spell_stationary_
 unit_abilities_additional_ui_effects_localised_text_wh2_nagash_all_good_against_flying_upgraded	[[col:magic]][[img:icon_arrow_upgrade]][[/img]] Good against flying[[/col]]	true
 unit_abilities_additional_ui_effects_localised_text_nag_bound_gaze_of_nagash	[[col:magic]][[img:icon_arrow_upgrade]][[/img]] Grants 3 bound casts of Gaze of Nagash[[/col]]	true
 unit_abilities_additional_ui_effects_localised_text_nag_summon_of_summon	[[col:green]][[img:icon_arrow_up]][[/img]]  Summons Tomb that spits skeletons periodically[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_heal_active_990	[[col:green]][[img:icon_arrow_up]][[/img]] Restores up to [[img:icon_hp]][[/img]]990 Hit Points[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_all_increased_max_power_very_high	[[col:green]][[img:icon_arrow_up]][[/img]] Massive increase to [[img:icon_wom_power]][[/img]]power reserves[[/col]]	true

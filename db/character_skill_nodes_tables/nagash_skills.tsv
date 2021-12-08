@@ -32,7 +32,8 @@ nag_skill_supreme_nagash_magic1_7		nag_skill_wh_main_spell_nagash_harbinger	nag_
 nag_skill_supreme_nagash_magic1_8		nag_skill_magic_nagash_arch_necromancer	nag_skill_node_set_nagash_boss		3.0	8.0		0	0	true
 nag_skill_supreme_nagash_magic1_9		nag_skill_magic_nagash_master_arcane_conduit	nag_skill_node_set_nagash_boss		3.0	9.0		0	0	true
 nag_skill_supreme_nagash_magic1_10		nag_skill_magic_nagash_death_magic_incarnate	nag_skill_node_set_nagash_boss		3.0	10.0		0	4	true
-nag_skill_supreme_nagash_magic1_dummy		nag_skill_magic_nagash_dummy_breath_grave_call	nag_skill_node_set_nagash_boss		3.0	11.0		1	0	false
+nag_skill_supreme_nagash_magic1_dummy_01		nag_skill_magic_nagash_dummy_breath_of_darkness	nag_skill_node_set_nagash_boss		3.0	11.0		1	0	false
+nag_skill_supreme_nagash_magic1_dummy_02		nag_skill_magic_nagash_dummy_rasie_the_dead	nag_skill_node_set_nagash_boss		3.0	12.0		1	0	false
 nag_skill_supreme_nagash_army_0		wh2_dlc09_skill_tmb_lord_army_base	nag_skill_node_set_nagash_boss		4.0	0.0		0	0	true
 nag_skill_supreme_nagash_army_1		nag_skill_army_buff_ranged	nag_skill_node_set_nagash_boss		4.0	1.0		0	0	true
 nag_skill_supreme_nagash_army_2		nag_skill_army_buff_infantry	nag_skill_node_set_nagash_boss		4.0	2.0		0	0	true

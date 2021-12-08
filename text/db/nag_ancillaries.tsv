@@ -20,6 +20,10 @@ ancillaries_onscreen_name_nag_anc_armour_morikhane_the_black_armour	Morikhane, t
 ancillaries_colour_text_nag_anc_armour_morikhane_the_black_armour	 Nagash's armour is forged from an alloy of lead and meteoric iron. Over the millennia the armour has fused itself with his body, so it may only be worn by Nagash. Obviously, the armour does not prevent him casting spells.	true
 ancillaries_onscreen_name_nag_anc_weapon_the_mortis_balde	Zefet-netbar, the Mortis Blade	true
 ancillaries_colour_text_nag_anc_weapon_the_mortis_balde	Mortis is a huge magic sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it. The sword increases his already considerable strength, and wounds caused by the sword can be used to heal Nagash himself.	true
+ancillaries_onscreen_name_nag_anc_arcane_item_alakanash_staff_of_power	Alakanash, the Staff of Power	true
+ancillaries_colour_text_nag_anc_arcane_item_alakanash_staff_of_power	The Staff of Power was created by Nagash to allow him to store the additional power he needed to carry out his most arcane and dangerous magical spells.	true
+ancillaries_onscreen_name_nag_anc_enchanted_item_crown_of_nagash	The Crown of Sorcery	true
+ancillaries_colour_text_nag_anc_enchanted_item_crown_of_nagash	The Crown of Sorcery sometimes known as the Crown of Nagash is a magical crown/circlet forged by the great Necromancer Nagash around -1300 IC in his fortress of Nagashizzar in Cripple Peak. The crown is infused with part of Nagash's malicious spirit, partially holding his spirit to the mortal world, and exerts a corrupting influence on anyone who wears it.	true
 ancillaries_onscreen_name_nag_anc_talisman_books_of_nagash_book_one	First Book of Nagash	true
 ancillaries_colour_text_nag_anc_talisman_books_of_nagash_book_one	The first book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	true
 ancillaries_onscreen_name_nag_anc_talisman_books_of_nagash_book_two	Second Book of Nagash	true
@@ -38,10 +42,6 @@ ancillaries_onscreen_name_nag_anc_talisman_books_of_nagash_book_eight	Eighth Boo
 ancillaries_colour_text_nag_anc_talisman_books_of_nagash_book_eight	The eighth book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	true
 ancillaries_onscreen_name_nag_anc_talisman_books_of_nagash_book_nine	Ninth Book of Nagash	true
 ancillaries_colour_text_nag_anc_talisman_books_of_nagash_book_nine	The ninth and final book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	true
-ancillaries_onscreen_name_nag_anc_arcane_item_alakanash_staff_of_power	Alakanash, the Staff of Power	true
-ancillaries_colour_text_nag_anc_arcane_item_alakanash_staff_of_power	The Staff of Power was created by Nagash to allow him to store the additional power he needed to carry out his most arcane and dangerous magical spells.	true
-ancillaries_onscreen_name_nag_anc_enchanted_item_crown_of_nagash	The Crown of Sorcery	true
-ancillaries_colour_text_nag_anc_enchanted_item_crown_of_nagash	The Crown of Sorcery sometimes known as the Crown of Nagash is a magical crown/circlet forged by the great Necromancer Nagash around -1300 IC in his fortress of Nagashizzar in Cripple Peak. The crown is infused with part of Nagash's malicious spirit, partially holding his spirit to the mortal world, and exerts a corrupting influence on anyone who wears it.	true
 ancillaries_onscreen_name_nag_anc_armour_armour_of_templehof	Armour of Templehof	true
 ancillaries_colour_text_nag_anc_armour_armour_of_templehof	A product of twisted sorcery, this construct fuses with the wearer, giving him tremendous endurance.	true
 ancillaries_onscreen_name_nag_anc_weapon_sword_of_unholy_power	Gheistvor, Sword of Unholy Power	true
