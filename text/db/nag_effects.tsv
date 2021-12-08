@@ -86,6 +86,7 @@ effects_description_nag_effect_army_cav_speed_skill	Speed: %+n% for all Cavalry 
 effects_description_nag_effect_army_cav_charge_bonus_skill	Charge bonus: %+n for all Cavalry and Chariot units	true
 effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all Warbeast and Monstrous Infantry units	true
 effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all Warbeast and Monstrous Infantry units	true
+effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_magic_resistance_skill	Magic resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
@@ -144,7 +145,6 @@ effects_description_nag_spell_nagash_enable_harbinger_upgrade	Overcast spell: "T
 effects_description_nag_spell_nagash_miscast_reduction_harbinger_upgraded	Miscast base chance: %+n% for "The Harbinger Upgraded"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger	Winds of Magic cost: %n for "The Harbinger"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger_upgraded	Winds of Magic cost: %n for "The Harbinger Upgraded"	true
-effects_description_nag_effect_nagash_enable_death_magic_incarnate	Passive ability: "Death Magic Incarnate" is Temp and if it isn't i haven't changed this loc, send your pontus to 21 please dont send me pontus	true
 effects_description_nag_nag_effect_self_arkhan_melee_attack_nehek	Melee attack: %+n for Nehekhara Warriors and Nehekhara Horsemen units	true
 effects_description_nag_nag_effect_self_arkhan_rank_nehek_plus	Recruit rank: %+n for Nehekhara Warriors, Nehekhara Horsemen, Dire Wolves and Hexwraiths units	true
 effects_description_nag_effect_self_krell_infantry_melee_defence_skill	Melee defence: %+n for all Infantry units	true
@@ -176,11 +176,15 @@ effects_description_nag_effect_enable_bound_spell_nagash_hand_of_dust	Bound spel
 effects_description_nag_effect_enable_bound_spell_nagash_breath_of_darkness	Bound spell: "Breath of Darkness"	true
 effects_description_nag_effect_enable_bound_spell_nagash_abyssal_swarm	Bound spell: "Abyssal Swarm"	true
 effects_description_nag_effect_enable_bound_spell_nagash_soul_stealer	Bound spell: "The Soul Stealer"	true
-effects_description_nag_effect_enable_bound_spell_nagash_purple_sun	Bound spell: "The Purple Sun of Xereus"	true
-effects_description_nag_effect_enable_bound_spell_nagash_banishment	Bound spell: "Banishment"	true
-effects_description_nag_effect_enable_bound_spell_nagash_wind_of_death	Bound spell: "Wind of Death"	true
-effects_description_nag_effect_enable_bound_spell_nagash_skullstorm	Bound spell: "Sakhmet's Incantation of the Skullstorm"	true
+effects_description_nag_effect_enable_bound_spell_death_purple_sun	Bound spell: "The Purple Sun of Xereus"	true
+effects_description_nag_effect_enable_bound_spell_light_banishment	Bound spell: "Banishment"	true
+effects_description_nag_effect_enable_bound_spell_vamp_wind_of_death	Bound spell: "Wind of Death"	true
+effects_description_nag_effect_enable_bound_spell_nehek_skullstorm	Bound spell: "Sakhmet's Incantation of the Skullstorm"	true
 effects_description_nag_effect_enable_bound_spell_deep_krakens_pull	Bound spell: "Kraken's Pull"	true
+effects_description_nag_effect_enable_bound_spell_death_soulblight	Bound spell: "Soulblight"	true
+effects_description_nag_effect_enable_bound_spell_light_phas_protection	Bound spell: "Pha's Protection"	true
+effects_description_nag_effect_enable_bound_spell_vamp_curse_of_years	Bound spell: "Curse of Years"	true
+effects_description_nag_effect_enable_bound_spell_nehek_cursed_blades	Bound spell: "Djaf's Incantation of Cursed Blades"	true
 effects_description_nag_effect_melee_attack_traitor_steed	Melee attack (when riding Skeletal Steed): %+n	true
 effects_description_nag_effect_melee_defence_traitor_steed	Melee defence (when riding Skeletal Steed): %+n	true
 effects_description_nag_effect_melee_attack_traitor_foot	Melee attack (when on foot): %+n	true
@@ -243,3 +247,26 @@ effects_description_nag_double_vampires_miscast_reduction_wind_of_death_upgraded
 effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death_upgraded	Winds of Magic cost: %n for "Wind of Death Upgraded"	true
 effects_description_nag_effect_upkeep_cost_reduction_crypt_ghouls	Upkeep: %+n% for Crypt Ghouls	true
 effects_description_nag_effect_enable_ability_blood_queen_dignitary_vmp	Ability: "Blood Queen" for all Female Vampires	true
+effects_description_nag_effect_stalk_scorpion_skill	Attribute: Stalk for Tomb Scorpion units	true
+effects_description_nag_effect_speed_scorpion_crawler_skill	Speed: %+n% for Tomb Scorpion and Sand Crawler units	true
+effects_description_nag_effect_ability_uses_abyssal_swarm	Ability number of uses: %+n for "Abyssal Swarm"	true
+effects_description_nag_effect_war_declare_all_dummy	Declare War on the Living	true
+effects_description_nag_effect_bonus_melee_attack_fighting_against_all	Melee attack: %+n when fighting against Men, Elves, Dwarfs, Chaos and all manner of other Beasts	true
+effects_description_nag_effect_bonus_charge_fighting_against_all	Charge bonus: %+n when fighting against Men, Elves, Dwarfs, Chaos and all manner of other Beasts	true
+effects_description_nag_effect_morghast_archai_ward_save	Ward save: %n% for Morghast and Archai units.	true
+effects_description_nag_nagash_trait_true_immortalitiy	Nagash will always remain wounded for no more than 1 turn	true
+effects_description_nag_effect_grant_immortality_hero	When normally killed in action, this [[img:icon_hero]][[/img]]Hero will be wounded instead	true
+effects_description_nag_effect_grant_immortality_lord	When normally killed in battle, this [[img:icon_general]][[/img]]Lord will be wounded instead	true
+effects_description_nag_effect_ability_enable_eternal_danse_macabre	Passive ability: "Vanhel's Eternal Danse Macabre" Temp Ability	true
+effects_description_nag_effect_ability_enable_malediction_of_nagash	Passive ability: "Malediction of Nagash" Temp Ability	true
+effects_description_nag_effect_ability_enable_raise_the_dead	Passive ability: "Raise the Dead" Temp Ability	true
+effects_description_nag_effect_nagash_enable_death_magic_incarnate	Passive ability: "Death Magic Incarnate" Temp Ability	true
+effects_description_nag_effect_item_nagash_ability_enable_morikhane	Ability: "Morikhane, the Black Armour" Temp Ability	true
+effects_description_nag_effect_item_nagash_ability_enable_mortis_blade	Ability: "Zefet-nebtar, the Mortis Blade" Temp Ability	true
+effects_description_nag_effect_item_nagash_ability_enable_ashes_and_dust	Bound spell: "Ashes and Dust"	true
+effects_description_nag_ability_enable_loremaster_dummy	Passive abilites: "The Curse of Undeath, Exorcism, Life Leeching and The Restless Dead"	true
+effects_description_nag_effect_ability_enable_exorcism_hidden	[Hidden]	false
+effects_description_nag_effect_ability_enable_the_restless_dead_hidden	[Hidden]	false
+effects_description_nag_effect_ability_enable_curse_of_undeath_hidden	[Hidden]	false
+effects_description_nag_effect_ability_enable_life-leeching_hidden	[Hidden]	false
+effects_description_nag_effect_ability_enable_master_arcane_conduit	Passive ability: "Master Arcane Conduit"	true

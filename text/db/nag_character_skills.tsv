@@ -96,8 +96,10 @@ character_skills_localised_name_nag_skill_wh_main_spell_nagash_harbinger	Kandora
 character_skills_localised_description_nag_skill_wh_main_spell_nagash_harbinger	[PH]	true
 character_skills_localised_name_nag_skill_magic_nagash_arch_necromancer	Arch Necromancer	true
 character_skills_localised_description_nag_skill_magic_nagash_arch_necromancer	[PH]	true
+character_skills_localised_name_nag_skill_magic_nagash_master_arcane_conduit	Master Arcane Conduit	true
+character_skills_localised_description_nag_skill_magic_nagash_master_arcane_conduit	"Forces of Necromancy, hear the request of your most-studious adept: flow through me according to my will!"	true
 character_skills_localised_name_nag_skill_magic_nagash_death_magic_incarnate	Death Magic Incarnate	true
-character_skills_localised_description_nag_skill_magic_nagash_death_magic_incarnate	[PH]	true
+character_skills_localised_description_nag_skill_magic_nagash_death_magic_incarnate	For generations Nagash was little more than a whisper on the wind of Shyish, but now risen to claim the power of death itself and choke all life from the world, to rule eternally in the darkness.	true
 character_skills_localised_name_nag_skill_wh_main_spell_death_spirit_leech	Spirit Leech	true
 character_skills_localised_description_nag_skill_wh_main_spell_death_spirit_leech		true
 character_skills_localised_name_nag_skill_wh_main_lore_passive_life_leeching	Life-Leeching	true
@@ -267,7 +269,7 @@ character_skills_localised_description_nag_skill_mount_neferata_warhorse	Neferat
 character_skills_localised_name_nag_skill_mount_luthor_harkon_terrorgheist	Death Shriek Terrorgheist	true
 character_skills_localised_description_nag_skill_mount_luthor_harkon_terrorgheist	Harkon's personal mount is a dreadful thing indeed - a Terrorgheist with a piercing, banshee-like shriek that has the power to stun any who hear it.	true
 character_skills_localised_name_nag_skill_supreme_innate_nagash	Supreme Lord of Undeath	true
-character_skills_localised_description_nag_skill_supreme_innate_nagash	[PH] *Insert Big Bone Daddy Autobiography here*Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	true
+character_skills_localised_description_nag_skill_supreme_innate_nagash	Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	true
 character_skills_localised_name_nag_skill_mortarch_innate_arkhan	Mortarch of Sacraments	true
 character_skills_localised_description_nag_skill_mortarch_innate_arkhan	Thousands of years plotting, misleading, waiting for His return. The First of the Mortarchs finally reaps his rewards.	true
 character_skills_localised_name_nag_skill_mortarch_innate_krell	Mortarch of Despair	true
