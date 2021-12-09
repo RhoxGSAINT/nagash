@@ -47,7 +47,7 @@ function bdsm:first_turn_begin()
             y,
             "general",
             "nag_nagash_husk",
-            "names_name_1937224328",
+            "",
             "",
             "",
             "",

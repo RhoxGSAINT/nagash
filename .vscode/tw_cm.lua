@@ -5,6 +5,9 @@
 ---@field unlock_technology fun(self:cm, faction_key:string, technology_key:string) Removes a lock previously placed with cm:lock_technology.
 ---@field lock_technology fun(self:cm, faction_key:string, technology_key:string) Lock a specified technology and all technologies that are children of it, for a specified faction. This setting is saved into the campaign save file when the game is saved, and automatically re-established when the campaign is reloaded.
 ---@field update_technology_unlock_progress_values fun(self:cm, faction_key:string, tech_key:string, values:table) Update the progress values for locked-techs, so their UI will show the proper values.
-
+---@field instantly_set_settlement_primary_slot_level fun(self:cm, settlment:SETTLEMENT_SCRIPT_INTERFACE, level:number):BUILDING_SCRIPT_INTERFACE
+---@field transfer_region_to_faction fun(self:cm, region_key:string, faction_key:string) Immediately transfers ownership of the specified region to the specified faction.
+---@field force_add_ancillary fun(self:cm, character:CHARACTER_SCRIPT_INTERFACE, ancillary_key:string, force_equip:boolean, suppress_event_feed:boolean)
+  
 ---@type CampaignManager
 cm = {}

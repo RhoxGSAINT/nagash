@@ -23,6 +23,33 @@ local function init_listeners()
         end,
         true
     )
+
+    --- TODO auto-equip traitor kings with one of the books
+    core:add_listener(
+        "NagashTraitor",
+        "CharacterCreated",
+        function (context)
+            local character = context:character()
+            local faction = character:faction()
+
+            return faction:name() == faction_key and character:character_subtype_key() == "nag_traitor_king"
+        end,
+        function (context)
+            local character = context:character()
+
+            --- TODO restrict to only 1-3 for a while, then 1-6, then 1-9.
+            local anc = "nag_anc_talisman_books_of_nagash_book_"
+            local d = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
+
+            local anc_key = anc .. d[cm:random_number(#d)]
+            cm:force_add_ancillary(
+                character,
+                anc_key,
+                true,
+                false
+            )
+        end
+    )
 end
 
 local function init()

@@ -67,7 +67,7 @@ function bdsm:mid_game_start()
         y,
         "general",
         "nag_nagash_boss",
-        "names_name_1937224328",
+        "",
         "",
         "",
         "",
