@@ -2,4 +2,6 @@
 
 ---@class MCT
 local mct = {}
+
+---@return MCT
 function get_mct() return mct end

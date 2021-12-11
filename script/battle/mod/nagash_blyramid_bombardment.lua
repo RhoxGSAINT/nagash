@@ -1,3 +1,4 @@
+---@diagnostic disable
 --Script by prop joe, modified by Belisarian
 local data = {}
 

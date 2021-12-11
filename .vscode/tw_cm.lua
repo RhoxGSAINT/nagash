@@ -1,5 +1,7 @@
 --- TODO a file with all the CA methods and objects and shit
 
+---@alias optstring string|'""'
+
 ---@class CampaignManager
 ---@alias cm CampaignManager
 ---@field unlock_technology fun(self:cm, faction_key:string, technology_key:string) Removes a lock previously placed with cm:lock_technology.
@@ -8,6 +10,7 @@
 ---@field instantly_set_settlement_primary_slot_level fun(self:cm, settlment:SETTLEMENT_SCRIPT_INTERFACE, level:number):BUILDING_SCRIPT_INTERFACE
 ---@field transfer_region_to_faction fun(self:cm, region_key:string, faction_key:string) Immediately transfers ownership of the specified region to the specified faction.
 ---@field force_add_ancillary fun(self:cm, character:CHARACTER_SCRIPT_INTERFACE, ancillary_key:string, force_equip:boolean, suppress_event_feed:boolean)
+---@field spawn_character_to_pool fun(self:cm, faction:string, forename:optstring, surname:optstring, clan_name:optstring, other_name:optstring, age:number, is_male:boolean, agent_key: string, agent_subtype_key: string, is_immortal: boolean, art_set: optstring)
   
 ---@type CampaignManager
 cm = {}

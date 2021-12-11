@@ -1,5 +1,10 @@
-local bdsm = get_bdsm()
+-- local bdsm = get_bdsm()
 local mct
+
+local vlib = get_vlib()
+
+---@type vlib_camp_counselor
+local cc = vlib:get_module("camp_counselor")
 
 if is_function(get_mct) then
     mct = get_mct()
@@ -53,8 +58,15 @@ local function init_listeners()
 end
 
 local function init()
-    local option = "bp"
-    local all_morts = true
+    local faction = cm:get_faction(faction_key)
+    --- TODO player only
+    if not faction:is_human() then return end
+
+    -- local img_path = effect.get_skinned_image_path("icon_oathgold.png")
+    cc:add_pr_uic("nag_souls", "ui/skins/default/icon_oathgold.png", faction_key)
+
+    local option = "intro"
+    local all_morts = false
     if mct then
         option = mct:get_mod_by_key("nagash_dev"):get_option_by_key("start_choice"):get_finalized_setting()
         all_morts = mct:get_mod_by_key("nagash_dev"):get_option_by_key("morts"):get_finalized_setting()

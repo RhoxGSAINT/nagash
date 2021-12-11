@@ -3,7 +3,7 @@
 -- VANDY: Keep in mind MP, please :)
 -- TODO keep in mind MP
 
-local bdsm = get_bdsm()
+-- local bdsm = get_bdsm()
 
 -- this is triggered on the, well, first turn
 function bdsm:first_turn_begin()
@@ -47,9 +47,9 @@ function bdsm:first_turn_begin()
             y,
             "general",
             "nag_nagash_husk",
+            "names_name_1937224328",
             "",
-            "",
-            "",
+            "names_name_1777692414",
             "",
             true,
             nil

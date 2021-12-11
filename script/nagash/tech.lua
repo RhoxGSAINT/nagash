@@ -1,3 +1,6 @@
+--- TODO get rid of this file and handle it all in morts.lua
+
+
 --- TODO pull in all of the shit necessary for tech stuff from VLib, for scripted unlocks and stuff? Or use the new BMen stuff?
     --- yes, use new BMen stuff. 
         --- cm:update_technology_unlock_progress_values(faction_key, technology_key, {table_of_values})
@@ -9,7 +12,7 @@
 --- TODO a table of all tech keys and their inner values.
     --- unlock conditions, texts, etc.
 
-local bdsm = get_bdsm()
+-- local bdsm = get_bdsm()
 local tech_progress = {
 
 }
@@ -73,8 +76,17 @@ local function init()
         function(context)
             local tech_key = context:technology()
             
-            --- format "nag_arkhan_unlock"
-            -- local mort_key = string.format("nag_mortarch_%s", string.gsub(tech_key, ))
+            --- format "nag_arkhan_unlock" to "nag_mortarch_arkhan"
+
+            -- mort_key is "arkhan" or "vlad" or whatever
+            local mort_key = string.gsub(tech_key, "nag_", "")
+            mort_key = string.gsub(mort_key, "_unlock", "")
+
+            -- append the prefix
+            mort_key = "nag_mortarch_"..mort_key
+
+            -- get and spawn the mortarch
+            bdsm:log()
         end,
         true
     )

@@ -1,14 +1,23 @@
+--- TODO integrate VLib stuff
+
 --- Campaign only!
 if __game_mode ~= __lib_type_campaign or cm:get_campaign_name() ~= "main_warhammer" then return end
 
 ---@class bdsm
-local bdsm = {
+bdsm = {
     _faction_key = "nag_nagash",
 
     write_to_log = true,
     _logpath = "!vandy_lib.txt",
     _default_module_path = "script/nagash/"
 }
+
+local vlib = get_vandy_lib()
+local log,logf,error,errorf = vlib:get_log_functions("bdsm")
+function bdsm:log(...) log(...) end
+function bdsm:logf(...) logf(...) end
+function bdsm:error(...) error(...) end
+function bdsm:errorf(...) errorf(...) end
 
 function bdsm:get_faction_key()
     return self._faction_key
@@ -34,120 +43,14 @@ function bdsm:load_db(db_name)
 end
 
 function bdsm:init()
-    -- initialize the log
-    self:log_init()
-
+    local path = self._default_module_path
     -- load up all the modules
-    self._turn_one = self:load_module("intro_chain")
-    self:load_module("mid_game_start")
-    self:load_module("tech")
-    self:load_module("morts")
-    self:load_module("ui")
-    self:load_module("blyr")
-end
-
-function bdsm:log_init()
-    local first_load = core:svr_load_persistent_bool("bdsm_init") ~= true
-
-    if first_load then
-        core:svr_save_persistent_bool("bdsm_init", true)
-
-        local file = io.open(self._logpath, "w+")
-        file:write("NEW LOG INITIALIZED \n")
-        local time_stamp = os.date("%d, %m %Y %X")
-        file:write("[" .. time_stamp .. "]\n")
-        file:close()
-    else
-        local i_to_game_mode = {
-            [0] = "BATTLE",
-            [1] = "CAMPAIGN",
-            [2] = "FRONTEND",
-        }
-
-        local game_mode = i_to_game_mode[__game_mode]
-
-        local file = io.open(self._logpath, "a+")
-        file:write("**********\nNEW GAME MODE: "..game_mode)
-        local time_stamp = os.date("%d, %m %Y %X")
-        file:write("[" .. time_stamp .. "]\n")
-        file:close()
-    end
-end
-
---- Basic logging function for outputting text into the MCT log file.
---- @tparam string text The string used for output
-function bdsm:log(text)
-    if not is_string(text) and not is_number(text) then
-        return false
-    end
-
-    if not self.write_to_log then
-        return false
-    end
-
-    local file = io.open(self._logpath, "a+")
-    file:write(text .. "\n")
-    file:close()
-end
-
---- Basic error logging function for outputting text into the MCT log file.
---- @tparam string text The string used for output
-function bdsm:error(text)
-    if not is_string(text) and not is_number(text) then
-        return false
-    end
-
-    if not self.write_to_log then
-        return false
-    end
-
-    local file = io.open(self._logpath, "a+")
-    file:write("ERROR: " .. text .. "\n")
-    file:write(debug.traceback("", 2) .. "\n")
-    file:close()
-end
-
-function bdsm:load_module(module_name, path)
-    if not path then path = bdsm._default_module_path end
-
-    local full_file_name = path .. module_name .. ".lua"
-
-    local file, load_error = loadfile(full_file_name)
-
-    if not file then
-        self:error("Attempted to load module with name ["..module_name.."], but loadfile had an error: ".. load_error .."")
-        --return
-    else
-        self:log("Loading module with name [" .. module_name .. ".lua]")
-
-        local global_env = core:get_env()
-        local attach_env = {}
-        setmetatable(attach_env, {__index = global_env})
-
-        -- pass valuable stuff to the modules
-        --attach_env.bdsm = self
-        --attach_env.core = core
-
-        setfenv(file, attach_env)
-        local lua_module = file(module_name)
-        package.loaded[module_name] = lua_module or true
-
-        self:log("[" .. module_name .. ".lua] loaded successfully!")
-
-        --if module_name == "mod_obj" then
-        --    self.mod_obj = lua_module
-        --end
-
-        --self[module_name] = lua_module
-
-        return lua_module
-    end
-
-    local _, err = pcall(function() require(module_name) end)
-
-    self:error("Tried to load module with name [" .. module_name .. ".lua], failed on runtime. Error below:")
-    self:error(err)
-    return false
+    self._turn_one = vlib:load_module("intro_chain", path)
+    vlib:load_module("mid_game_start", path)
+    -- vlib:load_module("tech", path)
+    vlib:load_module("morts", path)
+    vlib:load_module("ui", path)
+    vlib:load_module("souls", path)
 end
 
 -- TODO set up army caps, so the only-legendary-lord thing will work with UI and AI
@@ -159,14 +62,5 @@ end
 -- TODO tracking for the mission chains
 
 -- TODO startup with the Arkhan chains and stuff
-
----@return bdsm
-function get_bdsm()
-    return core:get_static_object("bone_daddy_script_manager")
-end
-
-core:add_static_object("bone_daddy_script_manager", bdsm)
-
-_G.get_bdsm = get_bdsm
 
 bdsm:init()

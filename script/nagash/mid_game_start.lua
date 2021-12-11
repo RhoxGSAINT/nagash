@@ -1,7 +1,7 @@
 -- mid game start file
 -- used for dev testing (during our internal beta) and potentially for an optional start campaign mode for release that begins with Nagash at relatively full strength
 
-local bdsm = get_bdsm()
+-- local bdsm = get_bdsm()
 
 --- DEV OPTION
 -- Give Nagash the entire world except for BP.
@@ -67,9 +67,9 @@ function bdsm:mid_game_start()
         y,
         "general",
         "nag_nagash_boss",
+        "names_name_1937224328",
         "",
-        "",
-        "",
+        "names_name_1777692413",
         "",
         true,
         nil
