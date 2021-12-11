@@ -36,8 +36,11 @@ function bdsm:first_turn_begin()
             5
         )
 
-        local unit_list = bdsm:load_db("starting_units")
-        unit_list = table.concat(unit_list, ",")
+        ---@type NagHuskDB
+        local starting_info = bdsm:load_db("nag_husk_start")
+        local unit_list = table.concat(starting_info.starting_units, ",")
+        local forename,surname = starting_info.forename,starting_info.surname
+        local subtype = starting_info.subtype
 
         cm:create_force_with_general(
             faction_key,
@@ -46,10 +49,10 @@ function bdsm:first_turn_begin()
             x,
             y,
             "general",
-            "nag_nagash_husk",
-            "names_name_1937224328",
+            subtype,
+            forename,
             "",
-            "names_name_1777692414",
+            surname,
             "",
             true,
             nil
