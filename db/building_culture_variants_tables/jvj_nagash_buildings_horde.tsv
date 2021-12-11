@@ -73,19 +73,19 @@ nag_luthor_horde_special_2				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%pla
 nag_luthor_horde_special_3				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
 nag_luthor_horde_special_4				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
 nag_luthor_horde_special_5				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
-nag_nagash_horde_landmark_0				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_arkhan_horde_landmark_0				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_arkhan_horde_landmark_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_vlad_horde_landmark_0				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_vlad_horde_landmark_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_neffy_horde_landmark_0				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_neffy_horde_landmark_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_manny_horde_landmark_0				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_manny_horde_landmark_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_krell_horde_landmark_0				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_krell_horde_landmark_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_luthor_horde_landmark_0				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
-nag_luthor_horde_landmark_1				wh_main_PLACEHOLDER	tmb_pyramid_nagash_vault	false	%placeholder%	true
+nag_nagash_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_arkhan_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_arkhan_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_vlad_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_vlad_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_neffy_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_neffy_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_manny_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_manny_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_krell_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_krell_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_luthor_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_luthor_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
 nag_horde_military1_barracks_1				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	%placeholder%	true
 nag_horde_military1_barracks_2				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	%placeholder%	true
 nag_horde_military1_barracks_3				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	%placeholder%	true

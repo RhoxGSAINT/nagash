@@ -1,6 +1,6 @@
 faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
 #units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/nagash_units								
-nag_nagash	true	nag_nagash_boss	true	true	ui/portraits/portholes/no_culture/nag_nagash_boss.png			false
+nag_nagash	true	nag_nagash_boss	true	true	ui/portraits/portholes/no_culture/nag_nagash_boss.png		nag_nagash_boss	false
 nag_nagash	true	nag_nagash_husk	true	true	ui/portraits/portholes/no_culture/nag_nagash_husk.png		nag_nagash_husk	false
 nag_nagash	true	nag_mortarch_neferata	true	true	ui/portraits/portholes/no_culture/nag_mortarch_neferata.png		nag_mortarch_neferata	false
 nag_nagash	true	nag_mortarch_neferata_warhorse	true	true	ui/portraits/portholes/no_culture/nag_mortarch_neferata.png		nag_mortarch_neferata_warhorse	false

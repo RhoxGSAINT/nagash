@@ -5,8 +5,8 @@ wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_morale	-4.0	add
 wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	stat_accuracy	0.75	mult
 wh_dlc04_lord_passive_aura_of_dark_majesty	stat_melee_attack	-6.0	add
 wh_dlc04_lord_passive_aura_of_dark_majesty	stat_morale	-4.0	add
-nag_neferata_abilities_mortarch_of_blood_death	stat_armour	-60.0	add
-nag_neferata_abilities_mortarch_of_blood_death	stat_melee_defence	-30.0	add
+nag_neferata_abilities_mortarch_of_blood_death_01	stat_armour	-60.0	add
+nag_neferata_abilities_mortarch_of_blood_death_01	stat_melee_defence	-30.0	add
 nag_neferata_item_passive_staff_of_pain	scalar_speed	0.75	mult
 nag_neferata_item_passive_staff_of_pain	stat_melee_defence	-8.0	add
 nag_unit_contact_screaming_blade	scalar_missile_damage_ap	0.85	mult
@@ -18,3 +18,11 @@ nag_army_abilities_batocalypse_02	stat_morale	-5.0	add
 nag_army_abilities_batocalypse_02	scalar_speed	0.8	mult
 nag_army_abilities_batocalypse_02	stat_melee_defence	0.8	mult
 nag_army_abilities_batocalypse_02	scalar_missile_range	0.5	mult
+nag_nagash_abiliities_morikhane_black_armour	stat_resistance_all	70.0	add
+nag_nagash_passive_eternal_danse_macabre	scalar_speed	1.25	mult
+nag_nagash_passive_eternal_danse_macabre	stat_melee_attack	6.0	add
+nag_nagash_passive_malediction_of_nagash	stat_melee_damage_ap	0.75	mult
+nag_nagash_passive_malediction_of_nagash	stat_melee_damage_base	0.75	mult
+nag_nagash_passive_death_magic_incarnate	stat_morale	25.0	add
+nag_nagash_abiliities_mortis_blade	stat_melee_damage_ap	1.3	mult
+nag_nagash_abiliities_mortis_blade	stat_melee_damage_base	1.5	mult

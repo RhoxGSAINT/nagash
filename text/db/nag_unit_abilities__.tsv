@@ -48,14 +48,20 @@ unit_abilities_tooltip_text_nag_nag_bound_spell_nagash_abyssal_swarm	The wizard 
 unit_abilities_onscreen_name_nag_bound_spell_nagash_abyssal_swarm	Abyssal Swarm	true
 unit_abilities_tooltip_text_nag_bound_spell_nagash_soul_stealer	The wizard tears the souls from his victims' bodies before breathing unlife into their sundered corpses.	true
 unit_abilities_onscreen_name_nag_bound_spell_nagash_soul_stealer	The Soul Stealer	true
-unit_abilities_tooltip_text_nag_bound_spell_nagash_purple_sun	A colossal orb of purple-edged darkness materialises - those who do not escape its crystalline touch are doomed for eternity!	true
-unit_abilities_onscreen_name_nag_bound_spell_nagash_purple_sun	The Purple Sun of Xereus	true
-unit_abilities_tooltip_text_nag_bound_spell_nagash_banishment	Creatures of the dark beware, for the Mage casts a ball of pure light to banish enemies of White Wizardry.	true
-unit_abilities_onscreen_name_nag_bound_spell_nagash_banishment	Banishment	true
-unit_abilities_tooltip_text_nag_bound_spell_nagash_wind_of_death	The Wizard calls forth spectral winds that howl through the enemy ranks, tearing their souls from their bodies.	true
-unit_abilities_onscreen_name_nag_bound_spell_nagash_wind_of_death	Wind of Death	true
-unit_abilities_tooltip_text_nag_bound_spell_nagash_skullstorm	A whirlwind of skulls tears across the battlefield, devouring all in its path in the Goddess of the Green Moon's bitter, vindictive name.	true
-unit_abilities_onscreen_name_nag_bound_spell_nagash_skullstorm	Sakhmet's Incantation of the Skullstorm	true
+unit_abilities_tooltip_text_nag_bound_spell_death_purple_sun	A colossal orb of purple-edged darkness materialises - those who do not escape its crystalline touch are doomed for eternity!	true
+unit_abilities_onscreen_name_nag_bound_spell_death_purple_sun	The Purple Sun of Xereus	true
+unit_abilities_tooltip_text_nag_bound_spell_light_banishment	Creatures of the dark beware, for the Mage casts a ball of pure light to banish enemies of White Wizardry.	true
+unit_abilities_onscreen_name_nag_bound_spell_light_banishment	Banishment	true
+unit_abilities_tooltip_text_nag_bound_spell_light_phas_protection	The Wizard calls upon the beneficent Guardian of Light to protect his allies from harm.	true
+unit_abilities_onscreen_name_nag_bound_spell_light_phas_protection	Pha's Protection	true
+unit_abilities_tooltip_text_nag_bound_spell_vamp_wind_of_death	The Wizard calls forth spectral winds that howl through the enemy ranks, tearing their souls from their bodies.	true
+unit_abilities_onscreen_name_nag_bound_spell_vamp_curse_of_years	Curse of Years	true
+unit_abilities_tooltip_text_nag_bound_spell_vamp_curse_of_years	Bolts of Dark Magic leap from the caster’s eyes, withering flesh and blackening the bone beneath.	true
+unit_abilities_onscreen_name_nag_bound_spell_nehek_cursed_blades	Djaf's Incantation of Cursed Blades	true
+unit_abilities_tooltip_text_nag_bound_spell_nehek_cursed_blades	Imbued with the essence of the God of Death, the Nehekharans' blades strike with supernatural force to harvest souls for Djaf.	true
+unit_abilities_onscreen_name_nag_bound_spell_vamp_wind_of_death	Wind of Death	true
+unit_abilities_tooltip_text_nag_bound_spell_nehek_skullstorm	A whirlwind of skulls tears across the battlefield, devouring all in its path in the Goddess of the Green Moon's bitter, vindictive name.	true
+unit_abilities_onscreen_name_nag_bound_spell_nehek_skullstorm	Sakhmet's Incantation of the Skullstorm	true
 unit_abilities_tooltip_text_nag_bound_spell_deep_krakens_pull	Few have the strength to break free once the Kraken has them within its horrid, betentacled grasp.	true
 unit_abilities_onscreen_name_nag_bound_spell_deep_krakens_pull	Kraken's Pull	true
 unit_abilities_tooltip_text_nag_double_spell_vampires_curse_of_years	The Wizard spits out an ancient curse, causing their enemies to age at an incredible rate - their hair turning white and skin shrivelling up.	true
@@ -110,3 +116,19 @@ unit_abilities_tooltip_text_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDD
 unit_abilities_onscreen_name_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDDEN]	true
 unit_abilities_tooltip_text_nag_army_abilities_blyramid_bombardment_targeting	Calls upon Black Pyramids vast energies to enact bombardment and annihilate anything in the area.	true
 unit_abilities_onscreen_name_nag_army_abilities_blyramid_bombardment_targeting	Wrath of the Gods	true
+unit_abilities_onscreen_name_wh_main_lore_nagash_raise_the_dead	Raise the Dead	true
+unit_abilities_tooltip_text_wh_main_lore_nagash_raise_the_dead	The living do not stay dead long and neither do the dead, contorting their way through unlife with improved vigour and purpose.	true
+unit_abilities_onscreen_name_nag_nagash_passive_eternal_danse_macabre	Vanhel's Eternal Danse Macabre	true
+unit_abilities_tooltip_text_nag_nagash_passive_eternal_danse_macabre	Friendly targets are filled with magical energy, making them even more aggressive!	true
+unit_abilities_onscreen_name_nag_nagash_passive_malediction_of_nagash	Malediction of Nagash	true
+unit_abilities_tooltip_text_nag_nagash_passive_malediction_of_nagash	At the Necromancer's commad, his enemies feel the looming shadow of undeath fall across them, sapping their strength and endurance.	true
+unit_abilities_onscreen_name_nag_nagash_passive_death_magic_incarnate	Death Magic Incarnate	true
+unit_abilities_tooltip_text_nag_nagash_passive_death_magic_incarnate	A mass of accursed necrotic power swirls around Nagash, fusing into the unstable bonds of the dead and strengthening them.	true
+unit_abilities_onscreen_name_nag_nagash_abiliities_morikhane_black_armour	Black Armour of Nagash	true
+unit_abilities_tooltip_text_nag_nagash_abiliities_morikhane_black_armour	Nagash's armour is forged from an alloy of lead and meteoric iron, over the millennia the armour has fused itself with his body	true
+unit_abilities_onscreen_name_nag_nagash_abiliities_mortis_blade	The Great Blade of Death	true
+unit_abilities_tooltip_text_nag_nagash_abiliities_mortis_blade	Mortis is a huge magical sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it.	true
+unit_abilities_onscreen_name_nag_nagash_abiliities_ashes_and_dust	Ashes and Dust	true
+unit_abilities_tooltip_text_nag_nagash_abiliities_ashes_and_dust	A choking dust cloud erupts from the wizard's fingertips, suffocating all in its path.	true
+unit_abilities_onscreen_name_nag_nagash_abiliities_master_arcane_conduit	Master Arcane Conduit	true
+unit_abilities_tooltip_text_nag_nagash_abiliities_master_arcane_conduit	"Forces of Necromancy, hear the request of your most-powerful master: flow through me according to my will!"	true
