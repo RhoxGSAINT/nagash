@@ -1,0 +1,9 @@
+choice_key	dilemma_key	associated_audio_trigger
+#cdir_events_dilemma_choice_details_tables;2;db/cdir_events_dilemma_choice_details_tables/nagash		
+FIRST	nag_winds	
+SECOND	nag_winds	
+THIRD	nag_winds	
+FIRST	nag_man	
+SECOND	nag_man	
+THIRD	nag_man	
+FOURTH	nag_man	

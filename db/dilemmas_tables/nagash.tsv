@@ -1,0 +1,4 @@
+key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override
+#dilemmas_tables;5;db/dilemmas_tables/nagash								
+nag_winds	false			generic	false	Event	UI_CAM_EVENT_Dilemma	
+nag_man	false			generic	false	Event	UI_CAM_EVENT_Dilemma	

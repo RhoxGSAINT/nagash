@@ -1,0 +1,9 @@
+id	choice_key	dilemma_key	payload_key	value
+#cdir_events_dilemma_payloads_tables;2;db/cdir_events_dilemma_payloads_tables/nagash				
+908498189	FIRST	nag_winds	TEXT_DISPLAY	LOOKUP[dummy_nag_ability_enable_batocalypse]
+908498190	SECOND	nag_winds	TEXT_DISPLAY	LOOKUP[dummy_nag_ability_enable_endless_tomb]
+908498191	THIRD	nag_winds	TEXT_DISPLAY	LOOKUP[dummy_nag_ability_enable_blyramid_bombardment]
+908498192	FIRST	nag_man	TEXT_DISPLAY	LOOKUP[dummy_blankfornow]
+908498193	SECOND	nag_man	TEXT_DISPLAY	LOOKUP[dummy_blankfornow]
+908498194	THIRD	nag_man	TEXT_DISPLAY	LOOKUP[dummy_blankfornow]
+908498195	FOURTH	nag_man	TEXT_DISPLAY	LOOKUP[dummy_blankfornow]

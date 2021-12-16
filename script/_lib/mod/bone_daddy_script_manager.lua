@@ -4,7 +4,7 @@
 if __game_mode ~= __lib_type_campaign or cm:get_campaign_name() ~= "main_warhammer" then return end
 
 ---@class bdsm
-bdsm = {
+local bdsm = {
     _faction_key = "nag_nagash",
 
     write_to_log = true,
@@ -19,10 +19,12 @@ function bdsm:logf(...) logf(...) end
 function bdsm:error(...) error(...) end
 function bdsm:errorf(...) errorf(...) end
 
+---@return string
 function bdsm:get_faction_key()
     return self._faction_key
 end
 
+---@return FACTION_SCRIPT_INTERFACE
 function bdsm:get_faction()
     return cm:get_faction(self:get_faction_key())
 end
@@ -51,6 +53,10 @@ function bdsm:init()
     vlib:load_module("morts", path)
     vlib:load_module("ui", path)
     vlib:load_module("souls", path)
+end
+
+function get_bdsm()
+    return bdsm
 end
 
 -- TODO set up army caps, so the only-legendary-lord thing will work with UI and AI

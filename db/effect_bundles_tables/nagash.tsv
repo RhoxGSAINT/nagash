@@ -6,4 +6,8 @@ nag_bundle_stance_army_settlement_horde	Sets up a defensive camp, allowing for b
 nag_ability_enable_batocalypse	ph	ph	faction	0	 	false	false	true
 nag_ability_enable_endless_tomb	ph	ph	faction	0	 	false	false	true
 nag_ability_enable_blyramid_bombardment	ph	ph	faction	0	 	false	false	true
-nag_ability_enable_blyramid_itself	ph	ph	faction	0	 	false	false	true
+nag_ability_enable_blyramid_itself	ph	ph	faction	0		false	false	true
+nag_man			faction	1	character.png	true	false	true
+nag_divinity			faction	1	character.png	true	false	true
+nag_death			faction	1	character.png	true	false	true
+nag_winds			faction	1	character.png	true	false	true

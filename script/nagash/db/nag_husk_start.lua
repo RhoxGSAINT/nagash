@@ -20,6 +20,22 @@ local db =  {
 
     -- agent subtype key
     subtype = "nag_nagash_husk",
+
+    --- start with 3 books and boner staff
+    ancillaries = {
+        "nag_anc_talisman_books_of_nagash_book_one",
+        "nag_anc_talisman_books_of_nagash_book_two",
+        "nag_anc_talisman_books_of_nagash_book_three",
+        "nag_anc_arcane_item_alakanash_staff_of_power",
+    },
+
+    horde_buildings = { -- any starting buildings for Nagash's horde
+       -- "building_level_key",
+    },
+
+    nagashizzar_buildings = { -- any extra starting buildings for Nagashizzar
+       -- "building_level_key",
+    },
 }
 
 return db

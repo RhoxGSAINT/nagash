@@ -1,0 +1,6 @@
+id	dilemma_key	option_key	value
+#cdir_events_dilemma_option_junctions_tables;2;db/cdir_events_dilemma_option_junctions_tables/nagash			
+21265496	nag_winds	GEN_TARGET_NONE	
+21265497	nag_winds	VAR_CHANCE	100
+21265498	nag_man	GEN_TARGET_NONE	
+21265499	nag_man	VAR_CHANCE	100

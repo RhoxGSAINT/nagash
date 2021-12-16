@@ -3,7 +3,8 @@
 -- VANDY: Keep in mind MP, please :)
 -- TODO keep in mind MP
 
--- local bdsm = get_bdsm()
+---@class bdsm
+local bdsm = get_bdsm()
 
 -- this is triggered on the, well, first turn
 function bdsm:first_turn_begin()
@@ -42,6 +43,9 @@ function bdsm:first_turn_begin()
         local forename,surname = starting_info.forename,starting_info.surname
         local subtype = starting_info.subtype
 
+        local ancillary_list = starting_info.ancillaries
+        local horde_buildings,settle_buildings = starting_info.horde_buildings, starting_info.nagashizzar_buildings
+
         cm:create_force_with_general(
             faction_key,
             unit_list,
@@ -55,14 +59,41 @@ function bdsm:first_turn_begin()
             surname,
             "",
             true,
-            nil
+            function(char_cqi)
+                ---@type CHARACTER_SCRIPT_INTERFACE
+                local character = cm:get_character_by_cqi(char_cqi)
+
+                for i,anc in ipairs(ancillary_list) do
+                    cm:force_add_ancillary(
+                        character,
+                        anc,
+                        true,
+                        true
+                    )
+                end
+
+                local mf_cqi = character:military_force():command_queue_index()
+
+                for i,building in ipairs(horde_buildings) do 
+                    cm:add_building_to_force(mf_cqi, building)
+                end
+            end
         )
 
+        --- TODO extra buildings for Himselfizar
+        --- TODO change corruption (add Skaven corruption at 10-15%, vamp at the rest?)
 
         cm:callback(function()
             -- upgrade Himselfizar to level 1
             local s = cm:get_region(nagashizar_key):settlement()
             cm:instantly_set_settlement_primary_slot_level(s, 1)
+            
+            cm:callback(function()
+                for i,building in ipairs(settle_buildings) do
+                    --- TODO does this work?
+                    cm:add_building_to_settlement(nagashizar_key, building)
+                end
+            end, 0.2)
 
             -- reenable character events
             cm:disable_event_feed_events(false, "wh_event_category_character", "", "")

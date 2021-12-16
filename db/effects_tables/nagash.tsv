@@ -53,3 +53,5 @@ nag_ability_enable_blyramid_bombardment	general_ability.png	101	general_ability.
 nag_ability_enable_blyramid_itself	general_ability.png	101	general_ability.png	battle	true
 nag_effect_upkeep_cost_reduction_crypt_ghouls	military_spending.png	105	military_spending.png	campaign	false
 nag_effect_enable_ability_blood_queen_dignitary_vmp	general_ability.png	600	general_ability.png	battle	true
+nag_effect_recruit_rank_nag_skeletons	experience.png	120	experience.png	campaign	true
+nag_effect_recruit_rank_nag_ghouls_zombies	experience.png	120	experience.png	campaign	true

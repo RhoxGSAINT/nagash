@@ -8,13 +8,16 @@ rituals_display_name_nag_death	Dominion Over Death	true
 rituals_description_nag_death	[PH]	true
 rituals_display_name_nag_winds	Dominion Over Winds	true
 rituals_description_nag_winds	[PH]	true
-campaign_group_rituals_unlock_text_nagash_featurenag_man	[PH] - Own X regions?	true
-campaign_group_rituals_unlock_text_nagash_featurenag_divinity	[PH] - Build X religion buildings?	true
-campaign_group_rituals_unlock_text_nagash_featurenag_death	[PH] - Kill X units/lords?	true
-campaign_group_rituals_unlock_text_nagash_featurenag_winds	[PH] - Build Nagashizzar the Black City landmark	true
+campaign_group_rituals_unlock_text_nagash_featurenag_man	Conquer and hold 10 regions	true
+campaign_group_rituals_unlock_text_nagash_featurenag_divinity	Get Nagash to rank 12	true
+campaign_group_rituals_unlock_text_nagash_featurenag_death	Win 5 battles with Nagash	true
+campaign_group_rituals_unlock_text_nagash_featurenag_winds	Build the Black Obelisk [level 4]	true
 rituals_display_name_nag_bp_raise	[PH] Raise the BP	true
 rituals_description_nag_bp_raise	[PH]	true
 rituals_display_name_nag_end_game	[PH] End Game Ritual	true
 rituals_description_nag_end_game	[PH] We're in the end game now	true
 campaign_group_rituals_unlock_text_nagash_featurenag_bp_raise	[PH]	true
 campaign_group_rituals_unlock_text_nagash_featurenag_end_game	[PH]	true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_winds	[PH] Select from one of Big Boner's Mega Spells	true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_death	[PH] Boner army spawn	true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_man	[PH] [TODO] select a "target" enemy faction and get boosts against them? force attrition on them?	true

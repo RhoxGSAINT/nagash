@@ -270,3 +270,4 @@ effects_description_nag_effect_ability_enable_the_restless_dead_hidden	[Hidden]	
 effects_description_nag_effect_ability_enable_curse_of_undeath_hidden	[Hidden]	false
 effects_description_nag_effect_ability_enable_life-leeching_hidden	[Hidden]	false
 effects_description_nag_effect_ability_enable_master_arcane_conduit	Passive ability: "Master Arcane Conduit"	true
+effects_description_nag_effect_recruit_rank_nag_ghouls_zombies	Recruit rank: %+n for Ghoul and Zombie units	true

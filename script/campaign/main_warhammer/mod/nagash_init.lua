@@ -1,6 +1,7 @@
--- local bdsm = get_bdsm()
-local mct
+---@class bdsm
+local bdsm = get_bdsm()
 
+local mct
 local vlib = get_vlib()
 
 ---@type vlib_camp_counselor

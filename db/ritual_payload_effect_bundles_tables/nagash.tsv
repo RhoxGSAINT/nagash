@@ -1,0 +1,6 @@
+effect_bundle	payload	duration
+#ritual_payload_effect_bundles_tables;1;db/ritual_payload_effect_bundles_tables/nagash		
+nag_man	nag_man	10
+nag_divinity	nag_divinity	5
+nag_death	nag_death	5
+nag_winds	nag_winds	5
