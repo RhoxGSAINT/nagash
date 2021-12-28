@@ -3,7 +3,7 @@ key	text	tooltip
 building_sets_onscreen_name_nag_bpyramid_new_horde	[PH]	true
 building_sets_onscreen_description_nag_bpyramid_new_horde	[PH]	true
 building_sets_onscreen_name_nag_bpyramid_hidden	OwO	true
-building_sets_onscreen_description_nag_bpyramid_hidden	[PH]	true
+building_sets_onscreen_description_nag_bpyramid_hidden	WHAT IS THIS? DO NOT HOVER ME! ONLY MIGHTY NAGASH CAN HOVER.	true
 building_sets_onscreen_name_nag_bpyramid_settlement	Main Hall	true
 building_sets_onscreen_description_nag_bpyramid_settlement	[PH]	true
 building_sets_onscreen_name_nag_bpyramid_settlement_support	Obelisk	true

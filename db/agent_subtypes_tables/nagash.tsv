@@ -8,7 +8,7 @@ nag_mortarch_vlad	false	true		nag_mortarch_vlad	wh_dlc04_vo_actor_Vampire_dlc04_
 nag_mortarch_mannfred	false	true		nag_mortarch_mannfred	wh_main_vo_actor_Vampire_MannfredVonCarstein	true	-1	false	true	false	false	legendary_lords			false
 nag_mortarch_luthor	false	false		nag_mortarch_luthor	wh2_dlc11_vo_actor_VampireCoast_Luthor_Harkon	true	-1	false	true	false	false	legendary_lords			false
 nag_mortarch_arkhan	false	true		nag_mortarch_arkhan	wh2_dlc09_vo_actor_Tomb_Kings_Arkhan	true	-1	false	true	false	false	legendary_lords			false
-nag_mortarch_isabella	false	true		nag_mortarch_isabella	wh_pro02_vo_actor_Vampire_Isabella_Von_Carstein	true	1	true	true	false	false				false
+nag_mortarch_isabella	false	true		nag_mortarch_isabella	wh_pro02_vo_actor_Vampire_Isabella_Von_Carstein	false	1	true	true	false	false				false
 nag_traitor_king	true	false		wh2_dlc09_tmb_cha_tomb_king_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	true	-1	false	true	false	true	tmb_tomb_king			false
 nag_tomb_prince	true	false		wh2_dlc09_tmb_cha_tomb_prince_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Prince	true	-1	false	true	false	true				false
 nag_liche_priest_death	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh2_dlc09_tmb_cha_liche_priest_death_0	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	true				false

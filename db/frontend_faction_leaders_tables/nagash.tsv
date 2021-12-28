@@ -1,3 +1,3 @@
 key	uniform	x_offset	y_offset	character_image	prelude_battle	video	loading_screen_image	loading_screen_intro_video	override_force_location_x	override_force_location_y	voiceover	show_full_intro_option	difficulty	startpos_map
 #frontend_faction_leaders_tables;19;db/frontend_faction_leaders_tables/nagash														
-wh2_main_political_party_vmp_nagash	composite_scene/front_end_selection/ungrim_ironfist_selection.csc	0.0	0.0	ui/skins/default/placeholder.png		test_movie_warhammer	ui/loading_ui/load_images/campaign_1.png	Warhammer/race_intro_bst_mini	-1.0	-1.0	wh_main_vo_actor_Dwarf_UngrimIronfist	false	normal	default
+wh2_main_political_party_vmp_nagash	composite_scene/front_end_selection/ungrim_ironfist_selection.csc	0.0	0.0	UI\Portraits\Faction_leaders\nag_nagash.png		test_movie_warhammer	ui/loading_ui/load_images/campaign_1.png	Warhammer/race_intro_bst_mini	-1.0	-1.0	wh2_main_vo_actor_Skaven_Unit1	false	normal	nag_nagash

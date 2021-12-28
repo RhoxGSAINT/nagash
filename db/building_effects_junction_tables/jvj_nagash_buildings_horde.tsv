@@ -3,17 +3,6 @@ building	effect	effect_scope	value	value_damaged	value_ruined
 nag_bpyramid_main_1	nag_effect_horde_growth	force_to_force_own	3.0	3.0	0.0
 nag_bpyramid_main_1	wh_main_effect_force_all_recruitment_points	force_to_force_own	4.0	2.0	0.0
 nag_bpyramid_main_1	wh_main_effect_religion_conversion_undeath	force_to_character_own_provincetext	2.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_enable_recruitment_wizard_tmb	force_to_force_own	1.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_cap_increase_liche_priest	faction_to_faction_own_unseen	5.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_enable_recruitment_champion_tmb	force_to_force_own	1.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_enable_recruitment_dignitary_vmp	force_to_force_own	1.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_cap_increase_vampire	faction_to_faction_own_unseen	5.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_enable_recruitment_champion_vmp	force_to_force_own	1.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_cap_increase_prince_wight	faction_to_faction_own_unseen	5.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_enable_recruitment_engineer_cst	force_to_force_own	1.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_cap_increase_gunnery_wight	faction_to_faction_own_unseen	5.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_enable_recruitment_archai	force_to_force_own	1.0	1.0	0.0
-nag_bpyramid_main_1	nag_effect_agent_cap_increase_archai	faction_to_faction_own_unseen	5.0	1.0	0.0
 nag_bpyramid_main_1	wh2_dlc09_effect_increase_army_capacity	building_to_faction_own	50.0	0.0	0.0
 nag_bpyramid_main_2	nag_effect_horde_growth	force_to_force_own	4.0	4.0	0.0
 nag_bpyramid_main_2	wh_main_effect_military_force_winds_of_magic_starting_mod	force_to_force_own	5.0	5.0	0.0

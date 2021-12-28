@@ -5,3 +5,4 @@ factions_defend_desc_nag_nagash	You are defending against Bone Daddy Bonanza! [P
 factions_screen_adjective_nag_nagash	Bone Daddy Bonanza [PH]	true
 factions_screen_name_nag_nagash	Bone Daddy Bonanza [PH]	true
 factions_screen_name_when_rebels_nag_nagash	Bone Daddy Bonanza just a phase [PH]	true
+frontend_factions_localised_mechanics_nag_nagash	[[img:bullet_vmp_dead]][[/img]]Return of Nagash: Powerful horde armies can bide their time around Nagashizzar and outposts until the Black Pyramid and Nagash himself can be restored to their full power.||[[img:bullet_vmp_corruption]][[/img]]Vampiric Corruption: The taint of Undeath can be spread within enemy territory, leading to public order issues and undead incursions.||[[img:bullet_vmp_units]][[/img]]Varied unit roster with flying units, monsters and Undead troops from Nagashizzar, Nehekhara and Mortarch forces.	true
