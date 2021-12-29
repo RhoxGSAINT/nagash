@@ -128,7 +128,15 @@ unit_abilities_onscreen_name_nag_nagash_abiliities_morikhane_black_armour	Black 
 unit_abilities_tooltip_text_nag_nagash_abiliities_morikhane_black_armour	Nagash's armour is forged from an alloy of lead and meteoric iron, over the millennia the armour has fused itself with his body	true
 unit_abilities_onscreen_name_nag_nagash_abiliities_mortis_blade	The Great Blade of Death	true
 unit_abilities_tooltip_text_nag_nagash_abiliities_mortis_blade	Mortis is a huge magical sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it.	true
+unit_abilities_onscreen_name_nag_nagash_abiliities_staff_of_power	Staff of Power	true
+unit_abilities_tooltip_text_nag_nagash_abiliities_staff_of_power	Staff of Power, an ancient artifact crafted by Nagash himself which thrums with the raw power of Dark Magic.	true
 unit_abilities_onscreen_name_nag_nagash_abiliities_ashes_and_dust	Ashes and Dust	true
 unit_abilities_tooltip_text_nag_nagash_abiliities_ashes_and_dust	A choking dust cloud erupts from the wizard's fingertips, suffocating all in its path.	true
 unit_abilities_onscreen_name_nag_nagash_abiliities_master_arcane_conduit	Master Arcane Conduit	true
 unit_abilities_tooltip_text_nag_nagash_abiliities_master_arcane_conduit	"Forces of Necromancy, hear the request of your most-powerful master: flow through me according to my will!"	true
+unit_abilities_onscreen_name_nag_unit_abilities_refuse_to_die	Refuse to Die	true
+unit_abilities_tooltip_text_nag_unit_abilities_refuse_to_die	The surprising ability to hold back death despite some seriously heavy opposition…	true
+unit_abilities_onscreen_name_nag_unit_abilities_feaster_of_souls	Feaster of Souls	true
+unit_abilities_tooltip_text_nag_unit_abilities_feaster_of_souls	The Dread Abyssals, known also as the Hounds of Usirian, are amongst the most legendary creatures within the Underworld.	true
+unit_abilities_onscreen_name_nag_unit_abilities_heralds_of_the_accursed_one	Herald of the Accursed One	true
+unit_abilities_tooltip_text_nag_unit_abilities_heralds_of_the_accursed_one	The morghasts are rising, and they are the heralds of death.	true

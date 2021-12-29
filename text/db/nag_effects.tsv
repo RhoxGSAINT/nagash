@@ -261,8 +261,9 @@ effects_description_nag_effect_ability_enable_eternal_danse_macabre	Passive abil
 effects_description_nag_effect_ability_enable_malediction_of_nagash	Passive ability: "Malediction of Nagash"	true
 effects_description_nag_effect_ability_enable_raise_the_dead	Passive ability: "Raise the Dead"	true
 effects_description_nag_effect_nagash_enable_death_magic_incarnate	Passive ability: "Death Magic Incarnate"	true
-effects_description_nag_effect_item_nagash_ability_enable_morikhane	Ability: "Morikhane, the Black Armour"	true
-effects_description_nag_effect_item_nagash_ability_enable_mortis_blade	Ability: "Zefet-nebtar, the Mortis Blade"	true
+effects_description_nag_effect_item_nagash_ability_enable_morikhane	Ability: "Black Armour of Nagash"	true
+effects_description_nag_effect_item_nagash_ability_enable_mortis_blade	Ability: "The Great Blade of Death"	true
+effects_description_nag_effect_item_nagash_ability_enable_staff_of_power	Ability: "Staff of Power"	true
 effects_description_nag_effect_item_nagash_ability_enable_ashes_and_dust	Bound spell: "Ashes and Dust"	true
 effects_description_nag_ability_enable_loremaster_dummy	Passive abilites: "The Curse of Undeath, Exorcism, Life Leeching and The Restless Dead"	true
 effects_description_nag_effect_ability_enable_exorcism_hidden	[Hidden]	false
@@ -271,3 +272,4 @@ effects_description_nag_effect_ability_enable_curse_of_undeath_hidden	[Hidden]	f
 effects_description_nag_effect_ability_enable_life-leeching_hidden	[Hidden]	false
 effects_description_nag_effect_ability_enable_master_arcane_conduit	Passive ability: "Master Arcane Conduit"	true
 effects_description_nag_effect_recruit_rank_nag_ghouls_zombies	Recruit rank: %+n for Ghoul and Zombie units	true
+effects_description_nag_effect_enable_heralds_of_the_accursed_one	Passive ability: "Herald of the Accursed One"	true

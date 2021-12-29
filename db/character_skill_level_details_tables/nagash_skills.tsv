@@ -1,18 +1,18 @@
 campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_rank
 #character_skill_level_details_tables;0;db/character_skill_level_details_tables/nagash_skills						
-		1	nag_skill_unique_nagash_morikhane		x	40
-		1	nag_skill_unique_nagash_mortis		x	40
-		1	nag_skill_unique_nagash_book_one		x	1
-		1	nag_skill_unique_nagash_book_two		x	1
-		1	nag_skill_unique_nagash_book_three		x	1
-		1	nag_skill_unique_nagash_book_four		x	1
-		1	nag_skill_unique_nagash_book_five		x	1
-		1	nag_skill_unique_nagash_book_six		x	1
-		1	nag_skill_unique_nagash_book_seven		x	1
-		1	nag_skill_unique_nagash_book_eight		x	1
-		1	nag_skill_unique_nagash_book_nine		x	1
-		1	nag_skill_unique_nagash_alakanash		x	40
-		1	nag_skill_unique_nagash_crown		x	40
+		1	nag_skill_unique_nagash_morikhane		x	13
+		1	nag_skill_unique_nagash_mortis		x	17
+		1	nag_skill_unique_nagash_book_one		x	0
+		1	nag_skill_unique_nagash_book_two		x	0
+		1	nag_skill_unique_nagash_book_three		x	0
+		1	nag_skill_unique_nagash_book_four		x	0
+		1	nag_skill_unique_nagash_book_five		x	0
+		1	nag_skill_unique_nagash_book_six		x	0
+		1	nag_skill_unique_nagash_book_seven		x	0
+		1	nag_skill_unique_nagash_book_eight		x	0
+		1	nag_skill_unique_nagash_book_nine		x	0
+		1	nag_skill_unique_nagash_alakanash		x	7
+		1	nag_skill_unique_nagash_crown		x	23
 		1	nag_skill_unique_vlad_blood_drinker		x	6
 		1	nag_skill_unique_vlad_the_carstein_ring		x	11
 		1	nag_skill_mount_luthor_harkon_terrorgheist		x	16
@@ -38,3 +38,7 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_unique_krell_black_axe_of_krell		x	13
 		1	nag_skill_mannfred_unique_loremaster_lore_of_vampires		x	8
 		1	nag_skill_unique_vlad_von_carstein_mesmerising_aura		x	14
+		1	nag_skill_archai_heralds_of_the_accursed_one		x	8
+		1	nag_skill_archai_ebon_wrought_armour		x	16
+		1	nag_skill_archai_undying_servitude		x	10
+		1	nag_skill_archai_gift_of_oblivion		x	18

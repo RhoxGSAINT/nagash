@@ -12,3 +12,4 @@ unit_abilities_additional_ui_effects_localised_text_nag_bound_gaze_of_nagash	[[c
 unit_abilities_additional_ui_effects_localised_text_nag_summon_of_summon	[[col:green]][[img:icon_arrow_up]][[/img]]  Summons Tomb that spits skeletons periodically[[/col]]	true
 unit_abilities_additional_ui_effects_localised_text_nag_heal_active_990	[[col:green]][[img:icon_arrow_up]][[/img]] Restores up to [[img:icon_hp]][[/img]]990 Hit Points[[/col]]	true
 unit_abilities_additional_ui_effects_localised_text_nag_all_increased_max_power_very_high	[[col:green]][[img:icon_arrow_up]][[/img]] Massive increase to [[img:icon_wom_power]][[/img]]power reserves[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_decreased_reserves	[[col:red]][[img:icon_arrow_down]][[/img]] Decrease to [[img:icon_wom_power]][[/img]]power reserves[[/col]]	true

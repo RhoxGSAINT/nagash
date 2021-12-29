@@ -89,41 +89,39 @@ building_short_description_texts_short_description_nag_bpyramid_infrastructure3_
 building_short_description_texts_short_description_nag_bpyramid_infrastructure4_other_1	[PH]	true
 building_short_description_texts_short_description_nag_bpyramid_infrastructure4_other_2	[PH]	true
 building_short_description_texts_short_description_nag_bpyramid_infrastructure4_other_3	[PH]	true
-building_short_description_texts_short_description_nag_nagash_horde_special_1	[PH]	true
-building_short_description_texts_short_description_nag_nagash_horde_special_2	[PH]	true
-building_short_description_texts_short_description_nag_nagash_horde_special_3	[PH]	true
-building_short_description_texts_short_description_nag_nagash_horde_special_4	[PH]	true
-building_short_description_texts_short_description_nag_nagash_horde_special_5	[PH]	true
-building_short_description_texts_short_description_nag_arkhan_horde_special_1	[PH]	true
-building_short_description_texts_short_description_nag_arkhan_horde_special_2	[PH]	true
-building_short_description_texts_short_description_nag_arkhan_horde_special_3	[PH]	true
-building_short_description_texts_short_description_nag_arkhan_horde_special_4	[PH]	true
-building_short_description_texts_short_description_nag_arkhan_horde_special_5	[PH]	true
-building_short_description_texts_short_description_nag_vlad_horde_special_1	[PH]	true
-building_short_description_texts_short_description_nag_vlad_horde_special_2	[PH]	true
-building_short_description_texts_short_description_nag_vlad_horde_special_3	[PH]	true
-building_short_description_texts_short_description_nag_vlad_horde_special_4	[PH]	true
-building_short_description_texts_short_description_nag_vlad_horde_special_5	[PH]	true
-building_short_description_texts_short_description_nag_neffy_horde_special_1	[PH]	true
-building_short_description_texts_short_description_nag_neffy_horde_special_2	[PH]	true
-building_short_description_texts_short_description_nag_neffy_horde_special_3	[PH]	true
-building_short_description_texts_short_description_nag_neffy_horde_special_4	[PH]	true
-building_short_description_texts_short_description_nag_neffy_horde_special_5	[PH]	true
-building_short_description_texts_short_description_nag_manny_horde_special_1	[PH]	true
-building_short_description_texts_short_description_nag_manny_horde_special_2	[PH]	true
-building_short_description_texts_short_description_nag_manny_horde_special_3	[PH]	true
-building_short_description_texts_short_description_nag_manny_horde_special_4	[PH]	true
-building_short_description_texts_short_description_nag_manny_horde_special_5	[PH]	true
-building_short_description_texts_short_description_nag_krell_horde_special_1	[PH]	true
-building_short_description_texts_short_description_nag_krell_horde_special_2	[PH]	true
-building_short_description_texts_short_description_nag_krell_horde_special_3	[PH]	true
-building_short_description_texts_short_description_nag_krell_horde_special_4	[PH]	true
-building_short_description_texts_short_description_nag_krell_horde_special_5	[PH]	true
-building_short_description_texts_short_description_nag_luthor_horde_special_1	[PH]	true
-building_short_description_texts_short_description_nag_luthor_horde_special_2	[PH]	true
-building_short_description_texts_short_description_nag_luthor_horde_special_3	[PH]	true
-building_short_description_texts_short_description_nag_luthor_horde_special_4	[PH]	true
-building_short_description_texts_short_description_nag_luthor_horde_special_5	[PH]	true
+building_short_description_texts_short_description_nag_nagash_horde_special_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_nagash_horde_special_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_nagash_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_arkhan_horde_special_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_arkhan_horde_special_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_arkhan_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_arkhan_horde_special_4	Undead legions vast beyond human comprehension, utterly relentless and without mercy.	true
+building_short_description_texts_short_description_nag_arkhan_horde_special_5	The age of the living is finally drawing to an end...	true
+building_short_description_texts_short_description_nag_vlad_horde_special_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_vlad_horde_special_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_vlad_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_vlad_horde_special_4	Undead legions vast beyond human comprehension, utterly relentless and without mercy.	true
+building_short_description_texts_short_description_nag_vlad_horde_special_5	The age of the living is finally drawing to an end...	true
+building_short_description_texts_short_description_nag_neffy_horde_special_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_neffy_horde_special_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_neffy_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_neffy_horde_special_4	Undead legions vast beyond human comprehension, utterly relentless and without mercy.	true
+building_short_description_texts_short_description_nag_neffy_horde_special_5	The age of the living is finally drawing to an end...	true
+building_short_description_texts_short_description_nag_manny_horde_special_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_manny_horde_special_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_manny_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_manny_horde_special_4	Undead legions vast beyond human comprehension, utterly relentless and without mercy.	true
+building_short_description_texts_short_description_nag_manny_horde_special_5	The age of the living is finally drawing to an end...	true
+building_short_description_texts_short_description_nag_krell_horde_special_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_krell_horde_special_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_krell_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_krell_horde_special_4	Undead legions vast beyond human comprehension, utterly relentless and without mercy.	true
+building_short_description_texts_short_description_nag_krell_horde_special_5	The age of the living is finally drawing to an end...	true
+building_short_description_texts_short_description_nag_luthor_horde_special_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_luthor_horde_special_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_luthor_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_luthor_horde_special_4	Undead legions vast beyond human comprehension, utterly relentless and without mercy.	true
+building_short_description_texts_short_description_nag_luthor_horde_special_5	The age of the living is finally drawing to an end...	true
 building_short_description_texts_short_description_nag_nagash_horde_landmark_0	[PH]	true
 building_short_description_texts_short_description_nag_nagash_horde_landmark_1	[PH]	true
 building_short_description_texts_short_description_nag_arkhan_horde_landmark_0	[PH]	true

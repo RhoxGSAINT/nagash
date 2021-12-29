@@ -173,6 +173,7 @@ nag_effect_ability_enable_raise_the_dead	general_ability.png	1	general_ability.p
 nag_effect_nagash_enable_death_magic_incarnate	general_ability.png	1	general_ability.png	battle	true
 nag_effect_item_nagash_ability_enable_morikhane	general_ability.png	1	general_ability.png	battle	true
 nag_effect_item_nagash_ability_enable_mortis_blade	general_ability.png	1	general_ability.png	battle	true
+nag_effect_item_nagash_ability_enable_staff_of_power	general_ability.png	1	general_ability.png	battle	true
 nag_effect_item_nagash_ability_enable_ashes_and_dust	general_ability.png	1	general_ability.png	battle	true
 nag_ability_enable_loremaster_dummy	general_ability.png	1	general_ability.png	battle	true
 nag_effect_ability_enable_exorcism_hidden		0		battle	true
@@ -180,3 +181,4 @@ nag_effect_ability_enable_the_restless_dead_hidden		0		battle	true
 nag_effect_ability_enable_curse_of_undeath_hidden		0		battle	true
 nag_effect_ability_enable_life-leeching_hidden		0		battle	true
 nag_effect_ability_enable_master_arcane_conduit	general_ability.png	600	general_ability.png	battle	true
+nag_effect_enable_heralds_of_the_accursed_one	general_ability.png	600	general_ability.png	battle	true
