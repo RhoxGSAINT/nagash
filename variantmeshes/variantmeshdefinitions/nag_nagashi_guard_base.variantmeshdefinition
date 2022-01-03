@@ -1,7 +1,10 @@
 <VARIANT_MESH>
 
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/nag_nagashi_guard_body_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/nag_nagashi_guard_body_01.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/nag_nagashi_guard_body_01.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/nag_nagashi_guard_body_02.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/nag_nagashi_guard_body_03.rigid_model_v2" />
 	</SLOT>
 
 
@@ -27,12 +30,16 @@
 	</SLOT>
 
 	<SLOT name="legs" >
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\vmp\vmp_black_knights\legs\vmp_black_knights_legs_01.wsmodel"   />
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\vmp\vmp_black_knights\legs\vmp_black_knights_legs_02.wsmodel"   />
-		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu1\vmp\vmp_black_knights\legs\vmp_black_knights_legs_03.wsmodel"   />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_wight_king/legs/vmp_wight_king_legs_01.wsmodel" />
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/vmp/vmp_wight_king/legs/vmp_wight_king_legs_01.wsmodel" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/nag_nagashi_guard_legs_01.rigid_model_v2" />
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_arkhan/nag_nagashi_guard_legs_02.rigid_model_v2" />
 
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_guard/legs/tmb_tomb_guard_legs_01.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_guard/legs/tmb_tomb_guard_legs_02.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_guard/legs/tmb_tomb_guard_legs_03.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_guard/legs/tmb_tomb_guard_legs_04.wsmodel" />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/tmb/tmb_tomb_guard/legs/tmb_tomb_guard_legs_05.wsmodel" />
 	</SLOT>
 
 
