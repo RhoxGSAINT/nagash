@@ -94,3 +94,6 @@ nag_nagash	false	nag_vanilla_cst_inf_deck_gunners_0	true	true				true
 nag_nagash	false	nag_vanilla_cst_inf_depth_guard_0	true	true				true
 nag_nagash	false	nag_vanilla_cst_mon_bloated_corpse_0	true	true				true
 nag_nagash	false	nag_vanilla_cst_mon_terrorgheist	true	true				true
+nag_nagash	false	nag_spirit_host	true	true				false
+nag_nagash	false	nag_spirit_host_small	true	true				false
+nag_nagash	false	nag_spirit_host_green	true	true				false

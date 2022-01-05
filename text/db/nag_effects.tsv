@@ -40,6 +40,9 @@ effects_description_nag_effect_unit_cap_morghasts	Unit capacity: %+n\\nMorghasts
 effects_description_nag_effect_unit_cap_sand_crawlies	Unit capacity: %+n\\nSand Crawlers	true
 effects_description_nag_effect_unit_cap_carrion_riders	Unit capacity: %+n\\nCarrion Riders	true
 effects_description_nag_effect_unit_cap_mortis_engine	Unit capacity: %+n\\nMortis Engine	true
+effects_description_nag_effect_unit_cap_spirit_host	Unit capacity: %+n\\nSpirit Host Large	true
+effects_description_nag_effect_unit_cap_spirit_host_green	Unit capacity: %+n\\nSpirit Host Green	true
+effects_description_nag_effect_unit_cap_spirit_host_small	Unit capacity: %+n\\nSpirit Host	true
 effects_description_nag_effect_unit_cap_bone_thrower	Unit capacity: %+n\\nBone Thrower	true
 effects_description_nag_effect_unit_cap_bone_giant_0	Unit capacity: %+n\\nBone Giant	true
 effects_description_nag_effect_unit_cap_dire_wolves	Unit capacity: %+n\\nDire Wolves	true

@@ -90,6 +90,9 @@ nag_bpyramid_ew2_mortuary_3	nag_effect_unit_cap_cairn_wraiths	faction_to_faction
 nag_bpyramid_ew2_mortuary_3	nag_effect_unit_cap_hexwraiths	faction_to_faction_own_unseen	2.0	2.0	0.0
 nag_bpyramid_ew2_mortuary_3	nag_effect_unit_cap_carrion_riders	faction_to_faction_own_unseen	2.0	2.0	0.0
 nag_bpyramid_ew2_mortuary_3	nag_effect_unit_cap_mortis_engine	faction_to_faction_own_unseen	1.0	1.0	0.0
+nag_bpyramid_ew2_mortuary_3	nag_effect_unit_cap_spirit_host	faction_to_faction_own_unseen	1.0	1.0	0.0
+nag_bpyramid_ew2_mortuary_3	nag_effect_unit_cap_spirit_host_green	faction_to_faction_own_unseen	1.0	1.0	0.0
+nag_bpyramid_ew2_mortuary_3	nag_effect_unit_cap_spirit_host_small	faction_to_faction_own_unseen	1.0	1.0	0.0
 nag_bpyramid_ew3_growth_1	nag_effect_horde_replenishment	force_to_general_own	12.0	12.0	0.0
 nag_bpyramid_ew3_growth_1	nag_effect_horde_growth	force_to_force_own	4.0	4.0	0.0
 nag_bpyramid_ew3_growth_2	nag_effect_horde_replenishment	force_to_general_own	20.0	20.0	0.0
@@ -305,6 +308,9 @@ nag_horde_support2_worship_2	nag_effect_unit_cap_hexwraiths	faction_to_faction_o
 nag_horde_support2_worship_3	nag_effect_unit_cap_cairn_wraiths	faction_to_faction_own_unseen	0.0	0.0	0.0
 nag_horde_support2_worship_3	nag_effect_unit_cap_hexwraiths	faction_to_faction_own_unseen	0.0	0.0	0.0
 nag_horde_support2_worship_3	nag_effect_unit_cap_carrion_riders	faction_to_faction_own_unseen	0.0	0.0	0.0
+nag_horde_support2_worship_3	nag_effect_unit_cap_spirit_host	faction_to_faction_own_unseen	0.0	0.0	0.0
+nag_horde_support2_worship_3	nag_effect_unit_cap_spirit_host_green	faction_to_faction_own_unseen	0.0	0.0	0.0
+nag_horde_support2_worship_3	nag_effect_unit_cap_spirit_host_small	faction_to_faction_own_unseen	0.0	0.0	0.0
 nag_horde_support2_worship_3	nag_effect_unit_cap_mortis_engine	faction_to_faction_own_unseen	0.0	0.0	0.0
 nag_horde_support1_smith_1	wh_main_effect_force_army_battle_armour_all	force_to_force_own_lords_army	5.0	5.0	0.0
 nag_horde_support1_smith_1	nag_effect_agent_enable_recruitment_wizard_tmb	force_to_force_own	1.0	1.0	0.0

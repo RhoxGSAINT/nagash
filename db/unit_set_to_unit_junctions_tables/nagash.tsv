@@ -356,3 +356,12 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_sneaky_sand	false
 			nag_sand_crawlies	nag_army_speed_scorpion_crawler	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_speed_scorpion_crawler	false
+			nag_spirit_host	nag_army_cavalry_chariots	false
+			nag_spirit_host	nag_army_magical_spirit	false
+			nag_spirit_host	nag_army_nagashizzar_units	false
+			nag_spirit_host_small	nag_army_cavalry_chariots	false
+			nag_spirit_host_small	nag_army_magical_spirit	false
+			nag_spirit_host_small	nag_army_nagashizzar_units	false
+			nag_spirit_host_green	nag_army_cavalry_chariots	false
+			nag_spirit_host_green	nag_army_magical_spirit	false
+			nag_spirit_host_green	nag_army_nagashizzar_units	false

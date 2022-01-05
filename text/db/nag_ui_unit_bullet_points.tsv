@@ -4,3 +4,5 @@ ui_unit_bullet_point_enums_onscreen_name_		true
 ui_unit_bullet_point_enums_tooltip_		true
 ui_unit_bullet_point_enums_onscreen_name_nag_morghasts	Heralds of the Accursed One	true
 ui_unit_bullet_point_enums_tooltip_nag_morghasts	The Morghasts are Nagash's officers and heralds on the battlefield, carrying out his will and reinforcing the undead host. \\nMorghasts have an encouraging effect on their allies' [[img:icon_morale]][[/img]]leadership should the [[img:icon_general]][[/img]]Lord be absent. 	true
+ui_unit_bullet_point_enums_onscreen_name_nag_spirit_host_aoe	Restless ghosts	true
+ui_unit_bullet_point_enums_tooltip_nag_spirit_host_aoe	Unit damages all enemies around itself.	true

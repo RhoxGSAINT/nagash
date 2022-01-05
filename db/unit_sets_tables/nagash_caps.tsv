@@ -7,6 +7,9 @@ nag_effect_unit_cap_morghasts	false	-1	-1
 nag_effect_unit_cap_sand_crawlies	false	-1	-1	
 nag_effect_unit_cap_carrion_riders	false	-1	-1	
 nag_effect_unit_cap_mortis_engine	false	-1	-1	
+nag_effect_unit_cap_spirit_host	false	-1	-1	
+nag_effect_unit_cap_spirit_host_green	false	-1	-1	
+nag_effect_unit_cap_spirit_host_small	false	-1	-1	
 nag_effect_unit_cap_bone_thrower	false	-1	-1	
 nag_effect_unit_cap_nehekhara_warriors_0	false	-1	-1	
 nag_effect_unit_cap_tomb_guard_0	false	-1	-1	
