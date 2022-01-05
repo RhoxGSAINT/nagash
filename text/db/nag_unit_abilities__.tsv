@@ -116,14 +116,6 @@ unit_abilities_tooltip_text_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDD
 unit_abilities_onscreen_name_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDDEN]	true
 unit_abilities_tooltip_text_nag_army_abilities_blyramid_bombardment_targeting	Calls upon Black Pyramids vast energies to enact bombardment and annihilate anything in the area.	true
 unit_abilities_onscreen_name_nag_army_abilities_blyramid_bombardment_targeting	Wrath of the Gods	true
-unit_abilities_tooltip_text_nag_spirit_host_hidden_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
-unit_abilities_onscreen_name_nag_spirit_host_hidden_vortex	Restless ghosts vortex  [HIDDEN]	true
-unit_abilities_tooltip_text_nag_spirit_host_dummy_vortex	Wildly swirling ghosts will tear apart any enemy they can reach.	true
-unit_abilities_onscreen_name_nag_spirit_host_dummy_vortex	Restless ghosts	true
-unit_abilities_tooltip_text_nag_spirit_host_green_hidden_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
-unit_abilities_onscreen_name_nag_spirit_host_green_hidden_vortex	Restless ghosts vortex  [HIDDEN]	true
-unit_abilities_tooltip_text_nag_spirit_host_green_dummy_vortex	Wildly swirling ghosts will tear apart any enemy they can reach.	true
-unit_abilities_onscreen_name_nag_spirit_host_green_dummy_vortex	Restless ghosts	true
 unit_abilities_onscreen_name_wh_main_lore_nagash_raise_the_dead	Raise the Dead	true
 unit_abilities_tooltip_text_wh_main_lore_nagash_raise_the_dead	The living do not stay dead long and neither do the dead, contorting their way through unlife with improved vigour and purpose.	true
 unit_abilities_onscreen_name_nag_nagash_passive_eternal_danse_macabre	Vanhel's Eternal Danse Macabre	true
@@ -148,3 +140,11 @@ unit_abilities_onscreen_name_nag_unit_abilities_feaster_of_souls	Feaster of Soul
 unit_abilities_tooltip_text_nag_unit_abilities_feaster_of_souls	The Dread Abyssals, known also as the Hounds of Usirian, are amongst the most legendary creatures within the Underworld.	true
 unit_abilities_onscreen_name_nag_unit_abilities_heralds_of_the_accursed_one	Herald of the Accursed One	true
 unit_abilities_tooltip_text_nag_unit_abilities_heralds_of_the_accursed_one	The morghasts are rising, and they are the heralds of death.	true
+unit_abilities_tooltip_text_nag_spirit_host_hidden_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
+unit_abilities_onscreen_name_nag_spirit_host_hidden_vortex	Restless ghosts vortex  [HIDDEN]	true
+unit_abilities_tooltip_text_nag_spirit_host_dummy_vortex	Wildly swirling ghosts will tear apart any enemy they can reach.	true
+unit_abilities_onscreen_name_nag_spirit_host_dummy_vortex	Restless ghosts	true
+unit_abilities_tooltip_text_nag_spirit_host_green_hidden_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
+unit_abilities_onscreen_name_nag_spirit_host_green_hidden_vortex	Restless ghosts vortex  [HIDDEN]	true
+unit_abilities_tooltip_text_nag_spirit_host_green_dummy_vortex	Wildly swirling ghosts will tear apart any enemy they can reach.	true
+unit_abilities_onscreen_name_nag_spirit_host_green_dummy_vortex	Restless ghosts	true

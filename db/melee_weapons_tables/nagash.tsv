@@ -5,3 +5,4 @@ nag_nagashi_guard_halb	0	8	0	14	26	0	2.0	spear	halberd		4	1.0	10	0.0	false		0	10
 BAKnag_nagashi_guard_halb	0	20	0	10	22	0	2.0	spear	halberd		4	1.0	10	0.0	false		0	10	4.9	
 nag_bone_golems	0	0	8	60	30	0	2.0	axe	club_medium	medium	5	1.1	100	0.0	false		0	10	4.0	
 nag_morghasts	0	0	0	60	120	0	2.0	axe	axe	medium	6	1.2	150	0.0	false		0	10	4.0	
+nag_warp_ghouls	0	0	0	35	13	0	2.0	axe	claw	small	1	1.0	40	0.0	true	wh_main_unit_contact_poison	0	10	4.0	

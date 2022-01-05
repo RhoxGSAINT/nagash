@@ -45,6 +45,7 @@ nag_nagash	false	nag_mortis_engine	true	true				false
 nag_nagash	false	nag_bone_thrower	true	true				false
 nag_nagash	false	nag_bone_golems	true	true				false
 nag_nagash	false	nag_sand_crawlies	true	true				false
+nag_nagash	false	nag_warp_ghouls	true	true				false
 nag_nagash	false	nag_carrion_riders	true	true				false
 nag_nagash	false	nag_giant_spoop	true	true				false
 nag_nagash	false	nag_bone_colossus	true	true				false

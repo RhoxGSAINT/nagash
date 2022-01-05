@@ -1,0 +1,15 @@
+<VARIANT_MESH>
+	<SLOT name="body" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_body.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh2_dlc11_cst_mournguls</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA>
+                <SLOT name="head" >
+                    <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_head.rigid_model_v2" />
+                </SLOT>
+        </VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_body_02.rigid_model_v2" >
+			<META_DATA>audio_entity_type:wh2_dlc11_cst_mournguls</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
+	</SLOT>
+    <SLOT name="accessories" >
+        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_parts.rigid_model_v2" />
+    </SLOT>    
+</VARIANT_MESH>
