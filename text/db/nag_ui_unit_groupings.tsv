@@ -2,3 +2,4 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/nag_ui_unit_groupings.loc		
 ui_unit_groupings_onscreen_cavalry_flying_scythe	Flying Cavalry	true
 ui_unit_groupings_tooltip_cavalry_flying_scythe	[PH]	true
+ui_unit_groupings_onscreen_nag_warp_ghouls	Creature Infantry	true
