@@ -314,3 +314,36 @@ nag_settlement_scorpions_1	nag_settlement_scorpions	0	6	7500	0		false	0	0	0	0	fa
 nag_settlement_ushabti_1	nag_settlement_ushabti	0	3	3000	0		false	0	0	0	0	false				true	nag_settlement_ushabti	false	0.0	0	true	3		true	0	0
 nag_settlement_ushabti_2	nag_settlement_ushabti	1	4	6000	0		false	0	0	0	0	false				true	nag_settlement_ushabti	false	0.0	0	true	4		true	0	0
 nag_settlement_warsphinx_1	nag_settlement_warsphinx	0	5	10000	0		false	0	0	0	0	false				true	nag_settlement_warsphinx	false	0.0	0	true	5		true	0	0
+nag_resource_gemstones_1	nag_resource_gemstones	0	3	1000	0		false	0	0	0	0	false				true	wh_main_VAMPIRES_resource_gemstones	false	0.0	0	true	1	wh_cam_resource_mining	true	0	0
+nag_resource_gemstones_2	nag_resource_gemstones	1	4	2000	0		false	0	0	0	0	false				true	wh_main_VAMPIRES_resource_gemstones	false	0.0	0	true	2	wh_cam_resource_mining	true	0	0
+nag_resource_gemstones_3	nag_resource_gemstones	2	5	4000	0		false	0	0	0	0	false				true	wh_main_VAMPIRES_resource_gemstones	false	0.0	0	true	3	wh_cam_resource_mining	true	0	0
+nag_resource_obsidian_1	nag_resource_obsidian	0	2	600	0		false	0	0	0	0	false				true	wh2_main_vmp_resource_obsidian	false	0.0	0	true	1	wh_cam_resource_worshop	true	0	0
+nag_resource_obsidian_2	nag_resource_obsidian	1	3	1200	0		false	0	0	0	0	false				true	wh2_main_vmp_resource_obsidian	false	0.0	0	true	2	wh_cam_resource_worshop	true	0	0
+nag_resource_obsidian_3	nag_resource_obsidian	2	4	2200	0		false	0	0	0	0	false				true	wh2_main_vmp_resource_obsidian	false	0.0	0	true	3	wh_cam_resource_worshop	true	0	0
+nag_resource_dyes_1	nag_resource_dyes	0	2	600	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_dyes	false	0.0	0	true	1	wh_cam_resource_worshop	true	0	0
+nag_resource_dyes_2	nag_resource_dyes	1	3	1200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_dyes	false	0.0	0	true	2	wh_cam_resource_worshop	true	0	0
+nag_resource_dyes_3	nag_resource_dyes	2	4	2200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_dyes	false	0.0	0	true	3	wh_cam_resource_worshop	true	0	0
+nag_resource_furs_1	nag_resource_furs	0	1	500	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_furs	false	0.0	0	true	1	wh_cam_resource_farming	true	0	0
+nag_resource_furs_2	nag_resource_furs	1	2	1000	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_furs	false	0.0	0	true	2	wh_cam_resource_farming	true	0	0
+nag_resource_furs_3	nag_resource_furs	2	3	2000	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_furs	false	0.0	0	true	3	wh_cam_resource_farming	true	0	0
+nag_resource_gold_1	nag_resource_gold	0	3	1000	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_gold	false	0.0	0	true	1	wh_cam_resource_mining	true	0	0
+nag_resource_gold_2	nag_resource_gold	1	4	2000	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_gold	false	0.0	0	true	2	wh_cam_resource_mining	true	0	0
+nag_resource_gold_3	nag_resource_gold	2	5	4000	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_gold	false	0.0	0	true	3	wh_cam_resource_mining	true	0	0
+nag_resource_iron_1	nag_resource_iron	0	2	600	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_iron	false	0.0	0	true	1	wh_cam_resource_mining	true	0	0
+nag_resource_iron_2	nag_resource_iron	1	3	1200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_iron	false	0.0	0	true	2	wh_cam_resource_mining	true	0	0
+nag_resource_iron_3	nag_resource_iron	2	4	2200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_iron	false	0.0	0	true	3	wh_cam_resource_mining	true	0	0
+nag_resource_marble_1	nag_resource_marble	0	2	600	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_marble	false	0.0	0	true	1	wh_cam_resource_worshop	true	0	0
+nag_resource_marble_2	nag_resource_marble	1	3	1200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_marble	false	0.0	0	true	2	wh_cam_resource_worshop	true	0	0
+nag_resource_marble_3	nag_resource_marble	2	4	2200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_marble	false	0.0	0	true	3	wh_cam_resource_worshop	true	0	0
+nag_resource_pottery_1	nag_resource_pottery	0	2	600	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_pottery	false	0.0	0	true	1	wh_cam_resource_worshop	true	0	0
+nag_resource_pottery_2	nag_resource_pottery	1	3	1200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_pottery	false	0.0	0	true	2	wh_cam_resource_worshop	true	0	0
+nag_resource_pottery_3	nag_resource_pottery	2	4	2200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_pottery	false	0.0	0	true	3	wh_cam_resource_worshop	true	0	0
+nag_resource_salt_1	nag_resource_salt	0	2	600	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_salt	false	0.0	0	true	1	wh_cam_resource_worshop	true	0	0
+nag_resource_salt_2	nag_resource_salt	1	3	1200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_salt	false	0.0	0	true	2	wh_cam_resource_worshop	true	0	0
+nag_resource_salt_3	nag_resource_salt	2	4	2200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_salt	false	0.0	0	true	3	wh_cam_resource_worshop	true	0	0
+nag_resource_timber_1	nag_resource_timber	0	2	600	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_timber	false	0.0	0	true	1	wh_cam_resource_lumber_mill	true	0	0
+nag_resource_timber_2	nag_resource_timber	1	3	1200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_timber	false	0.0	0	true	2	wh_cam_resource_lumber_mill	true	0	0
+nag_resource_timber_3	nag_resource_timber	2	4	2200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_timber	false	0.0	0	true	3	wh_cam_resource_lumber_mill	true	0	0
+nag_resource_wine_1	nag_resource_wine	0	2	600	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_wine	false	0.0	0	true	1	wh_cam_resource_vineyard	true	0	0
+nag_resource_wine_2	nag_resource_wine	1	3	1200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_wine	false	0.0	0	true	2	wh_cam_resource_vineyard	true	0	0
+nag_resource_wine_3	nag_resource_wine	2	4	2200	0		false	0	0	0	0	false				true	wh_main_HUMAN_resource_wine	false	0.0	0	true	3	wh_cam_resource_vineyard	true	0	0

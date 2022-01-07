@@ -83,3 +83,14 @@ nag_settlement_necrosphinx			military	false	nag_sch_settlement_necrosphinx		7
 nag_settlement_scorpions			military	false	nag_sch_settlement_scorpions		5	
 nag_settlement_ushabti			military	false	nag_sch_settlement_ushabti		4	
 nag_settlement_warsphinx			military	false	nag_sch_settlement_warsphinx		6	
+nag_resource_gemstones			money	false	wh2_main_sch_human_resource_gems		10	
+nag_resource_obsidian			money	false	wh2_main_sch_resource_obsidian		10	
+nag_resource_dyes			money	false	wh_main_sch_human_resource_dyes		10	
+nag_resource_furs			money	false	wh_main_sch_human_resource_furs		10	
+nag_resource_gold			money	false	wh_main_sch_human_resource_gold		10	
+nag_resource_iron			money	false	wh_main_sch_human_resource_iron		10	
+nag_resource_marble			money	false	wh_main_sch_human_resource_marble		10	
+nag_resource_pottery			money	false	wh_main_sch_human_resource_pottery		10	
+nag_resource_salt			money	false	wh_main_sch_human_resource_salt		10	
+nag_resource_timber			money	false	wh_main_sch_human_resource_timber		10	
+nag_resource_wine			money	false	wh_main_sch_human_resource_wine		10	

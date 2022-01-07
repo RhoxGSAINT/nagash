@@ -41,3 +41,14 @@ nag_settlement_scorpions		wh2_dlc09_set_tomb_kings_military_support	false
 nag_settlement_ushabti		wh2_dlc09_set_tomb_kings_military_support	false
 nag_settlement_warsphinx		wh2_dlc09_set_tomb_kings_military_support	false
 nag_settlement_defence_major		wh2_dlc09_set_tomb_kings_defence	false
+nag_resource_gemstones		wh2_main_set_resource	false
+nag_resource_obsidian		wh2_main_set_resource	false
+nag_resource_dyes		wh2_main_set_resource	false
+nag_resource_furs		wh2_main_set_resource	false
+nag_resource_gold		wh2_main_set_resource	false
+nag_resource_iron		wh2_main_set_resource	false
+nag_resource_marble		wh2_main_set_resource	false
+nag_resource_pottery		wh2_main_set_resource	false
+nag_resource_salt		wh2_main_set_resource	false
+nag_resource_timber		wh2_main_set_resource	false
+nag_resource_wine		wh2_main_set_resource	false

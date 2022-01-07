@@ -1,8 +1,8 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_land_units.loc		
-land_units_onscreen_name_nag_nagash_husk	Nagash	true
+land_units_onscreen_name_nag_nagash_husk	Nagash, Lord of the Undead	true
 land_units_onscreen_name_nag_nagash_revenant	Nagash, level 30 scoundrel	true
-land_units_onscreen_name_nag_nagash_boss	Nagash, Supreme Bone Daddio	true
+land_units_onscreen_name_nag_nagash_boss	Nagash, Supreme Lord of Undeath	true
 land_units_onscreen_name_nag_morghasts	Morghasts	true
 land_units_onscreen_name_nag_morghasts_archai	Morghast Archai	true
 land_units_onscreen_name_nag_nagashi_guard	Nagashizzar Guard	true
@@ -15,12 +15,12 @@ land_units_onscreen_name_nag_inf_crypt_ghouls_construct	Crypt Ghouls	true
 land_units_onscreen_name_nag_mon_crypt_horrors_construct	Crypt Horrors	true
 land_units_onscreen_name_nag_cav_hexwraiths_0_summon	Hexwraiths	true
 land_units_onscreen_name_nag_cav_black_knights_0_summon	Black Knights	true
-land_units_onscreen_name_nag_hero_team_summon	Heroes of Old	true
-land_units_onscreen_name_nag_hero_warsphinx_summon	Danger Kitty	true
+land_units_onscreen_name_nag_hero_team_summon	Heroes of Old [PH]	true
+land_units_onscreen_name_nag_hero_warsphinx_summon	Danger Kitty [PH]	true
 land_units_onscreen_name_nag_sand_crawlies	Sand Crawlers	true
 land_units_onscreen_name_nag_warp_ghouls	nag_warp_ghouls	true
 land_units_onscreen_name_nag_carrion_riders	Carrion Riders	true
-land_units_onscreen_name_nag_giant_spoop	Terrorfex PLACEHOLDER	true
+land_units_onscreen_name_nag_giant_spoop	Terrorfex [PH]	true
 land_units_onscreen_name_nag_mortarch_krell	Krell, Mortarch of Despair	true
 land_units_onscreen_name_nag_mortarch_neferata	Neferata, Mortarch of Blood	true
 land_units_onscreen_name_nag_mortarch_neferata_warhorse	Neferata, Mortarch of Blood	true
@@ -40,6 +40,6 @@ land_units_onscreen_name_nag_mortarch_arkhan_chariot	Arkhan the Black, Mortarch 
 land_units_onscreen_name_nag_mortarch_arkhan_abyssal	Arkhan the Black, Mortarch of Sacraments	true
 land_units_onscreen_name_nag_bone_colossus	Bone Colossus	true
 land_units_onscreen_name_nag_endless_tomb	Endless Tomb	true
-land_units_onscreen_name_nag_spirit_host	Shade Haunts	true
-land_units_onscreen_name_nag_spirit_host_green	Spirit Host	true
-land_units_onscreen_name_nag_spirit_host_small	Spirit Host	true
+land_units_onscreen_name_nag_shade_haunts	Shade Haunts	true
+land_units_onscreen_name_nag_spectre_swarm	Spectre Swarm	true
+land_units_onscreen_name_nag_spirit_hosts	Spirit Host	true

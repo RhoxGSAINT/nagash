@@ -273,8 +273,8 @@ key	building	unit	xp	conditions	faction	enabled
 8427112	nag_outpost_special_lahmia_4	nag_vanilla_vmp_cav_blood_knights_0	0	0		false
 8427113	nag_outpost_special_lahmia_5	nag_vanilla_vmp_inf_crypt_ghouls	0	0		false
 8427114	nag_outpost_special_lahmia_5	nag_vanilla_vmp_cav_blood_knights_0	0	0		false
-8427115	nag_bpyramid_ew2_mortuary_3	nag_spirit_host	0	0		false
-8427116	nag_bpyramid_ew2_mortuary_3	nag_spirit_host_green	0	0		false
-8427117	nag_bpyramid_ew2_mortuary_3	nag_spirit_host_small	0	0		false
-8427118	nag_horde_support2_worship_3	nag_spirit_host	0	0		false
-8427119	nag_horde_support2_worship_3	nag_spirit_host_small	0	0		false
+8427115	nag_bpyramid_ew2_mortuary_3	nag_shade_haunts	0	0		false
+8427116	nag_bpyramid_ew2_mortuary_3	nag_spectre_swarm	0	0		false
+8427117	nag_bpyramid_ew2_mortuary_3	nag_spirit_hosts	0	0		false
+8427118	nag_horde_support2_worship_3	nag_shade_haunts	0	0		false
+8427119	nag_horde_support2_worship_3	nag_spirit_hosts	0	0		false

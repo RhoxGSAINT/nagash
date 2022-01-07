@@ -31,6 +31,6 @@ nag_nagash_passive_malediction_of_nagash	18.0	negative		false	false	false	0.2	0.
 nag_nagash_passive_death_magic_incarnate	15.0	positive		false	false	false	-1.0	0.0	0.0	0.5	33	0.0	0	0	33	true	0.0	0.0	false	0		wh_main_spell_death_aspect_of_the_dreadknight	wh_main_spell_death_aspect_of_the_dreadknight	-1.0	false	true	false	0.0	
 nag_unit_abilities_refuse_to_die	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_morale	wh_ability_positive	-1.0	false	true	true	0.0	
 nag_unit_abilities_heralds_of_the_accursed_one	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
-nag_spirit_host_dummy_vortex	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+nag_shade_haunt_dummy_vortex	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 nag_spirit_host_small_aoe_visual_dummy	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		belisarians_nagash_spirit_host_attack_small		-1.0	false	true	true	0.0	
-nag_spirit_host_dummy_vortex_green	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+nag_spectre_swarm_dummy_vortex	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	

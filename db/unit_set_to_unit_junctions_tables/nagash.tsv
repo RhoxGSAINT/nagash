@@ -195,6 +195,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_tmb_mon_necrosphinx_0	nag_army_monsters_constructs	false
 			nag_vanilla_tmb_mon_bone_giant_0	nag_army_monsters_constructs	false
 			nag_vanilla_cst_mon_terrorgheist	nag_army_monsters_constructs	false
+			nag_bone_colossus	nag_army_monsters_constructs	false
 			nag_vanilla_vmp_inf_zombie	nag_army_vamp_units	false
 			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_army_vamp_units	false
 			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_army_vamp_units	false
@@ -356,12 +357,26 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_sneaky_sand	false
 			nag_sand_crawlies	nag_army_speed_scorpion_crawler	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_speed_scorpion_crawler	false
-			nag_spirit_host	nag_army_cavalry_chariots	false
-			nag_spirit_host	nag_army_magical_spirit	false
-			nag_spirit_host	nag_army_nagashizzar_units	false
-			nag_spirit_host_small	nag_army_cavalry_chariots	false
-			nag_spirit_host_small	nag_army_magical_spirit	false
-			nag_spirit_host_small	nag_army_nagashizzar_units	false
-			nag_spirit_host_green	nag_army_cavalry_chariots	false
-			nag_spirit_host_green	nag_army_magical_spirit	false
-			nag_spirit_host_green	nag_army_nagashizzar_units	false
+			nag_shade_haunts	nag_ethereal_unit_set	false
+			nag_shade_haunts	nag_army_magical_spirit	false
+			nag_shade_haunts	nag_army_nagashizzar_units	false
+			nag_spirit_hosts	nag_ethereal_unit_set	false
+			nag_spirit_hosts	nag_army_magical_spirit	false
+			nag_spirit_hosts	nag_army_nagashizzar_units	false
+			nag_spectre_swarm	nag_ethereal_unit_set	false
+			nag_spectre_swarm	nag_army_magical_spirit	false
+			nag_spectre_swarm	nag_army_nagashizzar_units	false
+			nag_vanilla_vmp_mon_dire_wolves	nag_beasts_unit_set	false
+			nag_vanilla_vmp_mon_fell_bats	nag_beasts_unit_set	false
+			nag_vanilla_vmp_mon_vargheists	nag_beasts_unit_set	false
+			nag_sand_crawlies	nag_beasts_unit_set	false
+			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_constructs_unit_set	false
+			nag_vanilla_tmb_mon_khemrian_warsphinx_0	nag_constructs_unit_set	false
+			nag_vanilla_tmb_mon_necrosphinx_0	nag_constructs_unit_set	false
+			nag_vanilla_tmb_mon_bone_giant_0	nag_constructs_unit_set	false
+			nag_bone_colossus	nag_constructs_unit_set	false
+			nag_vanilla_tmb_cav_necropolis_knights_0	nag_constructs_unit_set	false
+			nag_vanilla_tmb_cav_necropolis_knights_1	nag_constructs_unit_set	false
+			nag_vanilla_tmb_mon_ushabti_0	nag_constructs_unit_set	false
+			nag_vanilla_tmb_mon_ushabti_1	nag_constructs_unit_set	false
+			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_constructs_unit_set	false

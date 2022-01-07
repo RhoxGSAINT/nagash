@@ -10,5 +10,5 @@ nag_army_abilities_blyramid_bombardment_01	0		0	0	12.5	20.0	7.0	false	0.5	0.001	
 nag_army_abilities_blyramid_bombardment_02	0		0	0	13.5	20.0	7.0	false	0.5	0.001	7.0	1.0	true	composite_scene/spells_and_abilities/nagash_blyramid_bombard_02.csc	30.0	target_near_edge	1.ignore		0.0	0.0	1		true	24.0		1.0
 nag_army_abilities_blyramid_bombardment_03	0		0	0	14.5	20.0	7.0	false	0.5	0.001	7.0	1.0	true	composite_scene/spells_and_abilities/nagash_blyramid_bombard_03.csc	30.0	target_near_edge	1.ignore		0.0	0.0	1		true	24.0		1.0
 nag_army_abilities_blyramid_bombardment_04	0		0	0	15.5	20.0	7.0	false	0.5	0.001	7.0	1.0	true	composite_scene/spells_and_abilities/nagash_blyramid_bombard_04.csc	30.0	target_near_edge	1.ignore		0.0	0.0	1		true	24.0		1.0
-nag_spirit_host_hidden_vortex	170		8	3	1.0	-22.0	8.0	false	1.0	0.0	8.0	1.0	true	composite_scene\spells_and_abilities\empty.csc	0.0	target_centre	1.ignore		0.0	0.0	1		false	0.0		1.0
-nag_spirit_host_green_hidden_vortex	170		8	3	1.0	-22.0	8.0	false	1.0	0.0	8.0	1.0	true	composite_scene\spells_and_abilities\empty.csc	0.0	target_centre	1.ignore		0.0	0.0	1		false	0.0		1.0
+nag_shade_haunt_hidden_vortex	170		8	3	1.0	-22.0	8.0	false	1.0	0.0	8.0	1.0	true	composite_scene\spells_and_abilities\empty.csc	0.0	target_centre	1.ignore		0.0	0.0	1		false	0.0		1.0
+nag_spectre_swarm_hidden_vortex	170		8	3	1.0	-22.0	8.0	false	1.0	0.0	8.0	1.0	true	composite_scene\spells_and_abilities\empty.csc	0.0	target_centre	1.ignore		0.0	0.0	1		false	0.0		1.0

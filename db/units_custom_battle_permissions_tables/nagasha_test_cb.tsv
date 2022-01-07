@@ -38,6 +38,6 @@ att_fact_blue	true	nag_bone_golems	true	true				false
 att_fact_blue	true	nag_sand_crawlies	true	true				false
 att_fact_blue	true	nag_carrion_riders	true	true				false
 att_fact_blue	true	nag_giant_spoop	true	true				false
-att_fact_blue	true	nag_spirit_host	true	true				false
-att_fact_blue	true	nag_spirit_host_small	true	true				false
-att_fact_blue	true	nag_spirit_host_green	true	true				false
+att_fact_blue	true	nag_shade_haunts	true	true				false
+att_fact_blue	true	nag_spirit_hosts	true	true				false
+att_fact_blue	true	nag_spectre_swarm	true	true				false

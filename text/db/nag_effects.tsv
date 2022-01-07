@@ -276,3 +276,24 @@ effects_description_nag_effect_ability_enable_life-leeching_hidden	[Hidden]	fals
 effects_description_nag_effect_ability_enable_master_arcane_conduit	Passive ability: "Master Arcane Conduit"	true
 effects_description_nag_effect_recruit_rank_nag_ghouls_zombies	Recruit rank: %+n for Ghoul and Zombie units	true
 effects_description_nag_effect_enable_heralds_of_the_accursed_one	Passive ability: "Herald of the Accursed One"	true
+effects_description_nag_effect_resource_xp_rank_ethereal	Recruit rank: %+n for Ethereal units	true
+effects_description_nag_effect_resource_xp_rank_nagashizzar	Recruit rank: %+n for Nagashizzar units	true
+effects_description_nag_effect_resource_xp_rank_nehek	Recruit rank: %+n for Nehekharan units	true
+effects_description_nag_effect_resource_xp_rank_beasts	Recruit rank: %+n for Dire Wolves, Fell Bats, Vargheists and Sand Crawler units	true
+effects_description_nag_effect_resource_xp_rank_count	Recruit rank: %+n for Sylvanian units	true
+effects_description_nag_effect_resource_xp_rank_construct	Recruit rank: %+n for Construct units	true
+effects_description_nag_effect_resource_xp_rank_zombie	Recruit rank: %+n for Ghoul and Zombie units	true
+effects_description_nag_effect_resource_xp_rank_coast	Recruit rank: %+n for Coast units	true
+effects_description_nag_effect_resource_upkeep_reduction_ethereal	Upkeep: %+n% for Ethereal units	true
+effects_description_nag_effect_resource_upkeep_reduction_nagashizzar	Upkeep: %+n% for Nagashizzar units	true
+effects_description_nag_effect_resource_upkeep_reduction_nehek	Upkeep: %+n% for Nehekharan units	true
+effects_description_nag_effect_resource_upkeep_reduction_beasts	Upkeep: %+n% for Dire Wolves, Fell Bats, Vargheists and Sand Crawler units	true
+effects_description_nag_effect_resource_upkeep_reduction_count	Upkeep: %+n% for Sylvanian units	true
+effects_description_nag_effect_resource_upkeep_reduction_construct	Upkeep: %+n% for Construct units	true
+effects_description_nag_effect_resource_upkeep_reduction_zombie	Upkeep: %+n% for Ghoul and Zombie units	true
+effects_description_nag_effect_resource_upkeep_reduction_coast	Upkeep: %+n% for Coast units	true
+effects_description_nag_effect_agent_recruitment_xp_spy_archai	Hero recruit rank: %+n for Morghast Archais	true
+effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	Hero recruit rank: %+n for Wight Kings & Tomb Princes	true
+effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests	Hero recruit rank: %+n for Liche Priests	true
+effects_description_nag_effect_agent_recruitment_xp_engineer_gunnery_wight	Hero recruit rank: %+n for Gunnery Wights	true
+effects_description_nag_effect_agent_recruitment_xp_dignitary_vampires	Hero recruit rank: %+n for Vampires	true

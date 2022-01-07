@@ -8,6 +8,6 @@ nag_arkhan_abyssal	nag_arkhan_abyssal						front
 wh_nagash_heroes	nag_hero_melee_summon	nag_hero_mage_summon					front	
 nag_hero_warsphinx_rider_0							front	nag_hero_warsphinx_rider_0
 cr_nag_cav_carrion_riders_officer	cr_nag_cav_carrion_rider_1						front	
-nag_spirit_host							front	nag_spirit_host
-nag_spirit_host_small							front	nag_spirit_host_small
-nag_spirit_host_green							front	nag_spirit_host_green
+nag_shade_haunts							front	nag_shade_haunts
+nag_spirit_hosts							front	nag_spirit_hosts
+nag_spectre_swarm							front	nag_spectre_swarm
