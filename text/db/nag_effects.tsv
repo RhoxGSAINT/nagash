@@ -40,9 +40,8 @@ effects_description_nag_effect_unit_cap_morghasts	Unit capacity: %+n\\nMorghasts
 effects_description_nag_effect_unit_cap_sand_crawlies	Unit capacity: %+n\\nSand Crawlers	true
 effects_description_nag_effect_unit_cap_carrion_riders	Unit capacity: %+n\\nCarrion Riders	true
 effects_description_nag_effect_unit_cap_mortis_engine	Unit capacity: %+n\\nMortis Engine	true
-effects_description_nag_effect_unit_cap_spirit_host	Unit capacity: %+n\\nSpirit Host Large placeholder	true
-effects_description_nag_effect_unit_cap_spirit_host_green	Unit capacity: %+n\\nSpirit Host Green placeholder	true
-effects_description_nag_effect_unit_cap_spirit_host_small	Unit capacity: %+n\\nSpirit Host	true
+effects_description_nag_effect_unit_cap_spectre_swarm	Unit capacity: %+n\\nSpectre Swarms	true
+effects_description_nag_effect_unit_cap_spirit_hosts	Unit capacity: %+n\\nSpirit Hosts	true
 effects_description_nag_effect_unit_cap_bone_thrower	Unit capacity: %+n\\nBone Thrower	true
 effects_description_nag_effect_unit_cap_bone_giant_0	Unit capacity: %+n\\nBone Giant	true
 effects_description_nag_effect_unit_cap_dire_wolves	Unit capacity: %+n\\nDire Wolves	true
@@ -111,9 +110,9 @@ effects_description_nag_effect_army_vet_nagash_fatigue_res_skill	Attribute: Fati
 effects_description_nag_effect_army_vet_nagash_ward_save_skill	Ward save: %n% for Nagashizzar units	true
 effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength: %+n% for Nagashizzar units	true
 effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts and Vargheists	true
-effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeletons, Skeleton Archers, Nehekaran Warriors, Tomb Guard, Skeleton Horsemen, Skeleton Horse Archers, Nehekaran Horsemen, Skeleton Chariots and Skeleton Archer Chariots	true
-effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Bloated Corpses and Death Shreik Terrorgheists	true
-effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Cairn Wraiths, Nagashizzar Guard, Sand Crawlers, Bone Golems, Morghasts, Hexwraiths, Carrion Riders and Mortis Engines	true
+effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeletons, Skeleton Archers, Skeleton Horsemen, Skeleton Horse Archers, Skeleton Chariots and Skeleton Archer Chariots, Nehekaran Warriors, Nehekaran Horsemen and Tomb Guard.	true
+effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Deck Gunners, Bloated Corpses, Dpeth Guard and Death Shreik Terrorgheists	true
+effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Spectre Swarms, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts.	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm	Spell: "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_cooldown_abyssal_swarm	Cooldown: %+n% to "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm_upgrade	Overcast spell: "Abyssal Swarm Upgraded"	true
@@ -297,3 +296,5 @@ effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_pri
 effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests	Hero recruit rank: %+n for Liche Priests	true
 effects_description_nag_effect_agent_recruitment_xp_engineer_gunnery_wight	Hero recruit rank: %+n for Gunnery Wights	true
 effects_description_nag_effect_agent_recruitment_xp_dignitary_vampires	Hero recruit rank: %+n for Vampires	true
+effects_description_nag_effect_force_enemy_campaign_movement_range_hidden	[HIDDEN] Campaign movement range: %+n% for enemy armies starting their turn in this region	true
+effects_description_nag_effect_force_own_campaign_movement_range_hidden	[HIDDEN] Campaign movement range: %+n% for own armies starting their turn in this province	true

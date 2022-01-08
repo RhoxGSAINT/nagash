@@ -43,6 +43,5 @@ nag_effect_unit_cap_deck_gunners_0	false	-1	-1
 nag_effect_unit_cap_depth_guard_0	false	-1	-1	
 nag_effect_unit_cap_bloated_corpse_0	false	-1	-1	
 nag_effect_unit_cap_terrorgheist	false	-1	-1	
-nag_effect_unit_cap_spirit_host	false	-1	-1	
-nag_effect_unit_cap_spirit_host_green	false	-1	-1	
-nag_effect_unit_cap_spirit_host_small	false	-1	-1	
+nag_effect_unit_cap_spectre_swarm	false	-1	-1	
+nag_effect_unit_cap_spirit_hosts	false	-1	-1	

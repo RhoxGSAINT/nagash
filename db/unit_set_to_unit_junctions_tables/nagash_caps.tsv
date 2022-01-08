@@ -43,6 +43,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_depth_guard_0	nag_effect_unit_cap_depth_guard_0	false
 			nag_vanilla_cst_mon_bloated_corpse_0	nag_effect_unit_cap_bloated_corpse_0	false
 			nag_vanilla_cst_mon_terrorgheist	nag_effect_unit_cap_terrorgheist	false
-			nag_shade_haunts	nag_effect_unit_cap_spirit_host	false
-			nag_spirit_hosts	nag_effect_unit_cap_spirit_host_small	false
-			nag_spectre_swarm	nag_effect_unit_cap_spirit_host_green	false
+			nag_spirit_hosts	nag_effect_unit_cap_spirit_hosts	false
+			nag_spectre_swarm	nag_effect_unit_cap_spectre_swarm	false

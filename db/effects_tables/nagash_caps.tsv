@@ -42,6 +42,5 @@ nag_effect_unit_cap_zombie_gunnery_mob_1	unit_capacity.png	1	unit_capacity.png	c
 nag_effect_unit_cap_deck_gunners_0	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_depth_guard_0	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_terrorgheist	unit_capacity.png	1	unit_capacity.png	campaign	true
-nag_effect_unit_cap_spirit_host	unit_capacity.png	1	unit_capacity.png	campaign	true
-nag_effect_unit_cap_spirit_host_green	unit_capacity.png	1	unit_capacity.png	campaign	true
-nag_effect_unit_cap_spirit_host_small	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_spectre_swarm	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_spirit_hosts	unit_capacity.png	1	unit_capacity.png	campaign	true

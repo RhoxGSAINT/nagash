@@ -74,6 +74,7 @@ nag_luthor_horde_special_3				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%pla
 nag_luthor_horde_special_4				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
 nag_luthor_horde_special_5				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
 nag_nagash_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
+nag_nagash_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
 nag_arkhan_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
 nag_arkhan_horde_landmark_1				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
 nag_vlad_horde_landmark_0				wh_main_PLACEHOLDER	nag_horde_landmark	false	%placeholder%	true
@@ -104,6 +105,7 @@ nag_horde_support1_smith_2				wh_main_PLACEHOLDER	vampire_armoury	false	%placeho
 nag_horde_support2_worship_1				wh_main_PLACEHOLDER	vampire_binding_circle	false	%placeholder%	true
 nag_horde_support2_worship_2				wh_main_PLACEHOLDER	vampire_binding_circle	false	%placeholder%	true
 nag_horde_support2_worship_3				wh_main_PLACEHOLDER	vampire_binding_circle	false	%placeholder%	true
+nag_horde_support2_worship_4				wh_main_PLACEHOLDER	vampire_binding_circle	false	%placeholder%	true
 nag_horde_support3_wizards_1				wh_main_PLACEHOLDER	vampire_necromancers	true	%placeholder% Spare	true
 nag_horde_infrastructure1_growth_1				wh_main_PLACEHOLDER	tmb_ growth	false	%placeholder%	true
 nag_horde_infrastructure1_growth_2				wh_main_PLACEHOLDER	tmb_ growth	false	%placeholder%	true
@@ -120,7 +122,7 @@ nag_subhorde_main_2				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholde
 nag_subhorde_main_3				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	%placeholder%	true
 nag_subhorde_military1_barracks_1				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	%placeholder%	true
 nag_subhorde_military1_barracks_2				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	%placeholder%	true
-nag_subhorde_military1_barracks_3				wh_main_PLACEHOLDER	tmb_ infantry_barracks	true	%placeholder%	true
+nag_subhorde_military1_barracks_3				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	%placeholder%	true
 nag_subhorde_military2_stables_1				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	%placeholder%	true
 nag_subhorde_military2_stables_2				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	%placeholder%	true
 nag_subhorde_military2_stables_3				wh_main_PLACEHOLDER	tmb_ cavalry_stables	true	%placeholder%	true
@@ -128,6 +130,7 @@ nag_subhorde_military3_warmachines				wh_main_PLACEHOLDER	tmb_ chariot_artillery
 nag_subhorde_military4_monsters				wh_main_PLACEHOLDER	tmb_ushabti	false	%placeholder%	true
 nag_subhorde_support2_worship_1				wh_main_PLACEHOLDER	vampire_binding_circle	false	%placeholder%	true
 nag_subhorde_support2_worship_2				wh_main_PLACEHOLDER	vampire_binding_circle	false	%placeholder%	true
+nag_subhorde_support2_worship_3				wh_main_PLACEHOLDER	vampire_binding_circle	true	%placeholder%	true
 nag_subhorde_infrastructure1_growth_1				wh_main_PLACEHOLDER	tmb_ growth	false	%placeholder%	true
 nag_subhorde_infrastructure1_growth_2				wh_main_PLACEHOLDER	tmb_ growth	false	%placeholder%	true
 nag_subhorde_infrastructure2_industry_1				wh_main_PLACEHOLDER	tmb_ income	false	%placeholder%	true

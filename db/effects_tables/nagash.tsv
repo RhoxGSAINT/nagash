@@ -76,3 +76,5 @@ nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	wight_king.png	3
 nag_effect_agent_recruitment_xp_wizard_liche_priests	wizard.png	3	wizard.png	campaign	true
 nag_effect_agent_recruitment_xp_engineer_gunnery_wight	gunnery_wight.png	3	gunnery_wight.png	campaign	true
 nag_effect_agent_recruitment_xp_dignitary_vampires	vampire.png	3	vampire.png	campaign	true
+nag_effect_force_enemy_campaign_movement_range_hidden		0		campaign	false
+nag_effect_force_own_campaign_movement_range_hidden		0		campaign	true
