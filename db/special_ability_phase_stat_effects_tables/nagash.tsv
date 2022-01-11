@@ -28,3 +28,10 @@ nag_nagash_abiliities_mortis_blade	stat_melee_damage_base	1.5	mult
 nag_nagash_abiliities_staff_of_power	scalar_speed	0.8	mult
 nag_unit_abilities_heralds_of_the_accursed_one	stat_melee_attack	5.0	add
 nag_unit_abilities_heralds_of_the_accursed_one	stat_resistance_physical	5.0	add
+nag_passive_torment	stat_melee_damage_ap	1.28	mult
+nag_passive_torment	stat_melee_damage_base	1.28	mult
+nag_passive_marshlight_aura_1	scalar_speed	0.5	mult
+nag_passive_marshlight_aura_2	scalar_speed	0.5	mult
+nag_passive_marshlight_aura_2	stat_melee_damage_base	0.5	mult
+nag_passive_marshlight_aura_2	stat_melee_attack	-8.0	add
+nag_passive_marshlight_aura_2	stat_melee_defence	-8.0	add

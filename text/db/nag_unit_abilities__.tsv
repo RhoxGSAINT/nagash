@@ -148,3 +148,9 @@ unit_abilities_tooltip_text_nag_spectre_swarm_hidden_vortex	This stuff does actu
 unit_abilities_onscreen_name_nag_spectre_swarm_hidden_vortex	Restless ghosts vortex  [HIDDEN]	true
 unit_abilities_tooltip_text_nag_spectre_swarm_dummy_vortex	Wildly swirling ghosts will tear apart any enemy they can reach.	true
 unit_abilities_onscreen_name_nag_spectre_swarm_dummy_vortex	Restless ghosts	true
+unit_abilities_onscreen_name_nag_passive_grim_aura	The Last Journey	true
+unit_abilities_tooltip_text_nag_passive_grim_aura	The plague cart is the very symbol of the last journey, that which ends at the cemetery gates and it is Lord Virions task to guide them to their fated destination.	true
+unit_abilities_onscreen_name_nag_passive_marshlight_aura	Marshlight Lanterns	true
+unit_abilities_tooltip_text_nag_passive_marshlight_aura	Marshlights are ethereal creatures taking the form of glowing lights or lanterns, they emit a compelling hypnotic effect by which they lead mesmerised individuals to their deaths and feed on their ebbing life-force.	true
+unit_abilities_onscreen_name_nag_passive_torment	Tormented Execution	true
+unit_abilities_tooltip_text_nag_passive_torment	As these spirits near closer to their own demise, they grow in fury and malice to make sure all beings that draw breath will breath their last.	true

@@ -34,3 +34,7 @@ nag_unit_abilities_heralds_of_the_accursed_one	-1.0	positive		false	false	false	
 nag_shade_haunt_dummy_vortex	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 nag_spirit_host_small_aoe_visual_dummy	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		belisarians_nagash_spirit_host_attack_small		-1.0	false	true	true	0.0	
 nag_spectre_swarm_dummy_vortex	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
+nag_passive_grim_aura	10.0	negative		false	false	false	0.0	0.0	0.0	1.0	0	1.0	500	100	0	false	0.0	0.0	false	0		wh_dlc03_spell_beast_flock_of_doom		-1.0	false	true	true	0.0	
+nag_passive_marshlight_aura_1	10.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_debuff_attack_passive		-1.0	false	true	true	0.0	
+nag_passive_marshlight_aura_2	30.0	negative		false	false	false	0.03	0.0	0.0	0.5	0	0.3	2	10	0	false	0.0	0.0	false	0		wh_main_unit_contact_souls	wh_main_spell_dark_magic_soul_stealer	-1.0	false	true	true	0.0	
+nag_passive_torment	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	

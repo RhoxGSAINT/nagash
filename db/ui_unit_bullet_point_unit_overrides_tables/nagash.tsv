@@ -111,3 +111,10 @@ nag_spirit_host_aoe	nag_spirit_hosts
 terror	nag_spectre_swarm
 ethereal	nag_spectre_swarm
 nag_spirit_host_aoe	nag_spectre_swarm
+magical_aura	nag_virion_plaguecart
+regeneration	nag_virion_plaguecart
+ethereal	nag_virion_plaguecart
+armour_piercing	nag_revenants
+armoured	nag_revenants
+wraithlike	nag_revenants
+terror	nag_revenants

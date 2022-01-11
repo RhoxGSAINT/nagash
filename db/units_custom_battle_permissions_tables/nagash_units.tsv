@@ -98,3 +98,5 @@ nag_nagash	false	nag_vanilla_cst_mon_terrorgheist	true	true				true
 nag_nagash	false	nag_shade_haunts	true	true				false
 nag_nagash	false	nag_spirit_hosts	true	true				false
 nag_nagash	false	nag_spectre_swarm	true	true				false
+nag_nagash	false	nag_virion_plaguecart	true	true				false
+nag_nagash	false	nag_revenants	true	true				false

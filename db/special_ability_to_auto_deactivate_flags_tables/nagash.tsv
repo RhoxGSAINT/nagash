@@ -16,3 +16,4 @@ out_of_melee	nag_spirit_host_small_aoe
 out_of_melee	nag_spirit_host_small_aoe_visual_dummy
 out_of_melee	nag_spectre_swarm_hidden_vortex
 out_of_melee	nag_spectre_swarm_dummy_vortex
+health_above_20%	nag_passive_torment
