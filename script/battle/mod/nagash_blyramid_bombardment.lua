@@ -70,7 +70,7 @@ local function update()
 				local type_key = current_unit:type();
 				local su = script_unit:new(army, i)
 
-				if (type_key == "nag_nagash_husk" or type_key == "nag_nagash_revenant" or type_key == "nag_nagash_boss") and spawn_blyramid < 1 and gb:has_battle_started() then
+				if (type_key == "nag_nagash_boss") and spawn_blyramid < 1 and gb:has_battle_started() then
 					-- current_unit:position();
 					blyramid_anchor_coords = current_unit:position();
 					army:use_special_ability("nag_blyramid_itself", blyramid_anchor_coords, d_to_r(0))
