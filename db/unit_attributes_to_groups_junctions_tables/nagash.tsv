@@ -1,0 +1,6 @@
+attribute	attribute_group
+#unit_attributes_to_groups_junctions_tables;2;db/unit_attributes_to_groups_junctions_tables/nagash	
+construct	nag_bone_colossus
+causes_fear	nag_bone_colossus
+causes_terror	nag_bone_colossus
+wallbreaker	nag_bone_colossus

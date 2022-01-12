@@ -380,3 +380,6 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_ushabti_1	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_constructs_unit_set	false
+			nag_bone_colossus	wh2_main_ror_units_all	false
+			nag_virion_plaguecart	wh2_main_ror_units_all	false
+			nag_revenants	wh2_main_ror_units_all	false

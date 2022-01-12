@@ -1,5 +1,0 @@
-faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive
-#units_custom_battle_permissions_tables;8;db/units_custom_battle_permissions_tables/nagash_test								
-wh_main_vmp_vampire_counts_mp_custom_battles_only	true	nag_nagash_boss	true	true	ui/portraits/portholes/no_culture/nag_nagash_boss.png		nag_nagash_boss	false
-wh_main_vmp_vampire_counts_mp_custom_battles_only	true	nag_nagash_husk	true	true	ui/portraits/portholes/no_culture/nag_nagash_husk.png		nag_nagash_husk	false
-wh2_dlc09_tmb_tomb_kings	true	nag_nagash_husk	true	true	ui/portraits/portholes/no_culture/nag_nagash_husk.png		nag_nagash_husk	false

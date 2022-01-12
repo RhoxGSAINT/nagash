@@ -15,3 +15,5 @@ special_ability_phases_onscreen_name_nag_passive_marshlight_aura		true
 special_ability_phases_onscreen_name_nag_passive_marshlight_aura_1	[[img:stage_one]][[/img]]Stage One	false
 special_ability_phases_onscreen_name_nag_passive_marshlight_aura_2	[[img:stage_two]][[/img]]Stage Two	false
 special_ability_phases_onscreen_name_nag_passive_torment		false
+special_ability_phases_onscreen_name_nag_warp_ghouls_poison	[[col:red]][[img:UI/Battle UI/ability_icons/nag_warp_ghouls_poison.png]][[/img]]Warpstone Weakness![[/col]]	true
+special_ability_phases_onscreen_name_nag_warp_ghouls_aura_skaven	[[col:green]]Warpstone, yes yes![[/col]]	true

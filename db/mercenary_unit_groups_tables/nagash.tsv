@@ -1,0 +1,5 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
+#mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/nagash					
+nag_bone_colossus	100.0	1	nag_bone_colossus	true	0.1
+nag_virion_plaguecart	100.0	1	nag_virion_plaguecart	true	0.1
+nag_revenants	100.0	1	nag_revenants	true	0.1

@@ -35,3 +35,12 @@ nag_passive_marshlight_aura_2	scalar_speed	0.5	mult
 nag_passive_marshlight_aura_2	stat_melee_damage_base	0.5	mult
 nag_passive_marshlight_aura_2	stat_melee_attack	-8.0	add
 nag_passive_marshlight_aura_2	stat_melee_defence	-8.0	add
+nag_warp_ghouls_poison	stat_reloading	-20.0	add
+nag_warp_ghouls_poison	scalar_speed	0.85	mult
+nag_warp_ghouls_poison	stat_melee_damage_ap	0.85	mult
+nag_warp_ghouls_poison	stat_melee_damage_base	0.85	mult
+nag_warp_ghouls_poison	stat_melee_attack	-8.0	add
+nag_warp_ghouls_aura	stat_resistance_magic	20.0	add
+nag_warp_ghouls_aura	stat_melee_attack	6.0	add
+nag_warp_ghouls_aura_skaven	stat_melee_attack	6.0	add
+nag_warp_ghouls_aura_skaven	stat_melee_defence	-6.0	add

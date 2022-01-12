@@ -114,7 +114,11 @@ nag_spirit_host_aoe	nag_spectre_swarm
 magical_aura	nag_virion_plaguecart
 regeneration	nag_virion_plaguecart
 ethereal	nag_virion_plaguecart
+armour_piercing	nag_virion_plaguecart
 armour_piercing	nag_revenants
 armoured	nag_revenants
 wraithlike	nag_revenants
 terror	nag_revenants
+magical_aura	nag_warp_ghouls
+vanguard_deployment	nag_warp_ghouls
+frenzy	nag_warp_ghouls

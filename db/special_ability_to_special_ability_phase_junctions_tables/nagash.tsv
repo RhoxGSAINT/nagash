@@ -48,3 +48,5 @@ order	special_ability	phase
 1	nag_passive_marshlight_aura	nag_passive_marshlight_aura_1
 2	nag_passive_marshlight_aura	nag_passive_marshlight_aura_2
 1	nag_passive_torment	nag_passive_torment
+1	nag_warp_ghouls_aura	nag_warp_ghouls_aura
+1	nag_warp_ghouls_aura_skaven	nag_warp_ghouls_aura_skaven

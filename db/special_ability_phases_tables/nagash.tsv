@@ -20,7 +20,7 @@ nag_neferata_item_passive_staff_of_pain	10.0	negative		false	false	false	0.0	0.0
 nag_unit_contact_screaming_blade	10.0	negative		false	false	false	0.0	0.0	0.0	0.5	0	1.0	8	1	0	false	0.0	0.0	false	0		wh2_dlc14_spell_stealth_brittle_bone		-1.0	false	true	true	0.0	
 nag_neferata_item_passive_dagger_of_jet	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0	nag_unit_contact_screaming_blade			-1.0	false	true	true	0.0	
 nag_army_abilities_batocalypse_01	10.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_negative_one_shot	-1.0	false	false	true	0.0	
-nag_army_abilities_batocalypse_02	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_negative_one_shot	-1.0	false	false	true	0.0	
+nag_army_abilities_batocalypse_02	90.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0			wh_ability_negative_one_shot	-1.0	false	false	true	0.0	
 nag_endless_tomb_visuals	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		belisarians_nagash_endless_tomb		-1.0	false	true	true	0.0	
 nag_nagash_abiliities_master_arcane_conduit	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.06	60.0	false	0				-1.0	false	true	true	0.0	
 nag_nagash_abiliities_mortis_blade	-1.0	positive		false	false	true	0.0	0.0	0.0	0.5	4	0.0	0	0	4	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
@@ -38,3 +38,6 @@ nag_passive_grim_aura	10.0	negative		false	false	false	0.0	0.0	0.0	1.0	0	1.0	500
 nag_passive_marshlight_aura_1	10.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_debuff_attack_passive		-1.0	false	true	true	0.0	
 nag_passive_marshlight_aura_2	30.0	negative		false	false	false	0.03	0.0	0.0	0.5	0	0.3	2	10	0	false	0.0	0.0	false	0		wh_main_unit_contact_souls	wh_main_spell_dark_magic_soul_stealer	-1.0	false	true	true	0.0	
 nag_passive_torment	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
+nag_warp_ghouls_poison	10.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0				-1.0	false	false	true	0.0	
+nag_warp_ghouls_aura	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
+nag_warp_ghouls_aura_skaven	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		wh_main_generic_buff_attack_passive		-1.0	false	true	true	0.0	
