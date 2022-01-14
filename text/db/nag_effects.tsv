@@ -163,6 +163,7 @@ effects_description_nag_effect_force_army_battle_melee_attack_all_defending	Mele
 effects_description_nag_effect_force_army_battle_melee_defence_all_defending	Melee defence: %+n for all units when defending	true
 effects_description_nag_effect_agent_enable_recruitment_champion_tmb	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Tomb Prince	true
 effects_description_nag_effect_agent_enable_recruitment_wizard_tmb	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Liche Priest	true
+effects_description_nag_effect_agent_enable_recruitment_special_wizard_tmb	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Liche Priest (Undeath)	false
 effects_description_nag_effect_agent_enable_recruitment_dignitary_vmp	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Vampire	true
 effects_description_nag_effect_agent_enable_recruitment_champion_vmp	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Wight King	true
 effects_description_nag_effect_agent_enable_recruitment_engineer_cst	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Gunnery Wight	true
@@ -171,6 +172,8 @@ effects_description_nag_effect_agent_cap_increase_liche_priest	Hero capacity: %+
 effects_description_nag_effect_agent_cap_increase_gunnery_wight	Hero capacity: %+n for Gunnery Wights	true
 effects_description_nag_effect_agent_cap_increase_vampire	Hero capacity: %+n for Vampires	true
 effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+n for Tomb Princes & Wight Kings	true
+effects_description_nag_effect_agent_cap_increase_prince	Hero capacity: %+n for Tomb Princes	true
+effects_description_nag_effect_agent_cap_increase_wight	Hero capacity: %+n for Wight Kings	true
 effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archais	true
 effects_description_nag_effect_dummy_bel_spells_rename_references	Bel Army Abilities go here:	true
 effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true

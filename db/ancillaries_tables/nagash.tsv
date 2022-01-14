@@ -36,3 +36,13 @@ nag_anc_mount_isabella_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false
 nag_anc_weapon_chaos_tomb_blade	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
 nag_anc_armour_armour_of_the_barrows	wh_main_anc_armour	1	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false
 nag_anc_weapon_black_axe_of_krell	wh_main_anc_weapon	1	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
+nag_anc_mount_tomb_king_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_king_1		1	1		false	false	true
+nag_anc_mount_tomb_king_skeleton_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_king_2		1	1		false	false	true
+nag_anc_mount_tomb_king_khemrian_warsphinx	wh2_dlc09_anc_mount_khemrian_warsphinx	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_king_3		1	1		false	false	true
+nag_anc_mount_tomb_prince_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_prince_1		1	1		false	false	true
+nag_anc_mount_tomb_prince_skeleton_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_prince_2		1	1		false	false	true
+nag_anc_mount_liche_priest_death_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_death_1		1	1		false	false	true
+nag_anc_mount_liche_priest_light_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_light_1		1	1		false	false	true
+nag_anc_mount_liche_priest_nehekhara_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_nehekhara_1		1	1		false	false	true
+nag_anc_mount_liche_priest_shadow_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_nehekhara_1		1	1		false	false	true
+nag_anc_mount_liche_priest_undeath_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_undeath_1		1	1		false	false	true

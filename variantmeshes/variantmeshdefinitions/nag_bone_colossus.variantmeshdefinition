@@ -29,7 +29,7 @@
     </SLOT>
     
 	<SLOT name="weapon_4" attach_point="be_prop_4" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4e/grn/grn_idol_of_gork/grn_idol_of_gork_rock_01.wsmodel" >
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu4e/grn/grn_idol_of_gork/nag_bone_colossus_tombstone_toss_01.rigid_model_v2" >
 			<META_DATA>equipment</META_DATA></VARIANT_MESH>
 	</SLOT>
 </VARIANT_MESH>

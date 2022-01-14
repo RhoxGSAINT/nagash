@@ -35,6 +35,7 @@ nag_effect_force_army_battle_melee_attack_all_defending	melee.png	3	melee.png	ba
 nag_effect_force_army_battle_melee_defence_all_defending	defence.png	4	defence.png	battle	true
 nag_effect_agent_enable_recruitment_champion_tmb	tomb_prince.png	3	tomb_prince.png	campaign	true
 nag_effect_agent_enable_recruitment_wizard_tmb	wizard.png	3	wizard.png	campaign	true
+nag_effect_agent_enable_recruitment_special_wizard_tmb	wizard.png	3	wizard.png	campaign	true
 nag_effect_agent_enable_recruitment_dignitary_vmp	vampire.png	3	vampire.png	campaign	true
 nag_effect_agent_enable_recruitment_champion_vmp	wight_king.png	3	wight_king.png	campaign	true
 nag_effect_agent_enable_recruitment_engineer_cst	gunnery_wight.png	3	gunnery_wight.png	campaign	true
@@ -43,6 +44,8 @@ nag_effect_agent_cap_increase_liche_priest	wizard.png	4	wizard.png	campaign	true
 nag_effect_agent_cap_increase_gunnery_wight	gunnery_wight.png	4	gunnery_wight.png	campaign	true
 nag_effect_agent_cap_increase_vampire	vampire.png	4	vampire.png	campaign	true
 nag_effect_agent_cap_increase_prince_wight	tomb_prince.png	4	tomb_prince.png	campaign	true
+nag_effect_agent_cap_increase_prince	tomb_prince.png	4	tomb_prince.png	campaign	true
+nag_effect_agent_cap_increase_wight	wight_king.png	4	wight_king.png	campaign	true
 nag_effect_agent_cap_increase_archai	saurus_scar_veteran.png	4	saurus_scar_veteran.png	campaign	true
 nag_effect_dummy_bel_spells_rename_references	spell_ability.png	1	spell_ability.png	campaign	false
 nag_ability_enable_batocalypse	general_ability.png	101	general_ability.png	battle	true

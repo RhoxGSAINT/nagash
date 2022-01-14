@@ -10,11 +10,12 @@ nag_skill_node_set_mortarch_mannfred	general				false	false	nag_mortarch_mannfre
 nag_skill_node_set_mortarch_vlad	general				false	false	nag_mortarch_vlad
 nag_skill_node_set_isabella	dignitary				false	false	nag_mortarch_isabella
 nag_skill_node_set_traitor_kings	general				false	false	nag_traitor_king
-wh2_dlc09_skill_node_set_tmb_tomb_prince	champion				false	false	nag_tomb_prince
-wh2_dlc09_skill_node_set_tmb_liche_priest_death	wizard				false	false	nag_liche_priest_death
-wh2_dlc09_skill_node_set_tmb_liche_priest_light	wizard				false	false	nag_liche_priest_light
-wh2_dlc09_skill_node_set_tmb_liche_priest_nehekhara	wizard				false	false	nag_liche_priest_nehekhara
-wh2_dlc09_skill_node_set_tmb_liche_priest_shadow	wizard				false	false	nag_liche_priest_shadow
+nag_skill_node_set_tmb_tomb_prince	champion				false	false	nag_tomb_prince
+nag_skill_node_set_tmb_liche_priest_death	wizard				false	false	nag_liche_priest_death
+nag_skill_node_set_tmb_liche_priest_light	wizard				false	false	nag_liche_priest_light
+nag_skill_node_set_tmb_liche_priest_nehekhara	wizard				false	false	nag_liche_priest_nehekhara
+nag_skill_node_set_tmb_liche_priest_shadow	wizard				false	false	nag_liche_priest_shadow
+nag_skill_node_set_tmb_liche_priest_undeath	wizard				false	false	nag_liche_priest_undeath
 wh_main_skill_node_set_vmp_vampire	dignitary				false	false	nag_vampire
 wh_dlc05_skill_node_set_vmp_vampire_shadow	dignitary				false	false	nag_vampire_shadow
 wh2_main_skill_node_set_vmp_wight_king	champion				false	false	nag_wight_king
