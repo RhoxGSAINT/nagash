@@ -3,3 +3,4 @@ key	state	sort_order
 nag_morghasts	positive	1
 nag_spirit_host_aoe	positive	0
 wraithlike	positive	1
+nag_nagash_husk	negative	99

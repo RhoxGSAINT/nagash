@@ -8,3 +8,4 @@ nag_morghasts	0	0	0	60	120	0	2.0	axe	axe	medium	6	1.2	150	0.0	false		0	10	4.0
 nag_warp_ghouls	0	0	0	40	13	0	3.0	axe	claw	small	1	1.0	40	0.0	true	nag_warp_ghouls_poison	0	10	4.0	
 nag_revenants_magical_wightblade	0	0	0	16	36	0	1.0	sword	sword		1	1.0	10	0.0	true		0	10	4.0	
 nag_virion_magical_scythe	0	0	15	18	60	0	1.0	axe	unarmed	very_large	4	1.0	40	0.0	true		3	2	4.0	
+nag_nagash_boss	0	15	0	180	320	0	5.0	sword	sword	large	7	1.0	400	0.0	true		0	10	4.0	

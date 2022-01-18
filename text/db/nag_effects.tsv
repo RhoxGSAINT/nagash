@@ -143,6 +143,7 @@ effects_description_nag_spell_nagash_miscast_reduction_grave_call_master_upgrade
 effects_description_nag_spell_nagash_reduce_wom_cost_grave_call_master	Winds of Magic cost: %n for "The Grave Call"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_grave_call_master_upgraded	Winds of Magic cost: %n for "The Grave Call Upgraded"	true
 effects_description_nag_spell_nagash_ability_uses_grave_call_master	Ability number of uses: %+n for "The Grave Call"	true
+effects_description_nag_spell_nagash_ability_uses_grave_call_master_hidden	HIDDEN, this needs to add 2 per 1 added to main spell	true
 effects_description_nag_spell_nagash_enable_hand_of_dust	Spell: "The Hand of Dust"	true
 effects_description_nag_spell_nagash_cooldown_hand_of_dust	Cooldown: %+n% to "The Hand of Dust"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_hand_of_dust	Miscast base chance: %+n% for "The Hand of Dust"	true
