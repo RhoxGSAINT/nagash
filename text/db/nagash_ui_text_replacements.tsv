@@ -1,0 +1,13 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nagash_ui_text_replacements.loc		
+ui_text_replacements_localised_text_hp_campaign_money_term_nag_nagash	Souls	true
+ui_text_replacements_localised_text_hp_campaign_money_term_title_nag_nagash	Souls	true
+ui_text_replacements_localised_text_treasury_header_nag_nagash	Souls Summary	true
+ui_text_replacements_localised_text_treasury_nag_nagash	Total Souls	true
+ui_text_replacements_localised_text_treasury_tooltip_nag_nagash	Total Souls||This is the total amount of {{tr:icon_money}}Souks available to your faction. Souls can be generated via buildings, loot from winning battles, raiding and diplomacy.	true
+ui_text_replacements_localised_text_hp_campaign_description_treasury_nag_nagash	The available {{tr:icon_treasury}}Souls is displayed at the top of the screen on the campaign interface.	true
+ui_text_replacements_localised_text_hp_campaign_description_treasury_button_term_nag_nagash	Souls Summary Button	true
+ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_nag_nagash	Souls Summary Panel	true
+ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_title_nag_nagash	Souls Summary Panel	true
+ui_text_replacements_localised_text_tooltip_campaign_upkeep_effect_description_nag_nagash	Souls are unique -  the life-force of the unliving, the more Dark Magic will be drawn to them. If the Winds of Dhar are shared between powerful Vampires and Necromancers, however, Dark Magic becomes more difficult to accumulate -  their Undead legions requiring more energy to remain bound.	true
+ui_text_replacements_localised_text_tooltip_campaign_upkeep_effect_title_nag_nagash	Diffusion of Magic	true

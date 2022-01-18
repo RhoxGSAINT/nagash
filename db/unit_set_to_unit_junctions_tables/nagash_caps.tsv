@@ -45,3 +45,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_mon_terrorgheist	nag_effect_unit_cap_terrorgheist	false
 			nag_spirit_hosts	nag_effect_unit_cap_spirit_hosts	false
 			nag_spectre_swarm	nag_effect_unit_cap_spectre_swarm	false
+			nag_warp_ghouls	nag_effect_unit_cap_warp_ghouls	false

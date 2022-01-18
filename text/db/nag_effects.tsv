@@ -38,6 +38,7 @@ effects_description_nag_effect_unit_cap_nagashi_guard_halb	Unit capacity: %+n\\n
 effects_description_nag_effect_unit_cap_bone_golems	Unit capacity: %+n\\nBone Golems	true
 effects_description_nag_effect_unit_cap_morghasts	Unit capacity: %+n\\nMorghasts	true
 effects_description_nag_effect_unit_cap_sand_crawlies	Unit capacity: %+n\\nSand Crawlers	true
+effects_description_nag_effect_unit_cap_warp_ghouls	Unit capacity: %+n\\nGlowing Ghouls	true
 effects_description_nag_effect_unit_cap_carrion_riders	Unit capacity: %+n\\nCarrion Riders	true
 effects_description_nag_effect_unit_cap_mortis_engine	Unit capacity: %+n\\nMortis Engine	true
 effects_description_nag_effect_unit_cap_spectre_swarm	Unit capacity: %+n\\nSpectre Swarms	true
@@ -127,24 +128,30 @@ effects_description_nag_spell_nagash_reduce_wom_cost_breath_of_darkness	Winds of
 effects_description_nag_spell_nagash_reduce_wom_cost_breath_of_darkness_upgraded	Winds of Magic cost: %n for "Breath of Darkness Upgraded"	true
 effects_description_nag_spell_nagash_enable_soul_stealer	Spell: "The Soul Stealer"	true
 effects_description_nag_spell_nagash_cooldown_soul_stealer	Cooldown: %+n% to "The Soul Stealer"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_soul_stealer	Winds of Magic cost: %n for "The Soul Stealer"	true
 effects_description_nag_spell_nagash_enable_dark_riders	Spell: "The Dark Riders"	true
 effects_description_nag_spell_nagash_cooldown_dark_riders	Cooldown: %+n% to "The Dark Riders"	true
 effects_description_nag_spell_nagash_enable_dark_riders_upgrade	Overcast spell: "The Dark Riders Upgraded"	true
 effects_description_nag_spell_nagash_miscast_reduction_dark_riders_upgraded	Miscast base chance: %+n% for "The Dark Riders Upgraded"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_dark_riders	Winds of Magic cost: %n for "The Dark Riders"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_dark_riders_upgraded	Winds of Magic cost: %n for "The Dark Riders Upgraded"	true
+effects_description_nag_spell_nagash_ability_uses_dark_riders	Ability number of uses: %+n for "The Dark Riders"	true
 effects_description_nag_spell_nagash_enable_grave_call_master	Spell: "The Grave Call"	true
 effects_description_nag_spell_nagash_cooldown_grave_call_master	Cooldown: %+n% to "The Grave Call"	true
 effects_description_nag_spell_nagash_enable_grave_call_master_upgrade	Overcast spell: "The Grave Call Upgraded"	true
 effects_description_nag_spell_nagash_miscast_reduction_grave_call_master_upgraded	Miscast base chance: %+n% for "The Grave Call Upgraded"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_grave_call_master	Winds of Magic cost: %n for "The Grave Call"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_grave_call_master_upgraded	Winds of Magic cost: %n for "The Grave Call Upgraded"	true
+effects_description_nag_spell_nagash_ability_uses_grave_call_master	Ability number of uses: %+n for "The Grave Call"	true
 effects_description_nag_spell_nagash_enable_hand_of_dust	Spell: "The Hand of Dust"	true
 effects_description_nag_spell_nagash_cooldown_hand_of_dust	Cooldown: %+n% to "The Hand of Dust"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_hand_of_dust	Miscast base chance: %+n% for "The Hand of Dust"	true
+effects_description_nag_spell_nagash_ability_uses_hand_of_dust	Ability number of uses: %+n for "The Hand of Dust"	true
 effects_description_nag_spell_nagash_enable_harbinger	Spell: "The Harbinger"	true
 effects_description_nag_spell_nagash_cooldown_harbinger	Cooldown: %+n% to "The Harbinger"	true
+effects_description_nag_spell_nagash_ability_uses_harbinger	Ability number of uses: %+n for "The Harbinger"	true
 effects_description_nag_spell_nagash_enable_harbinger_upgrade	Overcast spell: "The Harbinger Upgraded"	true
-effects_description_nag_spell_nagash_miscast_reduction_harbinger_upgraded	Miscast base chance: %+n% for "The Harbinger Upgraded"	true
+effects_description_nag_spell_nagash_miscast_reduction_harbinger	Miscast base chance: %+n% for "The Harbinger Upgraded"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger	Winds of Magic cost: %n for "The Harbinger"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger_upgraded	Winds of Magic cost: %n for "The Harbinger Upgraded"	true
 effects_description_nag_nag_effect_self_arkhan_melee_attack_nehek	Melee attack: %+n for Nehekhara Warriors and Nehekhara Horsemen units	true

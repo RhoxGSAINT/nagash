@@ -51,7 +51,7 @@ nag_skill_magic_nagash_arch_necromancer	character_magic.png		Arch Necromancer	0	
 nag_skill_magic_nagash_master_arcane_conduit	nag_master_arcane_conduit.png		Master Arcane Conduit	0	false	false	false	0.0	0
 nag_skill_magic_nagash_death_magic_incarnate	character_magic.png		Death Magic Incarnate	0	false	false	false	0.0	0
 nag_skill_magic_nagash_dummy_breath_of_darkness	battle_attack.png		Breath of Darkness [HIDDEN]	0	false	false	false	0.0	0
-nag_skill_magic_nagash_dummy_rasie_the_dead	wh_main_lore_nagash_raise_the_dead.png		Raise The Dead [HIDDEN]	0	false	false	false	0.0	0
+nag_skill_magic_nagash_dummy_raise_the_dead	wh_main_lore_nagash_raise_the_dead.png		Raise The Dead [HIDDEN]	0	false	false	false	0.0	0
 nag_skill_wh_main_spell_death_spirit_leech	wh_main_spell_death_spirit_leech.png		Spirit Leech	0	false	false	false	0.0	0
 nag_skill_wh_main_lore_passive_life_leeching	wh_main_lore_passive_life_leeching.png		Life-Leeching	0	false	false	false	0.0	0
 nag_skill_wh_main_spell_death_soulblight	wh_main_spell_death_soulblight.png		Soulblight	0	false	false	false	0.0	0
@@ -175,3 +175,11 @@ nag_wizard_unique_liche_priest_light_skeletal_steed	mount_skeletal_steed_tmb.png
 nag_wizard_unique_liche_priest_nehekhara_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
 nag_wizard_unique_liche_priest_shadow_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
 nag_wizard_unique_liche_priest_undeath_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_nagash_abyssal_swarm	nagash_abyssal_swarm.png	The wizard binds the bones of predatory creatures with dark magic, causing them to rise from their animal graves.	Razkhar - Abyssal Swarm	0	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_magic_nagash_raise_the_dead	wh_main_lore_nagash_raise_the_dead.png		Raise The Dead	0	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_nagash_breath_of_darkness	nagash_breath_of_darkness.png	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	Morkharn - Breath of Darkness	0	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_nagash_soul_stealer	nagash_soul_stealer.png	The wizard tears the souls from his victims' bodies before breathing unlife into their sundered corpses.	Khizaar - The Soul Stealer	0	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_nagash_dark_riders	nagash_dark_riders.png	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	Akar'aran - The Dark Riders	0	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_nagash_grave_call_master	nagash_grave_call.png	Dwaring forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	Ryze - The Grave Call	0	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_nagash_hand_of_dust	nagash_hand_of_dust.png	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	Sulekhim - The Hand of Dust	0	false	false	false	0.0	0
+nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	nagash_breath_of_darkness.png		Breath of Darkness [HIDDEN]	0	false	false	false	0.0	0

@@ -30,6 +30,8 @@ agent_subtypes_onscreen_name_override_nag_liche_priest_light	Liche Priest (Light
 agent_subtypes_description_text_override_nag_liche_priest_light	Where there is dark there must be light. And so, just as day follows night, there are those in the Mortuary Cult who are skilled at banishment magic, and white wizardry.	true
 agent_subtypes_onscreen_name_override_nag_liche_priest_death	Liche Priest (Death)	true
 agent_subtypes_description_text_override_nag_liche_priest_death	It is no surprise that some Liche Priests excel at manipulating the Wind of Shyish, and are unsurpassed at Death Magic.	true
+agent_subtypes_onscreen_name_override_nag_liche_priest_undeath	Liche Priest (Undeath)	true
+agent_subtypes_description_text_override_nag_liche_priest_undeath	[PH]	true
 agent_subtypes_onscreen_name_override_nag_vampire	Vampire (Death)	true
 agent_subtypes_description_text_override_nag_vampire		true
 agent_subtypes_onscreen_name_override_nag_vampire_shadow	Vampire (Shadows)	true

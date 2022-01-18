@@ -19,7 +19,7 @@ nag_army_cavalry_chariots	false	-1	-1
 nag_army_warbeasts_monstrous_inf	false	-1	-1	
 nag_army_magical_spirit	false	-1	-1	
 nag_army_monsters_constructs	false	-1	-1	
-nag_army_vamp_units	false	-1	-1	
+nag_army_count_units	false	-1	-1	
 nag_army_nehek_units	false	-1	-1	
 nag_army_coast_units	false	-1	-1	
 nag_army_nagashizzar_units	false	-1	-1	

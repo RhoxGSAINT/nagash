@@ -196,20 +196,20 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_tmb_mon_bone_giant_0	nag_army_monsters_constructs	false
 			nag_vanilla_cst_mon_terrorgheist	nag_army_monsters_constructs	false
 			nag_bone_colossus	nag_army_monsters_constructs	false
-			nag_vanilla_vmp_inf_zombie	nag_army_vamp_units	false
-			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_army_vamp_units	false
-			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_army_vamp_units	false
-			nag_vanilla_vmp_inf_crypt_ghouls	nag_army_vamp_units	false
-			nag_vanilla_vmp_inf_grave_guard_0	nag_army_vamp_units	false
-			nag_vanilla_vmp_inf_grave_guard_1	nag_army_vamp_units	false
-			nag_vanilla_vmp_cav_black_knights_0	nag_army_vamp_units	false
-			nag_vanilla_vmp_cav_black_knights_3	nag_army_vamp_units	false
-			nag_vanilla_vmp_cav_blood_knights_0	nag_army_vamp_units	false
-			nag_vanilla_vmp_veh_corpse_cart_1	nag_army_vamp_units	false
-			nag_vanilla_vmp_veh_corpse_cart_2	nag_army_vamp_units	false
-			nag_vanilla_vmp_mon_dire_wolves	nag_army_vamp_units	false
-			nag_vanilla_vmp_mon_fell_bats	nag_army_vamp_units	false
-			nag_vanilla_vmp_mon_vargheists	nag_army_vamp_units	false
+			nag_vanilla_vmp_inf_zombie	nag_army_count_units	false
+			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_army_count_units	false
+			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_army_count_units	false
+			nag_vanilla_vmp_inf_crypt_ghouls	nag_army_count_units	false
+			nag_vanilla_vmp_inf_grave_guard_0	nag_army_count_units	false
+			nag_vanilla_vmp_inf_grave_guard_1	nag_army_count_units	false
+			nag_vanilla_vmp_cav_black_knights_0	nag_army_count_units	false
+			nag_vanilla_vmp_cav_black_knights_3	nag_army_count_units	false
+			nag_vanilla_vmp_cav_blood_knights_0	nag_army_count_units	false
+			nag_vanilla_vmp_veh_corpse_cart_1	nag_army_count_units	false
+			nag_vanilla_vmp_veh_corpse_cart_2	nag_army_count_units	false
+			nag_vanilla_vmp_mon_dire_wolves	nag_army_count_units	false
+			nag_vanilla_vmp_mon_fell_bats	nag_army_count_units	false
+			nag_vanilla_vmp_mon_vargheists	nag_army_count_units	false
 			nag_vanilla_tmb_inf_skeleton_archers_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_spearmen_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_army_nehek_units	false
@@ -383,3 +383,6 @@ hero				nag_characters	false
 			nag_bone_colossus	wh2_main_ror_units_all	false
 			nag_virion_plaguecart	wh2_main_ror_units_all	false
 			nag_revenants	wh2_main_ror_units_all	false
+			nag_warp_ghouls	nag_army_warbeasts_monstrous_inf	false
+			nag_warp_ghouls	nag_army_nagashizzar_units	false
+			nag_warp_ghouls	nag_beasts_unit_set	false
