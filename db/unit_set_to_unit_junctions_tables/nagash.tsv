@@ -238,7 +238,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_vmp_cav_hexwraiths	nag_army_nagashizzar_units	false
 			nag_bone_golems	nag_golems_unit_set	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_scorpion_unit_set	false
-			nag_vanilla_tmb_mon_khemrian_warsphinx_0	nag_warshpinx_unit_set	false
+			nag_vanilla_tmb_mon_khemrian_warsphinx_0	nag_warsphinx_unit_set	false
 			nag_vanilla_vmp_cav_black_knights_0	nag_black_knights_unit_set	false
 			nag_vanilla_vmp_cav_black_knights_3	nag_black_knights_unit_set	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_ushabti_unit_set	false

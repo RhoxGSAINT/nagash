@@ -10,7 +10,7 @@ special_ability_phases_onscreen_name_nag_neferata_passive_blood_queen	Blood Quee
 special_ability_phases_onscreen_name_nag_neferata_abilities_mortarch_of_blood_death	Beautiful Death	true
 special_ability_phases_onscreen_name_nag_neferata_item_passive_staff_of_pain	Staff of Pain	true
 special_ability_phases_onscreen_name_nag_unit_contact_screaming_blade	[[img:ui/skins/default/nag_modifier_icon_screaming_blade.png]][[/img]][[col:red]]Screaming Blade!\\n[[img:icon_hp]][[/img]]Damage over time[[/col]]	true
-special_ability_phases_onscreen_name_nag_nagash_abiliities_master_arcane_conduit		true
+special_ability_phases_onscreen_name_nag_nagash_abilities_master_arcane_conduit		true
 special_ability_phases_onscreen_name_nag_passive_marshlight_aura		true
 special_ability_phases_onscreen_name_nag_passive_marshlight_aura_1	[[img:stage_one]][[/img]]Stage One	false
 special_ability_phases_onscreen_name_nag_passive_marshlight_aura_2	[[img:stage_two]][[/img]]Stage Two	false

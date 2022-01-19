@@ -137,6 +137,7 @@ effects_description_nag_spell_nagash_reduce_wom_cost_dark_riders	Winds of Magic 
 effects_description_nag_spell_nagash_reduce_wom_cost_dark_riders_upgraded	Winds of Magic cost: %n for "The Dark Riders Upgraded"	true
 effects_description_nag_spell_nagash_ability_uses_dark_riders	Ability number of uses: %+n for "The Dark Riders"	true
 effects_description_nag_spell_nagash_enable_grave_call_master	Spell: "The Grave Call"	true
+effects_description_nag_spell_nagash_enable_grave_call_master_hidden	Spell: "The Grave Call" [Hidden - Dummy]	false
 effects_description_nag_spell_nagash_cooldown_grave_call_master	Cooldown: %+n% to "The Grave Call"	true
 effects_description_nag_spell_nagash_enable_grave_call_master_upgrade	Overcast spell: "The Grave Call Upgraded"	true
 effects_description_nag_spell_nagash_miscast_reduction_grave_call_master_upgraded	Miscast base chance: %+n% for "The Grave Call Upgraded"	true

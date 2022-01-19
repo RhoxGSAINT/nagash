@@ -25,7 +25,7 @@ nag_bpyramid_main_4	nag_effect_unit_cap_nagashi_guard	faction_to_faction_own_uns
 nag_bpyramid_main_4	nag_effect_unit_cap_nagashi_guard_halb	faction_to_faction_own_unseen	4.0	4.0	0.0
 nag_bpyramid_main_4	nag_effect_unit_cap_bone_golems	faction_to_faction_own_unseen	4.0	4.0	0.0
 nag_bpyramid_main_4	nag_effect_unit_cap_mortis_engine	faction_to_faction_own_unseen	1.0	1.0	0.0
-nag_bpyramid_main_4	nag_effect_unit_cap_warp_ghouls	building_to_faction_own	2.0	2.0	0.0
+nag_bpyramid_main_4	nag_effect_unit_cap_warp_ghouls	faction_to_faction_own_unseen	2.0	2.0	0.0
 nag_bpyramid_main_5	nag_effect_horde_growth	force_to_force_own	8.0	8.0	0.0
 nag_bpyramid_main_5	wh_main_effect_military_force_winds_of_magic_starting_mod	force_to_force_own	20.0	20.0	0.0
 nag_bpyramid_main_5	wh_main_effect_military_force_winds_of_magic_depletion_mod_region_enemy	force_to_character_own_provincetext	-15.0	-15.0	0.0
@@ -36,7 +36,7 @@ nag_bpyramid_main_5	nag_effect_unit_cap_nagashi_guard	faction_to_faction_own_uns
 nag_bpyramid_main_5	nag_effect_unit_cap_nagashi_guard_halb	faction_to_faction_own_unseen	6.0	6.0	0.0
 nag_bpyramid_main_5	nag_effect_unit_cap_bone_golems	faction_to_faction_own_unseen	6.0	6.0	0.0
 nag_bpyramid_main_5	nag_effect_unit_cap_mortis_engine	faction_to_faction_own_unseen	2.0	2.0	0.0
-nag_bpyramid_main_5	nag_effect_unit_cap_warp_ghouls	building_to_faction_own	4.0	4.0	0.0
+nag_bpyramid_main_5	nag_effect_unit_cap_warp_ghouls	faction_to_faction_own_unseen	4.0	4.0	0.0
 nag_bpyramid_main_5	nag_effect_unit_cap_morghasts	faction_to_faction_own_unseen	3.0	3.0	0.0
 nag_bpyramid_main_5	nag_effect_agent_enable_recruitment_archai	force_to_force_own	1.0	1.0	0.0
 nag_bpyramid_main_5	nag_effect_agent_cap_increase_archai	faction_to_faction_own_unseen	1.0	1.0	0.0

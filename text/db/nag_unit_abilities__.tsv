@@ -94,8 +94,8 @@ unit_abilities_onscreen_name_nag_vlad_passive_mortarch_of_shadows_aura	Aura of D
 unit_abilities_tooltip_text_nag_vlad_passive_mortarch_of_shadows_aura	Vlad motivates his devoted followers with his majestic presence; the Lord of Undeath is without peer.	true
 unit_abilities_onscreen_name_nag_vlad_passive_mortarch_of_shadows_aura_upgrade	Aura of Dark Grandeur	true
 unit_abilities_tooltip_text_nag_vlad_passive_mortarch_of_shadows_aura_upgrade	Vlad motivates his devoted followers with his majestic presence; the Lord of Undeath is without peer.	true
-unit_abilities_tooltip_text_nag_arkhan_abilities_mortarch_of_sacrements_swarm	An Unholy swarm obliterates all in its path.	true
-unit_abilities_onscreen_name_nag_arkhan_abilities_mortarch_of_sacrements_swarm	Unholy Communion	true
+unit_abilities_tooltip_text_nag_arkhan_abilities_mortarch_of_sacraments_swarm	An Unholy swarm obliterates all in its path.	true
+unit_abilities_onscreen_name_nag_arkhan_abilities_mortarch_of_sacraments_swarm	Unholy Communion	true
 unit_abilities_tooltip_text_nag_nag_neferata_abilities_mortarch_of_blood_death	Neferrata calls forth her handmaidens to swarm and envelop the target in a whirlwind of beauty and death.	true
 unit_abilities_onscreen_name_nag_neferata_abilities_mortarch_of_blood_death	Beautiful Death	true
 unit_abilities_tooltip_text_nag_neferata_passive_blood_queen	As the first Vampire, Neferata does not need to feast on the blood to revel in its pleasures, but she still does so willingly, gracefully ripping apart her victims and dancing in the red clouds that spill forth.	true
@@ -124,16 +124,16 @@ unit_abilities_onscreen_name_nag_nagash_passive_malediction_of_nagash	Maledictio
 unit_abilities_tooltip_text_nag_nagash_passive_malediction_of_nagash	At the Necromancer's commad, his enemies feel the looming shadow of undeath fall across them, sapping their strength and endurance.	true
 unit_abilities_onscreen_name_nag_nagash_passive_death_magic_incarnate	Death Magic Incarnate	true
 unit_abilities_tooltip_text_nag_nagash_passive_death_magic_incarnate	A mass of accursed necrotic power swirls around Nagash, fusing into the unstable bonds of the dead and strengthening them.	true
-unit_abilities_onscreen_name_nag_nagash_abiliities_morikhane_black_armour	Black Armour of Nagash	true
-unit_abilities_tooltip_text_nag_nagash_abiliities_morikhane_black_armour	Nagash's armour is forged from an alloy of lead and meteoric iron, over the millennia the armour has fused itself with his body	true
-unit_abilities_onscreen_name_nag_nagash_abiliities_mortis_blade	The Great Blade of Death	true
-unit_abilities_tooltip_text_nag_nagash_abiliities_mortis_blade	Mortis is a huge magical sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it.	true
-unit_abilities_onscreen_name_nag_nagash_abiliities_staff_of_power	Staff of Power	true
-unit_abilities_tooltip_text_nag_nagash_abiliities_staff_of_power	Staff of Power, an ancient artifact crafted by Nagash himself which thrums with the raw power of Dark Magic.	true
-unit_abilities_onscreen_name_nag_nagash_abiliities_ashes_and_dust	Ashes and Dust	true
-unit_abilities_tooltip_text_nag_nagash_abiliities_ashes_and_dust	A choking dust cloud erupts from the wizard's fingertips, suffocating all in its path.	true
-unit_abilities_onscreen_name_nag_nagash_abiliities_master_arcane_conduit	Master Arcane Conduit	true
-unit_abilities_tooltip_text_nag_nagash_abiliities_master_arcane_conduit	"Forces of Necromancy, hear the request of your most-powerful master: flow through me according to my will!"	true
+unit_abilities_onscreen_name_nag_nagash_abilities_morikhane_black_armour	Black Armour of Nagash	true
+unit_abilities_tooltip_text_nag_nagash_abilities_morikhane_black_armour	Nagash's armour is forged from an alloy of lead and meteoric iron, over the millennia the armour has fused itself with his body	true
+unit_abilities_onscreen_name_nag_nagash_abilities_mortis_blade	The Great Blade of Death	true
+unit_abilities_tooltip_text_nag_nagash_abilities_mortis_blade	Mortis is a huge magical sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it.	true
+unit_abilities_onscreen_name_nag_nagash_abilities_staff_of_power	Staff of Power	true
+unit_abilities_tooltip_text_nag_nagash_abilities_staff_of_power	Staff of Power, an ancient artifact crafted by Nagash himself which thrums with the raw power of Dark Magic.	true
+unit_abilities_onscreen_name_nag_nagash_abilities_ashes_and_dust	Ashes and Dust	true
+unit_abilities_tooltip_text_nag_nagash_abilities_ashes_and_dust	A choking dust cloud erupts from the wizard's fingertips, suffocating all in its path.	true
+unit_abilities_onscreen_name_nag_nagash_abilities_master_arcane_conduit	Master Arcane Conduit	true
+unit_abilities_tooltip_text_nag_nagash_abilities_master_arcane_conduit	"Forces of Necromancy, hear the request of your most-powerful master: flow through me according to my will!"	true
 unit_abilities_onscreen_name_nag_unit_abilities_refuse_to_die	Refuse to Die	true
 unit_abilities_tooltip_text_nag_unit_abilities_refuse_to_die	The surprising ability to hold back death despite some seriously heavy opposition…	true
 unit_abilities_onscreen_name_nag_unit_abilities_feaster_of_souls	Feaster of Souls	true

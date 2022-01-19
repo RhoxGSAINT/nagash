@@ -144,6 +144,7 @@ nag_double_vmp_magic_vampires_09_curse_of_years	wh_main_spell_vampires_curse_of_
 nag_double_vmp_magic_vampires_10_wind_of_death	wh_main_spell_vampires_wind_of_death.png	 	Wind of Death	0	false	false	false	0.0	0
 nag_double_vmp_magic_vampires_dummy_invocation_of_nehek	battle_attack.png	 	Invocation of Nehek [HIDDEN]	0	false	false	false	0.0	0
 nag_skill_supreme_innate_nagash	trait_mortarch.png	Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	The Supreme Lord of Undeath	0	true	false	false	5.0	0
+nag_skill_husk_innate_nagash	trait_mortarch.png	The husk of Nagash has sat on his throne of skulls for over a millennium, brooding, waiting and planning. The pieces are all in place and the day has come that he re-emerges from his citadel to conquer the world.	The Undying King	0	true	false	false	5.0	0
 nag_skill_mortarch_innate_arkhan	trait_mortarch.png		Mortarch of Sacraments	0	true	false	false	5.0	0
 nag_skill_mortarch_innate_krell	trait_mortarch.png		Mortarch of Despair	0	true	false	false	5.0	0
 nag_skill_mortarch_innate_vlad	trait_mortarch.png		Mortarch of Shadows	0	true	false	false	5.0	0

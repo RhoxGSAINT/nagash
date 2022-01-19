@@ -272,6 +272,8 @@ character_skills_localised_name_nag_skill_mount_luthor_harkon_terrorgheist	Death
 character_skills_localised_description_nag_skill_mount_luthor_harkon_terrorgheist	Harkon's personal mount is a dreadful thing indeed - a Terrorgheist with a piercing, banshee-like shriek that has the power to stun any who hear it.	true
 character_skills_localised_name_nag_skill_supreme_innate_nagash	Supreme Lord of Undeath	true
 character_skills_localised_description_nag_skill_supreme_innate_nagash	Nagash, known by many names such as the Great Necromancer, the Great Betrayer, the Usurper, the Undying King, the Lord of Undead, He Who Shall Not Be Named or simply Bone Daddy.	true
+character_skills_localised_name_nag_skill_husk_innate_nagash	The Undying King	true
+character_skills_localised_description_nag_skill_husk_innate_nagash	The husk of Nagash has sat on his throne of skulls for over a millennium, brooding, waiting and planning. The pieces are all in place and the day has come that he re-emerges from his citadel to conquer the world.	true
 character_skills_localised_name_nag_skill_mortarch_innate_arkhan	Mortarch of Sacraments	true
 character_skills_localised_description_nag_skill_mortarch_innate_arkhan	Thousands of years plotting, misleading, waiting for His return. The First of the Mortarchs finally reaps his rewards.	true
 character_skills_localised_name_nag_skill_mortarch_innate_krell	Mortarch of Despair	true
@@ -346,6 +348,8 @@ character_skills_localised_name_nag_wizard_unique_liche_priest_nehekhara_skeleta
 character_skills_localised_description_nag_wizard_unique_liche_priest_nehekhara_skeletal_steed	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	true
 character_skills_localised_name_nag_wizard_unique_liche_priest_light_skeletal_steed	Skeletal Steed	true
 character_skills_localised_description_nag_wizard_unique_liche_priest_light_skeletal_steed	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	true
+character_skills_localised_name_nag_wizard_unique_liche_priest_undeath_skeletal_steed	Skeletal Steed	true
+character_skills_localised_description_nag_wizard_unique_liche_priest_undeath_skeletal_steed	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_abyssal_swarm	Razkhar	true
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_abyssal_swarm	[PH]	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_magic_nagash_raise_the_dead	Raise The Dead	true
