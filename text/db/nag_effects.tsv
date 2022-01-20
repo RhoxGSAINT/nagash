@@ -111,9 +111,9 @@ effects_description_nag_effect_army_vet_nagash_fatigue_res_skill	Attribute: Fati
 effects_description_nag_effect_army_vet_nagash_ward_save_skill	Ward save: %n% for Nagashizzar units	true
 effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength: %+n% for Nagashizzar units	true
 effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts and Vargheists	true
-effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeletons, Skeleton Archers, Skeleton Horsemen, Skeleton Horse Archers, Skeleton Chariots and Skeleton Archer Chariots, Nehekaran Warriors, Nehekaran Horsemen and Tomb Guard.	true
+effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeletons, Skeleton Archers, Skeleton Horsemen, Skeleton Horse Archers, Skeleton Chariots and Skeleton Archer Chariots, Nehekaran Warriors, Nehekaran Horsemen and Tomb Guard	true
 effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Deck Gunners, Bloated Corpses, Dpeth Guard and Death Shreik Terrorgheists	true
-effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Spectre Swarms, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts.	true
+effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Spectre Swarms, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm	Spell: "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_cooldown_abyssal_swarm	Cooldown: %+n% to "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm_upgrade	Overcast spell: "Abyssal Swarm Upgraded"	true
@@ -213,14 +213,14 @@ effects_description_nag_effect_self_arkhan_enable_mortarch_of_sacrements_summon	
 effects_description_nag_effect_number_uses_mortarch_of_sacrements	Ability number of uses: %+n for "Unholy Communion"	true
 effects_description_nag_effect_self_enable_ability_mortarch_of_despair	Ability: "Repair Beyond Despair"	true
 effects_description_nag_effect_self_enable_ability_armour_of_barrow	Ability: "Armour of the Barrow"	true
-effects_description_nag_effect_self_vlad_to_isabella_buff	Undying Love: %+n Melee Attack and Melee Defence to both Vlad and Isabella when they are in the same army.	true
+effects_description_nag_effect_self_vlad_to_isabella_buff	Undying Love: %+n Melee Attack and Melee Defence to both Vlad and Isabella when they are in the same army	true
 effects_description_nag_effect_self_neferata_enable_ability_mortarch_of_blood	Ability: "Beautiful Death"	true
 effects_description_nag_effect_self_neferata_melee_damage_vs_gullable	Weapon strength: %+n% when fighting against Elves, Humans, Dwarfs & Undead	true
 effects_description_nag_effect_self_neferata_speed_vampires	Speed: %+n% for Vampiric units	true
 effects_description_nag_effect_self_neferata_enable_ability_blood_queen	Ability: "Blood Queen"	true
 effects_description_nag_effect_self_neferata_ward_save_physical_vs_lybaras	Physical resistance: %n% for Neferata when fighting against Lybaras	true
 effects_description_nag_effect_self_neferata_melee_defence_vs_lybaras	Melee defence: %+n for Neferata when fighting against Lybaras	true
-effects_description_nag_effect_self_isabella_to_vlad_buff	Undying Love: %+n Melee Attack and Melee Defence to both Isabella and Vlad when they are in the same army.	true
+effects_description_nag_effect_self_isabella_to_vlad_buff	Undying Love: %+n Melee Attack and Melee Defence to both Isabella and Vlad when they are in the same army	true
 effects_description_nag_effect_self_vlad_enable_mortarch_of_shadows_aura	Ability: "Aura of Dark Grandeur"	true
 effects_description_nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	Improves "Aura of Dark Grandeur" with a penalty to enemy accuaracy and a larger area of effect	true
 effects_description_nag_effect_item_neferata_ability_dagger_of_jet	Ability: "Dagger of Jet"	true
@@ -267,7 +267,7 @@ effects_description_nag_effect_ability_uses_abyssal_swarm	Ability number of uses
 effects_description_nag_effect_war_declare_all_dummy	Declare War on the Living	true
 effects_description_nag_effect_bonus_melee_attack_fighting_against_all	Melee attack: %+n when fighting against Men, Elves, Dwarfs, Chaos and all manner of other Beasts	true
 effects_description_nag_effect_bonus_charge_fighting_against_all	Charge bonus: %+n when fighting against Men, Elves, Dwarfs, Chaos and all manner of other Beasts	true
-effects_description_nag_effect_morghast_archai_ward_save	Ward save: %n% for Morghast and Archai units.	true
+effects_description_nag_effect_morghast_archai_ward_save	Ward save: %n% for Morghast and Archai units	true
 effects_description_nag_nagash_trait_true_immortalitiy	Nagash will always remain wounded for no more than 1 turn	true
 effects_description_nag_effect_grant_immortality_hero	When normally killed in action, this [[img:icon_hero]][[/img]]Hero will be wounded instead	true
 effects_description_nag_effect_grant_immortality_lord	When normally killed in battle, this [[img:icon_general]][[/img]]Lord will be wounded instead	true

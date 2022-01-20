@@ -31,7 +31,7 @@ agent_subtypes_description_text_override_nag_liche_priest_light	Where there is d
 agent_subtypes_onscreen_name_override_nag_liche_priest_death	Liche Priest (Death)	true
 agent_subtypes_description_text_override_nag_liche_priest_death	It is no surprise that some Liche Priests excel at manipulating the Wind of Shyish, and are unsurpassed at Death Magic.	true
 agent_subtypes_onscreen_name_override_nag_liche_priest_undeath	Liche Priest (Undeath)	true
-agent_subtypes_description_text_override_nag_liche_priest_undeath	[PH]	true
+agent_subtypes_description_text_override_nag_liche_priest_undeath	A select few of the Liche Priests now loyal to Nagash were given the honour of handling the Great Necromancer's own spells of his own device.	true
 agent_subtypes_onscreen_name_override_nag_vampire	Vampire (Death)	true
 agent_subtypes_description_text_override_nag_vampire		true
 agent_subtypes_onscreen_name_override_nag_vampire_shadow	Vampire (Shadows)	true
