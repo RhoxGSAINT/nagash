@@ -5,6 +5,9 @@
 
 ---@class bdsm
 local bdsm = get_bdsm()
+local vlib = get_vlib()
+
+local log,logf,err,errf = vlib:get_log_functions("[nag]")
 
 -- this is triggered on the, well, first turn
 function bdsm:first_turn_begin()
@@ -29,19 +32,25 @@ function bdsm:first_turn_begin()
             cm:kill_character_and_commanded_unit("character_cqi:"..nagash:command_queue_index(), true, false)
         end
 
-        local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
-            faction_key,
-            nagashizar_key,
-            false,
-            true,
-            5
-        )
+        
 
+            
         ---@type NagHuskDB
         local starting_info = bdsm:load_db("nag_husk_start")
         local unit_list = table.concat(starting_info.starting_units, ",")
         local forename,surname = starting_info.forename,starting_info.surname
         local subtype = starting_info.subtype
+        local pos = starting_info.pos
+
+        local x,y = cm:find_valid_spawn_location_for_character_from_position(
+            faction_key,
+            pos.x,
+            pos.y,
+            true,
+            3
+        )
+
+        logf("Found position for Nagash at (%d, %d)", x, y)
 
         local ancillary_list = starting_info.ancillaries
         local horde_buildings,settle_buildings = starting_info.horde_buildings, starting_info.nagashizzar_buildings
@@ -50,8 +59,8 @@ function bdsm:first_turn_begin()
             faction_key,
             unit_list,
             nagashizar_key,
-            x,
-            y,
+            pos.x,
+            pos.y,
             "general",
             subtype,
             forename,

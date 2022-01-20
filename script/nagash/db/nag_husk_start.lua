@@ -1,6 +1,12 @@
 --- Starting data for turn 1 Nagash.
 ---@class NagHuskDB
 local db =  {
+    --- starting position, make sure is valid
+    pos = {
+        x = 861,
+        y = 204,
+    },
+
     starting_units = { -- populate this field with every unit for the starting army
         "nag_bone_golems",
         "nag_nagashi_guard",
@@ -34,7 +40,7 @@ local db =  {
     },
 
     nagashizzar_buildings = { -- any extra starting buildings for Nagashizzar
-       -- "building_level_key",
+       "nag_outpost_special_nagashizzar_1",
     },
 }
 

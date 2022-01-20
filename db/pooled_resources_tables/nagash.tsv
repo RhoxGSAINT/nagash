@@ -1,3 +1,3 @@
 key	maximum	minimum	persistent_factors	ai_ignored	default_factor	optional_icon_path
 #pooled_resources_tables;7;db/pooled_resources_tables/nagash						
-nag_warpstone	20	0	true	true	wh2_main_resource_factor_other	icon_warpstone.png
+nag_warpstone	20	0	true	true	nag_nagash_rituals	icon_warpstone.png

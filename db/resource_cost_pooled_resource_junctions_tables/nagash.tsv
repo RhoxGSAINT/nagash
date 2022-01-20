@@ -1,7 +1,7 @@
 pooled_resource_factor	resource_cost	amount
 #resource_cost_pooled_resource_junctions_tables;0;db/resource_cost_pooled_resource_junctions_tables/nagash		
-nag_warpstone_other	nag_souls_mort	-5
-nag_warpstone_other	nag_souls_archai	-5
+nag_warpstone_other	nag_ritual_mort	-5
+nag_warpstone_other	nag_ritual_archai	-5
 nag_warpstone_other	nag_man	-1
 nag_warpstone_other	nag_divinity	-1
 nag_warpstone_other	nag_death	-1

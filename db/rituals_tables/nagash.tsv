@@ -4,6 +4,6 @@ nag_man	false	0	nag_man	0	STANDARD_RITUAL	0	0			0	false		nag_man		false
 nag_divinity	false	0	nag_divinity	0	STANDARD_RITUAL	0	0			0	false		nag_divinity		false	
 nag_death	false	0	nag_death	0	STANDARD_RITUAL	0	0			0	false		nag_death		false	
 nag_winds	false	0	nag_winds	0	STANDARD_RITUAL	0	0			0	false		nag_winds		false	
-nag_bp_raise	false	10	nag_bp_raise	0	VORTEX_RITUAL	0	0			0	false		nag_bp_raise		false	
-nag_end_game	false	15	nag_end_game	0	VORTEX_RITUAL	0	0			0	false		nag_end_game		false	
+nag_bp_raise	false	10	nag_bp_raise	0	VORTEX_RITUAL	0	0			0	false				false	
+nag_end_game	false	15	nag_end_game	0	VORTEX_RITUAL	0	0			0	false				false	
 nag_nagash	false	0	nag_nagash	0	STANDARD_RITUAL	0	0			0	false		nag_nagash		false	

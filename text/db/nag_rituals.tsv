@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_rituals.loc		
-rituals_display_name_nag_man	Dominion Over Man	true
+rituals_display_name_nag_man	Dominion Over Life	true
 rituals_description_nag_man	[PH]	true
 rituals_display_name_nag_divinity	Dominion Over Divinity	true
 rituals_description_nag_divinity	[PH]	true
@@ -18,9 +18,9 @@ rituals_display_name_nag_end_game	[PH] End Game Ritual	true
 rituals_description_nag_end_game	[PH] We're in the end game now	true
 campaign_group_rituals_unlock_text_nagash_featurenag_bp_raise	[PH]	true
 campaign_group_rituals_unlock_text_nagash_featurenag_end_game	[PH]	true
-ritual_additional_ui_explanation_texts_onscreen_text_nag_winds	[PH] Select from one of Big Boner's Mega Spells	true
-ritual_additional_ui_explanation_texts_onscreen_text_nag_death	[PH] Boner army spawn	true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_death	[PH] Boner army spawn at the BP/Nagash	true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_man	[PH] [TODO] select a "target" enemy faction and get boosts against them? force attrition on them?	true
 rituals_display_name_nag_nagash	Dominion of Nagash	true
 rituals_description_nag_nagash	[PH] Domino's of Nagash	true
 campaign_group_rituals_unlock_text_nagash_featurenag_nagash	[PH] Raise the Black Pyramid	true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_nagash	[PH] TODO pick a settlement and get +500 growth on that settlement	true

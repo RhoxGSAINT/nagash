@@ -16,7 +16,79 @@ local rite_status = {
     nag_death = false,
     nag_divinity = false,
     nag_man = false,
+    nag_nagash = false,
 }
+
+local function add_scroll_bar()
+    core:add_listener(
+        "AddScrollBar",
+        "PanelOpenedCampaign",
+        function(context)
+            return context.string == "rituals_panel" and cm:get_local_faction_name(true) == bdsm:get_faction_key()
+        end,
+        function(context)
+            local uic = UIComponent(context.component)
+            local rituals_list = find_uicomponent(uic, "panel_frame", "rituals_list")
+            local dummy = core:get_or_create_component("rituals_dummy", "ui/campaign ui/script_dummy")
+            local killer_dummy = core:get_or_create_component("killer_dummy", "ui/campaign ui/script_dummy")
+
+            -- force all rituals onto a new invisible parent while I create the horizontal list view
+            local addresses = {}
+            for i = 0, rituals_list:ChildCount() -1 do
+                local child_uic = UIComponent(rituals_list:Find(i))
+                addresses[#addresses+1] = child_uic:Address()
+            end
+
+            for i = 1, #addresses do
+                rituals_list:Divorce(addresses[i])
+                dummy:Adopt(addresses[i])
+            end
+
+            -- create and grab the horizontal list view
+            local killed = core:get_or_create_component("new_killed", "ui/campaign ui/building_browser", core:get_ui_root())
+            local listview = find_uicomponent(killed, "listview")
+
+            -- add horlistview onto the rituals list
+            rituals_list:Adopt(listview:Address())
+
+            -- kill the building browser created
+            killer_dummy:Adopt(killed:Address())
+
+            local lview = find_uicomponent(rituals_list, "listview")
+
+            -- destroy unneeded details
+            local killed2 = find_uicomponent(lview, "list_clip", "list_box", "building_tree")
+            killer_dummy:Adopt(killed2:Address())
+            killer_dummy:DestroyChildren()
+
+            -- set lview size to the rituals_list
+            local x, y = rituals_list:Position()
+            local w, h = rituals_list:Bounds()
+
+            lview:SetCanResizeWidth(true) lview:SetCanResizeHeight(true)
+            lview:Resize(w -75, h -50)
+            lview:SetCanResizeWidth(false) lview:SetCanResizeHeight(false)
+
+            -- minor buffer between the corner
+            lview:MoveTo(x + 20, y + 20)
+
+            local lbox = find_uicomponent(lview, "list_clip", "list_box")
+
+            -- readd the rituals to the lview
+            for j = 1, #addresses do
+                local child_uic = UIComponent(addresses[j])
+
+                dummy:Divorce(addresses[j])
+                lbox:Adopt(addresses[j])
+            end
+
+            -- kill the dummies
+            dummy:Adopt(killer_dummy:Address())
+            dummy:DestoryChildren()
+        end,
+        true
+    )
+end
 
 --- unlock rite + show event message
 local function unlock_rite(rite_key)
@@ -52,9 +124,16 @@ local function unlock_rite(rite_key)
 	);
 end
 
---- TODO trigger the ritual completed listeners after unlock_rite so state adjustments work
+local vlib = get_vandy_lib()
+
+---@type vlib_camp_counselor
+local cc = vlib:get_module("camp_counselor")
 --- TODO scripted effects
 function bdsm:setup_rites()
+    cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
+
+    add_scroll_bar()
+
     if not rite_status.nag_winds then
         -- build the BP Obelisk
         core:add_listener(
@@ -169,6 +248,14 @@ function bdsm:setup_rites()
         )
     else
         --- TODO on rite completed, select a Nemesis faction to target. can do this programmatically with a dilemma, yay
+    end
+
+    if not rite_status.nag_nagash then
+        --- TODO gain it when you build the BP
+        -- core:add_listener(
+        --     "NagNagash",
+        --     ""
+        -- )
     end
 end
 

@@ -4,9 +4,6 @@ local bdsm = get_bdsm()
 local mct
 local vlib = get_vlib()
 
----@type vlib_camp_counselor
-local cc = vlib:get_module("camp_counselor")
-
 if is_function(get_mct) then
     mct = get_mct()
 end
@@ -63,8 +60,7 @@ local function init()
     --- TODO player only
     if not faction:is_human() then return end
 
-    -- local img_path = effect.get_skinned_image_path("icon_oathgold.png")
-    cc:add_pr_uic("nag_souls", "ui/skins/default/icon_oathgold.png", faction_key)
+    bdsm:setup_rites()
 
     local option = "intro"
     local all_morts = false

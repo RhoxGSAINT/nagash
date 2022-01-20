@@ -11,4 +11,4 @@ nag_man			faction	1	character.png	true	false	true
 nag_divinity			faction	1	character.png	true	false	true
 nag_death			faction	1	character.png	true	false	true
 nag_winds			faction	1	character.png	true	false	true
-nag_nagash	Dominion of Nagash		faction	1	character.png	true	false	true
+nag_rite_nagash	Dominion of Nagash		faction	1	character.png	true	false	true
