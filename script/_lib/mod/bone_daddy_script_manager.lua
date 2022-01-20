@@ -51,7 +51,7 @@ function bdsm:init()
     vlib:load_module("mid_game_start", path)
     -- vlib:load_module("tech", path)
     vlib:load_module("morts", path)
-    vlib:load_module("ui", path)
+    -- vlib:load_module("ui", path)
     vlib:load_module("souls", path)
 end
 

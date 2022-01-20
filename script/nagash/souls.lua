@@ -69,7 +69,7 @@ function bdsm:setup_rites()
             end,
             false
         )
-    else
+    else -- TODO doesn't work!
         --- TODO don't let the ritual be used if Nagash is wounded or offscreen
         -- TODO on ritual completed, trigger a dilemma
         -- on dilemma select, listen to the option to trigger the spell ability

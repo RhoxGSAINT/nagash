@@ -6,3 +6,4 @@ nagash_feature	nag_man		0	true
 nagash_feature	nag_winds		0	true
 nagash_feature	nag_bp_raise		0	false
 nagash_feature	nag_end_game		0	false
+nagash_feature	nag_nagash		0	true

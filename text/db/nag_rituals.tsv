@@ -21,3 +21,6 @@ campaign_group_rituals_unlock_text_nagash_featurenag_end_game	[PH]	true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_winds	[PH] Select from one of Big Boner's Mega Spells	true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_death	[PH] Boner army spawn	true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_man	[PH] [TODO] select a "target" enemy faction and get boosts against them? force attrition on them?	true
+rituals_display_name_nag_nagash	Dominion of Nagash	true
+rituals_description_nag_nagash	[PH] Domino's of Nagash	true
+campaign_group_rituals_unlock_text_nagash_featurenag_nagash	[PH] Raise the Black Pyramid	true
