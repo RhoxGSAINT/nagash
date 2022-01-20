@@ -17,6 +17,8 @@ local faction_key = bdsm:get_faction_key()
     spawn details (ie. spawn with Nagash, or spawn in predefined locations, or what)
 --]]
 
+bdsm._mortarchs = {}
+
 ---@class mortarch
 local mortarch = {
     --- default values

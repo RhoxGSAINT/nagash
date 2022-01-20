@@ -13,7 +13,7 @@ local bdsm = {
 }
 
 local vlib = get_vandy_lib()
-local log,logf,error,errorf = vlib:get_log_functions("bdsm")
+local log,logf,error,errorf = vlib:get_log_functions("[bdsm]")
 function bdsm:log(...) log(...) end
 function bdsm:logf(...) logf(...) end
 function bdsm:error(...) error(...) end
