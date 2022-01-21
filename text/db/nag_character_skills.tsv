@@ -91,7 +91,7 @@ character_skills_localised_description_nag_skill_wh_main_spell_nagash_soul_steal
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_dark_riders	Akar'aran, the Dark Riders	true
 character_skills_localised_description_nag_skill_wh_main_spell_nagash_dark_riders	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_grave_call_master	Ryze, the Grave Call	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_grave_call_master	Dwaring forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_grave_call_master	Drawing forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_hand_of_dust	Sulekhim, the Hand of Dust	true
 character_skills_localised_description_nag_skill_wh_main_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_harbinger	Kandorak, the Harbinger	true
@@ -361,7 +361,7 @@ character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_soul_
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_dark_riders	Akar'aran, the Dark Riders	true
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_dark_riders	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_grave_call_master	Ryze, the Grave Call	true
-character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_grave_call_master	Dwaring forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
+character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_grave_call_master	Drawing forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_hand_of_dust	Sulekhim, the Hand of Dust	true
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	Morkharn, the Breath of Darkness HIDDEN	true

@@ -113,7 +113,7 @@ effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength
 effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts and Vargheists	true
 effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Deck Gunners, Bloated Corpses, Dpeth Guard and Death Shreik Terrorgheists	true
 effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Spectre Swarms, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts	true
-effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts.	true
+effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm	Spell: "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_cooldown_abyssal_swarm	Cooldown: %+n% to "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm_upgrade	Overcast spell: "Abyssal Swarm Upgraded"	true
