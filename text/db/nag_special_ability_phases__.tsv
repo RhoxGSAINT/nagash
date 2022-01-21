@@ -12,8 +12,8 @@ special_ability_phases_onscreen_name_nag_neferata_item_passive_staff_of_pain	Sta
 special_ability_phases_onscreen_name_nag_unit_contact_screaming_blade	[[img:ui/skins/default/nag_modifier_icon_screaming_blade.png]][[/img]][[col:red]]Screaming Blade!\\n[[img:icon_hp]][[/img]]Damage over time[[/col]]	true
 special_ability_phases_onscreen_name_nag_nagash_abilities_master_arcane_conduit		true
 special_ability_phases_onscreen_name_nag_passive_marshlight_aura		true
-special_ability_phases_onscreen_name_nag_passive_marshlight_aura_1	[[img:stage_one]][[/img]]Stage One	false
-special_ability_phases_onscreen_name_nag_passive_marshlight_aura_2	[[img:stage_two]][[/img]]Stage Two	false
-special_ability_phases_onscreen_name_nag_passive_torment		false
+special_ability_phases_onscreen_name_nag_unit_passive_marshlight_aura_1	[[img:stage_one]][[/img]]Stage One	false
+special_ability_phases_onscreen_name_nag_unit_passive_marshlight_aura_2	[[img:stage_two]][[/img]]Stage Two	false
+special_ability_phases_onscreen_name_nag_unit_passive_torment		false
 special_ability_phases_onscreen_name_nag_warp_ghouls_poison	[[col:red]][[img:UI/Battle UI/ability_icons/nag_warp_ghouls_poison.png]][[/img]]Warpstone Weakness![[/col]]	true
 special_ability_phases_onscreen_name_nag_warp_ghouls_aura_skaven	[[col:green]]Warpstone, yes yes![[/col]]	true

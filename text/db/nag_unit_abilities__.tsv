@@ -140,20 +140,28 @@ unit_abilities_onscreen_name_nag_unit_abilities_feaster_of_souls	Feaster of Soul
 unit_abilities_tooltip_text_nag_unit_abilities_feaster_of_souls	The Dread Abyssals, known also as the Hounds of Usirian, are amongst the most legendary creatures within the Underworld.	true
 unit_abilities_onscreen_name_nag_unit_abilities_heralds_of_the_accursed_one	Herald of the Accursed One	true
 unit_abilities_tooltip_text_nag_unit_abilities_heralds_of_the_accursed_one	The morghasts are rising, and they are the heralds of death.	true
-unit_abilities_tooltip_text_nag_shade_haunt_hidden_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
-unit_abilities_onscreen_name_nag_shade_haunt_hidden_vortex	Restless ghosts vortex  [HIDDEN]	true
-unit_abilities_tooltip_text_nag_shade_haunt_dummy_vortex	Wildly swirling ghosts will tear apart any enemy they can reach.	true
-unit_abilities_onscreen_name_nag_shade_haunt_dummy_vortex	Restless ghosts	true
-unit_abilities_tooltip_text_nag_spectre_swarm_hidden_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
-unit_abilities_onscreen_name_nag_spectre_swarm_hidden_vortex	Restless ghosts vortex  [HIDDEN]	true
-unit_abilities_tooltip_text_nag_spectre_swarm_dummy_vortex	Wildly swirling ghosts will tear apart any enemy they can reach.	true
-unit_abilities_onscreen_name_nag_spectre_swarm_dummy_vortex	Restless ghosts	true
-unit_abilities_onscreen_name_nag_passive_grim_aura	The Last Journey	true
-unit_abilities_tooltip_text_nag_passive_grim_aura	The plague cart is the very symbol of the last journey, that which ends at the cemetery gates and it is Lord Virions task to guide them to their fated destination.	true
-unit_abilities_onscreen_name_nag_passive_marshlight_aura	Marshlight Lanterns	true
-unit_abilities_tooltip_text_nag_passive_marshlight_aura	Marshlights are ethereal creatures taking the form of glowing lights or lanterns, they emit a compelling hypnotic effect by which they lead mesmerised individuals to their deaths and feed on their ebbing life-force.	true
-unit_abilities_onscreen_name_nag_passive_torment	Tormented Execution	true
-unit_abilities_tooltip_text_nag_passive_torment	As these spirits near closer to their own demise, they grow in fury and malice to make sure all beings that draw breath will breath their last.	true
+unit_abilities_tooltip_text_nag_unit_passive_shade_haunt_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
+unit_abilities_onscreen_name_nag_unit_passive_shade_haunt_vortex	Restless ghosts vortex  [HIDDEN]	true
+unit_abilities_tooltip_text_nag_unit_passive_shade_haunt_vortex_visual_dummy	Wildly swirling ghosts will tear apart any enemy they can reach.	true
+unit_abilities_onscreen_name_nag_unit_passive_shade_haunt_vortex_visual_dummy	Restless ghosts	true
+unit_abilities_tooltip_text_nag_unit_passive_spectre_swarm_vortex	This stuff does actual damage with self refreshing vortex  [HIDDEN]	true
+unit_abilities_onscreen_name_nag_unit_passive_spectre_swarm_vortex	Restless ghosts vortex  [HIDDEN]	true
+unit_abilities_tooltip_text_nag_unit_passive_spectre_swarm_vortex_visual_dummy	Wildly swirling ghosts will tear apart any enemy they can reach.	true
+unit_abilities_onscreen_name_nag_unit_passive_spectre_swarm_vortex_visual_dummy	Restless ghosts	true
+unit_abilities_onscreen_name_nag_unit_passive_grim_aura	The Last Journey	true
+unit_abilities_tooltip_text_nag_unit_passive_grim_aura	The plague cart is the very symbol of the last journey, that which ends at the cemetery gates and it is Lord Virions task to guide them to their fated destination.	true
+unit_abilities_onscreen_name_nag_unit_passive_marshlight_aura	Marshlight Lanterns	true
+unit_abilities_tooltip_text_nag_unit_passive_marshlight_aura	Marshlights are ethereal creatures taking the form of glowing lights or lanterns, they emit a compelling hypnotic effect by which they lead mesmerised individuals to their deaths and feed on their ebbing life-force.	true
+unit_abilities_onscreen_name_nag_unit_passive_torment	Tormented Execution	true
+unit_abilities_tooltip_text_nag_unit_passive_torment	As these spirits near closer to their own demise, they grow in fury and malice to make sure all beings that draw breath will breath their last.	true
 unit_abilities_onscreen_name_nag_warp_ghouls_aura	The Sickly Glow	true
 unit_abilities_tooltip_text_nag_warp_ghouls_aura	Warpstone and undeath may go hand in hand, despite only one or none of them having hands. There are also... paws out there eager to acquire warpstone.	true
 unit_abilities_onscreen_name_nag_warp_ghouls_aura_skaven	HIDDEN	true
+unit_abilities_onscreen_name_nag_unit_passive_grasping_hands	Grasping Hands	true
+unit_abilities_tooltip_text_nag_unit_passive_grasping_hands	Cold long, taloned hands grasping aimlessly towards their warm-blooded victims with terrible inevitability.	true
+unit_abilities_onscreen_name_nag_unit_abilities_malevolent_assault	Malevolent Assault	true
+unit_abilities_tooltip_text_nag_unit_abilities_malevolent_assault	Traitors, oath-breakers and accursed, all have been driven mad, evil, or both by their years of torment and their only outlet is you...	true
+unit_abilities_onscreen_name_nag_unit_abilities_beyond_the_veil	Beyond the Veil	true
+unit_abilities_tooltip_text_nag_unit_abilities_beyond_the_veil	The place between life and death, malign spirits wait and possess the objects or beings around them, lying in a state of dormancy until a victim draws near.	true
+unit_abilities_onscreen_name_nag_unit_passive_heavy_with_death	Heavy With Death	true
+unit_abilities_tooltip_text_nag_unit_passive_heavy_with_death	The air in these ancient woods is heavy with death, dark magic seeps through twisted trees empowering its denizens.	true
