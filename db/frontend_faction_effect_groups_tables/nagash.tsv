@@ -1,0 +1,4 @@
+group_key	campaign	faction_leader	ui_section
+#frontend_faction_effect_groups_tables;0;db/frontend_faction_effect_groups_tables/nagash			
+nag_nagash_faction		wh2_main_political_party_vmp_nagash	faction_traits
+nag_nagash_leader		wh2_main_political_party_vmp_nagash	lord_traits

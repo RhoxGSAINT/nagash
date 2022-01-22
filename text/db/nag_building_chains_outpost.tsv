@@ -56,18 +56,18 @@ building_chains_chain_tooltip_nag_outpost_special_khemri	Khemri	true
 building_chains_chain_tooltip_nag_outpost_special_awakening	The Awakening	true
 building_chains_chain_tooltip_nag_outpost_special_drakenhof	Castle Drakenhof	true
 building_chains_chain_tooltip_nag_outpost_special_quintex	Ancient City of Quitex	true
-building_chains_chain_tooltip_nag_outpost_primary_research	[PH] WoM + Research (CV) Tower of Dhar	true
-building_chains_chain_tooltip_nag_outpost_primary_arcane	[PH] Upkeep reduction + bonus loot (CV) Chasm of Souls	true
-building_chains_chain_tooltip_nag_outpost_primary_support	[PH] Garrison + local troop buff (CV) Mausoleum of the Damned	true
-building_chains_chain_tooltip_nag_outpost_primary_nehek	[PH] Nehek caps  (CV) Nehekharan Tombs	true
-building_chains_chain_tooltip_nag_outpost_primary_nagashizzar	[PH] Nagashizzar caps   (CV) Ancient Catacombs	true
-building_chains_chain_tooltip_nag_outpost_primary_coast	[PH] Coast caps  (CV) Watery Graves	true
-building_chains_chain_tooltip_nag_outpost_primary_count	[PH] Sylvanian caps (CV) Stone Crypts	true
-building_chains_chain_tooltip_nag_outpost_primary_warpstone	[PH] Warpstone resource mine? (CV) Warpstone Lode	true
-building_chains_chain_tooltip_nag_outpost_secondary_fields	[PH] Replinshment + crypt ghouls (CV) Field of Bones	true
-building_chains_chain_tooltip_nag_outpost_secondary_corruption	[PH] Vmp corruption to adjacent (CV) Wellspring of Corruption	true
-building_chains_chain_tooltip_nag_outpost_secondary_syphon	[PH] Movement debuff to enemy (CV) Fetid Mire	true
-building_chains_chain_tooltip_nag_outpost_secondary_energy	[PH] Income (Souls) (CV) Spirit Siphon	true
+building_chains_chain_tooltip_nag_outpost_primary_research	Dhar Magic	true
+building_chains_chain_tooltip_nag_outpost_primary_arcane	Souls	true
+building_chains_chain_tooltip_nag_outpost_primary_support	Garrison	true
+building_chains_chain_tooltip_nag_outpost_primary_nehek	Sepulchres 	true
+building_chains_chain_tooltip_nag_outpost_primary_nagashizzar	Catacombs	true
+building_chains_chain_tooltip_nag_outpost_primary_coast	Marshes	true
+building_chains_chain_tooltip_nag_outpost_primary_count	Crypts	true
+building_chains_chain_tooltip_nag_outpost_primary_warpstone	Mines	true
+building_chains_chain_tooltip_nag_outpost_secondary_fields	Fields	true
+building_chains_chain_tooltip_nag_outpost_secondary_corruption	Corruption	true
+building_chains_chain_tooltip_nag_outpost_secondary_syphon	Control	true
+building_chains_chain_tooltip_nag_outpost_secondary_energy	Magic	true
 building_chains_chain_tooltip_nag_settlement_cavalry	Cavalry	true
 building_chains_chain_tooltip_nag_settlement_chariots	Chariots	true
 building_chains_chain_tooltip_nag_settlement_citadel	Citadel	true

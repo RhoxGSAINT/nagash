@@ -281,12 +281,12 @@ building_short_description_texts_short_description_nag_resource_furs_1	To hunt h
 building_short_description_texts_short_description_nag_resource_furs_2	Should the dead be commanded to, an expedition will venture into the haunted woods in search of beasts to be killed, then promptly unkilled.	true
 building_short_description_texts_short_description_nag_resource_furs_3	What is the Flayer? A myth, but one that is all too real.	true
 building_short_description_texts_short_description_nag_resource_gold_1	Gold found here is always tarnished and far from the pure element so beloved by Dwarfs. Nevertheless, it has value.	true
-building_short_description_texts_short_description_nag_resource_gold_2	When the Legions of Nagash discover a large seam of gold, they will send their minions forth to scour it clean.	true
+building_short_description_texts_short_description_nag_resource_gold_2	When Nagash's legions discover a large seam of gold, they will send their minions forth to scour it clean.	true
 building_short_description_texts_short_description_nag_resource_gold_3	A great furnace with an ornate, brazen face, and yellow-green balefire within its sneering mouth.	true
 building_short_description_texts_short_description_nag_resource_iron_1	The blackest iron ore can be found in the deepest pits, underneath the mountains upon which gothic castles perch.	true
 building_short_description_texts_short_description_nag_resource_iron_2	Since before the building of Nagashizzar, Necromancers have used Zombies & Ghouls to burrow and mine mountains for their minerals.	true
 building_short_description_texts_short_description_nag_resource_iron_3	Cursed iron ore is laced with Warpstone. Such mines are prized.	true
-building_short_description_texts_short_description_nag_resource_marble_1	The dread castles of the Legions of Nagash are made from stone shaped by the dead themselves.	true
+building_short_description_texts_short_description_nag_resource_marble_1	The dread castles of Nagash are made from stone shaped by the dead themselves.	true
 building_short_description_texts_short_description_nag_resource_marble_2	There is an art to creating a memorable tombstone or grand mausoleum.	true
 building_short_description_texts_short_description_nag_resource_marble_3	Some gargoyles are fashioned by sculptors - others just appear, as if they flew there themselves.	true
 building_short_description_texts_short_description_nag_resource_pottery_1	Beneath the blood-clotted streams and rank sewage are pits of dense, dark clay.	true
@@ -301,3 +301,6 @@ building_short_description_texts_short_description_nag_resource_timber_3	From th
 building_short_description_texts_short_description_nag_resource_wine_1	When a Vampire drinks an "aged red" from a wine glass, chances are it hasn't been made from grapes…	true
 building_short_description_texts_short_description_nag_resource_wine_2	These orchards contain low-hanging, spooky trees, whose thorny branches are as likely to grab a passer-by as provide fruit.	true
 building_short_description_texts_short_description_nag_resource_wine_3	Vampires crave the illusion that they are nobles, and so they bottle their own "special" vintages.	true
+building_short_description_texts_short_description_nag_nagash_settlement	Once a living settlement of living creatures, now little more than magic-scorched cold ruins where the unliving roam and march.	true
+building_short_description_texts_short_description_nag_nagash_occupied_big_port	Nagash cares little about seafaring, but he understands strategic locations. These can turn out useful to Harkon, on good days.	true
+building_short_description_texts_short_description_nag_outpost_special_khemri	Oh, what a victory to be savoured, and many monuments to be defaced. 	true
