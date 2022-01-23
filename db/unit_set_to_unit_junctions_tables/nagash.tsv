@@ -386,3 +386,5 @@ hero				nag_characters	false
 			nag_warp_ghouls	nag_army_warbeasts_monstrous_inf	false
 			nag_warp_ghouls	nag_army_nagashizzar_units	false
 			nag_warp_ghouls	nag_beasts_unit_set	false
+			nag_vanilla_tmb_inf_tomb_guard_0	wh2_dlc09_tmb_tomb_guard	false
+			nag_vanilla_tmb_inf_tomb_guard_1	wh2_dlc09_tmb_tomb_guard	false
