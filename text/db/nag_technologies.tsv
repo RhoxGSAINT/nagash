@@ -72,8 +72,8 @@ technologies_onscreen_name_nag_neferata_battle_2	Neferata Battle 2	false
 technologies_onscreen_name_nag_neferata_battle_3	The Mortarch's Own	false
 technologies_onscreen_name_nag_neferata_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_neferata_archai	Bestow the Archai	false
-technologies_onscreen_name_nag_vlad_battle_1	Vlad Battle 1	false
-technologies_onscreen_name_nag_vlad_battle_2	Vlad Battle 2	false
+technologies_onscreen_name_nag_vlad_battle_1	Vashanesh's Knights	false
+technologies_onscreen_name_nag_vlad_battle_2	Vashanesh's Vanguard	false
 technologies_onscreen_name_nag_vlad_battle_3	The Mortarch's Own	false
 technologies_onscreen_name_nag_vlad_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_vlad_archai	Bestow the Archai	false
@@ -119,9 +119,9 @@ technologies_short_description_nag_neferata_battle_2	Neferata Battle 2	false
 technologies_short_description_nag_neferata_battle_3	Neferata Battle 3	false
 technologies_short_description_nag_neferata_proclamation	Neferata Boon	false
 technologies_short_description_nag_neferata_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_vlad_battle_1	Vlad Battle 1	false
-technologies_short_description_nag_vlad_battle_2	Vlad Battle 2	false
-technologies_short_description_nag_vlad_battle_3	Vlad Battle 3	false
+technologies_short_description_nag_vlad_battle_1	War is not won merely by standing behind thousands of skeletons.	false
+technologies_short_description_nag_vlad_battle_2	Swiftly. Quickly.	false
+technologies_short_description_nag_vlad_battle_3	The Von Carstein dominion over certain fell creatures is undeniable.	false
 technologies_short_description_nag_vlad_proclamation	Vlad Boon	false
 technologies_short_description_nag_vlad_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technology_ui_groups_optional_display_name_nag_mortarchs	The Mortarchs	false

@@ -388,3 +388,10 @@ hero				nag_characters	false
 			nag_warp_ghouls	nag_beasts_unit_set	false
 			nag_vanilla_tmb_inf_tomb_guard_0	wh2_dlc09_tmb_tomb_guard	false
 			nag_vanilla_tmb_inf_tomb_guard_1	wh2_dlc09_tmb_tomb_guard	false
+			nag_vanilla_tmb_cav_necropolis_knights_0	wh2_dlc09_tmb_cav_necropolis_knights_0	false
+			nag_vanilla_tmb_cav_necropolis_knights_1	wh2_dlc09_tmb_cav_necropolis_knights_1	false
+			nag_vanilla_tmb_cav_necropolis_knights_0	wh2_dlc09_tmb_necropolis_knights	false
+			nag_vanilla_tmb_cav_necropolis_knights_1	wh2_dlc09_tmb_necropolis_knights	false
+			nag_vanilla_tmb_cav_nehekhara_horsemen_0	wh2_dlc09_tmb_horsemen	false
+			nag_vanilla_tmb_cav_skeleton_horsemen_0	wh2_dlc09_tmb_horsemen	false
+			nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	wh2_dlc09_tmb_horsemen	false
