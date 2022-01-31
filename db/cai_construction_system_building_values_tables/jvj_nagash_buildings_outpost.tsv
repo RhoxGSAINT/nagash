@@ -83,6 +83,8 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		nag_settlement_scorpions_1	nag_settlement_scorpions_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_settlement_ushabti_1	nag_settlement_ushabti_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_settlement_warsphinx_1	nag_settlement_warsphinx_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_settlement_priest_1	nag_settlement_priest_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
+		nag_settlement_spirit_1	nag_settlement_spirit_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_resource_gemstones_1	nag_resource_gemstones_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_resource_obsidian_1	nag_resource_obsidian_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_resource_dyes_1	nag_resource_dyes_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100

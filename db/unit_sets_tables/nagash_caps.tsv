@@ -38,10 +38,14 @@ nag_effect_unit_cap_blood_knights_0	false	-1	-1
 nag_effect_unit_cap_corpse_cart_1	false	-1	-1	
 nag_effect_unit_cap_corpse_cart_2	false	-1	-1	
 nag_effect_unit_cap_vargheists	false	-1	-1	
+nag_effect_unit_cap_crypt_horrors	false	-1	-1	
+nag_effect_unit_cap_varghulf	false	-1	-1	
 nag_effect_unit_cap_zombie_gunnery_mob_1	false	-1	-1	
 nag_effect_unit_cap_deck_gunners_0	false	-1	-1	
 nag_effect_unit_cap_depth_guard_0	false	-1	-1	
 nag_effect_unit_cap_bloated_corpse_0	false	-1	-1	
+nag_effect_unit_cap_carronade	false	-1	-1	
+nag_effect_unit_cap_necrofex_colossus_0	false	-1	-1	
 nag_effect_unit_cap_terrorgheist	false	-1	-1	
 nag_effect_unit_cap_spectre_swarm	false	-1	-1	
 nag_effect_unit_cap_spirit_hosts	false	-1	-1	

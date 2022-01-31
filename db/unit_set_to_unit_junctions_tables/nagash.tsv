@@ -146,6 +146,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_tmb_art_casket_of_souls_0	nag_army_ranged	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_army_ranged	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_army_ranged	false
+			nag_vanilla_cst_art_carronade	nag_army_ranged	false
+			nag_vanilla_cst_mon_necrofex_colossus_0	nag_army_ranged	false
 			nag_vanilla_tmb_inf_skeleton_spearmen_0	nag_army_infantry	false
 			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_army_infantry	false
 			nag_vanilla_vmp_inf_cairn_wraiths	nag_army_infantry	false
@@ -181,6 +183,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_vmp_mon_dire_wolves	nag_army_warbeasts_monstrous_inf	false
 			nag_vanilla_vmp_mon_fell_bats	nag_army_warbeasts_monstrous_inf	false
 			nag_vanilla_vmp_mon_vargheists	nag_army_warbeasts_monstrous_inf	false
+			nag_vanilla_vmp_mon_crypt_horrors	nag_army_warbeasts_monstrous_inf	false
 			nag_morghasts	nag_army_warbeasts_monstrous_inf	false
 			nag_bone_golems	nag_army_warbeasts_monstrous_inf	false
 			nag_sand_crawlies	nag_army_warbeasts_monstrous_inf	false
@@ -196,6 +199,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_tmb_mon_bone_giant_0	nag_army_monsters_constructs	false
 			nag_vanilla_cst_mon_terrorgheist	nag_army_monsters_constructs	false
 			nag_bone_colossus	nag_army_monsters_constructs	false
+			nag_vanilla_vmp_mon_varghulf	nag_army_monsters_constructs	false
+			nag_vanilla_cst_mon_necrofex_colossus_0	nag_army_monsters_constructs	false
 			nag_vanilla_vmp_inf_zombie	nag_army_count_units	false
 			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_army_count_units	false
 			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_army_count_units	false
@@ -210,6 +215,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_vmp_mon_dire_wolves	nag_army_count_units	false
 			nag_vanilla_vmp_mon_fell_bats	nag_army_count_units	false
 			nag_vanilla_vmp_mon_vargheists	nag_army_count_units	false
+			nag_vanilla_vmp_mon_crypt_horrors	nag_army_count_units	false
+			nag_vanilla_vmp_mon_varghulf	nag_army_count_units	false
 			nag_vanilla_tmb_inf_skeleton_archers_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_spearmen_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_army_nehek_units	false
@@ -227,6 +234,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_army_coast_units	false
 			nag_vanilla_cst_mon_bloated_corpse_0	nag_army_coast_units	false
 			nag_vanilla_cst_mon_terrorgheist	nag_army_coast_units	false
+			nag_vanilla_cst_art_carronade	nag_army_coast_units	false
+			nag_vanilla_cst_mon_necrofex_colossus_0	nag_army_coast_units	false
 			nag_morghasts	nag_army_nagashizzar_units	false
 			nag_nagashi_guard	nag_army_nagashizzar_units	false
 			nag_nagashi_guard_halb	nag_army_nagashizzar_units	false
@@ -256,8 +265,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_bone_thrower	nag_arty_unit_set	false
 			wh2_dlc09_tmb_art_casket_of_souls_0	nag_arty_unit_set	false
 			nag_vanilla_tmb_art_screaming_skull_catapult_0	nag_arty_unit_set	false
+			nag_vanilla_cst_art_carronade	nag_arty_unit_set	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_gunnery_carronade_unit_set	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_gunnery_carronade_unit_set	false
+			nag_vanilla_cst_art_carronade	nag_gunnery_carronade_unit_set	false
 	war_beast			nag_warhounds_unit_set	false
 lord				nag_characters	false
 hero				nag_characters	false
@@ -311,6 +322,7 @@ hero				nag_characters	false
 			nag_vanilla_vmp_inf_grave_guard_1	nag_skeletons	false
 			nag_vanilla_vmp_inf_zombie	nag_ghouls_zombies	false
 			nag_vanilla_vmp_inf_crypt_ghouls	nag_ghouls_zombies	false
+			nag_vanilla_vmp_mon_crypt_horrors	nag_ghouls_zombies	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_0	nag_ghouls_zombies	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_1	nag_ghouls_zombies	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_ghouls_zombies	false
@@ -340,6 +352,7 @@ hero				nag_characters	false
 			wh_main_vmp_cha_vampire_2	nag_vampiric	false
 			nag_vanilla_vmp_cav_blood_knights_0	nag_vampiric	false
 			nag_vanilla_cst_inf_depth_guard_0	nag_vampiric	false
+			nag_vanilla_vmp_mon_varghulf	nag_vampiric	false
 			nag_vanilla_vmp_inf_crypt_ghouls	nag_crypt_ghouls	false
 			wh_dlc05_vmp_cha_vampire_shadows_0	nag_female_vampires	false
 			wh_dlc05_vmp_cha_vampire_shadows_1	nag_female_vampires	false
@@ -380,6 +393,7 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_ushabti_1	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_constructs_unit_set	false
+			nag_vanilla_cst_mon_necrofex_colossus_0	nag_constructs_unit_set	false
 			nag_bone_colossus	wh2_main_ror_units_all	false
 			nag_virion_plaguecart	wh2_main_ror_units_all	false
 			nag_revenants	wh2_main_ror_units_all	false
@@ -395,3 +409,9 @@ hero				nag_characters	false
 			nag_vanilla_tmb_cav_nehekhara_horsemen_0	wh2_dlc09_tmb_horsemen	false
 			nag_vanilla_tmb_cav_skeleton_horsemen_0	wh2_dlc09_tmb_horsemen	false
 			nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	wh2_dlc09_tmb_horsemen	false
+			nag_carrion_riders	nag_carrion	false
+			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_powder	false
+			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_powder	false
+			nag_vanilla_cst_inf_deck_gunners_0	nag_powder	false
+			nag_vanilla_cst_art_carronade	nag_powder	false
+			nag_vanilla_cst_mon_necrofex_colossus_0	nag_powder	false

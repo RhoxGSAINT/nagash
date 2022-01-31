@@ -128,3 +128,7 @@ spellcaster	nag_nagash_boss
 terror	nag_nagash_boss
 armoured	nag_nagash_boss
 armour_piercing	nag_nagash_boss
+anti_infantry	nag_bone_colossus
+armour_piercing	nag_bone_colossus
+cumbersome	nag_bone_colossus
+terror	nag_bone_colossus

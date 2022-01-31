@@ -83,19 +83,19 @@ character_skills_localised_description_nag_skill_campaign_nagash_small_self_defe
 character_skills_localised_name_nag_skill_magic_nagash_dummy_raise_the_dead	Raise The Dead [HIDDEN]	true
 character_skills_localised_description_nag_skill_magic_nagash_dummy_raise_the_dead	[PH]	true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_abyssal_swarm	Razkhar, the Abyssal Swarm	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_abyssal_swarm	The wizard binds the bones of predatory creatures with dark magic, causing them to rise from their animal graves.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_abyssal_swarm		true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_breath_of_darkness	Morkharn, the Breath of Darkness	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_breath_of_darkness	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_breath_of_darkness		true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_soul_stealer	Khizaar, the Soul Stealer	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_soul_stealer	The wizard tears the souls from his victims' bodies before breathing unlife into their sundered corpses.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_soul_stealer		true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_dark_riders	Akar'aran, the Dark Riders	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_dark_riders	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_dark_riders		true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_grave_call_master	Ryze, the Grave Call	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_grave_call_master	Drawing forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_grave_call_master		true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_hand_of_dust	Sulekhim, the Hand of Dust	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_hand_of_dust		true
 character_skills_localised_name_nag_skill_wh_main_spell_nagash_harbinger	Kandorak, the Harbinger	true
-character_skills_localised_description_nag_skill_wh_main_spell_nagash_harbinger	The greatest practitioners of the dark arts can summon forth the most fearsome champions and creatures of undeath.	true
+character_skills_localised_description_nag_skill_wh_main_spell_nagash_harbinger		true
 character_skills_localised_name_nag_skill_magic_nagash_arch_necromancer	Arch Necromancer	true
 character_skills_localised_description_nag_skill_magic_nagash_arch_necromancer	There will be no escape, no blessed oblivion. I can end your life as easily as I can extinguish a candle, and before your corpse is cold, I can reach out and grasp your soul. You will be my slave for all eternity, and I shall laugh at the depths of your pain. Such is the power of Nagash.	true
 character_skills_localised_name_nag_skill_magic_nagash_master_arcane_conduit	Master Arcane Conduit	true

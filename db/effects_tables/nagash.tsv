@@ -75,9 +75,19 @@ nag_effect_resource_upkeep_reduction_construct	treasury.png	106	treasury.png	cam
 nag_effect_resource_upkeep_reduction_zombie	treasury.png	106	treasury.png	campaign	false
 nag_effect_resource_upkeep_reduction_coast	treasury.png	106	treasury.png	campaign	false
 nag_effect_agent_recruitment_xp_spy_archai	saurus_scar_veteran.png	3	saurus_scar_veteran.png	campaign	true
+nag_effect_agent_recruitment_xp_general_traitor_kings	agent.png	118	agent.png	campaign	true
+nag_effect_agent_recruitment_xp_hero_all	agent.png	118	agent.png	campaign	true
 nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	wight_king.png	3	wight_king.png	campaign	true
+nag_effect_agent_recruitment_xp_champion_tomb_prince	tomb_prince.png	3	tomb_prince.png	campaign	true
 nag_effect_agent_recruitment_xp_wizard_liche_priests	wizard.png	3	wizard.png	campaign	true
 nag_effect_agent_recruitment_xp_engineer_gunnery_wight	gunnery_wight.png	3	gunnery_wight.png	campaign	true
 nag_effect_agent_recruitment_xp_dignitary_vampires	vampire.png	3	vampire.png	campaign	true
 nag_effect_force_enemy_campaign_movement_range_hidden		0		campaign	false
 nag_effect_force_own_campaign_movement_range_hidden		0		campaign	true
+nag_effect_enable_flaming_attacks_carrion	modifier_icon_flaming.png	61	modifier_icon_flaming.png	battle	true
+nag_effect_charge_bonus_chariots	charge.png	101	charge.png	battle	true
+nag_effect_melee_defence_skeletons	defence.png	102	defence.png	campaign	true
+nag_effect_melee_attack_skeletons	melee.png	103	melee.png	campaign	true
+nag_effect_upkeep_reduction_skeletons	military_spending.png	105	military_spending.png	campaign	false
+nag_effect_ammunition_powder	ammo.png	201	ammo.png	battle	true
+nag_effect_force_unit_stat_attack_attacking	melee.png	103	melee.png	campaign	true

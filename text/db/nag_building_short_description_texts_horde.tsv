@@ -74,64 +74,67 @@ building_short_description_texts_short_description_nag_luthor_horde_special_2	Ra
 building_short_description_texts_short_description_nag_luthor_horde_special_3	It was made by those who are Dead, and the Dead keep it.	true
 building_short_description_texts_short_description_nag_luthor_horde_special_4	Undead legions vast beyond human comprehension, utterly relentless and without mercy.	true
 building_short_description_texts_short_description_nag_luthor_horde_special_5	The age of the living is finally drawing to an end...	true
-building_short_description_texts_short_description_nag_nagash_horde_landmark_0	[PH]	true
-building_short_description_texts_short_description_nag_nagash_horde_landmark_1	[PH]	true
-building_short_description_texts_short_description_nag_arkhan_horde_landmark_0	[PH]	true
-building_short_description_texts_short_description_nag_arkhan_horde_landmark_1	[PH]	true
-building_short_description_texts_short_description_nag_vlad_horde_landmark_0	[PH]	true
-building_short_description_texts_short_description_nag_vlad_horde_landmark_1	[PH]	true
-building_short_description_texts_short_description_nag_neffy_horde_landmark_0	[PH]	true
-building_short_description_texts_short_description_nag_neffy_horde_landmark_1	[PH]	true
-building_short_description_texts_short_description_nag_manny_horde_landmark_0	[PH]	true
-building_short_description_texts_short_description_nag_manny_horde_landmark_1	[PH]	true
-building_short_description_texts_short_description_nag_krell_horde_landmark_0	[PH]	true
-building_short_description_texts_short_description_nag_krell_horde_landmark_1	[PH]	true
-building_short_description_texts_short_description_nag_luthor_horde_landmark_0	[PH]	true
-building_short_description_texts_short_description_nag_luthor_horde_landmark_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_military1_barracks_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_military1_barracks_2	[PH]	true
-building_short_description_texts_short_description_nag_horde_military1_barracks_3	[PH]	true
+building_short_description_texts_short_description_nag_nagash_horde_landmark_0	The disparate forces of the dead are united in purpose, answering Nagash's summons and fighting together under his rule.	true
+building_short_description_texts_short_description_nag_nagash_horde_landmark_1	Mummified Tomb Kings ride into battle alongside bloodthirsty Vampire Lords, while skeletal legions of a bygone age form ranks beside corpses freshly risen from their graves.	true
+building_short_description_texts_short_description_nag_arkhan_horde_landmark_0	The disparate forces of the dead are united in purpose, answering Nagash's summons and fighting together under his rule.	true
+building_short_description_texts_short_description_nag_arkhan_horde_landmark_1	Mummified Tomb Kings ride into battle alongside bloodthirsty Vampire Lords, while skeletal legions of a bygone age form ranks beside corpses freshly risen from their graves.	true
+building_short_description_texts_short_description_nag_vlad_horde_landmark_0	The disparate forces of the dead are united in purpose, answering Nagash's summons and fighting together under his rule.	true
+building_short_description_texts_short_description_nag_vlad_horde_landmark_1	Mummified Tomb Kings ride into battle alongside bloodthirsty Vampire Lords, while skeletal legions of a bygone age form ranks beside corpses freshly risen from their graves.	true
+building_short_description_texts_short_description_nag_neffy_horde_landmark_0	The disparate forces of the dead are united in purpose, answering Nagash's summons and fighting together under his rule.	true
+building_short_description_texts_short_description_nag_neffy_horde_landmark_1	Mummified Tomb Kings ride into battle alongside bloodthirsty Vampire Lords, while skeletal legions of a bygone age form ranks beside corpses freshly risen from their graves.	true
+building_short_description_texts_short_description_nag_manny_horde_landmark_0	The disparate forces of the dead are united in purpose, answering Nagash's summons and fighting together under his rule.	true
+building_short_description_texts_short_description_nag_manny_horde_landmark_1	Mummified Tomb Kings ride into battle alongside bloodthirsty Vampire Lords, while skeletal legions of a bygone age form ranks beside corpses freshly risen from their graves.	true
+building_short_description_texts_short_description_nag_krell_horde_landmark_0	The disparate forces of the dead are united in purpose, answering Nagash's summons and fighting together under his rule.	true
+building_short_description_texts_short_description_nag_krell_horde_landmark_1	Mummified Tomb Kings ride into battle alongside bloodthirsty Vampire Lords, while skeletal legions of a bygone age form ranks beside corpses freshly risen from their graves.	true
+building_short_description_texts_short_description_nag_luthor_horde_landmark_0	The disparate forces of the dead are united in purpose, answering Nagash's summons and fighting together under his rule.	true
+building_short_description_texts_short_description_nag_luthor_horde_landmark_1	Mummified Tomb Kings ride into battle alongside bloodthirsty Vampire Lords, while skeletal legions of a bygone age form ranks beside corpses freshly risen from their graves.	true
+building_short_description_texts_short_description_nag_horde_military1_barracks_1	Bloodthirsty beasts that fluttered like a dark cloud. Gnashing teeth and tearing claws, both ready to sink their claws and fangs into any foe.	true
+building_short_description_texts_short_description_nag_horde_military1_barracks_2	Beneath the shifting sands lay beasts not living or dead, tread with caution.	true
+building_short_description_texts_short_description_nag_horde_military1_barracks_3	Massive, reanimated sentinels created by the ancient Nehekharans to delineate the borders of a king's realm.	true
 building_short_description_texts_short_description_nag_horde_military1_barracks_4	[PH] DISABLED	true
-building_short_description_texts_short_description_nag_horde_military2_stables_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_military2_stables_2	[PH]	true
-building_short_description_texts_short_description_nag_horde_military2_stables_3	[PH]	true
+building_short_description_texts_short_description_nag_horde_military2_stables_1	Many a rider has lost their steed in the treacherous drifting sands. The corpses still litter the fast-holding mires.	true
+building_short_description_texts_short_description_nag_horde_military2_stables_2	The gleaming carriages of the Nehekharan chariots shine with the power of the brassworker's mastery.	true
+building_short_description_texts_short_description_nag_horde_military2_stables_3	Next to every great temple of the Mortuary Cult lies a covered pit in which its deadly, ophic guardians dwell.	true
 building_short_description_texts_short_description_nag_horde_military2_stables_4	[PH] DISABLED	true
-building_short_description_texts_short_description_nag_horde_military3_warmachines_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_military3_warmachines_2	[PH]	true
-building_short_description_texts_short_description_nag_horde_military4_monsters_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_military4_monsters_2	[PH]	true
-building_short_description_texts_short_description_nag_horde_military4_monsters_3	[PH]	true
-building_short_description_texts_short_description_nag_horde_support1_smith_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_support1_smith_2	[PH]	true
-building_short_description_texts_short_description_nag_horde_support2_worship_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_support2_worship_2	[PH]	true
-building_short_description_texts_short_description_nag_horde_support2_worship_3	[PH]	true
+building_short_description_texts_short_description_nag_horde_military3_warmachines_1	The crack of cartilage, the snap, the whine, and the howls of delight define the Bonemaster's work.	true
+building_short_description_texts_short_description_nag_horde_military3_warmachines_2	What better ammunition for catapults than the flaming, screaming skulls of the defeated dead?	true
+building_short_description_texts_short_description_nag_horde_military4_monsters_1	Ushabti are large, guardian statues carved into the likeness of the gods and goddess of ancient Nehekhara.	true
+building_short_description_texts_short_description_nag_horde_military4_monsters_2	It is not the sting of the Scorpion that kills, but rather its powerful claws and voracious, insatiable appetite.	true
+building_short_description_texts_short_description_nag_horde_military4_monsters_3	The abominable Necrosphinx towers above the Nehekharans, offering protection and destruction in exchange for hushed and cowed adoration.	true
+building_short_description_texts_short_description_nag_horde_support1_smith_1	Each necropolis, has a temple dedicated to Nehekhara's Mortuary Cult. Here reside the Liche Priests served by many lesser priests.	true
+building_short_description_texts_short_description_nag_horde_support1_smith_2	The wording of each and every incantation is recorded on dusty papyrus scrolls written in the mysterious hieroglyphs of Nehekhara's ancient language.	true
+building_short_description_texts_short_description_nag_horde_support2_worship_1	The crypts of this world are dangerous places, the dead do not rest here, they do not rest.	true
+building_short_description_texts_short_description_nag_horde_support2_worship_2	To summon vile minions, a circle must be etched in the ground, with symbols of a dead language scrawled around it. 	true
+building_short_description_texts_short_description_nag_horde_support2_worship_3	An infernal lodestone is planted inside a binding circle, summoning the most powerful of all spirits as it glows.	true
+building_short_description_texts_short_description_nag_horde_support2_worship_4	A swirling mass of dark energy swarms around the site, tearing a gateway in the sky to the Realm of Souls.	true
 building_short_description_texts_short_description_nag_horde_support3_wizards_1	[PH] DISABLED	true
-building_short_description_texts_short_description_nag_horde_infrastructure1_growth_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_infrastructure1_growth_2	[PH]	true
-building_short_description_texts_short_description_nag_horde_infrastructure1_growth_3	[PH]	true
-building_short_description_texts_short_description_nag_horde_infrastructure2_industry_1	[PH]	true
-building_short_description_texts_short_description_nag_horde_infrastructure2_industry_2	[PH]	true
+building_short_description_texts_short_description_nag_horde_infrastructure1_growth_1	From these death houses, the dead continue to rise to fulfil their as-yet unfinished duty.	true
+building_short_description_texts_short_description_nag_horde_infrastructure1_growth_2	Once tombs of those with noble blood, they have been awakened to pursue their living aspirations once more.	true
+building_short_description_texts_short_description_nag_horde_infrastructure1_growth_3	Vast chambers of worked and preserved bone provide the perfect sanctuary for the resting dead.	true
+building_short_description_texts_short_description_nag_horde_infrastructure2_industry_1	Bones, a load of them, useful for all kinds of things.	true
+building_short_description_texts_short_description_nag_horde_infrastructure2_industry_2	Necromancy has the privilege of not needing supplies for it's undead armies, but it can't hurt, can it?	true
 building_short_description_texts_short_description_nag_horde_infrastructure3_energy_1	[PH] DISABLED	true
 building_short_description_texts_short_description_nag_horde_infrastructure3_energy_2	[PH] DISABLED	true
 building_short_description_texts_short_description_nag_horde_infrastructure3_energy_3	[PH] DISABLED	true
 building_short_description_texts_short_description_nag_horde_infrastructure4_other_1	[PH] DISABLED	true
 building_short_description_texts_short_description_nag_horde_infrastructure4_other_2	[PH] DISABLED	true
-building_short_description_texts_short_description_nag_subhorde_main_1	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_main_2	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_main_3	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_military1_barracks_1	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_military1_barracks_2	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_military1_barracks_3	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_military2_stables_1	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_military2_stables_2	[PH]	true
+building_short_description_texts_short_description_nag_subhorde_main_1	There are many places in the world that have been tainted by dark magic and whole battlefields that bear the scars of fell sorcery.	true
+building_short_description_texts_short_description_nag_subhorde_main_2	Raised from mass graves and despoiled tombs, the dead gather amidst the tumbled ruins and blasted groves of this ill-favoured realm. 	true
+building_short_description_texts_short_description_nag_subhorde_main_3	It was made by those who are Dead, and the Dead keep it.	true
+building_short_description_texts_short_description_nag_subhorde_military0_guard_1	The Tomb Kings demanded loyalty from their soldiers until death and beyond. In Unlife, they expect the same, and so does Nagash.	true
+building_short_description_texts_short_description_nag_subhorde_military1_barracks_1	Bloodthirsty beasts that fluttered like a dark cloud. Gnashing teeth and tearing claws, both ready to sink their claws and fangs into any foe.	true
+building_short_description_texts_short_description_nag_subhorde_military1_barracks_2	Beneath the shifting sands lay beasts not living or dead, tread with caution.	true
+building_short_description_texts_short_description_nag_subhorde_military1_barracks_3	Massive, reanimated sentinels created by the ancient Nehekharans to delineate the borders of a king's realm.	true
+building_short_description_texts_short_description_nag_subhorde_military2_stables_1	Many a rider has lost their steed in the treacherous drifting sands. The corpses still litter the fast-holding mires.	true
+building_short_description_texts_short_description_nag_subhorde_military2_stables_2	The gleaming carriages of the Nehekharan chariots shine with the power of the brassworker's mastery.	true
 building_short_description_texts_short_description_nag_subhorde_military2_stables_3	[PH] DISABLED	true
-building_short_description_texts_short_description_nag_subhorde_military3_warmachines	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_military4_monsters	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_support2_worship_1	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_support2_worship_2	[PH]	true
+building_short_description_texts_short_description_nag_subhorde_military3_warmachines	The crack of cartilage, the snap, the whine, and the howls of delight define the Bonemaster's work.	true
+building_short_description_texts_short_description_nag_subhorde_military4_monsters	Ushabti are large, guardian statues carved into the likeness of the gods and goddess of ancient Nehekhara.	true
+building_short_description_texts_short_description_nag_subhorde_support1_smith_1	Each necropolis, has a temple dedicated to Nehekhara's Mortuary Cult. Here reside the Liche Priests served by many lesser priests.	true
+building_short_description_texts_short_description_nag_subhorde_support2_worship_1	The crypts of this world are dangerous places, the dead do not rest here, they do not rest.	true
+building_short_description_texts_short_description_nag_subhorde_support2_worship_2	To summon vile minions, a circle must be etched in the ground, with symbols of a dead language scrawled around it. 	true
 building_short_description_texts_short_description_nag_subhorde_support2_worship_3	[PH] DISABLED	true
-building_short_description_texts_short_description_nag_subhorde_infrastructure1_growth_1	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_infrastructure1_growth_2	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_infrastructure2_industry_1	[PH]	true
-building_short_description_texts_short_description_nag_subhorde_infrastructure2_industry_2	[PH]	true
+building_short_description_texts_short_description_nag_subhorde_infrastructure1_growth_1	From these death houses, the dead continue to rise to fulfil their as-yet unfinished duty.	true
+building_short_description_texts_short_description_nag_subhorde_infrastructure1_growth_2	Once tombs of those with noble blood, they have been awakened to pursue their living aspirations once more.	true
+building_short_description_texts_short_description_nag_subhorde_infrastructure2_industry_1	Bones, a load of them, useful for all kinds of things.	true
+building_short_description_texts_short_description_nag_subhorde_infrastructure2_industry_2	Necromancy has the privilege of not needing supplies for it's undead armies, but it can't hurt, can it?	true

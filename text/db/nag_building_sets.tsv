@@ -40,6 +40,8 @@ building_sets_onscreen_name_nag_subhorde_military_support	Support	true
 building_sets_onscreen_description_nag_subhorde_military_support		true
 building_sets_onscreen_name_nag_subhorde_infrastructure	Undead Logistics	true
 building_sets_onscreen_description_nag_subhorde_infrastructure		true
+building_sets_onscreen_name_nag_outpost_port	Port	true
+building_sets_onscreen_description_nag_outpost_port	Ports can generate income and growth, along with facilitating trade with factions from afar.	true
 building_sets_onscreen_name_nag_outpost_unique	Landmark	true
 building_sets_onscreen_description_nag_outpost_unique	Easily recognised from a distance, and unique to their home regions, landmarks enable travellers – and armies – to get their bearings.	true
 building_sets_onscreen_name_nag_outpost_primary_outpost	Advanced Infrastructure	true

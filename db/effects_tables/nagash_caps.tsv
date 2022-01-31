@@ -38,9 +38,13 @@ nag_effect_unit_cap_blood_knights_0	unit_capacity.png	1	unit_capacity.png	campai
 nag_effect_unit_cap_corpse_cart_1	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_corpse_cart_2	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_vargheists	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_crypt_horrors	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_varghulf	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_zombie_gunnery_mob_1	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_deck_gunners_0	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_depth_guard_0	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_carronade	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_necrofex_colossus_0	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_terrorgheist	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_spectre_swarm	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_spirit_hosts	unit_capacity.png	1	unit_capacity.png	campaign	true

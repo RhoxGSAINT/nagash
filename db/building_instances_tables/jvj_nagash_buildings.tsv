@@ -58,10 +58,12 @@ nag_horde_infrastructure2_industry	1
 nag_horde_infrastructure3_energy	1
 nag_horde_infrastructure4_other	1
 nag_subhorde_main	1
+nag_subhorde_military0_guard	1
 nag_subhorde_military1_barracks	1
 nag_subhorde_military2_stables	1
 nag_subhorde_military3_warmachines	1
 nag_subhorde_military4_monsters	1
+nag_subhorde_support1_smith	1
 nag_subhorde_support2_worship	1
 nag_subhorde_infrastructure1_growth	1
 nag_subhorde_infrastructure2_industry	1
@@ -78,6 +80,8 @@ nag_settlement_necrosphinx	1
 nag_settlement_scorpions	1
 nag_settlement_ushabti	1
 nag_settlement_warsphinx	1
+nag_settlement_priest	1
+nag_settlement_spirit	1
 nag_outpost_special_nagashizzar	1
 nag_outpost_special_mourkain	1
 nag_outpost_special_lahmia	1

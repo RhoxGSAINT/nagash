@@ -32,7 +32,7 @@ nag_outpost_secondary_main_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	na
 nag_outpost_secondary_main_coast_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true
 nag_outpost_norsca_secondary_main_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true
 nag_outpost_norsca_secondary_main_coast_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true
-nag_outpost_main_port_1				wh_main_PLACEHOLDER	vampire_port	false	%placeholder%	true
+nag_outpost_main_port_1				wh_main_PLACEHOLDER	vampire_port	false	nag_nagash_occupied_big_port	true
 nag_outpost_main_port_ruin				wh_main_PLACEHOLDER	vampire_port	false	wh_main_settlement_major_ruin	true
 nag_outpost_primary_main_altdorf_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true
 nag_outpost_primary_main_altdorf_2				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true

@@ -33,54 +33,6 @@ effects_description_nag_effect_landmark_vlad_buff_dags_fatigue_res	Vigour loss r
 effects_description_nag_effect_landmark_vlad_buff_dags_melee	Melee attack: %+n for Dire Wolves	true
 effects_description_nag_effect_landmark_luthor_character_defence	Melee defence: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
 effects_description_nag_effect_landmark_luthor_magic_resistance	Magic resistance: %n% for all units	true
-effects_description_nag_effect_unit_cap_nagashi_guard	Unit capacity: %+n\\nNagashizzar Guard	true
-effects_description_nag_effect_unit_cap_nagashi_guard_halb	Unit capacity: %+n\\nNagashizzar Guard (Halberds)	true
-effects_description_nag_effect_unit_cap_bone_golems	Unit capacity: %+n\\nBone Golems	true
-effects_description_nag_effect_unit_cap_morghasts	Unit capacity: %+n\\nMorghasts	true
-effects_description_nag_effect_unit_cap_sand_crawlies	Unit capacity: %+n\\nSand Crawlers	true
-effects_description_nag_effect_unit_cap_warp_ghouls	Unit capacity: %+n\\nGlowing Ghouls	true
-effects_description_nag_effect_unit_cap_carrion_riders	Unit capacity: %+n\\nCarrion Riders	true
-effects_description_nag_effect_unit_cap_mortis_engine	Unit capacity: %+n\\nMortis Engine	true
-effects_description_nag_effect_unit_cap_spectre_swarm	Unit capacity: %+n\\nFell Spectres	true
-effects_description_nag_effect_unit_cap_spirit_hosts	Unit capacity: %+n\\nSpirit Hosts	true
-effects_description_nag_effect_unit_cap_bone_thrower	Unit capacity: %+n\\nBone Thrower	true
-effects_description_nag_effect_unit_cap_bone_giant_0	Unit capacity: %+n\\nBone Giant	true
-effects_description_nag_effect_unit_cap_dire_wolves	Unit capacity: %+n\\nDire Wolves	true
-effects_description_nag_effect_unit_cap_fell_bats	Unit capacity: %+n\\nFell Bats	true
-effects_description_nag_effect_unit_cap_sepulchral_stalkers_0	Unit capacity: %+n\\nSepulchral Stalkers	true
-effects_description_nag_effect_unit_cap_hexwraiths	Unit capacity: %+n\\nHexwraiths	true
-effects_description_nag_effect_unit_cap_skeleton_horsemen_0	Unit capacity: %+n\\nSkeleton Horsemen	true
-effects_description_nag_effect_unit_cap_skeleton_horsemen_archers_0	Unit capacity: %+n\\nSkeleton Horse Archers	true
-effects_description_nag_effect_unit_cap_skeleton_chariot_0	Unit capacity: %+n\\nSkeleton Chariots	true
-effects_description_nag_effect_unit_cap_skeleton_archer_chariot_0	Unit capacity: %+n\\nSkeleton Archer Chariots	true
-effects_description_nag_effect_unit_cap_necropolis_knights_0	Unit capacity: %+n\\nNecropolis Knights	true
-effects_description_nag_effect_unit_cap_necropolis_knights_1	Unit capacity: %+n\\nNecropolis Knights (Halberds)	true
-effects_description_nag_effect_unit_cap_screaming_skull_catapult_0	Unit capacity: %+n\\nScreaming Skull Catapults	true
-effects_description_nag_effect_unit_cap_casket_of_souls_0	Unit capacity: %+n\\nCasket of Souls	true
-effects_description_nag_effect_unit_cap_ushabti_0	Unit capacity: %+n\\nUshabti	true
-effects_description_nag_effect_unit_cap_ushabti_1	Unit capacity: %+n\\nUshabti (Great Bow)	true
-effects_description_nag_effect_unit_cap_tomb_scorpion_0	Unit capacity: %+n\\nTomb Scorpion	true
-effects_description_nag_effect_unit_cap_necrosphinx_0	Unit capacity: %+n\\nNecrosphinx	true
-effects_description_nag_effect_unit_cap_nehekhara_horsemen_0	Unit capacity: %+n\\nNehekhara Horsemen	true
-effects_description_nag_effect_unit_cap_nehekhara_warriors_0	Unit capacity: %+n\\nNehekhara Warriors	true
-effects_description_nag_effect_unit_cap_khemrian_warsphinx_0	Unit capacity: %+n\\nKhemrian Warsphinx	true
-effects_description_nag_effect_unit_cap_tomb_guard_0	Unit capacity: %+n\\nTomb Guard	true
-effects_description_nag_effect_unit_cap_tomb_guard_1	Unit capacity: %+n\\nTomb Guard (Halberds)	true
-effects_description_nag_effect_unit_cap_cairn_wraiths	Unit capacity: %+n\\nCairn Wraiths	true
-effects_description_nag_effect_unit_cap_crypt_ghouls	Unit capacity: %+n\\nCrypt Ghouls	true
-effects_description_nag_effect_unit_cap_grave_guard_0	Unit capacity: %+n\\nGrave Guard	true
-effects_description_nag_effect_unit_cap_grave_guard_1	Unit capacity: %+n\\nGrave Guard (Great Weapons)	true
-effects_description_nag_effect_unit_cap_vargheists	Unit capacity: %+n\\nVargheists	true
-effects_description_nag_effect_unit_cap_blood_knights_0	Unit capacity: %+n\\nBlood Knights	true
-effects_description_nag_effect_unit_cap_black_knights_0	Unit capacity: %+n\\nBlack Knights	true
-effects_description_nag_effect_unit_cap_black_knights_3	Unit capacity: %+n\\nBlack Knights (Lances & Barding)	true
-effects_description_nag_effect_unit_cap_corpse_cart_1	Unit capacity: %+n\\nCorpse Cart (Balefire)	true
-effects_description_nag_effect_unit_cap_corpse_cart_2	Unit capacity: %+n\\nCorpse Cart (Unholy Lodestone)	true
-effects_description_nag_effect_unit_cap_bloated_corpse_0	Unit capacity: %+n\\nBloated Corpse	true
-effects_description_nag_effect_unit_cap_zombie_gunnery_mob_1	Unit capacity: %+n\\nZombie Pirate Gunnery Mob (Handguns)	true
-effects_description_nag_effect_unit_cap_deck_gunners_0	Unit capacity: %+n\\nDeck Gunners	true
-effects_description_nag_effect_unit_cap_depth_guard_0	Unit capacity: %+n\\nDepth Guard	true
-effects_description_nag_effect_unit_cap_terrorgheist	Unit capacity: %+n\\nDeath Shriek Terrorgheist	true
 effects_description_nag_effect_army_ranged_ammo_skill	Ammunition: %+n% for all Ranged units	true
 effects_description_nag_effect_army_ranged_missile_strength_skill	Missile strength: %+n% for all Ranged units	true
 effects_description_nag_effect_army_infantry_armour_skill	Armour: %+n for all Infantry units	true
@@ -165,7 +117,7 @@ effects_description_nag_effect_self_krell_melee_attack_versus_nor_chs_bst	Melee 
 effects_description_nag_effect_self_krell_melee_damage_versus_nor_chs_bst	Weapon strength: %+n% for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	Charge bonus: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_luthor_missile_strength_arty	Missile strength: %+n% for all Artillery units	true
-effects_description_nag_effect_self_luthor_missile_strength_gunnery_carronade	Missile strength: %+n% for Zombie Pirate Gunnery Mob units	true
+effects_description_nag_effect_self_luthor_missile_strength_gunnery_carronade	Missile strength: %+n% for Zombie Pirate Gunnery Mob and Carronade units	true
 effects_description_nag_effect_enable_mount_arkhan_abyssal	Mount: Razark (Abyssal Terror)	true
 effects_description_nag_effect_enable_mount_mannfred_abyssal	Mount: Ashigaroth (Abyssal Terror)	true
 effects_description_nag_effect_enable_mount_neferata_abyssal	Mount: Nagadron (Abyssal Terror)	true
@@ -304,6 +256,9 @@ effects_description_nag_effect_resource_upkeep_reduction_count	Upkeep: %+n% for 
 effects_description_nag_effect_resource_upkeep_reduction_construct	Upkeep: %+n% for Construct units	true
 effects_description_nag_effect_resource_upkeep_reduction_zombie	Upkeep: %+n% for Ghoul and Zombie units	true
 effects_description_nag_effect_resource_upkeep_reduction_coast	Upkeep: %+n% for Coast units	true
+effects_description_nag_effect_agent_recruitment_xp_general_traitor_kings	Lord recruit rank: %+n for Traitor Kings	true
+effects_description_nag_effect_agent_recruitment_xp_hero_all	Hero recruit rank: %+n for All Heroes	true
+effects_description_nag_effect_agent_recruitment_xp_champion_tomb_prince	Hero recruit rank: %+n for Tomb Princes	true
 effects_description_nag_effect_agent_recruitment_xp_spy_archai	Hero recruit rank: %+n for Morghast Archais	true
 effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	Hero recruit rank: %+n for Wight Kings & Tomb Princes	true
 effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests	Hero recruit rank: %+n for Liche Priests	true
@@ -316,3 +271,11 @@ effects_description_nag_effect_tech_armour_all_guards	Armour: %+n for all Grave 
 effects_description_nag_effect_tech_dmg_all_guards	Weapon strength: %+n for all Grave Guard, Nagashizzar Guard and Tomb Guard units	true
 effects_description_nag_effect_tech_vanguard_necropolis	Attribute: Vanguard Deployment for Necropolis Knights	true
 effects_description_nag_effect_tech_vanguard_black_knights	Attribute: Vanguard Deployment for Black Knights	true
+effects_description_nag_effect_enable_flaming_attacks_carrion	Enables flaming attacks for Carrion Riders	true
+effects_description_nag_effect_charge_bonus_chariots	Charge bonus: %+n for all chariot units and mounts	true
+effects_description_nag_effect_melee_defence_skeletons	Melee defence: %+n for All Skeletal Infantry units	true
+effects_description_nag_effect_melee_attack_skeletons	Melee attack: %+n for All Skeletal Infantry units	true
+effects_description_nag_effect_upkeep_reduction_skeletons	Upkeep: %+n% for All Skeletal Infantry units	true
+effects_description_nag_effect_ammunition_powder	Ammunition: %+n% for Black Powder units	true
+effects_description_nag_ability_enable_endless_tomb	Army ability: "Endless Tomb"	true
+effects_description_nag_effect_force_unit_stat_attack_attacking	Melee Attack: %+n for all units when attacking	true

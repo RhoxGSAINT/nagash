@@ -82,6 +82,8 @@ nag_settlement_necrosphinx	nag_nagash
 nag_settlement_scorpions	nag_nagash
 nag_settlement_ushabti	nag_nagash
 nag_settlement_warsphinx	nag_nagash
+nag_settlement_priest	nag_nagash
+nag_settlement_spirit	nag_nagash
 nag_resource_gemstones	nag_nagash
 nag_resource_obsidian	nag_nagash
 nag_resource_dyes	nag_nagash
