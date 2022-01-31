@@ -1,19 +1,20 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_names.loc		
-names_name_1937224328	Nagash	true
-names_name_1937224329	Vlad	true
-names_name_1937224330	Mannfred	true
-names_name_1937224331	Luthor	true
-names_name_1937224332	Arkhan	true
-names_name_1937224333	Krell	true
-names_name_1937224334	Neferata	true
+names_name_1937224327	Nagash, Lord of the Undead	true
+names_name_1937224328	Nagash, Supreme Lord of Undeath	true
+names_name_1937224329	Vlad, Mortarch of Shadows	true
+names_name_1937224330	Mannfred, Mortarch of Night	true
+names_name_1937224331	Luthor, Mortarch of the Abyss	true
+names_name_1937224332	Arkhan, Mortarch of Sacraments 	true
+names_name_1937224333	Krell, Mortarch of Despair	true
+names_name_1937224334	Neferata, Mortarch of Blood	true
 names_name_1937224336	Isabella von Carstein	true
-names_name_1777692413	, Supreme Lord of Undeath	true
-names_name_1777692414	, Lord of the Undead	true
-names_name_1777692415	, Mortarch of Shadows	true
-names_name_1777692416	, Mortarch of Night	true
-names_name_1777692417	, Mortarch of the Abyss	true
-names_name_1777692418	, Mortarch of Sacraments 	true
-names_name_1777692419	, Mortarch of Despair	true
-names_name_1777692420	, Mortarch of Blood	true
+names_name_1777692413		true
+names_name_1777692414		true
+names_name_1777692415		true
+names_name_1777692416		true
+names_name_1777692417		true
+names_name_1777692418		true
+names_name_1777692419		true
+names_name_1777692420		true
 names_name_1777692421		true

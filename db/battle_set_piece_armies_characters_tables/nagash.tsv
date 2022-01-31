@@ -1,7 +1,7 @@
 character_name	character_level	forename	magic_lore	num_men	surname	unit_type	agent_type	agent_subtype	portrait	character_model	skillset	male
 #battle_set_piece_armies_characters_tables;7;db/battle_set_piece_armies_characters_tables/nagash												
 nag_nagash_boss	3	1937224328	wh_main_lore_vampires	100	1777692413	nag_nagash_boss	general	nag_nagash_boss	ui/portraits/portholes/no_culture/nag_nagash_boss.png	90909090		true
-nag_nagash_husk	3	1937224328	wh_main_lore_vampires	100	1777692414	nag_nagash_husk	general	nag_nagash_husk	ui/portraits/portholes/no_culture/nag_nagash_husk.png	90909091		true
+nag_nagash_husk	3	1937224327	wh_main_lore_vampires	100	1777692414	nag_nagash_husk	general	nag_nagash_husk	ui/portraits/portholes/no_culture/nag_nagash_husk.png	90909091		true
 nag_mortarch_vlad	3	1937224329		100	1777692415	nag_mortarch_vlad	general	nag_mortarch_vlad	ui/portraits/portholes/no_culture/nag_mortarch_vlad.png	5272		true
 nag_mortarch_mannfred	1	1937224330		100	1777692416	nag_mortarch_mannfred	general	nag_mortarch_mannfred	ui/portraits/portholes/no_culture/nag_mortarch_mannfred.png	3382	wh_main_skill_node_set_vmp_mannfred	true
 nag_mortarch_mannfred_warhorse	1	1937224330		100	1777692416	nag_mortarch_mannfred_warhorse	general	nag_mortarch_mannfred	ui/portraits/portholes/no_culture/nag_mortarch_mannfred.png	3382	wh_main_skill_node_set_vmp_mannfred	true

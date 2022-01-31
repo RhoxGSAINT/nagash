@@ -21,7 +21,7 @@ local db =  {
     },
 
     -- forename/surname. keep names_name_ in it
-    forename = "names_name_1937224328",
+    forename = "names_name_1937224327",
     surname = "names_name_1777692414",
 
     -- agent subtype key
