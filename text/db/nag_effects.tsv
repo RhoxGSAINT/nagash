@@ -8,7 +8,7 @@ effects_description_nag_building_effect_cannot_grow_enable	This settlement canno
 effects_description_nag_building_effect_cannot_grow_disable	Allows the settlement to grow	true
 effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence: %+n for Bone Golems	true
 effects_description_nag_effect_landmark_nagash_buff_ethereal_magic_res	Magic resistance: %n% for all Ethereal units	true
-effects_description_nag_effect_landmark_nagash_buff_morghasts_regen	Ability: "Regeneration" for Morghasts Units	true
+effects_description_nag_effect_landmark_nagash_buff_morghasts_regen	Ability: "Regeneration" for Morghasts units	true
 effects_description_nag_effect_landmark_nagash_enemy_undead_hex	Enemy Leadership: %+n when fighting against Undead	true
 effects_description_nag_effect_landmark_nagash_character_wom_reserves	Winds of Magic power reserve: %+n	true
 effects_description_nag_effect_landmark_arkhan_character_melee	Melee attack: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
@@ -136,7 +136,7 @@ effects_description_nag_effect_agent_cap_increase_vampire	Hero capacity: %+n for
 effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+n for Tomb Princes & Wight Kings	true
 effects_description_nag_effect_agent_cap_increase_prince	Hero capacity: %+n for Tomb Princes	true
 effects_description_nag_effect_agent_cap_increase_wight	Hero capacity: %+n for Wight Kings	true
-effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archais	true
+effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archai	true
 effects_description_nag_effect_dummy_bel_spells_rename_references	Bel Army Abilities go here:	true
 effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true
 effects_description_nag_effect_enable_bound_spell_nagash_hand_of_dust	Bound spell: "The Hand of Dust"	true
@@ -156,8 +156,8 @@ effects_description_nag_effect_melee_attack_traitor_steed	Melee attack (when rid
 effects_description_nag_effect_melee_defence_traitor_steed	Melee defence (when riding Skeletal Steed): %+n	true
 effects_description_nag_effect_melee_attack_traitor_foot	Melee attack (when on foot): %+n	true
 effects_description_nag_effect_melee_defence_traitor_foot	Melee defence (when on foot): %+n	true
-effects_description_nag_effect_unit_xp_levels_all_horsemen_serpent_cavalry	Recruit rank: %+n for All Skeletal Cavalry units	true
-effects_description_nag_effect_unit_xp_levels_all_skeleton	Recruit rank: %+n for All Skeletal Infantry units	true
+effects_description_nag_effect_unit_xp_levels_all_horsemen_serpent_cavalry	Recruit rank: %+n for all Skeletal Cavalry units	true
+effects_description_nag_effect_unit_xp_levels_all_skeleton	Recruit rank: %+n for all Skeletal Infantry units	true
 effects_description_nag_effect_physical_resistance_ghouls_zombies	Physical resistance: %n% for Ghoul and Zombie units	true
 effects_description_nag_effect_force_unit_stat_melee_attack_vs_undead	Melee attack: %+n when fighting against Vampire Counts, Vampire Coast and Tomb Kings	true
 effects_description_nag_effect_self_arkhan_stat_enable_flaming_attacks_vs_tmb	Enables flaming attacks when fighting against Tomb Kings	true
@@ -220,7 +220,7 @@ effects_description_nag_effect_ability_uses_abyssal_swarm	Ability number of uses
 effects_description_nag_effect_war_declare_all_dummy	Declare War on the Living	true
 effects_description_nag_effect_bonus_melee_attack_fighting_against_all	Melee attack: %+n when fighting against Men, Elves, Dwarfs, Chaos and all manner of other Beasts	true
 effects_description_nag_effect_bonus_charge_fighting_against_all	Charge bonus: %+n when fighting against Men, Elves, Dwarfs, Chaos and all manner of other Beasts	true
-effects_description_nag_effect_morghast_archai_ward_save	Ward save: %n% for Morghast and Archai units	true
+effects_description_nag_effect_morghast_archai_ward_save	Ward save: %n% for Morghast units and Morghast Archai heroes	true
 effects_description_nag_nagash_trait_true_immortalitiy	Nagash will always remain wounded for no more than 1 turn	true
 effects_description_nag_effect_grant_immortality_hero	When normally killed in action, this [[img:icon_hero]][[/img]]Hero will be wounded instead	true
 effects_description_nag_effect_grant_immortality_lord	When normally killed in battle, this [[img:icon_general]][[/img]]Lord will be wounded instead	true
@@ -257,9 +257,9 @@ effects_description_nag_effect_resource_upkeep_reduction_construct	Upkeep: %+n% 
 effects_description_nag_effect_resource_upkeep_reduction_zombie	Upkeep: %+n% for Ghoul and Zombie units	true
 effects_description_nag_effect_resource_upkeep_reduction_coast	Upkeep: %+n% for Coast units	true
 effects_description_nag_effect_agent_recruitment_xp_general_traitor_kings	Lord recruit rank: %+n for Traitor Kings	true
-effects_description_nag_effect_agent_recruitment_xp_hero_all	Hero recruit rank: %+n for All Heroes	true
+effects_description_nag_effect_agent_recruitment_xp_hero_all	Hero recruit rank: %+n for all Heroes	true
 effects_description_nag_effect_agent_recruitment_xp_champion_tomb_prince	Hero recruit rank: %+n for Tomb Princes	true
-effects_description_nag_effect_agent_recruitment_xp_spy_archai	Hero recruit rank: %+n for Morghast Archais	true
+effects_description_nag_effect_agent_recruitment_xp_spy_archai	Hero recruit rank: %+n for Morghast Archai	true
 effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	Hero recruit rank: %+n for Wight Kings & Tomb Princes	true
 effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests	Hero recruit rank: %+n for Liche Priests	true
 effects_description_nag_effect_agent_recruitment_xp_engineer_gunnery_wight	Hero recruit rank: %+n for Gunnery Wights	true
@@ -273,9 +273,10 @@ effects_description_nag_effect_tech_vanguard_necropolis	Attribute: Vanguard Depl
 effects_description_nag_effect_tech_vanguard_black_knights	Attribute: Vanguard Deployment for Black Knights	true
 effects_description_nag_effect_enable_flaming_attacks_carrion	Enables flaming attacks for Carrion Riders	true
 effects_description_nag_effect_charge_bonus_chariots	Charge bonus: %+n for all chariot units and mounts	true
-effects_description_nag_effect_melee_defence_skeletons	Melee defence: %+n for All Skeletal Infantry units	true
-effects_description_nag_effect_melee_attack_skeletons	Melee attack: %+n for All Skeletal Infantry units	true
-effects_description_nag_effect_upkeep_reduction_skeletons	Upkeep: %+n% for All Skeletal Infantry units	true
+effects_description_nag_effect_melee_defence_skeletons	Melee defence: %+n for all Skeletal Infantry units	true
+effects_description_nag_effect_melee_attack_skeletons	Melee attack: %+n for all Skeletal Infantry units	true
+effects_description_nag_effect_upkeep_reduction_skeletons	Upkeep: %+n% for all Skeletal Infantry units	true
 effects_description_nag_effect_ammunition_powder	Ammunition: %+n% for Black Powder units	true
 effects_description_nag_ability_enable_endless_tomb	Army ability: "Endless Tomb"	true
 effects_description_nag_effect_force_unit_stat_attack_attacking	Melee Attack: %+n for all units when attacking	true
+effects_description_nag_effect_upkeep_reduction_skeletons_basic	Upkeep: %+n% for Skeleton Warriors and Archers units	true

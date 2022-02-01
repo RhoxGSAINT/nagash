@@ -76,6 +76,7 @@ melee_expert	nag_morghasts
 melee_expert	nag_morghasts_archai
 anti_large	nag_sand_crawlies
 stalk	nag_sand_crawlies
+scaling_damage	nag_sand_crawlies
 armour_piercing	nag_carrion_riders
 very_fast	nag_carrion_riders
 vanguard_deployment	nag_carrion_riders
