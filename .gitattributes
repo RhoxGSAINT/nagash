@@ -1,7 +1,7 @@
 ## Default the "whitespace" setting for these files to whatever RPFM exports them as!
-*.tsv text=lf
-*.material text=lf
-*.variantmeshdefinition text=crlf
+*.tsv text eol=lf
+*.material text eol=lf
+*.variantmeshdefinition text eol=crlf
 
 ## Don't edit this files' whitespace at all, ever
 *.dds binary
