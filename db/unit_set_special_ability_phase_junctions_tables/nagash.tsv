@@ -1,0 +1,3 @@
+key	special_ability_phase	unit_set
+#unit_set_special_ability_phase_junctions_tables;0;db/unit_set_special_ability_phase_junctions_tables/nagash		
+nag_effect_contact_charmed_vampires	wh2_dlc11_unit_contact_charmed	nag_female_vampires

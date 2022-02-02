@@ -1,8 +1,8 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_pooled_resources.loc		
-pooled_resources_display_name_nag_warpstone	[PH] Warpstone Resource	false
+pooled_resources_display_name_nag_warpstone	Warpstone	false
 pooled_resources_positive_factors_display_name_nag_warpstone	[PH] Owned	false
 pooled_resources_negative_factors_display_name_nag_warpstone	[PH] Used	false
-pooled_resources_description_nag_warpstone	[PH] Warpstone is tasty	false
-pooled_resource_factors_display_name_negative_nag_nagash_rituals	nag_nagash_rituals	true
+pooled_resources_description_nag_warpstone	{{tr:tooltip_nag_warpstone}}	false
+pooled_resource_factors_display_name_negative_nag_nagash_rituals	nag_nagash_rituals PH	true
 pooled_resource_factors_display_name_positive_nag_nagash_rituals		true

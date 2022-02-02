@@ -393,6 +393,7 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_ushabti_1	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_constructs_unit_set	false
+			nag_vanilla_tmb_mon_sepulchral_stalkers_0	wh2_dlc09_tmb_sepulchral_stalkers	false
 			nag_vanilla_cst_mon_necrofex_colossus_0	nag_constructs_unit_set	false
 			nag_bone_colossus	wh2_main_ror_units_all	false
 			nag_virion_plaguecart	wh2_main_ror_units_all	false
@@ -423,3 +424,4 @@ hero				nag_characters	false
 			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_skeletons_basic	false
 			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_skeletons_basic	false
 			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_skeletons_basic	false
+			nag_shade_haunts	wh2_main_ror_units_all	false
