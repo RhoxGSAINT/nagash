@@ -1,0 +1,7 @@
+key	generate	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
+#missions_tables;6;db/missions_tables/nagash																
+nagash_intro_1	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Event		0	0	false	0.0		false	false
+nagash_intro_2	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false
+nagash_intro_3	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false
+nagash_intro_4	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false
+nagash_intro_5	false			HAVE_CHARACTER_WITHIN_RANGE_OF_POSITION	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false

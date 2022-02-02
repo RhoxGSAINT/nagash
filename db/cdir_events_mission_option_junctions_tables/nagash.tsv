@@ -1,0 +1,17 @@
+id	mission_key	option_key	value
+#cdir_events_mission_option_junctions_tables;2;db/cdir_events_mission_option_junctions_tables/nagash			
+9815618	nagash_intro_1	VAR_CHANCE	100
+9815619	nagash_intro_1	GEN_TARGET_NONE	
+9815620	nagash_intro_2	VAR_CHANCE	100
+9815621	nagash_intro_2	GEN_TARGET_NONE	
+9815622	nagash_intro_3	VAR_CHANCE	100
+9815623	nagash_intro_3	GEN_TARGET_NONE	
+9815624	nagash_intro_4	VAR_CHANCE	100
+9815625	nagash_intro_4	GEN_TARGET_NONE	
+9815626	nagash_intro_5	VAR_CHANCE	100
+9815627	nagash_intro_5	GEN_TARGET_NONE	
+9815628	nagash_intro_5	VAR_OBJECTIVE_MAX_DISTANCE_TO_DECOY	50
+9815629	nagash_intro_5	VAR_MISSION_LENGTH_INFINITE	
+9815630	nagash_intro_5	VAR_OBJECTIVE_LOGICAL_POSTION	800;206
+9815631	nagash_intro_5	VAR_OBJECTIVE_HEX_TRIGGER_RADIUS	3
+9815632	nagash_intro_5	VAR_OBJECTIVE_TRIGGER_IMMEDIATELY	

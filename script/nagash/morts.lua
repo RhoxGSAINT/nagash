@@ -6,6 +6,7 @@
 
 ---@class bdsm
 local bdsm = get_bdsm()
+local log,logf,err,errf = bdsm:get_logs()
 local faction_key = bdsm:get_faction_key()
 
 --- Each need:
@@ -212,13 +213,25 @@ local unlock_techs = {
     nag_vlad_unlock = true,
 }
     
+--- TODO VLIB tech stuff
 --- TODO start up the listeners for each tech event.
 --- TODO track values and shit.
 local function init()
+    logf("Mort init!")
+    local vlib = get_vlib()
+    ---@type vlib_camp_counselor
+    local cc = vlib:get_module("camp_counselor")
+
     if cm:is_new_game() then
+        logf("Is new game!")
+        --- TODO hook in Event techs
         --- Start off every primary tech as locked!
-        for i,tech in ipairs(locked_techs) do
+        for tech,bool in pairs(unlock_techs) do
             cm:lock_technology(bdsm:get_faction_key(), tech)
+
+            bdsm:logf("Pre- set_techs_lock_state")
+            cc:set_techs_lock_state(tech, "locked", effect.get_localised_string(tech.."_locked"), {faction=bdsm:get_faction_key()})
+            bdsm:logf("Post- set_techs_lock_state")
         end
     end
 

@@ -19,6 +19,14 @@ function bdsm:logf(...) logf(...) end
 function bdsm:error(...) error(...) end
 function bdsm:errorf(...) errorf(...) end
 
+function bdsm:get_logs()
+    return 
+        function(text) bdsm:log(text) end,
+        function(text, ...) bdsm:logf(text, ...) end,
+        function(text) bdsm:error(text) end,
+        function(text, ...) bdsm:errorf(text, ...) end
+end
+
 ---@return string
 function bdsm:get_faction_key()
     return self._faction_key
@@ -45,6 +53,7 @@ function bdsm:load_db(db_name)
 end
 
 function bdsm:init()
+    local ok, err = pcall(function()
     local path = self._default_module_path
     -- load up all the modules
     self._turn_one = vlib:load_module("intro_chain", path)
@@ -53,6 +62,7 @@ function bdsm:init()
     vlib:load_module("morts", path)
     -- vlib:load_module("ui", path)
     vlib:load_module("souls", path)
+    end) if not ok then bdsm:errorf(err) end
 end
 
 function get_bdsm()

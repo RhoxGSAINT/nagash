@@ -130,7 +130,9 @@ local vlib = get_vandy_lib()
 local cc = vlib:get_module("camp_counselor")
 --- TODO scripted effects
 function bdsm:setup_rites()
-    cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
+    
+    --- TODO causes CTD on load game
+    -- cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
 
     add_scroll_bar()
 

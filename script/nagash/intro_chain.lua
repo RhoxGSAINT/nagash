@@ -11,7 +11,7 @@ local log,logf,err,errf = vlib:get_log_functions("[nag]")
 
 -- this is triggered on the, well, first turn
 function bdsm:first_turn_begin()
-    local faction_key = self._faction_key
+    local faction_key = bdsm:get_faction_key()
     local nagashizar_key = "wh2_main_the_broken_teeth_nagashizar"
 
     local faction_obj = cm:get_faction(faction_key)
@@ -31,9 +31,6 @@ function bdsm:first_turn_begin()
 
             cm:kill_character_and_commanded_unit("character_cqi:"..nagash:command_queue_index(), true, false)
         end
-
-        
-
             
         ---@type NagHuskDB
         local starting_info = bdsm:load_db("nag_husk_start")
@@ -89,13 +86,39 @@ function bdsm:first_turn_begin()
             end
         )
 
-        --- TODO extra buildings for Himselfizar
+        -- TODO incorporate the local Skaven!
+        ---@type intro_chain_skaven
+        local intro_chain_skaven = bdsm:load_db("intro_chain_skaven")
+        local sx,sy = cm:find_valid_spawn_location_for_character_from_position(intro_chain_skaven.faction_key, intro_chain_skaven.pos.x, intro_chain_skaven.pos.y, true)
+        
+        -- local nagash_cqi = faction_obj:command_queue_index()
+        
+        cm:force_declare_war(intro_chain_skaven.faction_key, faction_key, false, false, false)
+        cm:transfer_region_to_faction(intro_chain_skaven.owned_region, intro_chain_skaven.faction_key)
+
+        local skaven_mfcqi
+
+        cm:create_force(
+            intro_chain_skaven.faction_key,
+            table.concat(intro_chain_skaven.units, ","),
+            nagashizar_key,
+            sx,
+            sy,
+            true,
+            function(cqi, mf_cqi)
+                skaven_mfcqi = mf_cqi
+            end,
+            false
+        )
+
+        -- cm:trigger_custom_mission
+
         --- TODO change corruption (add Skaven corruption at 10-15%, vamp at the rest?)
 
         cm:callback(function()
             -- upgrade Himselfizar to level 1
             local s = cm:get_region(nagashizar_key):settlement()
-            cm:instantly_set_settlement_primary_slot_level(s, 1)
+            cm:instantly_set_settlement_primary_slot_level(s, 2)
             
             cm:callback(function()
                 for i,building in ipairs(settle_buildings) do
@@ -109,6 +132,43 @@ function bdsm:first_turn_begin()
             cm:disable_event_feed_events(false, "", "", "character_trait_lost")
             cm:disable_event_feed_events(false, "", "", "character_ancillary_lost")
             cm:disable_event_feed_events(false, "", "", "character_wounded")
+            
+            --- TODO mission trigger
+            cm:callback(function()
+                --- TODO how to play
+                -- trigger the How To Play event
+                cm:show_message_event(
+                    faction_key,
+                    "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+                    "factions_screen_name_"..faction_key,
+                    "event_feed_strings_text_nag_scripted_event_how_they_play_nagasha",
+                    true,
+                    594,
+                    nil,
+                    nil
+                )
+
+                --- WHY THE FUCK ISN'T THE MISSION EVENT TRIGGERING.
+                cm:disable_event_feed_events(false, "wh_event_category_faction", "", "")
+                cm:disable_event_feed_events(false, "wh_event_category_military", "", "")
+                cm:disable_event_feed_events(false, "", "wh_event_subcategory_faction_missions_objectives", "")
+                cm:disable_event_feed_events(false, "", "", "faction_event_mission_issued")
+
+                cm:callback(function()
+                    logf("Triggering mission targeting the new Skaven army!")
+                    local mm = mission_manager:new(faction_key, "nagash_intro_1")
+                    mm:set_mission_issuer("CLAN_ELDERS")
+                    mm:add_new_objective("ENGAGE_FORCE")
+                    mm:add_condition("cqi " .. skaven_mfcqi)
+                    mm:add_condition("requires_victory")
+                    mm:add_payload("effect_bundle{bundle_key nag_rite_nagash;turns 0;}");
+                    mm:set_turn_limit(0);
+                    
+                    mm:set_should_whitelist(true)
+                    mm:trigger()
+                end, 0.1)
+            
+            end, 1.5)
         end, 0.1)
 
         -- TODO post-battle cutscene, do it prettily

@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_tech_ui_stuff.loc		
+nag_arkhan_unlock_locked	[PH] Requires something or maybe nothing	true
+nag_luthor_unlock_locked	[PH] Recontact [Character to Awakening region (auto unlocked if faction destroyed)]	true
+nag_mannfred_unlock_locked	[PH] Force Mannfred to Submit	true
+nag_krell_unlock_locked	[PH] Barrow Legion Destroyed	true
+nag_neferata_unlock_locked	[PH] Build T4 Nagashizzar Landmark Chain (Throne of Skulls)	true
+nag_vlad_unlock_locked	[PH] Find the Carstein Ring	true

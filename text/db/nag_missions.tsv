@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_missions.loc		
+missions_localised_title_nagash_intro_1	Cut off the Skaven	true
+missions_localised_description_nagash_intro_1	[PH] killk the starting enemy army	true
+missions_localised_title_nagash_intro_2	Secure the Mines	true
+missions_localised_description_nagash_intro_2	[PH] get warpstone mines to lvl 2	true
+missions_localised_title_nagash_intro_3	Gather Your Legion	true
+missions_localised_description_nagash_intro_3	[PH] get an army while waiting for buttholes	true
+missions_localised_title_nagash_intro_4	Finalize Foothold	true
+missions_localised_description_nagash_intro_4	[PH] capture the Deoslation of Nagash	true
+missions_localised_title_nagash_intro_5	Begin the Trek	true
+missions_localised_description_nagash_intro_5	[PH] move to a spot on the map to TP across the mountains	true
