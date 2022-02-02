@@ -1,6 +1,5 @@
 id	mission_key	option_key	value
 #cdir_events_mission_option_junctions_tables;2;db/cdir_events_mission_option_junctions_tables/nagash			
-<<<<<<< HEAD
 9815618	nagash_intro_1	VAR_CHANCE	100
 9815619	nagash_intro_1	GEN_TARGET_NONE	
 9815620	nagash_intro_2	VAR_CHANCE	100
@@ -16,7 +15,6 @@ id	mission_key	option_key	value
 9815630	nagash_intro_5	VAR_OBJECTIVE_LOGICAL_POSTION	800;206
 9815631	nagash_intro_5	VAR_OBJECTIVE_HEX_TRIGGER_RADIUS	3
 9815632	nagash_intro_5	VAR_OBJECTIVE_TRIGGER_IMMEDIATELY	
-=======
 8845120	nag_nagash_capture_settlement_khemri	VAR_MISSION_LENGTH_INFINITE	
 8845121	nag_nagash_capture_settlement_khemri	GEN_TARGET_REGION	
 8845122	nag_nagash_capture_settlement_khemri	GEN_CND_REGION	wh2_main_land_of_the_dead_khemri
@@ -41,4 +39,3 @@ id	mission_key	option_key	value
 8845141	nag_nagash_capture_settlement_quintex	GEN_TARGET_REGION	
 8845142	nag_nagash_capture_settlement_quintex	GEN_CND_REGION	wh2_main_titan_peaks_ancient_city_of_quintex
 8845143	nag_nagash_capture_settlement_quintex	VAR_CHANCE	100
->>>>>>> 8d34a327507908ad88fe0eac179b0e7441213900

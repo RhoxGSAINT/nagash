@@ -1,7 +1,5 @@
 id	mission_key	payload_key	status_key	value
 #cdir_events_mission_payloads_tables;1;db/cdir_events_mission_payloads_tables/nagash				
-<<<<<<< HEAD
-=======
 7845120	nag_nagash_capture_settlement_khemri	TREASURY	SUCCESS	AMOUNT[5000]
 7845121	nag_nagash_capture_settlement_khemri	CHARACTER_EXPERIENCE	SUCCESS	AMOUNT[1500]
 7845122	nag_nagash_capture_settlement_mourkain	TREASURY	SUCCESS	AMOUNT[5000]
@@ -14,4 +12,3 @@ id	mission_key	payload_key	status_key	value
 7845129	nag_nagash_capture_settlement_awakening	CHARACTER_EXPERIENCE	SUCCESS	AMOUNT[1500]
 7845130	nag_nagash_capture_settlement_quintex	TREASURY	SUCCESS	AMOUNT[5000]
 7845131	nag_nagash_capture_settlement_quintex	CHARACTER_EXPERIENCE	SUCCESS	AMOUNT[1500]
->>>>>>> 8d34a327507908ad88fe0eac179b0e7441213900
