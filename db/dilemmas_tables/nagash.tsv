@@ -2,3 +2,6 @@ key	generate	localised_description	localised_title	ui_image	prioritized	event_ca
 #dilemmas_tables;5;db/dilemmas_tables/nagash								
 nag_winds	false			generic	false	Event	UI_CAM_EVENT_Dilemma	
 nag_man	false			generic	false	Event	UI_CAM_EVENT_Dilemma	
+nag_luthor_madness_1	false			generic	false	Event	UI_CAM_EVENT_Dilemma	
+nag_luthor_madness_2	false			generic	false	Event	UI_CAM_EVENT_Dilemma	
+nag_luthor_madness_3	false			generic	false	Event	UI_CAM_EVENT_Dilemma	
