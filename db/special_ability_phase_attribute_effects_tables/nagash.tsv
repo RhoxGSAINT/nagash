@@ -3,5 +3,4 @@ attribute	phase	attribute_type
 construct	wh_main_spell_nagash_become_construct	positive
 unbreakable	nag_nagash_passive_death_magic_incarnate	positive
 rampage	nag_unit_passive_marshlight_aura_1	positive
-ignore_trees	nag_unit_passive_heavy_with_death	positive
 unspottable	nag_unit_abilities_beyond_the_veil	positive

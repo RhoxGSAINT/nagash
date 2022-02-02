@@ -56,3 +56,6 @@ nag_unit_abilities_malevolent_assault	stat_charge_bonus	30.0	add
 nag_unit_passive_heavy_with_death	scalar_speed	1.25	mult
 nag_unit_passive_heavy_with_death	stat_resistance_magic	20.0	add
 nag_unit_passive_heavy_with_death	stat_weakness_flame	-80.0	add
+nag_unit_passive_heavy_with_death	stat_melee_defence	6.0	add
+nag_contact_slownado	scalar_speed	0.5	mult
+nag_contact_slownado	stat_melee_defence	-8.0	add

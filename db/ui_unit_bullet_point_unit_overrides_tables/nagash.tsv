@@ -106,7 +106,6 @@ terror	nag_endless_tomb
 terror	nag_shade_haunts
 ethereal	nag_shade_haunts
 nag_spirit_host_aoe	nag_shade_haunts
-terror	nag_spirit_hosts
 ethereal	nag_spirit_hosts
 nag_spirit_host_aoe	nag_spirit_hosts
 terror	nag_spectre_swarm
