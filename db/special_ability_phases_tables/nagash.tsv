@@ -5,7 +5,6 @@ wh_main_spell_nagash_breath_of_darkness	12.0	positive		false	false	false	0.0	0.0
 wh_main_spell_nagash_breath_of_darkness_upgraded	12.0	positive		false	false	false	-1.0	0.0	0.0	0.5	87	0.0	0	0	87	true	0.0	0.0	false	0		wh_main_spell_vampires_invocation_of_nehek		-1.0	false	true	true	0.0	
 wh_main_spell_nagash_become_construct	3.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 wh_main_spell_nagash_soul_stealer	18.0	positive		false	false	false	0.0	0.0	0.0	0.5	24	0.0	0	0	24	false	0.0	0.0	false	0		wh_main_spell_vampires_invocation_of_nehek		-1.0	false	true	true	0.0	
-wh_main_spell_nagash_blyramid_pet	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		belisarians_nagash_pet_blyramid		-1.0	false	true	true	0.0	
 wh_main_spell_nagash_abyssal_swarm_upgrade	30.0	negative		false	true	false	0.0	0.0	0.0	0.1	0	1.0	4	1	0	false	0.0	0.0	false	0				-1.0	false	false	true	0.0	
 wh_main_spell_nagash_floating_vandus_catus	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		belisarians_nagash_floating_vandus_catus		-1.0	false	true	true	0.0	
 nag_unit_passive_mortal_realm_of_souls	-1.0	positive		false	false	false	0.0	0.0	0.0	0.5	1	0.0	0	0	1	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
