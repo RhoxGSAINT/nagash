@@ -27,9 +27,10 @@ function bdsm:first_turn_begin()
         cm:disable_event_feed_events(true, "", "", "character_wounded")
 
         do
+            --- Kill fake Nagash
             local nagash = faction_obj:faction_leader()
-
-            cm:kill_character_and_commanded_unit("character_cqi:"..nagash:command_queue_index(), true, false)
+            cm:kill_character(nagash:command_queue_index(), true, false)
+            -- cm:kill_character_and_commanded_unit("character_cqi:"..nagash:command_queue_index(), true, false)
         end
             
         ---@type NagHuskDB

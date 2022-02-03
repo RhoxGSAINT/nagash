@@ -28,6 +28,12 @@ local mortarch = {
     surname = "",
     acquired = false,
     tech_key = "",
+
+    ---@type string[] Units starting in this army.
+    starting_army = {},
+
+    ---@type {x:number,y:number,region:string} Starting position. Can also be a string - "NAGASH"
+    pos = {x=0,y=0},
 }
 
 ---@return mortarch
@@ -40,29 +46,33 @@ function mortarch.new(o)
 end
 
 function mortarch:init()
-    bdsm:log("Initializing the mortarch " .. self.subtype)
-    if not self.acquired then
-        -- if not acquired, start the tracking for the acquisition!
-        core:add_listener(
-            "MortUnlock",
-            "ResearchCompleted",
-            function (context)
-                bdsm:log("Tech " .. context:technology() .. " researched by " .. context:faction():name())
-                return context:faction():name() == faction_key and context:technology() == self.tech_key
-            end,
-            function (context)
-                self:spawn_to_pool()
-            end,
-            false
-        )
-    else
-        -- if acquired, start the tracking for PR and stuff if needed!
-        
-    end
 
-    --- TODO when this lord is spawned from the pool, add ancillaries or whatever is needed?
-    
 end
+
+-- function mortarch:init()
+--     bdsm:log("Initializing the mortarch " .. self.subtype)
+--     if not self.acquired then
+--         -- if not acquired, start the tracking for the acquisition!
+--         core:add_listener(
+--             "MortUnlock",
+--             "ResearchCompleted",
+--             function (context)
+--                 bdsm:log("Tech " .. context:technology() .. " researched by " .. context:faction():name())
+--                 return context:faction():name() == faction_key and context:technology() == self.tech_key
+--             end,
+--             function (context)
+--                 self:spawn_to_pool()
+--             end,
+--             false
+--         )
+--     else
+--         -- if acquired, start the tracking for PR and stuff if needed!
+        
+--     end
+--     --- TODO when this lord is spawned from the pool, add ancillaries or whatever is needed?
+-- end
+
+--- TODO choose between pool/spawn at pos, based on if they have pos table set?
 
 function mortarch:spawn_to_pool()
     local forename,surname = self.forename,self.surname
@@ -71,6 +81,35 @@ function mortarch:spawn_to_pool()
     
     --- TODO art set needed?
     cm:spawn_character_to_pool(faction_key, forename, surname, "", "", 50, true, "general", subtype, true, "")
+    self.acquired = true
+end
+
+function mortarch:spawn()
+    local x,y = self.pos.x, self.pos.y
+    local starting_army = self.starting_army
+    local forename,surname = self.forename,self.surname
+    local subtype = self.subtype
+
+    x,y = cm:find_valid_spawn_location_for_character_from_position(bdsm:get_faction_key(), x, y, true, 3)
+
+    cm:create_force_with_general(
+        bdsm:get_faction_key(),
+        table.concat(starting_army, ","),
+        self.pos.region,
+        x,
+        y,
+        "general",
+        subtype,
+        forename,
+        "",
+        surname,
+        "",
+        false,
+        function(cqi)
+            -- anything?
+        end
+    )
+
     self.acquired = true
 end
 
@@ -174,7 +213,7 @@ local tech_progress = {
 
 }
 
---- All of the event techs begin locked, as do all Mort unlock techs except for Arkhan
+--- All of the event techs begin locked, as do all Mort unlock techs
 local locked_techs = {
     "nag_arkhan_event_1",
     "nag_arkhan_event_2",
@@ -195,7 +234,7 @@ local locked_techs = {
     "nag_vlad_event_2",
     "nag_vlad_event_3",
 
-    -- "nag_arkhan_unlock",
+    "nag_arkhan_unlock",
     "nag_luthor_unlock",
     "nag_mannfred_unlock",
     "nag_krell_unlock",
@@ -224,7 +263,6 @@ local function init()
 
     if cm:is_new_game() then
         logf("Is new game!")
-        --- TODO hook in Event techs
         --- Start off every primary tech as locked!
         for tech,bool in pairs(unlock_techs) do
             -- cm:lock_technology(bdsm:get_faction_key(), tech)
@@ -255,10 +293,287 @@ local function init()
             mort_key = "nag_mortarch_"..mort_key
 
             -- get and spawn the mortarch
-            bdsm:log()
+            bdsm:logf("Spawning %s", mort_key)
+
+            --- TODO make sure mort:spawn() allows for spawning on map or spawning in pool
+            local mort = bdsm:get_mortarch_with_key(mort_key)
+            mort:spawn()
+
+            --- lock each sub-tech
+            local tech_key_cut = string.gsub(tech_key, "_unlock", "")
+            for i = 1,3 do 
+                local sub_tech_key = tech_key_cut .. "_event"..i
+                local str = effect.get_localised_string("tech_lock_"..sub_tech_key)
+
+                if sub_tech_key == "nag_luthor_event_1" then
+                    str = string.format(str, 0)
+                end
+
+                cc:set_techs_lock_state(sub_tech_key, "locked", str, {faction=bdsm:get_faction_key()})
+            end
         end,
         true
     )
+
+    -- tech filter
+    local bf = {faction=bdsm:get_faction_key()}
+    local nk = bdsm:get_faction_key()
+
+    --- TODO event message for unlocks!
+    local function unlock(key)
+        cc:set_techs_lock_state(key, "unlocked", "", nk)
+    end
+
+    ---@param tech_obj tech_class
+    local function is_locked(tech_obj)
+        return tech_obj:get_lock_state(nk) == "locked"
+    end
+
+    --- TODO track all tech progress!!
+    do
+        --- TODO all Mortarch unlock things
+        ---@type tech_class
+        local arkhan = cc:get_object("TechObj", "nag_mortarch_arkhan")
+        ---@type tech_class
+        local luthor = cc:get_object("TechObj", "nag_luthor_unlock")
+        ---@type tech_class
+        local mannfred = cc:get_object("TechObj", "nag_mannfred_unlock")
+        ---@type tech_class
+        local krell = cc:get_object("TechObj", "nag_krell_unlock")
+        ---@type tech_class
+        local neffy = cc:get_object("TechObj", "nag_neferata_unlock")
+        ---@type tech_class
+        local vlad = cc:get_object("TechObj", "nag_vlad_unlock")
+
+        --- arkhan unlock
+        if is_locked(arkhan) then
+            core:add_listener(
+                "nag_arkhan_unlock",
+                "MissionSucceeded",
+                function(context)
+                    return context:mission():mission_record_key() == "nagash_intro_5"
+                end,
+                function(context)
+                    unlock("nag_arkhan_unlock")
+                end,
+                false
+            )
+        end
+
+        --- neffy unlock
+        if is_locked(neffy) then 
+            core:add_listener(
+                "nag_neferata_unlock",
+                "BuildingCompleted",
+                function(context)
+                    return context:building():name() == "nag_outpost_special_nagashizzar_4"
+                end,
+                function(context)
+                    unlock("nag_neferata_unlock")
+                end,
+                false
+            )
+        end
+
+        --- krell unlock
+        if is_locked(krell) then 
+            --- TODO track if the Barrow Legion is destroyed
+        end
+
+        if is_locked(mannfred) then 
+            --- TODO defeat Mannfred in battle, or unlock if his faction is destroyed
+        end
+
+        ---@param faction_obj FACTION_SCRIPT_INTERFACE
+        local function any_armies(faction_obj)
+            local character_list = faction_obj:character_list()
+            for i = 0, character_list:num_items() -1 do 
+                local character = character_list:item_at(i)
+                if character:has_military_force() and not character:region():is_null_interface() then 
+                    --- "is in empire"
+                    local reg_key = character:region():name()
+
+                    if reg_key:find("_reikland_") then 
+                        -- we're in Reikland!
+                        if character:military_force():active_stance() == "MILITARY_FORCE_ACTIVE_STANCE_TYPE_CHANNELING" then
+                            return true
+                        end
+                    end
+                end
+            end
+
+            return false
+        end
+
+        if is_locked(vlad) then 
+            --- TODO any army channeling in the Empire has a 50% chance of finding the Carstein Ring
+            core:add_listener(
+                "nag_vlad_unlock",
+                "FactionTurnStart",
+                function(context)
+                    local faction = context:faction()
+                    if not faction:name() == bdsm:get_faction_key() then return false end
+
+                    --- return "any army in the empire, is channeling, and passes chance"
+                    return any_armies(faction) and cm:random_number(100) >= 50
+                end,
+                function(context)
+                    unlock(vlad._key)
+                end,
+                false
+            )
+        end
+
+        if is_locked(luthor) then 
+            --- TODO make contact with is faction
+        end
+    end
+
+    do 
+        -- track Arkhan techs
+        ---@type tech_class
+        local t1 = cc:get_object("TechObj", "nag_arkhan_event_1")
+        ---@type tech_class
+        local t2 = cc:get_object("TechObj", "nag_arkhan_event_2")
+        ---@type tech_class
+        local t3 = cc:get_object("TechObj", "nag_arkhan_event_3")
+
+        if is_locked(t1) then 
+            core:add_listener(
+                "nag_arkhan_event_1",
+                "BlackPyramidRaised",
+                true,
+                function(context)
+                    unlock(t1._key)
+                end,
+                false
+            )
+        end
+
+        if is_locked(t2) then 
+            core:add_listener(
+                "nag_arkhan_event_2",
+                "CharacterCompletedBattle",
+                function(context)
+                    return (
+                        cm:pending_battle_cache_faction_is_defender(bdsm:get_faction_key()) and cm:pending_battle_cache_culture_is_attacker("wh2_dlc09_tmb_tomb_kings")
+                        or
+                        cm:pending_battle_cache_culture_is_attacker(bdsm:get_faction_key()) and cm:pending_battle_cache_faction_is_defender("wh2_dlc09_tmb_tomb_kings")
+                    )
+                end,
+                function(context)
+                    local total = cm:get_saved_value("nag_arkhan_event_2") or 0
+                    total = total + 1
+
+                    if total == 10 then 
+                        unlock(t2._key)
+                        core:remove_listener("nag_arkhan_event_2")
+                    else
+                        cm:set_saved_value("nag_arkhan_event_2", total)
+
+                        cc:set_techs_lock_state(
+                            "nag_arkhan_event_2",
+                            "locked",
+                            string.format(effect.get_localised_string("tech_lock_nag_arkhan_event_2"), total),
+                            bf
+                        )
+                    end
+                end,
+                true
+            )
+        end
+
+        if is_locked(t3) then 
+            core:add_listener(
+                "nag_arkhan_event_3",
+                "CharacterRankUp",
+                function(context)
+                    return context:character():character_subtype_key() == "nag_mortarch_arkhan" and context:character():rank() >= 10
+                end,
+                function(context)
+                    unlock(t3._key)
+                end,
+                false
+            )
+        end
+    end
+
+    do 
+        -- Luthor techs
+        ---@type tech_class
+        local t1 = cc:get_object("TechObj", "nag_luthor_event_1")
+        ---@type tech_class
+        local t2 = cc:get_object("TechObj", "nag_luthor_event_2")
+        ---@type tech_class
+        local t3 = cc:get_object("TechObj", "nag_luthor_event_3")
+
+        --- Track them one at a time!
+        if is_locked(t1) then
+            core:add_listener(
+                "nag_luthor_event_1",
+                "CharacterCompletedBattle",
+                function(context)
+                    --- track the number of battles Luthor has had AT SEA or AGAINST LM
+                    return context:character():character_subtype_key() == "nag_mortarch_luthor" and 
+                        (
+                            cm:pending_battle_cache_culture_is_involved("wh2_main_lzd_lizardmen") 
+                            or
+                            context:character():is_at_sea()
+                    )
+                end,
+                function(context)
+                    -- update the lock string if it's not enough ; otherwise, unlock it
+
+                    local total = cm:get_saved_value("nag_luthor_event") or 0
+                    total = total + 1
+
+                    if total == 5 then
+                        -- unlock
+                        unlock(t1._key)
+                        core:remove_listener("nag_luthor_event_1")
+                    else
+                        cm:set_saved_value("nag_luthor_event", total)
+
+                        cc:set_techs_lock_state(
+                            "nag_luthor_event_1", 
+                            "locked", 
+                            string.format(effect.get_localised_string("tech_lock_nag_luthor_event_1"), total), -- format the string so it says "Won Total / 5 battles"
+                            bf
+                        )
+                    end
+                end,
+                true
+            )
+        end
+        
+        if is_locked(t2) then
+            core:add_listener(
+                "nag_luthor_event_2",
+                "ResearchCompleted",
+                function(context)
+                    return context:technology() == "nag_luthor_event_1"
+                end,
+                function(context)
+                    unlock(t2)
+                end,
+                false
+            )    
+        end
+        
+        if is_locked(t3) then
+            core:add_listener(
+                "nag_luthor_event_3",
+                "ResearchCompleted",
+                function(context)
+                    return context:technology() == "nag_luthor_event_2"
+                end,
+                function(context)
+                    unlock(t3)
+                end,
+                false
+            )  
+        end
+    end
 end
 
 

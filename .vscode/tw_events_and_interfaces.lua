@@ -1144,7 +1144,7 @@
 ---@field slot_list fun(self:REGION_SCRIPT_INTERFACE):SLOT_LIST_SCRIPT_INTERFACE
 ---@field settlement fun(self:REGION_SCRIPT_INTERFACE):SETTLEMENT_SCRIPT_INTERFACE
 ---@field garrison_residence fun(self:REGION_SCRIPT_INTERFACE):GARRISON_RESIDENCE_SCRIPT_INTERFACE
----@field name fun(self:REGION_SCRIPT_INTERFACE):String
+---@field name fun(self:REGION_SCRIPT_INTERFACE): string
 ---@field province_name fun(self:REGION_SCRIPT_INTERFACE):String
 ---@field public_order fun(self:REGION_SCRIPT_INTERFACE):int
 ---@field num_buildings fun(self:REGION_SCRIPT_INTERFACE):int

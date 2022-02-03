@@ -101,6 +101,8 @@ local function init_listeners()
                             ny,
                             false
                         )
+
+                        cm:zero_action_points(nag_str)
                         
                         --- TODO call mort:spawn() instead of create force / unlock tech
                         --- spawn Arkhan!
@@ -121,11 +123,6 @@ local function init_listeners()
                                 --- TODO
                             end
                         )
-
-                        --- unlock Arkhan tech
-                        ---@type vlib_camp_counselor
-                        local cc = get_vlib():get_module("camp_counselor")
-                        cc:set_techs_lock_state("nag_arkhan_unlock", "unlocked", "", {faction=nag_fact})
 
                         --- make BP visible
                         cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")

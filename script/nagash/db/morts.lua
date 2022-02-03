@@ -34,7 +34,10 @@ return {
         pos = {
             x = 699,
             y = 133,
-        }
+        },
+        starting_army = {
+            "",
+        },
     },
     {   -- you get it by now
         subtype = "nag_mortarch_neferata",
