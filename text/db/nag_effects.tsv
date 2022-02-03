@@ -281,3 +281,4 @@ effects_description_nag_ability_enable_endless_tomb	Army ability: "Endless Tomb"
 effects_description_nag_effect_force_unit_stat_attack_attacking	Melee Attack: %+n for all units when attacking	true
 effects_description_nag_effect_upkeep_reduction_skeletons_basic	Upkeep: %+n% for Skeleton Warriors and Archers units	true
 effects_description_nag_effect_contact_charmed_vampires	Enables charmed attacks for all Vampire heroes	true
+effects_description_nag_death_shambling_horde_free_upkeep	Free upkeep for the Shambling Horde	true

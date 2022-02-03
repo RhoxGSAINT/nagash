@@ -128,14 +128,10 @@ local vlib = get_vandy_lib()
 
 ---@type vlib_camp_counselor
 local cc = vlib:get_module("camp_counselor")
---- TODO scripted effects
-function bdsm:setup_rites()
-    
-    --- TODO causes CTD on load game
-    -- cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
 
-    add_scroll_bar()
+--- TODO add in Black Pyramid raising rite 
 
+function bdsm:unlock_rites_listeners()
     if not rite_status.nag_winds then
         -- build the BP Obelisk
         core:add_listener(
@@ -150,73 +146,31 @@ function bdsm:setup_rites()
             end,
             false
         )
-    else -- TODO doesn't work!
-        --- TODO don't let the ritual be used if Nagash is wounded or offscreen
-        -- TODO on ritual completed, trigger a dilemma
-        -- on dilemma select, listen to the option to trigger the spell ability
-        core:add_listener(
-            "NagWindsRitual",
-            "RitualCompletedEvent",
-            function(context)
-                return context:ritual():ritual_key() == "nag_winds"
-            end,
-            function(context)
-                -- trigger ritual
-                local faction = context:performing_faction()
-
-                cm:trigger_dilemma(
-                    faction:name(), 
-                    context:ritual():ritual_key(),
-                    function()
-                        core:add_listener(
-                            "NagWindsDilemma",
-                            "DilemmaChoiceMadeEvent",
-                            function(context)
-                                return context:dilemma() == "nag_winds"
-                            end,
-                            function(context)
-                                local choice = context:choice()
-                                local faction_leader = bdsm:get_faction_leader()
-
-                                local eb = "nag_ability_enable_blyramid_bombardment"
-
-                                --- TODO assign army ability effect bundle to Nagash army based on choice
-                                if choice == 0 then 
-                                    -- batz
-                                    eb = "nag_ability_enable_batocalypse"
-                                elseif choice == 1 then
-                                    -- endless tomb
-                                    eb = "nag_ability_enable_endless_to☻mb"
-                                end
-
-                                cm:apply_effect_bundle_to_character(eb, faction_leader, 5)
-                            end,
-                            false
-                        )
-                    end
-                )
-            end,
-            true
-        )
     end
 
     if not rite_status.nag_death then
-        --- TODO guarantee this works with either boner version
         --- Win 5 battles with Nagash
         core:add_listener(
             "NagDeath",
             "CharacterCompletedBattle",
             function(context)
+                --- TODO "and nagash won"
                 local character = context:character()
-                return (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:battles_won() >= 5
+                return (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:won_battle()
             end,
             function(context)
-                unlock_rite("nag_death")
+                local total = cm:get_saved_value("nag_death") or 0
+                total = total + 1
+
+                if total == 5 then
+                    unlock_rite("nag_death")
+                else
+                    --- TODO display in the ritual panel?
+                    cm:set_saved_value("nag_death")
+                end
             end,
             false
         )
-    else
-        -- TODO on ritual completed, trigger an army spawn or whatever the fuck we decide
     end
 
     if not rite_status.nag_divinity then
@@ -248,17 +202,124 @@ function bdsm:setup_rites()
             end,
             false
         )
-    else
-        --- TODO on rite completed, select a Nemesis faction to target. can do this programmatically with a dilemma, yay
     end
 
     if not rite_status.nag_nagash then
-        --- TODO gain it when you build the BP
-        -- core:add_listener(
-        --     "NagNagash",
-        --     ""
-        -- )
+        core:add_listener(
+            "NagNagash",
+            "BlackPyramidRaised",
+            true,
+            function(context)
+                unlock_rite("nag_nagash")
+            end,
+            false
+        )
     end
+end
+
+--- TODO scripted effects
+function bdsm:trigger_rites_listeners()
+    --- TODO on rite completed, select a Nemesis faction to target. can do this programmatically with a dilemma, yay
+    --- nag_man
+    core:add_listener(
+        "nag_man",
+        "RitualCompletedEvent",
+        function(context)
+            return context:ritual():ritual_key() == "nag_man"
+        end,
+        function(context)
+            --- TODO some way to select a Nemesis faction to target, decide
+        end,
+        true
+    )
+
+    -- nag_death
+    bdsm:load_db("nag_death")
+
+    local function get_random_mortarch()
+        local morts = {}
+        local char_list = self:get_faction():character_list()
+        for i = 0, char_list:num_items() -1 do
+            local char = char_list:item_at(i)
+            if char:has_military_force() and char:region():is_null_interface() == false and char:character_subtype_key():find("_mortarch_") then 
+                morts[#morts+1] = char
+            end
+        end
+
+        if #morts == 0 then return nil end
+
+        return morts[cm:random_number(#morts)]
+    end
+
+    core:add_listener(
+        "NagDeath",
+        "RitualCompletedEvent",
+        function(context)
+            return context:ritual():ritual_key() == "nag_death"
+        end,
+        function(context)
+            --- spawn a death army at Nagash, at BP, or at a random Mortarch, or at a random settlement, in that order.
+            local nag = bdsm:get_faction_leader()
+            local key = bdsm:get_faction_key()
+            local x,y,region
+            if nag:has_military_force() and nag:region():is_null_interface() == false then
+                x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..nag:command_queue_index(), true, 5)
+                region = nag:region():name()
+            else
+                -- check BP
+                local bp = cm:get_region(bdsm._bp_key)
+                if bp and bp:owning_faction():is_null_interface() == false and bp:owning_faction():name() == key then 
+                    x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, bdsm._bp_key, false, true, 5)
+                    region = bp
+                else
+                    -- check for a random mortarch
+                    local random_mort = get_random_mortarch()
+                    if random_mort then
+                        x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..random_mort:command_queue_index(), true, 5)
+                        region = random_mort:region():name()
+                    else
+                        -- check for a random settlement
+                        local settlement_list = bdsm:get_faction():region_list()
+                        local random_settlement = settlement_list:item_at(cm:random_number(settlement_list:num_items()-1, 0))
+
+                        x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, random_settlement:name(), false, true, 5)
+                        region = random_settlement:name()
+                    end
+                end
+            end
+
+            --- spawn the army
+            cm:create_force(
+                key,
+                random_army_manager:generate_force("nag_death", cm:random_number(15, 12), false),
+                region,
+                x,
+                y,
+                true,
+                function(char_cqi, mf_cqi)
+                    --- TODO apply EB for the duration of the ritual
+                    local eb_key = "nag_death_shambling_horde"
+                    cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5) 
+                end,
+                false
+            )
+
+            --- TODO add an event
+        end,
+        true
+    )
+end
+
+
+function bdsm:setup_rites()
+    
+    --- TODO causes CTD on load game (:
+    -- cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
+
+    add_scroll_bar()
+
+    self:unlock_rites_listeners()
+    self:trigger_rites_listeners()
 end
 
 cm:add_saving_game_callback(

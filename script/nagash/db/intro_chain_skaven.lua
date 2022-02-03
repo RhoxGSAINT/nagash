@@ -20,6 +20,14 @@ local db = {
 
     ---@type string Their starting region.
     owned_region = "wh2_main_the_broken_teeth_desolation_of_nagash",
+
+    ---@type number The level for Desolation of Nagash
+    owned_region_starting_level = 2,
+
+    ---@type string[] List of building_levels to add to their starting settlement.
+    buildings = {
+
+    },
 }
 
 return db

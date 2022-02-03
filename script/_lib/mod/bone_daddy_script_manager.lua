@@ -6,6 +6,8 @@ if __game_mode ~= __lib_type_campaign or cm:get_campaign_name() ~= "main_warhamm
 ---@class bdsm
 local bdsm = {
     _faction_key = "nag_nagash",
+    _bp_key = "wh2_main_great_mortis_delta_black_pyramid_of_nagash",
+    _izar_key = "wh2_main_the_broken_teeth_nagashizar",
 
     write_to_log = true,
     _logpath = "!vandy_lib.txt",

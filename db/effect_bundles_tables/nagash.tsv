@@ -15,3 +15,4 @@ nag_rite_nagash	Dominion of Nagash		faction	1	character.png	true	false	true
 nagash_enslave			force	1	icon_effects_fortify.png	false	false	true
 nagash_kill			force	1	icon_effects_fortify.png	false	false	true
 nagash_release			force	1	icon_effects_fortify.png	false	false	true
+nag_death_shambling_horde			force	1	icon_effects_fortify.png	false	true	true

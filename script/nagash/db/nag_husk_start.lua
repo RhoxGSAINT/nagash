@@ -39,6 +39,9 @@ local db =  {
        -- "building_level_key",
     },
 
+    ---@type number The starting level for Nagashizzar
+    nagashizzar_starting_level = 2,
+
     nagashizzar_buildings = { -- any extra starting buildings for Nagashizzar
        "nag_outpost_special_nagashizzar_1",
     },

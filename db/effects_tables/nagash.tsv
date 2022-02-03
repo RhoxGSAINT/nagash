@@ -93,3 +93,4 @@ nag_effect_ammunition_powder	ammo.png	201	ammo.png	battle	true
 nag_effect_force_unit_stat_attack_attacking	melee.png	103	melee.png	campaign	true
 nag_effect_upkeep_reduction_skeletons_basic	military_spending.png	105	military_spending.png	campaign	false
 nag_effect_contact_charmed_vampires	dlc16_phase_charmed.png	61	phase_charmed.png	battle	true
+nag_death_shambling_horde_free_upkeep	military_spending.png	10	military_spending.png	campaign	true

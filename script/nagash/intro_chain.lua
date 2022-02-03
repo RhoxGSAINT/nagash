@@ -87,7 +87,7 @@ function bdsm:first_turn_begin()
             end
         )
 
-        -- TODO incorporate the local Skaven!
+        -- incorporate the local Skaven!
         ---@type intro_chain_skaven
         local intro_chain_skaven = bdsm:load_db("intro_chain_skaven")
         local sx,sy = cm:find_valid_spawn_location_for_character_from_position(intro_chain_skaven.faction_key, intro_chain_skaven.pos.x, intro_chain_skaven.pos.y, true)
@@ -111,20 +111,24 @@ function bdsm:first_turn_begin()
             end,
             false
         )
-
-        -- cm:trigger_custom_mission
-
         --- TODO change corruption (add Skaven corruption at 10-15%, vamp at the rest?)
 
         cm:callback(function()
             -- upgrade Himselfizar to level 1
             local s = cm:get_region(nagashizar_key):settlement()
-            cm:instantly_set_settlement_primary_slot_level(s, 2)
+            cm:instantly_set_settlement_primary_slot_level(s, starting_info.nagashizzar_starting_level)
             
+            local ss = cm:get_region(intro_chain_skaven.owned_region):settlement()
+            cm:instantly_set_settlement_primary_slot_level(ss, intro_chain_skaven.owned_region_starting_level)
+
             cm:callback(function()
                 for i,building in ipairs(settle_buildings) do
-                    --- TODO does this work?
                     cm:add_building_to_settlement(nagashizar_key, building)
+                end
+
+                -- add in Desolation of Nagash buildings
+                for i,building in ipairs(intro_chain_skaven.buildings) do 
+                    cm:add_building_to_settlement(intro_chain_skaven.owned_region, building)
                 end
             end, 0.2)
 
@@ -134,7 +138,7 @@ function bdsm:first_turn_begin()
             cm:disable_event_feed_events(false, "", "", "character_ancillary_lost")
             cm:disable_event_feed_events(false, "", "", "character_wounded")
             
-            --- TODO mission trigger
+            --- mission trigger
             cm:callback(function()
                 --- needed to make sure Nagash has full AP after the Nagashizar buildings are built, which have +movement range
                 local nag = bdsm:get_faction_leader()
@@ -142,7 +146,6 @@ function bdsm:first_turn_begin()
 
                 cm:replenish_action_points("character_cqi:"..nag_cqi)
 
-                --- TODO how to play
                 -- trigger the How To Play event
                 cm:show_message_event(
                     faction_key,
