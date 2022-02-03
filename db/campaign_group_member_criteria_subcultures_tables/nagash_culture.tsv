@@ -8,3 +8,5 @@ nagash_occupy	nag_nagash
 nagash_colonise	nag_nagash
 nagash_loot	nag_nagash
 nagash_resettle	nag_nagash
+nag_interrogate	nag_nagash
+nag_waaagh	nag_nagash

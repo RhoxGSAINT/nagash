@@ -1,10 +1,10 @@
 key	generate	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
 #missions_tables;6;db/missions_tables/nagash																
-nagash_intro_1	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Event		0	0	false	0.0		false	false
-nagash_intro_2	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false
-nagash_intro_3	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false
-nagash_intro_4	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false
-nagash_intro_5	false			HAVE_CHARACTER_WITHIN_RANGE_OF_POSITION	rom_event_mission.png	tmb/generic	true	Quest		0	0	false	0.0		false	false
+nagash_intro_1	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nagash_intro_2	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nagash_intro_3	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nagash_intro_4	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nagash_intro_5	false			HAVE_CHARACTER_WITHIN_RANGE_OF_POSITION	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
 nag_nagash_early_game_engage_force_army_skaven	false	Coming from their lairs, the Skaven invade! Send these pests back to their fetid nests!	Cut off the Tail	ENGAGE_FORCE	rom_event_mission.png	tmb/generic	false	Military		0	0	false	0.0		false	false
 nag_nagash_early_game_warpstone_mines	false	"Your majesty, it is wise to construct certain buildings. Their function will be of use in the coming rituals and will ensure success in taking back control of the Black Pyramid."	Secure the Warpstone Mines	CONSTRUCT_N_OF_A_BUILDING	rom_event_mission.png	tmb/generic	false	Military		0	0	false	0.0		false	false
 nag_nagash_early_game_raise_army	false	"More warriors are needed, sire. For us to enact the greatness we desire it is time to raise a new legion."\n\nLearn more about raising armies [[url:script_link_campaign_raising_forces]][[tooltip:{{tt:tooltip_campaign_raising_forces}}]][[col:help_page_link]]here[[/col]][[/tooltip]][[/url]].	Legions of Nagash	RAISE_FORCE	rom_event_mission.png	tmb/generic	false	Military		0	0	false	0.0		false	false

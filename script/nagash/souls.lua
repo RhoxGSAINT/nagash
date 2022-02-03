@@ -208,7 +208,7 @@ function bdsm:setup_rites()
             "CharacterCompletedBattle",
             function(context)
                 local character = context:character()
-                return character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss" and character:battles_won() >= 5
+                return (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:battles_won() >= 5
             end,
             function(context)
                 unlock_rite("nag_death")
@@ -226,7 +226,7 @@ function bdsm:setup_rites()
             "CharacterRankUp",
             function(context)
                 local character = context:character()
-                return character:faction():name() == bdsm:get_faction_key() and character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss" and character:rank() >= 12
+                return character:faction():name() == bdsm:get_faction_key() and (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:rank() >= 12
             end,
             function(context)
                 unlock_rite("nag_divinity")

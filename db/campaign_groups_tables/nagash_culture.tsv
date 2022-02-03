@@ -22,3 +22,5 @@ nagash_occupy
 nagash_colonise
 nagash_loot
 nagash_resettle
+nag_interrogate
+nag_dungeon

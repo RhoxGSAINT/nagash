@@ -11,6 +11,9 @@ end
 local faction_key = bdsm._faction_key
 
 local function init_listeners()
+    --- TODO test that this prevents ogre camp spawning!
+    Ogre_Camp.ogre_camp_cooldowns[faction_key] = 999
+    
     --- Whenever a settlement is occupied by Nagash, auto-set the level to 1.
     core:add_listener(
         "NagashWimp",
@@ -86,6 +89,7 @@ local function init_listeners()
                     
                     --- TODO db-ify and err check
                     local nx,ny = cm:find_valid_spawn_location_for_character_from_position(bdsm:get_faction_key(), 718, 187, true, 3)
+                    local ax,ay = cm:find_valid_spawn_location_for_character_from_position(bdsm:get_faction_key(), 699, 134, true, 3)
 
                     bdsm:logf("Trying to find a spot to spawn from (%d, %d); pos is (%d, %d); char str is %s", 718, 187, nx, ny, nag_str)
 
@@ -98,11 +102,37 @@ local function init_listeners()
                             false
                         )
                         
-                        --- TODO spawn Arkhan
+                        --- TODO call mort:spawn() instead of create force / unlock tech
+                        --- spawn Arkhan!
+                        cm:create_force_with_general(
+                            nag_fact,
+                            "",
+                            "wh2_main_ash_river_quatar",
+                            ax,
+                            ay,
+                            "general",
+                            "nag_mortarch_arkhan",
+                            "names_name_1937224332",
+                            "",
+                            "names_name_1777692418",
+                            "",
+                            false,
+                            function(char_cqi)
+                                --- TODO
+                            end
+                        )
 
+                        --- unlock Arkhan tech
+                        ---@type vlib_camp_counselor
+                        local cc = get_vlib():get_module("camp_counselor")
+                        cc:set_techs_lock_state("nag_arkhan_unlock", "unlocked", "", {faction=nag_fact})
+
+                        --- make BP visible
+                        cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")
+
+                        --- TODO trigger the BP mission chain
                     end, 0.5)
 
-                    
 
                     --- remove interactive marker
                     cm:remove_interactable_campaign_marker("nagash_intro_5")
@@ -166,7 +196,7 @@ end
 
 local function init()
     local faction = cm:get_faction(faction_key)
-    --- TODO player only
+    --- player only
     if not faction:is_human() then return end
 
     bdsm:setup_rites()

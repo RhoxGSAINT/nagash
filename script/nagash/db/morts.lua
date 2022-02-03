@@ -31,6 +31,10 @@ return {
         forename = "names_name_1937224332",
         surname = "names_name_1777692418",
         tech_key = "nag_arkhan_unlock",
+        pos = {
+            x = 699,
+            y = 133,
+        }
     },
     {   -- you get it by now
         subtype = "nag_mortarch_neferata",

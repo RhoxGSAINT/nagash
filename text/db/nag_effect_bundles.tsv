@@ -14,3 +14,9 @@ effect_bundles_localised_title_nag_winds	Dominion Over Winds	true
 effect_bundles_localised_description_nag_winds	[PH]	true
 effect_bundles_localised_title_wh2_main_lord_trait_vmp_nagash	Supreme Lord of Undeath	true
 effect_bundles_localised_description_wh2_main_lord_trait_vmp_nagash		true
+effect_bundles_localised_title_nagash_enslave	[PH] Enslave	true
+effect_bundles_localised_description_nagash_enslave	[PH] Enslave desc	true
+effect_bundles_localised_title_nagash_kill	[PH] Kill	true
+effect_bundles_localised_description_nagash_kill	[PH] Kill desc	true
+effect_bundles_localised_title_nagash_release	[PH] Release	true
+effect_bundles_localised_description_nagash_release	[PH] Release desc	true

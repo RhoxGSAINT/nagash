@@ -135,6 +135,12 @@ function bdsm:first_turn_begin()
             
             --- TODO mission trigger
             cm:callback(function()
+                --- needed to make sure Nagash has full AP after the Nagashizar buildings are built, which have +movement range
+                local nag = bdsm:get_faction_leader()
+                local nag_cqi = nag:command_queue_index()
+
+                cm:replenish_action_points("character_cqi:"..nag_cqi)
+
                 --- TODO how to play
                 -- trigger the How To Play event
                 cm:show_message_event(
@@ -148,7 +154,6 @@ function bdsm:first_turn_begin()
                     nil
                 )
 
-                --- WHY THE FUCK ISN'T THE MISSION EVENT TRIGGERING.
                 cm:disable_event_feed_events(false, "wh_event_category_faction", "", "")
                 cm:disable_event_feed_events(false, "wh_event_category_military", "", "")
                 cm:disable_event_feed_events(false, "", "wh_event_subcategory_faction_missions_objectives", "")

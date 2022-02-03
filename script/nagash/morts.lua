@@ -227,7 +227,7 @@ local function init()
         --- TODO hook in Event techs
         --- Start off every primary tech as locked!
         for tech,bool in pairs(unlock_techs) do
-            cm:lock_technology(bdsm:get_faction_key(), tech)
+            -- cm:lock_technology(bdsm:get_faction_key(), tech)
 
             bdsm:logf("Pre- set_techs_lock_state")
             cc:set_techs_lock_state(tech, "locked", effect.get_localised_string(tech.."_locked"), {faction=bdsm:get_faction_key()})
