@@ -2,7 +2,25 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/nag_tech_ui_stuff.loc		
 nag_arkhan_unlock_locked	[PH] Requires something or maybe nothing	true
 nag_luthor_unlock_locked	[PH] Recontact [Character to Awakening region (auto unlocked if faction destroyed)]	true
-nag_mannfred_unlock_locked	[PH] Force Mannfred to Submit	true
+nag_mannfred_unlock_locked	[PH] Force Mannfred to Submit (auto unlocked if Mannfred destroyed?)	true
 nag_krell_unlock_locked	[PH] Barrow Legion Destroyed	true
 nag_neferata_unlock_locked	[PH] Build T4 Nagashizzar Landmark Chain (Throne of Skulls)	true
-nag_vlad_unlock_locked	[PH] Find the Carstein Ring	true
+nag_vlad_unlock_locked	[PH] Find the Carstein Ring (agent channelling X turns in the Empire)	true
+tech_lock_nag_arkhan_event_1	[PH] get BP off group	true
+tech_lock_nag_arkhan_event_2	[PH] kill 10 TK armies in battle or destroy Khemri	true
+tech_lock_nag_arkhan_event_3	[PH] arkhan reaches level 10	true
+tech_lock_nag_krell_event_1	[PH] Kill XXX Enemies (Either total or single battle)	true
+tech_lock_nag_krell_event_2	[PH] Win XX Battles with Krell	true
+tech_lock_nag_krell_event_3	[PH] Chaos Invasion arrived	true
+tech_lock_nag_luthor_event_1	[PH] Win XX Battles either at sea or vs LM factions	true
+tech_lock_nag_luthor_event_2	[PH] Win XX Battles either at sea or vs LM factions	true
+tech_lock_nag_luthor_event_3	[PH] Win XX Battles either at sea or vs LM factions	true
+tech_lock_nag_mannfred_event_1	[PH] Secure Ritual Site/Own Castle Drakenhof	true
+tech_lock_nag_mannfred_event_2	[PH] TBD	true
+tech_lock_nag_mannfred_event_3	[PH] Mannfred reaches level X	true
+tech_lock_nag_neferata_event_1	[PH] Faction Court of Lybaras Destroyed 	true
+tech_lock_nag_neferata_event_2	[PH] Secure Ritual Site/Own Lahmia	true
+tech_lock_nag_neferata_event_3	[PH] Neferate reaches level X	true
+tech_lock_nag_vlad_event_1	[PH] TBD	true
+tech_lock_nag_vlad_event_2	[PH] Secure Ritual Site/Own Altdorf (?)(	true
+tech_lock_nag_vlad_event_3	[PH] Volkmar Killed/Wipe out factions that follow Sigmar?	true

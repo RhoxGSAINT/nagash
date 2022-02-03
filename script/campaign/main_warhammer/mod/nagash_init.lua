@@ -130,7 +130,13 @@ local function init_listeners()
                         --- make BP visible
                         cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")
 
+                        --- TODO trigger Chapter 1 objectives (include BP conquer and raising as a part of that)
                         --- TODO trigger the BP mission chain
+                        local mm = mission_manager:new(nag_fact, "nag_nagash_capture_settlement_black_pyramid")
+                        mm:add_new_objective("CAPTURE_REGIONS");
+                        mm:add_condition("region wh2_main_great_mortis_delta_black_pyramid_of_nagash");
+                        mm:add_payload("money 1000");
+                        mm:trigger()
                     end, 0.5)
 
 
