@@ -214,17 +214,24 @@ local function init()
     local f = nil
 
     if option == "intro" then
+        bdsm:logf("Starting the intro, first_turn_begin()!")
         f = bdsm.first_turn_begin
     elseif option == "bp" then
+        bdsm:logf("Starting the intro, mid_game_start()!")
         f = bdsm.mid_game_start
     elseif option == "domination" then
+        bdsm:logf("Starting the intro, world_domination_start()!")
         f = bdsm.world_domination_start
     end
 
     if cm:is_new_game() then
         -- spawn units, set buildings, etc.
         -- intro battle triggered after the rest
-        f(bdsm)
+        local ok, err = pcall(function()
+            bdsm:logf("Starting first turn")
+            f(bdsm)
+            bdsm:logf("Ending first turn")
+        end) if not ok then bdsm:errorf(err) end
 
         if all_morts then
             bdsm:all_morts()
@@ -238,7 +245,18 @@ local function init()
         -- end
     end
 
-    init_listeners()
+    local ok, err = pcall(function()
+        init_listeners()
+    end) if not ok then bdsm:errorf(err) end
+
 end
 
-cm:add_first_tick_callback(init)
+cm:add_first_tick_callback(
+    function()
+        local ok, err = pcall(function()
+        init()
+        end) if not ok then bdsm:errorf(err) end
+
+        bdsm:logf("nagash_init OK")
+    end
+)

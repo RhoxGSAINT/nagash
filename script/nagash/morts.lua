@@ -326,14 +326,14 @@ local function init()
 
     ---@param tech_obj tech_class
     local function is_locked(tech_obj)
-        return tech_obj:get_lock_state(nk) == "locked"
+        return tech_obj and tech_obj:get_lock_state(nk) == "locked"
     end
 
     --- TODO track all tech progress!!
     do
         --- TODO all Mortarch unlock things
         ---@type tech_class
-        local arkhan = cc:get_object("TechObj", "nag_mortarch_arkhan")
+        local arkhan = cc:get_object("TechObj", "nag_arkhan_unlock")
         ---@type tech_class
         local luthor = cc:get_object("TechObj", "nag_luthor_unlock")
         ---@type tech_class
@@ -425,159 +425,167 @@ local function init()
         end
 
         if is_locked(luthor) then 
-            --- TODO make contact with is faction
+            --- TODO make contact with his faction
         end
     end
 
-    do 
-        -- track Arkhan techs
-        ---@type tech_class
-        local t1 = cc:get_object("TechObj", "nag_arkhan_event_1")
-        ---@type tech_class
-        local t2 = cc:get_object("TechObj", "nag_arkhan_event_2")
-        ---@type tech_class
-        local t3 = cc:get_object("TechObj", "nag_arkhan_event_3")
+    -- do 
+    --     -- track Arkhan techs
+    --     ---@type tech_class
+    --     local t1 = cc:get_object("TechObj", "nag_arkhan_event_1")
+    --     ---@type tech_class
+    --     local t2 = cc:get_object("TechObj", "nag_arkhan_event_2")
+    --     ---@type tech_class
+    --     local t3 = cc:get_object("TechObj", "nag_arkhan_event_3")
 
-        if is_locked(t1) then 
-            core:add_listener(
-                "nag_arkhan_event_1",
-                "BlackPyramidRaised",
-                true,
-                function(context)
-                    unlock(t1._key)
-                end,
-                false
-            )
-        end
+    --     if is_locked(t1) then 
+    --         core:add_listener(
+    --             "nag_arkhan_event_1",
+    --             "BlackPyramidRaised",
+    --             true,
+    --             function(context)
+    --                 unlock(t1._key)
+    --             end,
+    --             false
+    --         )
+    --     end
 
-        if is_locked(t2) then 
-            core:add_listener(
-                "nag_arkhan_event_2",
-                "CharacterCompletedBattle",
-                function(context)
-                    return (
-                        cm:pending_battle_cache_faction_is_defender(bdsm:get_faction_key()) and cm:pending_battle_cache_culture_is_attacker("wh2_dlc09_tmb_tomb_kings")
-                        or
-                        cm:pending_battle_cache_culture_is_attacker(bdsm:get_faction_key()) and cm:pending_battle_cache_faction_is_defender("wh2_dlc09_tmb_tomb_kings")
-                    )
-                end,
-                function(context)
-                    local total = cm:get_saved_value("nag_arkhan_event_2") or 0
-                    total = total + 1
+    --     if is_locked(t2) then 
+    --         core:add_listener(
+    --             "nag_arkhan_event_2",
+    --             "CharacterCompletedBattle",
+    --             function(context)
+    --                 return (
+    --                     cm:pending_battle_cache_faction_is_defender(bdsm:get_faction_key()) and cm:pending_battle_cache_culture_is_attacker("wh2_dlc09_tmb_tomb_kings")
+    --                     or
+    --                     cm:pending_battle_cache_culture_is_attacker(bdsm:get_faction_key()) and cm:pending_battle_cache_faction_is_defender("wh2_dlc09_tmb_tomb_kings")
+    --                 )
+    --             end,
+    --             function(context)
+    --                 local total = cm:get_saved_value("nag_arkhan_event_2") or 0
+    --                 total = total + 1
 
-                    if total == 10 then 
-                        unlock(t2._key)
-                        core:remove_listener("nag_arkhan_event_2")
-                    else
-                        cm:set_saved_value("nag_arkhan_event_2", total)
+    --                 if total == 10 then 
+    --                     unlock(t2._key)
+    --                     core:remove_listener("nag_arkhan_event_2")
+    --                 else
+    --                     cm:set_saved_value("nag_arkhan_event_2", total)
 
-                        cc:set_techs_lock_state(
-                            "nag_arkhan_event_2",
-                            "locked",
-                            string.format(effect.get_localised_string("tech_lock_nag_arkhan_event_2"), total),
-                            bf
-                        )
-                    end
-                end,
-                true
-            )
-        end
+    --                     cc:set_techs_lock_state(
+    --                         "nag_arkhan_event_2",
+    --                         "locked",
+    --                         string.format(effect.get_localised_string("tech_lock_nag_arkhan_event_2"), total),
+    --                         bf
+    --                     )
+    --                 end
+    --             end,
+    --             true
+    --         )
+    --     end
 
-        if is_locked(t3) then 
-            core:add_listener(
-                "nag_arkhan_event_3",
-                "CharacterRankUp",
-                function(context)
-                    return context:character():character_subtype_key() == "nag_mortarch_arkhan" and context:character():rank() >= 10
-                end,
-                function(context)
-                    unlock(t3._key)
-                end,
-                false
-            )
-        end
-    end
+    --     if is_locked(t3) then 
+    --         core:add_listener(
+    --             "nag_arkhan_event_3",
+    --             "CharacterRankUp",
+    --             function(context)
+    --                 return context:character():character_subtype_key() == "nag_mortarch_arkhan" and context:character():rank() >= 10
+    --             end,
+    --             function(context)
+    --                 unlock(t3._key)
+    --             end,
+    --             false
+    --         )
+    --     end
+    -- end
 
-    do 
-        -- Luthor techs
-        ---@type tech_class
-        local t1 = cc:get_object("TechObj", "nag_luthor_event_1")
-        ---@type tech_class
-        local t2 = cc:get_object("TechObj", "nag_luthor_event_2")
-        ---@type tech_class
-        local t3 = cc:get_object("TechObj", "nag_luthor_event_3")
+    -- do 
+    --     -- Luthor techs
+    --     ---@type tech_class
+    --     local t1 = cc:get_object("TechObj", "nag_luthor_event_1")
+    --     ---@type tech_class
+    --     local t2 = cc:get_object("TechObj", "nag_luthor_event_2")
+    --     ---@type tech_class
+    --     local t3 = cc:get_object("TechObj", "nag_luthor_event_3")
 
-        --- Track them one at a time!
-        if is_locked(t1) then
-            core:add_listener(
-                "nag_luthor_event_1",
-                "CharacterCompletedBattle",
-                function(context)
-                    --- track the number of battles Luthor has had AT SEA or AGAINST LM
-                    return context:character():character_subtype_key() == "nag_mortarch_luthor" and 
-                        (
-                            cm:pending_battle_cache_culture_is_involved("wh2_main_lzd_lizardmen") 
-                            or
-                            context:character():is_at_sea()
-                    )
-                end,
-                function(context)
-                    -- update the lock string if it's not enough ; otherwise, unlock it
+    --     --- Track them one at a time!
+    --     if is_locked(t1) then
+    --         core:add_listener(
+    --             "nag_luthor_event_1",
+    --             "CharacterCompletedBattle",
+    --             function(context)
+    --                 --- track the number of battles Luthor has had AT SEA or AGAINST LM
+    --                 return context:character():character_subtype_key() == "nag_mortarch_luthor" and 
+    --                     (
+    --                         cm:pending_battle_cache_culture_is_involved("wh2_main_lzd_lizardmen") 
+    --                         or
+    --                         context:character():is_at_sea()
+    --                 )
+    --             end,
+    --             function(context)
+    --                 -- update the lock string if it's not enough ; otherwise, unlock it
 
-                    local total = cm:get_saved_value("nag_luthor_event") or 0
-                    total = total + 1
+    --                 local total = cm:get_saved_value("nag_luthor_event") or 0
+    --                 total = total + 1
 
-                    if total == 5 then
-                        -- unlock
-                        unlock(t1._key)
-                        core:remove_listener("nag_luthor_event_1")
-                    else
-                        cm:set_saved_value("nag_luthor_event", total)
+    --                 if total == 5 then
+    --                     -- unlock
+    --                     unlock(t1._key)
+    --                     core:remove_listener("nag_luthor_event_1")
+    --                 else
+    --                     cm:set_saved_value("nag_luthor_event", total)
 
-                        cc:set_techs_lock_state(
-                            "nag_luthor_event_1", 
-                            "locked", 
-                            string.format(effect.get_localised_string("tech_lock_nag_luthor_event_1"), total), -- format the string so it says "Won Total / 5 battles"
-                            bf
-                        )
-                    end
-                end,
-                true
-            )
-        end
+    --                     cc:set_techs_lock_state(
+    --                         "nag_luthor_event_1", 
+    --                         "locked", 
+    --                         string.format(effect.get_localised_string("tech_lock_nag_luthor_event_1"), total), -- format the string so it says "Won Total / 5 battles"
+    --                         bf
+    --                     )
+    --                 end
+    --             end,
+    --             true
+    --         )
+    --     end
         
-        if is_locked(t2) then
-            core:add_listener(
-                "nag_luthor_event_2",
-                "ResearchCompleted",
-                function(context)
-                    return context:technology() == "nag_luthor_event_1"
-                end,
-                function(context)
-                    unlock(t2)
-                end,
-                false
-            )    
-        end
+    --     if is_locked(t2) then
+    --         core:add_listener(
+    --             "nag_luthor_event_2",
+    --             "ResearchCompleted",
+    --             function(context)
+    --                 return context:technology() == "nag_luthor_event_1"
+    --             end,
+    --             function(context)
+    --                 unlock(t2)
+    --             end,
+    --             false
+    --         )    
+    --     end
         
-        if is_locked(t3) then
-            core:add_listener(
-                "nag_luthor_event_3",
-                "ResearchCompleted",
-                function(context)
-                    return context:technology() == "nag_luthor_event_2"
-                end,
-                function(context)
-                    unlock(t3)
-                end,
-                false
-            )  
-        end
-    end
+    --     if is_locked(t3) then
+    --         core:add_listener(
+    --             "nag_luthor_event_3",
+    --             "ResearchCompleted",
+    --             function(context)
+    --                 return context:technology() == "nag_luthor_event_2"
+    --             end,
+    --             function(context)
+    --                 unlock(t3)
+    --             end,
+    --             false
+    --         )  
+    --     end
+    -- end
 end
 
 
-cm:add_first_tick_callback(init)
+cm:add_first_tick_callback(
+    function()
+        local ok, err = pcall(function()
+        init()
+        end) if not ok then bdsm:errorf(err) end
+
+        logf("morts lua OK")
+    end
+)
 
 
 

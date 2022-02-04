@@ -233,8 +233,9 @@ function bdsm:trigger_rites_listeners()
         true
     )
 
-    -- nag_death
-    bdsm:load_db("nag_death")
+    --- Breaks ATM
+    -- -- nag_death
+    -- bdsm:load_db("nag_death")
 
     local function get_random_mortarch()
         local morts = {}

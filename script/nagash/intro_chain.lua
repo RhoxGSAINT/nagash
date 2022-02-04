@@ -12,11 +12,12 @@ local log,logf,err,errf = vlib:get_log_functions("[nag]")
 -- this is triggered on the, well, first turn
 function bdsm:first_turn_begin()
     local faction_key = bdsm:get_faction_key()
-    local nagashizar_key = "wh2_main_the_broken_teeth_nagashizar"
+    local nagashizar_key = bdsm._izar_key
 
     local faction_obj = cm:get_faction(faction_key)
 
     if faction_obj:is_human() then
+        -- logf("Giving Izar")
         -- spawn new Nagash, gain Nagashizar, and kill dummy Nagash
         cm:transfer_region_to_faction(nagashizar_key, faction_key)
 
@@ -29,8 +30,8 @@ function bdsm:first_turn_begin()
         do
             --- Kill fake Nagash
             local nagash = faction_obj:faction_leader()
-            cm:kill_character(nagash:command_queue_index(), true, false)
-            -- cm:kill_character_and_commanded_unit("character_cqi:"..nagash:command_queue_index(), true, false)
+            -- cm:kill_character(nagash:command_queue_index(), true, false)
+            cm:kill_character_and_commanded_unit("character_cqi:"..nagash:command_queue_index(), true, false)
         end
             
         ---@type NagHuskDB
