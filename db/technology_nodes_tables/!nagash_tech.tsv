@@ -36,14 +36,14 @@ nag_mannfred_event_3			3	nag_mannfred_event_3	nagash_tech	5	1	2500	0
 nag_mannfred_unlock			4	nag_mannfred_unlock	nagash_tech	4	1500	0	0		nag_ritual_mort
 nag_mannfred_proclamation			8	nag_mannfred_proclamation	nagash_tech	4	1	5000	0		
 nag_mannfred_archai			0	nag_mannfred_archai	nagash_tech	4	1	0	0		nag_ritual_archai
-nag_nagash_1			1	nag_nagash_1	nagash_tech	12	1	0	0	tmb_7	nag_ritual_mort
-nag_nagash_2			2	nag_nagash_2	nagash_tech	12	1	0	0		nag_ritual_mort
-nag_nagash_3			3	nag_nagash_3	nagash_tech	12	1	0	0		nag_ritual_mort
-nag_nagash_4			4	nag_nagash_4	nagash_tech	12	1	0	0		nag_ritual_mort
-nag_nagash_5			5	nag_nagash_5	nagash_tech	12	1	0	0		nag_ritual_mort
-nag_nagash_6			6	nag_nagash_6	nagash_tech	12	1	0	0		nag_ritual_mort
-nag_nagash_7			7	nag_nagash_7	nagash_tech	12	1	0	0		nag_ritual_mort
-nag_nagash_ultimate			4	nag_nagash_ultimate	nagash_tech	13	500	10000	0		
+nag_nagash_1			1	nag_nagash_1	nagash_tech	12	1	0	0	nag_tech_rituals	nag_ritual_mort
+nag_nagash_2			2	nag_nagash_2	nagash_tech	12	1	0	0	nag_tech_rituals	nag_ritual_mort
+nag_nagash_3			3	nag_nagash_3	nagash_tech	12	1	0	0	nag_tech_rituals	nag_ritual_mort
+nag_nagash_4			4	nag_nagash_4	nagash_tech	12	1	0	0	nag_tech_rituals	nag_ritual_mort
+nag_nagash_5			5	nag_nagash_5	nagash_tech	12	1	0	0	nag_tech_rituals	nag_ritual_mort
+nag_nagash_6			6	nag_nagash_6	nagash_tech	12	1	0	0	nag_tech_rituals	nag_ritual_mort
+nag_nagash_7			7	nag_nagash_7	nagash_tech	12	1	0	0	nag_tech_rituals	nag_ritual_mort
+nag_nagash_ultimate			4	nag_nagash_ultimate	nagash_tech	13	500	10000	0	nag_tech_rituals	
 nag_neferata_battle_1			5	nag_neferata_battle_1	nagash_tech	9	200	0	0		
 nag_neferata_battle_2			6	nag_neferata_battle_2	nagash_tech	9	200	0	0		
 nag_neferata_battle_3			7	nag_neferata_battle_3	nagash_tech	9	200	0	0		

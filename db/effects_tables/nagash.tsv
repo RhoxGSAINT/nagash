@@ -75,7 +75,8 @@ nag_effect_resource_upkeep_reduction_construct	treasury.png	106	treasury.png	cam
 nag_effect_resource_upkeep_reduction_zombie	treasury.png	106	treasury.png	campaign	false
 nag_effect_resource_upkeep_reduction_coast	treasury.png	106	treasury.png	campaign	false
 nag_effect_agent_recruitment_xp_spy_archai	saurus_scar_veteran.png	3	saurus_scar_veteran.png	campaign	true
-nag_effect_agent_recruitment_xp_general_traitor_kings	agent.png	118	agent.png	campaign	true
+nag_effect_agent_recruitment_xp_general_traitor_kings	army.png	118	army.png	campaign	true
+nag_effect_agent_recruitment_xp_general_traitor_kings_hidden	army.png	0	army.png	campaign	true
 nag_effect_agent_recruitment_xp_hero_all	agent.png	118	agent.png	campaign	true
 nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	wight_king.png	3	wight_king.png	campaign	true
 nag_effect_agent_recruitment_xp_champion_tomb_prince	tomb_prince.png	3	tomb_prince.png	campaign	true
@@ -92,5 +93,9 @@ nag_effect_upkeep_reduction_skeletons	military_spending.png	105	military_spendin
 nag_effect_ammunition_powder	ammo.png	201	ammo.png	battle	true
 nag_effect_force_unit_stat_attack_attacking	melee.png	103	melee.png	campaign	true
 nag_effect_upkeep_reduction_skeletons_basic	military_spending.png	105	military_spending.png	campaign	false
-nag_effect_contact_charmed_vampires	dlc16_phase_charmed.png	61	phase_charmed.png	battle	true
+nag_effect_contact_charmed_vampires	dlc16_phase_charmed.png	61	dlc16_phase_charmed.png	battle	true
 nag_death_shambling_horde_free_upkeep	military_spending.png	10	military_spending.png	campaign	true
+nag_effect_ability_carcinization	general_ability.png	600	general_ability.png	battle	true
+nag_effect_enable_poison_tomb_guard	phase_posion.png	61	phase_posion.png	battle	true
+nag_effect_enable_sunder_nagashi_guard	phase_sunder_armour.png	61	phase_sunder_armour.png	battle	true
+nag_effect_enable_frenzy_grave_guard	general_ability.png	101	general_ability.png	battle	true

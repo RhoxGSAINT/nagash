@@ -252,10 +252,10 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_vmp_cav_black_knights_3	nag_black_knights_unit_set	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_ushabti_unit_set	false
 			nag_vanilla_tmb_mon_ushabti_1	nag_ushabti_unit_set	false
-			nag_nagashi_guard	nag_grave_guard_unit_set	false
-			nag_nagashi_guard_halb	nag_grave_guard_unit_set	false
-			nag_vanilla_vmp_inf_grave_guard_0	nag_grave_guard_unit_set	false
-			nag_vanilla_vmp_inf_grave_guard_1	nag_grave_guard_unit_set	false
+			nag_nagashi_guard	nag_grave_nagashi_guard_unit_set	false
+			nag_nagashi_guard_halb	nag_grave_nagashi_guard_unit_set	false
+			nag_vanilla_vmp_inf_grave_guard_0	nag_grave_nagashi_guard_unit_set	false
+			nag_vanilla_vmp_inf_grave_guard_1	nag_grave_nagashi_guard_unit_set	false
 			nag_vanilla_tmb_inf_nehekhara_warriors_0	nag_nehekharan_warriors_horsemen_unit_set	false
 			nag_vanilla_tmb_cav_nehekhara_horsemen_0	nag_nehekharan_warriors_horsemen_unit_set	false
 			nag_vanilla_tmb_inf_nehekhara_warriors_0	nag_nehekharan_warriors_horsemen_plus_unit_set	false
@@ -425,3 +425,53 @@ hero				nag_characters	false
 			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_skeletons_basic	false
 			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_skeletons_basic	false
 			nag_shade_haunts	wh2_main_ror_units_all	false
+			nag_mortarch_luthor	nag_luthor_harkon	false
+			nag_mortarch_luthor_terrorgheist	nag_luthor_harkon	false
+			nag_vanilla_vmp_inf_zombie	nag_army_count_units_vet	false
+			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_army_count_units_vet	false
+			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_army_count_units_vet	false
+			nag_vanilla_vmp_inf_crypt_ghouls	nag_army_count_units_vet	false
+			nag_vanilla_vmp_inf_grave_guard_0	nag_army_count_units_vet	false
+			nag_vanilla_vmp_inf_grave_guard_1	nag_army_count_units_vet	false
+			nag_vanilla_vmp_cav_black_knights_0	nag_army_count_units_vet	false
+			nag_vanilla_vmp_cav_black_knights_3	nag_army_count_units_vet	false
+			nag_vanilla_vmp_cav_blood_knights_0	nag_army_count_units_vet	false
+			nag_vanilla_vmp_veh_corpse_cart_1	nag_army_count_units_vet	false
+			nag_vanilla_vmp_veh_corpse_cart_2	nag_army_count_units_vet	false
+			nag_vanilla_vmp_mon_dire_wolves	nag_army_count_units_vet	false
+			nag_vanilla_vmp_mon_fell_bats	nag_army_count_units_vet	false
+			nag_vanilla_vmp_mon_vargheists	nag_army_count_units_vet	false
+			nag_vanilla_vmp_mon_crypt_horrors	nag_army_count_units_vet	false
+			nag_vanilla_vmp_mon_varghulf	nag_army_count_units_vet	false
+			nag_vanilla_tmb_inf_skeleton_archers_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_inf_skeleton_spearmen_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_inf_nehekhara_warriors_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_inf_tomb_guard_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_inf_tomb_guard_1	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_cav_skeleton_horsemen_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_cav_nehekhara_horsemen_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	nag_army_nehek_units_vet	false
+			nag_vanilla_tmb_veh_skeleton_chariot_0	nag_army_nehek_units_vet	false
+			nag_vanilla_cst_inf_zombie_deckhands_mob_0	nag_army_coast_units_vet	false
+			nag_vanilla_cst_inf_zombie_deckhands_mob_1	nag_army_coast_units_vet	false
+			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_army_coast_units_vet	false
+			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_army_coast_units_vet	false
+			nag_vanilla_cst_mon_bloated_corpse_0	nag_army_coast_units_vet	false
+			nag_vanilla_cst_mon_terrorgheist	nag_army_coast_units_vet	false
+			nag_vanilla_cst_art_carronade	nag_army_coast_units_vet	false
+			nag_vanilla_cst_mon_necrofex_colossus_0	nag_army_coast_units_vet	false
+			nag_morghasts	nag_army_nagashizzar_units_vet	false
+			nag_nagashi_guard	nag_army_nagashizzar_units_vet	false
+			nag_nagashi_guard_halb	nag_army_nagashizzar_units_vet	false
+			nag_mortis_engine	nag_army_nagashizzar_units_vet	false
+			nag_bone_golems	nag_army_nagashizzar_units_vet	false
+			nag_sand_crawlies	nag_army_nagashizzar_units_vet	false
+			nag_carrion_riders	nag_army_nagashizzar_units_vet	false
+			nag_vanilla_vmp_inf_cairn_wraiths	nag_army_nagashizzar_units_vet	false
+			nag_vanilla_vmp_cav_hexwraiths	nag_army_nagashizzar_units_vet	false
+			nag_nagashi_guard	nag_nagashi_guard	false
+			nag_nagashi_guard_halb	nag_nagashi_guard	false
+			nag_vanilla_vmp_inf_grave_guard_0	vmp_graveguard	false
+			nag_vanilla_vmp_inf_grave_guard_1	vmp_graveguard	false

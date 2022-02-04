@@ -7,3 +7,4 @@ nag_mannfred_unlock	army.png	1	army.png	campaign	true
 nag_neferata_unlock	army.png	1	army.png	campaign	true
 nag_vlad_unlock	army.png	1	army.png	campaign	true
 nag_archai_cap	agent.png	1	agent.png	campaign	true
+nag_luthor_will_heal_dummy	replenishment.png	500	replenishment.png	campaign	true

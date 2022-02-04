@@ -165,3 +165,5 @@ unit_abilities_onscreen_name_nag_unit_abilities_beyond_the_veil	Beyond the Veil	
 unit_abilities_tooltip_text_nag_unit_abilities_beyond_the_veil	The place between life and death, malign spirits wait and possess the objects or beings around them, lying in a state of dormancy until a victim draws near.	true
 unit_abilities_onscreen_name_nag_unit_passive_heavy_with_death	Heavy With Death	true
 unit_abilities_tooltip_text_nag_unit_passive_heavy_with_death	The air in these ancient woods is heavy with death, dark magic seeps through twisted trees empowering its denizens.	true
+unit_abilities_onscreen_name_nag_luthor_harkon_carcinization	Carcinization	true
+unit_abilities_tooltip_text_nag_luthor_harkon_carcinization	Inside every creature there is a crab waiting to emerge.	true

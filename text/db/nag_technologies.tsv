@@ -21,9 +21,9 @@ technologies_short_description_nag_vlad_unlock	[PH]	false
 technologies_onscreen_name_nag_arkhan_event_1	Trusted Servant	false
 technologies_onscreen_name_nag_arkhan_event_2	Only One Ruler	false
 technologies_onscreen_name_nag_arkhan_event_3	First Among Peers	false
-technologies_short_description_nag_arkhan_event_1	[PH] - Arkhan loves Nagash	false
-technologies_short_description_nag_arkhan_event_2	[PH] - Arkhan shall not suffer anyone to challenge the Great Necromancer, not even the king of Khemri	false
-technologies_short_description_nag_arkhan_event_3	[PH] - Arkhan prides himself in being Nagash's most faithful servant, and knows his dedication will be well rewarded in time.	false
+technologies_short_description_nag_arkhan_event_1	Arkhan the Black's existence serves only one purpose: to uplift his dark master's ambitions.	false
+technologies_short_description_nag_arkhan_event_2	Arkhan shall not suffer anyone to challenge the Great Necromancer, not even the king of Khemri.	false
+technologies_short_description_nag_arkhan_event_3	Arkhan prides himself in being Nagash's most faithful servant, and knows his dedication will be well rewarded in time.	false
 technologies_onscreen_name_nag_neferata_event_1	The First Vampire	false
 technologies_onscreen_name_nag_neferata_event_2	The Queen of Mysteries	false
 technologies_onscreen_name_nag_neferata_event_3	The Uncontested Queen	false
@@ -38,25 +38,25 @@ technologies_onscreen_name_nag_arkhan_archai	Bestow the Archai	false
 technologies_onscreen_name_nag_krell_battle_1	Doom of the Legion	false
 technologies_onscreen_name_nag_krell_battle_2	Destroy by Example	false
 technologies_onscreen_name_nag_krell_battle_3	The Mortarch's Own	false
-technologies_onscreen_name_nag_krell_event_1	Event	false
-technologies_onscreen_name_nag_krell_event_2	Event	false
-technologies_onscreen_name_nag_krell_event_3	Event	false
+technologies_onscreen_name_nag_krell_event_1	Skull Collector	false
+technologies_onscreen_name_nag_krell_event_2	Death Dealer	false
+technologies_onscreen_name_nag_krell_event_3	Machine of Slaughter	false
 technologies_onscreen_name_nag_krell_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_krell_archai	Bestow the Archai	false
 technologies_onscreen_name_nag_luthor_battle_1	Shoot First	false
 technologies_onscreen_name_nag_luthor_battle_2	Shiver Me Dreadful Obelisks	false
 technologies_onscreen_name_nag_luthor_battle_3	The Mortarch's Own	false
-technologies_onscreen_name_nag_luthor_event_1	Event	false
-technologies_onscreen_name_nag_luthor_event_2	Event	false
-technologies_onscreen_name_nag_luthor_event_3	Event	false
+technologies_onscreen_name_nag_luthor_event_1	What is the Definition of Madness?	false
+technologies_onscreen_name_nag_luthor_event_2	What is the Definition of Madness?	false
+technologies_onscreen_name_nag_luthor_event_3	What is the Definition of Madness?	false
 technologies_onscreen_name_nag_luthor_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_luthor_archai	Bestow the Archai	false
 technologies_onscreen_name_nag_mannfred_battle_1	Cleptomancy	false
 technologies_onscreen_name_nag_mannfred_battle_2	Mannfred Battle 2 ok dunno yet	false
 technologies_onscreen_name_nag_mannfred_battle_3	The Mortarch's Own	false
-technologies_onscreen_name_nag_mannfred_event_1	Event	false
-technologies_onscreen_name_nag_mannfred_event_2	Event	false
-technologies_onscreen_name_nag_mannfred_event_3	Event	false
+technologies_onscreen_name_nag_mannfred_event_1	Lord of Sylvania	false
+technologies_onscreen_name_nag_mannfred_event_2	The Greatest Von Carstein	false
+technologies_onscreen_name_nag_mannfred_event_3	Begrudging Ally	false
 technologies_onscreen_name_nag_mannfred_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_mannfred_archai	Bestow the Archai	false
 technologies_onscreen_name_nag_nagash_1	Nagashizzar	false
@@ -85,25 +85,25 @@ technologies_short_description_nag_arkhan_archai	For all their pledges, Mortarch
 technologies_short_description_nag_krell_battle_1	And it is not just the Legion who is doomed.	false
 technologies_short_description_nag_krell_battle_2	Undead troops hardly cheer when their leader is the first in the melee, but somehow it all counts.	false
 technologies_short_description_nag_krell_battle_3	An armoured gauntlet pointed at everything living, and unliving under the wrong banners.	false
-technologies_short_description_nag_krell_event_1	Krell Campaign 1	false
-technologies_short_description_nag_krell_event_2	Krell Campaign 2	false
-technologies_short_description_nag_krell_event_3	Krell Campaign 3	false
+technologies_short_description_nag_krell_event_1	Krell used to collect skulls for the throne of his previous master. Now he adds them to the armies of the Great Necromancer.	false
+technologies_short_description_nag_krell_event_2	As cold and devoid of emotion as he is, Krell will still challenge the mightiest foes to prove his mettle.	false
+technologies_short_description_nag_krell_event_3	The Black Axe rarely stays unstained with the scarlet of blood and gore. Its tally is numberless.	false
 technologies_short_description_nag_krell_proclamation	Loyal. Relentless. Large. Big-axed.	false
 technologies_short_description_nag_krell_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technologies_short_description_nag_luthor_battle_1	"Questions? What Questions?"	false
 technologies_short_description_nag_luthor_battle_2	So much to do, so many minds, so many directions.	false
 technologies_short_description_nag_luthor_battle_3	You may need special powers, and possibly an anchor and lengths of rope, to gather what Luthor can reliably do best, but you'll know it once you're there.	false
-technologies_short_description_nag_luthor_event_1	Luthor Campaign 1	false
-technologies_short_description_nag_luthor_event_2	Luthor Campaign 2	false
-technologies_short_description_nag_luthor_event_3	Luthor Campaign 3	false
+technologies_short_description_nag_luthor_event_1	The definition of madness is doing the same thing over and over again and expecting different results.	false
+technologies_short_description_nag_luthor_event_2	The definition of madness is doing the same thing over and over again and expecting different results.	false
+technologies_short_description_nag_luthor_event_3	The definition of madness is doing the same thing over and over again and expecting different results.	false
 technologies_short_description_nag_luthor_proclamation	Luthor Boon	false
 technologies_short_description_nag_luthor_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technologies_short_description_nag_mannfred_battle_1	Travel far, travel fast, for knowledge and powerful items.	false
 technologies_short_description_nag_mannfred_battle_2	Mannfred Battle 2	false
 technologies_short_description_nag_mannfred_battle_3	Rise, my puppets.	false
-technologies_short_description_nag_mannfred_event_1	Mannfred Campaign 1	false
-technologies_short_description_nag_mannfred_event_2	Mannfred Campaign 2	false
-technologies_short_description_nag_mannfred_event_3	Mannfred Campaign 3	false
+technologies_short_description_nag_mannfred_event_1	Sylvania has long been Mannfred's domain, and he will let nobody else take it from him. Not even his sire.	false
+technologies_short_description_nag_mannfred_event_2	Mannfred Von Carstein's hubris is legendary. He sees himself as the greatest of his bloodline, and will stop at nothing to prove it.	false
+technologies_short_description_nag_mannfred_event_3	Mannfred has sworn loyalty to the Great Necromancer - to what extent remains to be seen.	false
 technologies_short_description_nag_mannfred_proclamation	Mannfred Boon	false
 technologies_short_description_nag_mannfred_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technologies_short_description_nag_nagash_1	[PH]	false

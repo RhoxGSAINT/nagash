@@ -47,22 +47,22 @@ effects_description_nag_effect_army_spirit_magic_resistance_skill	Magic resistan
 effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
 effects_description_nag_effect_army_construct_melee_attack_skill	Melee attack: %+n for all Monster and Large Construct units	true
 effects_description_nag_effect_army_construct_charge_bonus_skill	Charge bonus: %+n for all Monster and Large Construct units	true
-effects_description_nag_effect_army_vet_vamp_strider_skill	Attribute: Strider for Sylvanian units	true
-effects_description_nag_effect_army_vet_vamp_melee_attack_skill	Melee attack: %+n for Sylvanian units	true
-effects_description_nag_effect_army_vet_vamp_speed_skill	Speed: %+n% for Sylvanian units	true
-effects_description_nag_effect_army_vet_vamp_damage_base_skill	Weapon strength: %+n% for Sylvanian units	true
-effects_description_nag_effect_army_vet_nehek_realm_of_souls_skill	Ability: "Mortal Realm of Souls" for Nehekharan units	true
-effects_description_nag_effect_army_vet_nehek_melee_defence_skill	Melee defence: %+n for Nehekharan units	true
-effects_description_nag_effect_army_vet_nehek_damage_base_skill	Weapon strength: %+n% for Nehekharan units	true
-effects_description_nag_effect_army_vet_coast_missile_damage_ap_skill	Armour-piercing missile damage: %+n% for Coast units	true
-effects_description_nag_effect_army_vet_coast_missile_damage_base_skill	Base missile damage: %+n% for Coast units	true
-effects_description_nag_effect_army_vet_coast_missile_damage_skill	Missile strength: %+n% for Coast units	true
-effects_description_nag_effect_army_vet_coast_physical_resistance_skill	Physical resistance: %n% for Coast units	true
-effects_description_nag_effect_army_vet_coast_damage_base_skill	Weapon strength: %+n% for Coast units	true
-effects_description_nag_effect_army_vet_nagash_deathblow_skill	Ability: "Deathblow" for Nagashizzar units	true
-effects_description_nag_effect_army_vet_nagash_fatigue_res_skill	Attribute: Fatigue Resistance for Nagashizzar units	true
-effects_description_nag_effect_army_vet_nagash_ward_save_skill	Ward save: %n% for Nagashizzar units	true
-effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength: %+n% for Nagashizzar units	true
+effects_description_nag_effect_army_vet_vamp_strider_skill	Attribute: Strider for Sylvanian units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_vamp_melee_attack_skill	Melee attack: %+n for Sylvanian units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_vamp_speed_skill	Speed: %+n% for Sylvanian units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_vamp_damage_base_skill	Weapon strength: %+n% for Sylvanian units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_nehek_realm_of_souls_skill	Ability: "Mortal Realm of Souls" for Nehekharan units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_nehek_melee_defence_skill	Melee defence: %+n for Nehekharan units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_nehek_damage_base_skill	Weapon strength: %+n% for Nehekharan units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_coast_missile_damage_ap_skill	Armour-piercing missile damage: %+n% for Coast units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_coast_missile_damage_base_skill	Base missile damage: %+n% for Coast units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_coast_missile_damage_skill	Missile strength: %+n% for Coast units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_coast_physical_resistance_skill	Physical resistance: %n% for Coast units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_coast_damage_base_skill	Weapon strength: %+n% for Coast units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_nagash_deathblow_skill	Ability: "Deathblow" for Nagashizzar units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_nagash_fatigue_res_skill	Attribute: Fatigue Resistance for Nagashizzar units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_nagash_ward_save_skill	Ward save: %n% for Nagashizzar units {{tr:rank7}}	true
+effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength: %+n% for Nagashizzar units {{tr:rank7}}	true
 effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts and Vargheists	true
 effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Deck Gunners, Bloated Corpses, Dpeth Guard and Death Shreik Terrorgheists	true
 effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Spectre Swarms, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts	true
@@ -282,3 +282,20 @@ effects_description_nag_effect_force_unit_stat_attack_attacking	Melee Attack: %+
 effects_description_nag_effect_upkeep_reduction_skeletons_basic	Upkeep: %+n% for Skeleton Warriors and Archers units	true
 effects_description_nag_effect_contact_charmed_vampires	Enables charmed attacks for all Vampire heroes	true
 effects_description_nag_death_shambling_horde_free_upkeep	Free upkeep for the Shambling Horde	true
+effects_description_nag_luthor_will_heal_dummy	Luthor Harkon's mind will be restored once all of these three events are fulfilled	false
+effects_description_nag_effect_ability_carcinization	Ability: "Carcinization" for Luthor Harkon	true
+effects_description_nag_effect_army_vamp_melee_attack_skill	Melee attack: %+n for Sylvanian units	true
+effects_description_nag_effect_army_vamp_speed_skill	Speed: %+n% for Sylvanian units	true
+effects_description_nag_effect_army_vamp_damage_base_skill	Weapon strength: %+n% for Sylvanian units	true
+effects_description_nag_effect_army_nehek_melee_defence_skill	Melee defence: %+n for Nehekharan units	true
+effects_description_nag_effect_army_nehek_damage_base_skill	Weapon strength: %+n% for Nehekharan units	true
+effects_description_nag_effect_army_coast_missile_damage_ap_skill	Armour-piercing missile damage: %+n% for Coast units	true
+effects_description_nag_effect_army_coast_missile_damage_base_skill	Base missile damage: %+n% for Coast units	true
+effects_description_nag_effect_army_coast_missile_damage_skill	Missile strength: %+n% for Coast units	true
+effects_description_nag_effect_army_coast_physical_resistance_skill	Physical resistance: %n% for Coast units	true
+effects_description_nag_effect_army_coast_damage_base_skill	Weapon strength: %+n% for Coast units	true
+effects_description_nag_effect_army_nagash_ward_save_skill	Ward save: %n% for Nagashizzar units	true
+effects_description_nag_effect_army_nagash_damage_base_skill	Weapon strength: %+n% for Nagashizzar units	true
+effects_description_nag_effect_enable_poison_tomb_guard	Enables poison attacks for Tomb Guard	true
+effects_description_nag_effect_enable_sunder_nagashi_guard	Enables sundering attacks for Nagashizzar Guard	true
+effects_description_nag_effect_enable_frenzy_grave_guard	Passive ability: "Frenzy" for Grave Guard	true
