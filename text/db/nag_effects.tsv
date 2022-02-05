@@ -300,7 +300,8 @@ effects_description_nag_effect_enable_poison_tomb_guard	Enables poison attacks f
 effects_description_nag_effect_enable_sunder_nagashi_guard	Enables sundering attacks for Nagashizzar Guard	true
 effects_description_nag_effect_enable_frenzy_grave_guard	Passive ability: "Frenzy" for Grave Guard	true
 effects_description_		true
-effects_description_nag_ritual_attack_warning	[[col:yellow]]This location is going to be attacked[[/col]]	true
-effects_description_nag_ritual_attack_warning_final	All important locations are going to be attacked	true
-effects_description_nag_ritual_victory	Required for victory (All your base are belong to Nagash)	true
+effects_description_nag_ritual_attack_warning_dummy	[[col:yellow]]This location is going to be attacked[[/col]]	true
+effects_description_nag_ritual_attack_warning_dummy_final	All important locations are going to be attacked	true
+effects_description_nag_ritual_victory_dummy	Required for victory (All your base are belong to Nagash)	true
 effects_description_nag_effect_husk_can_tunnel_dummy	Nagash has access to Nagashizzar's underways in his early husk form	true
+effects_description_nag_ability_enable_batocalypse	Army ability: "Apocalyptic Swarm"	true

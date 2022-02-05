@@ -16,6 +16,10 @@ local db = {
     units = {
         "wh2_main_skv_inf_skavenslaves_0",
         "wh2_main_skv_inf_skavenslaves_0",
+        "wh2_dlc14_skv_inf_warp_grinder_0",
+        "wh2_main_skv_inf_clanrats_1",
+        "wh2_main_skv_inf_clanrats_1",
+        "wh2_main_skv_inf_clanrats_1",
     },
 
     ---@type string Their starting region.
