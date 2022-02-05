@@ -85,6 +85,8 @@ function mortarch:spawn_to_pool()
 end
 
 function mortarch:spawn()
+    if self.acquired then return end
+    
     local x,y = self.pos.x, self.pos.y
     local starting_army = self.starting_army
     local forename,surname = self.forename,self.surname
@@ -376,7 +378,10 @@ local function mortarch_unlock_listeners()
 
             --- TODO make sure mort:spawn() allows for spawning on map or spawning in pool
             local mort = bdsm:get_mortarch_with_key(mort_key)
-            mort:spawn()
+
+            if mort_key ~= "nag_mortarch_arkhan" then
+                mort:spawn()
+            end
 
             --- lock each sub-tech
             for i = 1,3 do 
