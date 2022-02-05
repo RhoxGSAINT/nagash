@@ -249,6 +249,7 @@ local function init()
         init_listeners()
     end) if not ok then bdsm:errorf(err) end
 
+    vlib:load_module("armies", bdsm._default_module_path)
 end
 
 cm:add_first_tick_callback(

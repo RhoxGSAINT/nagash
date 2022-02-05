@@ -1,26 +1,27 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_tech_ui_stuff.loc		
-nag_arkhan_unlock_locked	[[col:red]]Progress through your starting Missions to unlock Arkhan[[/col]]	true
-nag_luthor_unlock_locked	[PH] Recontact [Character to Awakening region (auto unlocked if faction destroyed)]	true
-nag_mannfred_unlock_locked	[PH] Force Mannfred to Submit (auto unlocked if Mannfred destroyed?)	true
-nag_krell_unlock_locked	[PH] Barrow Legion Destroyed	true
-nag_neferata_unlock_locked	[[col:red]]Build the Throne of Skulls in Nagashizzar[[/col]]	true
-nag_vlad_unlock_locked	[[col:red]]Find the Carstein Ring by Channeling within Reikland.[[/col]]	true
+tech_lock_nag_mortarch_arkhan_unlock	[[col:red]]Progress through your starting Missions to unlock Arkhan[[/col]]	true
+tech_lock_nag_mortarch_luthor_unlock	[[col:red]]Complete the Mortarch of the Depths Mission[[/col]]	true
+tech_lock_nag_mortarch_mannfred_unlock	[[col:red]]Complete the Mortarch of Night Mission[[/col]]	true
+tech_lock_nag_mortarch_krell_unlock	[[col:red]]Complete the Mortarch of Despair Mission[[/col]]	true
+tech_lock_nag_mortarch_neferata_unlock	[[col:red]]Complete the Mortarch of Blood Mission[[/col]]	true
+tech_lock_nag_mortarch_vlad_unlock	[[col:red]]Complete the Mortarch of Shadows Mission[[/col]]	true
 tech_lock_nag_arkhan_event_1	[[col:red]]Raise the Black Pyramid[[/col]]	true
 tech_lock_nag_arkhan_event_2	[[col:red]]Defeat %d / 10 Tomb Kings armies[[/col]]	true
-tech_lock_nag_arkhan_event_3	[[col:red]]Reach level 10 with Arkhan the Black	true
+tech_lock_nag_arkhan_event_3	[[col:red]]Reach level 10 with Arkhan the Black[[/col]]	true
 tech_lock_nag_krell_event_1	[PH] Kill XXX Enemies (Either total or single battle)	true
-tech_lock_nag_krell_event_2	[PH] Win XX Battles with Krell	true
+tech_lock_nag_krell_event_2	[[col:red]]Win %d / 5 battles with Krell[[/col]]	true
 tech_lock_nag_krell_event_3	[PH] Chaos Invasion arrived	true
 tech_lock_nag_luthor_event_1	[[col:red]]Fight %d / 5 battles at sea or versus Lizardmen factions, with Luthor Harkon[[/col]]	true
 tech_lock_nag_luthor_event_2	[PH] Research and copmplete luthor event 1	true
 tech_lock_nag_luthor_event_3	[PH] Research and copmplete luthor event 2	true
-tech_lock_nag_mannfred_event_1	[PH] Secure Ritual Site/Own Castle Drakenhof	true
+tech_lock_nag_mannfred_event_1	[[col:red]]Reclaim Castle Drakenhof[[/col]]	true
 tech_lock_nag_mannfred_event_2	[PH] TBD	true
-tech_lock_nag_mannfred_event_3	[PH] Mannfred reaches level X	true
+tech_lock_nag_mannfred_event_3	[[col:red]]Reach level 10 with Mannfred von Carstein[[/col]]	true
 tech_lock_nag_neferata_event_1	[PH] Faction Court of Lybaras Destroyed 	true
-tech_lock_nag_neferata_event_2	[PH] Secure Ritual Site/Own Lahmia	true
-tech_lock_nag_neferata_event_3	[PH] Neferate reaches level X	true
+tech_lock_nag_neferata_event_2	[[col:red]]Reclaim Lahmia[[/col]]	true
+tech_lock_nag_neferata_event_3	[[col:red]]Reach level 10 with Neferata[[/col]]	true
 tech_lock_nag_vlad_event_1	[PH] TBD	true
-tech_lock_nag_vlad_event_2	[PH] Secure Ritual Site/Own Altdorf (?)(	true
+tech_lock_nag_vlad_event_2	[[col:red]]Reclaim Altdorf[[/col]]	true
 tech_lock_nag_vlad_event_3	[PH] Volkmar Killed/Wipe out factions that follow Sigmar?	true
+tech_lock_unavailable_bp	PH PH PH [[col:red]]Raise the Black Pyramid to spread word of your coming to potential followers.[[/col]]	true

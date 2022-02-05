@@ -1,3 +1,4 @@
 key	minimum	maximum
 #pooled_resource_factors_tables;3;db/pooled_resource_factors_tables/nagash		
 nag_nagash_rituals	-100	20
+nag_warpstone_buildings	-2147483647	2147483647

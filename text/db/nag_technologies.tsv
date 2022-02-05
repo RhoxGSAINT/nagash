@@ -6,18 +6,18 @@ technologies_onscreen_name_nag_vlad_event_3	Grand Nemesis	true
 technologies_short_description_nag_vlad_event_1	Vlad would risk anything, even eternal servitute under an unjust tyrant, in order to bring back his beloved Isabella.	true
 technologies_short_description_nag_vlad_event_2	Before his latest untimely demise, Vlad Von Carstein's most prized goal was the very throne of the Empire of Man. Now, it's time to collect it once more.	true
 technologies_short_description_nag_vlad_event_3	Five hundred years ago, Vlad's reign of terror met an untimely hand due to the intervention of the previous Grand Theogonist. Though different in name and body, their role is shared - it's time to take out Volkmar the so-called Grim.	true
-technologies_onscreen_name_nag_arkhan_unlock	Arkhan, Mortarch of Sacraments	true
-technologies_onscreen_name_nag_krell_unlock	Krell, Mortarch of Despair	true
-technologies_onscreen_name_nag_luthor_unlock	Luthor, Mortarch of the Abyss	true
-technologies_onscreen_name_nag_mannfred_unlock	Mannfred, Mortarch of Night	true
-technologies_onscreen_name_nag_neferata_unlock	Neferata, Mortarch of Blood	true
-technologies_onscreen_name_nag_vlad_unlock	Vlad, Mortarch of Shadows	true
-technologies_short_description_nag_arkhan_unlock	[PH]	false
-technologies_short_description_nag_krell_unlock	[PH]	false
-technologies_short_description_nag_luthor_unlock	[PH]	false
-technologies_short_description_nag_mannfred_unlock	[PH]	false
-technologies_short_description_nag_neferata_unlock	[PH]	false
-technologies_short_description_nag_vlad_unlock	[PH]	false
+technologies_onscreen_name_nag_mortarch_arkhan_unlock	Arkhan, Mortarch of Sacraments	true
+technologies_onscreen_name_nag_mortarch_krell_unlock	Krell, Mortarch of Despair	true
+technologies_onscreen_name_nag_mortarch_luthor_unlock	Luthor, Mortarch of the Abyss	true
+technologies_onscreen_name_nag_mortarch_mannfred_unlock	Mannfred, Mortarch of Night	true
+technologies_onscreen_name_nag_mortarch_neferata_unlock	Neferata, Mortarch of Blood	true
+technologies_onscreen_name_nag_mortarch_vlad_unlock	Vlad, Mortarch of Shadows	true
+technologies_short_description_nag_mortarch_arkhan_unlock	[PH]	false
+technologies_short_description_nag_mortarch_krell_unlock	[PH]	false
+technologies_short_description_nag_mortarch_luthor_unlock	[PH]	false
+technologies_short_description_nag_mortarch_mannfred_unlock	[PH]	false
+technologies_short_description_nag_mortarch_neferata_unlock	[PH]	false
+technologies_short_description_nag_mortarch_vlad_unlock	[PH]	false
 technologies_onscreen_name_nag_arkhan_event_1	Trusted Servant	false
 technologies_onscreen_name_nag_arkhan_event_2	Only One Ruler	false
 technologies_onscreen_name_nag_arkhan_event_3	First Among Peers	false
@@ -59,13 +59,13 @@ technologies_onscreen_name_nag_mannfred_event_2	The Greatest Von Carstein	false
 technologies_onscreen_name_nag_mannfred_event_3	Begrudging Ally	false
 technologies_onscreen_name_nag_mannfred_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_mannfred_archai	Bestow the Archai	false
-technologies_onscreen_name_nag_nagash_1	Nagashizzar	false
-technologies_onscreen_name_nag_nagash_2	Mourkain	false
-technologies_onscreen_name_nag_nagash_3	Lahmia	false
-technologies_onscreen_name_nag_nagash_4	Khemri	false
-technologies_onscreen_name_nag_nagash_5	The Awakening	false
-technologies_onscreen_name_nag_nagash_6	Castle Drakenhof	false
-technologies_onscreen_name_nag_nagash_7	Quintex	false
+technologies_onscreen_name_nag_location_nagashizzar	Nagashizzar	false
+technologies_onscreen_name_nag_location_mourkain	Mourkain	false
+technologies_onscreen_name_nag_location_lahmia	Lahmia	false
+technologies_onscreen_name_nag_location_khemri	Khemri	false
+technologies_onscreen_name_nag_location_awakening	The Awakening	false
+technologies_onscreen_name_nag_location_drakenhof	Castle Drakenhof	false
+technologies_onscreen_name_nag_location_quintex	Quintex	false
 technologies_onscreen_name_nag_nagash_ultimate	The Final Step (end ritual)	false
 technologies_onscreen_name_nag_neferata_battle_1	Loyal Guardians	false
 technologies_onscreen_name_nag_neferata_battle_2	Snakes and More Snakes	false
@@ -106,13 +106,13 @@ technologies_short_description_nag_mannfred_event_2	Mannfred Von Carstein's hubr
 technologies_short_description_nag_mannfred_event_3	Mannfred has sworn loyalty to the Great Necromancer - to what extent remains to be seen.	false
 technologies_short_description_nag_mannfred_proclamation	Mannfred Boon	false
 technologies_short_description_nag_mannfred_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_nagash_1	[PH]	false
-technologies_short_description_nag_nagash_2	[PH]	false
-technologies_short_description_nag_nagash_3	[PH]	false
-technologies_short_description_nag_nagash_4	[PH]	false
-technologies_short_description_nag_nagash_5	[PH]	false
-technologies_short_description_nag_nagash_6	[PH]	false
-technologies_short_description_nag_nagash_7	[PH]	false
+technologies_short_description_nag_location_nagashizzar	[PH]	false
+technologies_short_description_nag_location_mourkain	[PH]	false
+technologies_short_description_nag_location_lahmia	[PH]	false
+technologies_short_description_nag_location_khemri	[PH]	false
+technologies_short_description_nag_location_awakening	[PH]	false
+technologies_short_description_nag_location_drakenhof	[PH]	false
+technologies_short_description_nag_location_quintex	[PH]	false
 technologies_short_description_nag_nagash_ultimate	[PH] - NOTE, name this entire section "True Dhar"	false
 technologies_short_description_nag_neferata_battle_1	Mind you, there is no challenge in controlling a statue.	false
 technologies_short_description_nag_neferata_battle_2	I'm a snake, you're a snake. Just like a spitting image.	false
