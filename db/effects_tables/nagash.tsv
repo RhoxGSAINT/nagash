@@ -99,3 +99,4 @@ nag_effect_ability_carcinization	general_ability.png	600	general_ability.png	bat
 nag_effect_enable_poison_tomb_guard	phase_posion.png	61	phase_posion.png	battle	true
 nag_effect_enable_sunder_nagashi_guard	phase_sunder_armour.png	61	phase_sunder_armour.png	battle	true
 nag_effect_enable_frenzy_grave_guard	general_ability.png	101	general_ability.png	battle	true
+nag_effect_husk_can_tunnel_dummy	subterranean.png	101	subterranean.png	campaign	true
