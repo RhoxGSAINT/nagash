@@ -217,24 +217,24 @@ local tech_progress = {
 
 --- All of the event techs begin locked, as do all Mort unlock techs
 local locked_techs = {
-    "nag_arkhan_event_1",
-    "nag_arkhan_event_2",
-    "nag_arkhan_event_3",
-    "nag_luthor_event_1",
-    "nag_luthor_event_2",
-    "nag_luthor_event_3",
-    "nag_mannfred_event_1",
-    "nag_mannfred_event_2",
-    "nag_mannfred_event_3",
-    "nag_krell_event_1",
-    "nag_krell_event_2",
-    "nag_krell_event_3",
-    "nag_neferata_event_1",
-    "nag_neferata_event_2",
-    "nag_neferata_event_3",
-    "nag_vlad_event_1",
-    "nag_vlad_event_2",
-    "nag_vlad_event_3",
+    "nag_mortarch_arkhan_event_1",
+    "nag_mortarch_arkhan_event_2",
+    "nag_mortarch_arkhan_event_3",
+    "nag_mortarch_luthor_event_1",
+    "nag_mortarch_luthor_event_2",
+    "nag_mortarch_luthor_event_3",
+    "nag_mortarch_mannfred_event_1",
+    "nag_mortarch_mannfred_event_2",
+    "nag_mortarch_mannfred_event_3",
+    "nag_mortarch_krell_event_1",
+    "nag_mortarch_krell_event_2",
+    "nag_mortarch_krell_event_3",
+    "nag_mortarch_neferata_event_1",
+    "nag_mortarch_neferata_event_2",
+    "nag_mortarch_neferata_event_3",
+    "nag_mortarch_vlad_event_1",
+    "nag_mortarch_vlad_event_2",
+    "nag_mortarch_vlad_event_3",
 
     "nag_mortarch_arkhan_unlock",
     "nag_mortarch_luthor_unlock",
@@ -303,14 +303,13 @@ local function trigger_mortarch_unlock_missions()
     end
 
 
-    --- TODO defeat Barrow Legion? conquer Blackstone Post?
     --- Krell's mission
     do
         local mort = "nag_mortarch_krell"
         
         local mm = mission_manager:new(key, mort.."_unlock")
         mm:add_new_objective("KILL_X_ENTITIES")
-        mm:add_condition("total 1000")
+        mm:add_condition("total 5000")
         mm:add_payload("money 1000")
 
         mm:trigger()
@@ -428,15 +427,15 @@ local function mortarch_event_listeners()
     -- track Arkhan techs
     do
         ---@type tech_class
-        local t1 = cc:get_object("TechObj", "nag_arkhan_event_1")
+        local t1 = cc:get_object("TechObj", "nag_mortarch_arkhan_event_1")
         ---@type tech_class
-        local t2 = cc:get_object("TechObj", "nag_arkhan_event_2")
+        local t2 = cc:get_object("TechObj", "nag_mortarch_arkhan_event_2")
         ---@type tech_class
-        local t3 = cc:get_object("TechObj", "nag_arkhan_event_3")
+        local t3 = cc:get_object("TechObj", "nag_mortarch_arkhan_event_3")
 
         if is_locked(t1) then 
             core:add_listener(
-                "nag_arkhan_event_1",
+                "nag_mortarch_arkhan_event_1",
                 "BlackPyramidRaised",
                 true,
                 function(context)
@@ -448,7 +447,7 @@ local function mortarch_event_listeners()
 
         if is_locked(t2) then 
             core:add_listener(
-                "nag_arkhan_event_2",
+                "nag_mortarch_arkhan_event_2",
                 "CharacterCompletedBattle",
                 function(context)
                     return (
@@ -458,19 +457,19 @@ local function mortarch_event_listeners()
                     )
                 end,
                 function(context)
-                    local total = cm:get_saved_value("nag_arkhan_event_2") or 0
+                    local total = cm:get_saved_value("nag_mortarch_arkhan_event_2") or 0
                     total = total + 1
 
                     if total == 10 then 
                         unlock(t2._key)
-                        core:remove_listener("nag_arkhan_event_2")
+                        core:remove_listener("nag_mortarch_arkhan_event_2")
                     else
-                        cm:set_saved_value("nag_arkhan_event_2", total)
+                        cm:set_saved_value("nag_mortarch_arkhan_event_2", total)
 
                         cc:set_techs_lock_state(
-                            "nag_arkhan_event_2",
+                            "nag_mortarch_arkhan_event_2",
                             "locked",
-                            string.format(effect.get_localised_string("tech_lock_nag_arkhan_event_2"), total),
+                            string.format(effect.get_localised_string("tech_lock_nag_mortarch_arkhan_event_2"), total),
                             bf
                         )
                     end
@@ -481,7 +480,7 @@ local function mortarch_event_listeners()
 
         if is_locked(t3) then 
             core:add_listener(
-                "nag_arkhan_event_3",
+                "nag_mortarch_arkhan_event_3",
                 "CharacterRankUp",
                 function(context)
                     return context:character():character_subtype_key() == "nag_mortarch_arkhan" and context:character():rank() >= 10
@@ -497,16 +496,16 @@ local function mortarch_event_listeners()
     -- Luthor events
     do 
         ---@type tech_class
-        local t1 = get_tech("nag_luthor_event_1")
+        local t1 = get_tech("nag_mortarch_luthor_event_1")
         ---@type tech_class
-        local t2 = get_tech("nag_luthor_event_2")
+        local t2 = get_tech("nag_mortarch_luthor_event_2")
         ---@type tech_class
-        local t3 = get_tech("nag_luthor_event_3")
+        local t3 = get_tech("nag_mortarch_luthor_event_3")
 
         --- Track them one at a time!
         if is_locked(t1) then
             core:add_listener(
-                "nag_luthor_event_1",
+                "nag_mortarch_luthor_event_1",
                 "CharacterCompletedBattle",
                 function(context)
                     --- track the number of battles Luthor has had AT SEA or AGAINST LM
@@ -520,20 +519,20 @@ local function mortarch_event_listeners()
                 function(context)
                     -- update the lock string if it's not enough ; otherwise, unlock it
 
-                    local total = cm:get_saved_value("nag_luthor_event") or 0
+                    local total = cm:get_saved_value("nag_mortarch_luthor_event_1") or 0
                     total = total + 1
 
                     if total == 5 then
                         -- unlock
                         unlock(t1._key)
-                        core:remove_listener("nag_luthor_event_1")
+                        core:remove_listener("nag_mortarch_luthor_event_1")
                     else
-                        cm:set_saved_value("nag_luthor_event", total)
+                        cm:set_saved_value("nag_mortarch_luthor_event_1", total)
 
                         cc:set_techs_lock_state(
-                            "nag_luthor_event_1", 
+                            "nag_mortarch_luthor_event_1", 
                             "locked", 
-                            string.format(effect.get_localised_string("tech_lock_nag_luthor_event_1"), total), -- format the string so it says "Won Total / 5 battles"
+                            string.format(effect.get_localised_string("tech_lock_nag_mortarch_luthor_event_1"), total), -- format the string so it says "Won Total / 5 battles"
                             bf
                         )
                     end
@@ -544,10 +543,10 @@ local function mortarch_event_listeners()
         
         if is_locked(t2) then
             core:add_listener(
-                "nag_luthor_event_2",
+                "nag_mortarch_luthor_event_2",
                 "ResearchCompleted",
                 function(context)
-                    return context:technology() == "nag_luthor_event_1"
+                    return context:technology() == "nag_mortarch_luthor_event_1"
                 end,
                 function(context)
                     unlock(t2)
@@ -558,10 +557,10 @@ local function mortarch_event_listeners()
         
         if is_locked(t3) then
             core:add_listener(
-                "nag_luthor_event_3",
+                "nag_mortarch_luthor_event_3",
                 "ResearchCompleted",
                 function(context)
-                    return context:technology() == "nag_luthor_event_2"
+                    return context:technology() == "nag_mortarch_luthor_event_2"
                 end,
                 function(context)
                     unlock(t3)
@@ -573,14 +572,14 @@ local function mortarch_event_listeners()
 
     -- Vlad events
     do
-        local t1 = get_tech("nag_vlad_event_1")
-        local t2 = get_tech("nag_vlad_event_2")
-        local t3 = get_tech("nag_vlad_event_3")
+        local t1 = get_tech("nag_mortarch_vlad_event_1")
+        local t2 = get_tech("nag_mortarch_vlad_event_2")
+        local t3 = get_tech("nag_mortarch_vlad_event_3")
 
         if is_locked(t1) then 
             --- Unlock Isabella - TBD
             -- core:add_listener(
-
+            --     "nag_mortarch_vlad_event_1",
             -- )
         end
 
@@ -588,7 +587,7 @@ local function mortarch_event_listeners()
             --- TODO check if already owned
             -- Conquer Altdorf!
             core:add_listener(
-                "nag_vlad_event_2",
+                "nag_mortarch_vlad_event_2",
                 "RegionFactionChangeEvent",
                 function(context)
                     local reg = context:region()
@@ -604,29 +603,36 @@ local function mortarch_event_listeners()
 
         if is_locked(t3) then
             --- TODO Wipe out X Empire/Sigmar-loving factions
+            --- Unlock Isabella - TBD
+            -- core:add_listener(
+            --     "nag_mortarch_vlad_event_3",
+            -- )
         end
     end
 
     --- Krell events
     do 
-        local t1 = get_tech("nag_krell_event_1")
-        local t2 = get_tech("nag_krell_event_2")
-        local t3 = get_tech("nag_krell_event_3")
+        local t1 = get_tech("nag_mortarch_krell_event_1")
+        local t2 = get_tech("nag_mortarch_krell_event_2")
+        local t3 = get_tech("nag_mortarch_krell_event_3")
 
         if is_locked(t1) then 
             --- TODO Kill X enemies with Krell
+            -- core:add_listener(
+            --     "nag_mortarch_krell_event_1",
+            -- )
         end
 
         if is_locked(t2) then
             --- win X battles with Krell
             core:add_listener(
-                "nag_krell_event_2",
+                "nag_mortarch_krell_event_2",
                 "CharacterCompletedBattle",
                 function(context)
                     return context:character():character_subtype_key() == "nag_mortarch_krell" and context:character():won_battle()
                 end,
                 function(context)
-                    local num_won = cm:get_saved_value("nag_krell_event_2") or 0
+                    local num_won = cm:get_saved_value("nag_mortarch_krell_event_2") or 0
                     num_won = num_won + 1
 
                     if num_won >= 5 then
@@ -635,7 +641,7 @@ local function mortarch_event_listeners()
                         cc:set_techs_lock_state(
                             t2._key, 
                             "locked", 
-                            string.format(effect.get_localised_string("nag_krell_event_2"), num_won),
+                            string.format(effect.get_localised_string("nag_mortarch_krell_event_2"), num_won),
                             bf
                         )
                     end
@@ -646,20 +652,24 @@ local function mortarch_event_listeners()
 
         if is_locked(t3) then 
             --- TODO Chaos Invasion arrived (? anything better?)
+            --- TODO Kill X enemies with Krell
+            -- core:add_listener(
+            --     "nag_mortarch_krell_event_3",
+            -- )
         end
     end
 
     --- Mannfred events
     do
-        local t1 = get_tech("nag_mannfred_event_1")
-        local t2 = get_tech("nag_mannfred_event_2")
-        local t3 = get_tech("nag_mannfred_event_3")
+        local t1 = get_tech("nag_mortarch_mannfred_event_1")
+        local t2 = get_tech("nag_mortarch_mannfred_event_2")
+        local t3 = get_tech("nag_mortarch_mannfred_event_3")
 
         if is_locked(t1) then
             --- Own Drakenhof
             --- TODO test if already owned!
             core:add_listener(
-                "nag_mannfred_event_1",
+                "nag_mortarch_mannfred_event_1",
                 "RegionFactionChangeEvent",
                 function(context)
                     local reg = context:region()
@@ -675,12 +685,15 @@ local function mortarch_event_listeners()
 
         if is_locked(t2) then
             --- TODO TBD
+            -- core:add_listener(
+            --     "nag_mortarch_mannfred_event_2",
+            -- )
         end
 
         if is_locked(t3) then 
             --- Reach level X
             core:add_listener(
-                "nag_mannfred_event_3",
+                "nag_mortarch_mannfred_event_3",
                 "CharacterRankUp",
                 function(context)
                     local c = context:character()
@@ -696,19 +709,22 @@ local function mortarch_event_listeners()
 
     --- Neferata events
     do 
-        local t1 = get_tech("nag_neferata_event_1")
-        local t2 = get_tech("nag_neferata_event_2")
-        local t3 = get_tech("nag_neferata_event_3")
+        local t1 = get_tech("nag_mortarch_neferata_event_1")
+        local t2 = get_tech("nag_mortarch_neferata_event_2")
+        local t3 = get_tech("nag_mortarch_neferata_event_3")
 
         if is_locked(t1) then 
             --- TODO something like "destroy Court of Lybaras", but flavored as "kill TK" or some shit, idk
+            -- core:add_listener(
+            --     "nag_mortarch_neferata_event_1",
+            -- )
         end
 
         if is_locked(t2) then 
             --- Own Lahmia
             --- TODO test if already owned!
             core:add_listener(
-                "nag_mannfred_event_1",
+                "nag_mortarch_neferata_event_2",
                 "RegionFactionChangeEvent",
                 function(context)
                     local reg = context:region()
@@ -725,7 +741,7 @@ local function mortarch_event_listeners()
         if is_locked(t3) then 
             --- Reach level X
             core:add_listener(
-                "nag_mannfred_event_3",
+                "nag_mortarch_neferata_event_3",
                 "CharacterRankUp",
                 function(context)
                     local c = context:character()
