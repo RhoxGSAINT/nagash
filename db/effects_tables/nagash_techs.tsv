@@ -8,3 +8,6 @@ nag_neferata_unlock	army.png	1	army.png	campaign	true
 nag_vlad_unlock	army.png	1	army.png	campaign	true
 nag_archai_cap	agent.png	1	agent.png	campaign	true
 nag_luthor_will_heal_dummy	replenishment.png	500	replenishment.png	campaign	true
+nag_ritual_attack_warning	climate_unpleasant.png	500	climate_unpleasant.png	campaign	false
+nag_ritual_attack_warning_final	climate_uninhabitable.png	500	climate_uninhabitable.png	campaign	false
+nag_ritual_victory	edict_evocation_of_nagash.png	600	edict_evocation_of_nagash.png	campaign	true

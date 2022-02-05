@@ -16,8 +16,8 @@ effect_bundles_localised_title_wh2_main_lord_trait_vmp_nagash	Supreme Lord of Un
 effect_bundles_localised_description_wh2_main_lord_trait_vmp_nagash		true
 effect_bundles_localised_title_nagash_enslave	[PH] Enslave	true
 effect_bundles_localised_description_nagash_enslave	[PH] Enslave desc	true
-effect_bundles_localised_title_nagash_kill	[PH] Kill	true
-effect_bundles_localised_description_nagash_kill	[PH] Kill desc	true
+effect_bundles_localised_title_nagash_kill	Humiliated Captives	true
+effect_bundles_localised_description_nagash_kill	Nagash's pettiness doesn't stop at defeating a foe. And he is greatly bolstered by his satisfaction.	true
 effect_bundles_localised_title_nagash_release	[PH] Release	true
 effect_bundles_localised_description_nagash_release	[PH] Release desc	true
 effect_bundles_localised_title_nag_death_shambling_horde	The Shambling Horde	true
