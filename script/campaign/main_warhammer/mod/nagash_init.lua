@@ -89,8 +89,6 @@ local function init_listeners()
                     
                     --- TODO db-ify and err check
                     local nx,ny = cm:find_valid_spawn_location_for_character_from_position(bdsm:get_faction_key(), 718, 187, true, 3)
-                    local ax,ay = cm:find_valid_spawn_location_for_character_from_position(bdsm:get_faction_key(), 699, 134, true, 3)
-
                     bdsm:logf("Trying to find a spot to spawn from (%d, %d); pos is (%d, %d); char str is %s", 718, 187, nx, ny, nag_str)
 
                     --- TP to the other side
@@ -104,25 +102,8 @@ local function init_listeners()
 
                         cm:zero_action_points(nag_str)
                         
-                        --- TODO call mort:spawn() instead of create force / unlock tech
-                        --- spawn Arkhan!
-                        cm:create_force_with_general(
-                            nag_fact,
-                            "",
-                            "wh2_main_ash_river_quatar",
-                            ax,
-                            ay,
-                            "general",
-                            "nag_mortarch_arkhan",
-                            "names_name_1937224332",
-                            "",
-                            "names_name_1777692418",
-                            "",
-                            false,
-                            function(char_cqi)
-                                --- TODO
-                            end
-                        )
+                        local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
+                        mort:spawn()
 
                         --- make BP visible
                         cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")

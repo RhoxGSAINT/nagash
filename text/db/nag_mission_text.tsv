@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_mission_text.loc		
+mission_text_text_nagash_intro_5	[PH] Move to a spot on the map to TP across the mountains; meet up with Arkhan, go through the tunnels!	true
+mission_text_text_nag_mortarch_vlad_unlock	Spend turns Channeling near Altdorf to find the Carstein Ring	true
+mission_text_text_nag_mortarch_arkhan_event_1	Raise the Black Pyramid	true
+mission_text_text_nag_mortarch_luthor_event_1_0	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 0	true
+mission_text_text_nag_mortarch_luthor_event_1_1	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 1	true
+mission_text_text_nag_mortarch_luthor_event_1_2	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 2	true
+mission_text_text_nag_mortarch_luthor_event_1_3	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 3	true
+mission_text_text_nag_mortarch_luthor_event_1_4	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 4	true
+mission_text_text_nag_mortarch_luthor_event_1_5	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 5	true
+mission_text_text_TBD	TBD	true
+mission_text_text_nag_mortarch_krell_event_2_0	Win 5 battles with Krell\nCurrently won: 0	true
+mission_text_text_nag_mortarch_krell_event_2_1	Win 5 battles with Krell\nCurrently won: 1	true
+mission_text_text_nag_mortarch_krell_event_2_2	Win 5 battles with Krell\nCurrently won: 2	true
+mission_text_text_nag_mortarch_krell_event_2_3	Win 5 battles with Krell\nCurrently won: 3	true
+mission_text_text_nag_mortarch_krell_event_2_4	Win 5 battles with Krell\nCurrently won: 4	true
+mission_text_text_nag_mortarch_krell_event_2_5	Win 5 battles with Krell\nCurrently won: 5	true
+mission_text_text_nag_mortarch_krell_event_3_0	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 0	true
+mission_text_text_nag_mortarch_krell_event_3_1	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 1	true
+mission_text_text_nag_mortarch_krell_event_3_2	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 2	true
+mission_text_text_nag_mortarch_krell_event_3_3	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 3	true
+mission_text_text_nag_mortarch_krell_event_3_4	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 4	true
+mission_text_text_nag_mortarch_krell_event_3_5	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 5	true
+mission_text_text_nag_mortarch_krell_event_3_6	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 6	true
+mission_text_text_nag_mortarch_krell_event_3_7	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 7	true
+mission_text_text_nag_mortarch_krell_event_3_8	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 8	true
+mission_text_text_nag_mortarch_krell_event_3_9	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 9	true

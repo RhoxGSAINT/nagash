@@ -1001,7 +1001,7 @@
 
 ---@class UNIT_LIST_SCRIPT_INTERFACE Description: A list of units
 ---@field num_items fun(self:UNIT_LIST_SCRIPT_INTERFACE):positive int
----@field item_at fun(self:UNIT_LIST_SCRIPT_INTERFACE):UNIT_LIST_SCRIPT_INTERFACE
+---@field item_at fun(self:UNIT_LIST_SCRIPT_INTERFACE):UNIT_SCRIPT_INTERFACE
 ---@field is_empty fun(self:UNIT_LIST_SCRIPT_INTERFACE):bool
 ---@field has_unit fun(self:UNIT_LIST_SCRIPT_INTERFACE):bool
 
