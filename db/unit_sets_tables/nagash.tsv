@@ -51,3 +51,5 @@ nag_army_nehek_units_vet	true	7	9
 nag_army_coast_units_vet	true	7	9	
 nag_army_nagashizzar_units_vet	true	7	9	
 nag_nagashi_guard	false	-1	-1	
+nag_vanilla_vmp_inf_zombie	false	-1	-1	
+nag_liche_priests	false	-1	-1	

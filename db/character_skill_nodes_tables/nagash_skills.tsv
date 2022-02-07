@@ -379,14 +379,10 @@ nag_skill_neferata_magic1_09		wh2_dlc11_skill_vmp_bloodline_lahmian_magic_okkams
 nag_skill_neferata_magic1_10		wh2_dlc11_skill_vmp_bloodline_lahmian_magic_wind_of_death	nag_skill_node_set_mortarch_neferata		2.0	7.0		0	0	true
 nag_skill_neferata_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit	nag_skill_node_set_mortarch_neferata		2.0	10.0		0	4	true
 nag_skill_neferata_magic1_dummy		wh2_dlc11_skill_vmp_magic_vampires_dummy_invocation_of_nehek_enfeebling_foe	nag_skill_node_set_mortarch_neferata		2.0	11.0		1	0	false
-nag_skill_neferata_magic2_01		wh_main_skill_all_magic_death_01_spirit_leech	nag_skill_node_set_mortarch_neferata		3.0	0.0		0	0	true
+nag_skill_neferata_magic2_01		wh_dlc05_skill_magic_shadow_smoke_and_mirrors	nag_skill_node_set_mortarch_neferata		3.0	0.0		0	0	true
 nag_skill_neferata_magic2_02		wh_main_skill_all_magic_death_03_life_leeching	nag_skill_node_set_mortarch_neferata		3.0	1.0		0	0	true
-nag_skill_neferata_magic2_03		wh2_main_skill_all_magic_death_02_aspect_of_the_dreadknight_lord	nag_skill_node_set_mortarch_neferata		3.0	2.0		0	0	true
-nag_skill_neferata_magic2_04		wh2_main_skill_all_magic_death_04_soulblight_lord	nag_skill_node_set_mortarch_neferata		3.0	3.0		0	0	true
-nag_skill_neferata_magic2_05		wh2_main_skill_all_magic_death_05_doom_and_darkness_lord	nag_skill_node_set_mortarch_neferata		3.0	4.0		0	0	true
-nag_skill_neferata_magic2_06		wh2_main_skill_all_magic_death_09_the_fate_of_bjuna_lord	nag_skill_node_set_mortarch_neferata		3.0	5.0		0	4	true
-nag_skill_neferata_magic2_07		wh2_main_skill_all_magic_death_10_the_purple_sun_of_xereus_lord	nag_skill_node_set_mortarch_neferata		3.0	6.0		0	0	true
-nag_skill_neferata_magic2_dummy		wh_main_skill_all_magic_death_dummy_spirit_leech	nag_skill_node_set_mortarch_neferata		3.0	11.0		1	0	false
+nag_skill_neferata_magic2_03		nag_skill_hero_undeath_spell_magic_nagash_raise_the_dead	nag_skill_node_set_mortarch_neferata		3.0	2.0		0	0	true
+nag_skill_personal_neferata_guardian		nag_skill_personal_neferata_guardian	nag_skill_node_set_mortarch_neferata		3.0	3.0		0	1	true
 nag_skill_neferata_army_0		wh_main_skill_vmp_lord_battle_aura_of_supremacy	nag_skill_node_set_mortarch_neferata		4.0	0.0		0	0	true
 nag_skill_neferata_army_1		nag_skill_army_buff_ranged	nag_skill_node_set_mortarch_neferata		4.0	1.0		0	0	true
 nag_skill_neferata_army_2		nag_skill_army_buff_infantry	nag_skill_node_set_mortarch_neferata		4.0	2.0		0	0	true

@@ -102,3 +102,6 @@ nag_effect_enable_frenzy_grave_guard	general_ability.png	101	general_ability.png
 nag_effect_husk_can_tunnel_dummy	subterranean.png	101	subterranean.png	campaign	true
 nag_effect_vampiric_attrition_immunity_hidden		0		campaign	true
 nag_effect_no_attrition_immunity_dummy	disaster.png	101	disaster.png	campaign	false
+nag_effect_enable_ability_zombie_battery	general_ability.png	101	general_ability.png	battle	true
+nag_effect_ability_enable_warpfireball_liche_casket	general_ability.png	666	general_ability.png	battle	true
+nag_effect_ability_enable_curse_quintex	general_ability.png	101	general_ability.png	battle	true

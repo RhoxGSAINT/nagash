@@ -170,7 +170,7 @@ effects_description_nag_effect_self_vlad_to_isabella_buff	Undying Love: %+n Mele
 effects_description_nag_effect_self_neferata_enable_ability_mortarch_of_blood	Ability: "Beautiful Death"	true
 effects_description_nag_effect_self_neferata_melee_damage_vs_gullable	Weapon strength: %+n% when fighting against Elves, Humans, Dwarfs & Undead	true
 effects_description_nag_effect_self_neferata_speed_vampires	Speed: %+n% for Vampiric units	true
-effects_description_nag_effect_self_neferata_enable_ability_blood_queen	Ability: "Blood Queen"	true
+effects_description_nag_effect_self_neferata_enable_ability_blood_queen	Passive ability: "Blood Queen"	true
 effects_description_nag_effect_self_neferata_ward_save_physical_vs_lybaras	Physical resistance: %n% for Neferata when fighting against Lybaras	true
 effects_description_nag_effect_self_neferata_melee_defence_vs_lybaras	Melee defence: %+n for Neferata when fighting against Lybaras	true
 effects_description_nag_effect_self_isabella_to_vlad_buff	Undying Love: %+n Melee Attack and Melee Defence to both Isabella and Vlad when they are in the same army	true
@@ -213,7 +213,7 @@ effects_description_nag_double_vampires_enable_wind_of_death_upgraded	Overcast s
 effects_description_nag_double_vampires_miscast_reduction_wind_of_death_upgraded	Miscast base chance: %+n% for "Wind of Death Upgraded"	true
 effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death_upgraded	Winds of Magic cost: %n for "Wind of Death Upgraded"	true
 effects_description_nag_effect_upkeep_cost_reduction_crypt_ghouls	Upkeep: %+n% for Crypt Ghouls	true
-effects_description_nag_effect_enable_ability_blood_queen_dignitary_vmp	Ability: "Blood Queen" for all Female Vampires	true
+effects_description_nag_effect_enable_ability_blood_queen_dignitary_vmp	Passive ability: "Blood Queen" for all Female Vampires	true
 effects_description_nag_effect_stalk_scorpion_skill	Attribute: Stalk for Tomb Scorpion units	true
 effects_description_nag_effect_speed_scorpion_crawler_skill	Speed: %+n% for Tomb Scorpion and Sand Crawler units	true
 effects_description_nag_effect_ability_uses_abyssal_swarm	Ability number of uses: %+n for "Abyssal Swarm"	true
@@ -307,3 +307,7 @@ effects_description_nag_ritual_victory_dummy	Required for victory (All your base
 effects_description_nag_effect_husk_can_tunnel_dummy	Nagash has access to Nagashizzar's underways in his early husk form	true
 effects_description_nag_ability_enable_batocalypse	Army ability: "Apocalyptic Swarm"	true
 effects_description_nag_effect_no_attrition_immunity_dummy	Not Immune to Vampiric attrition & non-Nagashizzar territory attrition.	true
+effects_description_nag_effect_enable_ability_guardian_ghouls_blood_knights	Passive ability: "Guardian" for Crypt Ghouls and Blood Knights	true
+effects_description_nag_effect_enable_ability_zombie_battery	Passive ability: "Undeath from Undeath" for Zombie units	true
+effects_description_nag_effect_ability_enable_warpfireball_liche_casket	Ability: "Warp-Fireball" for Liche Priests and Caskets of Souls	true
+effects_description_nag_effect_ability_enable_curse_quintex	Passive ability: "Curse of Quintex"	true

@@ -366,3 +366,5 @@ character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_hand_of_dust
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	Morkharn, the Breath of Darkness HIDDEN	true
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
+character_skills_localised_name_nag_skill_personal_neferata_guardian	Thrall Guardians	true
+character_skills_localised_description_nag_skill_personal_neferata_guardian	Never know when you need someone to clean your shoes.	true

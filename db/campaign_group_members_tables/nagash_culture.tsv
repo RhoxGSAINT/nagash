@@ -42,3 +42,14 @@ wh2_dlc09_event_feed_agent_action_all_failure_critical_nagash	wh2_dlc09_event_fe
 nag_waaagh	grn_faction_waaagh_reward_group_undead	0.0
 nag_interrogate	nag_interrogate	0.0
 nag_dungeon	nag_dungeon	0.0
+nagash_climate_chaotic	wh2_climate_uninhabitable	1.0
+nagash_climate_desert	wh2_climate_suitable	1.0
+nagash_climate_frozen	wh2_climate_suitable	1.0
+nagash_climate_island	wh2_climate_unsuitable	1.0
+nagash_climate_jungle	wh2_climate_suitable	1.0
+nagash_climate_magicforest	wh2_climate_unsuitable	1.0
+nagash_climate_mountain	wh2_climate_suitable	1.0
+nagash_climate_ocean	wh2_climate_suitable	1.0
+nagash_climate_savannah	wh2_climate_suitable	1.0
+nagash_climate_temperate	wh2_climate_suitable	1.0
+nagash_climate_wasteland	wh2_climate_suitable	1.0

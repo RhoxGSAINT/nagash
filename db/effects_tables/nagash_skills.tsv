@@ -208,3 +208,4 @@ nag_effect_army_coast_physical_resistance_skill	resistance_physical.png	3	battle
 nag_effect_army_coast_damage_base_skill	weapon_damage.png	4	weapon_damage.png	battle	true
 nag_effect_army_nagash_ward_save_skill	resistance_ward_save.png	2	resistance_ward_save.png	battle	true
 nag_effect_army_nagash_damage_base_skill	weapon_damage.png	3	weapon_damage.png	battle	true
+nag_effect_enable_ability_guardian_ghouls_blood_knights	general_ability.png	1	general_ability.png	battle	true
