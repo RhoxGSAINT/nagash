@@ -19,7 +19,7 @@ nag_army_abilities_batocalypse_02	scalar_speed	0.8	mult
 nag_army_abilities_batocalypse_02	stat_melee_defence	0.8	mult
 nag_army_abilities_batocalypse_02	scalar_missile_range	0.5	mult
 nag_nagash_abilities_morikhane_black_armour	scalar_speed	0.3	mult
-nag_nagash_abilities_morikhane_black_armour	scalar_charge_speed	0.3	add
+nag_nagash_abilities_morikhane_black_armour	scalar_charge_speed	0.3	mult
 nag_nagash_abilities_morikhane_black_armour	stat_resistance_all	50.0	add
 nag_nagash_passive_eternal_danse_macabre	scalar_speed	1.25	mult
 nag_nagash_passive_eternal_danse_macabre	stat_melee_attack	6.0	add

@@ -47,12 +47,12 @@ nag_effect_agent_cap_increase_prince_wight	tomb_prince.png	4	tomb_prince.png	cam
 nag_effect_agent_cap_increase_prince	tomb_prince.png	4	tomb_prince.png	campaign	true
 nag_effect_agent_cap_increase_wight	wight_king.png	4	wight_king.png	campaign	true
 nag_effect_agent_cap_increase_archai	saurus_scar_veteran.png	4	saurus_scar_veteran.png	campaign	true
-nag_effect_dummy_bel_spells_rename_references	spell_ability.png	1	spell_ability.png	campaign	false
 nag_ability_enable_batocalypse	general_ability.png	101	general_ability.png	battle	true
 nag_ability_enable_endless_tomb	general_ability.png	101	general_ability.png	battle	true
+nag_ability_enable_endless_tomb_hidden		0		battle	true
 nag_building_effect_cannot_grow_enable	no_growth.png	500	no_growth.png	campaign	true
 nag_building_effect_cannot_grow_disable	growth.png	500	growth.png	campaign	true
-nag_ability_enable_blyramid_bombardment	general_ability.png	101	general_ability.png	battle	true
+nag_ability_enable_wrath_of_the_gods	general_ability.png	101	general_ability.png	battle	true
 nag_ability_enable_blyramid_itself	general_ability.png	101	general_ability.png	battle	true
 nag_effect_upkeep_cost_reduction_crypt_ghouls	military_spending.png	105	military_spending.png	campaign	false
 nag_effect_enable_ability_blood_queen_dignitary_vmp	general_ability.png	600	general_ability.png	battle	true
@@ -100,3 +100,5 @@ nag_effect_enable_poison_tomb_guard	phase_posion.png	61	phase_posion.png	battle	
 nag_effect_enable_sunder_nagashi_guard	phase_sunder_armour.png	61	phase_sunder_armour.png	battle	true
 nag_effect_enable_frenzy_grave_guard	general_ability.png	101	general_ability.png	battle	true
 nag_effect_husk_can_tunnel_dummy	subterranean.png	101	subterranean.png	campaign	true
+nag_effect_vampiric_attrition_immunity_hidden		0		campaign	true
+nag_effect_no_attrition_immunity_dummy	disaster.png	101	disaster.png	campaign	false

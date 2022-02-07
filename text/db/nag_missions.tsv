@@ -18,17 +18,15 @@ missions_localised_title_nag_nagash_capture_settlement_drakenhof	Castle Drakenho
 missions_localised_description_nag_nagash_capture_settlement_drakenhof	"Supreme and masterful Lord of the dead, Mannfred Von Carstein sits in his accursed citedal, both he and his holding would make for a great prize, take Castle Draknehof."\n\nLearn more about settlements [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]][[col:help_page_link]]here[[/col]][[/tooltip]][[/url]].	true
 missions_localised_title_nag_nagash_capture_settlement_lahmia	Lahmia the City of the Dawn	true
 missions_localised_description_nag_nagash_capture_settlement_lahmia	"Supreme Lord, your loyal servant Neferata has a singular goal retake the city of Lahmia, do this, restore the cult of blood and bring her unwavering focus towards your own plans."\n\nLearn more about settlements [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]][[col:help_page_link]]here[[/col]][[/tooltip]][[/url]].	true
-missions_localised_title_nag_nagash_capture_settlement_awakening	Huatl, the City of Reawakening	true
-missions_localised_description_nag_nagash_capture_settlement_awakening	"My sire, we have recieved a cryptic message from the port city of The Awakeing, we believe their leader Luthor Harkon would like to meet with you."\n\nLearn more about settlements [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]][[col:help_page_link]]here[[/col]][[/tooltip]][[/url]].	true
 missions_localised_title_nag_nagash_capture_settlement_quintex	Quintex, the Ancient City	true
 missions_localised_description_nag_nagash_capture_settlement_quintex	"My gracious Lord, in one of Luthors mad ramblings he mentioned a place of great power that will surely progress our completion of the Great Ritual, journey to the Titan Peaks, take the city of Quintex."\n\nLearn more about settlements [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]][[col:help_page_link]]here[[/col]][[/tooltip]][[/url]].	true
-missions_localised_title_nag_mortarch_luthor_unlock	Mortarch of the Abyss	true
-missions_localised_description_nag_mortarch_luthor_unlock	[PH] Luthor unlock mission desc	true
+missions_localised_title_nag_mortarch_luthor_unlock	Huatl, the City of Reawakening	true
+missions_localised_description_nag_mortarch_luthor_unlock	"My sire, we have recieved a cryptic message from the port city of The Awakeing, we believe their leader Luthor Harkon would like to meet with you."\n\nLearn more about settlements [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]][[col:help_page_link]]here[[/col]][[/tooltip]][[/url]].	true
 missions_localised_title_nag_mortarch_neferata_unlock	Mortarch of Blood	true
 missions_localised_description_nag_mortarch_neferata_unlock	[PH] Neffy unlock mission desc	true
 missions_localised_title_nag_mortarch_krell_unlock	Mortarch of Despair	true
 missions_localised_description_nag_mortarch_krell_unlock	[PH] Krell unlock mission desc	true
-missions_localised_title_nag_mortarch_vlad_unlock	Mortarch of Shadow	true
+missions_localised_title_nag_mortarch_vlad_unlock	The Carstein Ring	true
 missions_localised_description_nag_mortarch_vlad_unlock	[PH] Vlad unlock mission desc	true
 missions_localised_title_nag_mortarch_mannfred_unlock	Mortarch of Night	true
 missions_localised_description_nag_mortarch_mannfred_unlock	[PH] Manny unlock mission desc	true

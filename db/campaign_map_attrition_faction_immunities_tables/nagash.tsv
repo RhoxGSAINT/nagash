@@ -1,9 +1,7 @@
 attrition	faction
 #campaign_map_attrition_faction_immunities_tables;0;db/campaign_map_attrition_faction_immunities_tables/nagash	
 horde_infighting	nag_nagash
-vampire_territory	nag_nagash
 desert	nag_nagash
-non_vampire_territory	nag_nagash
 blockaded	nag_nagash
 mountain	nag_nagash
 snow	nag_nagash

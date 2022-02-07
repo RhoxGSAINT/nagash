@@ -22,7 +22,7 @@ effects_description_nag_effect_landmark_manny_movement	Campaign movement range: 
 effects_description_nag_effect_landmark_manny_recruit_rank_knights	Recruit rank: %+n for Black Knight units	true
 effects_description_nag_effect_landmark_neffy_buff_ushabti_melee	Melee attack: %+n for Ushabti	true
 effects_description_nag_effect_landmark_neffy_buff_ushabti_defence	Melee defence: %+n for Ushabti	true
-effects_description_nag_effect_landmark_neffy_buff_bats_refuse_to_die	Ability: "Refuse to Die" for Fell Bats [TEMP ABILITY]	true
+effects_description_nag_effect_landmark_neffy_buff_bats_refuse_to_die	Ability: "Refuse to Die" for Fell Bats	true
 effects_description_nag_effect_landmark_neffy_horde_replenishment	Casualty replenishment rate: %+n%	true
 effects_description_nag_effect_landmark_krell_attrition_immunity	All units in Krell's army are immune to all attrition	true
 effects_description_nag_effect_landmark_krell_buff_guard_phys	Physical resistance: %n% for Grave Guard & Nagashizzar Guard Units	true
@@ -137,7 +137,7 @@ effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+
 effects_description_nag_effect_agent_cap_increase_prince	Hero capacity: %+n for Tomb Princes	true
 effects_description_nag_effect_agent_cap_increase_wight	Hero capacity: %+n for Wight Kings	true
 effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archai	true
-effects_description_nag_effect_dummy_bel_spells_rename_references	Bel Army Abilities go here:	true
+effects_description_nag_ability_enable_wrath_of_the_gods	Army ability: "Wrath of the Gods"	true
 effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true
 effects_description_nag_effect_enable_bound_spell_nagash_hand_of_dust	Bound spell: "The Hand of Dust"	true
 effects_description_nag_effect_enable_bound_spell_nagash_breath_of_darkness	Bound spell: "Breath of Darkness"	true
@@ -278,6 +278,7 @@ effects_description_nag_effect_melee_attack_skeletons	Melee attack: %+n for all 
 effects_description_nag_effect_upkeep_reduction_skeletons	Upkeep: %+n% for all Skeletal Infantry units	true
 effects_description_nag_effect_ammunition_powder	Ammunition: %+n% for Black Powder units	true
 effects_description_nag_ability_enable_endless_tomb	Army ability: "Endless Tomb"	true
+effects_description_nag_ability_enable_endless_tomb_hidden	Army ability: "Endless Tomb" Enables Dummy [HIDDEN]	false
 effects_description_nag_effect_force_unit_stat_attack_attacking	Melee Attack: %+n for all units when attacking	true
 effects_description_nag_effect_upkeep_reduction_skeletons_basic	Upkeep: %+n% for Skeleton Warriors and Archers units	true
 effects_description_nag_effect_contact_charmed_vampires	Enables charmed attacks for all Vampire heroes	true
@@ -305,3 +306,4 @@ effects_description_nag_ritual_attack_warning_dummy_final	All important location
 effects_description_nag_ritual_victory_dummy	Required for victory (All your base are belong to Nagash)	true
 effects_description_nag_effect_husk_can_tunnel_dummy	Nagash has access to Nagashizzar's underways in his early husk form	true
 effects_description_nag_ability_enable_batocalypse	Army ability: "Apocalyptic Swarm"	true
+effects_description_nag_effect_no_attrition_immunity_dummy	Not Immune to Vampiric attrition & non-Nagashizzar territory attrition.	true
