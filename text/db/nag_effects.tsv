@@ -311,3 +311,21 @@ effects_description_nag_effect_enable_ability_guardian_ghouls_blood_knights	Pass
 effects_description_nag_effect_enable_ability_zombie_battery	Passive ability: "Undeath from Undeath" for Zombie units	true
 effects_description_nag_effect_ability_enable_warpfireball_liche_casket	Ability: "Warp-Fireball" for Liche Priests and Caskets of Souls	true
 effects_description_nag_effect_ability_enable_curse_quintex	Passive ability: "Curse of Quintex"	true
+effects_description_nag_effect_agent_action_cost_mod_champion	Hero action cost: %+n% for Tomb Princes and Wight Kings	true
+effects_description_nag_effect_agent_action_cost_mod_engineer	Hero action cost: %+n% for Gunnery Wights	true
+effects_description_nag_effect_agent_action_cost_mod_wizard	Hero action cost: %+n% for Liche Priests	true
+effects_description_nag_effect_agent_action_cost_mod_spy	Hero action cost: %+n% for Morghast Archai	true
+effects_description_nag_effect_agent_action_cost_mod_dinitary	Hero action cost: %+n% for Vampires	true
+effects_description_nag_effect_agent_action_success_chance_champion	Hero action success chance: %+n% for Tomb Princes and Wight Kings	true
+effects_description_nag_effect_agent_action_success_chance_engineer	Hero action success chance: %+n% for Gunnery Wights	true
+effects_description_nag_effect_agent_action_success_chance_wizard	Hero action success chance: %+n% for Liche Priests	true
+effects_description_nag_effect_agent_action_success_chance_spy	Hero action success chance: %+n% for Morghast Archai	true
+effects_description_nag_effect_agent_action_success_chance_dignitary	Hero action success chance: %+n% for Vampires	true
+effects_description_nag_effect_force_army_campaign_upkeep_cost_war_beasts	Upkeep: %+n% for war beast units	true
+effects_description_nag_effect_force_army_campaign_upkeep_cost_war_machines	Upkeep: %+n% for war machine units	true
+nag_effect_force_unit_stat_melee_attack_versus_bretonnia	Melee attack: %+n when fighting against Bretonnia	true
+nag_effect_force_unit_stat_melee_attack_versus_beastmen	Melee attack: %+n when fighting against Beastmen	true
+nag_effect_force_unit_stat_melee_attack_versus_high_elves	Melee attack: %+n when fighting against High Elves	true
+nag_effect_force_unit_stat_melee_attack_versus_lizardmen	Melee attack: %+n when fighting against Lizardmen	true
+nag_effect_force_unit_stat_melee_attack_versus_vampires	Melee attack: %+n when fighting against Vampire Counts & the Vampire Coast	true
+nag_effect_force_unit_stat_melee_attack_versus_wood_elves	Melee attack: %+n when fighting against Wood Elves	true

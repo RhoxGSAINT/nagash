@@ -16,3 +16,27 @@ nagash_enslave			force	1	icon_effects_fortify.png	false	false	true
 nagash_kill			force	1	magic.png	false	false	true
 nagash_release			force	1	icon_effects_fortify.png	false	false	true
 nag_death_shambling_horde			force	1	icon_effects_fortify.png	false	true	true
+nag_payload_improved_agent_champion	Your Tomb Princes & Wight Kings have been greatly improved!	Undead Champions	faction	1	tomb_prince.png	true	false	true
+nag_payload_improved_agent_engineer	Your Gunnery Wights have been greatly improved!	Powder Engineers	faction	1	gunnery_wight.png	true	false	true
+nag_payload_improved_agent_wizard	Your Liche Priests have been greatly improved!	Ancient Liche Priests	faction	1	wizard.png	true	false	true
+nag_payload_improved_agent_spy	Your Archai have been greatly improved!	Harbingers	faction	1	saurus_scar_veteran.png	true	false	true
+nag_payload_improved_agent_dignitary	Your Vampires have been greatly improved!	Wicked Kiss	faction	1	vampire.png	true	false	true
+nag_payload_training_artillery	Your armies are focusing on artillery training.	Artillery Focus	faction	1	experience.png	true	false	true
+nag_payload_training_cavalry	Your armies are focusing on cavalry training.	Cavalry Focus	faction	1	experience.png	true	false	true
+nag_payload_training_infantry_melee	Your armies are focusing on melee infantry training.	Combat Focus	faction	1	experience.png	true	false	true
+nag_payload_training_infantry_ranged	Your armies are focusing on missile infantry training.	Missile Focus	faction	1	experience.png	true	false	true
+nag_payload_training_war_beasts	Your armies are focusing on war beast training.	War Beast Focus	faction	1	experience.png	true	false	true
+nag_payload_training_war_machines	Your armies are focusing on war machine training.	War Machine Focus	faction	1	experience.png	true	false	true
+nag_payload_attack_versus_bretonnia	Your warriors relish the opportunity to do battle with the Bretonnian dukedoms.	Bretonnian Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_beastmen	Your warriors relish the opportunity to do battle with Beastmen tribes.	Beastmen Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_chaos	Your warriors relish the opportunity to do battle with the Chaos hordes.	Chaos Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_dark_elves	Your warriors relish the opportunity to do battle with Dark Elves.	Dark Elf Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_dwarfs	Your warriors relish the opportunity to do battle with the Dwarf throngs.	Dwarfen Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_empire	Your warriors relish the opportunity to do battle with menfolk.	Conflict of Men	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_greenskins	Your warriors relish the opportunity to do battle with the Greenskin tribes.	Greenskin Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_high_elves	Your warriors relish the opportunity to do battle with High Elves.	High Elf Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_lizardmen	Your warriors relish the opportunity to do battle with Lizardmen.	Lizardmen Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_skaven	Your warriors relish the opportunity to do battle with Skaven.	Skaven Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_tomb_kings	Your warriors relish the opportunity to do battle with the Tomb Kings.	Tomb King Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_vampires	Your warriors relish the opportunity to do battle with Vampire Counts.	Vampire Conflict	faction	1	morale.png	true	false	true
+nag_payload_attack_versus_wood_elves	Your warriors relish the opportunity to do battle with Wood Elves.	Wood Elf Conflict	faction	1	morale.png	true	false	true
