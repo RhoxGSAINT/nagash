@@ -1,8 +1,8 @@
----@diagnostic disable
 --Script by prop joe, modified by Belisarian
 local data = {}
 
 local last_kill = nil
+local last_send = 0
 local current_behemoth = nil
 local spawn_blyramid = 0;
 local blyramid_anchor_coords = nil;
@@ -59,6 +59,7 @@ local function update()
 	local current_battle_time = bm:time_elapsed_ms()
 
 	local alliance_armies = bm:alliances():item(bm:get_player_alliance_num()):armies()
+	local enemy_armies = bm:alliances():item(bm:get_non_player_alliance_num()):armies()
 
 	for j=1, alliance_armies:count() do
 		local army = alliance_armies:item(j)
@@ -75,6 +76,32 @@ local function update()
 					blyramid_anchor_coords = current_unit:position();
 					army:use_special_ability("nag_blyramid_itself", blyramid_anchor_coords, d_to_r(0))
 					spawn_blyramid = 1
+				end
+				-- (os.clock() - last_send > 50)
+				last_send = last_send + 1
+				if (type_key == "nag_inf_skeleton_warriors_endless_tomb_summoned") and gb:has_battle_started() and last_send > 500 then
+					
+					endless_tomb_warrior_pos = current_unit:position();
+					gb:add_ping_icon_on_message("test", endless_tomb_warrior_pos, 4, 1000, 8000);
+
+					gb.sm:trigger_message("test");
+					-- get_closest_standing_unit(enemy_armies)
+					closest_unit = get_closest_standing_unit(enemy_armies, endless_tomb_warrior_pos)
+					closest_unit_pos = closest_unit:position();
+					current_unit_uc = su.uc
+					-- script_unit:new(current_army, unit_index_in_army);
+					-- local uc = army:create_unit_controller();
+					-- uc:add_units(current_unit);
+					-- unitgroup.sunits:item(i);
+					if current_unit:is_idle() then
+						current_unit_uc:take_control();
+						current_unit_uc:attack_unit(closest_unit, nil, true);
+						current_unit_uc:attack_line(endless_tomb_warrior_pos, closest_unit_pos, true)
+						-- current_unit_uc:attack_line_q(endless_tomb_warrior_pos, closest_unit_pos, true)
+						-- current_unit_uc:attack_unit(closest_unit, nil, true);
+					end
+
+					last_send = 0
 				end
 
 				if type_key == "nag_bombardment_targeting" then
