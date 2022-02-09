@@ -112,6 +112,7 @@ function bdsm:first_turn_begin()
             end,
             false
         )
+        
         --- TODO change corruption (add Skaven corruption at 10-15%, vamp at the rest?)
 
         cm:callback(function()
@@ -123,6 +124,7 @@ function bdsm:first_turn_begin()
             cm:instantly_set_settlement_primary_slot_level(ss, intro_chain_skaven.owned_region_starting_level)
 
             cm:callback(function()
+                --- add in Nagashizzar buildsings
                 for i,building in ipairs(settle_buildings) do
                     cm:add_building_to_settlement(nagashizar_key, building)
                 end
@@ -131,6 +133,10 @@ function bdsm:first_turn_begin()
                 for i,building in ipairs(intro_chain_skaven.buildings) do 
                     cm:add_building_to_settlement(intro_chain_skaven.owned_region, building)
                 end
+
+                cm:callback(function()
+                    cm:heal_garrison(cm:get_region(nagashizar_key):cqi())
+                end, 0.1)
             end, 0.2)
 
             -- reenable character events

@@ -194,6 +194,10 @@ local function init()
 
     local f = nil
 
+    --- DEBUG beta only settings
+    option = "bp"
+    all_morts = false
+
     if option == "intro" then
         bdsm:logf("Starting the intro, first_turn_begin()!")
         f = bdsm.first_turn_begin

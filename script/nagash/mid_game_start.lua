@@ -19,10 +19,45 @@ function bdsm:world_domination_start()
     end
 end
 
+--- TODO
+--- Lock every event tech behind a "TO BE COMPLETED" thing
+local function lock_all_techs()
+    local mortarchs = bdsm._mortarchs
+    ---@type vlib_camp_counselor
+    local cc = get_vlib():get_module("camp_counselor")
+
+    local filter = {faction=bdsm:get_faction_key()}
+
+    ---@param mortarch mortarch
+    for i, mortarch in ipairs(mortarchs) do
+        local key = mortarch.subtype
+        if key == "nag_mortarch_arkhan" then
+            --- Unlock tech immediately, lock events
+            local unlock_tech = key .. "_unlock"
+            cc:set_techs_lock_state(unlock_tech, "unlocked", "", filter)
+            for j = 1,3 do 
+                local event_tech = key .. "_event_"..j
+
+                cc:set_techs_lock_state(event_tech, "locked", "TO BE COMPLETED", filter)
+            end
+        else
+            --- Lock by default for the mission, lock events
+            -- mortarch:
+            for j = 1,3 do 
+                local event_tech = key .. "_event_"..j
+
+                cc:set_techs_lock_state(event_tech, "locked", "TO BE COMPLETED", filter)
+            end
+        end
+    end
+end
+
 -- set Black Pyramid to ruined, give Nagash the BP horde, spawn Nagash and Arkhan to the faction
 function bdsm:mid_game_start()
     local sentinels_key = "wh2_dlc09_tmb_the_sentinels"
     local bp_key = "wh2_main_great_mortis_delta_black_pyramid_of_nagash"
+
+    cm:set_saved_value("nagash_intro_completed", true)
 
     -- kill the Sentinels completely
     local sentinels = cm:get_faction(sentinels_key)
@@ -56,13 +91,30 @@ function bdsm:mid_game_start()
         5
     )
 
+    local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
+        faction_key,
+        x,
+        y,
+        true,
+        5
+    )
+
     bdsm:log("getting coords:")
     bdsm:log(x)
     bdsm:log(y)
 
+    local units = {
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_tmb_cav_nehekhara_horsemen_0",
+        "nag_carrion_riders",
+        "nag_nagashi_guard",
+        "nag_nagashi_guard_halb",
+    }
+
     cm:create_force_with_general(
         faction_key,
-        "wh_main_vmp_inf_zombie",
+        table.concat(units, ","),
         bp_key,
         x,
         y,
@@ -74,6 +126,18 @@ function bdsm:mid_game_start()
         "",
         true,
         nil
+    )
+
+    cm:create_agent(
+        faction_key,
+        "spy",
+        "nag_morghasts_archai",
+        ax,
+        ay,
+        false,
+        function(cqi)
+
+        end
     )
 
     cm:callback(function()
@@ -91,5 +155,28 @@ function bdsm:mid_game_start()
         -- bdsm:log("converted")
     end, 0.5)
 
-    -- TODO spawn in Arkhan
+    -- spawn in Arkhan
+    local ark = self:get_mortarch_with_key("nag_mortarch_arkhan")
+    ark:spawn_to_pool()
+
+    lock_all_techs()
+
+    --- kill Arkhan's faction
+    kill_faction("wh2_dlc09_tmb_followers_of_nagash")
+
+    cm:callback(function()
+        CampaignUI.ClearSelection()
+
+        -- trigger the How To Play event
+        cm:show_message_event(
+            faction_key,
+            "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+            "factions_screen_name_"..faction_key,
+            "event_feed_strings_text_nag_scripted_event_how_they_play_nagasha",
+            true,
+            594,
+            nil,
+            nil
+        )
+    end, 0.1)
 end

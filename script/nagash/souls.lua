@@ -129,7 +129,85 @@ local vlib = get_vandy_lib()
 ---@type vlib_camp_counselor
 local cc = vlib:get_module("camp_counselor")
 
+--- Repeated callback that adds the floating button on the BP settlement banner
+function bdsm:add_bp_button()  
+    vlib:repeat_callback(
+        function()
+            --- TODO handle states if the ritual is already underway
+            local label = find_uicomponent("3d_ui_parent", "label_settlement:"..bdsm._bp_key)
+            if label and label:Visible() then 
+                local icon_holder = find_uicomponent(label, "list_parent", "icon_holder")
+                if find_uicomponent(icon_holder, "bp_button") then 
+                    return
+                end
+
+                local extant = find_uicomponent(icon_holder, "icon_port")
+
+                local w,h = extant:Dimensions()
+
+                local bp_button = core:get_or_create_component("bp_button", "ui/templates/round_small_button", icon_holder)
+
+                bp_button:SetCanResizeWidth(true)
+                bp_button:SetCanResizeHeight(true)
+
+                bp_button:Resize(w, h)
+                
+                --- TODO icon
+                local t = effect.get_localised_string("bp_button_text")
+                -- local icon = 
+                bp_button:SetTooltipText(t, true)
+
+                icon_holder:Layout()
+            end
+        end,
+        100, -- 100ms
+        "add_bp_button"
+    )
+
+    core:add_listener(
+        "bp_button_pressed",
+        "ComponentLClickUp",
+        function(context)
+            return context.string == "bp_button"
+        end,
+        function(context)
+            -- start the ritual
+            cm:perform_ritual(bdsm:get_faction_key(), "", "nag_bp_raise")
+
+            --- TODO trigger mission for "survive"
+
+            --- TODO wound Nagash Husk for 999 turns
+            --- TODO set a composite scene on the settlement
+            --- TODO start up some interactive markers
+            --- TODO set a value for "bp ritual underway"
+        end,
+        true
+    )
+end
+
 --- TODO add in Black Pyramid raising rite 
+function bdsm:is_bp_rite_available()
+    --- TODO owns BP but hasn't performed the Ascendancy
+    local f = self:get_faction()
+    local v = cm:get_saved_value("nag_bp_raise")
+    local owns = false
+
+    local r_list = f:region_list()
+
+    if v and v == true then
+        return false
+    end
+
+    for i = 0, r_list:num_items() -1 do
+        local region = r_list:item_at(i)
+
+        if region:name() == self._bp_key then
+            owns = true
+        end
+    end
+
+    return owns
+end
 
 function bdsm:unlock_rites_listeners()
     if not rite_status.nag_winds then
@@ -321,6 +399,11 @@ function bdsm:setup_rites()
 
     self:unlock_rites_listeners()
     self:trigger_rites_listeners()
+
+    --- TODO refresh if settlement capture!
+    if self:is_bp_rite_available() then 
+        self:add_bp_button()
+    end
 end
 
 cm:add_saving_game_callback(

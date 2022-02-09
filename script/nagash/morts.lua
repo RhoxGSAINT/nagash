@@ -86,6 +86,8 @@ end
 
 --- trigger each event mission for each Mortarch
 function mortarch:trigger_event_missions()
+    --- TODO temp disable
+    do return end
     local events = self.events
 
     for i, event in ipairs(events) do 
@@ -311,27 +313,33 @@ end
 local function trigger_mortarch_unlock_missions()
     local key = bdsm:get_faction_key()
 
+    logf("triggerin mort unlock missions")
+
     -- Luthor's mission (go to Vampire Coast)
+
+    logf("pre luthor")
     do
         local mort = "nag_mortarch_luthor"
         cm:trigger_mission(key, mort.."_unlock", true, false, true)
     end
-
+    
+    logf("pre neffy")
     --- Neffy's mission
     do
         local mort = "nag_mortarch_neferata"
-
+        
         local mm = mission_manager:new(key, mort.."_unlock")
         mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
         mm:add_condition("faction " .. key);
         mm:add_condition("building_level nag_outpost_special_nagashizzar_4");
         mm:add_condition("total 1");
-
+        
         mm:add_payload("money 1000")
         mm:trigger()
     end
-
-
+    
+    
+    logf("pre krell")
     --- Krell's mission
     do
         local mort = "nag_mortarch_krell"
@@ -340,21 +348,23 @@ local function trigger_mortarch_unlock_missions()
         mm:add_new_objective("KILL_X_ENTITIES")
         mm:add_condition("total 5000")
         mm:add_payload("money 1000")
-
+        
         mm:trigger()
     end
-
+    
+    logf("pre vlad")
     -- Vlad's mission (spend time Channeling near Altdorf)
     do
         local mort = "nag_mortarch_vlad"
         cm:trigger_mission(key, mort.."_unlock", true, false, true)
     end
-
+    
+    logf("pre manny")
     --- TODO needs a failsafe?
     --- Manny's mission
     do 
         local mort = "nag_mortarch_mannfred"
-
+        
         local mm = mission_manager:new(key, mort.."_unlock")
         mm:add_new_objective("DESTROY_FACTION")
         mm:add_condition("faction wh_main_vmp_vampire_counts")
@@ -410,6 +420,10 @@ local function mortarch_unlock_listeners()
             if mort_key ~= "nag_mortarch_arkhan" then
                 mort:spawn()
             end
+
+
+            --- BETA temp disable
+            do return end
 
             --- lock each sub-tech
             for i = 1,3 do 
@@ -560,53 +574,54 @@ local function mortarch_event_listeners()
         true
     )
 
-    --- Neferata events
-    do 
-        local t1 = get_tech("nag_mortarch_neferata_event_1")
-        local t2 = get_tech("nag_mortarch_neferata_event_2")
-        local t3 = get_tech("nag_mortarch_neferata_event_3")
+    --- TODO
+    -- --- Neferata events
+    -- do 
+    --     local t1 = get_tech("nag_mortarch_neferata_event_1")
+    --     local t2 = get_tech("nag_mortarch_neferata_event_2")
+    --     local t3 = get_tech("nag_mortarch_neferata_event_3")
 
-        if is_locked(t1) then 
-            --- TODO something like "destroy Court of Lybaras", but flavored as "kill TK" or some shit, idk
-            -- core:add_listener(
-            --     "nag_mortarch_neferata_event_1",
-            -- )
-        end
+    --     if is_locked(t1) then 
+    --         --- TODO something like "destroy Court of Lybaras", but flavored as "kill TK" or some shit, idk
+    --         -- core:add_listener(
+    --         --     "nag_mortarch_neferata_event_1",
+    --         -- )
+    --     end
 
-        if is_locked(t2) then 
-            --- Own Lahmia
-            --- TODO test if already owned!
-            core:add_listener(
-                "nag_mortarch_neferata_event_2",
-                "RegionFactionChangeEvent",
-                function(context)
-                    local reg = context:region()
-                    local own = reg:owning_faction()
-                    return reg:name() == "wh2_main_devils_backbone_lahmia" and not own:is_null_interface() and own:name() == bdsm:get_faction_key()
-                end,
-                function(context)
-                    unlock(t2._key)
-                end,
-                false
-            )
-        end
+    --     if is_locked(t2) then 
+    --         --- Own Lahmia
+    --         --- TODO test if already owned!
+    --         core:add_listener(
+    --             "nag_mortarch_neferata_event_2",
+    --             "RegionFactionChangeEvent",
+    --             function(context)
+    --                 local reg = context:region()
+    --                 local own = reg:owning_faction()
+    --                 return reg:name() == "wh2_main_devils_backbone_lahmia" and not own:is_null_interface() and own:name() == bdsm:get_faction_key()
+    --             end,
+    --             function(context)
+    --                 unlock(t2._key)
+    --             end,
+    --             false
+    --         )
+    --     end
 
-        if is_locked(t3) then 
-            --- Reach level X
-            core:add_listener(
-                "nag_mortarch_neferata_event_3",
-                "CharacterRankUp",
-                function(context)
-                    local c = context:character()
-                    return c:character_subtype("nag_mortarch_neferata") and c:rank() >= 10
-                end,
-                function(context)
-                    unlock(t3)
-                end,
-                false
-            )
-        end
-    end
+    --     if is_locked(t3) then 
+    --         --- Reach level X
+    --         core:add_listener(
+    --             "nag_mortarch_neferata_event_3",
+    --             "CharacterRankUp",
+    --             function(context)
+    --                 local c = context:character()
+    --                 return c:character_subtype("nag_mortarch_neferata") and c:rank() >= 10
+    --             end,
+    --             function(context)
+    --                 unlock(t3)
+    --             end,
+    --             false
+    --         )
+    --     end
+    -- end
 end
     
 --- TODO VLIB tech stuff
@@ -620,28 +635,34 @@ local function init()
 
     if cm:is_new_game() then
         logf("Is new game!")
-        lock_starting_techs()
+        --- BETA temp disable
+        -- lock_starting_techs()
+
+        trigger_mortarch_unlock_missions()
     end
 
     mortarch_unlock_listeners()
     mortarch_event_listeners()
 
-    core:add_listener(
-        "MortarchMissionsTrigger",
-        "BlackPyramidRaised",
-        true,
-        function(context)
-            -- Trigger all Mortarch Unlock missions when the BP is raised.
-            --- TODO ^ wait a turn?
-            trigger_mortarch_unlock_missions()
-        end,
-        false
-    )
+
+    --- BETA temp disabled
+    -- core:add_listener(
+    --     "MortarchMissionsTrigger",
+    --     "BlackPyramidRaised",
+    --     true,
+    --     function(context)
+    --         -- Trigger all Mortarch Unlock missions when the BP is raised.
+    --         --- TODO ^ wait a turn?
+    --         trigger_mortarch_unlock_missions()
+    --     end,
+    --     false
+    -- )
 end
 
 
 cm:add_first_tick_callback(
     function()
+        logf("morts lua start")
         local ok, err = pcall(function()
         init()
         end) if not ok then bdsm:errorf(err) end
