@@ -40,3 +40,9 @@ nag_payload_attack_versus_skaven	Your warriors relish the opportunity to do batt
 nag_payload_attack_versus_tomb_kings	Your warriors relish the opportunity to do battle with the Tomb Kings.	Tomb King Conflict	faction	1	morale.png	true	false	true
 nag_payload_attack_versus_vampires	Your warriors relish the opportunity to do battle with Vampire Counts.	Vampire Conflict	faction	1	morale.png	true	false	true
 nag_payload_attack_versus_wood_elves	Your warriors relish the opportunity to do battle with Wood Elves.	Wood Elf Conflict	faction	1	morale.png	true	false	true
+nag_resource_warpstone	Warpstone can be found in this location.	Warpstone	faction	1	res_nag_warpstone	true	true	true
+nag_resource_coast	Recruitment caps for Coast units can be found in this location.	Coast Landmark	faction	1	res_nag_coast	true	true	true
+nag_resource_counts	Recruitment caps for Sylvanian units can be found in this location.	Sylvanian Landmark	faction	1	res_nag_counts	true	true	true
+nag_resource_nagash	Recruitment caps for Nagashi units can be found in this location.	Nagashi Landmark	faction	1	res_nag_nagash	true	true	true
+nag_resource_nehek	Recruitment caps for Nehekharan units can be found in this location.	Nehekharan Landmark	faction	1	res_nag_nehek	true	true	true
+nag_resource_ritual_site	This settlement is a special location of great interest to Nagash.	Ritual Site	faction	1	res_nag_ritual_site	true	true	true
