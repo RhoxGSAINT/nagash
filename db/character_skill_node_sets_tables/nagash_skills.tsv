@@ -16,8 +16,8 @@ nag_skill_node_set_tmb_liche_priest_light	wizard				false	false	nag_liche_priest
 nag_skill_node_set_tmb_liche_priest_nehekhara	wizard				false	false	nag_liche_priest_nehekhara
 nag_skill_node_set_tmb_liche_priest_shadow	wizard				false	false	nag_liche_priest_shadow
 nag_skill_node_set_tmb_liche_priest_undeath	wizard				false	false	nag_liche_priest_undeath
-wh_main_skill_node_set_vmp_vampire	dignitary				false	false	nag_vampire
-wh_dlc05_skill_node_set_vmp_vampire_shadow	dignitary				false	false	nag_vampire_shadow
-wh2_main_skill_node_set_vmp_wight_king	champion				false	false	nag_wight_king
-wh2_dlc11_skill_node_set_cst_gunnery_wight	engineer				false	false	nag_gunnery_wight
+nag_skill_node_set_vmp_vampire	dignitary				false	false	nag_vampire
+nag_skill_node_set_vmp_vampire_shadow	dignitary				false	false	nag_vampire_shadow
+nag_skill_node_set_vmp_wight_king	champion				false	false	nag_wight_king
+nag_skill_node_set_cst_gunnery_wight	engineer				false	false	nag_gunnery_wight
 nag_skill_node_set_morghast_archai	spy				false	false	nag_morghasts_archai

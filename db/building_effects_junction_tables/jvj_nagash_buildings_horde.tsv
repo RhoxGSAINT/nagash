@@ -3,7 +3,9 @@ building	effect	effect_scope	value	value_damaged	value_ruined
 nag_bpyramid_main_1	nag_effect_horde_growth	force_to_force_own	3.0	3.0	0.0
 nag_bpyramid_main_1	wh_main_effect_force_all_recruitment_points	force_to_force_own	4.0	2.0	0.0
 nag_bpyramid_main_1	wh_main_effect_religion_conversion_undeath	force_to_character_own_provincetext	2.0	1.0	0.0
-nag_bpyramid_main_1	wh2_dlc09_effect_increase_army_capacity	building_to_faction_own	50.0	0.0	0.0
+nag_bpyramid_main_3	wh2_dlc09_effect_increase_army_capacity	building_to_faction_own	1.0	0.0	0.0
+nag_bpyramid_main_4	wh2_dlc09_effect_increase_army_capacity	building_to_faction_own	2.0	0.0	0.0
+nag_bpyramid_main_5	wh2_dlc09_effect_increase_army_capacity	building_to_faction_own	3.0	0.0	0.0
 nag_bpyramid_main_2	nag_effect_horde_growth	force_to_force_own	4.0	4.0	0.0
 nag_bpyramid_main_2	wh_main_effect_military_force_winds_of_magic_starting_mod	force_to_force_own	5.0	5.0	0.0
 nag_bpyramid_main_2	wh_main_effect_force_all_recruitment_points	force_to_force_own	5.0	2.0	0.0
@@ -87,9 +89,9 @@ nag_bpyramid_ww1_stables_4	nag_effect_unit_cap_necropolis_knights_1	faction_to_f
 nag_bpyramid_ww1_stables_4	nag_effect_unit_cap_tomb_scorpion_0	faction_to_faction_own_unseen	2.0	2.0	0.0
 nag_bpyramid_ww1_stables_4	nag_effect_unit_cap_necrosphinx_0	faction_to_faction_own_unseen	1.0	1.0	0.0
 nag_bpyramid_ww2_warmachines_1	nag_effect_unit_cap_bone_thrower	faction_to_faction_own_unseen	2.0	2.0	0.0
-nag_bpyramid_ww2_warmachines_2	nag_effect_unit_cap_bone_thrower	faction_to_faction_own_unseen	4.0	4.0	0.0
+nag_bpyramid_ww2_warmachines_2	nag_effect_unit_cap_bone_thrower	faction_to_faction_own_unseen	3.0	3.0	0.0
 nag_bpyramid_ww2_warmachines_2	nag_effect_unit_cap_screaming_skull_catapult_0	faction_to_faction_own_unseen	1.0	1.0	0.0
-nag_bpyramid_ww2_warmachines_3	nag_effect_unit_cap_bone_thrower	faction_to_faction_own_unseen	6.0	6.0	0.0
+nag_bpyramid_ww2_warmachines_3	nag_effect_unit_cap_bone_thrower	faction_to_faction_own_unseen	4.0	4.0	0.0
 nag_bpyramid_ww2_warmachines_3	nag_effect_unit_cap_screaming_skull_catapult_0	faction_to_faction_own_unseen	2.0	2.0	0.0
 nag_bpyramid_ww2_warmachines_3	nag_effect_unit_cap_casket_of_souls_0	faction_to_faction_own_unseen	1.0	1.0	0.0
 nag_bpyramid_ew2_mortuary_2	nag_effect_unit_cap_cairn_wraiths	faction_to_faction_own_unseen	2.0	2.0	0.0
