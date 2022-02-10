@@ -171,3 +171,5 @@ unit_abilities_onscreen_name_nag_unit_passive_zombie_battery	Undeath from Undeat
 unit_abilities_tooltip_text_nag_unit_passive_zombie_battery	For one that falls, two more grasp weapons again.	true
 unit_abilities_onscreen_name_nag_unit_passive_curse_quintex	Curse of Quintex	true
 unit_abilities_tooltip_text_nag_unit_passive_curse_quintex	Who knows what dwells deep below Quintex? They know.	true
+unit_abilities_onscreen_name_nag_endless_tomb_skeleton_unbinding	Unbinding	true
+unit_abilities_tooltip_text_nag_endless_tomb_skeleton_unbinding	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	true

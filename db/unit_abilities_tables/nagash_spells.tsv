@@ -42,3 +42,4 @@ nag_army_abilities_blyramid_bombardment_04	false	wh2_dlc11_lord_passive_magical_
 nag_blyramid_itself	false	wh2_dlc11_lord_passive_magical_void		wh_type_hex		wh_main_anc_group_uncommon	false	true	army		false
 nag_army_abilities_blyramid_bombardment_targeting	true	nag_army_abilities_pyramid_bombardment		wh_type_bombardment		wh_main_anc_group_unique	true	false	army		false
 nag_spectre_swarm_dummy_vortex	false	wh2_dlc11_lord_passive_magical_void		wh_type_vortex		wh_main_anc_group_uncommon	false	true	unit		false
+nag_endless_tomb_skeleton_unbinding	false	unbinding		wh_type_direct_damage		wh_main_anc_group_common	false	false	unit		false
