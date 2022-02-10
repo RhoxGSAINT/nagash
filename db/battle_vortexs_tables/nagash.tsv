@@ -1,7 +1,7 @@
 vortex_key	change_max_angle	contact_effect	damage	damage_ap	duration	expansion_speed	goal_radius	infinite_height	move_change_freq	movement_speed	start_radius	ignition_amount	is_magical	composite_scene	detonation_force	launch_source	building_collision	launch_vfx	height_off_ground	delay	num_vortexes	composite_scene_blood	affects_allies	launch_source_offset	composite_scene_group	delay_between_vortexes
 #battle_vortexs_tables;16;db/battle_vortexs_tables/nagash																										
 wh_main_spell_nagash_soul_stealer	0		0	1	18.0	16.0	30.0	true	0.0	0.0	6.0	0.0	true	composite_scene/spells_and_abilities/nagash_soul_stealer.csc	0.0	target_near_edge	1.ignore		0.0	0.0	1		false	0.0		1.0
-wh_main_spell_nagash_abyssal_swarm	100		2	2	15.0	15.0	7.0	false	0.5	7.5	7.0	0.0	true	composite_scene/spells_and_abilities/abyss_hounds.csc	150.0	target_centre	1.ignore		0.0	0.0	10		true	0.0		1.0
+wh_main_spell_nagash_abyssal_swarm	60		2	2	10.0	15.0	7.0	false	0.5	12.0	7.0	0.0	true	composite_scene/spells_and_abilities/abyss_hounds.csc	150.0	target_centre	1.ignore		0.0	0.0	6		true	0.0		1.0
 wh_main_spell_nagash_abyssal_swarm_upgrade	0		1	0	30.0	15.0	40.0	false	0.0	0.001	7.0	0.0	true	composite_scene/spells_and_abilities/abyss_bats.csc	0.0	target_centre	1.ignore		0.0	0.0	1		true	0.0		3.0
 wh_main_spell_nagash_abyssal_swarm_upgrade_vortexhitboxisbugged	0		2	2	30.0	15.0	40.0	false	0.0	0.001	7.0	0.0	true	composite_scene/spells_and_abilities/abyss_bats.csc	0.0	target_centre	1.ignore		0.0	0.0	1		true	0.0		3.0
 wh_main_spell_nagash_breath_of_darkness	0		0	0	7.0	16.0	30.0	false	0.0	0.0	6.0	0.0	true	composite_scene/spells_and_abilities/nagash_breath_of_darkness.csc	0.0	target_centre	1.ignore		0.0	0.0	1		false	0.0		1.0

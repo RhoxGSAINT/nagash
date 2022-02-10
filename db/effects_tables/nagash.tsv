@@ -123,3 +123,4 @@ nag_effect_force_unit_stat_melee_attack_versus_high_elves	melee.png	109	melee.pn
 nag_effect_force_unit_stat_melee_attack_versus_lizardmen	melee.png	109	melee.png	battle	true
 nag_effect_force_unit_stat_melee_attack_versus_vampires	melee.png	109	melee.png	battle	true
 nag_effect_force_unit_stat_melee_attack_versus_wood_elves	melee.png	109	melee.png	battle	true
+nag_effect_climate_dummy	trait_climate_wasteland.png	1	trait_climate_wasteland.png	campaign	true
