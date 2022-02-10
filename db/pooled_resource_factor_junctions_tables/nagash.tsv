@@ -1,4 +1,5 @@
 unique_id	factor	resource
 #pooled_resource_factor_junctions_tables;0;db/pooled_resource_factor_junctions_tables/nagash		
-nag_warpstone_other	nag_nagash_rituals	nag_warpstone
+nag_warpstone_rituals	nag_nagash_rituals	nag_warpstone
 nag_warpstone_buildings	nag_warpstone_buildings	nag_warpstone
+nag_warpstone_other	wh2_main_resource_factor_other	nag_warpstone

@@ -1,9 +1,16 @@
 ---@class mort_db
 local valid_fields = {
-    subtype = "", -- the agent_subtypes key
-    forename = "", -- the loc key from names.loc
-    surname = "", -- ditto
-    tech_key = "", -- the tech key used to unlock this mort
+    ---@type string the agent_subtypes key
+    subtype = "",
+    
+    ---@type string the loc key from names.loc
+    forename = "",
+
+    ---@type string the loc key from names.loc
+    surname = "", 
+
+    ---@type string the tech key used to unlock this mort
+    tech_key = "", 
 
     ---@type {x:number,y:number,region:string} Starting position. Guesstimate for the x/y (engine will properly calculate a working spot), starting region needs to be right
     pos = {
@@ -16,10 +23,11 @@ local valid_fields = {
     events = {
 
     }
--- cataph: budget army currently at 4k plus a nagashi guard unit as liaison, each mort should thus tank you around 1500 upkeep total
+
     --- TODO anything else needed, ie. starting ancillaries or traits or what the fuck ever
 }
 
+-- cataph: budget army currently at 4k plus a nagashi guard unit as liaison, each mort should thus tank you around 1500 upkeep total
 local luthor = {
     subtype = "nag_mortarch_luthor",
     forename = "names_name_1937224331",
@@ -29,9 +37,11 @@ local luthor = {
      pos = {
             x = 255,
             y = 136, --sea next to Awakening
-         region = "wh2_main_sea_the_vampire_coast", --THIS IS A SEA REGION
+         region = "wh2_main_sea_the_vampire_coast",
+ -- TODO THIS IS A SEA REGION
     },
-        starting_army = {                               
+
+        starting_army = {                               
             "nag_vanilla_cst_mon_bloated_corpse_0",
             "nag_vanilla_cst_mon_bloated_corpse_0",
             "nag_vanilla_cst_art_carronade",

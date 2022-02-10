@@ -12,7 +12,7 @@
 local bdsm = get_bdsm()
 
 local rite_status = {
-    nag_winds = true, -- TODO
+    nag_winds = false, -- TODO
     nag_death = false,
     nag_divinity = false,
     nag_man = false,
@@ -210,7 +210,22 @@ function bdsm:is_bp_rite_available()
 end
 
 function bdsm:unlock_rites_listeners()
+    if not cm:get_saved_value("nag_rites_lock") then 
+        rite_status.nag_death = false
+        rite_status.nag_winds = false
+        rite_status.nag_divinity = false
+        rite_status.nag_man = false
+        rite_status.nag_nagash = false
+
+        local f = self:get_faction()
+
+        for key,_ in pairs(rite_status) do 
+            cm:lock_ritual(f, key)
+        end
+    end
+
     if not rite_status.nag_winds then
+        --- TODO this never triggers right?
         -- build the BP Obelisk
         core:add_listener(
             "NagWinds",
@@ -287,6 +302,18 @@ function bdsm:unlock_rites_listeners()
             "NagNagash",
             "BlackPyramidRaised",
             true,
+            function(context)
+                unlock_rite("nag_nagash")
+            end,
+            false
+        )
+        
+        core:add_listener(
+            "NagNagash",
+            "FactionTurnStart",
+            function(context)
+                return context:faction():name() == bdsm:get_faction_key() and cm:turn_number() >= 50
+            end,
             function(context)
                 unlock_rite("nag_nagash")
             end,
@@ -393,7 +420,7 @@ end
 function bdsm:setup_rites()
     
     --- TODO causes CTD on load game (:
-    -- cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
+    cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
 
     add_scroll_bar()
 
@@ -401,7 +428,7 @@ function bdsm:setup_rites()
     self:trigger_rites_listeners()
 
     --- TODO refresh if settlement capture!
-    if self:is_bp_rite_available() then 
+    if self:is_bp_rite_available() then
         self:add_bp_button()
     end
 end

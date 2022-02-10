@@ -285,7 +285,7 @@ local unlock_techs = {
     nag_mortarch_vlad_unlock = true,
 }
 
---- TODO lock all Mortarch Unlock techs
+--- lock all Mortarch Unlock techs
 local function lock_starting_techs()
     local vlib = get_vlib()
     ---@type vlib_camp_counselor
@@ -381,6 +381,24 @@ local function mortarch_unlock_listeners()
     ---@type vlib_camp_counselor
     local cc = vlib:get_module("camp_counselor")
 
+    local filter = {faction=bdsm:get_faction_key()}
+    local function unlock(key)
+        --- TODO don't do the unlock if it's already unlocked
+        cc:set_techs_lock_state(key, "unlocked", "", filter)
+
+        cm:show_message_event(
+            bdsm:get_faction_key(),
+            "event_feed_strings_text_nag_tech_unlocked",
+            "technologies_onscreen_name_"..key,
+            "technologies_short_description_"..key,
+            true,
+            902,
+            nil,
+            nil,
+            true
+        )
+    end
+
     --- Unlock the related technology after the mission is completed!
     core:add_listener(
         "MortarchUnlock",
@@ -391,9 +409,10 @@ local function mortarch_unlock_listeners()
         end,
         function(context)
             local key = context:mission():mission_record_key()
+            unlock(key)
 
-            --- Unlock the tech!
-            cc:set_techs_lock_state(key, "unlocked", "", {faction=bdsm:get_faction_key()})
+            -- --- Unlock the tech!
+            -- cc:set_techs_lock_state(key, "unlocked", "", {faction=bdsm:get_faction_key()})
         end,
         true
     )
@@ -420,7 +439,6 @@ local function mortarch_unlock_listeners()
             if mort_key ~= "nag_mortarch_arkhan" then
                 mort:spawn()
             end
-
 
             --- BETA temp disable
             do return end
@@ -450,12 +468,6 @@ local function mortarch_event_listeners()
     local vlib = get_vandy_lib()
     ---@type vlib_camp_counselor
     local cc = vlib:get_module("camp_counselor")
-
-    local function unlock(key)
-        --- TODO event message for unlocks!
-        --- TODO don't do the unlock if it's already unlocked
-        cc:set_techs_lock_state(key, "unlocked", "", nk)
-    end
 
     ---@param tech_obj tech_class
     local function is_locked(tech_obj)
@@ -635,14 +647,17 @@ local function init()
 
     if cm:is_new_game() then
         logf("Is new game!")
-        --- BETA temp disable
-        -- lock_starting_techs()
+        lock_starting_techs()
 
         trigger_mortarch_unlock_missions()
     end
 
     mortarch_unlock_listeners()
     mortarch_event_listeners()
+
+    if not cm:get_saved_value("nag_another_issue") then
+        --- lock techs that have completed missions already
+    end
 
 
     --- BETA temp disabled

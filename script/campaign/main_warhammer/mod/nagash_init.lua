@@ -4,6 +4,8 @@ local bdsm = get_bdsm()
 local mct
 local vlib = get_vlib()
 
+local log,logf,err,errf = vlib:get_log_functions("[nag_init]")
+
 if is_function(get_mct) then
     mct = get_mct()
 end
@@ -26,6 +28,70 @@ local function init_listeners()
         function (context)
             local reg = context:region()
             cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
+        end,
+        true
+    )
+
+    ---@param context BuildingCompleted
+    local function is_warpstone_mine(context)
+        local mines = {
+            nag_outpost_special_nagashizzar_2 = true,
+            nag_outpost_special_nagashizzar_4 = true,
+            nag_outpost_primary_warpstone_1 = true,
+        }
+        local name = context:building():name()
+        return mines[name]
+    end
+
+    --- TODO make it chance-based?
+    --- Add in Warpstone from Warpstone Mines
+    core:add_listener(
+        "NagashWarpstone",
+        "BuildingCompleted",
+        function(context)
+            return is_warpstone_mine(context)
+        end,
+        function(context)
+            local amount = 1
+            cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", amount)
+        end,
+        true
+    )
+
+    --- BETA temp compat
+    if not cm:get_saved_value("warpstone_check") then
+        local f = bdsm:get_faction()
+        local r_list = f:region_list()
+        
+        local a = 0
+        for i = 0, r_list:num_items() -1 do
+            local r = r_list:item_at(i)
+            logf("Checking %s for warpstone mines", r:name())
+            --- izzar landmark
+            if r:building_exists("nag_outpost_special_nagashizzar_2") then a = a + 1 end
+            if r:building_exists("nag_outpost_special_nagashizzar_3") then a = a + 1 end
+            if r:building_exists("nag_outpost_special_nagashizzar_4") then a = a + 2 end
+            if r:building_exists("nag_outpost_special_nagashizzar_5") then a = a + 2 end
+
+            --- regular ass mines
+            if r:building_exists("nag_outpost_primary_warpstone_1") then a = a + 1 end
+        end
+
+        cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", a)
+        cm:set_saved_value("warpstone_check", true)
+    end
+
+    --- TODO find a better way of doing this.
+    --- disable negative vampire traits
+    core:add_listener(
+        "NagRemoveBadTraits",
+        "CharacterTurnStart",
+        function(context)
+           local c = context:character()
+           return c:faction():name() == bdsm:get_faction_key() and c:has_trait("wh2_main_trait_corrupted_vampire")
+        end,
+        function(context)
+            cm:force_remove_trait("character_cqi:"..context:character():command_queue_index(), "wh2_main_trait_corrupted_vampire")
         end,
         true
     )
@@ -68,6 +134,7 @@ local function init_listeners()
                 bdsm:logf("Completed %s", mission:mission_record_key())
                 return string.find(mission:mission_record_key(), "nagash_intro_")
             end,
+            ---@param context MissionSucceeded
             function(context)
                 bdsm:logf("In NagashIntroChain")
                 local mission_key = context:mission():mission_record_key()
@@ -241,6 +308,12 @@ cm:add_first_tick_callback(
     function()
         local ok, err = pcall(function()
         init()
+
+        --- BETA
+        if not cm:get_saved_value("vandy_fix_pls") then 
+            cm:transfer_region_to_faction(bdsm._izar_key, bdsm._faction_key)
+            cm:set_saved_value("vandy_fix_pls", true)
+        end
         end) if not ok then bdsm:errorf(err) end
 
         bdsm:logf("nagash_init OK")
