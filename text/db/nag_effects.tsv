@@ -3,7 +3,7 @@ key	text	tooltip
 effects_description_nag_effect_horde_growth	Undead Horde growth: %+n	true
 effects_description_nag_effect_horde_replenishment	Casualty replenishment rate: %+n%	true
 effects_description_nag_effect_patrol_dummy	Defence: Undead Patrols may spawn from this location	false
-effects_description_nag_effect_warpstone_token	Warpstone: %+n	false
+effects_description_nag_effect_warpstone_token	%+n% chance of generating Warpstone per turn	true
 effects_description_nag_building_effect_cannot_grow_enable	This settlement cannot grow on its own	true
 effects_description_nag_building_effect_cannot_grow_disable	Allows the settlement to grow	true
 effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence: %+n for Bone Golems	true

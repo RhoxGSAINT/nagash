@@ -32,28 +32,62 @@ local function init_listeners()
         true
     )
 
-    ---@param context BuildingCompleted
-    local function is_warpstone_mine(context)
+    ---@param building_name string
+    local function is_warpstone_mine(building_name)
         local mines = {
             nag_outpost_special_nagashizzar_2 = true,
             nag_outpost_special_nagashizzar_4 = true,
             nag_outpost_primary_warpstone_1 = true,
         }
-        local name = context:building():name()
-        return mines[name]
+        return mines[building_name]
     end
 
-    --- TODO make it chance-based?
+    ---@param region REGION_SCRIPT_INTERFACE
+    local function has_warpstone_mine(region)
+        local mines = {
+            nag_outpost_special_nagashizzar_2 = true,
+            nag_outpost_special_nagashizzar_4 = true,
+            nag_outpost_primary_warpstone_1 = true,
+        }
+
+        for building_key,_ in pairs(mines) do
+            if region:building_exists(building_key) then return true end
+        end
+        return false
+    end
+
+    --- TODO make it chance-based
     --- Add in Warpstone from Warpstone Mines
+    -- core:add_listener(
+    --     "NagashWarpstone",
+    --     "BuildingCompleted",
+    --     function(context)
+    --         return is_warpstone_mine(context)
+    --     end,
+    --     function(context)
+    --         local amount = 1
+    --         cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", amount)
+    --     end,
+    --     true
+    -- )
+
     core:add_listener(
         "NagashWarpstone",
-        "BuildingCompleted",
+        "RegionTurnStart",
         function(context)
-            return is_warpstone_mine(context)
+            local region = context:region()
+            return has_warpstone_mine(region) and region:owning_faction():name() == bdsm:get_faction_key()
         end,
         function(context)
-            local amount = 1
-            cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", amount)
+            --- TODO calculate chance
+            local chance = 10
+
+            local val = cm:random_number(100)
+            if val <= chance then
+                cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
+            end
+            
+            --- TODO "soak up" mechanic, ie. apply a permanent bundle to a region when it's gotten enough Warpstone.
         end,
         true
     )
@@ -95,6 +129,72 @@ local function init_listeners()
         end,
         true
     )
+
+    --- TODO implement the DoW on all living for Nagash's skill
+    core:add_listener(
+        "NagDoW",
+        "CharacterSkillPointAllocated",
+        function(context)
+            return context:skill_point_spent_on() == "nag_skill_personal_nagash_world_at_peace"
+        end,
+        function(context)
+            -- local char = context:character()
+            local exempt = {
+                nag_nagash = true,
+                wh2_dlc09_tmb_tomb_kings = true,
+                wh2_dlc11_cst_vampire_coast = true,
+                wh_main_vmp_vampire_counts = true,
+                wh2_main_rogue = true,
+                --- TODO any modded subcultures? Hi OvN
+            }
+
+            ---@type FACTION_LIST_SCRIPT_INTERFACE
+            local faction_list = cm:model():world():faction_list()
+            local nag_key = bdsm:get_faction_key()
+
+            for i = 0, faction_list:num_items() -1 do
+                local f = faction_list:item_at(i)
+                local f_key = f:name()
+                local cult = f:culture()
+
+                if not exempt[cult] and not f:is_human() and not f:is_dead() then
+                    cm:force_declare_war(nag_key, f_key, false, false, false)
+                end
+            end
+        end,
+        false
+    )
+
+    --- BETA backwards compat
+    if not cm:get_saved_value("NAGBETADOWTHEWORLDCHECK") then 
+        local nag = bdsm:get_faction_leader()
+        if nag:has_skill("nag_skill_personal_nagash_world_at_peace") then 
+            local exempt = {
+                nag_nagash = true,
+                wh2_dlc09_tmb_tomb_kings = true,
+                wh2_dlc11_cst_vampire_coast = true,
+                wh_main_vmp_vampire_counts = true,
+                wh2_main_rogue = true,
+                --- TODO any modded subcultures? Hi OvN
+            }
+
+            ---@type FACTION_LIST_SCRIPT_INTERFACE
+            local faction_list = cm:model():world():faction_list()
+            local nag_key = bdsm:get_faction_key()
+
+            for i = 0, faction_list:num_items() -1 do
+                local f = faction_list:item_at(i)
+                local f_key = f:name()
+                local cult = f:culture()
+
+                if not exempt[cult] and not f:is_human() and not f:is_dead() then
+                    cm:force_declare_war(nag_key, f_key, false, false, false)
+                end
+            end
+        end
+
+        cm:set_saved_value("NAGBETADOWTHEWORLDCHECK")
+    end
 
     -- Nothing needed here right?
     -- --- TODO auto-equip traitor kings with one of the books

@@ -125,7 +125,9 @@ function bdsm:mid_game_start()
         "names_name_1777692413",
         "",
         true,
-        nil
+        function(cqi)
+
+        end
     )
 
     cm:create_agent(
