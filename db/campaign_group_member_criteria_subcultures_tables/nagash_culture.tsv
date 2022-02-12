@@ -4,7 +4,6 @@ nagash_do_nothing	nag_nagash
 nagash_raze_without_occupy	nag_nagash
 nagash_sack	nag_nagash
 nagash_gift	nag_nagash
-nagash_occupy	nag_nagash
 nagash_colonise	nag_nagash
 nagash_loot	nag_nagash
 nagash_resettle	nag_nagash
