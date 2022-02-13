@@ -124,6 +124,20 @@ local function unlock_rite(rite_key)
 	);
 end
 
+function bdsm:unlock_all_rites()
+    for k,_ in pairs(rite_status) do 
+        unlock_rite(k)
+    end
+end
+
+function bdsm:add_warpstone(amount, factor_key)
+    if not is_string(factor_key) then factor_key = "nag_warpstone_buildings" end
+    if not is_number(amount) then amount = 1 end
+
+    local key = self:get_faction_key()
+    cm:faction_add_pooled_resource(key, "nag_warpstone", factor_key, amount)
+end
+
 local vlib = get_vandy_lib()
 
 ---@type vlib_camp_counselor
@@ -210,7 +224,7 @@ function bdsm:is_bp_rite_available()
 end
 
 function bdsm:unlock_rites_listeners()
-    if not cm:get_saved_value("nag_rites_lock") then 
+    if not cm:get_saved_value("nag_rites_lock") then
         rite_status.nag_death = false
         rite_status.nag_winds = false
         rite_status.nag_divinity = false
@@ -219,9 +233,11 @@ function bdsm:unlock_rites_listeners()
 
         local f = self:get_faction()
 
-        for key,_ in pairs(rite_status) do 
+        for key,_ in pairs(rite_status) do
             cm:lock_ritual(f, key)
         end
+
+        cm:set_saved_value("nag_rites_lock", true)
     end
 
     if not rite_status.nag_winds then
@@ -397,7 +413,7 @@ function bdsm:trigger_rites_listeners()
             --- spawn the army
             cm:create_force(
                 key,
-                random_army_manager:generate_force("nag_death", cm:random_number(15, 12), false),
+                random_army_manager:generate_force("nag_death", 4, false),
                 region,
                 x,
                 y,
@@ -405,12 +421,12 @@ function bdsm:trigger_rites_listeners()
                 function(char_cqi, mf_cqi)
                     --- TODO apply EB for the duration of the ritual
                     local eb_key = "nag_death_shambling_horde"
-                    cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5) 
+                    cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5)
                 end,
                 false
             )
 
-            --- TODO add an event
+            --- TODO add an event message
         end,
         true
     )
