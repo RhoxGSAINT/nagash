@@ -117,12 +117,21 @@ end
 function mortarch:spawn()
     if self.acquired then return end
     
-    local x,y = self.pos.x, self.pos.y
+    -- local x,y = self.pos.x, self.pos.y
     local starting_army = self.starting_army
     local forename,surname = self.forename,self.surname
     local subtype = self.subtype
 
-    x,y = cm:find_valid_spawn_location_for_character_from_position(bdsm:get_faction_key(), x, y, true, 3)
+    local is_sea = self.pos.is_sea or false
+    local dist = self.pos.dist or 8
+
+    local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
+        bdsm:get_faction_key(),
+        self.pos.region,
+        is_sea,
+        true,
+        dist
+    )
 
     cm:create_force_with_general(
         bdsm:get_faction_key(),

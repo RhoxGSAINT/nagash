@@ -1155,7 +1155,7 @@
 ---@field any_resource_available fun(self:REGION_SCRIPT_INTERFACE):bool
 ---@field town_wealth_growth fun(self:REGION_SCRIPT_INTERFACE):int
 ---@field adjacent_region_list fun(self:REGION_SCRIPT_INTERFACE):REGION_LIST_SCRIPT_INTERFACE
----@field majority_religion fun(self:REGION_SCRIPT_INTERFACE):String
+---@field majority_religion fun(self:REGION_SCRIPT_INTERFACE):string
 ---@field region_wealth_change_percent fun(self:REGION_SCRIPT_INTERFACE):float
 ---@field squalor fun(self:REGION_SCRIPT_INTERFACE):card
 ---@field sanitation fun(self:REGION_SCRIPT_INTERFACE):card

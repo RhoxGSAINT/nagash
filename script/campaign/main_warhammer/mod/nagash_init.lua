@@ -15,6 +15,8 @@ local faction_key = bdsm._faction_key
 local function init_listeners()
     --- TODO test that this prevents ogre camp spawning!
     Ogre_Camp.ogre_camp_cooldowns[faction_key] = 999
+
+    cm:remove_effect_bundle("wh_main_effect_religion_undeath_public_order", faction_key)
     
     --- Whenever a settlement is occupied by Nagash, auto-set the level to 1.
     core:add_listener(
@@ -56,6 +58,26 @@ local function init_listeners()
         return false
     end
 
+    local function has_bad_undeath_corruption_bundle(region)
+        local bundles = {
+            "wh_main_bundle_region_vampiric_corruption_attrition_bad",
+            "wh_main_bundle_region_vampiric_corruption_low",
+            "wh_main_bundle_region_vampiric_corruption_medium",
+            "wh_main_bundle_region_vampiric_corruption_high",
+        }
+    end
+
+    --- BETA temp compat
+    if not cm:get_saved_value("NAGLUTHORCHECK") then 
+        local f = bdsm:get_faction()
+
+        if f:has_technology("nag_mortarch_luthor_unlock") then 
+            bdsm:get_mortarch_with_key("nag_mortarch_luthor"):spawn()
+        end
+
+        cm:set_saved_value("NAGLUTHORCHECK", true)
+    end
+
     --- TODO make it chance-based
     --- Add in Warpstone from Warpstone Mines
     -- core:add_listener(
@@ -71,23 +93,121 @@ local function init_listeners()
     --     true
     -- )
 
+    ---@param region REGION_SCRIPT_INTERFACE
+    local function adjust_attrition(region)
+        local bundles = {
+            "wh_main_bundle_region_vampiric_corruption_low_good",
+            "wh_main_bundle_region_vampiric_corruption_medium_good",
+            "wh_main_bundle_region_vampiric_corruption_high_good"
+        }
+
+        local bad_bundles = {
+            "wh_main_bundle_region_vampiric_corruption_low",
+            "wh_main_bundle_region_vampiric_corruption_medium",
+            "wh_main_bundle_region_vampiric_corruption_high"
+        }
+
+        local good_attrition = "wh_main_bundle_region_vampiric_corruption_attrition"
+        local bad_attrition = "wh_main_bundle_region_vampiric_corruption_attrition_bad"
+
+        local vampiric = region:religion_proportion("wh_main_religion_undeath");
+        local name = region:name()
+
+        remove_corruption_effect_bundles(name, bad_bundles)
+    
+        local game = cm:get_game_interface()
+        game:remove_effect_bundle_from_region(bad_attrition, name);
+
+        if vampiric >= 0.01 then
+            game:apply_effect_bundle_to_region(good_attrition, name, 0)
+            apply_corruption_effect_bundle(vampiric, name, bundles)
+        else
+            remove_corruption_effect_bundles(name, bundles);
+        end
+    end
+
+    --- TODO do corruption bundle stuff
+    core:add_listener(
+        "NagashCorruption",
+        "ScriptEventHumanFactionTurnStart",
+        function(context)
+            return context:faction():name() == bdsm:get_faction_key()
+        end,
+        function(context)
+
+            local faction = context:faction()
+            local region_list = faction:region_list()
+
+            for i = 0, region_list:num_items() -1 do
+                adjust_attrition(region_list:item_at(i))
+            end
+        end,
+        true
+    )
+
+    local function determine_attrition(region)
+        local majority = region:majority_religion();
+        
+        if majority == vampiric_corruption_string then
+            adjust_attrition(region);
+        -- elseif majority == untainted_corruption_string or majority == skaven_corruption_string then
+        --     apply_attrition(region, untainted_corruption_string);
+        -- elseif majority == chaos_corruption_string then
+        --     apply_attrition(region, chaos_corruption_string);
+        end;
+        
+        -- check_corruption_effect_bundle(region);
+    end;
+    
+    core:add_listener(
+		"NagCorruptionOccupied",
+		"GarrisonOccupiedEvent",
+		function(context)
+            return context:garrison_residence():region():owning_faction():name() == bdsm:get_faction_key()
+        end,
+		function(context)
+			local region = context:garrison_residence():region();
+			
+			determine_attrition(region);
+		end,
+		true
+	);
+	
+	-- core:add_listener(
+	-- 	"NagCorruptionRazed",
+	-- 	"CharacterRazedSettlement",
+	-- 	true,
+	-- 	function(context)
+	-- 		local region = context:character():region();
+	-- 		if not region:is_null_interface() then
+	-- 			determine_attrition(region);
+	-- 		end
+	-- 	end,
+	-- 	true
+	-- );
+
     core:add_listener(
         "NagashWarpstone",
         "RegionTurnStart",
         function(context)
             local region = context:region()
-            return has_warpstone_mine(region) and region:owning_faction():name() == bdsm:get_faction_key()
+            local owner = region:owning_faction()
+            return not owner:is_null_interface() and owner:name() == bdsm:get_faction_key()
         end,
         function(context)
-            --- TODO calculate chance
-            local chance = 10
+            local region = context:region()
 
-            local val = cm:random_number(100)
-            if val <= chance then
-                cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
+            if has_warpstone_mine(region) then
+                --- TODO calculate chance
+                local chance = 10
+    
+                local val = cm:random_number(100)
+                if val <= chance then
+                    cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
+                end
+                
+                --- TODO "soak up" mechanic, ie. apply a permanent bundle to a region when it's gotten enough Warpstone.
             end
-            
-            --- TODO "soak up" mechanic, ie. apply a permanent bundle to a region when it's gotten enough Warpstone.
         end,
         true
     )
