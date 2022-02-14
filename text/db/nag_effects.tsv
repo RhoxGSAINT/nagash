@@ -175,7 +175,7 @@ effects_description_nag_effect_self_neferata_ward_save_physical_vs_lybaras	Physi
 effects_description_nag_effect_self_neferata_melee_defence_vs_lybaras	Melee defence: %+n for Neferata when fighting against Lybaras	true
 effects_description_nag_effect_self_isabella_to_vlad_buff	Undying Love: %+n Melee Attack and Melee Defence to both Isabella and Vlad when they are in the same army	true
 effects_description_nag_effect_self_vlad_enable_mortarch_of_shadows_aura	Ability: "Aura of Dark Grandeur"	true
-effects_description_nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	Improves "Aura of Dark Grandeur" with a penalty to enemy accuaracy and a larger area of effect	true
+effects_description_nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	Improves "Aura of Dark Grandeur" with a penalty to enemy accuracy and a larger area of effect	true
 effects_description_nag_effect_item_neferata_ability_dagger_of_jet	Ability: "Dagger of Jet"	true
 effects_description_nag_effect_item_neferata_ability_enable_staff_of_pain	Ability: "Staff of Pain"	true
 effects_description_nag_effect_double_spell_range_mortarch_of_night_dummy	Spell Range: %+n% to Lore of Vampires spells	true
