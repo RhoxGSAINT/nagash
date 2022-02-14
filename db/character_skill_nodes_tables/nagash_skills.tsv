@@ -4,7 +4,7 @@ nag_skill_supreme_innate_nagash		nag_skill_supreme_innate_nagash	nag_skill_node_
 nag_skill_supreme_nagash_unique_0		nag_skill_unique_nagash_morikhane	nag_skill_node_set_nagash_boss		0.0	0.0		0	0	true
 nag_skill_supreme_nagash_unique_1		nag_skill_unique_nagash_mortis	nag_skill_node_set_nagash_boss		0.0	1.0		0	0	true
 nag_skill_supreme_nagash_unique_2		nag_skill_unique_nagash_alakanash	nag_skill_node_set_nagash_boss		0.0	3.0		0	0	true
-nag_skill_supreme_nagash_unique_3		nag_skill_unique_nagash_crown	nag_skill_node_set_nagash_boss		0.0	4.0		1	0	true
+nag_skill_supreme_nagash_unique_3		nag_skill_unique_nagash_crown	nag_skill_node_set_nagash_boss		0.0	4.0		0	0	true
 nag_skill_supreme_nagash_unique_4		nag_skill_personal_nagash_supreme_lord	nag_skill_node_set_nagash_boss		0.0	5.0		0	0	true
 nag_skill_supreme_nagash_unique_5		nag_skill_personal_nagash_undying_king	nag_skill_node_set_nagash_boss		0.0	6.0		0	0	true
 nag_skill_supreme_nagash_unique_6		nag_skill_personal_nagash_great_necromancer	nag_skill_node_set_nagash_boss		0.0	7.0		0	0	true
@@ -182,7 +182,7 @@ nag_skill_mortarch_vlad_self_09		wh2_dlc11_skill_all_lord_self_blade_master	nag_
 nag_skill_mortarch_vlad_self_10		wh2_dlc11_skill_all_lord_self_blade_shield	nag_skill_node_set_mortarch_vlad		1.0	9.0		0	0	true
 nag_skill_mortarch_vlad_self_11		wh_main_skill_vmp_lord_self_red_fury	nag_skill_node_set_mortarch_vlad		1.0	10.0		0	4	true
 nag_skill_mortarch_vlad_unique_01		nag_skill_unique_vlad_blood_drinker	nag_skill_node_set_mortarch_vlad		0.0	0.0		0	0	true
-nag_skill_mortarch_vlad_unique_02		nag_skill_unique_vlad_the_carstein_ring	nag_skill_node_set_mortarch_vlad		0.0	1.0		1	0	true
+nag_skill_mortarch_vlad_unique_02		nag_skill_unique_vlad_the_carstein_ring	nag_skill_node_set_mortarch_vlad		0.0	1.0		0	0	true
 nag_skill_mortarch_vlad_unique_03		wh_dlc04_skill_vmp_lord_unique_vlad_von_carstein_coven_of_undeath	nag_skill_node_set_mortarch_vlad		0.0	3.0		0	0	true
 nag_skill_mortarch_vlad_unique_04		wh_dlc04_skill_vmp_lord_unique_vlad_von_carstein_cloud_of_horror	nag_skill_node_set_mortarch_vlad		0.0	4.0		0	0	true
 nag_skill_mortarch_vlad_unique_05		nag_skill_unique_vlad_von_carstein_mesmerising_aura	nag_skill_node_set_mortarch_vlad		0.0	5.0		0	0	true
@@ -379,10 +379,10 @@ nag_skill_neferata_magic1_09		wh2_dlc11_skill_vmp_bloodline_lahmian_magic_okkams
 nag_skill_neferata_magic1_10		wh2_dlc11_skill_vmp_bloodline_lahmian_magic_wind_of_death	nag_skill_node_set_mortarch_neferata		2.0	7.0		0	0	true
 nag_skill_neferata_magic1_11		wh_main_skill_all_magic_all_11_arcane_conduit	nag_skill_node_set_mortarch_neferata		2.0	10.0		0	4	true
 nag_skill_neferata_magic1_dummy		wh2_dlc11_skill_vmp_magic_vampires_dummy_invocation_of_nehek_enfeebling_foe	nag_skill_node_set_mortarch_neferata		2.0	11.0		1	0	false
-nag_skill_neferata_magic2_01		wh_dlc05_skill_magic_shadow_smoke_and_mirrors	nag_skill_node_set_mortarch_neferata		3.0	0.0		0	0	true
-nag_skill_neferata_magic2_02		wh_main_skill_all_magic_death_03_life_leeching	nag_skill_node_set_mortarch_neferata		3.0	1.0		0	0	true
-nag_skill_neferata_magic2_03		nag_skill_hero_undeath_spell_magic_nagash_raise_the_dead	nag_skill_node_set_mortarch_neferata		3.0	2.0		0	0	true
-nag_skill_personal_neferata_guardian		nag_skill_personal_neferata_guardian	nag_skill_node_set_mortarch_neferata		3.0	3.0		0	1	true
+nag_skill_neferata_magic2_01		wh_dlc05_skill_magic_shadow_smoke_and_mirrors	nag_skill_node_set_mortarch_neferata		3.0	1.0		0	0	true
+nag_skill_neferata_magic2_02		wh_main_skill_all_magic_death_03_life_leeching	nag_skill_node_set_mortarch_neferata		3.0	2.0		0	0	true
+nag_skill_neferata_magic2_03		nag_skill_hero_undeath_spell_magic_nagash_raise_the_dead	nag_skill_node_set_mortarch_neferata		3.0	3.0		0	0	true
+nag_skill_personal_neferata_guardian		nag_skill_personal_neferata_guardian	nag_skill_node_set_mortarch_neferata		3.0	4.0		0	1	true
 nag_skill_neferata_army_0		wh_main_skill_vmp_lord_battle_aura_of_supremacy	nag_skill_node_set_mortarch_neferata		4.0	0.0		0	0	true
 nag_skill_neferata_army_1		nag_skill_army_buff_ranged	nag_skill_node_set_mortarch_neferata		4.0	1.0		0	0	true
 nag_skill_neferata_army_2		nag_skill_army_buff_infantry	nag_skill_node_set_mortarch_neferata		4.0	2.0		0	0	true

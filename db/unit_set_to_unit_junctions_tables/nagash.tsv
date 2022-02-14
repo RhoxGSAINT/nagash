@@ -269,7 +269,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_gunnery_carronade_unit_set	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_gunnery_carronade_unit_set	false
 			nag_vanilla_cst_art_carronade	nag_gunnery_carronade_unit_set	false
-	war_beast			nag_warhounds_unit_set	false
+			nag_vanilla_vmp_mon_dire_wolves	nag_warhounds_unit_set	false
 lord				nag_characters	false
 hero				nag_characters	false
 	artillery			nag_all_units_unit_set	false

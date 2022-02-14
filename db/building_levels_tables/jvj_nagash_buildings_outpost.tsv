@@ -25,15 +25,15 @@ nag_outpost_norsca_primary_main_coast_3	nag_outpost_norsca_primary_main_coast	3	
 nag_outpost_norsca_primary_main_coast_4	nag_outpost_norsca_primary_main_coast	4	5	4800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	4	true	0	wh2_cam_settlement_major_tombkings	true	0	0
 nag_outpost_norsca_primary_main_coast_5	nag_outpost_norsca_primary_main_coast	5	6	7200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	5	true	0	wh2_cam_settlement_major_tombkings	true	0	0
 nag_outpost_secondary_main_ruin	nag_outpost_secondary_main	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
-nag_outpost_secondary_main_1	nag_outpost_secondary_main	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor	false	0.0	0	true	0		true	0	0
+nag_outpost_secondary_main_1	nag_outpost_secondary_main	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor	false	0.0	0	true	0	wh2_cam_settlement_minor_tombkings	true	0	0
 nag_outpost_secondary_main_coast_ruin	nag_outpost_secondary_main_coast	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
-nag_outpost_secondary_main_coast_1	nag_outpost_secondary_main_coast	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0.0	0	true	0		true	0	0
+nag_outpost_secondary_main_coast_1	nag_outpost_secondary_main_coast	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0.0	0	true	0	wh2_cam_settlement_minor_tombkings	true	0	0
 nag_outpost_norsca_secondary_main_ruin	nag_outpost_norsca_secondary_main	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
-nag_outpost_norsca_secondary_main_1	nag_outpost_norsca_secondary_main	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor	false	0.0	0	true	0		true	0	0
+nag_outpost_norsca_secondary_main_1	nag_outpost_norsca_secondary_main	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor	false	0.0	0	true	0	wh2_cam_settlement_minor_tombkings	true	0	0
 nag_outpost_norsca_secondary_coast_main_ruin	nag_outpost_norsca_secondary_main_coast	0	1	0	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
-nag_outpost_norsca_secondary_main_coast_1	nag_outpost_norsca_secondary_main_coast	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0.0	0	true	0		true	0	0
+nag_outpost_norsca_secondary_main_coast_1	nag_outpost_norsca_secondary_main_coast	1	1	300	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_minor_coast	false	0.0	0	true	0	wh2_cam_settlement_minor_tombkings	true	0	0
 nag_outpost_main_port_ruin	nag_outpost_main_port	0	1	0	0		false	0	0	0	0	false				true	nag_outpost_main_port	false	0.0	0	false	0	wh_cam_settlement_generic_ruin	true	0	0
-nag_outpost_main_port_1	nag_outpost_main_port	1	1	500	0		false	0	0	0	0	false				true	nag_outpost_main_port	false	0.0	0	true	1		true	0	0
+nag_outpost_main_port_1	nag_outpost_main_port	1	1	500	0		false	0	0	0	0	false				true	nag_outpost_main_port	false	0.0	0	true	1	Wh_Cam_Settlement_Port_Tomb_Kings	true	0	0
 nag_outpost_primary_main_altdorf_1	nag_outpost_primary_main_altdorf	1	2	800	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0
 nag_outpost_primary_main_altdorf_2	nag_outpost_primary_main_altdorf	2	3	1600	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	1	true	0	wh2_cam_settlement_major_tombkings	true	0	0
 nag_outpost_primary_main_altdorf_3	nag_outpost_primary_main_altdorf	3	4	3200	0		false	0	0	0	0	false				true	wh_main_HUMAN_settlement_major_coast	false	0.0	2	true	0	wh2_cam_settlement_major_tombkings	true	0	0

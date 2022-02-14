@@ -112,7 +112,7 @@ effects_description_nag_spell_nagash_reduce_wom_cost_harbinger_upgraded	Winds of
 effects_description_nag_nag_effect_self_arkhan_melee_attack_nehek	Melee attack: %+n for Nehekhara Warriors and Nehekhara Horsemen units	true
 effects_description_nag_nag_effect_self_arkhan_rank_nehek_plus	Recruit rank: %+n for Nehekhara Warriors, Nehekhara Horsemen, Dire Wolves and Hexwraiths units	true
 effects_description_nag_effect_self_krell_infantry_melee_defence_skill	Melee defence: %+n for all Infantry units	true
-effects_description_nag_effect_self_krell_infantry_upkeep_skill	No upkeep cost for Grave Guard & Nagashizzar Guard units	true
+effects_description_nag_effect_self_krell_infantry_upkeep_skill	Upkeep: %+n% for Grave Guard & Nagashizzar Guard units	true
 effects_description_nag_effect_self_krell_melee_attack_versus_nor_chs_bst	Melee attack: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_krell_melee_damage_versus_nor_chs_bst	Weapon strength: %+n% for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	Charge bonus: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
@@ -306,7 +306,6 @@ effects_description_nag_ritual_attack_warning_dummy_final	All important location
 effects_description_nag_ritual_victory_dummy	Required for victory (All your base are belong to Nagash)	true
 effects_description_nag_effect_husk_can_tunnel_dummy	Nagash has access to Nagashizzar's underways in his early husk form	true
 effects_description_nag_ability_enable_batocalypse	Army ability: "Apocalyptic Swarm"	true
-effects_description_nag_effect_no_attrition_immunity_dummy	Not Immune to Vampiric attrition & non-Nagashizzar territory attrition.	true
 effects_description_nag_effect_enable_ability_guardian_ghouls_blood_knights	Passive ability: "Guardian" for Crypt Ghouls and Blood Knights	true
 effects_description_nag_effect_enable_ability_zombie_battery	Passive ability: "Undeath from Undeath" for Zombie units	true
 effects_description_nag_effect_ability_enable_warpfireball_liche_casket	Ability: "Warp-Fireball" for Liche Priests and Caskets of Souls	true
@@ -323,10 +322,11 @@ effects_description_nag_effect_agent_action_success_chance_spy	Hero action succe
 effects_description_nag_effect_agent_action_success_chance_dignitary	Hero action success chance: %+n% for Vampires	true
 effects_description_nag_effect_force_army_campaign_upkeep_cost_war_beasts	Upkeep: %+n% for war beast units	true
 effects_description_nag_effect_force_army_campaign_upkeep_cost_war_machines	Upkeep: %+n% for war machine units	true
-nag_effect_force_unit_stat_melee_attack_versus_bretonnia	Melee attack: %+n when fighting against Bretonnia	true
-nag_effect_force_unit_stat_melee_attack_versus_beastmen	Melee attack: %+n when fighting against Beastmen	true
-nag_effect_force_unit_stat_melee_attack_versus_high_elves	Melee attack: %+n when fighting against High Elves	true
-nag_effect_force_unit_stat_melee_attack_versus_lizardmen	Melee attack: %+n when fighting against Lizardmen	true
-nag_effect_force_unit_stat_melee_attack_versus_vampires	Melee attack: %+n when fighting against Vampire Counts & the Vampire Coast	true
-nag_effect_force_unit_stat_melee_attack_versus_wood_elves	Melee attack: %+n when fighting against Wood Elves	true
+effects_description_nag_effect_force_unit_stat_melee_attack_versus_bretonnia	Melee attack: %+n when fighting against Bretonnia	true
+effects_description_nag_effect_force_unit_stat_melee_attack_versus_beastmen	Melee attack: %+n when fighting against Beastmen	true
+effects_description_nag_effect_force_unit_stat_melee_attack_versus_high_elves	Melee attack: %+n when fighting against High Elves	true
+effects_description_nag_effect_force_unit_stat_melee_attack_versus_lizardmen	Melee attack: %+n when fighting against Lizardmen	true
+effects_description_nag_effect_force_unit_stat_melee_attack_versus_vampires	Melee attack: %+n when fighting against Vampire Counts & the Vampire Coast	true
+effects_description_nag_effect_force_unit_stat_melee_attack_versus_wood_elves	Melee attack: %+n when fighting against Wood Elves	true
 effects_description_nag_effect_climate_dummy	Most regions are suitable, but only [[img:res_nag_coast]][[/img]][[img:res_nag_counts]][[/img]][[img:res_nag_nagash]][[/img]][[img:res_nag_nehek]][[/img]] locations are valuable	false
+effects_description_nag_effect_diplomatic_relations_living	Diplomatic relations: %+n with all Non-Undead factions	true
