@@ -16,3 +16,7 @@ character_bound	nag_krell_horde
 general_is_irreplaceable	nag_krell_horde
 character_bound	nag_neferata_horde
 general_is_irreplaceable	nag_neferata_horde
+unable_to_exchange_units	nag_shambling_horde
+unable_to_leave_force	nag_shambling_horde
+upkeep_exempt	nag_shambling_horde
+upkeep_increase_exempt	nag_shambling_horde

@@ -26,33 +26,35 @@ local valid_fields = {
 
     --- TODO anything else needed, ie. starting ancillaries or traits or what the fuck ever
 }
-
 -- cataph: budget army currently at 4k plus a nagashi guard unit as liaison, each mort should thus tank you around 1500 upkeep total
+
+---@type mort_db
 local luthor = {
     subtype = "nag_mortarch_luthor",
     forename = "names_name_1937224331",
     surname = "names_name_1777692417",
 
 
-     pos = {
-            x = 255,
-            y = 136, --sea next to Awakening
-         region = "wh2_main_sea_the_vampire_coast",
- -- TODO THIS IS A SEA REGION
+     pos = { --sea next to Awakening
+        x = 255,
+        y = 136, 
+        region = "wh2_main_vampire_coast_the_awakening",
+        is_sea = true,
+        dist = 30,
     },
 
-        starting_army = {                               
-            "nag_vanilla_cst_mon_bloated_corpse_0",
-            "nag_vanilla_cst_mon_bloated_corpse_0",
-            "nag_vanilla_cst_art_carronade",
-            "nag_vanilla_cst_inf_zombie_deckhands_mob_0",
-            "nag_vanilla_cst_inf_zombie_deckhands_mob_0",
-            "nag_vanilla_cst_inf_zombie_gunnery_mob_0",
-            "nag_vanilla_cst_inf_zombie_gunnery_mob_0",
-            "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
-            "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
-            "nag_nagashi_guard_halb",
-        },
+    starting_army = {
+        "nag_vanilla_cst_mon_bloated_corpse_0",
+        "nag_vanilla_cst_mon_bloated_corpse_0",
+        "nag_vanilla_cst_art_carronade",
+        "nag_vanilla_cst_inf_zombie_deckhands_mob_0",
+        "nag_vanilla_cst_inf_zombie_deckhands_mob_0",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_0",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_0",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
+        "nag_nagashi_guard_halb",
+    },
 
     events = {
         --- First event mission (fight 5 battles AT SEA OR against Lizardmen)
@@ -92,27 +94,29 @@ local luthor = {
     }
 }
 
+---@type mort_db
 local vlad = {
     subtype = "nag_mortarch_vlad",
     forename = "names_name_1937224329",
     surname = "names_name_1777692415",
-        pos = {
-            x = 678,
-            y = 417, --should be nearby of Drakenhof
-         region = "wh_main_eastern_sylvania_castle_drakenhof",
-     },
+
+    pos = { --should be nearby of Drakenhof
+        x = 678,
+        y = 417,
+        region = "wh_main_eastern_sylvania_castle_drakenhof",
+    },
 
 
-        starting_army = {                               
-            "nag_vanilla_vmp_inf_skeleton_warriors_0",
-            "nag_vanilla_vmp_inf_skeleton_warriors_0",
-            "nag_vanilla_vmp_mon_dire_wolves",
-            "nag_vanilla_vmp_mon_dire_wolves",
-            "nag_vanilla_vmp_mon_fell_bats",
-            "nag_vanilla_vmp_cav_black_knights_3",
-            "nag_vanilla_vmp_mon_vargheists",
-            "nag_nagashi_guard_halb",
-        },
+    starting_army = {
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_mon_dire_wolves",
+        "nag_vanilla_vmp_mon_dire_wolves",
+        "nag_vanilla_vmp_mon_fell_bats",
+        "nag_vanilla_vmp_cav_black_knights_3",
+        "nag_vanilla_vmp_mon_vargheists",
+        "nag_nagashi_guard_halb",
+    },
 
     events = {
         { --- Unlock Isabella (unlock TBD)
@@ -147,25 +151,26 @@ local vlad = {
     }
 }
 
+---@type mort_db
 local mannfred = {
     subtype = "nag_mortarch_mannfred",
     forename = "names_name_1937224330",
     surname = "names_name_1777692416",
-        pos = {
-            x = 691,
-            y = 419, --same pos as pos manny starts
-         region = "wh_main_eastern_sylvania_castle_drakenhof",
-     },
-        starting_army = {                               
-            "nag_vanilla_vmp_inf_skeleton_warriors_1",
-            "nag_vanilla_vmp_inf_skeleton_warriors_1",
-            "nag_vanilla_vmp_inf_skeleton_warriors_1",
-            "nag_vanilla_vmp_inf_skeleton_warriors_1",
-            "nag_vanilla_vmp_inf_skeleton_warriors_1",
-            "nag_vanilla_vmp_cav_black_knights_0",
-            "nag_vanilla_vmp_mon_varghulf",
-            "nag_nagashi_guard",
-        },
+    pos = {
+        x = 691,
+        y = 419, --same pos as pos manny starts
+        region = "wh_main_eastern_sylvania_castle_drakenhof",
+    },
+    starting_army = {
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_cav_black_knights_0",
+        "nag_vanilla_vmp_mon_varghulf",
+        "nag_nagashi_guard",
+    },
 
     events = {
         { --- Conquer Drakenhof
@@ -193,6 +198,7 @@ local mannfred = {
     }
 }
 
+---@type mort_db
 local arkhan = {
     subtype = "nag_mortarch_arkhan",
     forename = "names_name_1937224332",
@@ -235,26 +241,28 @@ local arkhan = {
     }
 }
 
+---@type mort_db
 local neferata = {
     subtype = "nag_mortarch_neferata",
     forename = "names_name_1937224334",
     surname = "names_name_1777692420",
     -- tech_key = "nag_neferata_unlock",
 
-        pos = {
-            x = 819,
-            y = 214, --should be south of Desonagash, on top of a beach that can lead her to Lahmia
-         region = "wh2_main_the_broken_teeth_desolation_of_nagash",
-     },
-        starting_army = {                               
-            "nag_vanilla_vmp_inf_skeleton_warriors_0",
-            "nag_vanilla_vmp_inf_skeleton_warriors_0",
-            "nag_vanilla_vmp_inf_crypt_ghouls",
-            "nag_vanilla_tmb_inf_tomb_guard_0",
-            "nag_vanilla_vmp_mon_fell_bats",
-            "nag_vanilla_vmp_cav_blood_knights_0",
-            "nag_nagashi_guard_halb",
-        },
+    pos = {  --should be south of Desonagash, on top of a beach that can lead her to Lahmia
+        x = 819,
+        y = 214,
+        region = "wh2_main_the_broken_teeth_desolation_of_nagash",
+    },
+
+    starting_army = {
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_tmb_inf_tomb_guard_0",
+        "nag_vanilla_vmp_mon_fell_bats",
+        "nag_vanilla_vmp_cav_blood_knights_0",
+        "nag_nagashi_guard_halb",
+    },
 
     events = {
         {   --- TODO TBD
@@ -282,25 +290,26 @@ local neferata = {
     }
 }
 
+---@type mort_db
 local krell = {
     subtype = "nag_mortarch_krell",
     forename = "names_name_1937224333",
     surname = "names_name_1777692419",
 
-        pos = {
-            x = 654,
-            y = 227, --around Mourkain
-         region = "wh2_main_marshes_of_madness_morgheim",
-     },
+    pos = { --around Mourkain
+        x = 654,
+        y = 227,
+        region = "wh2_main_marshes_of_madness_morgheim",
+    },
 
-        starting_army = {                               
-            "nag_vanilla_vmp_inf_skeleton_warriors_1",
-            "nag_vanilla_vmp_inf_grave_guard_0",
-            "nag_vanilla_vmp_inf_grave_guard_0",
-            "nag_vanilla_vmp_inf_grave_guard_1",
-            "nag_vanilla_vmp_inf_grave_guard_1",
-            "nag_nagashi_guard",
-        },
+    starting_army = {                               
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_grave_guard_0",
+        "nag_vanilla_vmp_inf_grave_guard_0",
+        "nag_vanilla_vmp_inf_grave_guard_1",
+        "nag_vanilla_vmp_inf_grave_guard_1",
+        "nag_nagashi_guard",
+    },
 
     events = {
         {  --- Raze or Sack X regions

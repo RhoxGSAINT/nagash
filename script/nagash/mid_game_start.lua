@@ -126,7 +126,7 @@ function bdsm:mid_game_start()
         "",
         true,
         function(cqi)
-
+            
         end
     )
 

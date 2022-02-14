@@ -40,3 +40,8 @@ nag_wight_king_04	champion	nag_nagash			false	true	nag_wight_king	1.0
 nag_gunnery_wight_01	engineer	nag_nagash			false	true	nag_gunnery_wight	1.0
 nag_gunnery_wight_02	engineer	nag_nagash			false	true	nag_gunnery_wight	1.0
 nag_morghasts_archai	spy	nag_nagash			false	true	nag_morghasts_archai	1.0
+nag_traitor_king_shambling_horde_01	general	nag_nagash		nag_nagash	false	true	nag_traitor_king_shambling_horde	1.0
+nag_traitor_king_shambling_horde_02	general	nag_nagash		nag_nagash	false	true	nag_traitor_king_shambling_horde	1.0
+nag_traitor_king_shambling_horde_03	general	nag_nagash		nag_nagash	false	true	nag_traitor_king_shambling_horde	1.0
+nag_traitor_king_shambling_horde_04	general	nag_nagash		nag_nagash	false	true	nag_traitor_king_shambling_horde	1.0
+nag_traitor_king_shambling_horde_05	general	nag_nagash		nag_nagash	false	true	nag_traitor_king_shambling_horde	1.0
