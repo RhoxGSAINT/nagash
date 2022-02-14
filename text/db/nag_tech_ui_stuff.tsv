@@ -5,7 +5,7 @@ tech_lock_nag_mortarch_luthor_unlock	[[col:red]]Complete the Mortarch of the Dep
 tech_lock_nag_mortarch_mannfred_unlock	[[col:red]]Complete the Mortarch of Night Mission[[/col]]	true
 tech_lock_nag_mortarch_krell_unlock	[[col:red]]Complete the Mortarch of Despair Mission[[/col]]	true
 tech_lock_nag_mortarch_neferata_unlock	[[col:red]]Complete the Mortarch of Blood Mission[[/col]]	true
-tech_lock_nag_mortarch_vlad_unlock	[[col:red]]Complete the Mortarch of Shadows Mission[[/col]]	true
+tech_lock_nag_mortarch_vlad_unlock	[[col:red]]Complete the Mortarch of Shadow Mission[[/col]]	true
 tech_lock_nag_mortarch_arkhan_event_1	[[col:red]]Raise the Black Pyramid[[/col]]	true
 tech_lock_nag_mortarch_arkhan_event_2	[[col:red]]Defeat %d / 10 Tomb Kings armies[[/col]]	true
 tech_lock_nag_mortarch_arkhan_event_3	[[col:red]]Reach level 10 with Arkhan the Black[[/col]]	true
