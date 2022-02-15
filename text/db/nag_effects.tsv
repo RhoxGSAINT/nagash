@@ -39,8 +39,8 @@ effects_description_nag_effect_army_infantry_armour_skill	Armour: %+n for all In
 effects_description_nag_effect_army_infantry_melee_attack_skill	Melee attack: %+n for all Infantry units	true
 effects_description_nag_effect_army_cav_speed_skill	Speed: %+n% for all Cavalry and Chariot units	true
 effects_description_nag_effect_army_cav_charge_bonus_skill	Charge bonus: %+n for all Cavalry and Chariot units	true
-effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all Warbeast and Monstrous Infantry units	true
-effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all Warbeast and Monstrous Infantry units	true
+effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all War Beast and Monstrous Infantry units	true
+effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_magic_resistance_skill	Magic resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
@@ -332,3 +332,6 @@ effects_description_nag_effect_climate_dummy	Most regions are suitable, but only
 effects_description_nag_effect_diplomatic_relations_living	Diplomatic relations: %+n with all Non-Undead factions	true
 effects_description_nag_effect_missile_resistance_vlad_isa	Missile resistance: %n% for Vlad and Isabella	true
 effects_description_nag_effect_melee_defence_vlad_isa	Melee defence: %+n for Vlad and Isabella	true
+effects_description_nag_effect_upkeep_vlad_isa	Upkeep: %+n% for Vlad and Isabella	true
+effects_description_nag_effect_upkeep_mannfred	Upkeep: %+n% for Mannfred	true
+effects_description_nag_effect_ap_warbeasts	Armour-piercing damage: %+n for Dire Wolves, Fell Bats and Sand Crawler units	true
