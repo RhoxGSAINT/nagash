@@ -11,6 +11,8 @@
 ---@class bdsm
 local bdsm = get_bdsm()
 
+bdsm._bp_settlement_key = "settlement:wh2_main_land_of_the_dead_pyramid_of_nagash"
+
 local rite_status = {
     nag_winds = false, -- TODO
     nag_death = false,
@@ -143,15 +145,99 @@ local vlib = get_vandy_lib()
 ---@type vlib_camp_counselor
 local cc = vlib:get_module("camp_counselor")
 
+--- trigger a "Start the BP Ritual, fam" mission when you capture BP
+function bdsm:trigger_bp_raise_mission()
+    local mm = mission_manager:new(bdsm:get_faction_key(), "nag_bp_raise")
+
+    mm:add_new_objective("SCRIPTED")
+    mm:add_condition("script_key nag_bp_raise")
+    mm:add_condition("override_text mission_text_text_nag_bp_raise")
+    mm:add_payload("money 1000")
+    mm:trigger()
+end
+
+function bdsm:begin_bp_raise()
+    cm:complete_scripted_mission_objective("nag_bp_raise", "nag_bp_raise", true)
+    cm:perform_ritual(bdsm:get_faction_key(), "", "nag_bp_raise")
+
+    --- trigger mission for "survive"
+    local mm = mission_manager:new(bdsm:get_faction_key(), "nag_bp_survive")
+    mm:add_new_objective("SCRIPTED")
+    mm:add_condition("script_key nag_bp_survive")
+    mm:add_condition("override_text mission_text_text_nag_bp_survive")
+    mm:add_payload("money 1000")
+    mm:trigger()
+
+    --- wound Nagash Husk for 999 turns, replace him with a Traitor King
+    local f_leader = self:get_faction_leader()
+    cm:kill_character_and_commanded_unit("character_cqi:"..f_leader:command_queue_index(), false, false)
+    
+    --- set a composite scene on the settlement
+    cm:add_scripted_composite_scene_to_settlement("nag_bp_raise", "wh2_dlc16_wef_healing_ritual", bdsm._bp_settlement_key, 0, 0, false, true, false)
+
+    --- start up some interactive markers
+    --- TODO change number of armies based on difficulty?
+    local num = cm:random_number(6, 4)
+    local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 10, 5, bdsm:get_faction_key(), "", true)
+    marker:add_interaction_event("nag_bp_raise_army_spawn")
+
+    --- TODO create_countdown
+    --- TODO add despawn event feed
+
+    --[[
+        on_battle_trigger_callback =
+		function(self, character, marker_info) 
+			Worldroots:set_up_generic_encounter_forced_battle(character, "wh2_dlc13_skv_skaven_invasion", "wh2_main_sc_skv_skaven", true, 8 + cm:turn_number(),"wh2_main_skv_grey_seer_plague")		
+		end,
+		on_expiry_callback = 
+		function(self, marker_info) 
+			local naggaroth_glade = Worldroots:get_forest_by_string("witchwood")
+			local instance_ref = marker_info.instance_ref
+			local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
+			Worldroots:trigger_invasion(naggaroth_glade, x, y, 16)
+		end
+    ]]
+    -- marker:
+
+    for i = 1, num do
+        local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), bdsm._bp_key, false, true, cm:random_number(40, 15))
+        marker:spawn("nag_bp_raise_army_spawn_"..i, x, y)
+    end
+
+    --- TODO change up the UI for the Ritual, or add some sort of timer SOMEWHERE.
+        --- remove the bp_button, but add something on the top bar
+
+    --- TODO set a value for "bp ritual underway"
+    --- TODO set a timer for "survive 5/10 turns" and then complete the mission above
+end
+
+--- TODO spawn the finalized Nagash, 
+function bdsm:complete_bp_raise()
+    cm:complete_scripted_mission_objective("nag_bp_survive", "nag_bp_survive", true)
+    cm:remove_scripted_composite_scene("nag_bp_raise")
+end
+
+--- TODO Callback to see if we need to create the BP button
+function bdsm:check_bp_button()
+
+end
+
+--- TODO callback to kill the BP button
+function bdsm:remove_bp_button()
+
+end
+
 --- Repeated callback that adds the floating button on the BP settlement banner
 function bdsm:add_bp_button()  
     vlib:repeat_callback(
         function()
-            --- TODO handle states if the ritual is already underway
-            local label = find_uicomponent("3d_ui_parent", "label_settlement:"..bdsm._bp_key)
-            if label and label:Visible() then 
+            --- TODO handle states if the ritual is already underway, if Nagash isn't nearby, if Arkhan isn't nearby, etc etc etc
+            local label = find_uicomponent("3d_ui_parent", "label_"..bdsm._bp_settlement_key) -- IT'S NOT THE REGION KEY BECAUSE THE SETTLEMENT KEY IS DIFFERENT FUCK
+            if label and label:Visible() then
+                bdsm:logf("Found the BP floating settlement banner!")
                 local icon_holder = find_uicomponent(label, "list_parent", "icon_holder")
                 if find_uicomponent(icon_holder, "bp_button") then 
+                    bdsm:logf("Found the BP button!")
                     return
                 end
 
@@ -163,6 +249,8 @@ function bdsm:add_bp_button()
 
                 bp_button:SetCanResizeWidth(true)
                 bp_button:SetCanResizeHeight(true)
+
+                bp_button:SetVisible(true)
 
                 bp_button:Resize(w, h)
                 
@@ -186,14 +274,7 @@ function bdsm:add_bp_button()
         end,
         function(context)
             -- start the ritual
-            cm:perform_ritual(bdsm:get_faction_key(), "", "nag_bp_raise")
-
-            --- TODO trigger mission for "survive"
-
-            --- TODO wound Nagash Husk for 999 turns
-            --- TODO set a composite scene on the settlement
-            --- TODO start up some interactive markers
-            --- TODO set a value for "bp ritual underway"
+            bdsm:begin_bp_raise()
         end,
         true
     )
@@ -448,6 +529,7 @@ function bdsm:setup_rites()
 
     --- TODO refresh if settlement capture!
     if self:is_bp_rite_available() then
+        self:logf("BP Rite is available!")
         self:add_bp_button()
     end
 end

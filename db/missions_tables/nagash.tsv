@@ -40,3 +40,5 @@ nag_mortarch_neferata_event_3	false			ACHIEVE_CHARACTER_RANK	rom_event_mission.p
 nag_mortarch_vlad_event_1	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
 nag_mortarch_vlad_event_2	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
 nag_mortarch_vlad_event_3	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nag_bp_raise	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nag_bp_survive	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false

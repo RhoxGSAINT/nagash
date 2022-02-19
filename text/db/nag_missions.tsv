@@ -66,3 +66,7 @@ missions_localised_title_nag_mortarch_vlad_event_2	[PH] missions_localised_title
 missions_localised_description_nag_mortarch_vlad_event_2	[PH]	true
 missions_localised_title_nag_mortarch_vlad_event_3	[PH] missions_localised_title_nag_mortarch_vlad_event_3	true
 missions_localised_description_nag_mortarch_vlad_event_3	[PH]	true
+missions_localised_title_nag_bp_raise	Raise the Black Pyramid	true
+missions_localised_description_nag_bp_raise	Cast your eyes to your original home - empower the Black Pyramid, return it to the skies, and regain your ancient power!\\n\\n[[col:red]]NOTE: This will begin a series of battles as others try to stop you from raising 	true
+missions_localised_title_nag_bp_survive	Survive the Onslaught	true
+missions_localised_description_nag_bp_survive	Others come to stop your ritual to empower the Black Pyramid - hold them back!	true

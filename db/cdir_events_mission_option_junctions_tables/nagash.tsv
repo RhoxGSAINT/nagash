@@ -116,3 +116,5 @@ id	mission_key	option_key	value
 8845225	nag_mortarch_neferata_event_3	GEN_CND_AGENT_SUBTYPE	nag_mortarch_neferata
 8845226	nag_mortarch_neferata_event_3	VAR_MISSION_LENGTH_INFINITE	
 8845227	nag_mortarch_neferata_event_3	VAR_OBJECTIVE_AMOUNT_INT	15
+8845228	nag_bp_raise	VAR_CHANCE	100
+8845229	nag_bp_raise	GEN_TARGET_NONE	

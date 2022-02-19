@@ -26,3 +26,5 @@ mission_text_text_nag_mortarch_krell_event_3_6	Own 10 Guard units (Tomb, Grave, 
 mission_text_text_nag_mortarch_krell_event_3_7	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 7	true
 mission_text_text_nag_mortarch_krell_event_3_8	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 8	true
 mission_text_text_nag_mortarch_krell_event_3_9	Own 10 Guard units (Tomb, Grave, Nagashi Guard) between all armies\nCurrently owned: 9	true
+mission_text_text_nag_bp_survive	Survive for 5 Turns	true
+mission_text_text_nag_bp_raise	Begin the Ritual of Ascension\\n\\n[[col:red]]NOTE:[[/col]] when the Ritual of Ascension begins, it cannot be stopped. Survive, or lose it all.	true

@@ -30,6 +30,11 @@ local function init_listeners()
         function (context)
             local reg = context:region()
             cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
+
+            if reg:name() == bdsm._bp_key then 
+                --- trigger the "Raise the BP!" mission
+                bdsm:trigger_bp_raise_mission()
+            end
         end,
         true
     )
@@ -78,21 +83,6 @@ local function init_listeners()
         cm:set_saved_value("NAGLUTHORCHECK", true)
     end
 
-    --- TODO make it chance-based
-    --- Add in Warpstone from Warpstone Mines
-    -- core:add_listener(
-    --     "NagashWarpstone",
-    --     "BuildingCompleted",
-    --     function(context)
-    --         return is_warpstone_mine(context)
-    --     end,
-    --     function(context)
-    --         local amount = 1
-    --         cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", amount)
-    --     end,
-    --     true
-    -- )
-
     ---@param region REGION_SCRIPT_INTERFACE
     local function adjust_attrition(region)
         local bundles = {
@@ -126,7 +116,7 @@ local function init_listeners()
         end
     end
 
-    --- TODO do corruption bundle stuff
+    --- do corruption bundle stuff
     core:add_listener(
         "NagashCorruption",
         "ScriptEventHumanFactionTurnStart",
@@ -150,13 +140,7 @@ local function init_listeners()
         
         if majority == vampiric_corruption_string then
             adjust_attrition(region);
-        -- elseif majority == untainted_corruption_string or majority == skaven_corruption_string then
-        --     apply_attrition(region, untainted_corruption_string);
-        -- elseif majority == chaos_corruption_string then
-        --     apply_attrition(region, chaos_corruption_string);
         end;
-        
-        -- check_corruption_effect_bundle(region);
     end;
     
     core:add_listener(
@@ -172,19 +156,6 @@ local function init_listeners()
 		end,
 		true
 	);
-	
-	-- core:add_listener(
-	-- 	"NagCorruptionRazed",
-	-- 	"CharacterRazedSettlement",
-	-- 	true,
-	-- 	function(context)
-	-- 		local region = context:character():region();
-	-- 		if not region:is_null_interface() then
-	-- 			determine_attrition(region);
-	-- 		end
-	-- 	end,
-	-- 	true
-	-- );
 
     core:add_listener(
         "NagashWarpstone",
@@ -250,7 +221,7 @@ local function init_listeners()
         true
     )
 
-    --- TODO implement the DoW on all living for Nagash's skill
+    --- implement the DoW on all living for Nagash's skill
     core:add_listener(
         "NagDoW",
         "CharacterSkillPointAllocated",
@@ -313,38 +284,10 @@ local function init_listeners()
             end
         end
 
-        cm:set_saved_value("NAGBETADOWTHEWORLDCHECK")
+        cm:set_saved_value("NAGBETADOWTHEWORLDCHECK", true)
     end
 
-    -- Nothing needed here right?
-    -- --- TODO auto-equip traitor kings with one of the books
-    -- core:add_listener(
-    --     "NagashTraitor",
-    --     "CharacterCreated",
-    --     function (context)
-    --         local character = context:character()
-    --         local faction = character:faction()
-
-    --         return faction:name() == faction_key and character:character_subtype_key() == "nag_traitor_king"
-    --     end,
-    --     function (context)
-    --         local character = context:character()
-
-    --         --- TODO restrict to only 1-3 for a while, then 1-6, then 1-9.
-    --         local anc = "nag_anc_talisman_books_of_nagash_book_"
-    --         local d = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
-
-    --         local anc_key = anc .. d[cm:random_number(#d)]
-    --         cm:force_add_ancillary(
-    --             character,
-    --             anc_key,
-    --             true,
-    --             false
-    --         )
-    --     end
-    -- )
-
-    --- TODO handle the mission chains!
+    --- handle the mission chains!
     if not cm:get_saved_value("nagash_intro_completed") then
         core:add_listener(
             "NagashIntroChain",
@@ -374,7 +317,6 @@ local function init_listeners()
                     local nag = bdsm:get_faction_leader()
                     local nag_str = cm:char_lookup_str(nag)
                     
-                    --- TODO db-ify and err check
                     local nx,ny = cm:find_valid_spawn_location_for_character_from_position(bdsm:get_faction_key(), 718, 187, true, 3)
                     bdsm:logf("Trying to find a spot to spawn from (%d, %d); pos is (%d, %d); char str is %s", 718, 187, nx, ny, nag_str)
 
@@ -396,7 +338,6 @@ local function init_listeners()
                         cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")
 
                         --- TODO trigger Chapter 1 objectives (include BP conquer and raising as a part of that)
-                        --- TODO trigger the BP mission chain
                         local mm = mission_manager:new(nag_fact, "nag_nagash_capture_settlement_black_pyramid")
                         mm:add_new_objective("CAPTURE_REGIONS");
                         mm:add_condition("region wh2_main_great_mortis_delta_black_pyramid_of_nagash");
@@ -440,10 +381,6 @@ local function init_listeners()
                     local mm = mission_manager:new(nag_fact, "nagash_intro_3")
                     mm:add_new_objective("OWN_N_UNITS");
                     
-                    --- TODO?
-                    -- mm:add_condition("unit wh2_dlc09_tmb_inf_skeleton_spearmen_0");
-                    -- mm:add_condition("unit wh2_dlc09_tmb_inf_skeleton_warriors_0");
-                    
                     mm:add_condition("total 15");
                     mm:add_payload("money 1000");
                     mm:trigger()
@@ -480,10 +417,6 @@ local function init()
     end
 
     local f = nil
-
-    --- DEBUG beta only settings
-    option = "bp"
-    all_morts = false
 
     if option == "intro" then
         bdsm:logf("Starting the intro, first_turn_begin()!")

@@ -2,3 +2,5 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/nag_interactable_markers.loc		
 campaign_interactable_marker_infos_name_nagash_intro_5	Entrance to Tunnels	true
 campaign_interactable_marker_infos_tooltip_nagash_intro_5	Arkhan the Black's missive mentioned an entrance to tunnels that will bring you to River Mortis. Enter and tread lightly.	true
+campaign_interactable_marker_infos_name_nag_bp_raise_army_spawn	Incoming assailants!	true
+campaign_interactable_marker_infos_tooltip_nag_bp_raise_army_spawn	[PH]	true
