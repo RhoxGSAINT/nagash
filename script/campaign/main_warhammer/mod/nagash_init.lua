@@ -256,6 +256,35 @@ local function init_listeners()
         false
     )
 
+
+    --- TODO the listeners for ritual interactive markers
+
+    -- TODO trigger battle
+    core:add_listener(
+        "nag_ritual_army_interaction",
+        "nag_ritual_army_interaction",
+        true,
+        ---@param context {stored_table:table}
+        function(context)
+			local marker_ref = context.stored_table.marker_ref
+			local instance_ref = context.stored_table.instance_ref
+
+
+        end,
+        true
+    )
+
+    -- TODO trigger invasion
+    core:add_listener(
+        "nag_ritual_army_expired",
+        "nag_ritual_army_expired",
+        true,
+        function(context)
+
+        end,
+        true
+    )
+
     --- BETA backwards compat
     if not cm:get_saved_value("NAGBETADOWTHEWORLDCHECK") then 
         local nag = bdsm:get_faction_leader()

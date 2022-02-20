@@ -177,11 +177,11 @@ function bdsm:begin_bp_raise()
 
     --- start up some interactive markers
     --- TODO change number of armies based on difficulty?
-    local num = cm:random_number(6, 4)
-    local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 10, 5, bdsm:get_faction_key(), "", true)
-    marker:add_interaction_event("nag_bp_raise_army_spawn")
+    local num = cm:random_number(3, 2)
+    local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 5, 1, bdsm:get_faction_key(), "", true)
+    marker:add_interaction_event("nag_ritual_army_interaction")
+    marker:add_timeout_event("nag_ritual_army_expired")
 
-    --- TODO create_countdown
     --- TODO add despawn event feed
 
     --[[
