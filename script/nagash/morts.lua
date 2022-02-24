@@ -683,7 +683,7 @@ local function init()
     -- )
 end
 
-
+--- TODO do this only if player is Nag
 cm:add_first_tick_callback(
     function()
         logf("morts lua start")

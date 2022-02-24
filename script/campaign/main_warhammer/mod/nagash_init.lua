@@ -34,6 +34,7 @@ local function init_listeners()
             if reg:name() == bdsm._bp_key then 
                 --- trigger the "Raise the BP!" mission
                 bdsm:trigger_bp_raise_mission()
+                bdsm:check_bp_button()
             end
         end,
         true
@@ -70,17 +71,6 @@ local function init_listeners()
             "wh_main_bundle_region_vampiric_corruption_medium",
             "wh_main_bundle_region_vampiric_corruption_high",
         }
-    end
-
-    --- BETA temp compat
-    if not cm:get_saved_value("NAGLUTHORCHECK") then 
-        local f = bdsm:get_faction()
-
-        if f:has_technology("nag_mortarch_luthor_unlock") then 
-            bdsm:get_mortarch_with_key("nag_mortarch_luthor"):spawn()
-        end
-
-        cm:set_saved_value("NAGLUTHORCHECK", true)
     end
 
     ---@param region REGION_SCRIPT_INTERFACE
@@ -183,29 +173,6 @@ local function init_listeners()
         true
     )
 
-    --- BETA temp compat
-    if not cm:get_saved_value("warpstone_check") then
-        local f = bdsm:get_faction()
-        local r_list = f:region_list()
-        
-        local a = 0
-        for i = 0, r_list:num_items() -1 do
-            local r = r_list:item_at(i)
-            logf("Checking %s for warpstone mines", r:name())
-            --- izzar landmark
-            if r:building_exists("nag_outpost_special_nagashizzar_2") then a = a + 1 end
-            if r:building_exists("nag_outpost_special_nagashizzar_3") then a = a + 1 end
-            if r:building_exists("nag_outpost_special_nagashizzar_4") then a = a + 2 end
-            if r:building_exists("nag_outpost_special_nagashizzar_5") then a = a + 2 end
-
-            --- regular ass mines
-            if r:building_exists("nag_outpost_primary_warpstone_1") then a = a + 1 end
-        end
-
-        cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", a)
-        cm:set_saved_value("warpstone_check", true)
-    end
-
     --- TODO find a better way of doing this.
     --- disable negative vampire traits
     core:add_listener(
@@ -217,6 +184,25 @@ local function init_listeners()
         end,
         function(context)
             cm:force_remove_trait("character_cqi:"..context:character():command_queue_index(), "wh2_main_trait_corrupted_vampire")
+        end,
+        true
+    )
+
+    --- Give Traitor Kings a horde!
+    core:add_listener(
+        "NagTraitorKing",
+        "CharacterCreated",
+        function(context)
+            local c = context:character()
+            return c:faction():name() == bdsm:get_faction_key() and c:character_subtype_key() == "nag_traitor_king" and c:has_military_force()
+        end,
+        function(context)
+            --- Provide horde IF NOT a Shambling Horde (how to detect????)
+            local c = context:character()
+            local mf = c:military_force()
+
+            --- This should prevent Shambling Horde conversions (there's no Shambling Horde -> Traitor King Horde direct conversion)
+            cm:convert_force_to_type(mf, "nag_traitor_horde")
         end,
         true
     )
@@ -258,8 +244,32 @@ local function init_listeners()
 
 
     --- TODO the listeners for ritual interactive markers
+    core:add_listener(
+        "NagTurnStartTimer",
+        "FactionTurnStart",
+        function(context)
+            local t = cm:get_saved_value("nag_ritual_turns_remaining") 
+            return context:faction():name() == bdsm:get_faction_key() and not is_nil(t) and t > 0
+        end,
+        function(context)
+            local current_ritual = cm:get_saved_value("nag_ritual_current")
 
-    -- TODO trigger battle
+            local t = cm:get_saved_value("nag_ritual_turns_remaining") -1
+
+            --- TODO if it's been X turns **AND** all of the invading armies have been dealt with
+            if t == 0 then 
+                -- Complete!
+                if current_ritual == "nag_bp_raise" then
+                    bdsm:complete_bp_raise()
+                end
+            end
+
+            cm:set_saved_value("nag_ritual_turns_remaining", t)
+        end,
+        true
+    )
+
+    -- trigger battle
     core:add_listener(
         "nag_ritual_army_interaction",
         "nag_ritual_army_interaction",
@@ -269,52 +279,86 @@ local function init_listeners()
 			local marker_ref = context.stored_table.marker_ref
 			local instance_ref = context.stored_table.instance_ref
 
+            local interacting_character = context:character()
+            local force_cqi = interacting_character:military_force():command_queue_index()
+            local region = interacting_character:region()
 
+            --- TODO pick invasion army based on the region
+            local invasion_faction_key = "wh2_dlc13_skv_skaven_invasion"
+            local invasion_faction = cm:get_faction(invasion_faction_key)
+
+            --- TODO scale up army size based on turns since this marker spawned
+            --- TODO scale up the army modifier based on how many rituals have been completed
+            Forced_Battle_Manager:trigger_forced_battle_with_generated_army(
+                force_cqi,
+                invasion_faction_key,
+                invasion_faction:subculture(),
+                cm:random_number(15, 12),
+                1,
+                false,
+                false,
+                true,
+                nil,
+                nil,
+                nil,
+                nil,
+                nil,
+                nil
+            )
         end,
         true
     )
 
-    -- TODO trigger invasion
+        --[[
+        on_battle_trigger_callback =
+		function(self, character, marker_info) 
+			Worldroots:set_up_generic_encounter_forced_battle(character, "wh2_dlc13_skv_skaven_invasion", "wh2_main_sc_skv_skaven", true, 8 + cm:turn_number(),"wh2_main_skv_grey_seer_plague")		
+		end,
+		on_expiry_callback = 
+		function(self, marker_info) 
+			local naggaroth_glade = Worldroots:get_forest_by_string("witchwood")
+			local instance_ref = marker_info.instance_ref
+			local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
+			Worldroots:trigger_invasion(naggaroth_glade, x, y, 16)
+		end
+    ]]
+
+    -- TODO trigger invasion on expiry
     core:add_listener(
         "nag_ritual_army_expired",
         "nag_ritual_army_expired",
         true,
         function(context)
+            local marker_ref = context.stored_table.marker_ref
+			local instance_ref = context.stored_table.instance_ref
+            local nag_key = bdsm:get_faction_key()
 
+			--use the instance ref to grab the x-y-coords so we know where to spawn
+			local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
+
+            --- TODO trigger invasion!
+            local current_ritual = cm:get_saved_value("nag_ritual_current")
+
+            --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated bottle
+            --- TODO get all these details in a nicer fashion
+            --- TODO target BP
+            if current_ritual == "nag_bp_raise" then
+                local region_key = bdsm._bp_key
+                local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+                local invasion_key = current_ritual.."_invasion_"..x.."_"..y
+
+                local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  15, 1, true, false)
+
+                local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+                local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+                -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+                invasion_object:set_target("REGION", region_key, nag_key)
+                invasion_object:add_aggro_radius(25, {nag_key}, 1)
+                invasion_object:start_invasion(true,true,false,false)
+            end
         end,
         true
     )
-
-    --- BETA backwards compat
-    if not cm:get_saved_value("NAGBETADOWTHEWORLDCHECK") then 
-        local nag = bdsm:get_faction_leader()
-        if nag:has_skill("nag_skill_personal_nagash_world_at_peace") then 
-            local exempt = {
-                nag_nagash = true,
-                wh2_dlc09_tmb_tomb_kings = true,
-                wh2_dlc11_cst_vampire_coast = true,
-                wh_main_vmp_vampire_counts = true,
-                wh2_main_rogue = true,
-                --- TODO any modded subcultures? Hi OvN
-            }
-
-            ---@type FACTION_LIST_SCRIPT_INTERFACE
-            local faction_list = cm:model():world():faction_list()
-            local nag_key = bdsm:get_faction_key()
-
-            for i = 0, faction_list:num_items() -1 do
-                local f = faction_list:item_at(i)
-                local f_key = f:name()
-                local cult = f:culture()
-
-                if not exempt[cult] and not f:is_human() and not f:is_dead() then
-                    cm:force_declare_war(nag_key, f_key, false, false, false)
-                end
-            end
-        end
-
-        cm:set_saved_value("NAGBETADOWTHEWORLDCHECK", true)
-    end
 
     --- handle the mission chains!
     if not cm:get_saved_value("nagash_intro_completed") then

@@ -177,67 +177,74 @@ function bdsm:begin_bp_raise()
 
     --- start up some interactive markers
     --- TODO change number of armies based on difficulty?
-    local num = cm:random_number(3, 2)
+    local num = cm:random_number(5, 3)
     local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 5, 1, bdsm:get_faction_key(), "", true)
     marker:add_interaction_event("nag_ritual_army_interaction")
     marker:add_timeout_event("nag_ritual_army_expired")
 
     --- TODO add despawn event feed
 
-    --[[
-        on_battle_trigger_callback =
-		function(self, character, marker_info) 
-			Worldroots:set_up_generic_encounter_forced_battle(character, "wh2_dlc13_skv_skaven_invasion", "wh2_main_sc_skv_skaven", true, 8 + cm:turn_number(),"wh2_main_skv_grey_seer_plague")		
-		end,
-		on_expiry_callback = 
-		function(self, marker_info) 
-			local naggaroth_glade = Worldroots:get_forest_by_string("witchwood")
-			local instance_ref = marker_info.instance_ref
-			local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
-			Worldroots:trigger_invasion(naggaroth_glade, x, y, 16)
-		end
-    ]]
-    -- marker:
 
     for i = 1, num do
-        local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), bdsm._bp_key, false, true, cm:random_number(40, 15))
+        local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), bdsm._bp_key, false, true, cm:random_number(24, 12))
         marker:spawn("nag_bp_raise_army_spawn_"..i, x, y)
     end
+
+    --- TODO add in an effect bundle and update it every single turn?
+    --- TODO change the override text for the survive mission
 
     --- TODO change up the UI for the Ritual, or add some sort of timer SOMEWHERE.
         --- remove the bp_button, but add something on the top bar
 
-    --- TODO set a value for "bp ritual underway"
-    --- TODO set a timer for "survive 5/10 turns" and then complete the mission above
+    --- set a timer for "survive 5/10 turns" and then complete the mission above
+    self:set_current_ritual("nag_bp_raise", 5)
 end
 
---- TODO spawn the finalized Nagash, 
+function bdsm:reset_current_ritual()
+    cm:set_saved_value("nag_ritual_turns_remaining", 0)
+    cm:set_saved_value("nag_ritual_current", "")
+end
+
+function bdsm:set_current_ritual(key, turns)
+    cm:set_saved_value("nag_ritual_turns_remaining", turns)
+    cm:set_saved_value("nag_ritual_current", key)
+end
+
 function bdsm:complete_bp_raise()
     cm:complete_scripted_mission_objective("nag_bp_survive", "nag_bp_survive", true)
     cm:remove_scripted_composite_scene("nag_bp_raise")
+    
+    cm:set_saved_value("nag_bp_ritual_completed", true)
+    
+    self:reset_current_ritual()
+
+    cm:remove_scripted_composite_scene("nag_bp_raise")
+
+    --- TODO spawn the finalized Nagash, port over all the skills from the former
 end
 
---- TODO Callback to see if we need to create the BP button
+--- Callback to see if we need to create the BP button
 function bdsm:check_bp_button()
-
+    if self:is_bp_rite_available() then
+        self:add_bp_button()
+    end
 end
 
---- TODO callback to kill the BP button
+--- callback to kill the BP button
 function bdsm:remove_bp_button()
-
+    vlib:remove_callback("add_bp_button")
 end
 
 --- Repeated callback that adds the floating button on the BP settlement banner
-function bdsm:add_bp_button()  
+function bdsm:add_bp_button()
     vlib:repeat_callback(
         function()
             --- TODO handle states if the ritual is already underway, if Nagash isn't nearby, if Arkhan isn't nearby, etc etc etc
             local label = find_uicomponent("3d_ui_parent", "label_"..bdsm._bp_settlement_key) -- IT'S NOT THE REGION KEY BECAUSE THE SETTLEMENT KEY IS DIFFERENT FUCK
             if label and label:Visible() then
-                bdsm:logf("Found the BP floating settlement banner!")
                 local icon_holder = find_uicomponent(label, "list_parent", "icon_holder")
-                if find_uicomponent(icon_holder, "bp_button") then 
-                    bdsm:logf("Found the BP button!")
+                local test = find_uicomponent(icon_holder, "bp_button")
+                if test and test:Visible() then
                     return
                 end
 
@@ -258,6 +265,7 @@ function bdsm:add_bp_button()
                 local t = effect.get_localised_string("bp_button_text")
                 -- local icon = 
                 bp_button:SetTooltipText(t, true)
+                bp_button:SetVisible(true)
 
                 icon_holder:Layout()
             end
@@ -266,6 +274,7 @@ function bdsm:add_bp_button()
         "add_bp_button"
     )
 
+    --- TODO STATEIFY THE BUTTON!
     core:add_listener(
         "bp_button_pressed",
         "ComponentLClickUp",
@@ -280,9 +289,8 @@ function bdsm:add_bp_button()
     )
 end
 
---- TODO add in Black Pyramid raising rite 
+--- add in Black Pyramid raising rite
 function bdsm:is_bp_rite_available()
-    --- TODO owns BP but hasn't performed the Ascendancy
     local f = self:get_faction()
     local v = cm:get_saved_value("nag_bp_raise")
     local owns = false
@@ -301,7 +309,9 @@ function bdsm:is_bp_rite_available()
         end
     end
 
-    return owns
+    local val = cm:get_saved_value("nag_bp_ritual_completed")
+
+    return owns and not val
 end
 
 function bdsm:unlock_rites_listeners()
@@ -518,7 +528,6 @@ end
 
 
 function bdsm:setup_rites()
-    
     --- TODO causes CTD on load game (:
     cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
 
@@ -528,10 +537,7 @@ function bdsm:setup_rites()
     self:trigger_rites_listeners()
 
     --- TODO refresh if settlement capture!
-    if self:is_bp_rite_available() then
-        self:logf("BP Rite is available!")
-        self:add_bp_button()
-    end
+    self:check_bp_button()
 end
 
 cm:add_saving_game_callback(
