@@ -157,6 +157,15 @@ function bdsm:trigger_bp_raise_mission()
 end
 
 function bdsm:begin_bp_raise()
+    local v = cm:get_saved_value("nag_bp_raise")
+
+    -- if v and v == true then
+    --     return false
+    -- end
+    if not self:is_bp_rite_available() then
+        return false
+    end
+    -- ###
     cm:complete_scripted_mission_objective("nag_bp_raise", "nag_bp_raise", true)
     cm:perform_ritual(bdsm:get_faction_key(), "", "nag_bp_raise")
 
@@ -198,6 +207,16 @@ function bdsm:begin_bp_raise()
 
     --- set a timer for "survive 5/10 turns" and then complete the mission above
     self:set_current_ritual("nag_bp_raise", 5)
+    cm:set_saved_value("nag_bp_raise", true)
+    local label = find_uicomponent("3d_ui_parent", "label_"..bdsm._bp_settlement_key) -- IT'S NOT THE REGION KEY BECAUSE THE SETTLEMENT KEY IS DIFFERENT FUCK
+            if label and label:Visible() then
+                local icon_holder = find_uicomponent(label, "list_parent", "icon_holder")
+                local test = find_uicomponent(icon_holder, "bp_button")
+                if test and test:Visible() then
+                    test:SetVisible(false)
+                end
+            end
+    vlib:remove_callback("add_bp_button")
 end
 
 function bdsm:reset_current_ritual()
@@ -220,7 +239,113 @@ function bdsm:complete_bp_raise()
 
     cm:remove_scripted_composite_scene("nag_bp_raise")
 
-    --- TODO spawn the finalized Nagash, port over all the skills from the former
+    -- TODO raise ###
+    local sentinels_key = "wh2_dlc09_tmb_the_sentinels"
+    local bp_key = "wh2_main_great_mortis_delta_black_pyramid_of_nagash"
+
+    cm:set_saved_value("nagash_intro_completed", true)
+
+    -- kill the Sentinels completely
+    local sentinels = cm:get_faction(sentinels_key)
+    do
+        local char_list = sentinels:character_list()
+        for i = 0, char_list:num_items() -1  do
+            local char = char_list:item_at(i)
+            local cqi = char:command_queue_index()
+
+            cm:kill_character_and_commanded_unit("character_cqi:"..cqi, true, false)
+        end
+    end
+
+    -- ruin the BP and set it as untargetable -- TODO figure out if that fucks any other mods or functionalities
+    cm:set_region_abandoned(bp_key)
+    cm:cai_disable_targeting_against_settlement("settlement:"..bp_key)
+
+    cm:force_religion_factors(bp_key, "wh_main_religion_undeath", 1)
+
+    local faction_key = bdsm:get_faction_key()
+    local faction_obj = cm:get_faction(faction_key)
+    local faction_leader = faction_obj:faction_leader()
+    local cqi = faction_leader:command_queue_index()
+
+    -- spawn the bone daddy
+    local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
+        faction_key,
+        bp_key,
+        false,
+        true,
+        5
+    )
+
+    local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
+        faction_key,
+        x,
+        y,
+        true,
+        5
+    )
+
+    bdsm:log("getting coords:")
+    bdsm:log(x)
+    bdsm:log(y)
+
+    local units = {
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_tmb_cav_nehekhara_horsemen_0",
+        "nag_carrion_riders",
+        "nag_nagashi_guard",
+        "nag_nagashi_guard_halb",
+    }
+
+    cm:create_force_with_general(
+        faction_key,
+        table.concat(units, ","),
+        bp_key,
+        x,
+        y,
+        "general",
+        "nag_nagash_boss",
+        "names_name_1937224328",
+        "",
+        "names_name_1777692413",
+        "",
+        true,
+        function(cqi)
+            
+        end
+    )
+    
+    core:trigger_custom_event("BlackPyramidRaised", {})
+
+    cm:create_agent(
+        faction_key,
+        "spy",
+        "nag_morghasts_archai",
+        ax,
+        ay,
+        false,
+        function(cqi)
+
+        end
+    )
+
+    -- cm:callback(function()
+    -- -- kill the Mixer-spawned lord
+    --     cm:kill_character_and_commanded_unit("character_cqi:"..cqi, true, false)
+
+    --     -- local nagash = faction_obj:faction_leader()
+    --     -- local cqi = nagash:command_queue_index()
+    --     -- bdsm:log("Nagash cqi is: "..nagash:command_queue_index())
+
+    --     -- local mf = nagash:military_force()
+
+    --     -- bdsm:log("converting")
+    --     -- cm:convert_force_to_type(mf, "black_pyramid")
+    --     -- bdsm:log("converted")
+    -- end, 0.5)
+
+    --- TODO spawn the finalized Nagash, port over all the skills from the former(fuck that, just spawn Big Nagash and proceed to mid game phase)
 end
 
 --- Callback to see if we need to create the BP button
@@ -316,11 +441,11 @@ end
 
 function bdsm:unlock_rites_listeners()
     if not cm:get_saved_value("nag_rites_lock") then
-        rite_status.nag_death = false
-        rite_status.nag_winds = false
-        rite_status.nag_divinity = false
-        rite_status.nag_man = false
-        rite_status.nag_nagash = false
+        rite_status.nag_death = false -- partially working
+        rite_status.nag_winds = false -- working
+        rite_status.nag_divinity = false -- working
+        rite_status.nag_man = false -- working
+        rite_status.nag_nagash = false -- working
 
         local f = self:get_faction()
 
@@ -338,14 +463,15 @@ function bdsm:unlock_rites_listeners()
             "NagWinds",
             "MilitaryForceBuildingCompleteEvent",
             function(context)
-                self:logf("MilitaryForceBuildingCompleteEvent!")
-                return context:building():name() == "nag_bpyramid_main_obelisk_4"
+                return context:building() == "nag_bpyramid_main_obelisk_4";
             end,
             function(context)
+                self:logf("MilitaryForceBuildingCompleteEvent!")
                 unlock_rite("nag_winds")
             end,
-            false
-        )
+            true
+	    )
+
     end
 
     if not rite_status.nag_death then
@@ -362,11 +488,11 @@ function bdsm:unlock_rites_listeners()
                 local total = cm:get_saved_value("nag_death") or 0
                 total = total + 1
 
-                if total == 5 then
+                if total >= 5 then
                     unlock_rite("nag_death")
                 else
                     --- TODO display in the ritual panel?
-                    cm:set_saved_value("nag_death")
+                    cm:set_saved_value("nag_death", total)
                 end
             end,
             false

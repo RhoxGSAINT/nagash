@@ -1,0 +1,7 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nagash_quest_battles_scripted_objectives__.loc		
+scripted_objectives_localised_text_mission_nagash_blyramid_rising_objective_1_tooltip	Defeat tomb king squatters	false
+scripted_objectives_localised_text_mission_nagash_blyramid_rising_objective_2_tooltip	Destroy greenskin oportunists	false
+scripted_objectives_localised_text_mission_nagash_blyramid_rising_objective_3_tooltip	Kill elf thieves	false
+scripted_objectives_localised_text_mission_nagash_blyramid_rising_objective_1_message	(Nagash) "Savages, their primitive minds are drawn to my power, yet they are too dumb to obey, put them down like the beasts they are."	false
+scripted_objectives_localised_text_mission_nagash_blyramid_rising_objective_2_message	(Nagash) "Thieves! They want to take my treasures, learn my secrets. Cut them down!"	false

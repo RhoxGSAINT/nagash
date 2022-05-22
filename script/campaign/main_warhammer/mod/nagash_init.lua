@@ -406,6 +406,7 @@ local function init_listeners()
                         
                         local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
                         mort:spawn()
+                        kill_faction("wh2_dlc09_tmb_followers_of_nagash")
 
                         --- make BP visible
                         cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")
