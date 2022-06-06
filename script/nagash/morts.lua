@@ -449,6 +449,17 @@ local function mortarch_unlock_listeners()
                 mort:spawn()
             end
 
+            if mort_key == "nag_mortarch_vlad" then
+                kill_faction("wh_main_vmp_schwartzhafen")
+            end
+            if mort_key == "nag_mortarch_mannfred" then
+                kill_faction("wh_main_vmp_vampire_counts")
+            end
+            if mort_key == "nag_mortarch_luthor" then
+                kill_faction("wh2_dlc11_cst_vampire_coast")
+            end
+
+
             --- BETA temp disable
             do return end
 

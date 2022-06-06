@@ -335,3 +335,11 @@ effects_description_nag_effect_melee_defence_vlad_isa	Melee defence: %+n for Vla
 effects_description_nag_effect_upkeep_vlad_isa	Upkeep: %+n% for Vlad and Isabella	true
 effects_description_nag_effect_upkeep_mannfred	Upkeep: %+n% for Mannfred	true
 effects_description_nag_effect_ap_warbeasts	Armour-piercing damage: %+n for Dire Wolves, Fell Bats and Sand Crawler units	true
+effects_description_nag_effect_grand_spell_01_recharge	Army ability: "Endless Tomb" (with 20 turn recharge time)\\n(all armies)	true
+effects_description_nag_effect_grand_spell_02_recharge	Army ability: "Apocalyptic Swarm" (with 20 turn recharge time)\\n(all armies)	true
+effects_description_nag_effect_grand_spell_03_recharge	Army ability: "Wrath of the Gods" (with 20 turn recharge time) \\n([[img:icon_general]][[/img]]Lord's army)	true
+effects_description_nag_effect_grand_spell_01_recharge_instant	Recharges ability: "Endless Tomb" (if unlocked)	true
+effects_description_nag_effect_grand_spell_02_recharge_instant	Recharges ability: "Apocalyptic Swarm" (if unlocked)	true
+effects_description_nag_effect_grand_spell_03_recharge_instant	Recharges ability: "Wrath of the Gods" (if unlocked)	true
+effects_description_nag_effect_spawns_army_dummy	Spawns army at Nagash location	true
+effects_description_nag_effect_cannot_grow_disable	Allows the settlement to grow permanently (targets settlement at Nagash location)	true

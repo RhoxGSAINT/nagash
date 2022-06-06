@@ -18,3 +18,6 @@ ui_text_replacements_localised_text_technology_header_nag_nagash	Mortarchs	true
 ui_text_replacements_localised_text_rites_button_nag_nagash_nag_nagash	Great Rituals	true
 ui_text_replacements_localised_text_rites_button_tooltip_nag_nagash_nag_nagash	Perform Great Rituals to empower your legions with temporary benefits	true
 ui_text_replacements_localised_text_rites_header_nag_nagash_nag_nagash	Great Rituals	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_01	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_02	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_03	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true

@@ -21,6 +21,26 @@ local rite_status = {
     nag_nagash = false,
 }
 
+local grand_spell_status = {
+    nag_grand_spell_01 = false,
+    nag_grand_spell_02 = false,
+    nag_grand_spell_03 = false,
+}
+-- grand spells stuff
+local grand_spells_effect_bundle_key = {	"nag_ability_enable_endless_tomb",
+                            "nag_ability_enable_batocalypse",
+                            "nag_ability_enable_blyramid_bombardment"
+};
+
+local grand_spells_ability_key = {	"nag_army_abilities_endless_tomb",
+                            "nag_army_abilities_batocalypse",
+                            "nag_army_abilities_blyramid_bombardment_targeting"
+};
+
+
+local nagash_faction_cqi = 0
+local grand_spell_cost = 20
+
 local function add_scroll_bar()
     core:add_listener(
         "AddScrollBar",
@@ -457,7 +477,6 @@ function bdsm:unlock_rites_listeners()
     end
 
     if not rite_status.nag_winds then
-        --- TODO this never triggers right?
         -- build the BP Obelisk
         core:add_listener(
             "NagWinds",
@@ -552,21 +571,140 @@ function bdsm:unlock_rites_listeners()
             end,
             false
         )
+
+        core:add_listener(
+		"RegionFactionChangeEventRemoveSupergrowth",
+		"RegionFactionChangeEvent",
+		function(context)
+			return context:previous_faction():subculture() == "nag_nagash"
+		end,
+		function(context)
+			local region = context:region()
+			local region_key = region:name()
+			cm:remove_effect_bundle_from_region("nag_nagash_rite_bundle_region_super_growth", region_key);
+		end,
+		true
+	)
+
     end
 end
 
 --- TODO scripted effects
 function bdsm:trigger_rites_listeners()
     --- TODO on rite completed, select a Nemesis faction to target. can do this programmatically with a dilemma, yay
-    --- nag_man
+    --- nag_divinity
     core:add_listener(
-        "nag_man",
+        "nag_divinity",
         "RitualCompletedEvent",
         function(context)
-            return context:ritual():ritual_key() == "nag_man"
+            return context:ritual():ritual_key() == "nag_divinity"
         end,
         function(context)
+            -- TODO
+            -- apply a dummy effect bundle to all human factions - this is just for the sake of player visibility
+            local faction_list = cm:model():world():faction_list();
+            
+            -- for i = 0, faction_list:num_items() - 1 do
+            --     local current_faction = faction_list:item_at(i);
+                
+            --     if current_faction:is_human() then
+            --         local effect_bundle = "wh_main_bundle_faction_chaos_rises";
+                    
+            --         if current_faction:culture() == "wh_dlc03_bst_beastmen" then
+            --             effect_bundle = "wh_main_bundle_faction_chaos_rises_good";
+            --         end;
+                    
+            --         cm:apply_effect_bundle(effect_bundle, current_faction:name(), 0)
+            --     end;
+            -- end;
+            
+            -- apply effect bundles to all province capitals that actually give the Chaos corruption effect
+            -- if this is done faction wide then provinces can get multiple corruption effects
+            local region_list = cm:model():world():region_manager():region_list();
+            
+            for i = 0, region_list:num_items() - 1 do
+                local current_region = region_list:item_at(i);
+                
+                if current_region:is_province_capital() then
+                    cm:apply_effect_bundle_to_region("nag_divinity_rite_bundle_region_undead_rises", current_region:name(), 10);
+                end;
+            end;
+
+
             --- TODO some way to select a Nemesis faction to target, decide
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_divinity",
+        "RitualCompletedEvent",
+        function(context)
+            return context:ritual():ritual_key() == "nag_winds"
+        end,
+        function(context)
+            -- TODO
+            local key = self:get_faction_key()            
+            if grand_spell_status.nag_grand_spell_01 then
+                cm:faction_add_pooled_resource(key, "nag_grand_spell_01", "nag_grand_spell_01_recharge", grand_spell_cost)  
+            end
+            if grand_spell_status.nag_grand_spell_02 then
+                cm:faction_add_pooled_resource(key, "nag_grand_spell_02", "nag_grand_spell_02_recharge", grand_spell_cost)  
+            end
+            if grand_spell_status.nag_grand_spell_03 then
+                cm:faction_add_pooled_resource(key, "nag_grand_spell_03", "nag_grand_spell_03_recharge", grand_spell_cost)  
+            end
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_nagash",
+        "RitualCompletedEvent",
+        function(context)
+            return context:ritual():ritual_key() == "nag_nagash"
+        end,
+        function(context)
+           --- spawn a death army at Nagash, at BP, or at a random Mortarch, or at a random settlement, in that order.
+           local nag = bdsm:get_faction_leader()
+           local key = bdsm:get_faction_key()
+           local region
+           if nag:has_military_force() and nag:region():is_null_interface() == false then
+            --    x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..nag:command_queue_index(), true, 5)
+               region = nag:region():name()
+           else
+               -- check BP
+               local bp = cm:get_region(bdsm._bp_key)
+               if bp and bp:owning_faction():is_null_interface() == false and bp:owning_faction():name() == key then 
+                --    x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, bdsm._bp_key, false, true, 5)
+                   region = bp
+               else
+                   -- check for a random mortarch
+                   local random_mort = get_random_mortarch()
+                   if random_mort then
+                    --    x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..random_mort:command_queue_index(), true, 5)
+                       region = random_mort:region():name()
+                   else
+                       -- check for a random settlement
+                       local settlement_list = bdsm:get_faction():region_list()
+                       local random_settlement = settlement_list:item_at(cm:random_number(settlement_list:num_items()-1, 0))
+
+                    --    x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, random_settlement:name(), false, true, 5)
+                       region = random_settlement:name()
+                   end
+               end
+           end
+
+            if (region ~= "wh2_main_the_broken_teeth_nagashizar" and 
+            region ~= "wh2_main_marshes_of_madness_morgheim" and 
+            region ~= "wh2_main_devils_backbone_lahmia" and 
+            region ~= "wh2_main_land_of_the_dead_khemri" and 
+            region ~= "wh2_main_vampire_coast_the_awakening" and 
+            region ~= "wh_main_eastern_sylvania_castle_drakenhof" and 
+            region ~= "wh2_main_titan_peaks_ancient_city_of_quintex") then
+                -- apply super growth on generic settlement
+                cm:apply_effect_bundle_to_region("nag_nagash_rite_bundle_region_super_growth", region, 0);
+            end
         end,
         true
     )
@@ -630,7 +768,7 @@ function bdsm:trigger_rites_listeners()
             --- spawn the army
             cm:create_force(
                 key,
-                random_army_manager:generate_force("nag_death", 4, false),
+                random_army_manager:generate_force("nag_death", 15, false),
                 region,
                 x,
                 y,
@@ -650,6 +788,147 @@ function bdsm:trigger_rites_listeners()
         end,
         true
     )
+    -- grand spells ###
+    function get_pooled_resource(resource_name)
+        -- get amount of pooled resource
+        local faction = cm:get_faction(bdsm:get_faction_key())
+        local pr = faction:pooled_resource(resource_name)
+        return pr:value()
+    end
+    
+    local function update_grand_spells_availability()
+        local nuke_resource_amount  = get_pooled_resource("nag_grand_spell_01")
+        if nuke_resource_amount < grand_spell_cost then
+            --resource is bellow cost remove spell
+            cm:remove_effect_bundle(grand_spells_effect_bundle_key[1], bdsm:get_faction_key());
+        else
+            --resource is above cost unlock spell
+            cm:apply_effect_bundle(grand_spells_effect_bundle_key[1], bdsm:get_faction_key(), 0)
+        end
+        local nuke_resource_amount  = get_pooled_resource("nag_grand_spell_02")
+        if nuke_resource_amount < grand_spell_cost then
+            --resource is bellow cost remove spell
+            cm:remove_effect_bundle(grand_spells_effect_bundle_key[2], bdsm:get_faction_key());
+        else
+            --resource is above cost unlock spell
+            cm:apply_effect_bundle(grand_spells_effect_bundle_key[2], bdsm:get_faction_key(), 0)
+        end
+        local nuke_resource_amount  = get_pooled_resource("nag_grand_spell_03")
+        if nuke_resource_amount < grand_spell_cost then
+            --resource is bellow cost remove spell
+            cm:remove_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key());
+        else
+            --resource is above cost unlock spell
+            cm:apply_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key(), 0)
+        end
+    end
+            
+    core:add_listener(
+        "nagash_grand_spells_availability",
+        "FactionTurnStart",
+        function(context)
+            return context:faction():name() == bdsm:get_faction_key() --and context:faction():is_human()
+        end,
+        function(context)
+            update_grand_spells_availability()
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nagash_grand_spells_on_resource_change",
+        "PooledResourceEffectChangedEvent",
+        function(context)
+            return context:faction():name() == bdsm:get_faction_key() and 
+            (context:resource():key() == "nag_grand_spell_01" or context:resource():key() == "nag_grand_spell_02" or context:resource():key() == "nag_grand_spell_03") 
+        end,
+        function(context)            
+            update_grand_spells_availability()
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nagash_battle_grand_spells_used",
+        "BattleCompleted",
+        true,
+        function(context)                
+            self:logf("++++++battle completed!")
+            local key = self:get_faction_key()
+            if cm:pending_battle_cache_faction_is_involved(bdsm:get_faction_key()) and 
+                    (cm:model():pending_battle():get_how_many_times_ability_has_been_used_in_battle(nagash_faction_cqi, grand_spells_ability_key[1]) > 0) then                
+                cm:faction_add_pooled_resource(key, "nag_grand_spell_01", "nag_grand_spell_01_recharge", - grand_spell_cost)
+                -- local key = self:get_faction_key()
+                cm:faction_add_pooled_resource(key, "nag_warpstone", "nag_warpstone_buildings", 5)
+                self:logf("++++++grand spell 01 cast!")
+            end
+            if cm:pending_battle_cache_faction_is_involved(bdsm:get_faction_key()) and 
+                    (cm:model():pending_battle():get_how_many_times_ability_has_been_used_in_battle(nagash_faction_cqi, grand_spells_ability_key[2]) > 0) then                
+                cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_grand_spell_02", "nag_grand_spell_02_recharge", - grand_spell_cost)
+                self:logf("++++++grand spell 02 cast!!")
+            end
+            if cm:pending_battle_cache_faction_is_involved(bdsm:get_faction_key()) and 
+                    (cm:model():pending_battle():get_how_many_times_ability_has_been_used_in_battle(nagash_faction_cqi, grand_spells_ability_key[3]) > 0) then                
+                cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_grand_spell_03", "nag_grand_spell_03_recharge", - grand_spell_cost)
+                self:logf("++++++grand spell 03 cast!!")
+            end
+        end,
+        true
+    )
+
+    -- build the BP main 3
+    core:add_listener(
+        "nag_grand_spell_01_unlocking",
+        "MilitaryForceBuildingCompleteEvent",
+        function(context)
+            return context:building() == "nag_bpyramid_main_3";
+        end,
+        function(context)
+            self:logf("nag_grand_spell_01_unlocking!")
+            local key = self:get_faction_key()
+            cc:add_pr_uic("nag_grand_spell_01", "ui/battle ui/ability_icons/nag_army_abilities_endless_tomb.png", bdsm:get_faction_key())
+            cm:faction_add_pooled_resource(key, "nag_grand_spell_01", "nag_grand_spell_01_recharge", grand_spell_cost)            
+            grand_spell_status.nag_grand_spell_01 = true
+        end,
+        true
+    )
+    
+    -- build the BP obelisk 4
+    core:add_listener(
+        "nag_grand_spell_02_unlocking",
+        "MilitaryForceBuildingCompleteEvent",
+        function(context)
+            return context:building() == "nag_bpyramid_main_obelisk_4";
+        end,
+        function(context)
+            self:logf("nag_grand_spell_02_unlocking!")
+            local key = self:get_faction_key()
+            cc:add_pr_uic("nag_grand_spell_02", "ui/battle ui/ability_icons/nag_army_abilities_batocalypse.png", bdsm:get_faction_key())
+            cm:faction_add_pooled_resource(key, "nag_grand_spell_02", "nag_grand_spell_02_recharge", grand_spell_cost)            
+            grand_spell_status.nag_grand_spell_02 = true
+        end,
+        true
+    )
+
+    -- build the BP main 5
+    core:add_listener(
+        "nag_grand_spell_03_unlocking",
+        "MilitaryForceBuildingCompleteEvent",
+        function(context)
+            return context:building() == "nag_bpyramid_main_5";
+        end,
+        function(context)
+            self:logf("nag_grand_spell_03_unlocking!")
+            local key = self:get_faction_key()
+            cc:add_pr_uic("nag_grand_spell_03", "ui/battle ui/ability_icons/nag_army_abilities_pyramid_bombardment.png", bdsm:get_faction_key())
+            cm:faction_add_pooled_resource(key, "nag_grand_spell_03", "nag_grand_spell_03_recharge", grand_spell_cost)            
+            grand_spell_status.nag_grand_spell_03 = true
+        end,
+        true
+    )
+    
+
+
 end
 
 
@@ -657,6 +936,17 @@ function bdsm:setup_rites()
     --- TODO causes CTD on load game (:
     cc:add_pr_uic("nag_warpstone", "ui/skins/default/icon_warpstone.png", bdsm:get_faction_key())
 
+    if grand_spell_status.nag_grand_spell_01 then
+        cc:add_pr_uic("nag_grand_spell_01", "ui/battle ui/ability_icons/nag_army_abilities_endless_tomb.png", bdsm:get_faction_key())
+    end
+    if grand_spell_status.nag_grand_spell_02 then
+        cc:add_pr_uic("nag_grand_spell_02", "ui/battle ui/ability_icons/nag_army_abilities_batocalypse.png", bdsm:get_faction_key())
+    end
+    if grand_spell_status.nag_grand_spell_03 then
+        cc:add_pr_uic("nag_grand_spell_03", "ui/battle ui/ability_icons/nag_army_abilities_pyramid_bombardment.png", bdsm:get_faction_key())
+    end
+
+    nagash_faction_cqi = cm:model():world():faction_by_key(bdsm:get_faction_key()):command_queue_index()
     add_scroll_bar()
 
     self:unlock_rites_listeners()
@@ -669,11 +959,13 @@ end
 cm:add_saving_game_callback(
     function(context)
         cm:save_named_value("nag_rites", rite_status, context)
+        cm:save_named_value("grand_spell_status", grand_spell_status, context)
     end
 )
 
 cm:add_loading_game_callback(
     function(context)
         rite_status = cm:load_named_value("nag_rites", rite_status, context)
+        grand_spell_status = cm:load_named_value("grand_spell_status", grand_spell_status, context)
     end
 )

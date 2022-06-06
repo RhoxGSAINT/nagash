@@ -1,7 +1,7 @@
-key	spline	decal	vfx_central	vfx_ring	spline_width	spline_col_r	spline_col_g	spline_col_b	spline_oor_col_r	spline_oor_col_g	spline_oor_col_b	spline_vertical	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time
-#area_of_effect_displays_tables;8;db/area_of_effect_displays_tables/nagash																		
-wh_main_spell_nagash_breath_of_darkness			belisarians_nagash_breath_darkness		2.0	255	255	255	255	255	255	false	50.0	64		false	5	true
-belisarians_nagash_batocalypse					2.0	255	255	255	255	255	255	false	50.0	64	composite_scene/spells_and_abilities/nagash_batocalypse.csc	false	5	true
-belisarians_nagash_spirit_host_attack			belisarians_nagash_spirit_host_attack		2.0	255	255	255	255	255	255	false	50.0	24		false	2	true
-belisarians_nagash_spirit_host_attack_small			belisarians_nagash_spirit_host_attack		2.0	255	255	255	255	255	255	false	50.0	24		true	-1	true
-belisarians_nagash_spirit_host_attack_green			belisarians_nagash_spirit_host_attack_green		2.0	255	255	255	255	255	255	false	50.0	24		false	2	true
+key	spline	decal	vfx_central	vfx_ring	spline_width	spline_vertical	spline_animation_speed	spline_tile_count	composite_scene	is_targetting_per_entity	vfx_ring_segment_length	use_model_time	spline_col_hex	spline_oor_col_hex
+#area_of_effect_displays_tables;8;db/area_of_effect_displays_tables/nagash														
+wh_main_spell_nagash_breath_of_darkness			belisarians_nagash_breath_darkness		2.0	false	50.0	64		false	5	true	000255	000255
+belisarians_nagash_batocalypse					2.0	false	50.0	64	composite_scene/spells_and_abilities/nagash_batocalypse.csc	false	5	true	000255	000255
+belisarians_nagash_spirit_host_attack			belisarians_nagash_spirit_host_attack		2.0	false	50.0	24		false	2	true	000255	000255
+belisarians_nagash_spirit_host_attack_small			belisarians_nagash_spirit_host_attack		2.0	false	50.0	24		true	-1	true	000255	000255
+belisarians_nagash_spirit_host_attack_green			belisarians_nagash_spirit_host_attack_green		2.0	false	50.0	24		false	2	true	000255	000255

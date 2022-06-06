@@ -82,3 +82,7 @@ effect_bundles_localised_title_nag_resource_nehek	Nehekharan Landmark	true
 effect_bundles_localised_description_nag_resource_nehek	Recruitment caps for Nehekharan units can be found in this location.	true
 effect_bundles_localised_title_nag_resource_ritual_site	Ritual Site	true
 effect_bundles_localised_description_nag_resource_ritual_site	This settlement is a special location of great interest to Nagash.	true
+effect_bundles_localised_title_nag_divinity_rite_bundle_region_undead_rises	[HIDDEN]	true
+effect_bundles_localised_description_nag_divinity_rite_bundle_region_undead_rises	[HIDDEN] Adds Undead corruption to every province capital for the Nagash Divinity rite Rises event	true
+effect_bundles_localised_title_nag_nagash_rite_bundle_region_super_growth	[HIDDEN]	true
+effect_bundles_localised_description_nag_nagash_rite_bundle_region_super_growth	[HIDDEN] Adds Undead corruption to every province capital for the Nagash Divinity rite Rises event	true

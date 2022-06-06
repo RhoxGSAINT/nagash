@@ -12,12 +12,12 @@ technologies_onscreen_name_nag_mortarch_luthor_unlock	Luthor, Mortarch of the Ab
 technologies_onscreen_name_nag_mortarch_mannfred_unlock	Mannfred, Mortarch of Night	true
 technologies_onscreen_name_nag_mortarch_neferata_unlock	Neferata, Mortarch of Blood	true
 technologies_onscreen_name_nag_mortarch_vlad_unlock	Vlad, Mortarch of Shadow	true
-technologies_short_description_nag_mortarch_arkhan_unlock	[PH]	false
-technologies_short_description_nag_mortarch_krell_unlock	[PH]	false
-technologies_short_description_nag_mortarch_luthor_unlock	[PH]	false
-technologies_short_description_nag_mortarch_mannfred_unlock	[PH]	false
-technologies_short_description_nag_mortarch_neferata_unlock	[PH]	false
-technologies_short_description_nag_mortarch_vlad_unlock	[PH]	false
+technologies_short_description_nag_mortarch_arkhan_unlock	Arkhan will always serve Nagash, always.	false
+technologies_short_description_nag_mortarch_krell_unlock	Deamon and undead, ultimate warrior, right tool for the Master of Death.	false
+technologies_short_description_nag_mortarch_luthor_unlock	Madness is surprisingly common in vampires, he will fit right in.	false
+technologies_short_description_nag_mortarch_mannfred_unlock	Great vampire and master of the dark arts, just confiscate his backstab dagger and we are golden.	false
+technologies_short_description_nag_mortarch_neferata_unlock	Now this is proper lady, she will trully elevate our cause.	false
+technologies_short_description_nag_mortarch_vlad_unlock	And who is this handsome devil?	false
 technologies_onscreen_name_nag_mortarch_arkhan_event_1	Trusted Servant	false
 technologies_onscreen_name_nag_mortarch_arkhan_event_2	Only One Ruler	false
 technologies_onscreen_name_nag_mortarch_arkhan_event_3	First Among Peers	false
@@ -106,14 +106,14 @@ technologies_short_description_nag_mortarch_mannfred_event_2	Mannfred Von Carste
 technologies_short_description_nag_mortarch_mannfred_event_3	Mannfred has sworn loyalty to the Great Necromancer - to what extent remains to be seen.	false
 technologies_short_description_nag_mannfred_proclamation	Mannfred Boon	false
 technologies_short_description_nag_mannfred_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_location_nagashizzar	[PH]	false
-technologies_short_description_nag_location_mourkain	[PH]	false
-technologies_short_description_nag_location_lahmia	[PH]	false
-technologies_short_description_nag_location_khemri	[PH]	false
-technologies_short_description_nag_location_awakening	[PH]	false
-technologies_short_description_nag_location_drakenhof	[PH]	false
-technologies_short_description_nag_location_quintex	[PH]	false
-technologies_short_description_nag_nagash_ultimate	[PH] - NOTE, name this entire section "True Dhar"	false
+technologies_short_description_nag_location_nagashizzar	It comes under many names, Seat of the Lord of Undead, Final Destination, Hidden Fortress,  Nagash summer holiday resort.	false
+technologies_short_description_nag_location_mourkain	There be monsters. And here comes their king.	false
+technologies_short_description_nag_location_lahmia	Blood will flow through the streets. True Vampires will feast and sparkly ones will lie dead.	false
+technologies_short_description_nag_location_khemri	Even the seat of mighty Settra will bow to the power of Nagash.	false
+technologies_short_description_nag_location_awakening	In distant land of pirates and zombies there lies site of power worthy of his mightiness.	false
+technologies_short_description_nag_location_drakenhof	Ancient mansion of von Carstains will be great place to End the World.	false
+technologies_short_description_nag_location_quintex	Home of the Hag Sorceress, fitting for ritual site. Just keep your distance from local "fun" rooms, even Nagash has his limits.	false
+technologies_short_description_nag_nagash_ultimate	[PH] - NOTE, name this entire section "True Dhar";;; The End comes mortals, today we will start the apocalypse.	false
 technologies_short_description_nag_neferata_battle_1	Mind you, there is no challenge in controlling a statue.	false
 technologies_short_description_nag_neferata_battle_2	I'm a snake, you're a snake. Just like a spitting image.	false
 technologies_short_description_nag_neferata_battle_3	The overly proud and the overly cunning, only one way the relationship can go.	false
