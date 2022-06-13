@@ -177,7 +177,7 @@ function bdsm:first_turn_begin()
                     mm:add_new_objective("ENGAGE_FORCE")
                     mm:add_condition("cqi " .. skaven_mfcqi)
                     mm:add_condition("requires_victory")
-                    mm:add_payload("effect_bundle{bundle_key nag_rite_nagash;turns 0;}");
+                    mm:add_payload("money 1000");
                     mm:set_turn_limit(0);
                     
                     mm:set_should_whitelist(true)

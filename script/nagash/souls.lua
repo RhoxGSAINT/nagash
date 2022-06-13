@@ -21,6 +21,21 @@ local rite_status = {
     nag_nagash = false,
 }
 
+local quests_unlocked = {
+    nag_rise_blyramid = false, 
+}
+
+local revealed_objectives = {
+    wh2_main_great_mortis_delta_black_pyramid_of_nagash = false,
+    wh2_main_the_broken_teeth_nagashizar = false,
+    wh2_main_marshes_of_madness_morgheim = false,
+    wh2_main_devils_backbone_lahmia = false,
+    wh2_main_land_of_the_dead_khemri = false,
+    wh2_main_vampire_coast_the_awakening = false,
+    wh_main_eastern_sylvania_castle_drakenhof = false,
+    wh2_main_titan_peaks_ancient_city_of_quintex = false,
+}
+
 local grand_spell_status = {
     nag_grand_spell_01 = false,
     nag_grand_spell_02 = false,
@@ -167,13 +182,16 @@ local cc = vlib:get_module("camp_counselor")
 
 --- trigger a "Start the BP Ritual, fam" mission when you capture BP
 function bdsm:trigger_bp_raise_mission()
-    local mm = mission_manager:new(bdsm:get_faction_key(), "nag_bp_raise")
+    if not quests_unlocked.nag_rise_blyramid then
+        quests_unlocked.nag_rise_blyramid = true
+        local mm = mission_manager:new(bdsm:get_faction_key(), "nag_bp_raise")
 
-    mm:add_new_objective("SCRIPTED")
-    mm:add_condition("script_key nag_bp_raise")
-    mm:add_condition("override_text mission_text_text_nag_bp_raise")
-    mm:add_payload("money 1000")
-    mm:trigger()
+        mm:add_new_objective("SCRIPTED")
+        mm:add_condition("script_key nag_bp_raise")
+        mm:add_condition("override_text mission_text_text_nag_bp_raise")
+        mm:add_payload("money 1000")
+        mm:trigger()
+    end
 end
 
 function bdsm:begin_bp_raise()
@@ -199,6 +217,7 @@ function bdsm:begin_bp_raise()
 
     --- wound Nagash Husk for 999 turns, replace him with a Traitor King
     local f_leader = self:get_faction_leader()
+    cm:apply_effect_bundle_to_character("nag_effect_bundle_dead_forever",f_leader,1)
     cm:kill_character_and_commanded_unit("character_cqi:"..f_leader:command_queue_index(), false, false)
     
     --- set a composite scene on the settlement
@@ -206,8 +225,8 @@ function bdsm:begin_bp_raise()
 
     --- start up some interactive markers
     --- TODO change number of armies based on difficulty?
-    local num = cm:random_number(5, 3)
-    local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 5, 1, bdsm:get_faction_key(), "", true)
+    local num = cm:random_number(6, 5)
+    local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
     marker:add_interaction_event("nag_ritual_army_interaction")
     marker:add_timeout_event("nag_ritual_army_expired")
 
@@ -264,6 +283,16 @@ function bdsm:complete_bp_raise()
     local bp_key = "wh2_main_great_mortis_delta_black_pyramid_of_nagash"
 
     cm:set_saved_value("nagash_intro_completed", true)
+
+
+    revealed_objectives.wh2_main_great_mortis_delta_black_pyramid_of_nagash = false
+    revealed_objectives.wh2_main_the_broken_teeth_nagashizar = true
+    revealed_objectives.wh2_main_marshes_of_madness_morgheim = true
+    revealed_objectives.wh2_main_devils_backbone_lahmia = true
+    revealed_objectives.wh2_main_land_of_the_dead_khemri = true
+    -- revealed_objectives.wh2_main_vampire_coast_the_awakening = true
+    revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof = true
+    revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex = true
 
     -- kill the Sentinels completely
     local sentinels = cm:get_faction(sentinels_key)
@@ -370,7 +399,9 @@ end
 
 --- Callback to see if we need to create the BP button
 function bdsm:check_bp_button()
+    self:logf("++++++check_bp_button !")
     if self:is_bp_rite_available() then
+        self:logf("++++++is_bp_rite_available !")
         self:add_bp_button()
     end
 end
@@ -441,8 +472,9 @@ function bdsm:is_bp_rite_available()
     local owns = false
 
     local r_list = f:region_list()
-
+    self:logf("++++++is_bp_rite_available 01 !")
     if v and v == true then
+        self:logf("++++++is_bp_rite_available 02 !")
         return false
     end
 
@@ -451,11 +483,12 @@ function bdsm:is_bp_rite_available()
 
         if region:name() == self._bp_key then
             owns = true
+            self:logf("++++++is_bp_rite_available 03 !")
         end
     end
 
     local val = cm:get_saved_value("nag_bp_ritual_completed")
-
+    self:logf("++++++is_bp_rite_available 04 !")
     return owns and not val
 end
 
@@ -485,8 +518,10 @@ function bdsm:unlock_rites_listeners()
                 return context:building() == "nag_bpyramid_main_obelisk_4";
             end,
             function(context)
-                self:logf("MilitaryForceBuildingCompleteEvent!")
-                unlock_rite("nag_winds")
+                if not rite_status.nag_winds then
+                    self:logf("MilitaryForceBuildingCompleteEvent!")
+                    unlock_rite("nag_winds")
+                end
             end,
             true
 	    )
@@ -504,14 +539,16 @@ function bdsm:unlock_rites_listeners()
                 return (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:won_battle()
             end,
             function(context)
-                local total = cm:get_saved_value("nag_death") or 0
-                total = total + 1
+                if not rite_status.nag_death then
+                    local total = cm:get_saved_value("nag_death") or 0
+                    total = total + 1
 
-                if total >= 5 then
-                    unlock_rite("nag_death")
-                else
-                    --- TODO display in the ritual panel?
-                    cm:set_saved_value("nag_death", total)
+                    if total >= 5 then
+                        unlock_rite("nag_death")
+                    else
+                        --- TODO display in the ritual panel?
+                        cm:set_saved_value("nag_death", total)
+                    end
                 end
             end,
             false
@@ -528,7 +565,9 @@ function bdsm:unlock_rites_listeners()
                 return character:faction():name() == bdsm:get_faction_key() and (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:rank() >= 12
             end,
             function(context)
-                unlock_rite("nag_divinity")
+                if not rite_status.nag_divinity then
+                    unlock_rite("nag_divinity")
+                end
             end,
             false
         )
@@ -543,7 +582,9 @@ function bdsm:unlock_rites_listeners()
                 return not faction:is_null_interface() and faction:name() == bdsm:get_faction_key() and faction:region_list():num_items() >= 10
             end,
             function(context)
-                unlock_rite("nag_man")
+                if not rite_status.nag_man then
+                    unlock_rite("nag_man")
+                end
             end,
             false
         )
@@ -555,7 +596,9 @@ function bdsm:unlock_rites_listeners()
             "BlackPyramidRaised",
             true,
             function(context)
-                unlock_rite("nag_nagash")
+                if not rite_status.nag_nagash then
+                    unlock_rite("nag_nagash")
+                end
             end,
             false
         )
@@ -567,7 +610,9 @@ function bdsm:unlock_rites_listeners()
                 return context:faction():name() == bdsm:get_faction_key() and cm:turn_number() >= 50
             end,
             function(context)
-                unlock_rite("nag_nagash")
+                if not rite_status.nag_nagash then
+                    unlock_rite("nag_nagash")
+                end
             end,
             false
         )
@@ -584,7 +629,7 @@ function bdsm:unlock_rites_listeners()
 			cm:remove_effect_bundle_from_region("nag_nagash_rite_bundle_region_super_growth", region_key);
 		end,
 		true
-	)
+	    )
 
     end
 end
@@ -665,46 +710,33 @@ function bdsm:trigger_rites_listeners()
             return context:ritual():ritual_key() == "nag_nagash"
         end,
         function(context)
+            -- ###
            --- spawn a death army at Nagash, at BP, or at a random Mortarch, or at a random settlement, in that order.
            local nag = bdsm:get_faction_leader()
            local key = bdsm:get_faction_key()
+           local key_self = self:get_faction_key()
            local region
            if nag:has_military_force() and nag:region():is_null_interface() == false then
             --    x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..nag:command_queue_index(), true, 5)
                region = nag:region():name()
-           else
-               -- check BP
-               local bp = cm:get_region(bdsm._bp_key)
-               if bp and bp:owning_faction():is_null_interface() == false and bp:owning_faction():name() == key then 
-                --    x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, bdsm._bp_key, false, true, 5)
-                   region = bp
-               else
-                   -- check for a random mortarch
-                   local random_mort = get_random_mortarch()
-                   if random_mort then
-                    --    x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..random_mort:command_queue_index(), true, 5)
-                       region = random_mort:region():name()
-                   else
-                       -- check for a random settlement
-                       local settlement_list = bdsm:get_faction():region_list()
-                       local random_settlement = settlement_list:item_at(cm:random_number(settlement_list:num_items()-1, 0))
-
-                    --    x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, random_settlement:name(), false, true, 5)
-                       region = random_settlement:name()
-                   end
+            --    region_faction = nag:region():owning_faction():name()
+               if (nag:region():owning_faction():is_null_interface() == false and nag:region():owning_faction():name() == key and 
+                    region ~= "wh2_main_the_broken_teeth_nagashizar" and 
+                    region ~= "wh2_main_marshes_of_madness_morgheim" and 
+                    region ~= "wh2_main_devils_backbone_lahmia" and 
+                    region ~= "wh2_main_land_of_the_dead_khemri" and 
+                    region ~= "wh2_main_vampire_coast_the_awakening" and 
+                    region ~= "wh_main_eastern_sylvania_castle_drakenhof" and 
+                    region ~= "wh2_main_titan_peaks_ancient_city_of_quintex") then
+                -- apply super growth on generic settlement
+                    cm:apply_effect_bundle_to_region("nag_nagash_rite_bundle_region_super_growth", region, 0);
+                else
+                    cm:faction_add_pooled_resource(key_self, "nag_warpstone", "nag_warpstone_refund", 1)
                end
+           else
+                cm:faction_add_pooled_resource(key_self, "nag_warpstone", "nag_warpstone_refund", 1)
            end
 
-            if (region ~= "wh2_main_the_broken_teeth_nagashizar" and 
-            region ~= "wh2_main_marshes_of_madness_morgheim" and 
-            region ~= "wh2_main_devils_backbone_lahmia" and 
-            region ~= "wh2_main_land_of_the_dead_khemri" and 
-            region ~= "wh2_main_vampire_coast_the_awakening" and 
-            region ~= "wh_main_eastern_sylvania_castle_drakenhof" and 
-            region ~= "wh2_main_titan_peaks_ancient_city_of_quintex") then
-                -- apply super growth on generic settlement
-                cm:apply_effect_bundle_to_region("nag_nagash_rite_bundle_region_super_growth", region, 0);
-            end
         end,
         true
     )
@@ -768,7 +800,7 @@ function bdsm:trigger_rites_listeners()
             --- spawn the army
             cm:create_force(
                 key,
-                random_army_manager:generate_force("nag_death", 15, false),
+                random_army_manager:generate_force("nag_death", 20, false),
                 region,
                 x,
                 y,
@@ -816,10 +848,14 @@ function bdsm:trigger_rites_listeners()
         local nuke_resource_amount  = get_pooled_resource("nag_grand_spell_03")
         if nuke_resource_amount < grand_spell_cost then
             --resource is bellow cost remove spell
-            cm:remove_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key());
+            -- cm:remove_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key());
+            local f_leader = self:get_faction_leader()
+            cm:remove_effect_bundle_from_character(grand_spells_effect_bundle_key[3],f_leader)
         else
             --resource is above cost unlock spell
-            cm:apply_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key(), 0)
+            -- cm:apply_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key(), 0)
+            local f_leader = self:get_faction_leader()
+            cm:apply_effect_bundle_to_character(grand_spells_effect_bundle_key[3],f_leader,0)
         end
     end
             
@@ -859,7 +895,7 @@ function bdsm:trigger_rites_listeners()
                     (cm:model():pending_battle():get_how_many_times_ability_has_been_used_in_battle(nagash_faction_cqi, grand_spells_ability_key[1]) > 0) then                
                 cm:faction_add_pooled_resource(key, "nag_grand_spell_01", "nag_grand_spell_01_recharge", - grand_spell_cost)
                 -- local key = self:get_faction_key()
-                cm:faction_add_pooled_resource(key, "nag_warpstone", "nag_warpstone_buildings", 5)
+                -- cm:faction_add_pooled_resource(key, "nag_warpstone", "nag_warpstone_buildings", 5)
                 self:logf("++++++grand spell 01 cast!")
             end
             if cm:pending_battle_cache_faction_is_involved(bdsm:get_faction_key()) and 
@@ -926,6 +962,134 @@ function bdsm:trigger_rites_listeners()
         end,
         true
     )
+
+    core:add_listener(
+		"RegionFactionChangeEventBlyramidLostRitual",
+		"RegionFactionChangeEvent",
+		function(context)
+			return context:previous_faction():subculture() == "nag_nagash"
+		end,
+		function(context)
+            self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
+			local bp = cm:get_region(bdsm._bp_key)
+            local key = bdsm:get_faction_key()
+            if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then 
+                self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 02 cast!")
+                self:reset_current_ritual()
+                cm:remove_scripted_composite_scene("nag_bp_raise")
+                cm:set_saved_value("nag_bp_raise", false)
+                self:check_bp_button()
+            end
+            self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
+		end,
+		true
+    )
+    
+
+    core:add_listener(
+		"RegionAbandonedWithBuildingEventBlyramidLostRitual",
+		"RegionAbandonedWithBuildingEvent",
+		function(context)
+			return true
+		end,
+		function(context)
+            self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
+			local bp = cm:get_region(bdsm._bp_key)
+            local key = bdsm:get_faction_key()
+
+            if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then 
+                self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 02 cast!")
+                self:reset_current_ritual()
+                cm:remove_scripted_composite_scene("nag_bp_raise")
+                cm:set_saved_value("nag_bp_raise", false)
+                self:check_bp_button()
+            end
+            
+            self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
+		end,
+		true
+    )
+
+    core:add_listener(
+        "CharacterReplacingGeneralNagTraitorKing",
+        "CharacterReplacingGeneral",
+        function(context)
+            local c = context:character()
+            self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 !")
+            self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 %s !", c:character_subtype_key())
+            return c:faction():name() == bdsm:get_faction_key() and (c:character_subtype_key() == "nag_traitor_king" or c:character_subtype_key() == "nag_traitor_king_shambling_horde") and c:has_military_force()
+        end,
+        function(context)
+            self:logf("++++++CharacterReplacingGeneralNagTraitorKing 02 !")
+            --- Provide horde IF NOT a Shambling Horde (how to detect????)
+            local c = context:character()
+            local mf = c:military_force()
+
+            --- This should prevent Shambling Horde conversions (there's no Shambling Horde -> Traitor King Horde direct conversion)
+            cm:convert_force_to_type(mf, "nag_traitor_horde")
+        end,
+        true
+    )
+
+    core:add_listener(
+        "NagashWimp",
+        "RegionFactionChangeEvent",
+        function(context)
+            local reg = context:region()
+            local daddy = reg:owning_faction()
+            return not reg:is_abandoned() and not daddy:is_null_interface() and daddy:name() == bdsm:get_faction_key() --and reg:settlement():primary_slot():building():building_level() > 1
+        end,
+        function (context)
+            local reg = context:region()
+            cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
+            self:logf("++++++NagashWimp !")
+            if reg:name() == bdsm._bp_key then 
+                self:logf("++++++NagashWimp trigger !")
+                --- trigger the "Raise the BP!" mission
+                bdsm:trigger_bp_raise_mission()
+                bdsm:check_bp_button()
+            end
+        end,
+        true
+    )
+
+    core:add_listener(
+            "NagNagash",
+            "FactionTurnStart",
+            function(context)
+                return context:faction():name() == bdsm:get_faction_key()
+            end,
+            function(context)
+                local nag_fact = bdsm:get_faction_key()
+                revealed_objectives.wh2_main_great_mortis_delta_black_pyramid_of_nagash = cm:get_saved_value("nagash_intro_completed")
+                
+                if revealed_objectives.wh2_main_great_mortis_delta_black_pyramid_of_nagash then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")
+                end
+                if revealed_objectives.wh2_main_the_broken_teeth_nagashizar then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_the_broken_teeth_nagashizar")
+                end
+                if revealed_objectives.wh2_main_marshes_of_madness_morgheim then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_marshes_of_madness_morgheim")
+                end
+                if revealed_objectives.wh2_main_devils_backbone_lahmia then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_devils_backbone_lahmia")
+                end
+                if revealed_objectives.wh2_main_land_of_the_dead_khemri then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_land_of_the_dead_khemri")
+                end
+                if revealed_objectives.wh2_main_vampire_coast_the_awakening then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_vampire_coast_the_awakening")
+                end
+                if revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh_main_eastern_sylvania_castle_drakenhof")
+                end
+                if revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex then
+                    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_titan_peaks_ancient_city_of_quintex")
+                end
+            end,
+            true
+        )
     
 
 
@@ -960,12 +1124,16 @@ cm:add_saving_game_callback(
     function(context)
         cm:save_named_value("nag_rites", rite_status, context)
         cm:save_named_value("grand_spell_status", grand_spell_status, context)
+        cm:save_named_value("revealed_objectives", revealed_objectives, context)     
+        cm:save_named_value("quests_unlocked", quests_unlocked, context)    
     end
 )
 
 cm:add_loading_game_callback(
     function(context)
         rite_status = cm:load_named_value("nag_rites", rite_status, context)
+        revealed_objectives = cm:load_named_value("revealed_objectives", revealed_objectives, context)
         grand_spell_status = cm:load_named_value("grand_spell_status", grand_spell_status, context)
+        quests_unlocked = cm:load_named_value("quests_unlocked", quests_unlocked, context)
     end
 )

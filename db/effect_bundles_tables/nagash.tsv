@@ -47,3 +47,4 @@ nag_resource_nehek	Recruitment caps for Nehekharan units can be found in this lo
 nag_resource_ritual_site	This settlement is a special location of great interest to Nagash.	Ritual Site	faction	1	res_nag_ritual_site.png	true	true	false
 nag_divinity_rite_bundle_region_undead_rises	[HIDDEN] Adds Undead corruption to every province capital for the Nagash Divinity rite Rises event	[HIDDEN]	region	0	 	true	false	true
 nag_nagash_rite_bundle_region_super_growth	[HIDDEN] Adds Undead corruption to every province capital for the Nagash Divinity rite Rises event	[HIDDEN]	region	0	 	true	false	true
+nag_effect_bundle_dead_forever	Your warriors relish the opportunity to do battle with Wood Elves.	Wood Elf Conflict	character	1	morale.png	true	false	true

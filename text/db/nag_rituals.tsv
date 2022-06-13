@@ -14,8 +14,8 @@ campaign_group_rituals_unlock_text_nagash_featurenag_death	Win 5 battles with Na
 campaign_group_rituals_unlock_text_nagash_featurenag_winds	Build the Black Obelisk [level 4]	true
 rituals_display_name_nag_bp_raise	Raise the Black Pyramid	true
 rituals_description_nag_bp_raise	[PH]	true
-rituals_display_name_nag_end_game	[PH] End Game Ritual	true
-rituals_description_nag_end_game	[PH] We're in the end game now	true
+rituals_display_name_nag_end_game	End Game Ritual	true
+rituals_description_nag_end_game	We're in the end game now	true
 campaign_group_rituals_unlock_text_nagash_featurenag_bp_raise	[PH]	true
 campaign_group_rituals_unlock_text_nagash_featurenag_end_game	[PH]	true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_death		true

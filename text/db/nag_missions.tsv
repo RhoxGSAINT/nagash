@@ -1,15 +1,15 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_missions.loc		
 missions_localised_title_nagash_intro_1	Cut off the Skaven	true
-missions_localised_description_nagash_intro_1	[PH] killk the starting enemy army	true
+missions_localised_description_nagash_intro_1	Exterminate nearby skaven pack.	true
 missions_localised_title_nagash_intro_2	Secure the Mines	true
-missions_localised_description_nagash_intro_2	[PH] get warpstone mines to lvl 2	true
+missions_localised_description_nagash_intro_2	Upgrade your warpstone mine, as warpstone is power.	true
 missions_localised_title_nagash_intro_3	Gather Your Legion	true
-missions_localised_description_nagash_intro_3	[PH] get an army while waiting for buttholes	true
+missions_localised_description_nagash_intro_3	Expand your army so it is worthy of your power.	true
 missions_localised_title_nagash_intro_4	Finalize Foothold	true
-missions_localised_description_nagash_intro_4	[PH] capture the Deoslation of Nagash	true
+missions_localised_description_nagash_intro_4	Cleanse Deoslation of Nagash of that annoying vermin.	true
 missions_localised_title_nagash_intro_5	Begin the Trek	true
-missions_localised_description_nagash_intro_5	[PH] move to a spot on the map to TP across the mountains	true
+missions_localised_description_nagash_intro_5	Use tunnels to meet up with Arkhan, your loyal follower.	true
 missions_localised_title_nag_nagash_capture_settlement_khemri	Khemri the City of Kings	true
 missions_localised_description_nag_nagash_capture_settlement_khemri	"Supreme Lord, the Black Pyarmid is yours, as it always has been, but we must move towards our goal of completing the Great Ritual, take the city of Khemri."\\n\\nLearn more about settlements [[url:script_link_campaign_settlements]][[tooltip:{{tt:tooltip_campaign_settlements}}]][[col:help_page_link]]here[[/col]][[/tooltip]][[/url]].	true
 missions_localised_title_nag_nagash_capture_settlement_mourkain	Mourkain, the Place of Death	true

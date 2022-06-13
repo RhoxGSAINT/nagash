@@ -654,6 +654,67 @@ local function mortarch_event_listeners()
     --         )
     --     end
     -- end
+
+    local function throw_enemies_at_settlement(setttlement_key)
+        local nag_key = bdsm:get_faction_key()
+        local region_key = setttlement_key
+        local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+        local invasion_key = setttlement_key.."_invasion_"..x.."_"..y
+
+        local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  15, 1, true, false)
+
+        local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+        local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+        -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+        invasion_object:set_target("REGION", region_key, nag_key)
+        invasion_object:add_aggro_radius(25, {nag_key}, 1)
+        invasion_object:start_invasion(true,true,false,false)
+    end
+
+    core:add_listener(
+    --- When the end game tech is researched, do stuff.
+        "NagashEndWorldTechs",
+        "ResearchCompleted",
+        function(context)
+            return context:technology() == "nag_nagash_ultimate" or
+            context:technology() == "nag_location_nagashizzar"
+            context:technology() == "nag_location_mourkain"
+            context:technology() == "nag_location_lahmia"
+            context:technology() == "nag_location_khemri"
+            context:technology() == "nag_location_awakening"
+            context:technology() == "nag_location_drakenhof"
+            context:technology() == "nag_location_quintex"
+        end,
+        function(context)
+            self:logf("++++++tech invasions !")
+            tech_key = context:technology()
+            if tech_key == "nag_location_nagashizzar" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_the_broken_teeth_nagashizar")
+            end
+            if tech_key == "nag_location_mourkain" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_marshes_of_madness_morgheim")
+            end
+            if tech_key == "nag_location_lahmia" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_devils_backbone_lahmia")
+            end
+            if tech_key == "nag_location_khemri" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_land_of_the_dead_khemri")
+            end
+            if tech_key == "nag_location_awakening" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_vampire_coast_the_awakening")
+            end
+            if tech_key == "wh_main_eastern_sylvania_castle_drakenhof" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh_main_eastern_sylvania_castle_drakenhof")
+            end
+            if tech_key == "nag_location_quintex" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_titan_peaks_ancient_city_of_quintex")
+            end
+            if tech_key == "nag_nagash_ultimate" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement(setttlement_key)
+            end            
+        end,
+        true
+    )
 end
     
 --- TODO VLIB tech stuff

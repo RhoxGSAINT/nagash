@@ -19,26 +19,27 @@ local function init_listeners()
     cm:remove_effect_bundle("wh_main_effect_religion_undeath_public_order", faction_key)
     
     --- Whenever a settlement is occupied by Nagash, auto-set the level to 1.
-    core:add_listener(
-        "NagashWimp",
-        "RegionFactionChangeEvent",
-        function(context)
-            local reg = context:region()
-            local daddy = reg:owning_faction()
-            return not reg:is_abandoned() and not daddy:is_null_interface() and daddy:name() == faction_key --and reg:settlement():primary_slot():building():building_level() > 1
-        end,
-        function (context)
-            local reg = context:region()
-            cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
-
-            if reg:name() == bdsm._bp_key then 
-                --- trigger the "Raise the BP!" mission
-                bdsm:trigger_bp_raise_mission()
-                bdsm:check_bp_button()
-            end
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "NagashWimp",
+    --     "RegionFactionChangeEvent",
+    --     function(context)
+    --         local reg = context:region()
+    --         local daddy = reg:owning_faction()
+    --         return not reg:is_abandoned() and not daddy:is_null_interface() and daddy:name() == faction_key --and reg:settlement():primary_slot():building():building_level() > 1
+    --     end,
+    --     function (context)
+    --         local reg = context:region()
+    --         cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
+    --         self:logf("++++++NagashWimp !")
+    --         if reg:name() == bdsm._bp_key then 
+    --             self:logf("++++++NagashWimp trigger !")
+    --             --- trigger the "Raise the BP!" mission
+    --             bdsm:trigger_bp_raise_mission()
+    --             bdsm:check_bp_button()
+    --         end
+    --     end,
+    --     true
+    -- )
 
     ---@param building_name string
     local function is_warpstone_mine(building_name)
@@ -54,7 +55,9 @@ local function init_listeners()
     local function has_warpstone_mine(region)
         local mines = {
             nag_outpost_special_nagashizzar_2 = true,
+            nag_outpost_special_nagashizzar_3 = true,
             nag_outpost_special_nagashizzar_4 = true,
+            nag_outpost_special_nagashizzar_5 = true,
             nag_outpost_primary_warpstone_1 = true,
         }
 
@@ -163,7 +166,8 @@ local function init_listeners()
                 local chance = 10
     
                 local val = cm:random_number(100)
-                if val <= chance then
+                -- if val <= chance then
+                if true then
                     cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
                 end
                 
@@ -206,6 +210,25 @@ local function init_listeners()
         end,
         true
     )
+
+    -- core:add_listener(
+    --     "CharacterReplacingGeneralNagTraitorKing",
+    --     "CharacterReplacingGeneral",
+    --     function(context)
+    --         local c = context:character()
+    --         return c:faction():name() == bdsm:get_faction_key() and c:character_subtype_key() == "nag_traitor_king" and c:has_military_force()
+    --     end,
+    --     function(context)
+    --         --- Provide horde IF NOT a Shambling Horde (how to detect????)
+    --         local c = context:character()
+    --         local mf = c:military_force()
+
+    --         --- This should prevent Shambling Horde conversions (there's no Shambling Horde -> Traitor King Horde direct conversion)
+    --         cm:convert_force_to_type(mf, "nag_traitor_horde")
+    --     end,
+    --     true
+    -- )
+    
 
     --- implement the DoW on all living for Nagash's skill
     core:add_listener(
@@ -251,11 +274,26 @@ local function init_listeners()
             local t = cm:get_saved_value("nag_ritual_turns_remaining") 
             return context:faction():name() == bdsm:get_faction_key() and not is_nil(t) and t > 0
         end,
-        function(context)
+        function(context)            
+            -- TODO interupt ritual
+            -- self:logf("++++++NagTurnStartTimer 01 cast!")
+			-- local bp = cm:get_region(bdsm._bp_key)
+            -- local key = bdsm:get_faction_key()
+            -- if bp or bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key then 
+            --     self:logf("++++++NagTurnStartTimer 02 cast!")
+            --     cm:remove_scripted_composite_scene("nag_bp_raise")
+    
+            --     cm:set_saved_value("nag_bp_ritual_completed", true)
+
+            --     self:reset_current_ritual()
+
+            --     cm:remove_scripted_composite_scene("nag_bp_raise")
+            -- end
+            -- self:logf("++++++NagTurnStartTimer 01 cast!")
+
             local current_ritual = cm:get_saved_value("nag_ritual_current")
 
             local t = cm:get_saved_value("nag_ritual_turns_remaining") -1
-
             --- TODO if it's been X turns **AND** all of the invading armies have been dealt with
             if t == 0 then 
                 -- Complete!
@@ -268,6 +306,49 @@ local function init_listeners()
         end,
         true
     )
+
+    -- core:add_listener(
+	-- 	"RegionFactionChangeEventBlyramidLostRitual",
+	-- 	"RegionFactionChangeEvent",
+	-- 	function(context)
+	-- 		return context:previous_faction():subculture() == "nag_nagash"
+	-- 	end,
+	-- 	function(context)
+    --         self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
+	-- 		local bp = cm:get_region(bdsm._bp_key)
+    --         local key = bdsm:get_faction_key()
+    --         if bp or bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key then 
+    --             self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 02 cast!")
+    --             self:reset_current_ritual()
+    --             cm:remove_scripted_composite_scene("nag_bp_raise")
+    --         end
+    --         self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
+	-- 	end,
+	-- 	true
+    -- )
+    
+
+    -- core:add_listener(
+	-- 	"RegionAbandonedWithBuildingEventBlyramidLostRitual",
+	-- 	"RegionAbandonedWithBuildingEvent",
+	-- 	function(context)
+	-- 		return true
+	-- 	end,
+	-- 	function(context)
+    --         self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
+	-- 		local bp = cm:get_region(bdsm._bp_key)
+    --         local key = bdsm:get_faction_key()
+    --         if bp or bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key then 
+    --             self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 02 cast!")
+    --             self:reset_current_ritual()
+    --             cm:remove_scripted_composite_scene("nag_bp_raise")
+    --         end
+    --         self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
+	-- 	end,
+	-- 	true
+    -- )
+
+        
 
     -- trigger battle
     core:add_listener(
