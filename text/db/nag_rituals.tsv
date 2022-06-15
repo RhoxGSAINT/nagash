@@ -1,13 +1,13 @@
 key	text	tooltip
 #Loc PackedFile;1;text/db/nag_rituals.loc		
 rituals_display_name_nag_man	Dominion Over Life	true
-rituals_description_nag_man	Lands of Nagash are no place for living, only dead reside here.	true
+rituals_description_nag_man	There is no place for life in Nagash domain, flesh will rot and bones will crumble, even earth itself rises to form great walls to deter living invaders.	true
 rituals_display_name_nag_divinity	Dominion Over Divinity	true
-rituals_description_nag_divinity	Your lands are mine and mine lands are non of your business.	true
+rituals_description_nag_divinity	The whole world will bow to the True God.	true
 rituals_display_name_nag_death	Dominion Over Death	true
-rituals_description_nag_death	Endless sea of undead marches on.	true
+rituals_description_nag_death	Every defeated skeleton warrior is replaced by ten more as endless sea of undead marches on.	true
 rituals_display_name_nag_winds	Dominion Over Winds	true
-rituals_description_nag_winds	There is no greater Necromancer, there is no greater power.	true
+rituals_description_nag_winds	Power of Nagash is immeasurable, as is his hat.	true
 campaign_group_rituals_unlock_text_nagash_featurenag_man	Conquer and hold 10 regions	true
 campaign_group_rituals_unlock_text_nagash_featurenag_divinity	Get Nagash to rank 12	true
 campaign_group_rituals_unlock_text_nagash_featurenag_death	Win 5 battles with Nagash	true
@@ -21,6 +21,6 @@ campaign_group_rituals_unlock_text_nagash_featurenag_end_game	[PH]	true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_death		true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_man		true
 rituals_display_name_nag_nagash	Dominion of Nagash	true
-rituals_description_nag_nagash	Power and glory of the Great Necromancer draws everyone to his side.	true
+rituals_description_nag_nagash	This settlement has been blessed with Nagash presence and received his blessing.	true
 campaign_group_rituals_unlock_text_nagash_featurenag_nagash	Raise the Black Pyramid	true
-ritual_additional_ui_explanation_texts_onscreen_text_nag_nagash		true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_nagash	Make sure Nagash is in your region you want to bless, this rite will change region ungrowing region into growing one.	true

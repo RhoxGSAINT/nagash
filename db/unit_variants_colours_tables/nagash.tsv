@@ -1,22 +1,22 @@
-key	faction	primary_colour_b	primary_colour_g	primary_colour_r	secondary_colour_b	secondary_colour_g	secondary_colour_r	soldier_type	tertiary_colour_b	tertiary_colour_g	tertiary_colour_r	unit_variant	subculture
-#unit_variants_colours_tables;5;db/unit_variants_colours_tables/nagash													
-666301190		100	50	0	30	30	30	soldier	0	0	0	nag_nagashi_guard	
-666301191		100	50	0	30	30	30	soldier	0	0	0	nag_nagashi_guard_halb	
-666301192		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_inf_zombie	
-666301193		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_inf_skeleton_warriors_0	
-666301194		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_inf_skeleton_warriors_1	
-666301195		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_inf_crypt_ghouls	
-666301196		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_inf_cairn_wraiths	
-666301197		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_inf_grave_guard_0	
-666301198		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_inf_grave_guard_1	
-666301199		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_cav_black_knights_0	
-666301200		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_cav_black_knights_3	
-666301201		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_cav_hexwraiths	
-666301202		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_cav_blood_knights_0	
-666301203		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_veh_corpse_cart_1	
-666301204		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_veh_corpse_cart_2	
-666301205		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_mon_dire_wolves	
-666301206		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_mon_fell_bats	
-666301207		110	65	76	120	53	28	soldier	0	0	0	nag_vanilla_vmp_mon_vargheists	
-666301208	nag_nagash	110	65	76	120	53	28	soldier	0	0	0	wh_main_vmp_mon_crypt_horrors	
-666301209	nag_nagash	110	65	76	120	53	28	soldier	0	0	0	wh_main_vmp_mon_varghulf	
+key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#unit_variants_colours_tables;5;db/unit_variants_colours_tables/nagash							
+666301190		soldier	nag_nagashi_guard		003264	1E1E1E	000000
+666301191		soldier	nag_nagashi_guard_halb		003264	1E1E1E	000000
+666301192		soldier	nag_vanilla_vmp_inf_zombie		4C416E	1C3578	000000
+666301193		soldier	nag_vanilla_vmp_inf_skeleton_warriors_0		4C416E	1C3578	000000
+666301194		soldier	nag_vanilla_vmp_inf_skeleton_warriors_1		4C416E	1C3578	000000
+666301195		soldier	nag_vanilla_vmp_inf_crypt_ghouls		4C416E	1C3578	000000
+666301196		soldier	nag_vanilla_vmp_inf_cairn_wraiths		4C416E	1C3578	000000
+666301197		soldier	nag_vanilla_vmp_inf_grave_guard_0		4C416E	1C3578	000000
+666301198		soldier	nag_vanilla_vmp_inf_grave_guard_1		4C416E	1C3578	000000
+666301199		soldier	nag_vanilla_vmp_cav_black_knights_0		4C416E	1C3578	000000
+666301200		soldier	nag_vanilla_vmp_cav_black_knights_3		4C416E	1C3578	000000
+666301201		soldier	nag_vanilla_vmp_cav_hexwraiths		4C416E	1C3578	000000
+666301202		soldier	nag_vanilla_vmp_cav_blood_knights_0		4C416E	1C3578	000000
+666301203		soldier	nag_vanilla_vmp_veh_corpse_cart_1		4C416E	1C3578	000000
+666301204		soldier	nag_vanilla_vmp_veh_corpse_cart_2		4C416E	1C3578	000000
+666301205		soldier	nag_vanilla_vmp_mon_dire_wolves		4C416E	1C3578	000000
+666301206		soldier	nag_vanilla_vmp_mon_fell_bats		4C416E	1C3578	000000
+666301207		soldier	nag_vanilla_vmp_mon_vargheists		4C416E	1C3578	000000
+666301208	nag_nagash	soldier	wh_main_vmp_mon_crypt_horrors		4C416E	1C3578	000000
+666301209	nag_nagash	soldier	wh_main_vmp_mon_varghulf		4C416E	1C3578	000000

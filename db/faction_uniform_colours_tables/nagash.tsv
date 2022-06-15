@@ -1,3 +1,3 @@
-faction_name	primary_colour_r	primary_colour_g	primary_colour_b	secondary_colour_r	secondary_colour_g	secondary_colour_b	tertiary_colour_r	tertiary_colour_g	tertiary_colour_b
-#faction_uniform_colours_tables;1;db/faction_uniform_colours_tables/nagash									
-nag_nagash	92	42	156	28	53	120	1	1	1
+faction_name	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#faction_uniform_colours_tables;1;db/faction_uniform_colours_tables/nagash			
+nag_nagash	5C2A9C	1C3578	010101

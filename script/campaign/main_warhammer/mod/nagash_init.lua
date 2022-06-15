@@ -163,7 +163,7 @@ local function init_listeners()
 
             if has_warpstone_mine(region) then
                 --- TODO calculate chance
-                local chance = 10
+                local chance = 20
     
                 local val = cm:random_number(100)
                 -- if val <= chance then
@@ -420,7 +420,7 @@ local function init_listeners()
             --- TODO trigger invasion!
             local current_ritual = cm:get_saved_value("nag_ritual_current")
 
-            --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated bottle
+            --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
             --- TODO get all these details in a nicer fashion
             --- TODO target BP
             if current_ritual == "nag_bp_raise" then
@@ -428,7 +428,7 @@ local function init_listeners()
                 local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
                 local invasion_key = current_ritual.."_invasion_"..x.."_"..y
 
-                local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  15, 1, true, false)
+                local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 1, true, false)
 
                 local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
                 local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
@@ -437,6 +437,132 @@ local function init_listeners()
                 invasion_object:add_aggro_radius(25, {nag_key}, 1)
                 invasion_object:start_invasion(true,true,false,false)
             end
+        end,
+        true
+    )
+
+    local function tech_army_spawner(context, location_key)
+        local marker_ref = context.stored_table.marker_ref
+        local instance_ref = context.stored_table.instance_ref
+        local nag_key = bdsm:get_faction_key()
+
+        --use the instance ref to grab the x-y-coords so we know where to spawn
+        local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
+
+        --- TODO trigger invasion!
+        -- local current_ritual = cm:get_saved_value("nag_ritual_current")
+
+        --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
+        --- TODO get all these details in a nicer fashion
+        --- TODO target BP
+        bdsm:logf("++++++tech invasions tech_army_spawner 02 !")
+        -- current_ritual = location_key
+        local region_key = location_key
+        local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+        local invasion_key = location_key.."_invasion_"..x.."_"..y
+
+        local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 1, true, false)
+
+        local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+        local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+        -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+        invasion_object:set_target("REGION", region_key, nag_key)
+        invasion_object:add_aggro_radius(300, {nag_key}, 1)
+        invasion_object:start_invasion(true,true,false,false)
+        bdsm:logf("++++++tech invasions tech_army_spawner 03 !")
+    end
+
+    -- return context:technology() == "nag_nagash_ultimate" or
+    -- context:technology() == "nag_location_nagashizzar"
+    -- context:technology() == "nag_location_mourkain"
+    -- context:technology() == "nag_location_lahmia"
+    -- context:technology() == "nag_location_khemri"
+    -- context:technology() == "nag_location_awakening"
+    -- context:technology() == "nag_location_drakenhof"
+    -- context:technology() == "nag_location_quintex"
+
+    -- wh2_main_great_mortis_delta_black_pyramid_of_nagash = false,
+    -- wh2_main_the_broken_teeth_nagashizar = false,
+    -- wh2_main_marshes_of_madness_morgheim = false,
+    -- wh2_main_devils_backbone_lahmia = false,
+    -- wh2_main_land_of_the_dead_khemri = false,
+    -- wh2_main_vampire_coast_the_awakening = false,
+    -- wh_main_eastern_sylvania_castle_drakenhof = false,
+    -- wh2_main_titan_peaks_ancient_city_of_quintex = false,
+
+    core:add_listener(
+        "nag_location_nagashizzar",
+        "nag_location_nagashizzar",
+        true,
+        function(context)
+            bdsm:logf("++++++tech invasions wh2_main_the_broken_teeth_nagashizar 01 !")
+            tech_army_spawner(context, "wh2_main_the_broken_teeth_nagashizar")
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_location_mourkain",
+        "nag_location_mourkain",
+        true,
+        function(context)
+            bdsm:logf("++++++tech invasions wh2_main_marshes_of_madness_morgheim 01 !")
+            tech_army_spawner(context, "wh2_main_marshes_of_madness_morgheim")
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_location_lahmia",
+        "nag_location_lahmia",
+        true,
+        function(context)
+            bdsm:logf("++++++tech invasions wh2_main_devils_backbone_lahmia 01 !")
+            tech_army_spawner(context, "wh2_main_devils_backbone_lahmia")
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_location_khemri",
+        "nag_location_khemri",
+        true,
+        function(context)
+            bdsm:logf("++++++tech invasions wh2_main_land_of_the_dead_khemri 01 !")
+            tech_army_spawner(context, "wh2_main_land_of_the_dead_khemri")
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_location_awakening",
+        "nag_location_awakening",
+        true,
+        function(context)
+            bdsm:logf("++++++tech invasions wh2_main_vampire_coast_the_awakening 01 !")
+            tech_army_spawner(context, "wh2_main_vampire_coast_the_awakening")
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_location_drakenhof",
+        "nag_location_drakenhof",
+        true,
+        function(context)
+            bdsm:logf("++++++tech invasions wh_main_eastern_sylvania_castle_drakenhof 01 !")
+            tech_army_spawner(context, "wh_main_eastern_sylvania_castle_drakenhof")
+        end,
+        true
+    )
+
+    core:add_listener(
+        "nag_location_quintex",
+        "nag_location_quintex",
+        true,
+        function(context)
+            bdsm:logf("++++++tech invasions wh2_main_titan_peaks_ancient_city_of_quintex 01 !")
+            tech_army_spawner(context, "wh2_main_titan_peaks_ancient_city_of_quintex")
         end,
         true
     )
@@ -570,23 +696,25 @@ local function init()
 
     local option = "intro"
     local all_morts = false
-    if mct then
-        option = mct:get_mod_by_key("nagash_dev"):get_option_by_key("start_choice"):get_finalized_setting()
-        all_morts = mct:get_mod_by_key("nagash_dev"):get_option_by_key("morts"):get_finalized_setting()
-    end
+    -- if mct then
+    --     option = mct:get_mod_by_key("nagash_dev"):get_option_by_key("start_choice"):get_finalized_setting()
+    --     all_morts = mct:get_mod_by_key("nagash_dev"):get_option_by_key("morts"):get_finalized_setting()
+    -- end
 
     local f = nil
 
-    if option == "intro" then
-        bdsm:logf("Starting the intro, first_turn_begin()!")
+    bdsm:logf("Starting the intro, first_turn_begin()!")
         f = bdsm.first_turn_begin
-    elseif option == "bp" then
-        bdsm:logf("Starting the intro, mid_game_start()!")
-        f = bdsm.mid_game_start
-    elseif option == "domination" then
-        bdsm:logf("Starting the intro, world_domination_start()!")
-        f = bdsm.world_domination_start
-    end
+    -- if option == "intro" then
+    --     bdsm:logf("Starting the intro, first_turn_begin()!")
+    --     f = bdsm.first_turn_begin
+    -- elseif option == "bp" then
+    --     bdsm:logf("Starting the intro, mid_game_start()!")
+    --     f = bdsm.mid_game_start
+    -- elseif option == "domination" then
+    --     bdsm:logf("Starting the intro, world_domination_start()!")
+    --     f = bdsm.world_domination_start
+    -- end
 
     if cm:is_new_game() then
         -- spawn units, set buildings, etc.
@@ -597,9 +725,9 @@ local function init()
             bdsm:logf("Ending first turn")
         end) if not ok then bdsm:errorf(err) end
 
-        if all_morts then
-            bdsm:all_morts()
-        end
+        -- if all_morts then
+        --     bdsm:all_morts()
+        -- end
     else
         -- if option == "intro" then
             if not cm:get_saved_value("bdsm_first_turn_completed") and cm:get_saved_value("bdsm_intro_battle_completed") then

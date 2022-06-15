@@ -1,28 +1,28 @@
-key	icon	sort_order	colour_r	colour_g	colour_b
-#building_sets_tables;3;db/building_sets_tables/jvj_nagash_buildings					
-nag_bpyramid_new_horde	placeholder	0	255	255	255
-nag_bpyramid_hidden	UI/Buildings/Icons/nag_cat_bp_owo.png	0	0	0	0
-nag_bpyramid_settlement	placeholder	5	62	61	56
-nag_bpyramid_settlement_support	UI/Buildings/Icons/empire_cat_landmark.png	1	100	20	60
-nag_bpyramid_ew_recruitment	UI/Buildings/Icons/nag_cat_bp_ew_barracks.png	6	120	20	20
-nag_bpyramid_ww_recruitment	UI/Buildings/Icons/nag_cat_bp_ww_barracks.png	4	120	20	20
-nag_bpyramid_ew_military_support	UI/Buildings/Icons/nag_cat_bp_ew_advanced.png	7	75	65	88
-nag_bpyramid_ww_military_support	UI/Buildings/Icons/nag_cat_bp_ww_advanced.png	3	75	65	88
-nag_bpyramid_ew_infrastructure	UI/Buildings/Icons/nag_cat_bp_ew_other.png	8	62	71	57
-nag_bpyramid_ww_infrastructure	UI/Buildings/Icons/nag_cat_bp_ww_other.png	2	62	71	57
-nag_outpost_special_growth	UI/Buildings/Icons/vampire_coast_cat_ship_unique.png	2	62	61	56
-nag_outpost_port	placeholder	1	53	69	81
-nag_outpost_unique	UI/Buildings/Icons/empire_cat_landmark.png	2	100	20	60
-nag_outpost_special_recruitment	UI/Buildings/Icons/nag_cat_recruitment.png	5	100	20	60
-nag_outpost_primary_outpost	UI/Buildings/Icons/vampire_cat_support.png	6	75	65	88
-nag_outpost_secondary_outpost	UI/Buildings/Icons/beastmen_cat_civic.png	7	62	71	57
-nag_horde_settlement	placeholder	0	62	61	56
-nag_horde_unique	UI/Buildings/Icons/empire_cat_landmark.png	1	100	20	60
-nag_horde_recruitment	UI/Buildings/Icons/tomb_kings_cat_basic_military.png	2	120	20	20
-nag_horde_military_support	UI/Buildings/Icons/tomb_kings_cat_advanced_military.png	3	75	65	88
-nag_horde_infrastructure	UI/Buildings/Icons/tomb_kings_cat_infrastructure.png	5	62	71	57
-nag_subhorde_settlement	placeholder	0	62	61	56
-nag_subhorde_unique	UI/Buildings/Icons/empire_cat_landmark.png	1	100	20	60
-nag_subhorde_recruitment	UI/Buildings/Icons/tomb_kings_cat_basic_military.png	2	120	20	20
-nag_subhorde_military_support	UI/Buildings/Icons/tomb_kings_cat_advanced_military.png	3	75	65	88
-nag_subhorde_infrastructure	UI/Buildings/Icons/tomb_kings_cat_infrastructure.png	5	62	71	57
+key	icon	sort_order	colour_hex
+#building_sets_tables;3;db/building_sets_tables/jvj_nagash_buildings			
+nag_bpyramid_new_horde	placeholder	0	FFFFFF
+nag_bpyramid_hidden	UI/Buildings/Icons/nag_cat_bp_owo.png	0	000000
+nag_bpyramid_settlement	placeholder	5	3E3D38
+nag_bpyramid_settlement_support	UI/Buildings/Icons/empire_cat_landmark.png	1	64143C
+nag_bpyramid_ew_recruitment	UI/Buildings/Icons/nag_cat_bp_ew_barracks.png	6	781414
+nag_bpyramid_ww_recruitment	UI/Buildings/Icons/nag_cat_bp_ww_barracks.png	4	781414
+nag_bpyramid_ew_military_support	UI/Buildings/Icons/nag_cat_bp_ew_advanced.png	7	4B4158
+nag_bpyramid_ww_military_support	UI/Buildings/Icons/nag_cat_bp_ww_advanced.png	3	4B4158
+nag_bpyramid_ew_infrastructure	UI/Buildings/Icons/nag_cat_bp_ew_other.png	8	3E4739
+nag_bpyramid_ww_infrastructure	UI/Buildings/Icons/nag_cat_bp_ww_other.png	2	3E4739
+nag_outpost_special_growth	UI/Buildings/Icons/vampire_coast_cat_ship_unique.png	2	3E3D38
+nag_outpost_port	placeholder	1	354551
+nag_outpost_unique	UI/Buildings/Icons/empire_cat_landmark.png	2	64143C
+nag_outpost_special_recruitment	UI/Buildings/Icons/nag_cat_recruitment.png	5	64143C
+nag_outpost_primary_outpost	UI/Buildings/Icons/vampire_cat_support.png	6	4B4158
+nag_outpost_secondary_outpost	UI/Buildings/Icons/beastmen_cat_civic.png	7	3E4739
+nag_horde_settlement	placeholder	0	3E3D38
+nag_horde_unique	UI/Buildings/Icons/empire_cat_landmark.png	1	64143C
+nag_horde_recruitment	UI/Buildings/Icons/tomb_kings_cat_basic_military.png	2	781414
+nag_horde_military_support	UI/Buildings/Icons/tomb_kings_cat_advanced_military.png	3	4B4158
+nag_horde_infrastructure	UI/Buildings/Icons/tomb_kings_cat_infrastructure.png	5	3E4739
+nag_subhorde_settlement	placeholder	0	3E3D38
+nag_subhorde_unique	UI/Buildings/Icons/empire_cat_landmark.png	1	64143C
+nag_subhorde_recruitment	UI/Buildings/Icons/tomb_kings_cat_basic_military.png	2	781414
+nag_subhorde_military_support	UI/Buildings/Icons/tomb_kings_cat_advanced_military.png	3	4B4158
+nag_subhorde_infrastructure	UI/Buildings/Icons/tomb_kings_cat_infrastructure.png	5	3E4739

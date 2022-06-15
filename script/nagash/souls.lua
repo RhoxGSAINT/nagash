@@ -290,7 +290,7 @@ function bdsm:complete_bp_raise()
     revealed_objectives.wh2_main_marshes_of_madness_morgheim = true
     revealed_objectives.wh2_main_devils_backbone_lahmia = true
     revealed_objectives.wh2_main_land_of_the_dead_khemri = true
-    -- revealed_objectives.wh2_main_vampire_coast_the_awakening = true
+    revealed_objectives.wh2_main_vampire_coast_the_awakening = true
     revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof = true
     revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex = true
 
@@ -800,7 +800,7 @@ function bdsm:trigger_rites_listeners()
             --- spawn the army
             cm:create_force(
                 key,
-                random_army_manager:generate_force("nag_death", 20, false),
+                random_army_manager:generate_force("nag_death", 19, false),
                 region,
                 x,
                 y,
@@ -1089,8 +1089,66 @@ function bdsm:trigger_rites_listeners()
                 end
             end,
             true
-        )
+    )
     
+    local function throw_enemies_at_settlement(setttlement_key, tech_key)
+        -- spawns markers which will later spawn invasion armies
+        self:logf("++++++tech invasions throw_enemies_at_settlement !")
+        local num = cm:random_number(6, 5)
+        local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
+        marker:add_interaction_event("nag_ritual_army_interaction")
+        marker:add_timeout_event(tech_key)
+
+        --- TODO add despawn event feed
+
+        for i = 1, num do
+            local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), setttlement_key, false, true, cm:random_number(24, 12))
+            marker:spawn(tech_key..i, x, y)
+        end
+    end
+
+    core:add_listener(
+    --- When the end game tech is researched, do stuff.
+        "NagashEndWorldTechs",
+        "ResearchCompleted",
+        function(context)
+            return context:technology() == "nag_nagash_ultimate" or
+            context:technology() == "nag_location_nagashizzar" or
+            context:technology() == "nag_location_mourkain" or
+            context:technology() == "nag_location_lahmia" or
+            context:technology() == "nag_location_khemri" or
+            context:technology() == "nag_location_awakening" or
+            context:technology() == "nag_location_drakenhof" or
+            context:technology() == "nag_location_quintex"
+        end,
+        function(context)
+            self:logf("++++++tech invasions !")
+            tech_key = context:technology()
+            if tech_key == "nag_location_nagashizzar" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_the_broken_teeth_nagashizar", "nag_location_nagashizzar")
+            end
+            if tech_key == "nag_location_mourkain" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_marshes_of_madness_morgheim", "nag_location_mourkain")
+            end
+            if tech_key == "nag_location_lahmia" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_devils_backbone_lahmia", "nag_location_lahmia")
+            end
+            if tech_key == "nag_location_khemri" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_land_of_the_dead_khemri", "nag_location_khemri")
+            end
+            if tech_key == "nag_location_awakening" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_vampire_coast_the_awakening", "nag_location_awakening")
+            end
+            if tech_key == "nag_location_drakenhof" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh_main_eastern_sylvania_castle_drakenhof", "nag_location_drakenhof")
+            end
+            if tech_key == "nag_location_quintex" or tech_key == "nag_nagash_ultimate" then
+                throw_enemies_at_settlement("wh2_main_titan_peaks_ancient_city_of_quintex", "nag_location_quintex")
+            end
+         
+        end,
+        true
+    )
 
 
 end
