@@ -166,8 +166,8 @@ local function init_listeners()
                 local chance = 20
     
                 local val = cm:random_number(100)
-                -- if val <= chance then
-                if true then
+                if val <= chance then
+                --if true then
                     cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
                 end
                 
@@ -428,7 +428,7 @@ local function init_listeners()
                 local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
                 local invasion_key = current_ritual.."_invasion_"..x.."_"..y
 
-                local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 1, true, false)
+                local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 2, true, false)
 
                 local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
                 local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
@@ -459,16 +459,17 @@ local function init_listeners()
         -- current_ritual = location_key
         local region_key = location_key
         local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
-        local invasion_key = location_key.."_invasion_"..x.."_"..y
+        local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y
 
-        local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 1, true, false)
+        local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 5, true, false)
 
         local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
         local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
         -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
         invasion_object:set_target("REGION", region_key, nag_key)
-        invasion_object:add_aggro_radius(300, {nag_key}, 1)
+        invasion_object:add_aggro_radius(25, {nag_key}, 1)
         invasion_object:start_invasion(true,true,false,false)
+        bdsm:logf("++++++tech invasions region_key = %s;nag_key = %s", region_key, nag_key)
         bdsm:logf("++++++tech invasions tech_army_spawner 03 !")
     end
 

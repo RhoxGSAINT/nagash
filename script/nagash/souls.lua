@@ -225,7 +225,7 @@ function bdsm:begin_bp_raise()
 
     --- start up some interactive markers
     --- TODO change number of armies based on difficulty?
-    local num = cm:random_number(6, 5)
+    local num = cm:random_number(5, 4)
     local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
     marker:add_interaction_event("nag_ritual_army_interaction")
     marker:add_timeout_event("nag_ritual_army_expired")
@@ -719,17 +719,21 @@ function bdsm:trigger_rites_listeners()
            if nag:has_military_force() and nag:region():is_null_interface() == false then
             --    x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..nag:command_queue_index(), true, 5)
                region = nag:region():name()
+               region_interface = nag:region()
+               local province = region_interface:province_name();
+
             --    region_faction = nag:region():owning_faction():name()
                if (nag:region():owning_faction():is_null_interface() == false and nag:region():owning_faction():name() == key and 
-                    region ~= "wh2_main_the_broken_teeth_nagashizar" and 
-                    region ~= "wh2_main_marshes_of_madness_morgheim" and 
-                    region ~= "wh2_main_devils_backbone_lahmia" and 
-                    region ~= "wh2_main_land_of_the_dead_khemri" and 
-                    region ~= "wh2_main_vampire_coast_the_awakening" and 
-                    region ~= "wh_main_eastern_sylvania_castle_drakenhof" and 
-                    region ~= "wh2_main_titan_peaks_ancient_city_of_quintex") then
+                    province ~= "wh2_main_the_broken_teeth" and 
+                    province ~= "wh2_main_marshes_of_madness" and 
+                    province ~= "wh2_main_devils_backbone" and 
+                    province ~= "wh2_main_land_of_the_dead" and 
+                    province ~= "wh2_main_vampire_coast" and 
+                    province ~= "wh_main_eastern_sylvania" and 
+                    province ~= "wh2_main_titan_peaks") then
                 -- apply super growth on generic settlement
-                    cm:apply_effect_bundle_to_region("nag_nagash_rite_bundle_region_super_growth", region, 0);
+                    -- cm:apply_effect_bundle_to_region("nag_nagash_rite_bundle_region_super_growth", region, 0);
+                    cm:apply_effect_bundle_to_faction_province("nag_nagash_rite_bundle_region_super_growth",region_interface,0)
                 else
                     cm:faction_add_pooled_resource(key_self, "nag_warpstone", "nag_warpstone_refund", 1)
                end
@@ -1017,7 +1021,7 @@ function bdsm:trigger_rites_listeners()
             local c = context:character()
             self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 !")
             self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 %s !", c:character_subtype_key())
-            return c:faction():name() == bdsm:get_faction_key() and (c:character_subtype_key() == "nag_traitor_king" or c:character_subtype_key() == "nag_traitor_king_shambling_horde") and c:has_military_force()
+            return c:faction():name() == bdsm:get_faction_key() and (c:character_subtype_key() == "nag_traitor_king") and c:has_military_force()
         end,
         function(context)
             self:logf("++++++CharacterReplacingGeneralNagTraitorKing 02 !")
@@ -1043,7 +1047,7 @@ function bdsm:trigger_rites_listeners()
             local reg = context:region()
             cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
             self:logf("++++++NagashWimp !")
-            if reg:name() == bdsm._bp_key then 
+            if reg:name() == bdsm._bp_key and bdsm:is_bp_rite_available() then 
                 self:logf("++++++NagashWimp trigger !")
                 --- trigger the "Raise the BP!" mission
                 bdsm:trigger_bp_raise_mission()
@@ -1094,7 +1098,7 @@ function bdsm:trigger_rites_listeners()
     local function throw_enemies_at_settlement(setttlement_key, tech_key)
         -- spawns markers which will later spawn invasion armies
         self:logf("++++++tech invasions throw_enemies_at_settlement !")
-        local num = cm:random_number(6, 5)
+        local num = cm:random_number(5, 4)
         local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
         marker:add_interaction_event("nag_ritual_army_interaction")
         marker:add_timeout_event(tech_key)
