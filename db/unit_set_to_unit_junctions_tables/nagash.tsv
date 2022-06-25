@@ -425,8 +425,20 @@ hero				nag_characters	false
 			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_skeletons_basic	false
 			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_skeletons_basic	false
 			nag_shade_haunts	wh2_main_ror_units_all	false
+			nag_mortarch_arkhan	nag_arkhan_unit_set	false
+			nag_mortarch_arkhan_abyssal	nag_arkhan_unit_set	false
+			nag_mortarch_arkhan_chariot	nag_arkhan_unit_set	false
+			nag_mortarch_arkhan_warhorse	nag_arkhan_unit_set	false
 			nag_mortarch_luthor	nag_luthor_harkon	false
 			nag_mortarch_luthor_terrorgheist	nag_luthor_harkon	false
+			nag_mortarch_mannfred	nag_mannfred_unit_set	false
+			nag_mortarch_mannfred_abyssal	nag_mannfred_unit_set	false
+			nag_mortarch_mannfred_warhorse	nag_mannfred_unit_set	false
+			nag_mortarch_krell	nag_krell_unit_set	false
+			nag_mortarch_neferata	nag_neferata_unit_set	false
+			nag_mortarch_neferata_abyssal	nag_neferata_unit_set	false
+			nag_mortarch_neferata_warhorse	nag_neferata_unit_set	false
+			nag_mortarch_vlad	nag_vlad_unit_set	false
 			nag_vanilla_vmp_inf_zombie	nag_army_count_units_vet	false
 			nag_vanilla_vmp_inf_skeleton_warriors_0	nag_army_count_units_vet	false
 			nag_vanilla_vmp_inf_skeleton_warriors_1	nag_army_count_units_vet	false

@@ -54,6 +54,12 @@ end
 
 -- set Black Pyramid to ruined, give Nagash the BP horde, spawn Nagash and Arkhan to the faction
 function bdsm:mid_game_start()
+    --TODO add AI start 
+    cm:set_saved_value("nag_bp_ritual_completed", true)
+    core:trigger_custom_event("BlackPyramidRaised", {})
+    -- growth boost for specials?
+    -- warpstone boost batch on turn 50 and 100?
+    --TODO add AI start 
     local sentinels_key = "wh2_dlc09_tmb_the_sentinels"
     local bp_key = "wh2_main_great_mortis_delta_black_pyramid_of_nagash"
 

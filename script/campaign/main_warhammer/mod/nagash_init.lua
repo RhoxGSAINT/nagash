@@ -10,6 +10,60 @@ if is_function(get_mct) then
     mct = get_mct()
 end
 
+
+local mission_short_victory = [[
+    
+ 		mission
+		{
+			victory_type wh_main_victory_type_short;
+			key wh_main_short_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+				{
+					type OWN_N_REGIONS_INCLUDING;
+					total 5;
+					region wh2_main_the_broken_teeth_nagashizar;
+					region wh2_main_marshes_of_madness_morgheim;
+					region wh2_main_devils_backbone_lahmia;
+					region wh2_main_land_of_the_dead_khemri;
+                    region wh_main_eastern_sylvania_castle_drakenhof;
+				}
+
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+    ]]
+    
+
+local mission_long_victory = 
+    [[
+ 		mission
+		{
+			victory_type wh_main_victory_type_long;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{                
+                objective
+				{
+					type RESEARCH_N_TECHS_INCLUDING;
+					total 1;
+					technology nag_nagash_ultimate;
+				}
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+    ]]
+
+
 local faction_key = bdsm._faction_key
 
 local function init_listeners()
@@ -725,7 +779,9 @@ local function init()
             f(bdsm)
             bdsm:logf("Ending first turn")
         end) if not ok then bdsm:errorf(err) end
-
+        
+        cm:trigger_custom_mission_from_string(faction_key, mission_short_victory);
+        cm:trigger_custom_mission_from_string(faction_key, mission_long_victory);
         -- if all_morts then
         --     bdsm:all_morts()
         -- end

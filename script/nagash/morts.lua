@@ -257,24 +257,24 @@ local tech_progress = {
 
 --- All of the event techs begin locked, as do all Mort unlock techs
 local locked_techs = {
-    "nag_mortarch_arkhan_event_1",
-    "nag_mortarch_arkhan_event_2",
-    "nag_mortarch_arkhan_event_3",
-    "nag_mortarch_luthor_event_1",
-    "nag_mortarch_luthor_event_2",
-    "nag_mortarch_luthor_event_3",
-    "nag_mortarch_mannfred_event_1",
-    "nag_mortarch_mannfred_event_2",
-    "nag_mortarch_mannfred_event_3",
-    "nag_mortarch_krell_event_1",
-    "nag_mortarch_krell_event_2",
-    "nag_mortarch_krell_event_3",
-    "nag_mortarch_neferata_event_1",
-    "nag_mortarch_neferata_event_2",
-    "nag_mortarch_neferata_event_3",
-    "nag_mortarch_vlad_event_1",
-    "nag_mortarch_vlad_event_2",
-    "nag_mortarch_vlad_event_3",
+    -- "nag_mortarch_arkhan_event_1",
+    -- "nag_mortarch_arkhan_event_2",
+    -- "nag_mortarch_arkhan_event_3",
+    -- "nag_mortarch_luthor_event_1",
+    -- "nag_mortarch_luthor_event_2",
+    -- "nag_mortarch_luthor_event_3",
+    -- "nag_mortarch_mannfred_event_1",
+    -- "nag_mortarch_mannfred_event_2",
+    -- "nag_mortarch_mannfred_event_3",
+    -- "nag_mortarch_krell_event_1",
+    -- "nag_mortarch_krell_event_2",
+    -- "nag_mortarch_krell_event_3",
+    -- "nag_mortarch_neferata_event_1",
+    -- "nag_mortarch_neferata_event_2",
+    -- "nag_mortarch_neferata_event_3",
+    -- "nag_mortarch_vlad_event_1",
+    -- "nag_mortarch_vlad_event_2",
+    -- "nag_mortarch_vlad_event_3",
 
     "nag_mortarch_arkhan_unlock",
     "nag_mortarch_luthor_unlock",
@@ -438,9 +438,11 @@ local function mortarch_unlock_listeners()
             
             --- format "nag_mortarch_arkhan_unlock" to "nag_mortarch_arkhan"
             local mort_key = string.gsub(tech_key, "_unlock", "")
-
+            --- format "nag_mortarch_arkhan_unlock" to "nag_arkhan"
+            local mort_clean_key = string.gsub(mort_key, "nag_mortarch", "nag")
             -- get and spawn the mortarch
-            bdsm:logf("Spawning %s", mort_key)
+            bdsm:logf("Spawning mort_key %s", mort_key)
+            bdsm:logf("Spawning mort_clean_key %s", mort_clean_key)
 
             --- TODO make sure mort:spawn() allows for spawning on map or spawning in pool
             local mort = bdsm:get_mortarch_with_key(mort_key)
@@ -459,21 +461,38 @@ local function mortarch_unlock_listeners()
                 kill_faction("wh2_dlc11_cst_vampire_coast")
             end
 
-
+            local filter = {faction=bdsm:get_faction_key()}
+            
+            -- nag_arkhan_archai
+            cc:set_techs_lock_state(mort_clean_key.."_archai", "unlocked", "", filter)
+            -- nag_arkhan_proclamation
+            cc:set_techs_lock_state(mort_clean_key.."_proclamation", "unlocked", "", filter)
+            -- nag_mortarch_arkhan_event_1
+            cc:set_techs_lock_state(mort_key.."_event_1", "unlocked", "", filter)
+            -- nag_mortarch_arkhan_event_2
+            cc:set_techs_lock_state(mort_key.."_event_2", "unlocked", "", filter)
+            -- nag_mortarch_arkhan_event_3
+            cc:set_techs_lock_state(mort_key.."_event_3", "unlocked", "", filter)
+            -- nag_arkhan_battle_1
+            cc:set_techs_lock_state(mort_clean_key.."_battle_1", "unlocked", "", filter)
+            -- nag_arkhan_battle_2
+            cc:set_techs_lock_state(mort_clean_key.."_battle_2", "unlocked", "", filter)
+            -- nag_arkhan_battle_3
+            cc:set_techs_lock_state(mort_clean_key.."_battle_3", "unlocked", "", filter)
             --- BETA temp disable
             do return end
 
             --- lock each sub-tech
-            for i = 1,3 do 
-                local sub_tech_key = mort_key .. "_event"..i
-                local str = effect.get_localised_string("tech_lock_"..sub_tech_key)
+            -- for i = 1,3 do 
+            --     local sub_tech_key = mort_key .. "_event"..i
+            --     local str = effect.get_localised_string("tech_lock_"..sub_tech_key)
 
-                if str:find("%%d") then
-                    str = string.format(str, 0)
-                end
+            --     if str:find("%%d") then
+            --         str = string.format(str, 0)
+            --     end
 
-                cc:set_techs_lock_state(sub_tech_key, "locked", str, {faction=bdsm:get_faction_key()})
-            end
+            --     cc:set_techs_lock_state(sub_tech_key, "locked", str, {faction=bdsm:get_faction_key()})
+            -- end
         end,
         true
     )

@@ -38,6 +38,10 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 				if (type_key == "nag_nagash_boss") and spawn_blyramid < 1 and gb:has_battle_started() then
 					-- current_unit:position();
 					blyramid_anchor_coords = current_unit:position();
+					
+					-- testing ping
+					-- gb:add_ping_icon_on_message("test", blyramid_anchor_coords, 4, 1000, 8000);
+					-- gb.sm:trigger_message("test");
 					army:use_special_ability("nag_blyramid_itself", blyramid_anchor_coords, d_to_r(0))
 					spawn_blyramid = 1
 				end

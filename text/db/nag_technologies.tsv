@@ -52,7 +52,7 @@ technologies_onscreen_name_nag_mortarch_luthor_event_3	What is the Definition of
 technologies_onscreen_name_nag_luthor_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_luthor_archai	Bestow the Archai	false
 technologies_onscreen_name_nag_mannfred_battle_1	Cleptomancy	false
-technologies_onscreen_name_nag_mannfred_battle_2	Mannfred Battle 2 ok dunno yet	false
+technologies_onscreen_name_nag_mannfred_battle_2	Birthright	false
 technologies_onscreen_name_nag_mannfred_battle_3	The Mortarch's Own	false
 technologies_onscreen_name_nag_mortarch_mannfred_event_1	Lord of Sylvania	false
 technologies_onscreen_name_nag_mortarch_mannfred_event_2	The Greatest Von Carstein	false
@@ -77,30 +77,30 @@ technologies_onscreen_name_nag_vlad_battle_2	Vashanesh's Vanguard	false
 technologies_onscreen_name_nag_vlad_battle_3	The Mortarch's Own	false
 technologies_onscreen_name_nag_vlad_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_vlad_archai	Bestow the Archai	false
-technologies_short_description_nag_arkhan_battle_1	Stout is old magical bronze, and vicious.	false
-technologies_short_description_nag_arkhan_battle_2	"Mercenary, they call me. Well, my troops don't complain."	false
-technologies_short_description_nag_arkhan_battle_3	Old friends. Treacherous they may be, selfish, yes, but with the proper leverage...	false
+technologies_short_description_nag_arkhan_battle_1	Stout is old magical bronze, and vicious. (Building can be found in risen Black Pyramid)	false
+technologies_short_description_nag_arkhan_battle_2	"Mercenary, they call me. Well, my troops don't complain." (Building can be found in risen Black Pyramid)	false
+technologies_short_description_nag_arkhan_battle_3	Old friends. Treacherous they may be, selfish, yes, but with the proper leverage...  (Building can be found in risen Black Pyramid)	false
 technologies_short_description_nag_arkhan_proclamation	My Master!	false
 technologies_short_description_nag_arkhan_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_krell_battle_1	And it is not just the Legion who is doomed.	false
-technologies_short_description_nag_krell_battle_2	Undead troops hardly cheer when their leader is the first in the melee, but somehow it all counts.	false
-technologies_short_description_nag_krell_battle_3	An armoured gauntlet pointed at everything living, and unliving under the wrong banners.	false
+technologies_short_description_nag_krell_battle_1	And it is not just the Legion who is doomed. (Building can be found in Mourkain)	false
+technologies_short_description_nag_krell_battle_2	Undead troops hardly cheer when their leader is the first in the melee, but somehow it all counts. (Building can be found in Mourkain)	false
+technologies_short_description_nag_krell_battle_3	An armoured gauntlet pointed at everything living, and unliving under the wrong banners. (Building can be found in Mourkain)	false
 technologies_short_description_nag_mortarch_krell_event_1	Krell used to collect skulls for the throne of his previous master. Now he adds them to the armies of the Great Necromancer.	false
 technologies_short_description_nag_mortarch_krell_event_2	As cold and devoid of emotion as he is, Krell will still challenge the mightiest foes to prove his mettle.	false
 technologies_short_description_nag_mortarch_krell_event_3	The Black Axe rarely stays unstained with the scarlet of blood and gore. Its tally is numberless.	false
 technologies_short_description_nag_krell_proclamation	Loyal. Relentless. Large. Big-axed.	false
 technologies_short_description_nag_krell_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_luthor_battle_1	"Questions? What Questions?"	false
-technologies_short_description_nag_luthor_battle_2	So much to do, so many minds, so many directions.	false
-technologies_short_description_nag_luthor_battle_3	You may need special powers, and possibly an anchor and lengths of rope, to gather what Luthor can reliably do best, but you'll know it once you're there.	false
+technologies_short_description_nag_luthor_battle_1	"Questions? What Questions?" (Building can be found in Awakening)	false
+technologies_short_description_nag_luthor_battle_2	So much to do, so many minds, so many directions. (Building can be found in Awakening)	false
+technologies_short_description_nag_luthor_battle_3	You may need special powers, and possibly an anchor and lengths of rope, to gather what Luthor can reliably do best, but you'll know it once you're there. (Building can be found in Awakening)	false
 technologies_short_description_nag_mortarch_luthor_event_1	The definition of madness is doing the same thing over and over again and expecting different results.	false
 technologies_short_description_nag_mortarch_luthor_event_2	The definition of madness is doing the same thing over and over again and expecting different results.	false
 technologies_short_description_nag_mortarch_luthor_event_3	The definition of madness is doing the same thing over and over again and expecting different results.	false
 technologies_short_description_nag_luthor_proclamation	Luthor Boon	false
 technologies_short_description_nag_luthor_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_mannfred_battle_1	Travel far, travel fast, for knowledge and powerful items.	false
-technologies_short_description_nag_mannfred_battle_2	Mannfred Battle 2	false
-technologies_short_description_nag_mannfred_battle_3	Rise, my puppets.	false
+technologies_short_description_nag_mannfred_battle_1	Travel far, travel fast, for knowledge and powerful items. (Building can be found in Castle Drakenhof)	false
+technologies_short_description_nag_mannfred_battle_2	I am the true Von Carstain. (Building can be found in Castle Drakenhof)	false
+technologies_short_description_nag_mannfred_battle_3	Rise, my puppets. (Building can be found in Castle Drakenhof)	false
 technologies_short_description_nag_mortarch_mannfred_event_1	Sylvania has long been Mannfred's domain, and he will let nobody else take it from him. Not even his sire.	false
 technologies_short_description_nag_mortarch_mannfred_event_2	Mannfred Von Carstein's hubris is legendary. He sees himself as the greatest of his bloodline, and will stop at nothing to prove it.	false
 technologies_short_description_nag_mortarch_mannfred_event_3	Mannfred has sworn loyalty to the Great Necromancer - to what extent remains to be seen.	false
@@ -114,14 +114,14 @@ technologies_short_description_nag_location_awakening	In distant land of pirates
 technologies_short_description_nag_location_drakenhof	Ancient mansion of von Carstains will be great place to End the World.	false
 technologies_short_description_nag_location_quintex	Home of the Hag Sorceress, fitting for ritual site. Just keep your distance from local "fun" rooms, even Nagash has his limits.	false
 technologies_short_description_nag_nagash_ultimate	The End comes mortals, Today we will start the apocalypse.	false
-technologies_short_description_nag_neferata_battle_1	Mind you, there is no challenge in controlling a statue.	false
-technologies_short_description_nag_neferata_battle_2	I'm a snake, you're a snake. Just like a spitting image.	false
-technologies_short_description_nag_neferata_battle_3	The overly proud and the overly cunning, only one way the relationship can go.	false
+technologies_short_description_nag_neferata_battle_1	Mind you, there is no challenge in controlling a statue. (Building can be found in Lahmia)	false
+technologies_short_description_nag_neferata_battle_2	I'm a snake, you're a snake. Just like a spitting image. (Building can be found in Lahmia)	false
+technologies_short_description_nag_neferata_battle_3	The overly proud and the overly cunning, only one way the relationship can go. (Building can be found in Lahmia)	false
 technologies_short_description_nag_neferata_proclamation	Manipulation, and all the wrong kinds of motivation.	false
 technologies_short_description_nag_neferata_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_vlad_battle_1	War is not won merely by standing behind thousands of skeletons.	false
-technologies_short_description_nag_vlad_battle_2	Swiftly. Quickly.	false
-technologies_short_description_nag_vlad_battle_3	The Von Carstein dominion over certain fell creatures is undeniable.	false
+technologies_short_description_nag_vlad_battle_1	War is not won merely by standing behind thousands of skeletons. (Building can be found in Castle Drakenhof)	false
+technologies_short_description_nag_vlad_battle_2	Swiftly. Quickly. (Building can be found in Castle Drakenhof)	false
+technologies_short_description_nag_vlad_battle_3	The Von Carstein dominion over certain fell creatures is undeniable. (Building can be found in Castle Drakenhof)	false
 technologies_short_description_nag_vlad_proclamation	Vlad Boon	false
 technologies_short_description_nag_vlad_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technology_ui_groups_optional_display_name_nag_mortarchs	The Mortarchs	false

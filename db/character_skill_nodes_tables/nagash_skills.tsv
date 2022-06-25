@@ -421,7 +421,7 @@ nag_skill_mortarch_krell_personal_02		nag_skill_personal_krell_spectral_executio
 nag_skill_mortarch_krell_personal_03		nag_skill_personal_krell_skull_throne	nag_skill_node_set_mortarch_krell		1.0	3.0		0	0	true
 nag_skill_mortarch_krell_personal_04		nag_skill_personal_krell_abandoned_by_khorne	nag_skill_node_set_mortarch_krell		1.0	4.0		0	0	true
 nag_skill_mortarch_krell_personal_05		nag_skill_personal_krell_the_doomed_legion	nag_skill_node_set_mortarch_krell		1.0	5.0		0	0	true
-nag_skill_mortarch_krell_personal_06		nag_skill_personal_krell_his_will_be_done	nag_skill_node_set_mortarch_krell		1.0	6.0		0	0	true
+nag_skill_mortarch_krell_personal_06		nag_skill_personal_krell_his_will_be_done	nag_skill_node_set_mortarch_krell		1.0	6.0		0	3	true
 nag_skill_mortarch_krell_personal_07		nag_skill_personal_krell_champion_of_nagash	nag_skill_node_set_mortarch_krell		1.0	7.0		0	0	true
 nag_skill_mortarch_krell_self_00		nag_skill_self_krell_hatred_of_the_gods	nag_skill_node_set_mortarch_krell		2.0	0.0		0	0	true
 nag_skill_mortarch_krell_self_01		wh2_dlc11_skill_all_lord_self_devastating_charge	nag_skill_node_set_mortarch_krell		2.0	1.0		0	0	true

@@ -45,7 +45,12 @@ nag_constructs_unit_set	false	-1	-1
 nag_carrion	false	-1	-1	
 nag_powder	false	-1	-1	
 nag_skeletons_basic	false	-1	-1	
+nag_arkhan_unit_set	false	-1	-1	
 nag_luthor_harkon	false	-1	-1	
+nag_mannfred_unit_set	false	-1	-1	
+nag_krell_unit_set	false	-1	-1	
+nag_neferata_unit_set	false	-1	-1	
+nag_vlad_unit_set	false	-1	-1	
 nag_army_count_units_vet	true	7	9	
 nag_army_nehek_units_vet	true	7	9	
 nag_army_coast_units_vet	true	7	9	

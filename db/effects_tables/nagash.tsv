@@ -142,3 +142,9 @@ nag_effect_grand_spell_02_recharge_instant	nag_army_abilities_batocalypse.png	1	
 nag_effect_grand_spell_03_recharge_instant	nag_army_abilities_pyramid_bombardment.png	1	nag_army_abilities_pyramid_bombardment.png	campaign	true
 nag_effect_spawns_army_dummy	army.png	118	army.png	campaign	true
 nag_effect_cannot_grow_disable	growth.png	500	growth.png	campaign	true
+nag_arkhan_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	true
+nag_luthor_harkon	resistance_magic.png	666	resistance_physical.png	campaign	true
+nag_mannfred_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	false
+nag_krell_unit_effect	melee.png	666	resistance_physical.png	campaign	true
+nag_neferata_unit_effect	attribute_stalk.png	666	resistance_physical.png	campaign	true
+nag_vlad_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	true

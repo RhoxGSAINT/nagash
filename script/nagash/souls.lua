@@ -49,7 +49,7 @@ local grand_spells_effect_bundle_key = {	"nag_ability_enable_endless_tomb",
 
 local grand_spells_ability_key = {	"nag_army_abilities_endless_tomb",
                             "nag_army_abilities_batocalypse",
-                            "nag_army_abilities_blyramid_bombardment_targeting"
+                            "nag_army_abilities_blyramid_bombardment_00"
 };
 
 
