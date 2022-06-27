@@ -12,7 +12,6 @@
 local bdsm = get_bdsm()
 
 bdsm._bp_settlement_key = "settlement:wh2_main_land_of_the_dead_pyramid_of_nagash"
-
 local rite_status = {
     nag_winds = false, -- TODO
     nag_death = false,
@@ -41,6 +40,57 @@ local grand_spell_status = {
     nag_grand_spell_02 = false,
     nag_grand_spell_03 = false,
 }
+function bdsm:setup_structures()
+    rite_status.nag_winds = cm:get_saved_value("rite_status_nag_winds")
+    rite_status.nag_death = cm:get_saved_value("rite_status_nag_death")
+    rite_status.nag_divinity = cm:get_saved_value("rite_status_nag_divinity")
+    rite_status.nag_man = cm:get_saved_value("rite_status_nag_man")
+    rite_status.nag_nagash = cm:get_saved_value("rite_status_nag_nagash")
+
+    quests_unlocked.nag_rise_blyramid = cm:get_saved_value("quests_unlocked_nag_rise_blyramid")
+
+    revealed_objectives.wh2_main_great_mortis_delta_black_pyramid_of_nagash = cm:get_saved_value("revealed_objectives_wh2_main_great_mortis_delta_black_pyramid_of_nagash")
+    revealed_objectives.wh2_main_the_broken_teeth_nagashizar = cm:get_saved_value("revealed_objectives_wh2_main_the_broken_teeth_nagashizar")
+    revealed_objectives.wh2_main_marshes_of_madness_morgheim = cm:get_saved_value("revealed_objectives_wh2_main_marshes_of_madness_morgheim")
+    revealed_objectives.wh2_main_devils_backbone_lahmia = cm:get_saved_value("revealed_objectives_wh2_main_devils_backbone_lahmia")
+    revealed_objectives.wh2_main_land_of_the_dead_khemri = cm:get_saved_value("revealed_objectives_wh2_main_land_of_the_dead_khemri")
+    revealed_objectives.wh2_main_vampire_coast_the_awakening = cm:get_saved_value("revealed_objectives_wh2_main_vampire_coast_the_awakening")
+    revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof = cm:get_saved_value("revealed_objectives_wh_main_eastern_sylvania_castle_drakenhof")
+    revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex = cm:get_saved_value("revealed_objectives_wh2_main_titan_peaks_ancient_city_of_quintex")
+    
+    bdsm:logf("++++++ grand_spell_status_nag_grand_spell_01 load = %s", tostring(cm:get_saved_value("grand_spell_status_nag_grand_spell_01")))
+    grand_spell_status.nag_grand_spell_01 = cm:get_saved_value("grand_spell_status_nag_grand_spell_01")
+    grand_spell_status.nag_grand_spell_02 = cm:get_saved_value("grand_spell_status_nag_grand_spell_02")
+    grand_spell_status.nag_grand_spell_03 = cm:get_saved_value("grand_spell_status_nag_grand_spell_03")
+end
+-- rite_status = {
+--     nag_winds = false, -- TODO
+--     nag_death = false,
+--     nag_divinity = false,
+--     nag_man = false,
+--     nag_nagash = false,
+-- }
+
+-- quests_unlocked = {
+--     nag_rise_blyramid = false, 
+-- }
+
+-- revealed_objectives = {
+--     wh2_main_great_mortis_delta_black_pyramid_of_nagash = false,
+--     wh2_main_the_broken_teeth_nagashizar = false,
+--     wh2_main_marshes_of_madness_morgheim = false,
+--     wh2_main_devils_backbone_lahmia = false,
+--     wh2_main_land_of_the_dead_khemri = false,
+--     wh2_main_vampire_coast_the_awakening = false,
+--     wh_main_eastern_sylvania_castle_drakenhof = false,
+--     wh2_main_titan_peaks_ancient_city_of_quintex = false,
+-- }
+
+-- grand_spell_status = {
+--     nag_grand_spell_01 = false,
+--     nag_grand_spell_02 = false,
+--     nag_grand_spell_03 = false,
+-- }
 -- grand spells stuff
 local grand_spells_effect_bundle_key = {	"nag_ability_enable_endless_tomb",
                             "nag_ability_enable_batocalypse",
@@ -184,6 +234,7 @@ local cc = vlib:get_module("camp_counselor")
 function bdsm:trigger_bp_raise_mission()
     if not quests_unlocked.nag_rise_blyramid then
         quests_unlocked.nag_rise_blyramid = true
+        cm:set_saved_value("quests_unlocked_nag_rise_blyramid", quests_unlocked.nag_rise_blyramid)
         local mm = mission_manager:new(bdsm:get_faction_key(), "nag_bp_raise")
 
         mm:add_new_objective("SCRIPTED")
@@ -293,6 +344,24 @@ function bdsm:complete_bp_raise()
     revealed_objectives.wh2_main_vampire_coast_the_awakening = true
     revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof = true
     revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex = true
+    cm:set_saved_value("revealed_objectives_wh2_main_great_mortis_delta_black_pyramid_of_nagash", revealed_objectives.wh2_main_great_mortis_delta_black_pyramid_of_nagash)
+    cm:set_saved_value("revealed_objectives_wh2_main_the_broken_teeth_nagashizar", revealed_objectives.wh2_main_the_broken_teeth_nagashizar)
+    cm:set_saved_value("revealed_objectives_wh2_main_marshes_of_madness_morgheim", revealed_objectives.wh2_main_marshes_of_madness_morgheim)
+    cm:set_saved_value("revealed_objectives_wh2_main_devils_backbone_lahmia", revealed_objectives.wh2_main_devils_backbone_lahmia)
+    cm:set_saved_value("revealed_objectives_wh2_main_land_of_the_dead_khemri", revealed_objectives.wh2_main_land_of_the_dead_khemri)
+    cm:set_saved_value("revealed_objectives_wh2_main_vampire_coast_the_awakening", revealed_objectives.wh2_main_vampire_coast_the_awakening)
+    cm:set_saved_value("revealed_objectives_wh_main_eastern_sylvania_castle_drakenhof", revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof)
+    cm:set_saved_value("revealed_objectives_wh2_main_titan_peaks_ancient_city_of_quintex", revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex)
+    
+    local nag_fact = bdsm:get_faction_key()
+    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")
+    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_the_broken_teeth_nagashizar")
+    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_marshes_of_madness_morgheim")
+    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_devils_backbone_lahmia")
+    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_land_of_the_dead_khemri")
+    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_vampire_coast_the_awakening")
+    cm:make_region_visible_in_shroud(nag_fact, "wh_main_eastern_sylvania_castle_drakenhof")
+    cm:make_region_visible_in_shroud(nag_fact, "wh2_main_titan_peaks_ancient_city_of_quintex")
 
     -- kill the Sentinels completely
     local sentinels = cm:get_faction(sentinels_key)
@@ -499,6 +568,11 @@ function bdsm:unlock_rites_listeners()
         rite_status.nag_divinity = false -- working
         rite_status.nag_man = false -- working
         rite_status.nag_nagash = false -- working
+        cm:set_saved_value("rite_status_nag_winds", rite_status.nag_winds)
+        cm:set_saved_value("rite_status_nag_death", rite_status.nag_death)
+        cm:set_saved_value("rite_status_nag_divinity", rite_status.nag_divinity)
+        cm:set_saved_value("rite_status_nag_man", rite_status.nag_man)
+        cm:set_saved_value("rite_status_nag_nagash", rite_status.nag_nagash)
 
         local f = self:get_faction()
 
@@ -521,6 +595,7 @@ function bdsm:unlock_rites_listeners()
                 if not rite_status.nag_winds then
                     self:logf("MilitaryForceBuildingCompleteEvent!")
                     unlock_rite("nag_winds")
+                    cm:set_saved_value("rite_status_nag_winds", rite_status.nag_winds)
                 end
             end,
             true
@@ -540,14 +615,16 @@ function bdsm:unlock_rites_listeners()
             end,
             function(context)
                 if not rite_status.nag_death then
-                    local total = cm:get_saved_value("nag_death") or 0
+                    local total = cm:get_saved_value("nag_death_total") or 0
                     total = total + 1
 
                     if total >= 5 then
                         unlock_rite("nag_death")
+                        cm:set_saved_value("rite_status_nag_death", rite_status.nag_death)
+
                     else
                         --- TODO display in the ritual panel?
-                        cm:set_saved_value("nag_death", total)
+                        cm:set_saved_value("nag_death_total", total)
                     end
                 end
             end,
@@ -567,6 +644,7 @@ function bdsm:unlock_rites_listeners()
             function(context)
                 if not rite_status.nag_divinity then
                     unlock_rite("nag_divinity")
+                    cm:set_saved_value("rite_status_nag_divinity", rite_status.nag_divinity)
                 end
             end,
             false
@@ -584,6 +662,7 @@ function bdsm:unlock_rites_listeners()
             function(context)
                 if not rite_status.nag_man then
                     unlock_rite("nag_man")
+                    cm:set_saved_value("rite_status_nag_man", rite_status.nag_man)
                 end
             end,
             false
@@ -598,6 +677,7 @@ function bdsm:unlock_rites_listeners()
             function(context)
                 if not rite_status.nag_nagash then
                     unlock_rite("nag_nagash")
+                    cm:set_saved_value("rite_status_nag_nagash", rite_status.nag_nagash)
                 end
             end,
             false
@@ -612,6 +692,7 @@ function bdsm:unlock_rites_listeners()
             function(context)
                 if not rite_status.nag_nagash then
                     unlock_rite("nag_nagash")
+                    cm:set_saved_value("rite_status_nag_nagash", rite_status.nag_nagash)
                 end
             end,
             false
@@ -929,6 +1010,7 @@ function bdsm:trigger_rites_listeners()
             cc:add_pr_uic("nag_grand_spell_01", "ui/battle ui/ability_icons/nag_army_abilities_endless_tomb.png", bdsm:get_faction_key())
             cm:faction_add_pooled_resource(key, "nag_grand_spell_01", "nag_grand_spell_01_recharge", grand_spell_cost)            
             grand_spell_status.nag_grand_spell_01 = true
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_01", grand_spell_status.nag_grand_spell_01)
         end,
         true
     )
@@ -946,6 +1028,7 @@ function bdsm:trigger_rites_listeners()
             cc:add_pr_uic("nag_grand_spell_02", "ui/battle ui/ability_icons/nag_army_abilities_batocalypse.png", bdsm:get_faction_key())
             cm:faction_add_pooled_resource(key, "nag_grand_spell_02", "nag_grand_spell_02_recharge", grand_spell_cost)            
             grand_spell_status.nag_grand_spell_02 = true
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_02", grand_spell_status.nag_grand_spell_02)
         end,
         true
     )
@@ -963,6 +1046,7 @@ function bdsm:trigger_rites_listeners()
             cc:add_pr_uic("nag_grand_spell_03", "ui/battle ui/ability_icons/nag_army_abilities_pyramid_bombardment.png", bdsm:get_faction_key())
             cm:faction_add_pooled_resource(key, "nag_grand_spell_03", "nag_grand_spell_03_recharge", grand_spell_cost)            
             grand_spell_status.nag_grand_spell_03 = true
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_03", grand_spell_status.nag_grand_spell_03)
         end,
         true
     )
@@ -1184,6 +1268,30 @@ end
 
 cm:add_saving_game_callback(
     function(context)
+        cm:set_saved_value("rite_status_nag_winds", rite_status.nag_winds)
+        cm:set_saved_value("rite_status_nag_death", rite_status.nag_death)
+        cm:set_saved_value("rite_status_nag_divinity", rite_status.nag_divinity)
+        cm:set_saved_value("rite_status_nag_man", rite_status.nag_man)
+        cm:set_saved_value("rite_status_nag_nagash", rite_status.nag_nagash)
+
+        cm:set_saved_value("quests_unlocked_nag_rise_blyramid", quests_unlocked.nag_rise_blyramid)
+
+        cm:set_saved_value("revealed_objectives_wh2_main_great_mortis_delta_black_pyramid_of_nagash", revealed_objectives.wh2_main_great_mortis_delta_black_pyramid_of_nagash)
+        cm:set_saved_value("revealed_objectives_wh2_main_the_broken_teeth_nagashizar", revealed_objectives.wh2_main_the_broken_teeth_nagashizar)
+        cm:set_saved_value("revealed_objectives_wh2_main_marshes_of_madness_morgheim", revealed_objectives.wh2_main_marshes_of_madness_morgheim)
+        cm:set_saved_value("revealed_objectives_wh2_main_devils_backbone_lahmia", revealed_objectives.wh2_main_devils_backbone_lahmia)
+        cm:set_saved_value("revealed_objectives_wh2_main_land_of_the_dead_khemri", revealed_objectives.wh2_main_land_of_the_dead_khemri)
+        cm:set_saved_value("revealed_objectives_wh2_main_vampire_coast_the_awakening", revealed_objectives.wh2_main_vampire_coast_the_awakening)
+        cm:set_saved_value("revealed_objectives_wh_main_eastern_sylvania_castle_drakenhof", revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof)
+        cm:set_saved_value("revealed_objectives_wh2_main_titan_peaks_ancient_city_of_quintex", revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex)
+        
+        bdsm:logf("++++++ grand_spell_status_nag_grand_spell_01 save = %s", tostring(grand_spell_status.nag_grand_spell_01))
+
+        cm:set_saved_value("grand_spell_status_nag_grand_spell_01", grand_spell_status.nag_grand_spell_01)
+        cm:set_saved_value("grand_spell_status_nag_grand_spell_02", grand_spell_status.nag_grand_spell_02)
+        cm:set_saved_value("grand_spell_status_nag_grand_spell_03", grand_spell_status.nag_grand_spell_03)
+        bdsm:logf("++++++ grand_spell_status_nag_grand_spell_01 save = %s", tostring(cm:get_saved_value("grand_spell_status_nag_grand_spell_01")))
+
         cm:save_named_value("nag_rites", rite_status, context)
         cm:save_named_value("grand_spell_status", grand_spell_status, context)
         cm:save_named_value("revealed_objectives", revealed_objectives, context)     
@@ -1193,6 +1301,35 @@ cm:add_saving_game_callback(
 
 cm:add_loading_game_callback(
     function(context)
+        cm:set_saved_value("nagash_stuff_loaded", true)
+        -- local rite_status = {
+        --     nag_winds = false, -- TODO
+        --     nag_death = false,
+        --     nag_divinity = false,
+        --     nag_man = false,
+        --     nag_nagash = false,
+        -- }
+        
+        -- local quests_unlocked = {
+        --     nag_rise_blyramid = false, 
+        -- }
+        
+        -- local revealed_objectives = {
+        --     wh2_main_great_mortis_delta_black_pyramid_of_nagash = false,
+        --     wh2_main_the_broken_teeth_nagashizar = false,
+        --     wh2_main_marshes_of_madness_morgheim = false,
+        --     wh2_main_devils_backbone_lahmia = false,
+        --     wh2_main_land_of_the_dead_khemri = false,
+        --     wh2_main_vampire_coast_the_awakening = false,
+        --     wh_main_eastern_sylvania_castle_drakenhof = false,
+        --     wh2_main_titan_peaks_ancient_city_of_quintex = false,
+        -- }
+        
+        -- local grand_spell_status = {
+        --     nag_grand_spell_01 = false,
+        --     nag_grand_spell_02 = false,
+        --     nag_grand_spell_03 = false,
+        -- }
         rite_status = cm:load_named_value("nag_rites", rite_status, context)
         revealed_objectives = cm:load_named_value("revealed_objectives", revealed_objectives, context)
         grand_spell_status = cm:load_named_value("grand_spell_status", grand_spell_status, context)

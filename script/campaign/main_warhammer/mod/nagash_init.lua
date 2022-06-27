@@ -666,13 +666,13 @@ local function init_listeners()
 
                         cm:zero_action_points(nag_str)
                         
-                        local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
-                        mort:spawn()
-                        kill_faction("wh2_dlc09_tmb_followers_of_nagash")
+                        -- local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
+                        -- mort:spawn()
+                        -- kill_faction("wh2_dlc09_tmb_followers_of_nagash")
                         -- local filter = {faction=bdsm:get_faction_key()}
                         -- cc:set_techs_lock_state("nag_mortarch_arkhan_unlock", "unlocked", "", filter)
                         cm:unlock_technology(nag_fact, "nag_mortarch_arkhan_unlock")
-                        mort:spawn()
+                        -- mort:spawn()
 
                         --- make BP visible
                         cm:make_region_visible_in_shroud(nag_fact, "wh2_main_great_mortis_delta_black_pyramid_of_nagash")
@@ -743,6 +743,13 @@ local function init_listeners()
 end
 
 local function init()
+    if cm:is_new_game() then
+        cm:set_saved_value("nagash_stuff_loaded", false)
+    end
+    if cm:get_saved_value("nagash_stuff_loaded") then
+        cm:set_saved_value("nagash_stuff_loaded", false)
+        bdsm:setup_structures()        
+    end
     local faction = cm:get_faction(faction_key)
     --- player only
     if not faction:is_human() then return end

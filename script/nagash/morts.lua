@@ -446,11 +446,11 @@ local function mortarch_unlock_listeners()
 
             --- TODO make sure mort:spawn() allows for spawning on map or spawning in pool
             local mort = bdsm:get_mortarch_with_key(mort_key)
+            mort:spawn()
 
-            if mort_key ~= "nag_mortarch_arkhan" then
-                mort:spawn()
+            if mort_key == "nag_mortarch_arkhan" then
+                kill_faction("wh2_dlc09_tmb_followers_of_nagash")                
             end
-
             if mort_key == "nag_mortarch_vlad" then
                 kill_faction("wh_main_vmp_schwartzhafen")
             end
