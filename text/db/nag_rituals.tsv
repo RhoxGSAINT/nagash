@@ -23,4 +23,4 @@ ritual_additional_ui_explanation_texts_onscreen_text_nag_man		true
 rituals_display_name_nag_nagash	Dominion of Nagash	true
 rituals_description_nag_nagash	This settlement has been blessed with Nagash presence and received his blessing.	true
 campaign_group_rituals_unlock_text_nagash_featurenag_nagash	Raise the Black Pyramid	true
-ritual_additional_ui_explanation_texts_onscreen_text_nag_nagash	Make sure Nagash is in your region you want to bless, this rite will change region ungrowing region into growing one.	true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_nagash	Make sure Nagash is in your region you want to bless, this rite will change ungrowing region into growing one. (Can be only applied once per province)	true

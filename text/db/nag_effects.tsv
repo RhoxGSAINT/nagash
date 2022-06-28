@@ -118,7 +118,7 @@ effects_description_nag_effect_self_krell_melee_damage_versus_nor_chs_bst	Weapon
 effects_description_nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	Charge bonus: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_luthor_missile_strength_arty	Missile strength: %+n% for all Artillery units	true
 effects_description_nag_effect_self_luthor_missile_strength_gunnery_carronade	Missile strength: %+n% for Zombie Pirate Gunnery Mob and Carronade units	true
-effects_description_nag_effect_enable_mount_arkhan_abyssal	Mount: Razark (Abyssal Terror)	true
+effects_description_nag_effect_enable_mount_arkhan_abyssal	Mount: Razarak (Abyssal Terror)	true
 effects_description_nag_effect_enable_mount_mannfred_abyssal	Mount: Ashigaroth (Abyssal Terror)	true
 effects_description_nag_effect_enable_mount_neferata_abyssal	Mount: Nagadron (Abyssal Terror)	true
 effects_description_nag_effect_force_army_battle_melee_attack_all_defending	Melee attack: %+n for all units when defending	true
