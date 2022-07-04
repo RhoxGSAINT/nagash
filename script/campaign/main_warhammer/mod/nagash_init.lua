@@ -217,7 +217,7 @@ local function init_listeners()
 
             if has_warpstone_mine(region) then
                 --- TODO calculate chance
-                local chance = 20
+                local chance = 40
     
                 local val = cm:random_number(100)
                 if val <= chance then

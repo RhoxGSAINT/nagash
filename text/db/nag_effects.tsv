@@ -303,7 +303,7 @@ effects_description_nag_effect_enable_frenzy_grave_guard	Passive ability: "Frenz
 effects_description_		true
 effects_description_nag_ritual_attack_warning_dummy	[[col:yellow]]This location is going to be attacked[[/col]]	true
 effects_description_nag_ritual_attack_warning_dummy_final	All important locations are going to be attacked	true
-effects_description_nag_ritual_victory_dummy	Required for victory (All your base are belong to Nagash)	true
+effects_description_nag_ritual_victory_dummy	Required for victory	true
 effects_description_nag_effect_husk_can_tunnel_dummy	Nagash has access to Nagashizzar's underways in his early husk form	true
 effects_description_nag_ability_enable_batocalypse	Army ability: "Apocalyptic Swarm"	true
 effects_description_nag_effect_enable_ability_guardian_ghouls_blood_knights	Passive ability: "Guardian" for Crypt Ghouls and Blood Knights	true
@@ -349,3 +349,4 @@ effects_description_nag_mannfred_unit_effect	Cooldown : %n% Lore of Vampires for
 effects_description_nag_krell_unit_effect	Weapon strength: %+n% for Krell	true
 effects_description_nag_neferata_unit_effect	Grants Stalk to Neferata	true
 effects_description_nag_vlad_unit_effect	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded" for Vlad	true
+effects_description_nag_undead_corruption_world_dummy	Vampiric corruption: %+n (Whole World)	true

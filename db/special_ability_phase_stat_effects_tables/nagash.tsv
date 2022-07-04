@@ -16,8 +16,8 @@ nag_unit_contact_screaming_blade	stat_melee_damage_ap	0.85	mult
 nag_unit_contact_screaming_blade	stat_melee_damage_base	0.85	mult
 nag_army_abilities_batocalypse_02	stat_morale	-5.0	add
 nag_army_abilities_batocalypse_02	scalar_speed	0.8	mult
-nag_army_abilities_batocalypse_02	stat_melee_defence	0.8	mult
-nag_army_abilities_batocalypse_02	scalar_missile_range	0.5	mult
+nag_army_abilities_batocalypse_02	stat_melee_attack	0.2	mult
+nag_army_abilities_batocalypse_02	scalar_missile_range	0.2	mult
 nag_nagash_abilities_morikhane_black_armour	scalar_speed	0.3	mult
 nag_nagash_abilities_morikhane_black_armour	scalar_charge_speed	0.3	mult
 nag_nagash_abilities_morikhane_black_armour	stat_resistance_all	50.0	add

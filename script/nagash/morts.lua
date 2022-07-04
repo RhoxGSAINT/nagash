@@ -324,12 +324,19 @@ local function trigger_mortarch_unlock_missions()
 
     logf("triggerin mort unlock missions")
 
-    -- Luthor's mission (go to Vampire Coast)
-
+    -- Luthor's mission (go to Vampire Coast)   
     logf("pre luthor")
     do
         local mort = "nag_mortarch_luthor"
         cm:trigger_mission(key, mort.."_unlock", true, false, true)
+        -- local mm = mission_manager:new(key, mort.."_unlock")
+        -- mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
+        -- mm:add_condition("faction " .. key);
+        -- mm:add_condition("building_level nag_outpost_main_port_1");
+        -- mm:add_condition("total 1");
+        
+        -- mm:add_payload("money 1000")
+        -- mm:trigger()
     end
     
     logf("pre neffy")
@@ -340,7 +347,7 @@ local function trigger_mortarch_unlock_missions()
         local mm = mission_manager:new(key, mort.."_unlock")
         mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
         mm:add_condition("faction " .. key);
-        mm:add_condition("building_level nag_outpost_special_nagashizzar_4");
+        mm:add_condition("building_level nag_outpost_special_nagashizzar_3");
         mm:add_condition("total 1");
         
         mm:add_payload("money 1000")
@@ -375,9 +382,13 @@ local function trigger_mortarch_unlock_missions()
         local mort = "nag_mortarch_mannfred"
         
         local mm = mission_manager:new(key, mort.."_unlock")
-        mm:add_new_objective("DESTROY_FACTION")
-        mm:add_condition("faction wh_main_vmp_vampire_counts")
-        mm:add_condition("confederation_valid false");
+        mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
+        mm:add_condition("faction " .. key);
+        mm:add_condition("building_level nag_bpyramid_main_obelisk_2");
+        mm:add_condition("total 1");
+        -- mm:add_new_objective("DESTROY_FACTION")
+        -- mm:add_condition("faction wh_main_vmp_vampire_counts")
+        -- mm:add_condition("confederation_valid false");
 
         mm:add_payload("money 1000")
 

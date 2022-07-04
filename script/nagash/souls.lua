@@ -639,7 +639,7 @@ function bdsm:unlock_rites_listeners()
             "CharacterRankUp",
             function(context)
                 local character = context:character()
-                return character:faction():name() == bdsm:get_faction_key() and (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:rank() >= 12
+                return character:faction():name() == bdsm:get_faction_key() and (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:rank() >= 8
             end,
             function(context)
                 if not rite_status.nag_divinity then
@@ -726,26 +726,7 @@ function bdsm:trigger_rites_listeners()
             return context:ritual():ritual_key() == "nag_divinity"
         end,
         function(context)
-            -- TODO
-            -- apply a dummy effect bundle to all human factions - this is just for the sake of player visibility
-            local faction_list = cm:model():world():faction_list();
-            
-            -- for i = 0, faction_list:num_items() - 1 do
-            --     local current_faction = faction_list:item_at(i);
-                
-            --     if current_faction:is_human() then
-            --         local effect_bundle = "wh_main_bundle_faction_chaos_rises";
-                    
-            --         if current_faction:culture() == "wh_dlc03_bst_beastmen" then
-            --             effect_bundle = "wh_main_bundle_faction_chaos_rises_good";
-            --         end;
-                    
-            --         cm:apply_effect_bundle(effect_bundle, current_faction:name(), 0)
-            --     end;
-            -- end;
-            
-            -- apply effect bundles to all province capitals that actually give the Chaos corruption effect
-            -- if this is done faction wide then provinces can get multiple corruption effects
+
             local region_list = cm:model():world():region_manager():region_list();
             
             for i = 0, region_list:num_items() - 1 do
