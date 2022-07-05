@@ -118,3 +118,7 @@ id	mission_key	option_key	value
 8845227	nag_mortarch_neferata_event_3	VAR_OBJECTIVE_AMOUNT_INT	15
 8845228	nag_bp_raise	VAR_CHANCE	100
 8845229	nag_bp_raise	GEN_TARGET_NONE	
+8845230	nag_waprstone_mines	VAR_CHANCE	100
+8845231	nag_waprstone_mines	GEN_TARGET_NONE	
+8845232	nag_endgame_capture	VAR_CHANCE	100
+8845233	nag_endgame_capture	GEN_TARGET_NONE	

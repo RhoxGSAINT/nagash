@@ -72,3 +72,7 @@ missions_localised_title_nag_bp_raise	Raise the Black Pyramid (Nagash Rising)	tr
 missions_localised_description_nag_bp_raise	Cast your eyes to your original home - empower the Black Pyramid, return it to the skies, and regain your ancient power!\\n\\n[[col:red]]NOTE: This will begin a series of battles as others try to stop you from raising 	true
 missions_localised_title_nag_bp_survive	Survive the Onslaught (Nagash Rising)	true
 missions_localised_description_nag_bp_survive	Others come to stop your ritual to empower the Black Pyramid - hold them back!	true
+missions_localised_title_nag_waprstone_mines	Capture warpstone mines	true
+missions_localised_description_nag_waprstone_mines	You need more warpstone and warpstone mines can be found in these settlements.	true
+missions_localised_title_nag_endgame_capture	Nagash Endgame	true
+missions_localised_description_nag_endgame_capture	These settlements are required for Nagash ascension to godhood.	true

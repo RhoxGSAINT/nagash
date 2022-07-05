@@ -42,3 +42,5 @@ nag_mortarch_vlad_event_2	false			SCRIPTED	rom_event_mission.png	tmb/generic	tru
 nag_mortarch_vlad_event_3	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
 nag_bp_raise	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
 nag_bp_survive	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nag_waprstone_mines	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false
+nag_endgame_capture	false			SCRIPTED	rom_event_mission.png	tmb/generic	true	Military		0	0	false	0.0		false	false

@@ -362,6 +362,36 @@ function bdsm:complete_bp_raise()
     cm:make_region_visible_in_shroud(nag_fact, "wh2_main_vampire_coast_the_awakening")
     cm:make_region_visible_in_shroud(nag_fact, "wh_main_eastern_sylvania_castle_drakenhof")
     cm:make_region_visible_in_shroud(nag_fact, "wh2_main_titan_peaks_ancient_city_of_quintex")
+    
+    local mm = mission_manager:new(nag_fact, "nag_endgame_capture")
+    mm:add_new_objective("CAPTURE_REGIONS");
+    mm:add_condition("region wh2_main_great_mortis_delta_black_pyramid_of_nagash");
+    mm:add_condition("region wh2_main_the_broken_teeth_nagashizar");
+    mm:add_condition("region wh2_main_marshes_of_madness_morgheim");
+    mm:add_condition("region wh2_main_devils_backbone_lahmia");
+    mm:add_condition("region wh2_main_land_of_the_dead_khemri");
+    mm:add_condition("region wh2_main_vampire_coast_the_awakening");
+    mm:add_condition("region wh_main_eastern_sylvania_castle_drakenhof");
+    mm:add_condition("region wh2_main_titan_peaks_ancient_city_of_quintex");
+    mm:add_payload("money 1000");
+    mm:trigger()
+
+
+    local mm = mission_manager:new(nag_fact, "nag_waprstone_mines")
+    mm:add_new_objective("CAPTURE_REGIONS");
+    mm:add_condition("region wh2_main_southlands_worlds_edge_mountains_karak_zorn");
+    mm:add_condition("region wh_main_desolation_of_nagash_karak_azul");
+    mm:add_condition("region wh2_main_the_wolf_lands_crookback_mountain");
+    mm:add_condition("region wh2_main_gnoblar_country_flayed_rock");
+    mm:add_condition("region wh_main_the_vaults_karak_izor");
+    mm:add_condition("region wh2_main_skavenblight_skavenblight");
+    mm:add_condition("region wh2_main_southern_dark_lands_desolation_of_drakenmoor");
+    mm:add_condition("region wh2_main_hell_pit_hell_pit");
+    mm:add_condition("region wh_main_gianthome_mountains_kraka_drak");
+    mm:add_condition("region wh2_main_deadwood_the_frozen_city");
+    mm:add_condition("region wh2_main_titan_peaks_ancient_city_of_quintex");
+    mm:add_payload("money 1000");
+    mm:trigger()
 
     -- kill the Sentinels completely
     local sentinels = cm:get_faction(sentinels_key)
@@ -1181,7 +1211,7 @@ function bdsm:trigger_rites_listeners()
         "NagashEndWorldTechs",
         "ResearchCompleted",
         function(context)
-            return context:technology() == "nag_nagash_ultimate" or
+            return context:technology() == "nag_nagash_ultimate_preprartion" or
             context:technology() == "nag_location_nagashizzar" or
             context:technology() == "nag_location_mourkain" or
             context:technology() == "nag_location_lahmia" or
@@ -1193,25 +1223,25 @@ function bdsm:trigger_rites_listeners()
         function(context)
             self:logf("++++++tech invasions !")
             tech_key = context:technology()
-            if tech_key == "nag_location_nagashizzar" or tech_key == "nag_nagash_ultimate" then
+            if tech_key == "nag_location_nagashizzar" or tech_key == "nag_nagash_ultimate_preprartion" then
                 throw_enemies_at_settlement("wh2_main_the_broken_teeth_nagashizar", "nag_location_nagashizzar")
             end
-            if tech_key == "nag_location_mourkain" or tech_key == "nag_nagash_ultimate" then
+            if tech_key == "nag_location_mourkain" or tech_key == "nag_nagash_ultimate_preprartion" then
                 throw_enemies_at_settlement("wh2_main_marshes_of_madness_morgheim", "nag_location_mourkain")
             end
-            if tech_key == "nag_location_lahmia" or tech_key == "nag_nagash_ultimate" then
+            if tech_key == "nag_location_lahmia" or tech_key == "nag_nagash_ultimate_preprartion" then
                 throw_enemies_at_settlement("wh2_main_devils_backbone_lahmia", "nag_location_lahmia")
             end
-            if tech_key == "nag_location_khemri" or tech_key == "nag_nagash_ultimate" then
+            if tech_key == "nag_location_khemri" or tech_key == "nag_nagash_ultimate_preprartion" then
                 throw_enemies_at_settlement("wh2_main_land_of_the_dead_khemri", "nag_location_khemri")
             end
-            if tech_key == "nag_location_awakening" or tech_key == "nag_nagash_ultimate" then
+            if tech_key == "nag_location_awakening" or tech_key == "nag_nagash_ultimate_preprartion" then
                 throw_enemies_at_settlement("wh2_main_vampire_coast_the_awakening", "nag_location_awakening")
             end
-            if tech_key == "nag_location_drakenhof" or tech_key == "nag_nagash_ultimate" then
+            if tech_key == "nag_location_drakenhof" or tech_key == "nag_nagash_ultimate_preprartion" then
                 throw_enemies_at_settlement("wh_main_eastern_sylvania_castle_drakenhof", "nag_location_drakenhof")
             end
-            if tech_key == "nag_location_quintex" or tech_key == "nag_nagash_ultimate" then
+            if tech_key == "nag_location_quintex" or tech_key == "nag_nagash_ultimate_preprartion" then
                 throw_enemies_at_settlement("wh2_main_titan_peaks_ancient_city_of_quintex", "nag_location_quintex")
             end
          
