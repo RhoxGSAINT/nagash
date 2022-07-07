@@ -430,7 +430,14 @@ local function mortarch_unlock_listeners()
         function(context)
             local key = context:mission():mission_record_key()
             unlock(key)
-
+            -- if key == "nag_mortarch_vlad_unlock" then
+            --     local fact = bdsm:get_faction()
+            --     local nagash = bdsm:get_faction_leader()
+            --     local nag_mf = nagash:military_force()
+            --     x = 691,
+            --     y = 419
+            --     cm:spawn_agent_at_military_force(fact, nag_mf, "dignitary", "nag_mortarch_isabella")
+            -- end
             -- --- Unlock the tech!
             -- cc:set_techs_lock_state(key, "unlocked", "", {faction=bdsm:get_faction_key()})
         end,
@@ -463,7 +470,36 @@ local function mortarch_unlock_listeners()
                 kill_faction("wh2_dlc09_tmb_followers_of_nagash")                
             end
             if mort_key == "nag_mortarch_vlad" then
-                kill_faction("wh_main_vmp_schwartzhafen")
+                kill_faction("wh_main_vmp_schwartzhafen")    
+                local faction_key = bdsm:get_faction_key()
+                local faction_obj = cm:get_faction(faction_key)
+                local faction_leader = faction_obj:faction_leader()
+                local cqi = faction_leader:command_queue_index()
+                local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
+                                    faction_key,
+                                    691,
+                                    419,
+                                    true,
+                                    5
+                                )   
+                cm:create_agent(
+                                    faction_key,
+                                    "dignitary",
+                                    "nag_mortarch_isabella",
+                                    ax,
+                                    ay,
+                                    false,
+                                    function(cqi)
+                            
+                                    end
+                                )  
+                                    -- local fact = bdsm:get_faction()
+                                    -- local nagash = bdsm:get_faction_leader()
+                                    -- local nag_mf = nagash:military_force()
+                                    -- x = 691,
+                                    -- y = 419
+                                    -- cm:spawn_agent_at_military_force(fact, nag_mf, "dignitary", "nag_mortarch_isabella")
+    
             end
             if mort_key == "nag_mortarch_mannfred" then
                 kill_faction("wh_main_vmp_vampire_counts")

@@ -54,6 +54,7 @@ local luthor = {
         "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
         "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
         "nag_nagashi_guard_halb",
+        "nag_vanilla_cst_mon_necrofex_colossus_0",
     },
 
     events = {
@@ -115,7 +116,9 @@ local vlad = {
         "nag_vanilla_vmp_mon_fell_bats",
         "nag_vanilla_vmp_cav_black_knights_3",
         "nag_vanilla_vmp_mon_vargheists",
+        "nag_vanilla_vmp_mon_vargheists",
         "nag_nagashi_guard_halb",
+        "nag_vanilla_vmp_cav_blood_knights_0",
     },
 
     events = {
@@ -168,6 +171,8 @@ local mannfred = {
         "nag_vanilla_vmp_inf_skeleton_warriors_1",
         "nag_vanilla_vmp_inf_skeleton_warriors_1",
         "nag_vanilla_vmp_cav_black_knights_0",
+        "nag_vanilla_vmp_cav_black_knights_0",
+        "nag_vanilla_vmp_mon_varghulf",
         "nag_vanilla_vmp_mon_varghulf",
         "nag_nagashi_guard",
     },
@@ -258,9 +263,12 @@ local neferata = {
         "nag_vanilla_vmp_inf_skeleton_warriors_0",
         "nag_vanilla_vmp_inf_skeleton_warriors_0",
         "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_tmb_inf_tomb_guard_0",
         "nag_vanilla_tmb_inf_tomb_guard_0",
         "nag_vanilla_vmp_mon_fell_bats",
-        "nag_vanilla_vmp_cav_blood_knights_0",
+        "nag_nagashi_guard_halb",
         "nag_nagashi_guard_halb",
     },
 
@@ -306,6 +314,8 @@ local krell = {
         "nag_vanilla_vmp_inf_skeleton_warriors_1",
         "nag_vanilla_vmp_inf_grave_guard_0",
         "nag_vanilla_vmp_inf_grave_guard_0",
+        "nag_vanilla_vmp_inf_grave_guard_0",
+        "nag_vanilla_vmp_inf_grave_guard_1",
         "nag_vanilla_vmp_inf_grave_guard_1",
         "nag_vanilla_vmp_inf_grave_guard_1",
         "nag_nagashi_guard",

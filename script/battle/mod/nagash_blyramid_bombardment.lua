@@ -6,6 +6,8 @@ local current_behemoth = nil
 local spawn_blyramid = 0;
 local blyramid_anchor_coords = nil;
 
+
+
 bm = battle_manager:new(empire_battle:new());
 -- local gc = generated_cutscene:new(true);
 
@@ -33,7 +35,9 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 			if current_unit then
 				local type_key = current_unit:type();
 				local su = script_unit:new(army, i)
-
+				-- out("hello battle")
+				-- gb.sm:trigger_message("testus");
+				
 				-- spawns blyramid and remembers coordinates
 				if (type_key == "nag_nagash_boss") and spawn_blyramid < 1 and gb:has_battle_started() then
 					-- current_unit:position();
@@ -49,12 +53,13 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 				-- sends units summoned diretly at the enemy and takes control away from player
 				if (type_key == "nag_inf_skeleton_warriors_endless_tomb_summoned") and gb:has_battle_started() then
 					
-					
+					-- out("script nag_inf_skeleton_warriors_endless_tomb_summoned")
 					-- script_unit:new(current_army, unit_index_in_army);
 					-- local uc = army:create_unit_controller();
 					-- uc:add_units(current_unit);
 					-- unitgroup.sunits:item(i);
-					if current_unit:is_idle() then						
+					if current_unit:is_idle() then			
+						-- out("script nag_inf_skeleton_warriors_endless_tomb_summoned not mowing")			
 						endless_tomb_warrior_pos = current_unit:position();	
 						closest_unit = get_closest_standing_unit(enemy_armies, endless_tomb_warrior_pos)
 						closest_unit_pos = closest_unit:position();
