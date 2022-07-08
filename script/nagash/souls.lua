@@ -377,21 +377,21 @@ function bdsm:complete_bp_raise()
     mm:trigger()
 
 
-    local mm = mission_manager:new(nag_fact, "nag_waprstone_mines")
-    mm:add_new_objective("CAPTURE_REGIONS");
-    mm:add_condition("region wh2_main_southlands_worlds_edge_mountains_karak_zorn");
-    mm:add_condition("region wh_main_desolation_of_nagash_karak_azul");
-    mm:add_condition("region wh2_main_the_wolf_lands_crookback_mountain");
-    mm:add_condition("region wh2_main_gnoblar_country_flayed_rock");
-    mm:add_condition("region wh_main_the_vaults_karak_izor");
-    mm:add_condition("region wh2_main_skavenblight_skavenblight");
-    mm:add_condition("region wh2_main_southern_dark_lands_desolation_of_drakenmoor");
-    mm:add_condition("region wh2_main_hell_pit_hell_pit");
-    mm:add_condition("region wh_main_gianthome_mountains_kraka_drak");
-    mm:add_condition("region wh2_main_deadwood_the_frozen_city");
-    mm:add_condition("region wh2_main_titan_peaks_ancient_city_of_quintex");
-    mm:add_payload("money 1000");
-    mm:trigger()
+    local mm_1 = mission_manager:new(nag_fact, "nag_waprstone_mines")
+    mm_1:add_new_objective("CAPTURE_REGIONS");
+    mm_1:add_condition("region wh2_main_southlands_worlds_edge_mountains_karak_zorn");
+    mm_1:add_condition("region wh_main_desolation_of_nagash_karak_azul");
+    mm_1:add_condition("region wh2_main_the_wolf_lands_crookback_mountain");
+    mm_1:add_condition("region wh2_main_gnoblar_country_flayed_rock");
+    mm_1:add_condition("region wh_main_the_vaults_karak_izor");
+    mm_1:add_condition("region wh2_main_skavenblight_skavenblight");
+    mm_1:add_condition("region wh2_main_southern_dark_lands_desolation_of_drakenmoor");
+    mm_1:add_condition("region wh2_main_hell_pit_hell_pit");
+    mm_1:add_condition("region wh_main_gianthome_mountains_kraka_drak");
+    mm_1:add_condition("region wh2_main_deadwood_the_frozen_city");
+    mm_1:add_condition("region wh2_main_titan_peaks_ancient_city_of_quintex");
+    mm_1:add_payload("money 1000");
+    mm_1:trigger()
 
     -- kill the Sentinels completely
     local sentinels = cm:get_faction(sentinels_key)
@@ -1190,20 +1190,69 @@ function bdsm:trigger_rites_listeners()
             true
     )
     
-    local function throw_enemies_at_settlement(setttlement_key, tech_key)
+    local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_faction, faction_type)
         -- spawns markers which will later spawn invasion armies
         self:logf("++++++tech invasions throw_enemies_at_settlement !")
         local num = cm:random_number(5, 4)
-        local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
-        marker:add_interaction_event("nag_ritual_army_interaction")
-        marker:add_timeout_event(tech_key)
+        local nag_key = bdsm:get_faction_key()
+        -- local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 5, 1, bdsm:get_faction_key(), "", true)
+        -- local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
+        -- marker:add_interaction_event("nag_ritual_army_interaction")
+        -- marker:add_timeout_event(tech_key)
 
         --- TODO add despawn event feed
 
         for i = 1, num do
             local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), setttlement_key, false, true, cm:random_number(24, 12))
-            marker:spawn(tech_key..i, x, y)
+            -- marker:spawn(tech_key..i, x, y)
+            local region_key = setttlement_key
+            -- local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+            local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y
+    
+            local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, faction_type,  19, 5, true, false)
+    
+            local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+            local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+            -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+            invasion_object:set_target("REGION", region_key, nag_key)
+            invasion_object:add_aggro_radius(25, {nag_key}, 1)
+            invasion_object:start_invasion(true,true,false,false)
         end
+
+
+        ----==========
+        -- local function tech_army_spawner(context, location_key)
+        --     local marker_ref = context.stored_table.marker_ref
+        --     local instance_ref = context.stored_table.instance_ref
+        --     local nag_key = bdsm:get_faction_key()
+    
+        --     --use the instance ref to grab the x-y-coords so we know where to spawn
+        --     local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
+    
+        --     --- TODO trigger invasion!
+        --     -- local current_ritual = cm:get_saved_value("nag_ritual_current")
+    
+        --     --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
+        --     --- TODO get all these details in a nicer fashion
+        --     --- TODO target BP
+        --     bdsm:logf("++++++tech invasions tech_army_spawner 02 !")
+        --     -- current_ritual = location_key
+        --     local region_key = location_key
+        --     local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+        --     local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y
+    
+        --     local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 5, true, false)
+    
+        --     local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+        --     local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+        --     -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+        --     invasion_object:set_target("REGION", region_key, nag_key)
+        --     invasion_object:add_aggro_radius(25, {nag_key}, 1)
+        --     invasion_object:start_invasion(true,true,false,false)
+        --     bdsm:logf("++++++tech invasions region_key = %s;nag_key = %s", region_key, nag_key)
+        --     bdsm:logf("++++++tech invasions tech_army_spawner 03 !")
+        -- end
+        ----=============
     end
 
     core:add_listener(
@@ -1223,26 +1272,27 @@ function bdsm:trigger_rites_listeners()
         function(context)
             self:logf("++++++tech invasions !")
             tech_key = context:technology()
+
             if tech_key == "nag_location_nagashizzar" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh2_main_the_broken_teeth_nagashizar", "nag_location_nagashizzar")
+                throw_enemies_at_settlement("wh2_main_the_broken_teeth_nagashizar", "nag_location_nagashizzar", "wh2_dlc13_skv_skaven_invasion", "wh2_main_sc_skv_skaven")
             end
             if tech_key == "nag_location_mourkain" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh2_main_marshes_of_madness_morgheim", "nag_location_mourkain")
+                throw_enemies_at_settlement("wh2_main_marshes_of_madness_morgheim", "nag_location_mourkain", "wh2_dlc13_grn_greenskins_invasion", "wh_main_sc_grn_greenskins")
             end
             if tech_key == "nag_location_lahmia" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh2_main_devils_backbone_lahmia", "nag_location_lahmia")
+                throw_enemies_at_settlement("wh2_main_devils_backbone_lahmia", "nag_location_lahmia", "wh2_dlc13_bst_beastmen_invasion", "wh_dlc03_sc_bst_beastmen")
             end
             if tech_key == "nag_location_khemri" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh2_main_land_of_the_dead_khemri", "nag_location_khemri")
+                throw_enemies_at_settlement("wh2_main_land_of_the_dead_khemri", "nag_location_khemri", "wh2_dlc16_grn_savage_invasion", "wh_main_sc_grn_savage_orcs")
             end
             if tech_key == "nag_location_awakening" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh2_main_vampire_coast_the_awakening", "nag_location_awakening")
+                throw_enemies_at_settlement("wh2_main_vampire_coast_the_awakening", "nag_location_awakening", "wh2_dlc16_emp_colonist_invasion", "wh_main_sc_emp_empire")
             end
             if tech_key == "nag_location_drakenhof" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh_main_eastern_sylvania_castle_drakenhof", "nag_location_drakenhof")
+                throw_enemies_at_settlement("wh_main_eastern_sylvania_castle_drakenhof", "nag_location_drakenhof", "wh2_dlc16_emp_empire_invasion", "wh_main_sc_emp_empire")
             end
             if tech_key == "nag_location_quintex" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh2_main_titan_peaks_ancient_city_of_quintex", "nag_location_quintex")
+                throw_enemies_at_settlement("wh2_main_titan_peaks_ancient_city_of_quintex", "nag_location_quintex", "wh2_dlc13_nor_norsca_invasion", "wh_main_sc_nor_norsca")
             end
          
         end,
