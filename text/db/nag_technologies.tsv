@@ -60,7 +60,7 @@ technologies_onscreen_name_nag_mortarch_mannfred_event_3	Begrudging Ally	false
 technologies_onscreen_name_nag_mannfred_proclamation	Mortarch Consolidation	false
 technologies_onscreen_name_nag_mannfred_archai	Bestow the Archai	false
 technologies_onscreen_name_nag_location_nagashizzar	Nagashizzar	false
-technologies_onscreen_name_nag_location_mourkain	Mourkain	false
+technologies_onscreen_name_nag_location_mourkain	Morgheim	false
 technologies_onscreen_name_nag_location_lahmia	Lahmia	false
 technologies_onscreen_name_nag_location_khemri	Khemri	false
 technologies_onscreen_name_nag_location_awakening	The Awakening	false
@@ -83,9 +83,9 @@ technologies_short_description_nag_arkhan_battle_2	"Mercenary, they call me. Wel
 technologies_short_description_nag_arkhan_battle_3	Old friends. Treacherous they may be, selfish, yes, but with the proper leverage...  (Building can be found in risen Black Pyramid)	false
 technologies_short_description_nag_arkhan_proclamation	My Master!	false
 technologies_short_description_nag_arkhan_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
-technologies_short_description_nag_krell_battle_1	And it is not just the Legion who is doomed. (Building can be found in Mourkain)	false
-technologies_short_description_nag_krell_battle_2	Undead troops hardly cheer when their leader is the first in the melee, but somehow it all counts. (Building can be found in Mourkain)	false
-technologies_short_description_nag_krell_battle_3	An armoured gauntlet pointed at everything living, and unliving under the wrong banners. (Building can be found in Mourkain)	false
+technologies_short_description_nag_krell_battle_1	And it is not just the Legion who is doomed. (Building can be found in Morgheim)	false
+technologies_short_description_nag_krell_battle_2	Undead troops hardly cheer when their leader is the first in the melee, but somehow it all counts. (Building can be found in Morgheim)	false
+technologies_short_description_nag_krell_battle_3	An armoured gauntlet pointed at everything living, and unliving under the wrong banners. (Building can be found in Morgheim)	false
 technologies_short_description_nag_mortarch_krell_event_1	Krell used to collect skulls for the throne of his previous master. Now he adds them to the armies of the Great Necromancer.	false
 technologies_short_description_nag_mortarch_krell_event_2	As cold and devoid of emotion as he is, Krell will still challenge the mightiest foes to prove his mettle.	false
 technologies_short_description_nag_mortarch_krell_event_3	The Black Axe rarely stays unstained with the scarlet of blood and gore. Its tally is numberless.	false

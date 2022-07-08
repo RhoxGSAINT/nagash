@@ -330,7 +330,7 @@ effects_description_nag_effect_force_unit_stat_melee_attack_versus_vampires	Mele
 effects_description_nag_effect_force_unit_stat_melee_attack_versus_wood_elves	Melee attack: %+n when fighting against Wood Elves	true
 effects_description_nag_effect_climate_dummy	Most regions are suitable, but only [[img:res_nag_coast]][[/img]][[img:res_nag_counts]][[/img]][[img:res_nag_nagash]][[/img]][[img:res_nag_nehek]][[/img]] locations are valuable	false
 effects_description_nag_effect_diplomatic_relations_living	Diplomatic relations: %+n with all Non-Undead factions	true
-effects_description_nag_effect_diplomatic_relations_humans	Diplomatic relations: %+n with all Human factions	true
+effects_description_nag_effect_diplomatic_relations_humans	Diplomatic relations: %+n with Empire	true
 effects_description_nag_effect_missile_resistance_vlad_isa	Missile resistance: %n% for Vlad and Isabella	true
 effects_description_nag_effect_melee_defence_vlad_isa	Melee defence: %+n for Vlad and Isabella	true
 effects_description_nag_effect_upkeep_vlad_isa	Upkeep: %+n% for Vlad and Isabella	true
