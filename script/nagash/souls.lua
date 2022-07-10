@@ -277,16 +277,47 @@ function bdsm:begin_bp_raise()
     --- start up some interactive markers
     --- TODO change number of armies based on difficulty?
     local num = cm:random_number(5, 4)
-    local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
-    marker:add_interaction_event("nag_ritual_army_interaction")
-    marker:add_timeout_event("nag_ritual_army_expired")
+    local nag_key = bdsm:get_faction_key()
+    -- local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
+    -- marker:add_interaction_event("nag_ritual_army_interaction")
+    -- marker:add_timeout_event("nag_ritual_army_expired")
 
     --- TODO add despawn event feed
 
 
     for i = 1, num do
-        local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), bdsm._bp_key, false, true, cm:random_number(24, 12))
-        marker:spawn("nag_bp_raise_army_spawn_"..i, x, y)
+        -- local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), bdsm._bp_key, false, true, cm:random_number(24, 12))
+        -- marker:spawn("nag_bp_raise_army_spawn_"..i, x, y)
+
+        -- ----==
+        -- local region_key = bdsm._bp_key
+        -- local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+        -- local invasion_key = current_ritual.."_invasion_"..x.."_"..y
+
+        -- local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 2, true, false)
+
+        -- local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+        -- local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+        -- -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+        -- invasion_object:set_target("REGION", region_key, nag_key)
+        -- invasion_object:add_aggro_radius(25, {nag_key}, 1)
+        -- invasion_object:start_invasion(true,true,false,false)
+        -- ----==
+
+        local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), "wh2_main_great_mortis_delta_black_pyramid_of_nagash", false, true, cm:random_number(24, 12))
+        -- marker:spawn(tech_key..i, x, y)
+        local region_key = "wh2_main_great_mortis_delta_black_pyramid_of_nagash"
+        local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+        local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y.."_"..i
+
+        local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 2, true, false)
+
+        local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+        local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+        -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+        invasion_object:set_target("REGION", region_key, nag_key)
+        invasion_object:add_aggro_radius(25, {nag_key}, 1)
+        invasion_object:start_invasion(true,true,false,false)
     end
 
     --- TODO add in an effect bundle and update it every single turn?

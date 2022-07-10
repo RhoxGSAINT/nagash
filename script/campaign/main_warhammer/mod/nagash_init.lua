@@ -405,44 +405,44 @@ local function init_listeners()
         
 
     -- trigger battle
-    core:add_listener(
-        "nag_ritual_army_interaction",
-        "nag_ritual_army_interaction",
-        true,
-        ---@param context {stored_table:table}
-        function(context)
-			local marker_ref = context.stored_table.marker_ref
-			local instance_ref = context.stored_table.instance_ref
+    -- core:add_listener(
+    --     "nag_ritual_army_interaction",
+    --     "nag_ritual_army_interaction",
+    --     true,
+    --     ---@param context {stored_table:table}
+    --     function(context)
+	-- 		local marker_ref = context.stored_table.marker_ref
+	-- 		local instance_ref = context.stored_table.instance_ref
 
-            local interacting_character = context:character()
-            local force_cqi = interacting_character:military_force():command_queue_index()
-            local region = interacting_character:region()
+    --         local interacting_character = context:character()
+    --         local force_cqi = interacting_character:military_force():command_queue_index()
+    --         local region = interacting_character:region()
 
-            --- TODO pick invasion army based on the region
-            local invasion_faction_key = "wh2_dlc13_skv_skaven_invasion"
-            local invasion_faction = cm:get_faction(invasion_faction_key)
+    --         --- TODO pick invasion army based on the region
+    --         local invasion_faction_key = "wh2_dlc13_skv_skaven_invasion"
+    --         local invasion_faction = cm:get_faction(invasion_faction_key)
 
-            --- TODO scale up army size based on turns since this marker spawned
-            --- TODO scale up the army modifier based on how many rituals have been completed
-            Forced_Battle_Manager:trigger_forced_battle_with_generated_army(
-                force_cqi,
-                invasion_faction_key,
-                invasion_faction:subculture(),
-                cm:random_number(15, 12),
-                1,
-                false,
-                false,
-                true,
-                nil,
-                nil,
-                nil,
-                nil,
-                nil,
-                nil
-            )
-        end,
-        true
-    )
+    --         --- TODO scale up army size based on turns since this marker spawned
+    --         --- TODO scale up the army modifier based on how many rituals have been completed
+    --         Forced_Battle_Manager:trigger_forced_battle_with_generated_army(
+    --             force_cqi,
+    --             invasion_faction_key,
+    --             invasion_faction:subculture(),
+    --             cm:random_number(15, 12),
+    --             1,
+    --             false,
+    --             false,
+    --             true,
+    --             nil,
+    --             nil,
+    --             nil,
+    --             nil,
+    --             nil,
+    --             nil
+    --         )
+    --     end,
+    --     true
+    -- )
 
         --[[
         on_battle_trigger_callback =
@@ -459,73 +459,73 @@ local function init_listeners()
     ]]
 
     -- TODO trigger invasion on expiry
-    core:add_listener(
-        "nag_ritual_army_expired",
-        "nag_ritual_army_expired",
-        true,
-        function(context)
-            local marker_ref = context.stored_table.marker_ref
-			local instance_ref = context.stored_table.instance_ref
-            local nag_key = bdsm:get_faction_key()
+    -- core:add_listener(
+    --     "nag_ritual_army_expired",
+    --     "nag_ritual_army_expired",
+    --     true,
+    --     function(context)
+    --         local marker_ref = context.stored_table.marker_ref
+	-- 		local instance_ref = context.stored_table.instance_ref
+    --         local nag_key = bdsm:get_faction_key()
 
-			--use the instance ref to grab the x-y-coords so we know where to spawn
-			local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
+	-- 		--use the instance ref to grab the x-y-coords so we know where to spawn
+	-- 		local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
 
-            --- TODO trigger invasion!
-            local current_ritual = cm:get_saved_value("nag_ritual_current")
+    --         --- TODO trigger invasion!
+    --         local current_ritual = cm:get_saved_value("nag_ritual_current")
 
-            --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
-            --- TODO get all these details in a nicer fashion
-            --- TODO target BP
-            if current_ritual == "nag_bp_raise" then
-                local region_key = bdsm._bp_key
-                local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
-                local invasion_key = current_ritual.."_invasion_"..x.."_"..y
+    --         --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
+    --         --- TODO get all these details in a nicer fashion
+    --         --- TODO target BP
+    --         if current_ritual == "nag_bp_raise" then
+    --             local region_key = bdsm._bp_key
+    --             local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+    --             local invasion_key = current_ritual.."_invasion_"..x.."_"..y
 
-                local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 2, true, false)
+    --             local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 2, true, false)
 
-                local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
-                local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
-                -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
-                invasion_object:set_target("REGION", region_key, nag_key)
-                invasion_object:add_aggro_radius(25, {nag_key}, 1)
-                invasion_object:start_invasion(true,true,false,false)
-            end
-        end,
-        true
-    )
+    --             local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+    --             local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+    --             -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+    --             invasion_object:set_target("REGION", region_key, nag_key)
+    --             invasion_object:add_aggro_radius(25, {nag_key}, 1)
+    --             invasion_object:start_invasion(true,true,false,false)
+    --         end
+    --     end,
+    --     true
+    -- )
 
-    local function tech_army_spawner(context, location_key)
-        local marker_ref = context.stored_table.marker_ref
-        local instance_ref = context.stored_table.instance_ref
-        local nag_key = bdsm:get_faction_key()
+    -- local function tech_army_spawner(context, location_key)
+    --     local marker_ref = context.stored_table.marker_ref
+    --     local instance_ref = context.stored_table.instance_ref
+    --     local nag_key = bdsm:get_faction_key()
 
-        --use the instance ref to grab the x-y-coords so we know where to spawn
-        local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
+    --     --use the instance ref to grab the x-y-coords so we know where to spawn
+    --     local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
 
-        --- TODO trigger invasion!
-        -- local current_ritual = cm:get_saved_value("nag_ritual_current")
+    --     --- TODO trigger invasion!
+    --     -- local current_ritual = cm:get_saved_value("nag_ritual_current")
 
-        --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
-        --- TODO get all these details in a nicer fashion
-        --- TODO target BP
-        bdsm:logf("++++++tech invasions tech_army_spawner 02 !")
-        -- current_ritual = location_key
-        local region_key = location_key
-        local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
-        local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y
+    --     --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
+    --     --- TODO get all these details in a nicer fashion
+    --     --- TODO target BP
+    --     bdsm:logf("++++++tech invasions tech_army_spawner 02 !")
+    --     -- current_ritual = location_key
+    --     local region_key = location_key
+    --     local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
+    --     local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y
 
-        local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 5, true, false)
+    --     local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 5, true, false)
 
-        local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
-        local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
-        -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
-        invasion_object:set_target("REGION", region_key, nag_key)
-        invasion_object:add_aggro_radius(25, {nag_key}, 1)
-        invasion_object:start_invasion(true,true,false,false)
-        bdsm:logf("++++++tech invasions region_key = %s;nag_key = %s", region_key, nag_key)
-        bdsm:logf("++++++tech invasions tech_army_spawner 03 !")
-    end
+    --     local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
+    --     local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
+    --     -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
+    --     invasion_object:set_target("REGION", region_key, nag_key)
+    --     invasion_object:add_aggro_radius(25, {nag_key}, 1)
+    --     invasion_object:start_invasion(true,true,false,false)
+    --     bdsm:logf("++++++tech invasions region_key = %s;nag_key = %s", region_key, nag_key)
+    --     bdsm:logf("++++++tech invasions tech_army_spawner 03 !")
+    -- end
 
     -- return context:technology() == "nag_nagash_ultimate" or
     -- context:technology() == "nag_location_nagashizzar"
@@ -545,82 +545,82 @@ local function init_listeners()
     -- wh_main_eastern_sylvania_castle_drakenhof = false,
     -- wh2_main_titan_peaks_ancient_city_of_quintex = false,
 
-    core:add_listener(
-        "nag_location_nagashizzar",
-        "nag_location_nagashizzar",
-        true,
-        function(context)
-            bdsm:logf("++++++tech invasions wh2_main_the_broken_teeth_nagashizar 01 !")
-            tech_army_spawner(context, "wh2_main_the_broken_teeth_nagashizar")
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "nag_location_nagashizzar",
+    --     "nag_location_nagashizzar",
+    --     true,
+    --     function(context)
+    --         bdsm:logf("++++++tech invasions wh2_main_the_broken_teeth_nagashizar 01 !")
+    --         tech_army_spawner(context, "wh2_main_the_broken_teeth_nagashizar")
+    --     end,
+    --     true
+    -- )
 
-    core:add_listener(
-        "nag_location_mourkain",
-        "nag_location_mourkain",
-        true,
-        function(context)
-            bdsm:logf("++++++tech invasions wh2_main_marshes_of_madness_morgheim 01 !")
-            tech_army_spawner(context, "wh2_main_marshes_of_madness_morgheim")
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "nag_location_mourkain",
+    --     "nag_location_mourkain",
+    --     true,
+    --     function(context)
+    --         bdsm:logf("++++++tech invasions wh2_main_marshes_of_madness_morgheim 01 !")
+    --         tech_army_spawner(context, "wh2_main_marshes_of_madness_morgheim")
+    --     end,
+    --     true
+    -- )
 
-    core:add_listener(
-        "nag_location_lahmia",
-        "nag_location_lahmia",
-        true,
-        function(context)
-            bdsm:logf("++++++tech invasions wh2_main_devils_backbone_lahmia 01 !")
-            tech_army_spawner(context, "wh2_main_devils_backbone_lahmia")
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "nag_location_lahmia",
+    --     "nag_location_lahmia",
+    --     true,
+    --     function(context)
+    --         bdsm:logf("++++++tech invasions wh2_main_devils_backbone_lahmia 01 !")
+    --         tech_army_spawner(context, "wh2_main_devils_backbone_lahmia")
+    --     end,
+    --     true
+    -- )
 
-    core:add_listener(
-        "nag_location_khemri",
-        "nag_location_khemri",
-        true,
-        function(context)
-            bdsm:logf("++++++tech invasions wh2_main_land_of_the_dead_khemri 01 !")
-            tech_army_spawner(context, "wh2_main_land_of_the_dead_khemri")
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "nag_location_khemri",
+    --     "nag_location_khemri",
+    --     true,
+    --     function(context)
+    --         bdsm:logf("++++++tech invasions wh2_main_land_of_the_dead_khemri 01 !")
+    --         tech_army_spawner(context, "wh2_main_land_of_the_dead_khemri")
+    --     end,
+    --     true
+    -- )
 
-    core:add_listener(
-        "nag_location_awakening",
-        "nag_location_awakening",
-        true,
-        function(context)
-            bdsm:logf("++++++tech invasions wh2_main_vampire_coast_the_awakening 01 !")
-            tech_army_spawner(context, "wh2_main_vampire_coast_the_awakening")
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "nag_location_awakening",
+    --     "nag_location_awakening",
+    --     true,
+    --     function(context)
+    --         bdsm:logf("++++++tech invasions wh2_main_vampire_coast_the_awakening 01 !")
+    --         tech_army_spawner(context, "wh2_main_vampire_coast_the_awakening")
+    --     end,
+    --     true
+    -- )
 
-    core:add_listener(
-        "nag_location_drakenhof",
-        "nag_location_drakenhof",
-        true,
-        function(context)
-            bdsm:logf("++++++tech invasions wh_main_eastern_sylvania_castle_drakenhof 01 !")
-            tech_army_spawner(context, "wh_main_eastern_sylvania_castle_drakenhof")
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "nag_location_drakenhof",
+    --     "nag_location_drakenhof",
+    --     true,
+    --     function(context)
+    --         bdsm:logf("++++++tech invasions wh_main_eastern_sylvania_castle_drakenhof 01 !")
+    --         tech_army_spawner(context, "wh_main_eastern_sylvania_castle_drakenhof")
+    --     end,
+    --     true
+    -- )
 
-    core:add_listener(
-        "nag_location_quintex",
-        "nag_location_quintex",
-        true,
-        function(context)
-            bdsm:logf("++++++tech invasions wh2_main_titan_peaks_ancient_city_of_quintex 01 !")
-            tech_army_spawner(context, "wh2_main_titan_peaks_ancient_city_of_quintex")
-        end,
-        true
-    )
+    -- core:add_listener(
+    --     "nag_location_quintex",
+    --     "nag_location_quintex",
+    --     true,
+    --     function(context)
+    --         bdsm:logf("++++++tech invasions wh2_main_titan_peaks_ancient_city_of_quintex 01 !")
+    --         tech_army_spawner(context, "wh2_main_titan_peaks_ancient_city_of_quintex")
+    --     end,
+    --     true
+    -- )
 
     --- handle the mission chains!
     if not cm:get_saved_value("nagash_intro_completed") then
