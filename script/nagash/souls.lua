@@ -278,31 +278,10 @@ function bdsm:begin_bp_raise()
     --- TODO change number of armies based on difficulty?
     local num = cm:random_number(5, 4)
     local nag_key = bdsm:get_faction_key()
-    -- local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
-    -- marker:add_interaction_event("nag_ritual_army_interaction")
-    -- marker:add_timeout_event("nag_ritual_army_expired")
-
-    --- TODO add despawn event feed
 
 
     for i = 1, num do
-        -- local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), bdsm._bp_key, false, true, cm:random_number(24, 12))
-        -- marker:spawn("nag_bp_raise_army_spawn_"..i, x, y)
 
-        -- ----==
-        -- local region_key = bdsm._bp_key
-        -- local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
-        -- local invasion_key = current_ritual.."_invasion_"..x.."_"..y
-
-        -- local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 2, true, false)
-
-        -- local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
-        -- local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
-        -- -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
-        -- invasion_object:set_target("REGION", region_key, nag_key)
-        -- invasion_object:add_aggro_radius(25, {nag_key}, 1)
-        -- invasion_object:start_invasion(true,true,false,false)
-        -- ----==
 
         local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), "wh2_main_great_mortis_delta_black_pyramid_of_nagash", false, true, cm:random_number(24, 12))
         -- marker:spawn(tech_key..i, x, y)
@@ -319,12 +298,6 @@ function bdsm:begin_bp_raise()
         invasion_object:add_aggro_radius(25, {nag_key}, 1)
         invasion_object:start_invasion(true,true,false,false)
     end
-
-    --- TODO add in an effect bundle and update it every single turn?
-    --- TODO change the override text for the survive mission
-
-    --- TODO change up the UI for the Ritual, or add some sort of timer SOMEWHERE.
-        --- remove the bp_button, but add something on the top bar
 
     --- set a timer for "survive 5/10 turns" and then complete the mission above
     self:set_current_ritual("nag_bp_raise", 5)
@@ -509,22 +482,6 @@ function bdsm:complete_bp_raise()
         end
     )
 
-    -- cm:callback(function()
-    -- -- kill the Mixer-spawned lord
-    --     cm:kill_character_and_commanded_unit("character_cqi:"..cqi, true, false)
-
-    --     -- local nagash = faction_obj:faction_leader()
-    --     -- local cqi = nagash:command_queue_index()
-    --     -- bdsm:log("Nagash cqi is: "..nagash:command_queue_index())
-
-    --     -- local mf = nagash:military_force()
-
-    --     -- bdsm:log("converting")
-    --     -- cm:convert_force_to_type(mf, "black_pyramid")
-    --     -- bdsm:log("converted")
-    -- end, 0.5)
-
-    --- TODO spawn the finalized Nagash, port over all the skills from the former(fuck that, just spawn Big Nagash and proceed to mid game phase)
 end
 
 --- Callback to see if we need to create the BP button
@@ -736,9 +693,21 @@ function bdsm:unlock_rites_listeners()
             "BlackPyramidRaised",
             true,
             function(context)
-                if not rite_status.nag_nagash then
-                    unlock_rite("nag_nagash")
-                    cm:set_saved_value("rite_status_nag_nagash", rite_status.nag_nagash)
+                local faction = self:get_faction()
+                if faction:is_human() then 
+                    if not rite_status.nag_nagash then
+                        unlock_rite("nag_nagash")
+                        cm:set_saved_value("rite_status_nag_nagash", rite_status.nag_nagash)
+                    end
+                else
+                    unlock_rite("nag_winds")
+                    cm:set_saved_value("rite_status_nag_winds", rite_status.nag_winds)
+                    unlock_rite("nag_death")
+                    cm:set_saved_value("rite_status_nag_death", rite_status.nag_death)
+                    unlock_rite("nag_divinity")
+                    cm:set_saved_value("rite_status_nag_divinity", rite_status.nag_divinity)
+                    unlock_rite("nag_man")
+                    cm:set_saved_value("rite_status_nag_man", rite_status.nag_man)
                 end
             end,
             false
@@ -1226,10 +1195,7 @@ function bdsm:trigger_rites_listeners()
         self:logf("++++++tech invasions throw_enemies_at_settlement !")
         local num = cm:random_number(5, 4)
         local nag_key = bdsm:get_faction_key()
-        -- local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 5, 1, bdsm:get_faction_key(), "", true)
-        -- local marker = Interactive_Marker_Manager:new_marker_type("nag_bp_raise_army_spawn", "nag_bp_raise_army_spawn", 1, 1, bdsm:get_faction_key(), "", true)
-        -- marker:add_interaction_event("nag_ritual_army_interaction")
-        -- marker:add_timeout_event(tech_key)
+
 
         --- TODO add despawn event feed
 
@@ -1251,39 +1217,7 @@ function bdsm:trigger_rites_listeners()
         end
 
 
-        ----==========
-        -- local function tech_army_spawner(context, location_key)
-        --     local marker_ref = context.stored_table.marker_ref
-        --     local instance_ref = context.stored_table.instance_ref
-        --     local nag_key = bdsm:get_faction_key()
-    
-        --     --use the instance ref to grab the x-y-coords so we know where to spawn
-        --     local x,y = Interactive_Marker_Manager:get_coords_from_instance_ref(instance_ref)
-    
-        --     --- TODO trigger invasion!
-        --     -- local current_ritual = cm:get_saved_value("nag_ritual_current")
-    
-        --     --- TODO use the same stuff for "force size / faction / units / etc." between invasion and generated battle
-        --     --- TODO get all these details in a nicer fashion
-        --     --- TODO target BP
-        --     bdsm:logf("++++++tech invasions tech_army_spawner 02 !")
-        --     -- current_ritual = location_key
-        --     local region_key = location_key
-        --     local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
-        --     local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y
-    
-        --     local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, "wh2_main_sc_skv_skaven",  19, 5, true, false)
-    
-        --     local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
-        --     local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
-        --     -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
-        --     invasion_object:set_target("REGION", region_key, nag_key)
-        --     invasion_object:add_aggro_radius(25, {nag_key}, 1)
-        --     invasion_object:start_invasion(true,true,false,false)
-        --     bdsm:logf("++++++tech invasions region_key = %s;nag_key = %s", region_key, nag_key)
-        --     bdsm:logf("++++++tech invasions tech_army_spawner 03 !")
-        -- end
-        ----=============
+
     end
 
     core:add_listener(

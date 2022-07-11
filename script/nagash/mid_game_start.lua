@@ -21,7 +21,7 @@ end
 
 --- TODO
 --- Lock every event tech behind a "TO BE COMPLETED" thing
-local function lock_all_techs()
+local function unlock_all_techs()
     local mortarchs = bdsm._mortarchs
     ---@type vlib_camp_counselor
     local cc = get_vlib():get_module("camp_counselor")
@@ -38,7 +38,7 @@ local function lock_all_techs()
             for j = 1,3 do 
                 local event_tech = key .. "_event_"..j
 
-                cc:set_techs_lock_state(event_tech, "locked", "TO BE COMPLETED", filter)
+                cc:set_techs_lock_state(event_tech, "unlocked", "TO BE COMPLETED", filter)
             end
         else
             --- Lock by default for the mission, lock events
@@ -46,7 +46,7 @@ local function lock_all_techs()
             for j = 1,3 do 
                 local event_tech = key .. "_event_"..j
 
-                cc:set_techs_lock_state(event_tech, "locked", "TO BE COMPLETED", filter)
+                cc:set_techs_lock_state(event_tech, "unlocked", "TO BE COMPLETED", filter)
             end
         end
     end
@@ -112,9 +112,14 @@ function bdsm:mid_game_start()
     local units = {
         "nag_vanilla_vmp_inf_skeleton_warriors_0",
         "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_tmb_cav_nehekhara_horsemen_0",
         "nag_vanilla_tmb_cav_nehekhara_horsemen_0",
         "nag_carrion_riders",
         "nag_nagashi_guard",
+        "nag_nagashi_guard",
+        "nag_nagashi_guard_halb",
         "nag_nagashi_guard_halb",
     }
 
@@ -164,13 +169,13 @@ function bdsm:mid_game_start()
     end, 0.5)
 
     -- spawn in Arkhan
-    local ark = self:get_mortarch_with_key("nag_mortarch_arkhan")
-    ark:spawn_to_pool()
+    -- local ark = self:get_mortarch_with_key("nag_mortarch_arkhan")
+    -- ark:spawn_to_pool()
 
-    lock_all_techs()
+    unlock_all_techs()
 
     --- kill Arkhan's faction
-    kill_faction("wh2_dlc09_tmb_followers_of_nagash")
+    -- kill_faction("wh2_dlc09_tmb_followers_of_nagash")
 
     cm:callback(function()
         CampaignUI.ClearSelection()
@@ -187,4 +192,48 @@ function bdsm:mid_game_start()
             nil
         )
     end, 0.1)
+
+    -- add init stuff
+    local faction_key = bdsm:get_faction_key()
+    local nagashizar_key = bdsm._izar_key
+    local faction_obj = cm:get_faction(faction_key)
+
+    ---@type NagHuskDB
+    local starting_info = bdsm:load_db("nag_husk_start")
+    local unit_list = table.concat(starting_info.starting_units, ",")
+    local forename,surname = starting_info.forename,starting_info.surname
+    local subtype = starting_info.subtype
+    local pos = starting_info.pos
+    local horde_buildings,settle_buildings = starting_info.horde_buildings, {"nag_outpost_special_nagashizzar_4",}
+
+    ---@type intro_chain_skaven
+    local intro_chain_skaven = bdsm:load_db("intro_chain_skaven")
+    cm:transfer_region_to_faction(nagashizar_key, faction_key)
+    cm:transfer_region_to_faction(intro_chain_skaven.owned_region, faction_key)
+    cm:transfer_region_to_faction("wh2_main_great_mortis_delta_black_pyramid_of_nagash", faction_key)
+
+    local s = cm:get_region(nagashizar_key):settlement()
+    cm:instantly_set_settlement_primary_slot_level(s, 4)
+    
+    local ss = cm:get_region(intro_chain_skaven.owned_region):settlement()
+    cm:instantly_set_settlement_primary_slot_level(ss, intro_chain_skaven.owned_region_starting_level)
+
+    cm:callback(function()
+        --- add in Nagashizzar buildsings
+        for i,building in ipairs(settle_buildings) do
+            cm:add_building_to_settlement(nagashizar_key, building)
+        end
+
+        -- -- add in Desolation of Nagash buildings
+        -- for i,building in ipairs(intro_chain_skaven.buildings) do 
+        --     cm:add_building_to_settlement(intro_chain_skaven.owned_region, building)
+        -- end
+
+        cm:callback(function()
+            cm:heal_garrison(cm:get_region(nagashizar_key):cqi())
+        end, 0.1)
+    end, 0.2)
+    cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 15)
+    cm:force_declare_war("wh2_dlc09_tmb_rakaph_dynasty", faction_key, false, false, false)
+    
 end
