@@ -343,7 +343,7 @@ effects_description_nag_effect_grand_spell_01_recharge_instant	Recharges ability
 effects_description_nag_effect_grand_spell_02_recharge_instant	Recharges ability: "Apocalyptic Swarm" (if unlocked)	true
 effects_description_nag_effect_grand_spell_03_recharge_instant	Recharges ability: "Wrath of the Gods" (if unlocked)	true
 effects_description_nag_effect_spawns_army_dummy	Spawns army at Nagash location	true
-effects_description_nag_effect_cannot_grow_disable	Allows the settlement to grow permanently (targets settlement at Nagash location)	true
+effects_description_nag_effect_cannot_grow_disable	Allows the settlement to grow permanently (current location of Nagash)	true
 effects_description_nag_arkhan_unit_effect	Physical resistance: %n% for Arkhan	true
 effects_description_nag_luthor_harkon	Magic Resistance: %n% for Luthor Harkon	true
 effects_description_nag_mannfred_unit_effect	Cooldown : %n% Lore of Vampires for Mannfred	true

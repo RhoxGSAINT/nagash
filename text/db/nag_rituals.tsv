@@ -7,7 +7,7 @@ rituals_description_nag_divinity	The whole world will bow to the True God.	true
 rituals_display_name_nag_death	Dominion Over Death	true
 rituals_description_nag_death	Every defeated skeleton warrior is replaced by ten more as endless sea of undead marches on.	true
 rituals_display_name_nag_winds	Dominion Over Winds	true
-rituals_description_nag_winds	Power of Nagash is immeasurable.	true
+rituals_description_nag_winds	The Power of Nagash is immeasurable, as is his hat.	true
 campaign_group_rituals_unlock_text_nagash_featurenag_man	Conquer and hold 10 regions	true
 campaign_group_rituals_unlock_text_nagash_featurenag_divinity	Get Nagash to rank 8	true
 campaign_group_rituals_unlock_text_nagash_featurenag_death	Win 5 battles with Nagash	true
@@ -21,6 +21,6 @@ campaign_group_rituals_unlock_text_nagash_featurenag_end_game	[PH]	true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_death		true
 ritual_additional_ui_explanation_texts_onscreen_text_nag_man		true
 rituals_display_name_nag_nagash	Dominion of Nagash	true
-rituals_description_nag_nagash	This settlement has been blessed with Nagash presence and received his blessing.	true
+rituals_description_nag_nagash	This settlement has been blessed with Nagash's presence.	true
 campaign_group_rituals_unlock_text_nagash_featurenag_nagash	Raise the Black Pyramid	true
-ritual_additional_ui_explanation_texts_onscreen_text_nag_nagash	Make sure Nagash is in your region you want to bless, this rite will change ungrowing region into growing one. (Can be only applied once per province, works only on generic settlements)	true
+ritual_additional_ui_explanation_texts_onscreen_text_nag_nagash	Can be only applied once per province, works only on generic settlements	true
