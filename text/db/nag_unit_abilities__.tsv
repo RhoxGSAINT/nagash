@@ -4,7 +4,7 @@ unit_abilities_tooltip_text_wh_main_spell_nagash_dark_riders	At the wizard's com
 unit_abilities_onscreen_name_wh_main_spell_nagash_dark_riders	The Dark Riders	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_dark_riders_upgraded	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_dark_riders_upgraded	The Dark Riders Upgraded	true
-unit_abilities_tooltip_text_wh_main_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	true
+unit_abilities_tooltip_text_wh_main_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victim to dust in a single heartbeat.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_hand_of_dust	The Hand of Dust	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_harbinger	The greatest practitioners of the dark arts can summon forth the most fearsome champions and creatures of undeath.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_harbinger	The Harbinger	true
@@ -24,9 +24,9 @@ unit_abilities_tooltip_text_wh_main_spell_nagash_breath_of_darkness_upgraded	The
 unit_abilities_onscreen_name_wh_main_spell_nagash_breath_of_darkness_upgraded	Breath of Darkness Upgraded	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_become_construct	Become construct [PH]	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_become_construct	Become construct [PH]	true
-unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_master	Drawing forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
+unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_master	Drawing forth the dark energy coursing across the land, the caster sends the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_grave_call_master	The Grave Call	true
-unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_master_upgraded	Drawing forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
+unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_master_upgraded	Drawing forth the dark energy coursing across the land, the caster sends the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_grave_call_master_upgraded	The Grave Call Upgraded	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_abyssal_swarm	The wizard binds the bones of predatory creatures with dark magic, causing them to rise from their animal graves.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_abyssal_swarm	Abyssal Swarm	true
@@ -40,7 +40,7 @@ unit_abilities_tooltip_text_nag_unit_passive_mortal_realm_of_souls	Nagash's pres
 unit_abilities_onscreen_name_nag_unit_passive_mortal_realm_of_souls	Mortal Realm of Souls	true
 unit_abilities_tooltip_text_nag_bound_spell_nagash_dark_riders	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true
 unit_abilities_onscreen_name_nag_bound_spell_nagash_dark_riders	The Dark Riders	true
-unit_abilities_tooltip_text_nag_bound_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	true
+unit_abilities_tooltip_text_nag_bound_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victim to dust in a single heartbeat.	true
 unit_abilities_onscreen_name_nag_bound_spell_nagash_hand_of_dust	The Hand of Dust	true
 unit_abilities_tooltip_text_nag_bound_spell_nagash_breath_of_darkness	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
 unit_abilities_onscreen_name_nag_bound_spell_nagash_breath_of_darkness	Breath of Darkness	true

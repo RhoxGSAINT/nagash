@@ -3,7 +3,7 @@ key	text	tooltip
 character_skills_localised_name_nag_skill_army_buff_ranged	Arrows of Nagashizzar	true
 character_skills_localised_description_nag_skill_army_buff_ranged	Asaph may have turned her back on these arrows, but Nagash's hatred is far-reaching.	true
 character_skills_localised_name_nag_skill_army_buff_infantry	Dhar-Scorched Bones	true
-character_skills_localised_description_nag_skill_army_buff_infantry	It can't be possibly worse than this.	true
+character_skills_localised_description_nag_skill_army_buff_infantry	It can't possibly be worse than this.	true
 character_skills_localised_name_nag_skill_army_buff_cav	Wicked Cavalrymen	true
 character_skills_localised_description_nag_skill_army_buff_cav	Once proud charioteers 'live' to pursue and punish more fortunate souls.	true
 character_skills_localised_name_nag_skill_army_buff_beasts	Twisted Malevolence	true
@@ -15,7 +15,7 @@ character_skills_localised_description_nag_skill_army_buff_construct	Not even st
 character_skills_localised_name_nag_skill_army_buff_vet_vamp	Onslaught of Sylvania	true
 character_skills_localised_description_nag_skill_army_buff_vet_vamp	The Vampires of the north may be arrogant fools, but their armies can be swift and violent.	true
 character_skills_localised_name_nag_skill_army_buff_vet_nehek	Dark Legions of Nehekhara	true
-character_skills_localised_description_nag_skill_army_buff_vet_nehek	The once and ever powerful legions of the valley, from the stalwart pawn to the might knight, march and fight as one. Especially for the Great Necromancer.	true
+character_skills_localised_description_nag_skill_army_buff_vet_nehek	The once and ever powerful legions of the valley, from the stalwart pawn to the mighty knight, march and fight as one for the Great Necromancer.	true
 character_skills_localised_name_nag_skill_army_buff_vet_coast	Rotten Enforcers	true
 character_skills_localised_description_nag_skill_army_buff_vet_coast	Luthor's thralls may not be the most solid-looking bunch, but there is hidden worth even in the soggiest zombie.	true
 character_skills_localised_name_nag_skill_army_buff_vet_nagash	Vengeance of Nagashizzar	true
@@ -361,9 +361,9 @@ character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_soul_
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_dark_riders	Akar'aran, the Dark Riders	true
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_dark_riders	At the wizard's command, the ground opens up to reveal a portal through which long-dead knights ride forth to do battle.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_grave_call_master	Ryze, the Grave Call	true
-character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_grave_call_master	Drawing forth the dark energy coursing across the land, the caster send the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
+character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_grave_call_master	Drawing forth the dark energy coursing across the land, the caster sends the tendrills of power seeping into the ground in search of long-dead bodies to answer his summons.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_hand_of_dust	Sulekhim, the Hand of Dust	true
-character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	true
+character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victim to dust in a single heartbeat.	true
 character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	Morkharn, the Breath of Darkness HIDDEN	true
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
 character_skills_localised_name_nag_skill_personal_neferata_guardian	Thrall Guardians	true
