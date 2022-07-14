@@ -622,32 +622,46 @@ function bdsm:unlock_rites_listeners()
     end
 
     if not rite_status.nag_death then
-        --- Win 5 battles with Nagash
         core:add_listener(
-            "NagDeath",
-            "CharacterCompletedBattle",
+            "NagDeathTurns",
+            "FactionTurnStart",
             function(context)
-                --- TODO "and nagash won"
-                local character = context:character()
-                return (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:won_battle()
+                return context:faction():name() == bdsm:get_faction_key() and cm:turn_number() >= 35
             end,
             function(context)
                 if not rite_status.nag_death then
-                    local total = cm:get_saved_value("nag_death_total") or 0
-                    total = total + 1
-
-                    if total >= 5 then
-                        unlock_rite("nag_death")
-                        cm:set_saved_value("rite_status_nag_death", rite_status.nag_death)
-
-                    else
-                        --- TODO display in the ritual panel?
-                        cm:set_saved_value("nag_death_total", total)
-                    end
+                    unlock_rite("nag_death")
+                    cm:set_saved_value("rite_status_nag_death", rite_status.nag_death)
                 end
             end,
             false
         )
+        --- Win 5 battles with Nagash
+        -- core:add_listener(
+        --     "NagDeath",
+        --     "CharacterCompletedBattle",
+        --     function(context)
+        --         --- TODO "and nagash won"
+        --         local character = context:character()
+        --         return (character:character_subtype_key() == "nag_nagash_husk" or character:character_subtype_key() == "nag_nagash_boss") and character:won_battle()
+        --     end,
+        --     function(context)
+        --         if not rite_status.nag_death then
+        --             local total = cm:get_saved_value("nag_death_total") or 0
+        --             total = total + 1
+
+        --             if total >= 5 then
+        --                 unlock_rite("nag_death")
+        --                 cm:set_saved_value("rite_status_nag_death", rite_status.nag_death)
+
+        --             else
+        --                 --- TODO display in the ritual panel?
+        --                 cm:set_saved_value("nag_death_total", total)
+        --             end
+        --         end
+        --     end,
+        --     false
+        -- )
     end
 
     if not rite_status.nag_divinity then
@@ -905,7 +919,7 @@ function bdsm:trigger_rites_listeners()
                     local mf = cm:get_military_force_by_cqi(mf_cqi)
                     --- TODO apply EB for the duration of the ritual
                     local eb_key = "nag_death_shambling_horde"
-                    cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5)
+                    --cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5)
 
                     cm:convert_force_to_type(mf, "nag_shambling_horde")
                 end,

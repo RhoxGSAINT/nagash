@@ -12,12 +12,12 @@ technologies_onscreen_name_nag_mortarch_luthor_unlock	Luthor, Mortarch of the Ab
 technologies_onscreen_name_nag_mortarch_mannfred_unlock	Mannfred, Mortarch of Night	true
 technologies_onscreen_name_nag_mortarch_neferata_unlock	Neferata, Mortarch of Blood	true
 technologies_onscreen_name_nag_mortarch_vlad_unlock	Vlad, Mortarch of Shadow	true
-technologies_short_description_nag_mortarch_arkhan_unlock	Arkhan will always serve Nagash, always.	false
-technologies_short_description_nag_mortarch_krell_unlock	He who formerly marched and killed and marched and killed some more under the blessings of Khorne. The ultimate undead warrior, right tool for the Master of Death.	false
-technologies_short_description_nag_mortarch_luthor_unlock	Vampires may be all cursed with madness, but this one's mind dances a dance of its own. The quintessence of a wild card, but a powerful vampire and warlord all the same. With an easy reward to dangle.	false
-technologies_short_description_nag_mortarch_mannfred_unlock	Powerful, ambitious, extremely untrustworthy. Vashanesh's son in darkness will be useful nevertheless.	false
-technologies_short_description_nag_mortarch_neferata_unlock	The first vampire, a lady of shadows, her entire coven back in the fold.	false
-technologies_short_description_nag_mortarch_vlad_unlock	And who is this handsome devil?	false
+technologies_short_description_nag_mortarch_arkhan_unlock	Arkhan will always serve Nagash, always.\\n(Spawns Arkhan near Quatar)	false
+technologies_short_description_nag_mortarch_krell_unlock	He who formerly marched and killed and marched and killed some more under the blessings of Khorne. The ultimate undead warrior, right tool for the Master of Death.\\n(Spawns Krell near Morgheim)	false
+technologies_short_description_nag_mortarch_luthor_unlock	Vampires may be all cursed with madness, but this one's mind dances a dance of its own. The quintessence of a wild card, but a powerful vampire and warlord all the same. With an easy reward to dangle.\\n(Spawns Luthor near Awakening)	false
+technologies_short_description_nag_mortarch_mannfred_unlock	Powerful, ambitious, extremely untrustworthy. Vashanesh's son in darkness will be useful nevertheless.\\n(Spawns Mannfred near Castle Drakenhof)	false
+technologies_short_description_nag_mortarch_neferata_unlock	The first vampire, a lady of shadows, her entire coven back in the fold.\\n(Spawns Neferata near Nagashizzar)	false
+technologies_short_description_nag_mortarch_vlad_unlock	And who is this handsome devil?\\n(Spawns Vlad near Castle Drakenhof)	false
 technologies_onscreen_name_nag_mortarch_arkhan_event_1	Trusted Servant	false
 technologies_onscreen_name_nag_mortarch_arkhan_event_2	Only One Ruler	false
 technologies_onscreen_name_nag_mortarch_arkhan_event_3	First Among Peers	false

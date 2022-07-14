@@ -10,7 +10,7 @@ rituals_display_name_nag_winds	Dominion Over Winds	true
 rituals_description_nag_winds	The Power of Nagash is immeasurable, as is his hat.	true
 campaign_group_rituals_unlock_text_nagash_featurenag_man	Conquer and hold 10 regions	true
 campaign_group_rituals_unlock_text_nagash_featurenag_divinity	Get Nagash to rank 8	true
-campaign_group_rituals_unlock_text_nagash_featurenag_death	Win 5 battles with Nagash	true
+campaign_group_rituals_unlock_text_nagash_featurenag_death	Reach turn 35	true
 campaign_group_rituals_unlock_text_nagash_featurenag_winds	Build the Black Obelisk [level 4] (Black Pyramid)	true
 rituals_display_name_nag_bp_raise	Raise the Black Pyramid	true
 rituals_description_nag_bp_raise	[PH]	true
