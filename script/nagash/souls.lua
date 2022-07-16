@@ -281,8 +281,6 @@ function bdsm:begin_bp_raise()
 
 
     for i = 1, num do
-
-
         local x,y = cm:find_valid_spawn_location_for_character_from_settlement(bdsm:get_faction_key(), "wh2_main_great_mortis_delta_black_pyramid_of_nagash", false, true, cm:random_number(24, 12))
         -- marker:spawn(tech_key..i, x, y)
         local region_key = "wh2_main_great_mortis_delta_black_pyramid_of_nagash"
@@ -296,6 +294,8 @@ function bdsm:begin_bp_raise()
         -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
         invasion_object:set_target("REGION", region_key, nag_key)
         invasion_object:add_aggro_radius(25, {nag_key}, 1)
+        invasion_object:apply_effect("wh_main_bundle_military_upkeep_free_force_siege_attacker", 10);
+        invasion_object:apply_effect("wh2_dlc11_bundle_immune_all_attrition", 10);         
         invasion_object:start_invasion(true,true,false,false)
     end
 
@@ -877,6 +877,8 @@ function bdsm:trigger_rites_listeners()
             return context:ritual():ritual_key() == "nag_death"
         end,
         function(context)
+            cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
+            cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
             --- spawn a death army at Nagash, at BP, or at a random Mortarch, or at a random settlement, in that order.
             local nag = bdsm:get_faction_leader()
             local key = bdsm:get_faction_key()
@@ -1173,6 +1175,7 @@ function bdsm:trigger_rites_listeners()
                 return context:faction():name() == bdsm:get_faction_key()
             end,
             function(context)
+                
                 local nag_fact = bdsm:get_faction_key()
                 revealed_objectives.wh2_main_great_mortis_delta_black_pyramid_of_nagash = cm:get_saved_value("nagash_intro_completed")
                 
@@ -1207,7 +1210,7 @@ function bdsm:trigger_rites_listeners()
     local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_faction, faction_type)
         -- spawns markers which will later spawn invasion armies
         self:logf("++++++tech invasions throw_enemies_at_settlement !")
-        local num = cm:random_number(5, 4)
+        local num = cm:random_number(3, 2)
         local nag_key = bdsm:get_faction_key()
 
 
@@ -1218,14 +1221,16 @@ function bdsm:trigger_rites_listeners()
             -- marker:spawn(tech_key..i, x, y)
             local region_key = setttlement_key
             -- local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
-            local invasion_key = "nag_bp_raise".."_invasion_"..x.."_"..y
+            local invasion_key = region_key.."_invasion_"..x.."_"..y
     
-            local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, faction_type,  19, 5, true, false)
+            local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, faction_type, 19, 7, true, false)
     
             local sx,sy = cm:find_valid_spawn_location_for_character_from_position(nag_key, x, y, true)
             local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
             -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
             invasion_object:set_target("REGION", region_key, nag_key)
+            invasion_object:apply_effect("wh_main_bundle_military_upkeep_free_force_siege_attacker", 10);
+            invasion_object:apply_effect("wh2_dlc11_bundle_immune_all_attrition", 10);            
             invasion_object:add_aggro_radius(25, {nag_key}, 1)
             invasion_object:start_invasion(true,true,false,false)
         end

@@ -204,7 +204,7 @@ function bdsm:mid_game_start()
     local forename,surname = starting_info.forename,starting_info.surname
     local subtype = starting_info.subtype
     local pos = starting_info.pos
-    local horde_buildings,settle_buildings = starting_info.horde_buildings, {"nag_outpost_special_nagashizzar_4",}
+    local horde_buildings,settle_buildings = starting_info.horde_buildings, {"nag_outpost_special_nagashizzar_2",}
 
     ---@type intro_chain_skaven
     local intro_chain_skaven = bdsm:load_db("intro_chain_skaven")
