@@ -177,21 +177,21 @@ function bdsm:mid_game_start()
     --- kill Arkhan's faction
     -- kill_faction("wh2_dlc09_tmb_followers_of_nagash")
 
-    cm:callback(function()
-        CampaignUI.ClearSelection()
+    -- cm:callback(function()
+    --     CampaignUI.ClearSelection()
 
-        -- trigger the How To Play event
-        cm:show_message_event(
-            faction_key,
-            "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
-            "factions_screen_name_"..faction_key,
-            "event_feed_strings_text_nag_scripted_event_how_they_play_nagasha",
-            true,
-            594,
-            nil,
-            nil
-        )
-    end, 0.1)
+    --     -- trigger the How To Play event
+    --     cm:show_message_event(
+    --         faction_key,
+    --         "event_feed_strings_text_wh2_scripted_event_how_they_play_title",
+    --         "factions_screen_name_"..faction_key,
+    --         "event_feed_strings_text_nag_scripted_event_how_they_play_nagasha",
+    --         true,
+    --         594,
+    --         nil,
+    --         nil
+    --     )
+    -- end, 0.1)
 
     -- add init stuff
     local faction_key = bdsm:get_faction_key()
@@ -233,7 +233,8 @@ function bdsm:mid_game_start()
             cm:heal_garrison(cm:get_region(nagashizar_key):cqi())
         end, 0.1)
     end, 0.2)
-    cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 15)
+    -- cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 15)
     cm:force_declare_war("wh2_dlc09_tmb_rakaph_dynasty", faction_key, false, false, false)
+    --cm:force_alliance("wh2_dlc09_tmb_khemri", faction_key, true)
     
 end

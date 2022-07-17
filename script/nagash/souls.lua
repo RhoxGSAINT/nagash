@@ -921,9 +921,9 @@ function bdsm:trigger_rites_listeners()
                     local mf = cm:get_military_force_by_cqi(mf_cqi)
                     --- TODO apply EB for the duration of the ritual
                     local eb_key = "nag_death_shambling_horde"
-                    --cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5)
+                    cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5)
 
-                    cm:convert_force_to_type(mf, "nag_shambling_horde")
+                    -- cm:convert_force_to_type(mf, "nag_shambling_horde")
                 end,
                 false
             )

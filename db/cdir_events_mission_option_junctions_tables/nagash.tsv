@@ -49,7 +49,7 @@ id	mission_key	option_key	value
 8845155	nag_mortarch_vlad_unlock	GEN_TARGET_NONE	
 8845156	nag_mortarch_luthor_unlock	GEN_TARGET_NONE	
 8845157	nag_mortarch_luthor_unlock	VAR_CHANCE	100
-8845158	nag_mortarch_luthor_unlock	VAR_OBJECTIVE_PROVINCE	wh2_main_coast_of_araby
+8845158	nag_mortarch_luthor_unlock	VAR_OBJECTIVE_PROVINCE	wh2_main_vampire_coast
 8845160	nag_mortarch_luthor_unlock	VAR_MISSION_LENGTH_INFINITE	
 8845161	nag_mortarch_arkhan_event_1	VAR_CHANCE	100
 8845162	nag_mortarch_arkhan_event_1	GEN_TARGET_NONE	

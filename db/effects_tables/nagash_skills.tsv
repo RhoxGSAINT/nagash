@@ -87,7 +87,7 @@ nag_effect_self_isabella_to_vlad_buff	melee_character.png	87	melee_character.png
 nag_effect_self_vlad_enable_mortarch_of_shadows_aura	general_ability.png	1	general_ability.png	battle	true
 nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	general_ability.png	3	general_ability.png	battle	true
 nag_effect_self_krell_infantry_melee_defence_skill	defence.png	3	defence.png	battle	true
-nag_effect_self_krell_infantry_upkeep_skill	treasury.png	5	treasury.png	battle	true
+nag_effect_self_krell_infantry_upkeep_skill	treasury.png	5	treasury.png	battle	false
 nag_effect_self_krell_melee_attack_versus_nor_chs_bst	melee.png	1	melee.png	battle	true
 nag_effect_self_krell_melee_damage_versus_nor_chs_bst	weapon_damage.png	2	weapon_damage.png	battle	true
 nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	charge.png	3	charge.png	battle	true

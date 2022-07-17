@@ -382,10 +382,12 @@ local function trigger_mortarch_unlock_missions()
         local mort = "nag_mortarch_mannfred"
         
         local mm = mission_manager:new(key, mort.."_unlock")
-        mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
-        mm:add_condition("faction " .. key);
-        mm:add_condition("building_level nag_bpyramid_main_obelisk_2");
-        mm:add_condition("total 1");
+        mm:add_new_objective("CAPTURE_REGIONS");
+	    mm:add_condition("region " .. "wh_main_eastern_sylvania_castle_drakenhof");
+        -- mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
+        -- mm:add_condition("faction " .. key);
+        -- mm:add_condition("building_level nag_bpyramid_main_obelisk_2");
+        -- mm:add_condition("total 1");
         -- mm:add_new_objective("DESTROY_FACTION")
         -- mm:add_condition("faction wh_main_vmp_vampire_counts")
         -- mm:add_condition("confederation_valid false");
