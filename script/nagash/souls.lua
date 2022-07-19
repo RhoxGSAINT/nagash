@@ -481,14 +481,16 @@ function bdsm:complete_bp_raise()
 
         end
     )
+    cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
+    cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
 
 end
 
 --- Callback to see if we need to create the BP button
 function bdsm:check_bp_button()
-    self:logf("++++++check_bp_button !")
+    -- self:logf("++++++check_bp_button !")
     if self:is_bp_rite_available() then
-        self:logf("++++++is_bp_rite_available !")
+        -- self:logf("++++++is_bp_rite_available !")
         self:add_bp_button()
     end
 end
@@ -559,9 +561,9 @@ function bdsm:is_bp_rite_available()
     local owns = false
 
     local r_list = f:region_list()
-    self:logf("++++++is_bp_rite_available 01 !")
+    -- self:logf("++++++is_bp_rite_available 01 !")
     if v and v == true then
-        self:logf("++++++is_bp_rite_available 02 !")
+        -- self:logf("++++++is_bp_rite_available 02 !")
         return false
     end
 
@@ -570,12 +572,12 @@ function bdsm:is_bp_rite_available()
 
         if region:name() == self._bp_key then
             owns = true
-            self:logf("++++++is_bp_rite_available 03 !")
+            -- self:logf("++++++is_bp_rite_available 03 !")
         end
     end
 
     local val = cm:get_saved_value("nag_bp_ritual_completed")
-    self:logf("++++++is_bp_rite_available 04 !")
+    -- self:logf("++++++is_bp_rite_available 04 !")
     return owns and not val
 end
 
@@ -877,8 +879,7 @@ function bdsm:trigger_rites_listeners()
             return context:ritual():ritual_key() == "nag_death"
         end,
         function(context)
-            cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
-            cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
+            
             --- spawn a death army at Nagash, at BP, or at a random Mortarch, or at a random settlement, in that order.
             local nag = bdsm:get_faction_leader()
             local key = bdsm:get_faction_key()
@@ -960,12 +961,10 @@ function bdsm:trigger_rites_listeners()
         local nuke_resource_amount  = get_pooled_resource("nag_grand_spell_03")
         if nuke_resource_amount < grand_spell_cost then
             --resource is bellow cost remove spell
-            -- cm:remove_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key());
             local f_leader = self:get_faction_leader()
             cm:remove_effect_bundle_from_character(grand_spells_effect_bundle_key[3],f_leader)
         else
             --resource is above cost unlock spell
-            -- cm:apply_effect_bundle(grand_spells_effect_bundle_key[3], bdsm:get_faction_key(), 0)
             local f_leader = self:get_faction_leader()
             cm:apply_effect_bundle_to_character(grand_spells_effect_bundle_key[3],f_leader,0)
         end
@@ -1006,19 +1005,17 @@ function bdsm:trigger_rites_listeners()
             if cm:pending_battle_cache_faction_is_involved(bdsm:get_faction_key()) and 
                     (cm:model():pending_battle():get_how_many_times_ability_has_been_used_in_battle(nagash_faction_cqi, grand_spells_ability_key[1]) > 0) then                
                 cm:faction_add_pooled_resource(key, "nag_grand_spell_01", "nag_grand_spell_01_recharge", - grand_spell_cost)
-                -- local key = self:get_faction_key()
-                -- cm:faction_add_pooled_resource(key, "nag_warpstone", "nag_warpstone_buildings", 5)
-                self:logf("++++++grand spell 01 cast!")
+                self:logf("grand spell 01 cast!")
             end
             if cm:pending_battle_cache_faction_is_involved(bdsm:get_faction_key()) and 
                     (cm:model():pending_battle():get_how_many_times_ability_has_been_used_in_battle(nagash_faction_cqi, grand_spells_ability_key[2]) > 0) then                
                 cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_grand_spell_02", "nag_grand_spell_02_recharge", - grand_spell_cost)
-                self:logf("++++++grand spell 02 cast!!")
+                self:logf("grand spell 02 cast!!")
             end
             if cm:pending_battle_cache_faction_is_involved(bdsm:get_faction_key()) and 
                     (cm:model():pending_battle():get_how_many_times_ability_has_been_used_in_battle(nagash_faction_cqi, grand_spells_ability_key[3]) > 0) then                
                 cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_grand_spell_03", "nag_grand_spell_03_recharge", - grand_spell_cost)
-                self:logf("++++++grand spell 03 cast!!")
+                self:logf("grand spell 03 cast!!")
             end
         end,
         true
@@ -1085,17 +1082,17 @@ function bdsm:trigger_rites_listeners()
 			return context:previous_faction():subculture() == "nag_nagash"
 		end,
 		function(context)
-            self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
+            -- self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
 			local bp = cm:get_region(bdsm._bp_key)
             local key = bdsm:get_faction_key()
             if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then 
-                self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 02 cast!")
+                -- self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 02 cast!")
                 self:reset_current_ritual()
                 cm:remove_scripted_composite_scene("nag_bp_raise")
                 cm:set_saved_value("nag_bp_raise", false)
                 self:check_bp_button()
             end
-            self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
+            -- self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
 		end,
 		true
     )
@@ -1108,19 +1105,19 @@ function bdsm:trigger_rites_listeners()
 			return true
 		end,
 		function(context)
-            self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
+            -- self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
 			local bp = cm:get_region(bdsm._bp_key)
             local key = bdsm:get_faction_key()
 
             if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then 
-                self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 02 cast!")
+                -- self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 02 cast!")
                 self:reset_current_ritual()
                 cm:remove_scripted_composite_scene("nag_bp_raise")
                 cm:set_saved_value("nag_bp_raise", false)
                 self:check_bp_button()
             end
             
-            self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
+            -- self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
 		end,
 		true
     )
@@ -1130,12 +1127,12 @@ function bdsm:trigger_rites_listeners()
         "CharacterReplacingGeneral",
         function(context)
             local c = context:character()
-            self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 !")
-            self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 %s !", c:character_subtype_key())
+            -- self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 !")
+            -- self:logf("++++++CharacterReplacingGeneralNagTraitorKing 01 %s !", c:character_subtype_key())
             return c:faction():name() == bdsm:get_faction_key() and (c:character_subtype_key() == "nag_traitor_king") and c:has_military_force()
         end,
         function(context)
-            self:logf("++++++CharacterReplacingGeneralNagTraitorKing 02 !")
+            -- self:logf("++++++CharacterReplacingGeneralNagTraitorKing 02 !")
             --- Provide horde IF NOT a Shambling Horde (how to detect????)
             local c = context:character()
             local mf = c:military_force()
@@ -1157,9 +1154,9 @@ function bdsm:trigger_rites_listeners()
         function (context)
             local reg = context:region()
             cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
-            self:logf("++++++NagashWimp !")
+            -- self:logf("++++++NagashWimp !")
             if reg:name() == bdsm._bp_key and bdsm:is_bp_rite_available() then 
-                self:logf("++++++NagashWimp trigger !")
+                -- self:logf("++++++NagashWimp trigger !")
                 --- trigger the "Raise the BP!" mission
                 bdsm:trigger_bp_raise_mission()
                 bdsm:check_bp_button()
@@ -1209,7 +1206,7 @@ function bdsm:trigger_rites_listeners()
     
     local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_faction, faction_type)
         -- spawns markers which will later spawn invasion armies
-        self:logf("++++++tech invasions throw_enemies_at_settlement !")
+        -- self:logf("++++++tech invasions throw_enemies_at_settlement !")
         local num = cm:random_number(3, 2)
         local nag_key = bdsm:get_faction_key()
 
@@ -1254,7 +1251,7 @@ function bdsm:trigger_rites_listeners()
             context:technology() == "nag_location_quintex"
         end,
         function(context)
-            self:logf("++++++tech invasions !")
+            -- self:logf("++++++tech invasions !")
             tech_key = context:technology()
 
             if tech_key == "nag_location_nagashizzar" or tech_key == "nag_nagash_ultimate_preprartion" then
@@ -1330,12 +1327,12 @@ cm:add_saving_game_callback(
         cm:set_saved_value("revealed_objectives_wh_main_eastern_sylvania_castle_drakenhof", revealed_objectives.wh_main_eastern_sylvania_castle_drakenhof)
         cm:set_saved_value("revealed_objectives_wh2_main_titan_peaks_ancient_city_of_quintex", revealed_objectives.wh2_main_titan_peaks_ancient_city_of_quintex)
         
-        bdsm:logf("++++++ grand_spell_status_nag_grand_spell_01 save = %s", tostring(grand_spell_status.nag_grand_spell_01))
+        -- bdsm:logf("++++++ grand_spell_status_nag_grand_spell_01 save = %s", tostring(grand_spell_status.nag_grand_spell_01))
 
         cm:set_saved_value("grand_spell_status_nag_grand_spell_01", grand_spell_status.nag_grand_spell_01)
         cm:set_saved_value("grand_spell_status_nag_grand_spell_02", grand_spell_status.nag_grand_spell_02)
         cm:set_saved_value("grand_spell_status_nag_grand_spell_03", grand_spell_status.nag_grand_spell_03)
-        bdsm:logf("++++++ grand_spell_status_nag_grand_spell_01 save = %s", tostring(cm:get_saved_value("grand_spell_status_nag_grand_spell_01")))
+        -- bdsm:logf("++++++ grand_spell_status_nag_grand_spell_01 save = %s", tostring(cm:get_saved_value("grand_spell_status_nag_grand_spell_01")))
 
         cm:save_named_value("nag_rites", rite_status, context)
         cm:save_named_value("grand_spell_status", grand_spell_status, context)

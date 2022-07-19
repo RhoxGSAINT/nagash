@@ -6,4 +6,4 @@ nag_death	false	0	nag_death	20	STANDARD_RITUAL	0	5			0	false		nag_death		false
 nag_winds	false	0	nag_winds	20	STANDARD_RITUAL	0	5			0	false		nag_winds		false	
 nag_bp_raise	false	10	nag_bp_raise	0	WORLDROOTS_HEALING	0	0			0	false	nag_winds			false	
 nag_end_game	false	15	nag_end_game	0	WORLDROOTS_HEALING	0	0			0	false	nag_winds			false	
-nag_nagash	false	0	nag_nagash	5	STANDARD_RITUAL	0	3			0	false		nag_nagash		false	
+nag_nagash	false	0	nag_nagash	5	STANDARD_RITUAL	0	2			0	false		nag_nagash		false	

@@ -403,7 +403,7 @@ local function trigger_mortarch_unlock_missions()
             mm:trigger()
         end
     else
-        bdsm:logf("not spawning mostarch nag_mortarch_arkhan")
+        -- bdsm:logf("not spawning mostarch nag_mortarch_arkhan")
         -- local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
         -- mort:spawn()
         -- bdsm:logf(" finished spawn mostarch nag_mortarch_arkhan")
@@ -571,7 +571,7 @@ local function mortarch_unlock_listeners()
             end,
             function(context)
                 -- cm:treasury_mod(bdsm:get_faction_key(), 2000)
-                bdsm:logf("Nagash_AI_research_T800 faction %s turn %d ", context:faction():name(), cm:turn_number())
+                -- bdsm:logf("Nagash_AI_research_T800 faction %s turn %d ", context:faction():name(), cm:turn_number())
                 if cm:turn_number() == 20  then
                     local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
                     mort:spawn()
@@ -835,11 +835,11 @@ local function init()
 
         trigger_mortarch_unlock_missions()
     end
-    bdsm:logf("mortarch_unlock_listeners")
+    -- bdsm:logf("mortarch_unlock_listeners")
     mortarch_unlock_listeners()
-    bdsm:logf("mortarch_unlock_listeners")
+    -- bdsm:logf("mortarch_unlock_listeners")
     mortarch_event_listeners()
-    bdsm:logf("mortarch_event_listeners")
+    -- bdsm:logf("mortarch_event_listeners")
     if not cm:get_saved_value("nag_another_issue") then
         --- lock techs that have completed missions already
     end

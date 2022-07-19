@@ -514,6 +514,7 @@ local function init()
     if cm:is_new_game() then
         -- spawn units, set buildings, etc.
         -- intro battle triggered after the rest
+        
         local ok, err = pcall(function()
             bdsm:logf("Starting first turn")
             f(bdsm)
