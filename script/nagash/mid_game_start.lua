@@ -137,7 +137,7 @@ function bdsm:mid_game_start()
         "",
         true,
         function(cqi)
-            
+            cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force_special_character", cqi, 0, true);
         end
     )
 
@@ -213,7 +213,7 @@ function bdsm:mid_game_start()
     cm:transfer_region_to_faction("wh2_main_great_mortis_delta_black_pyramid_of_nagash", faction_key)
 
     local s = cm:get_region(nagashizar_key):settlement()
-    cm:instantly_set_settlement_primary_slot_level(s, 4)
+    cm:instantly_set_settlement_primary_slot_level(s, 5)
     
     local ss = cm:get_region(intro_chain_skaven.owned_region):settlement()
     cm:instantly_set_settlement_primary_slot_level(ss, intro_chain_skaven.owned_region_starting_level)
@@ -235,6 +235,8 @@ function bdsm:mid_game_start()
     end, 0.2)
     -- cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 15)
     cm:force_declare_war("wh2_dlc09_tmb_rakaph_dynasty", faction_key, false, false, false)
-    --cm:force_alliance("wh2_dlc09_tmb_khemri", faction_key, true)
+    -- cm:force_alliance("wh2_dlc09_tmb_khemri", faction_key, true)
+
+
     
 end

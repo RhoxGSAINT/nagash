@@ -133,6 +133,8 @@ function mortarch:spawn()
         dist
     )
 
+    local faction_human_test = cm:get_faction(bdsm:get_faction_key())
+
     cm:create_force_with_general(
         bdsm:get_faction_key(),
         table.concat(starting_army, ","),
@@ -147,9 +149,12 @@ function mortarch:spawn()
         "",
         false,
         function(cqi)
-            -- anything?
+            if not faction_human_test:is_human() then
+                cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force_special_character", cqi, 0, true);
+            end
         end
     )
+
 
     self.acquired = true
     self:trigger_event_missions()
@@ -321,80 +326,87 @@ end
 --- TODO consider multiple objectives per mission? maybe?
 local function trigger_mortarch_unlock_missions()
     local key = bdsm:get_faction_key()
+    local faction_handler = cm:get_faction(key)
+    if faction_handler:is_human() then
+        logf("triggerin mort unlock missions")
 
-    logf("triggerin mort unlock missions")
+        -- Luthor's mission (go to Vampire Coast)   
+        logf("pre luthor")
+        do
+            local mort = "nag_mortarch_luthor"
+            cm:trigger_mission(key, mort.."_unlock", true, false, true)
+            -- local mm = mission_manager:new(key, mort.."_unlock")
+            -- mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
+            -- mm:add_condition("faction " .. key);
+            -- mm:add_condition("building_level nag_outpost_main_port_1");
+            -- mm:add_condition("total 1");
+            
+            -- mm:add_payload("money 1000")
+            -- mm:trigger()
+        end
+        
+        logf("pre neffy")
+        --- Neffy's mission
+        do
+            local mort = "nag_mortarch_neferata"
+            
+            local mm = mission_manager:new(key, mort.."_unlock")
+            mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
+            mm:add_condition("faction " .. key);
+            mm:add_condition("building_level nag_outpost_special_nagashizzar_3");
+            mm:add_condition("total 1");
+            
+            mm:add_payload("money 1000")
+            mm:trigger()
+        end
+        
+        
+        logf("pre krell")
+        --- Krell's mission
+        do
+            local mort = "nag_mortarch_krell"
+            
+            local mm = mission_manager:new(key, mort.."_unlock")
+            mm:add_new_objective("KILL_X_ENTITIES")
+            mm:add_condition("total 5000")
+            mm:add_payload("money 1000")
+            
+            mm:trigger()
+        end
+        
+        logf("pre vlad")
+        -- Vlad's mission (spend time Channeling near Altdorf)
+        do
+            local mort = "nag_mortarch_vlad"
+            cm:trigger_mission(key, mort.."_unlock", true, false, true)
+        end
+        
+        logf("pre manny")
+        --- TODO needs a failsafe?
+        --- Manny's mission
+        do 
+            local mort = "nag_mortarch_mannfred"
+            
+            local mm = mission_manager:new(key, mort.."_unlock")
+            mm:add_new_objective("CAPTURE_REGIONS");
+            mm:add_condition("region " .. "wh_main_eastern_sylvania_castle_drakenhof");
+            -- mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
+            -- mm:add_condition("faction " .. key);
+            -- mm:add_condition("building_level nag_bpyramid_main_obelisk_2");
+            -- mm:add_condition("total 1");
+            -- mm:add_new_objective("DESTROY_FACTION")
+            -- mm:add_condition("faction wh_main_vmp_vampire_counts")
+            -- mm:add_condition("confederation_valid false");
 
-    -- Luthor's mission (go to Vampire Coast)   
-    logf("pre luthor")
-    do
-        local mort = "nag_mortarch_luthor"
-        cm:trigger_mission(key, mort.."_unlock", true, false, true)
-        -- local mm = mission_manager:new(key, mort.."_unlock")
-        -- mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
-        -- mm:add_condition("faction " .. key);
-        -- mm:add_condition("building_level nag_outpost_main_port_1");
-        -- mm:add_condition("total 1");
-        
-        -- mm:add_payload("money 1000")
-        -- mm:trigger()
-    end
-    
-    logf("pre neffy")
-    --- Neffy's mission
-    do
-        local mort = "nag_mortarch_neferata"
-        
-        local mm = mission_manager:new(key, mort.."_unlock")
-        mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
-        mm:add_condition("faction " .. key);
-        mm:add_condition("building_level nag_outpost_special_nagashizzar_3");
-        mm:add_condition("total 1");
-        
-        mm:add_payload("money 1000")
-        mm:trigger()
-    end
-    
-    
-    logf("pre krell")
-    --- Krell's mission
-    do
-        local mort = "nag_mortarch_krell"
-        
-        local mm = mission_manager:new(key, mort.."_unlock")
-        mm:add_new_objective("KILL_X_ENTITIES")
-        mm:add_condition("total 5000")
-        mm:add_payload("money 1000")
-        
-        mm:trigger()
-    end
-    
-    logf("pre vlad")
-    -- Vlad's mission (spend time Channeling near Altdorf)
-    do
-        local mort = "nag_mortarch_vlad"
-        cm:trigger_mission(key, mort.."_unlock", true, false, true)
-    end
-    
-    logf("pre manny")
-    --- TODO needs a failsafe?
-    --- Manny's mission
-    do 
-        local mort = "nag_mortarch_mannfred"
-        
-        local mm = mission_manager:new(key, mort.."_unlock")
-        mm:add_new_objective("CAPTURE_REGIONS");
-	    mm:add_condition("region " .. "wh_main_eastern_sylvania_castle_drakenhof");
-        -- mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
-        -- mm:add_condition("faction " .. key);
-        -- mm:add_condition("building_level nag_bpyramid_main_obelisk_2");
-        -- mm:add_condition("total 1");
-        -- mm:add_new_objective("DESTROY_FACTION")
-        -- mm:add_condition("faction wh_main_vmp_vampire_counts")
-        -- mm:add_condition("confederation_valid false");
+            mm:add_payload("money 1000")
 
-        mm:add_payload("money 1000")
-
-        mm:trigger()
+            mm:trigger()
+        end
+    else
+        bdsm:logf("not spawning mostarch nag_mortarch_arkhan")
+        -- local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
+        -- mort:spawn()
+        -- bdsm:logf(" finished spawn mostarch nag_mortarch_arkhan")
     end
 end
 
@@ -445,12 +457,13 @@ local function mortarch_unlock_listeners()
         end,
         true
     )
-
+    -- bdsm:logf("Tech researched "%s", context:technology()")
     core:add_listener(
     --- When an "unlock" tech is researched, spawn the related Morty.
         "MortarchUnlock",
         "ResearchCompleted",
         function(context)
+            -- bdsm:logf("Tech researched %s", context:technology())
             return unlock_techs[context:technology()]
         end,
         function(context)
@@ -545,6 +558,87 @@ local function mortarch_unlock_listeners()
         end,
         true
     )
+
+
+    local faction_human_test = cm:get_faction(bdsm:get_faction_key())
+    if not faction_human_test:is_human() then
+        core:add_listener(
+            "Nagash_AI_research_T800",
+            "FactionTurnStart",
+            function(context)
+                -- bdsm:logf("Nagash_AI_research_T800 faction %s", context:faction():name())
+                return context:faction():name() == bdsm:get_faction_key()
+            end,
+            function(context)
+                -- cm:treasury_mod(bdsm:get_faction_key(), 2000)
+                bdsm:logf("Nagash_AI_research_T800 faction %s turn %d ", context:faction():name(), cm:turn_number())
+                if cm:turn_number() == 20  then
+                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
+                    mort:spawn()
+                    kill_faction("wh2_dlc09_tmb_followers_of_nagash")   
+                end
+
+                if cm:turn_number() == 40 then
+                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_krell")
+                    mort:spawn()
+                end
+                
+                if cm:turn_number() == 60 then
+                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_neferata")
+                    mort:spawn()
+                end
+
+                if cm:turn_number() == 80 then
+                    kill_faction("wh_main_vmp_schwartzhafen")  
+                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_vlad")
+                    mort:spawn()  
+                    local faction_key = bdsm:get_faction_key()
+                    local faction_obj = cm:get_faction(faction_key)
+                    local faction_leader = faction_obj:faction_leader()
+                    local cqi = faction_leader:command_queue_index()
+                    local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
+                                        faction_key,
+                                        691,
+                                        419,
+                                        true,
+                                        5
+                                    )   
+                    cm:create_agent(
+                                        faction_key,
+                                        "dignitary",
+                                        "nag_mortarch_isabella",
+                                        ax,
+                                        ay,
+                                        false,
+                                        function(cqi)
+                                
+                                        end
+                                    )  
+                                        -- local fact = bdsm:get_faction()
+                                        -- local nagash = bdsm:get_faction_leader()
+                                        -- local nag_mf = nagash:military_force()
+                                        -- x = 691,
+                                        -- y = 419
+                                        -- cm:spawn_agent_at_military_force(fact, nag_mf, "dignitary", "nag_mortarch_isabella")
+        
+                end
+                if cm:turn_number() == 100 then
+                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_mannfred")
+                    mort:spawn()
+                    kill_faction("wh_main_vmp_vampire_counts")  
+                end
+                
+                if cm:turn_number() == 120 then
+                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_luthor")
+                    mort:spawn()
+                    kill_faction("wh2_dlc11_cst_vampire_coast")   
+                end
+                
+                 
+            end,
+            true
+        )
+    end
 end
 
 
@@ -741,10 +835,11 @@ local function init()
 
         trigger_mortarch_unlock_missions()
     end
-
+    bdsm:logf("mortarch_unlock_listeners")
     mortarch_unlock_listeners()
+    bdsm:logf("mortarch_unlock_listeners")
     mortarch_event_listeners()
-
+    bdsm:logf("mortarch_event_listeners")
     if not cm:get_saved_value("nag_another_issue") then
         --- lock techs that have completed missions already
     end
