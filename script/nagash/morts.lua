@@ -123,13 +123,13 @@ function mortarch:spawn()
     local subtype = self.subtype
 
     local is_sea = self.pos.is_sea or false
-    local dist = self.pos.dist or 8
+    local dist = self.pos.dist or 12
 
     local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
         bdsm:get_faction_key(),
         self.pos.region,
         is_sea,
-        true,
+        false,
         dist
     )
 
