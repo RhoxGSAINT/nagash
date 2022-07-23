@@ -368,7 +368,7 @@ function bdsm:complete_bp_raise()
     cm:make_region_visible_in_shroud(nag_fact, "wh2_main_titan_peaks_ancient_city_of_quintex")
     
     local mm = mission_manager:new(nag_fact, "nag_endgame_capture")
-    mm:add_new_objective("CAPTURE_REGIONS");
+    mm:add_new_objective("OWN_N_REGIONS_INCLUDING");
     mm:add_condition("region wh2_main_great_mortis_delta_black_pyramid_of_nagash");
     mm:add_condition("region wh2_main_the_broken_teeth_nagashizar");
     mm:add_condition("region wh2_main_marshes_of_madness_morgheim");
@@ -377,12 +377,13 @@ function bdsm:complete_bp_raise()
     mm:add_condition("region wh2_main_vampire_coast_the_awakening");
     mm:add_condition("region wh_main_eastern_sylvania_castle_drakenhof");
     mm:add_condition("region wh2_main_titan_peaks_ancient_city_of_quintex");
+    mm:add_condition("total 8");
     mm:add_payload("money 1000");
     mm:trigger()
 
 
     local mm_1 = mission_manager:new(nag_fact, "nag_waprstone_mines")
-    mm_1:add_new_objective("CAPTURE_REGIONS");
+    mm_1:add_new_objective("OWN_N_REGIONS_INCLUDING");
     mm_1:add_condition("region wh2_main_southlands_worlds_edge_mountains_karak_zorn");
     mm_1:add_condition("region wh_main_desolation_of_nagash_karak_azul");
     mm_1:add_condition("region wh2_main_the_wolf_lands_crookback_mountain");
@@ -394,6 +395,7 @@ function bdsm:complete_bp_raise()
     mm_1:add_condition("region wh_main_gianthome_mountains_kraka_drak");
     mm_1:add_condition("region wh2_main_deadwood_the_frozen_city");
     mm_1:add_condition("region wh2_main_titan_peaks_ancient_city_of_quintex");
+    mm_1:add_condition("total 11");
     mm_1:add_payload("money 1000");
     mm_1:trigger()
 
