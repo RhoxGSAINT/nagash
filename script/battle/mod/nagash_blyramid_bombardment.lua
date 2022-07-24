@@ -158,8 +158,12 @@ local function update()
 	local alliance_armies = bm:alliances():item(bm:get_player_alliance_num()):armies()
 	local enemy_armies = bm:alliances():item(bm:get_non_player_alliance_num()):armies()
 
-	scan_units_for_targets(alliance_armies, enemy_armies)
-	scan_units_for_targets(enemy_armies, alliance_armies)
+
+	local ok, err = pcall(function()
+        scan_units_for_targets(alliance_armies, enemy_armies)
+		scan_units_for_targets(enemy_armies, alliance_armies)
+    end)
+
 	
 end
 
