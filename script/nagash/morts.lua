@@ -833,30 +833,31 @@ local function init()
         logf("Is new game!")
         lock_starting_techs()
 
-        trigger_mortarch_unlock_missions()
+        -- trigger_mortarch_unlock_missions()
     end
     -- bdsm:logf("mortarch_unlock_listeners")
     mortarch_unlock_listeners()
     -- bdsm:logf("mortarch_unlock_listeners")
     mortarch_event_listeners()
     -- bdsm:logf("mortarch_event_listeners")
+
     if not cm:get_saved_value("nag_another_issue") then
         --- lock techs that have completed missions already
     end
 
 
     --- BETA temp disabled
-    -- core:add_listener(
-    --     "MortarchMissionsTrigger",
-    --     "BlackPyramidRaised",
-    --     true,
-    --     function(context)
-    --         -- Trigger all Mortarch Unlock missions when the BP is raised.
-    --         --- TODO ^ wait a turn?
-    --         trigger_mortarch_unlock_missions()
-    --     end,
-    --     false
-    -- )
+    core:add_listener(
+        "MortarchMissionsTrigger",
+        "BlackPyramidRaised",
+        true,
+        function(context)
+            -- Trigger all Mortarch Unlock missions when the BP is raised.
+            --- TODO ^ wait a turn?
+            trigger_mortarch_unlock_missions()
+        end,
+        false
+    )
 end
 
 --- TODO do this only if player is Nag
