@@ -21,4 +21,4 @@ ui_text_replacements_localised_text_rites_header_nag_nagash_nag_nagash	Great Rit
 ui_text_replacements_localised_text_tooltip_nag_grand_spell_01	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
 ui_text_replacements_localised_text_tooltip_nag_grand_spell_02	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
 ui_text_replacements_localised_text_tooltip_nag_grand_spell_03	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
-ui_text_replacements_localised_text_rite_pooled_resource_cost_nag_nagash	Use Warpstone[[img:nag_warpstone]][[/img]] to power Nagash's rituals.	true
+ui_text_replacements_localised_text_rite_pooled_resource_cost_nag_nagash	Cost||Use Warpstone[[img:nag_warpstone]][[/img]] to power Nagash's rituals.	true
