@@ -1,3 +1,4 @@
 member	subculture
 #campaign_group_member_criteria_originating_subcultures_tables;0;db/campaign_group_member_criteria_originating_subcultures_tables/nagash_culture	
 nagash_csc	nag_nagash
+nag_diplomacy	nag_nagash
