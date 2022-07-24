@@ -261,8 +261,6 @@ key	building	unit	xp	conditions	faction	enabled
 8427088	nag_subhorde_military1_barracks_3	nag_vanilla_vmp_mon_fell_bats	0	0		false
 8427089	nag_subhorde_military1_barracks_3	nag_sand_crawlies	0	0		false
 8427090	nag_subhorde_military1_barracks_3	nag_vanilla_tmb_mon_sepulchral_stalkers_0	0	0		false
-8427091	nag_subhorde_military1_barracks_3	nag_vanilla_tmb_inf_tomb_guard_0	0	0		false
-8427092	nag_subhorde_military1_barracks_3	nag_vanilla_tmb_inf_tomb_guard_1	0	0		false
 8427093	nag_subhorde_military2_stables_1	nag_vanilla_tmb_cav_skeleton_horsemen_0	0	0		false
 8427094	nag_subhorde_military2_stables_1	nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	0	0		false
 8427095	nag_subhorde_military2_stables_2	nag_vanilla_tmb_cav_skeleton_horsemen_0	0	0		false
