@@ -68,7 +68,7 @@ ancillaries_onscreen_name_nag_anc_mount_isabella_barded_nightmare	Barded Nightma
 ancillaries_colour_text_nag_anc_mount_isabella_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares - Undead stallions clad in baroque barding.	true
 ancillaries_onscreen_name_nag_anc_weapon_chaos_tomb_blade	Chaos Tomb Blade	true
 ancillaries_colour_text_nag_anc_weapon_chaos_tomb_blade	This cursed blade fills its wielder with an unholy energy, but also entraps the souls of those it cleaves including its former master, binding their jleshless remains in servitude.	true
-ancillaries_onscreen_name_nag_anc_armour_armour_of_the_barrows	Armour of the Barrows	true
+ancillaries_onscreen_name_nag_anc_armour_armour_of_the_barrows	Amour of the Barrows	true
 ancillaries_colour_text_nag_anc_armour_armour_of_the_barrows	The passage of the ages has strengthened rather than weakened this elaborate Chaos plate armour. Such is the aura of entropy that surrounds it that it has the power to decay the magic of enemy weapons in an instant.	true
 ancillaries_onscreen_name_nag_anc_weapon_black_axe_of_krell	The Black Axe of Krell	true
 ancillaries_colour_text_nag_anc_weapon_black_axe_of_krell	When the Black Axe of Krell bites into flesh, it leaves behind jagged shards that swiftly eat their way into the victim's heart.	true
@@ -92,17 +92,3 @@ ancillaries_onscreen_name_nag_anc_mount_liche_priest_shadow_skeletal_steed	Skele
 ancillaries_colour_text_nag_anc_mount_liche_priest_shadow_skeletal_steed	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	true
 ancillaries_onscreen_name_nag_anc_mount_liche_priest_undeath_skeletal_steed	Skeletal Steed	true
 ancillaries_colour_text_nag_anc_mount_liche_priest_undeath_skeletal_steed	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	true
-ancillaries_onscreen_name_nag_anc_mount_vmp_vampire_shadow_barded_nightmare	Barded Nightmare	true
-ancillaries_colour_text_nag_anc_mount_vmp_vampire_shadow_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares. They are Undead stallions clad in baroque barding.	true
-ancillaries_onscreen_name_nag_anc_mount_vmp_vampire_shadow_hellsteed	Hellsteed	true
-ancillaries_colour_text_nag_anc_mount_vmp_vampire_shadow_hellsteed	Hellsteeds are the unholy fusion of horse and giant bat, bound by Dark Magic - a fitting steed for a Vampire noble.	true
-ancillaries_onscreen_name_nag_anc_mount_vmp_vampire_barded_nightmare	Barded Nightmare	true
-ancillaries_colour_text_nag_anc_mount_vmp_vampire_barded_nightmare	The steeds of the Midnight Aristocracy are unnatural destriers called Nightmares. They are Undead stallions clad in baroque barding.	true
-ancillaries_onscreen_name_nag_anc_mount_vmp_vampire_hellsteed	Hellsteed	true
-ancillaries_colour_text_nag_anc_mount_vmp_vampire_hellsteed	Hellsteeds are the unholy fusion of horse and giant bat, bound by Dark Magic - a fitting steed for a Vampire noble.	true
-ancillaries_onscreen_name_nag_anc_mount_vmp_wight_king_barded_skeletal_steed	Barded Skeletal Steed	true
-ancillaries_colour_text_nag_anc_mount_vmp_wight_king_barded_skeletal_steed	A Wight King was once a Chieftain or a warrior-king of his tribe and so may have been buried with a loyal steed that still wears its rusted barding.	true
-ancillaries_onscreen_name_nag_anc_mount_vmp_wight_king_skeletal_steed	Skeletal Steed	true
-ancillaries_colour_text_nag_anc_mount_vmp_wight_king_skeletal_steed	The Wight King calls forth a spectral steed of bone to ride upon, should he have favoured it during his once-lived life.	true
-ancillaries_onscreen_name_nag_anc_mount_cst_gunnery_wight_rotting_promethean	Rotting Promethean	true
-ancillaries_colour_text_nag_anc_mount_cst_gunnery_wight_rotting_promethean	The unnatural speed and brutality of a reanimated Promethean makes it the ideal mount for any Undead, battle-mongering pirate.	true

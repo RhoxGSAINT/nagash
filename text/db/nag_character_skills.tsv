@@ -236,7 +236,7 @@ character_skills_localised_name_nag_skill_unique_luthor_slann_gold	Slann Gold	tr
 character_skills_localised_description_nag_skill_unique_luthor_slann_gold	It is well known that Lustrian gold is enchanted with all manner of esoteric properties; Harkon thinks it will restore his fractured mind! 	true
 character_skills_localised_name_nag_skill_unique_krell_chaos_tomb_blade	Chaos Tomb Blade	true
 character_skills_localised_description_nag_skill_unique_krell_chaos_tomb_blade	This evil weapon not only fills its wielder with an unholy energy but also entraps the souls of those it cleaves, binding their jleshless remains in servitude.	true
-character_skills_localised_name_nag_skill_unique_krell_armour_of_the_barrows	Armour of the Barrows	true
+character_skills_localised_name_nag_skill_unique_krell_armour_of_the_barrows	Amour of the Barrows	true
 character_skills_localised_description_nag_skill_unique_krell_armour_of_the_barrows	The passage of the ages has strengthened rather than weakened this elaborate Chaos plate armour. Such is the aura of entropy that surrounds it that it has the power to decay the magic of enemy weapons in an instant.	true
 character_skills_localised_name_nag_skill_unique_krell_black_axe_of_krell	The Black Axe of Krell	true
 character_skills_localised_description_nag_skill_unique_krell_black_axe_of_krell	When the Black Axe of Krell bites into flesh, it leaves behind jagged shards that swiftly eat their way into the victim's heart.	true
@@ -368,17 +368,3 @@ character_skills_localised_name_nag_skill_hero_undeath_spell_nagash_dummy_breath
 character_skills_localised_description_nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
 character_skills_localised_name_nag_skill_personal_neferata_guardian	Thrall Guardians	true
 character_skills_localised_description_nag_skill_personal_neferata_guardian	Never know when you need someone to clean your shoes.	true
-character_skills_localised_name_nag_dignitary_shadow_unique_vampire_barded_nightmare	Barded Nightmare	true
-character_skills_localised_description_nag_dignitary_shadow_unique_vampire_barded_nightmare	Nightmares are often clad in heavy barding or wear caparisons of thick chainmail.	true
-character_skills_localised_name_nag_dignitary_shadow_unique_vampire_hellsteed	Hellsteed	true
-character_skills_localised_description_nag_dignitary_shadow_unique_vampire_hellsteed	Hellsteeds are vicious. Vampires that dabble in the binding of beasts delight in breaking these wild creatures to their will.	true
-character_skills_localised_name_nag_dignitary_unique_vampire_barded_nightmare	Barded Nightmare	true
-character_skills_localised_description_nag_dignitary_unique_vampire_barded_nightmare	Nightmares are often clad in heavy barding or wear caparisons of thick chainmail.	true
-character_skills_localised_name_nag_dignitary_unique_vampire_hellsteed	Hellsteed	true
-character_skills_localised_description_nag_dignitary_unique_vampire_hellsteed	Hellsteeds are vicious. Vampires that dabble in the binding of beasts delight in breaking these wild creatures to their will.	true
-character_skills_localised_name_nag_vmp_champion_unique_wight_king_skeletal_steed	Skeletal Steed	true
-character_skills_localised_description_nag_vmp_champion_unique_wight_king_skeletal_steed	Wight Kings require the steeds that bore them in life, and will do again in death.	true
-character_skills_localised_name_nag_vmp_champion_unique_wight_king_barded_skeletal_steed	Barded Skeletal Steed	true
-character_skills_localised_description_nag_vmp_champion_unique_wight_king_barded_skeletal_steed	Skeletal Steeds draped in fine armour make for an impressive and dangerous sight.	true
-character_skills_localised_name_nag_cst_engineer_unique_gunnery_wight_rotting_pro	Rotting Promethean	true
-character_skills_localised_description_nag_cst_engineer_unique_gunnery_wight_rotting_pro	The unnatural speed and brutality of a reanimated Promethean makes it the ideal mount for any Undead, battle-mongering pirate.	true

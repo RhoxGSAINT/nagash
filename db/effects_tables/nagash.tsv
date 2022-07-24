@@ -149,5 +149,3 @@ nag_krell_unit_effect	melee.png	666	resistance_physical.png	campaign	true
 nag_neferata_unit_effect	attribute_stalk.png	666	resistance_physical.png	campaign	true
 nag_vlad_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	true
 nag_undead_corruption_world_dummy	religion_undeath.png	104	religion_undeath.png	campaign	true
-nag_effect_force_enemy_campaign_movement_range_province	campaign_movement.png	14	campaign_movement.png	campaign	false
-nag_effect_force_enemy_begin_fatigued_3_winded	vigour.png	101	vigour.png	battle	true

@@ -118,7 +118,7 @@ nag_skill_unique_vlad_the_carstein_ring	item_talisman.png	An ancestral ring, set
 nag_skill_unique_vlad_von_carstein_mesmerising_aura	character_cooldown.png	The Lord of the von Carsteins exudes a distracting and sensational air, giving all before him pause.	Mesmerising Aura 	6	false	false	false	0.0	0
 nag_skill_unique_luthor_slann_gold	item_enchanted_item.png	It is well known that Lustrian gold is enchanted with all manner of esoteric properties; Harkon thinks it will restore his fractured mind! 	Slann Gold	14	false	false	false	0.0	0
 nag_skill_unique_krell_chaos_tomb_blade	item_talisman.png	 	Chaos Tomb Blade	8	false	false	false	0.0	0
-nag_skill_unique_krell_armour_of_the_barrows	item_armour.png		Armour of the Barrows	10	false	false	false	0.0	0
+nag_skill_unique_krell_armour_of_the_barrows	item_armour.png		Amour of the Barrows	10	false	false	false	0.0	0
 nag_skill_unique_krell_black_axe_of_krell	item_weapon.png		The Black Axe of Krell	13	false	false	false	0.0	0
 nag_skill_unique_mannfred_armour_of_templehof	item_armour.png	 	Armour of Templehof	12	false	false	false	0.0	0
 nag_skill_unique_mannfred_sword_of_unholy_power	item_weapon.png	 	Sword of Unholy Power	7	false	false	false	0.0	0
@@ -176,13 +176,6 @@ nag_wizard_unique_liche_priest_light_skeletal_steed	mount_skeletal_steed_tmb.png
 nag_wizard_unique_liche_priest_nehekhara_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
 nag_wizard_unique_liche_priest_shadow_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
 nag_wizard_unique_liche_priest_undeath_skeletal_steed	mount_skeletal_steed_tmb.png	Long-dead destriers, awakened to serve their Unliving masters far beyond death.	Skeletal Steed	6	false	false	false	0.0	0
-nag_dignitary_shadow_unique_vampire_barded_nightmare	mount_barded_nightmare.png	Nightmares are often clad in heavy barding or wear caparisons of thick chainmail.	Barded Nightmare	7	false	false	false	0.0	0
-nag_dignitary_shadow_unique_vampire_hellsteed	mount_hellsteed.png	Hellsteeds are vicious. Vampires that dabble in the binding of beasts delight in breaking these wild creatures to their will.	Hellsteed	9	false	false	false	0.0	0
-nag_dignitary_unique_vampire_barded_nightmare	mount_barded_nightmare.png	Nightmares are often clad in heavy barding or wear caparisons of thick chainmail.	Barded Nightmare	7	false	false	false	0.0	0
-nag_dignitary_unique_vampire_hellsteed	mount_hellsteed.png	Hellsteeds are vicious. Vampires that dabble in the binding of beasts delight in breaking these wild creatures to their will.	Hellsteed	9	false	false	false	0.0	0
-nag_vmp_champion_unique_wight_king_skeletal_steed	mount_skeletal_steed.png	Wight Kings require the steeds that bore them in life, and will do again in death.	Skeletal Steed	3	false	false	false	0.0	0
-nag_vmp_champion_unique_wight_king_barded_skeletal_steed	mount_barded_skeletal_steed.png	Skeletal Steeds draped in fine armour make for an impressive and dangerous sight.	Barded Skeletal Steed	6	false	false	false	0.0	0
-nag_cst_engineer_unique_gunnery_wight_rotting_pro	mount_promethean.png	The unnatural speed and brutality of a reanimated Promethean makes it the ideal mount for any Undead, battle-mongering pirate.	Rotting Promethean	9	false	false	false	0.0	0
 nag_skill_hero_undeath_spell_nagash_abyssal_swarm	nagash_abyssal_swarm.png	The wizard binds the bones of predatory creatures with dark magic, causing them to rise from their animal graves.	Razkhar - Abyssal Swarm	0	false	false	false	0.0	0
 nag_skill_hero_undeath_spell_magic_nagash_raise_the_dead	wh_main_lore_nagash_raise_the_dead.png		Raise The Dead	0	false	false	false	0.0	0
 nag_skill_hero_undeath_spell_nagash_breath_of_darkness	nagash_breath_of_darkness.png	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	Morkharn - Breath of Darkness	0	false	false	false	0.0	0
