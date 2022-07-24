@@ -1,0 +1,12 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_ui_unit_bullet_points.loc		
+ui_unit_bullet_point_enums_onscreen_name_		true
+ui_unit_bullet_point_enums_tooltip_		true
+ui_unit_bullet_point_enums_onscreen_name_nag_morghasts	Heralds of the Accursed One	true
+ui_unit_bullet_point_enums_tooltip_nag_morghasts	The Morghasts are Nagash's officers and heralds on the battlefield, carrying out his will and reinforcing the undead host. \\nMorghasts have an encouraging effect on their allies' [[img:icon_morale]][[/img]]leadership should the [[img:icon_general]][[/img]]Lord be absent. 	true
+ui_unit_bullet_point_enums_onscreen_name_nag_spirit_host_aoe	Restless Ghosts	true
+ui_unit_bullet_point_enums_tooltip_nag_spirit_host_aoe	Unit damages all enemies around itself.	true
+ui_unit_bullet_point_enums_onscreen_name_wraithlike	Wraithlike	true
+ui_unit_bullet_point_enums_tooltip_wraithlike	These possessed beings seem to be lacking a material form, yet the blade still bites...\\nThis unit features a compromise between high [[img:ui/battle ui/ability_icons/resistance_physical.png]][[/img]]Physical Resistance and high material resilience compared to fully-ethereal units who only rely on the former.	true
+ui_unit_bullet_point_enums_onscreen_name_nag_nagash_husk	Husk	true
+ui_unit_bullet_point_enums_tooltip_nag_nagash_husk	Nagash may be reborn, but he is merely a shadow of himself in his weakened form as he recoups his true power.	true

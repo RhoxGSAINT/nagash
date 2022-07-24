@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_tech_ui_groups.loc		
+technology_ui_groups_optional_display_name_nag_tech_rituals	Nagashi Rituals	true
+technology_ui_groups_optional_display_desctiption_nag_tech_rituals	Does this work?	true
+technology_ui_groups_optional_display_name_		true
+technology_ui_groups_optional_display_desctiption_	<--- not a typo	true

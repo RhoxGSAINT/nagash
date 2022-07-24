@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_occupation.loc		
+culture_settlement_occupation_options_tooltip_909090	Do Nothing||THESE WORTHLESS ASHES MEAN NOTHING TO ME.	true
+culture_settlement_occupation_options_tooltip_909091	Raze||THESE HOVELS DO NOT DESERVE EVEN THE PEACE OF DEATH.	true
+culture_settlement_occupation_options_tooltip_909092	Sack||I AM DEATH, I AM DESTRUCTION. FOR THE MOMENT, YOU SHALL ONLY KNOW PAIN.	true
+culture_settlement_occupation_options_tooltip_909093	[PH] Occupy	true
+culture_settlement_occupation_options_tooltip_909094	Colonise||THIS PLACE, I WANT IT.	true
+culture_settlement_occupation_options_tooltip_909095	Loot & Occupy||I SHALL REVEL IN RAISING THE DEAD AND TURNING THIS PLACE FOR MY ETERNAL GLORY.	true
+culture_settlement_occupation_options_tooltip_909096	Colonise||THIS PLACE, I WANT IT.	true

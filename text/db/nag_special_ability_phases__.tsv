@@ -1,0 +1,22 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_special_ability_phases__.loc		
+special_ability_phases_onscreen_name_wh_main_spell_nagash_abyssal_swarm_upgrade	[[col:red]][[img:icon_speed]][[/img]]Swarmed by Bats[[/col]]	true
+special_ability_phases_onscreen_name_nag_unit_passive_mortal_realm_of_souls		true
+special_ability_phases_onscreen_name_wh_dlc04_lord_passive_aura_of_dark_majesty	Aura of Dark Grandeur	true
+special_ability_phases_onscreen_name_wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	Aura of Dark Grandeur	true
+special_ability_phases_onscreen_name_nag_krell_armour_passive_armour_of_barrow	Armour of the Barrow	true
+special_ability_phases_onscreen_name_nag_krell_mortarch_of_despair_miscast_heal	Repair Beyond Despair	true
+special_ability_phases_onscreen_name_nag_neferata_passive_blood_queen	Blood Queen	true
+special_ability_phases_onscreen_name_nag_neferata_abilities_mortarch_of_blood_death	Beautiful Death	true
+special_ability_phases_onscreen_name_nag_neferata_item_passive_staff_of_pain	Staff of Pain	true
+special_ability_phases_onscreen_name_nag_unit_contact_screaming_blade	[[img:ui/skins/default/nag_modifier_icon_screaming_blade.png]][[/img]][[col:red]]Screaming Blade!\\n[[img:icon_hp]][[/img]]Damage over time[[/col]]	true
+special_ability_phases_onscreen_name_nag_nagash_abilities_master_arcane_conduit		true
+special_ability_phases_onscreen_name_nag_passive_marshlight_aura		true
+special_ability_phases_onscreen_name_nag_unit_passive_marshlight_aura_1	[[img:stage_one]][[/img]]Stage One	false
+special_ability_phases_onscreen_name_nag_unit_passive_marshlight_aura_2	[[img:stage_two]][[/img]]Stage Two	false
+special_ability_phases_onscreen_name_nag_unit_passive_torment		false
+special_ability_phases_onscreen_name_nag_warp_ghouls_poison	[[col:red]][[img:UI/Battle UI/ability_icons/nag_warp_ghouls_poison.png]][[/img]]Warpstone Weakness![[/col]]	true
+special_ability_phases_onscreen_name_nag_warp_ghouls_aura_skaven	[[col:green]]Warpstone, yes yes![[/col]]	true
+special_ability_phases_onscreen_name_nag_contact_slownado	[[col:red]][[img:UI/Battle UI/ability_icons/nag_contact_slownado.png]][[/img]]Grasping Whirlwind![[/col]]	true
+special_ability_phases_onscreen_name_wh_main_lore_nagash_raise_the_dead	Raise the Dead	false
+special_ability_phases_onscreen_name_nag_endless_tomb_skeleton_unbinding	[[img:unbinding_stage_one]][[/img]]Stable Binding (No damage)	true

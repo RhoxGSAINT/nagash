@@ -1,0 +1,10 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_ui_unit_groupings.loc		
+ui_unit_groupings_onscreen_cavalry_flying_scythe	Flying Cavalry	true
+ui_unit_groupings_onscreen_nag_warp_ghouls	Creature Infantry	true
+ui_unit_groupings_onscreen_nag_bone_colossus	Colossal Monster	true
+ui_unit_groupings_onscreen_wizard_undeath	Wizard	true
+ui_unit_groupings_onscreen_wizard_undeath_cavalry	Wizard	true
+ui_unit_groupings_onscreen_nag_revenants	Wraith Infantry	true
+ui_unit_groupings_onscreen_nag_spirits	Spirit Swarm	true
+ui_unit_groupings_onscreen_nag_morghast	Morghast	true

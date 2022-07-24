@@ -1,0 +1,8 @@
+key	minimum	maximum
+#pooled_resource_factors_tables;3;db/pooled_resource_factors_tables/nagash		
+nag_nagash_rituals	-100	20
+nag_warpstone_buildings	-10	100
+nag_warpstone_refund	-10	100
+nag_grand_spell_01_recharge	-100	100
+nag_grand_spell_02_recharge	-100	100
+nag_grand_spell_03_recharge	-100	100

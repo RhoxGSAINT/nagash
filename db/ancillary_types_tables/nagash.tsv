@@ -1,0 +1,10 @@
+type	ui_icon
+#ancillary_types_tables;0;db/ancillary_types_tables/nagash	
+nag_anc_mount_mannfred_abyssal	ui/campaign ui/mounts/mount_skullmuncha.png
+nag_anc_mount_arkhan_abyssal	ui/campaign ui/mounts/mount_skullmuncha.png
+nag_anc_mount_neferata_abyssal	ui/campaign ui/mounts/mount_skullmuncha.png
+nag_anc_mount_mannfred_barded_nightmare	ui/campaign ui/mounts/mount_barded_nightmare.png
+nag_anc_mount_neferata_warhorse	ui/campaign ui/mounts/mount_barded_nightmare.png
+nag_anc_mount_luthor_harkon_terrorgheist	ui/campaign ui/mounts/mount_terrorgheist.png
+nag_anc_mount_arkhan_skeletal_steed	ui/campaign ui/mounts/mount_skeletal_steed_tmb.png
+nag_anc_mount_arkhan_skeleton_chariot	ui/campaign ui/mounts/mount_skeleton_chariot.png

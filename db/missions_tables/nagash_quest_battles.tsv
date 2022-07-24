@@ -1,0 +1,3 @@
+key	generate	localised_description	localised_title	mission_type	ui_icon	ui_image	prioritised	event_category	set_piece_battle	location_x	location_y	quest_mission	trigger_radius	quest_character	quest_mission_final	sticky_by_default
+#missions_tables;6;db/missions_tables/nagash_quest_battles																
+mission_kraka_drak_blyramid_rising	false	1	3	FIGHT_SET_PIECE_BATTLE	rom_event_mission.png	tmb/generic	true	Quest	battle_blyramid_rising	453	510	true	10.0		true	false

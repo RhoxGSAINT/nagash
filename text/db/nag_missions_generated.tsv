@@ -1,0 +1,226 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_missions_generated.loc		
+missions_localised_title_nag_assassinate_character_agent_brt	Errant Fool	true
+missions_localised_description_nag_assassinate_character_agent_brt	The living send their champion to end us, but we will end this breather.	true
+missions_localised_title_nag_assassinate_character_agent_bst	Bone Horn	true
+missions_localised_description_nag_assassinate_character_agent_bst	The Beastmen's gor thinks to frustrate us. End the creature.	true
+missions_localised_title_nag_assassinate_character_agent_chs	False Gods	true
+missions_localised_description_nag_assassinate_character_agent_chs	The northern Gods task their Champions to come against us.	true
+missions_localised_title_nag_assassinate_character_agent_def	Khaine's Critters	true
+missions_localised_description_nag_assassinate_character_agent_def	The Witch King's minions are abroad - one in particular must be silenced.	true
+missions_localised_title_nag_assassinate_character_agent_dwf	Dwarfs, vile little things who tend to stick their noses where they don't belong. Silence this creature.	true
+missions_localised_description_nag_assassinate_character_agent_dwf	Little Trouble in Big Mountains	true
+missions_localised_title_nag_assassinate_character_agent_emp	A Walking Corpse	true
+missions_localised_description_nag_assassinate_character_agent_emp	Men, nothing more than fuel for the fire; add another corpse to the pyre.	true
+missions_localised_title_nag_assassinate_character_agent_grn	Orc Bane	true
+missions_localised_description_nag_assassinate_character_agent_grn	The Greenskins are nothing more than noisome beasts, and now one of their number acts against us. Kill it.	true
+missions_localised_title_nag_assassinate_character_agent_hef	Elven Agitator	true
+missions_localised_description_nag_assassinate_character_agent_hef	The Asur are cowards. They do not send their hosts against us, but merely mouthed agitators instead. Kill their agent.	true
+missions_localised_title_nag_assassinate_character_agent_lzd	Lizard Scum	true
+missions_localised_description_nag_assassinate_character_agent_lzd	Accursed reptiles send an agent to interfere with our plans! End this creature's pathetic existence.	true
+missions_localised_title_nag_assassinate_character_agent_skv	Rataliation	true
+missions_localised_description_nag_assassinate_character_agent_skv	Skaven foes try and undermine us; this will not happen again. Find their verminous agent and slay it.	true
+missions_localised_title_nag_assassinate_character_agent_tmb	They Will Serve	true
+missions_localised_description_nag_assassinate_character_agent_tmb	Insolent Fools! They refuse to bow the knee; their souls are forfeit and will be mine!	true
+missions_localised_title_nag_assassinate_character_agent_vmp	Dead-Headed Step Child	true
+missions_localised_description_nag_assassinate_character_agent_vmp	My children, you are so vein to defy my word, I gave you life, and I can take it just as easily.	true
+missions_localised_title_nag_assassinate_character_agent_wef	Elf Interference	true
+missions_localised_description_nag_assassinate_character_agent_wef	The Elves and their tree-creatures interfere in our expansion by sending an agent against us. Find the threat and destroy it.	true
+missions_localised_title_nag_capture_regions_brt	Damsel in Distress	true
+missions_localised_description_nag_capture_regions_brt	They think their Lady can save them; we will purge and seed their lands.	true
+missions_localised_title_nag_capture_regions_def	Claim the Glaciers	true
+missions_localised_description_nag_capture_regions_def	The ice dunes of the Dark Elves are a new realm to add to our own. The land of the dead will stretch to all corners.	true
+missions_localised_title_nag_capture_regions_dwf	Demand the Mountains	true
+missions_localised_description_nag_capture_regions_dwf	The mountain realms of the Dwarfs are valuable to us, for we need what lies in the stone. Claim it.	true
+missions_localised_title_nag_capture_regions_emp	Dead Man's Folly	true
+missions_localised_description_nag_capture_regions_emp	The men of the north think themselves safe from the dead. Take their land and disabuse them of such a notion.	true
+missions_localised_title_nag_capture_regions_grn	Green Scum	true
+missions_localised_description_nag_capture_regions_grn	These filthy creatures are nothing but a hindrance. Purify them from this region and claim it as our own.	true
+missions_localised_title_nag_capture_regions_hef	High Elf Arrogance	true
+missions_localised_description_nag_capture_regions_hef	The High Elves' arrogance will be their undoing; after all, we are truly immortal, not these fleshy things. Take their realm as punishment!	true
+missions_localised_title_nag_capture_regions_lzd	Cold-Blooded	true
+missions_localised_description_nag_capture_regions_lzd	The reptiles view their borders with intransigence. They must make way as Undeath is Ascendant. Claim this realm for the Undead.	true
+missions_localised_title_nag_capture_regions_skv	Underwhelming Empire	true
+missions_localised_description_nag_capture_regions_skv	Nagash demands this land be conquered from the vermin that infest this realm, all shal fall before him.	true
+missions_localised_title_nag_capture_regions_tmb	My Domain	true
+missions_localised_description_nag_capture_regions_tmb	The true righful ruler, take it back. These are your lands!	true
+missions_localised_title_nag_capture_regions_vmp	Daddy's Home	true
+missions_localised_description_nag_capture_regions_vmp	Your ambitions and desires cloud your mind; do not fear, Daddy's home.	true
+missions_localised_title_nag_capture_regions_wef	A Walk in the Woods	true
+missions_localised_description_nag_capture_regions_wef	The woodland realms offer us unique opportunities. Claim such a realm and watch our darkness will infest it.	true
+missions_localised_title_nag_declare_war_brt	War for the Roses	true
+missions_localised_description_nag_declare_war_brt	The rose unfurls to reveal its thorns, does it? We shall show these living fools what a brier patch truly is. Declare war.	true
+missions_localised_title_nag_declare_war_bst	Tame the Beast	true
+missions_localised_description_nag_declare_war_bst	These sub-man creatures are no threat to the glory of Nasgah. War on them until their extinction.	true
+missions_localised_title_nag_declare_war_chs	The Soul Gate	true
+missions_localised_description_nag_declare_war_chs	The Gods of Chaos stand at the gates to the Realm of Souls, siphoning souls for their own causes; this will not stand, Nagash bows before no God.	true
+missions_localised_title_nag_declare_war_def	Cold War	true
+missions_localised_description_nag_declare_war_def	Make war on the Dark Ones in their frozen climes, for that is the only meaningful discourse they understand.	true
+missions_localised_title_nag_declare_war_dwf	Short War	true
+missions_localised_description_nag_declare_war_dwf	The Dwarfs come to make war and we should not disappoint such stunted foes. Make short work of them!	true
+missions_localised_title_nag_declare_war_emp	War of the False-Emperor	true
+missions_localised_description_nag_declare_war_emp	This king calls himself an 'emperor', but his rule is weak - he is mortal for one thing. Teach this imposter the true meaning of sovereignty - declare war.	true
+missions_localised_title_nag_declare_war_grn	Orc Purge	true
+missions_localised_description_nag_declare_war_grn	The Greenskin menace has festered long enough! Declare war on these primitive tribes and purge them from the world!	true
+missions_localised_title_nag_declare_war_hef	Higher Calling	true
+missions_localised_description_nag_declare_war_hef	The High Elves have become a pain in your regal behind, so it is time to end their place in this world. Call the legions to war!	true
+missions_localised_title_nag_declare_war_lzd	In Cold Blood	true
+missions_localised_description_nag_declare_war_lzd	The Lizardmen threat can no longer be ignored. Declare war on the cold-blooded kind, let them see the power of death.	true
+missions_localised_title_nag_declare_war_skv	Pesticide	true
+missions_localised_description_nag_declare_war_skv	The ratmen infestation grows. These creatures have ever been a threat, it is time for them to finally perish.	true
+missions_localised_title_nag_declare_war_tmb	Uncivil War	true
+missions_localised_description_nag_declare_war_tmb	Some do not see your sovereignty and must be dominated. The legions shall meet in battle.	true
+missions_localised_title_nag_declare_war_vmp	Grave Mistake	true
+missions_localised_description_nag_declare_war_vmp	The time to show allegiance has passed; thus I will force your knee, attached to you or not.	true
+missions_localised_title_nag_declare_war_wef	Blood in the Roots	true
+missions_localised_description_nag_declare_war_wef	The tree-Elves need uprooting. Make war on such long-lived creatures, and show them the true path to immortality.	true
+missions_localised_title_nag_diplomatic_assassinate_character	Assassinate	true
+missions_localised_description_nag_diplomatic_assassinate_character	The prey is marked. Ensure their end.	true
+missions_localised_title_nag_diplomatic_capture_region	Land of the Dead	true
+missions_localised_description_nag_diplomatic_capture_region	Conquer these lands for they are yours, whether its denizens - living or dead - know it yet.	true
+missions_localised_title_nag_diplomatic_eliminate_character_in_battle	They Shall Perish	true
+missions_localised_description_nag_diplomatic_eliminate_character_in_battle	Bring about the end of this being - we cannot suffer him to exist any longer!	true
+missions_localised_title_nag_diplomatic_engage_force	Seek & Destroy	true
+missions_localised_description_nag_diplomatic_engage_force	This army is threat to your rule. Seek them out and bring them to battle.	true
+missions_localised_title_nag_diplomatic_raid_region	Raid & Raid Again	true
+missions_localised_description_nag_diplomatic_raid_region	This place contains crypts of a lost dynasty - it must be scoured.	true
+missions_localised_title_nag_diplomatic_raze_sack_settlement	Souless	true
+missions_localised_description_nag_diplomatic_raze_sack_settlement	Such a settlement, teeming with souls, it must be destroyed. Nagash demands it!	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_brt	Bretonnian Dog	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_brt	Seek out this serf in battle - this dog - and end his pitiful life. Nagash demands nothing less!	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_bst	Bestial Pal	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_bst	This Beastmen may not be the best specimen of their feeble race but it should still be dealt with.	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_chs	Bones for the Bone Throne	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_chs	While these men seem obsessed with skulls, we'll take any bones on offer - especially from the body of this Champion!	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_def	Dread Elf Mark	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_def	In battle, hunt down this Dark Elf pretender and extinguish his soul.	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_dwf	Die in Thane	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_dwf	There is a Dwarf that frustrates the will of Nagash. Hunt down this nuisance in battle and bring about his death!	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_emp	Flesh-Coated Skull	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_emp	The thralls to this child-emperor mock us. We should seek them out in battle and take their flesh-coated skulls.	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_grn	Gone Green	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_grn	Find this Orc filth that mocks us. Hunt down in the battle and end it.	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_hef	Bring Low	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_hef	Seek out the arrogant breather. Find the High Elf herald and slay it! Our honour demands it.	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_lzd	Older Blood	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_lzd	These reptiles use titles such as 'Oldblood' the arrogance! Ours would be the oldest blood there is, if we still had any. Hunt down this lizard usurper and end it!	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_skv	Rat-Fink	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_skv	Seek out Nagash's bane - the Skaven creature that challenges us. Kill the creature in battle, crush his skull under the weight of dominance!	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_tmb	How Dare They!	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_tmb	This serf - this slave - dares to defy you. Hunt it down in battle and break its soul!	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_vmp	Beasts in Velvet	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_vmp	Hunt down the Vampire-spawn - find the creature that dares to refuse your call and end its existence quickly.	true
+missions_localised_title_nag_eliminate_character_in_battle_high_rank_wef	Elven Quarry	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_wef	This Elven creature has been sent to challenge us - seek it out during the battle and kill it. Grind its skull into the ground!	true
+missions_localised_title_nag_engage_force_army_brt	Knight Fall	true
+missions_localised_description_nag_engage_force_army_brt	The Errantry War of the men from the north blocks our way. Engage them with our legions.	true
+missions_localised_title_nag_engage_force_army_bst	Confront the Horde	true
+missions_localised_description_nag_engage_force_army_bst	We have let these Beastmen roam our lands long enough. Bring the warherd to battle!	true
+missions_localised_title_nag_engage_force_army_chs	Slaves to Darkness	true
+missions_localised_description_nag_engage_force_army_chs	Chaos comes. The filth-encrusted gods of the north must be stopped. Send your legions forth!	true
+missions_localised_title_nag_engage_force_army_def	Halt the Dark Host	true
+missions_localised_description_nag_engage_force_army_def	The Druchii come. Engage their dark host and stop them!	true
+missions_localised_title_nag_engage_force_army_dwf	The Wrong Throng	true
+missions_localised_description_nag_engage_force_army_dwf	Dwarfs send a throng against us. Nagash demands their destruction - engage them in battle!	true
+missions_localised_title_nag_engage_force_army_emp	Sigmar's Sons	true
+missions_localised_description_nag_engage_force_army_emp	The uncivilised meat-sacks from the north have raised their banners against us. Meet them in battle - raise the legion!	true
+missions_localised_title_nag_engage_force_army_grn	Green Filth	true
+missions_localised_description_nag_engage_force_army_grn	An Orc rabble has invaded. Show these filth who should be invading who!	true
+missions_localised_title_nag_engage_force_army_hef	High Predations	true
+missions_localised_description_nag_engage_force_army_hef	The High Elves send a host to face us. Do not let this challenge go.	true
+missions_localised_title_nag_engage_force_army_invading_brt	The Flower Grows	true
+missions_localised_description_nag_engage_force_army_invading_brt	The Bretonnians invade! Repel these living trespassers, make them pay for disturbing the dead!	true
+missions_localised_title_nag_engage_force_army_invading_bst	Coming of the Brayherd	true
+missions_localised_description_nag_engage_force_army_invading_bst	So the Beastmen wish to walk the land of the dead? So be it!	true
+missions_localised_title_nag_engage_force_army_invading_chs	Legion of Chaos	true
+missions_localised_description_nag_engage_force_army_invading_chs	A Chaos Horde, sent by their vile Gods, invades our lands. Our God-king demand they should be repelled!	true
+missions_localised_title_nag_engage_force_army_invading_def	Dark Elves Come	true
+missions_localised_description_nag_engage_force_army_invading_def	The Witch King's thralls dare to invade our lands - these usurpers must be stopped!	true
+missions_localised_title_nag_engage_force_army_invading_dwf	Those Who Delve	true
+missions_localised_description_nag_engage_force_army_invading_dwf	The Dwarfs dare to invade our territory, a foolish decision. Send them back to their mountain burrows!	true
+missions_localised_title_nag_engage_force_army_invading_emp	Barbarian Invasion	true
+missions_localised_description_nag_engage_force_army_invading_emp	So the men of the north dare invade the lands of the dead. Slay them, then raise them, make them clamour for their green and soft lands.	true
+missions_localised_title_nag_engage_force_army_invading_grn	Green Flood	true
+missions_localised_description_nag_engage_force_army_invading_grn	The Orcs invade. Show them the true meaning of Waaar!	true
+missions_localised_title_nag_engage_force_army_invading_hef	Rude Host	true
+missions_localised_description_nag_engage_force_army_invading_hef	A High Elf host invades the lands of the ever-living. Repel these trespassers.	true
+missions_localised_title_nag_engage_force_army_invading_lzd	Reptile Swarm	true
+missions_localised_description_nag_engage_force_army_invading_lzd	The Lizardmen invade! Push these creatures back into their fetid jungles.	true
+missions_localised_title_nag_engage_force_army_invading_skv	Verminous Invasion	true
+missions_localised_description_nag_engage_force_army_invading_skv	Coming from their lairs, the Skaven invade! Send these pests to the abyss!	true
+missions_localised_title_nag_engage_force_army_invading_tmb	Know Thy Place	true
+missions_localised_description_nag_engage_force_army_invading_tmb	It would have been amusing if it wasn't for the inconvenience. Yet another pretender invades that must be stopped.	true
+missions_localised_title_nag_engage_force_army_invading_vmp	The Damned	true
+missions_localised_description_nag_engage_force_army_invading_vmp	Some of your kin send their legions against us; this is a slight that will not stand. Halt this pathetic invasion.	true
+missions_localised_title_nag_engage_force_army_invading_wef	Uproot Them	true
+missions_localised_description_nag_engage_force_army_invading_wef	The Wood Elves dare plant their roots in our unholy soil. Stop this Elven invasion!	true
+missions_localised_title_nag_make_alliance_0	Deadly Alliance	true
+missions_localised_description_nag_make_alliance_0	War is not the only answer. An alliance is required, for now.	true
+missions_localised_title_nag_raid_region_brt	Grail Raiders	true
+missions_localised_description_nag_raid_region_brt	These men defile their dead, parading them around and puppeteering them in mockery of you, my lord; plunder their crypts and raise their dead to fight against them.	true
+missions_localised_title_nag_raid_region_def	Stolen Lore	true
+missions_localised_description_nag_raid_region_def	The Dark Elf lands hide much valuable lore and secrets to eternal life. Raid their lands and seek such knowledge!	true
+missions_localised_title_nag_raid_region_dwf	Karak & Stick	true
+missions_localised_description_nag_raid_region_dwf	Crack open the Dwarfen Holds and raid their lands, homes and tombs for anything of value.	true
+missions_localised_title_nag_raid_region_emp	Aged of Sigmar	true
+missions_localised_description_nag_raid_region_emp	This young race of men have stolen secrets that belong to Nagash. We shall go, raid and return what has always been ours.	true
+missions_localised_title_nag_raid_region_grn	Take Back	true
+missions_localised_description_nag_raid_region_grn	The Orcs have looted and stolen from us for too long. Now, raid their slum lands!	true
+missions_localised_title_nag_raid_region_hef	High Raid	true
+missions_localised_description_nag_raid_region_hef	Enter High Elf lands and ravage! No longer will these arrogant upstarts keep what should be ours!	true
+missions_localised_title_nag_raid_region_lzd	Jungle Raid	true
+missions_localised_description_nag_raid_region_lzd	No longer will the Lizardmen hide their so-called knowledge from us. Seek out their treasures, their plaques of lore. Raid their habitat.	true
+missions_localised_title_nag_raid_region_skv	Mine Their Stone	true
+missions_localised_description_nag_raid_region_skv	We shall plunder the resources of the ratmen. Raid their warrens, destroy their under-world!	true
+missions_localised_title_nag_raid_region_tmb	Royal Trespass	true
+missions_localised_description_nag_raid_region_tmb	This inferior king hides relics we need. Raid his lands, scatter the sands and his legions. All we survey is ours.	true
+missions_localised_title_nag_raid_region_vmp	Crypt Robbers	true
+missions_localised_description_nag_raid_region_vmp	Some of the Vampire-kin have locked away treasures that were rightfully yours, reclaim what is owed.	true
+missions_localised_title_nag_raid_region_wef	Woodland Raid	true
+missions_localised_description_nag_raid_region_wef	Enter the tree-strewn paths of the Wood Elves and take their life-source - claim it for the Supreme Lord of the Dead.	true
+missions_localised_title_nag_raise_force_army	Legions Arise	true
+missions_localised_description_nag_raise_force_army	Under our feet awaits a long-dead legion, eternally loyal and ready to serve. All they needs is for you to utter an incantation of awakening.	true
+missions_localised_title_nag_raze_sack_settlement_brt	Curse Bretonnia	true
+missions_localised_description_nag_raze_sack_settlement_brt	Destroy a living city of Bretonnia. Send their presents fleeing into our bony embrace!	true
+missions_localised_title_nag_raze_sack_settlement_def	Druchii Curse	true
+missions_localised_description_nag_raze_sack_settlement_def	Seek out a city of the Dark Elves and raze it to the ground. Every stone must tumble. Nagash demands nothing less.	true
+missions_localised_title_nag_raze_sack_settlement_dwf	Karak It Open	true
+missions_localised_description_nag_raze_sack_settlement_dwf	The Dwarfholds of the stunted are a ripe target for our legions. Make it so.	true
+missions_localised_title_nag_raze_sack_settlement_emp	So Much Morr	true
+missions_localised_description_nag_raze_sack_settlement_emp	These men have their own "god" of death that inhabits every stone and garden in their vile realm. We will show them whar a true god of death looks like, topple their city.	true
+missions_localised_title_nag_raze_sack_settlement_grn	Orc Hole	true
+missions_localised_description_nag_raze_sack_settlement_grn	The Orcs gather in one of their settlements. Raise the legions and destroy it.	true
+missions_localised_title_nag_raze_sack_settlement_hef	Glittering Cities	true
+missions_localised_description_nag_raze_sack_settlement_hef	The Gleaming towers of the High Elves attempt to rival the glory of the Black Pyramid. This cannot be allowed to stand - literally.	true
+missions_localised_title_nag_raze_sack_settlement_lzd	Do Not Temple Me	true
+missions_localised_description_nag_raze_sack_settlement_lzd	The temple-cities of the Lizardmen are a cache of lost lore that could bring aid in the Great Ritual, unseal their crypts and burn what is left.	true
+missions_localised_title_nag_raze_sack_settlement_skv	Burrow and Destroy	true
+missions_localised_description_nag_raze_sack_settlement_skv	Seek out the Skaven nests and put an end to these vermin once and for all!	true
+missions_localised_title_nag_raze_sack_settlement_tmb	Pyramid Scheme	true
+missions_localised_description_nag_raze_sack_settlement_tmb	The city of a rival Tomb King dares to compete with our greatness! Raze it, and execute execute all who built it, to ensure the Black Pyramid remains the greatest death shrine.	true
+missions_localised_title_nag_raze_sack_settlement_vmp	I am the Night	true
+missions_localised_description_nag_raze_sack_settlement_vmp	They claim to be creatures of the night, You Are The Night! We will tear down their castles and rip them from their slumber.	true
+missions_localised_title_nag_raze_sack_settlement_wef	Timber	true
+missions_localised_description_nag_raze_sack_settlement_wef	The Wood Elves lurk in the deep woods. Send in your skeletal legions and fell any tree that could hold such vermin.	true
+missions_localised_title_nag_recruit_agent_champion	Barrow Brutes	true
+missions_localised_description_nag_recruit_agent_champion	Raise a Tomb Prince or Wight King, these ancient warrior's martial skills will help our cause.	true
+missions_localised_title_nag_recruit_agent_dignitary	Enact the Blood Kiss	true
+missions_localised_description_nag_recruit_agent_dignitary	A Vampire Count under our dominion is a powerful ally. Just remember, they are as ambitious in their quest for power as us.	true
+missions_localised_title_nag_recruit_agent_engineer	Undead Expertise	true
+missions_localised_description_nag_recruit_agent_engineer	Let's summon a Gunnery Wight shall we? It'll aid our missile units no end - the expertise they've retained from their, er, actual lives, is invaluable to us.	true
+missions_localised_title_nag_recruit_agent_spy	Heralds of the Accursed One	true
+missions_localised_description_nag_recruit_agent_spy	Call forth a mighty Archai, a sentient vassal bound to your will.	true
+missions_localised_title_nag_recruit_agent_wizard	Anoint the Clergy	true
+missions_localised_description_nag_recruit_agent_wizard	Summon a Liche Priest from the Mortuary Cult to serve.	true
+missions_localised_title_nag_recruit_unit_land_artillery	Skulls! Screaming!	true
+missions_localised_description_nag_recruit_unit_land_artillery	We require a Screaming Skull Catapult to ensure your reign.	true
+missions_localised_title_nag_recruit_unit_land_cavalry	Pale Horsemen	true
+missions_localised_description_nag_recruit_unit_land_cavalry	Bring forth the doomed knights to serve your majesty.	true
+missions_localised_title_nag_recruit_unit_land_infantry_melee	Undead Legions	true
+missions_localised_description_nag_recruit_unit_land_infantry_melee	Summon the legions from the Great Halls so they may serve you in battle.	true
+missions_localised_title_nag_recruit_unit_land_infantry_ranged	Death From Above	true
+missions_localised_description_nag_recruit_unit_land_infantry_ranged	The archers of ancient Nehekhara remain the best in the world. Ensure they join your legions.	true
+missions_localised_title_nag_recruit_unit_land_war_beast	Statue Still	true
+missions_localised_description_nag_recruit_unit_land_war_beast	Awaken the war statuary. Stone must march.	true
+missions_localised_title_nag_recruit_unit_land_war_machine	Chariots Not On Fire	true
+missions_localised_description_nag_recruit_unit_land_war_machine	Order the chariots into service at once.	true

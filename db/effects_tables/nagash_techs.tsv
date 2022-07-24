@@ -1,0 +1,13 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;3;db/effects_tables/nagash_techs					
+nag_arkhan_unlock	army.png	1	army.png	campaign	true
+nag_luthor_unlock	army.png	1	army.png	campaign	true
+nag_krell_unlock	army.png	1	army.png	campaign	true
+nag_mannfred_unlock	army.png	1	army.png	campaign	true
+nag_neferata_unlock	army.png	1	army.png	campaign	true
+nag_vlad_unlock	army.png	1	army.png	campaign	true
+nag_archai_cap	agent.png	1	agent.png	campaign	true
+nag_luthor_will_heal_dummy	replenishment.png	500	replenishment.png	campaign	true
+nag_ritual_attack_warning_dummy	climate_unpleasant.png	700	climate_unpleasant.png	campaign	false
+nag_ritual_attack_warning_dummy_final	climate_uninhabitable.png	700	climate_uninhabitable.png	campaign	false
+nag_ritual_victory_dummy	edict_evocation_of_nagash.png	800	edict_evocation_of_nagash.png	campaign	true

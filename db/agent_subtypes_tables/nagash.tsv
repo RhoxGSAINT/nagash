@@ -1,0 +1,24 @@
+key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	audio_vo_culture_override	spam_click_vo_enabled
+#agent_subtypes_tables;19;db/agent_subtypes_tables/nagash															
+nag_nagash_boss	false	true		nag_nagash_boss	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	true	-1	false	true	false	false	legendary_lords			false
+nag_nagash_husk	false	true		nag_nagash_husk	wh_main_vo_actor_Vampire_MasterNecromancer	true	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_neferata	false	true		nag_mortarch_neferata	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_krell	false	false		nag_mortarch_krell	wh_pro03_vo_actor_Vampire_chaos_Krell	true	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_vlad	false	true		nag_mortarch_vlad	wh_dlc04_vo_actor_Vampire_dlc04_Vlad_Von_Carstein	true	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_mannfred	false	true		nag_mortarch_mannfred	wh_main_vo_actor_Vampire_MannfredVonCarstein	true	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_luthor	false	false		nag_mortarch_luthor	wh2_dlc11_vo_actor_VampireCoast_Luthor_Harkon	true	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_arkhan	false	true		nag_mortarch_arkhan	wh2_dlc09_vo_actor_Tomb_Kings_Arkhan	true	-1	false	true	false	false	legendary_lords			false
+nag_mortarch_isabella	false	true		nag_mortarch_isabella	wh_pro02_vo_actor_Vampire_Isabella_Von_Carstein	false	1	true	true	false	false				false
+nag_traitor_king	true	false		nag_cha_tomb_king_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	true	-1	false	true	false	true	nag_traitor_king			false
+nag_tomb_prince	true	false	ui/campaign ui/agents/wh_main_lore_nag_prince.png	nag_cha_tomb_prince_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Prince	true	-1	false	true	false	true				false
+nag_liche_priest_death	true	true	ui/campaign ui/agents/wh_main_lore_death.png	nag_cha_liche_priest_death_0	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	true				false
+nag_liche_priest_light	true	true	ui/campaign ui/agents/wh_main_lore_light.png	nag_cha_liche_priest_light_0	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	true				false
+nag_liche_priest_nehekhara	true	true	ui/campaign ui/agents/wh2_dlc09_lore_nehekhara.png	nag_cha_liche_priest_nehekhara_0	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	true				false
+nag_liche_priest_shadow	true	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	nag_cha_liche_priest_shadow_0	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	true				false
+nag_liche_priest_undeath	true	true	ui/campaign ui/agents/wh_main_lore_nag_undeath.png	nag_cha_liche_priest_undeath_0	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	true				false
+nag_vampire	true	true	ui/campaign ui/agents/wh_main_lore_death.png	wh_main_vmp_cha_vampire_0	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	true	true	false	true				false
+nag_vampire_shadow	true	true	ui/campaign ui/agents/wh_dlc05_lore_shadow.png	wh_dlc05_vmp_cha_vampire_shadows_0	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	true	true	false	true				false
+nag_wight_king	true	false	ui/campaign ui/agents/wh_main_lore_nag_wight.png	wh_main_vmp_cha_wight_king_0	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false
+nag_gunnery_wight	true	false		wh2_dlc11_cst_cha_gunnery_wight_0	wh2_dlc11_vo_actor_VampireCoast_Gunnery_Wight	true	-1	false	true	false	true				false
+nag_morghasts_archai	true	false	ui/campaign ui/agents/wh2_dlc17_bst_wargor.png	nag_morghasts_archai	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false
+nag_traitor_king_shambling_horde	true	false		nag_cha_tomb_king_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	false	-1	false	true	false	true	vmp_master_necromancer			false

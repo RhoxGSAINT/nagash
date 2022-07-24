@@ -1,0 +1,8 @@
+bombardment_key	arrival_window	num_projectiles	projectile_type	radius_spread	start_time	launch_source	launch_vfx	launch_height	audio_type	launch_height_underground	randomise_launch
+#projectile_bombardments_tables;6;db/projectile_bombardments_tables/nagash											
+nag_army_abilities_blyramid_bombardment_00	0.1	1	nag_army_abilities_blyramid_bombardment	0.1	10.7	launch_and_explode		1		1	true
+nag_army_abilities_blyramid_bombardment_01	0.1	1	nag_army_abilities_blyramid_bombardment	0.1	11.7	launch_and_explode		1		1	true
+nag_army_abilities_blyramid_bombardment_02	0.1	1	nag_army_abilities_blyramid_bombardment	0.1	12.7	launch_and_explode		1		1	true
+nag_army_abilities_blyramid_bombardment_03	0.1	1	nag_army_abilities_blyramid_bombardment	0.1	13.7	launch_and_explode		1		1	true
+nag_army_abilities_blyramid_bombardment_04	0.1	1	nag_army_abilities_blyramid_bombardment	0.1	14.7	launch_and_explode		1		1	true
+nag_spirit_host_small	0.2	1	nag_spirit_host_small	1.5	0.1	activaters_entities		1		1	false

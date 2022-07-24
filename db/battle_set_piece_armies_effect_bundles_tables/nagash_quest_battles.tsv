@@ -1,0 +1,3 @@
+battle_set_piece_army	effect_bundle
+#battle_set_piece_armies_effect_bundles_tables;0;db/battle_set_piece_armies_effect_bundles_tables/nagash_quest_battles	
+battle_blyramid_rising_army_player	nag_ability_enable_batocalypse

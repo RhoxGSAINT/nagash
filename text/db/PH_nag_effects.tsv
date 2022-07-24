@@ -1,0 +1,9 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/PH_nag_effects.loc		
+effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to join your forces	true
+effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to join your forces	true
+effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to join your forces	true
+effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to join your forces	true
+effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to join your forces	true
+effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to join your forces	true
+effects_description_nag_archai_cap	Hero capacity: +%n for Morghast Archai	true

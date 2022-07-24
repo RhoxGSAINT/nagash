@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_campaign_effect_scopes__.loc		
+campaign_effect_scopes_localised_text_faction_to_army_general_own	\\n(all [[img:icon_general]][[/img]]Lords)	true

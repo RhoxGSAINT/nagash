@@ -1,0 +1,210 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_names.loc		
+names_name_1937224327	Nagash, Lord of the Undead	true
+names_name_1937224328	Nagash, Supreme Lord of Undeath	true
+names_name_1937224329	Vlad, Mortarch of Shadow	true
+names_name_1937224330	Mannfred, Mortarch of Night	true
+names_name_1937224331	Luthor, Mortarch of the Abyss	true
+names_name_1937224332	Arkhan, Mortarch of Sacrament 	true
+names_name_1937224333	Krell, Mortarch of Despair	true
+names_name_1937224334	Neferata, Mortarch of Blood	true
+names_name_1937224336	Isabella von Carstein	true
+names_name_1777692413		true
+names_name_1777692414		true
+names_name_1777692415		true
+names_name_1777692416		true
+names_name_1777692417		true
+names_name_1777692418		true
+names_name_1777692419		true
+names_name_1777692420		true
+names_name_1777692421		true
+		true
+names_name_8426830	Petuhyt	true
+names_name_8426831	Kawatamun	true
+names_name_8426832	Omhaf	true
+names_name_8426833	Hatip	true
+names_name_8426834	Aharos	true
+names_name_8426835	Senutep	true
+names_name_8426836	Berekht	true
+names_name_8426837	Djenna	true
+names_name_8426838	Inenza	true
+names_name_8426839	Kakalekh	true
+names_name_8426840	Sahut	true
+names_name_8426841	Djonza	true
+names_name_8426842	Menkare	true
+names_name_8426843	Ibiamose	true
+names_name_8426844	Ashamose	true
+names_name_8426845	Asharqa	true
+names_name_8426846	Araru	true
+names_name_8426847	Sekhereh	true
+names_name_8426848	Senufret	true
+names_name_8426849	Ratikh	true
+names_name_8426850	Arandes	true
+names_name_8426851	Anlashen	true
+names_name_8426852	Sephrefeh	true
+names_name_8426853	Aphoh	true
+names_name_8426854	Fehom	true
+names_name_8426855	Hakor	true
+names_name_8426856	Sephkoh	true
+names_name_8426857	Lysimachus	true
+names_name_8426858	Hekenurus	true
+names_name_8426859	Rahotep	true
+names_name_8426860	Addaya	true
+names_name_8426861	Khat	true
+names_name_8426862	Khabash	true
+names_name_8426863	Simudes	true
+names_name_8426864	Neferkare	true
+names_name_8426865	Inathor	true
+names_name_8426866	Menkaus	true
+names_name_8426867	Sehekhet	true
+names_name_8426868	Emkhatam	true
+names_name_8426869	Eurytamun	true
+names_name_8426870	Nakhtomhat	true
+names_name_8426871	Khedeskaf	true
+names_name_8426872	Pashedu	true
+names_name_8426873	Intes	true
+names_name_8426874	Kharus	true
+names_name_8426875	Agatep	true
+names_name_8426876	Meshep	true
+names_name_8426877	Nebuset	true
+names_name_8426878	Senusret	true
+names_name_8426879	Nectanebo	true
+names_name_8426880	Ramerenef	true
+names_name_8426881	Amenhonut	true
+names_name_8426882	Ptolethor	true
+names_name_8426883	Sanakht	true
+names_name_8426884	Djoramen	true
+names_name_8426885	Sensenna	true
+names_name_8426886	Intenebu	true
+names_name_8426887	Panet	true
+names_name_8426888	Hapros	true
+names_name_8426889	Rawer	true
+names_name_8426890	Hatmas	true
+names_name_8426891	Sachom	true
+names_name_8426892	Sekhetka	true
+names_name_8426893	Esfir	true
+names_name_8426894	Hakoros	true
+names_name_8426895	Isfoph	true
+names_name_8426896	Psamtik	true
+names_name_8426897	Itobom	true
+names_name_8426898	Djehuty	true
+names_name_8426899	Khura	true
+names_name_8426900	Ahmose	true
+names_name_8426901	Yanhanza	true
+names_name_8426902	Nishkoprah	true
+names_name_8426903	Hetekor	true
+names_name_8426904	Prehotaten	true
+names_name_8426905	Thutmocris	true
+names_name_8426906	Nebemakhet	true
+names_name_8426907	Baufra	true
+names_name_8426908	Djedeskhet	true
+names_name_8426909	Thutmomunzu	true
+names_name_8426910	Anlames	true
+names_name_8426911	Roprifas	true
+names_name_8426912	Salekh	true
+names_name_8426913	Rahobi	true
+names_name_8426914	Yanhakhat	true
+names_name_8426915	Pentu	true
+names_name_8426916	Eyoshers	true
+names_name_8426917	Kagetef	true
+names_name_8426918	Foctem	true
+names_name_8426919	Ophtos	true
+names_name_8426920	Thutmose	true
+names_name_8426921	Rahoshen	true
+names_name_8426922	Sekhtasfih	true
+names_name_8426923	Intef	true
+names_name_8426924	Oyas	true
+names_name_8426925	Rasfah	true
+names_name_8426926	Ramekht	true
+names_name_8426927	Hakos	true
+names_name_8426928	Djokht	true
+names_name_8426929	Senutamen	true
+names_name_8426930	Verena	true
+names_name_8426931	Elke	true
+names_name_8426932	Wilhelmina	true
+names_name_8426933	Carmen	true
+names_name_8426934	Arabel	true
+names_name_8426935	Irmine	true
+names_name_8426936	Desha	true
+names_name_8426937	Winifreda	true
+names_name_8426938	Layla	true
+names_name_8426939	Elsbeth	true
+names_name_8426940	Adalgisal	true
+names_name_8426941	Marcella	true
+names_name_8426942	Romhilde	true
+names_name_8426943	Jarvinia	true
+names_name_8426944	Wendrich	true
+names_name_8426945	Adalheida	true
+names_name_8426946	Conradine	true
+names_name_8426947	Karola	true
+names_name_8426948	Franziska	true
+names_name_8426949	Serhild	true
+names_name_8426950	Clara	true
+names_name_8426951	Yseult	true
+names_name_8426952	Hugiherahta	true
+names_name_8426953	Adolfina	true
+names_name_8426954	Lucina	true
+names_name_8426955	Roderika	true
+names_name_8426956	Kuonrada	true
+names_name_8426957	Frederica	true
+names_name_8426958	Bathilde	true
+names_name_8426959	Emmanuelle	true
+names_name_8426960	Elize	true
+names_name_8426961	Kamilla	true
+names_name_8426962	Melissa	true
+names_name_8426963	Genevieve	true
+names_name_8426964	Bertha	true
+names_name_8426965	Helene	true
+names_name_8426966	Ivonette	true
+names_name_8426967	Magdalene	true
+names_name_8426968	Zelda	true
+names_name_8426969	Hildegard	true
+names_name_8426970	Madeline	true
+names_name_8426971	Carla	true
+names_name_8426972	Anneka	true
+names_name_8426973	Elisa	true
+names_name_8426974	Elsa	true
+names_name_8426975	Freida	true
+names_name_8426976	Isolde	true
+names_name_8426977	Rebekka	true
+names_name_8426978	Rosalind	true
+names_name_8426979	Sofie	true
+names_name_8426980	Valda	true
+names_name_8426981	Teresia	true
+names_name_8426982	Sascha	true
+names_name_8426983	Sibylle	true
+names_name_8426984	Katrina	true
+names_name_8426985	Adeline	true
+names_name_8426986	Eva	true
+names_name_8426987	Krystiana	true
+names_name_8426988	Nicola	true
+names_name_8426989	Josefa	true
+names_name_8426990	Josephine	true
+names_name_8426991	Thrisha	true
+names_name_8426992	Carlotta	true
+names_name_8426993	Otilla	true
+names_name_8426994	Madeleine	true
+names_name_8426995	Wendelyn	true
+names_name_8426996	Idette	true
+names_name_8426997	Sylvana	true
+names_name_8426998	Millisent	true
+names_name_8426999	Perahta	true
+names_name_8427000	Dwilindong	true
+names_name_8427001	Annora	true
+names_name_8427002	Jellie	true
+names_name_8427003	Adalwolfa	true
+names_name_8427004	Eline	true
+names_name_8427005	Lieselotte	true
+names_name_8427006	Dreyfach	true
+names_name_8427007	Sevonne	true
+names_name_8427008	Odelia	true
+names_name_8427009	Grimzel	true
+names_name_8427010	Walborgd	true
+names_name_8427011	Ulrika	true
+names_name_8427012	Shinmyr	true
+names_name_8427013	Gricelda	true
+names_name_8427014	Halfrida	true
+names_name_8427015	Liusadh	true
+names_name_8427016	Emeline	true
+names_name_8427017	Hannelore	true
+names_name_8427018	Joey	true

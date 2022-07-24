@@ -1,0 +1,4 @@
+key	marker_type
+#campaign_interactable_marker_infos_tables;1;db/campaign_interactable_marker_infos_tables/nagash	
+nagash_intro_5	interactable_marker
+nag_bp_raise_army_spawn	imminent_invasion_level3

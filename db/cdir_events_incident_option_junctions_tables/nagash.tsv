@@ -1,0 +1,4 @@
+id	incident_key	option_key	value
+#cdir_events_incident_option_junctions_tables;2;db/cdir_events_incident_option_junctions_tables/nagash			
+31265496	nag_luthor_madness_4	GEN_TARGET_NONE	
+31265497	nag_luthor_madness_4	VAR_CHANCE	100

@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_technology_script_lock_reasons.loc		
+technology_script_lock_reasons_lock_reason_nag_arkhan_event_1	[PH] - Aid in Blyr being raised	true
+technology_script_lock_reasons_lock_reason_nag_arkhan_event_2	[PH] - Win 10 battles against TK, or kill Settra	true
+technology_script_lock_reasons_lock_reason_nag_arkhan_event_3	[PH] - Reach level X	true
+technology_script_lock_reasons_lock_reason_nag_neferata_event_1	[PH] - Reach level X [?] / Win X battles against Vamps	true
+technology_script_lock_reasons_lock_reason_nag_neferata_event_2	[PH] - Max landmark in Silver Pinnacle [?]	true
+technology_script_lock_reasons_lock_reason_nag_neferata_event_3	[PH] - Control Lahmia for ten turns	true

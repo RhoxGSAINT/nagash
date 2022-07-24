@@ -1,0 +1,3 @@
+key	text	tooltip
+#Loc PackedFile;1;text/db/nag_ui_stuff.loc		
+bp_button_text	Raise the Black Pyramid||Perform a Grand Ritual to Ascend both Nagash and the Black Pyramid, returning both to their fullest power. (WARNING IT WILL REMOVE NAGASH HUSK FROM THE GAME!!!)	true

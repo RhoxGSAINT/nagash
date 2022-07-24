@@ -1,0 +1,10 @@
+unit_name	unit_level	unit_type	percentage_num_men
+#battle_set_piece_armies_units_tables;2;db/battle_set_piece_armies_units_tables/nagash_quest_battles			
+nag_vanilla_tmb_inf_skeleton_archers_0	1	nag_vanilla_tmb_inf_skeleton_archers_0	100
+nag_vanilla_tmb_inf_tomb_guard_0	1	nag_vanilla_tmb_inf_tomb_guard_0	100
+nag_vanilla_tmb_mon_tomb_scorpion_0	1	nag_vanilla_tmb_mon_tomb_scorpion_0	100
+nag_morghasts	1	nag_morghasts	100
+nag_bone_thrower	1	nag_bone_thrower	100
+nag_giant_spoop	1	nag_bone_colossus	100
+nag_spectre_swarm	1	nag_spectre_swarm	100
+nag_revenants	1	nag_revenants	100

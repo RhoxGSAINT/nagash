@@ -1,0 +1,98 @@
+key	tech_category_tab	encyclopedia_group	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander
+#building_chains_tables;6;db/building_chains_tables/jvj_nagash_buildings_outpost								
+nag_outpost_primary_main			money	false	wh_main_sch_settlement_major	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_primary_main_coast			money	false	wh_main_sch_settlement_major_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_norsca_primary_main			money	false	wh_main_sch_norsca_settlement_major	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_norsca_primary_main_coast			money	false	wh_main_sch_norsca_settlement_major_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_secondary_main			military	false	wh_main_sch_settlement_minor	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_secondary_main_coast			military	false	wh_main_sch_settlement_minor_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_norsca_secondary_main			money	false	wh_main_sch_norsca_settlement_minor	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_norsca_secondary_main_coast			money	false	wh_main_sch_norsca_settlement_minor_coast	data\UI\Buildings\tier_icons\tier_tmb_city.png	0	
+nag_outpost_main_port			money	true	wh_main_sch_port		0	
+nag_outpost_primary_main_altdorf			money	false	wh_main_sch_special_settlement_altdorf		0	
+nag_outpost_primary_main_athel_loren			money	false	wh_dlc05_sch_wef_settlement_major_main		0	
+nag_outpost_primary_main_black_crag			money	false	wh_main_sch_special_settlement_black_crag		0	
+nag_outpost_primary_main_castle_drakenhof			money	false	wh_main_sch_special_settlement_castle_drakenhof		0	
+nag_outpost_primary_main_couronne			money	false	wh_main_sch_special_settlement_couronne		0	
+nag_outpost_primary_main_eight_peaks			money	false	wh_main_sch_special_settlement_eight_peaks		0	
+nag_outpost_primary_main_gaean_vale			money	false	wh2_main_sch_special_settlement_gaean_vale		0	
+nag_outpost_primary_main_hexoatl			money	false	wh2_main_sch_special_settlement_hexoatl		0	
+nag_outpost_primary_main_itza			money	false	wh2_main_sch_special_settlement_itza		0	
+nag_outpost_primary_main_karaz_a_karak			money	false	wh_main_sch_special_settlement_karaz_a_karak		0	
+nag_outpost_primary_main_khemri			money	false	wh2_main_sch_special_settlement_khemri	data\UI\Buildings\tier_icons\tier_tmb_khemri.png	0	
+nag_outpost_primary_main_kislev			money	false	wh_main_sch_special_settlement_kislev		0	
+nag_outpost_primary_main_konquata			money	false	wh2_twa03_sch_special_settlement_konquata	data\UI\Buildings\tier_icons\tier_tmb_konquata.png	0	
+nag_outpost_primary_main_lahmia			money	false	wh2_main_sch_special_settlement_lahmia	data\UI\Buildings\tier_icons\tier_tmb_lahmia.png	0	
+nag_outpost_primary_main_lothern			money	false	wh2_main_sch_special_settlement_lothern		0	
+nag_outpost_primary_main_miragliano			money	false	wh_main_sch_special_settlement_miragliano		0	
+nag_outpost_primary_main_naggarond			money	false	wh2_main_sch_special_settlement_naggarond		0	
+nag_outpost_primary_main_pyramid_of_nagash			money	false	wh2_main_sch_special_settlement_pyramid_of_nagash		0	
+nag_outpost_primary_main_massif_orcal			money	false	wh2_dlc15_sch_special_settlement_massif_orcal	data\UI\Buildings\tier_icons\tier_greenskins_orc_city.png	0	
+nag_outpost_primary_main_tor_yvresse			money	false	wh2_dlc15_sch_special_settlement_tor_yvresse	data\UI\Buildings\tier_icons\tier_hef_city.png	0	
+nag_outpost_primary_main_galleons_graveyard			money	false	wh2_dlc11_sch_special_settlement_galleons_graveyard	data\UI\Buildings\tier_icons\tier_coast_galleons_graveyard.png	0	
+nag_outpost_primary_main_sartosa			money	false	wh2_main_sch_special_settlement_sartosa		0	
+nag_outpost_primary_main_awakening			money	false	wh2_main_sch_special_settlement_the_awakening		0	
+nag_outpost_primary_main_hellpit			money	false	wh2_main_sch_special_settlement_hellpit		0	
+nag_outpost_primary_main_skavenblight			money	false	wh2_main_sch_special_settlement_skavenblight		0	
+nag_outpost_primary_main_empire_fort			military	false	wh2_main_sch_empire_fort		0	
+nag_outpost_primary_main_fortress_gate_eagle			military	false	wh2_main_sch_fortress_gate_eagle		0	
+nag_outpost_primary_main_fortress_gate_griffon			military	false	wh2_main_sch_fortress_gate_griffon		0	
+nag_outpost_primary_main_fortress_gate_phoenix			military	false	wh2_main_sch_fortress_gate_phoenix		0	
+nag_outpost_primary_main_fortress_gate_unicorn			military	false	wh2_main_sch_fortress_gate_unicorn		0	
+nag_outpost_primary_main_elven_colony			money	false	wh2_main_sch_special_settlement_elven_colony_major		0	
+nag_outpost_primary_main_elven_minor_colony			money	false	wh2_main_sch_special_settlement_elven_colony_minor		0	
+nag_outpost_primary_main_oak_of_ages			money	false	wh_dlc05_sch_wef_oak_of_ages	data\UI\Buildings\tier_icons\tier_wood_elves_city_oak_of_ages.png	0	
+nag_outpost_landmark_boneyard_mourkain			military	false	wh2_main_sch_special_galbaraz_mourkain		1	
+nag_outpost_landmark_necropolis_mourkain			military	false	wh2_dlc15_special_morgheim_necropolis		1	
+nag_outpost_landmark_dragon_isle_port			money	false	wh2_dlc14_sch_special_dragon_isle_port		0	
+nag_outpost_landmark_lothern_port			military	false	wh2_main_sch_special_lothern_port		0	
+nag_outpost_landmark_erengrad_port			money	false	wh_main_sch_special_erengrad_port		0	
+nag_outpost_landmark_marienburg_port			money	false	wh_main_sch_special_marienburg_port		0	
+nag_outpost_landmark_albion_port			money	false	wh_twa03_sch_special_albion_port		0	
+nag_outpost_landmark_copher_port			money	false	wh2_dlc14_sch_special_copher_port		0	
+nag_outpost_landmark_bordeleaux_port			money	false	wh_main_sch_bretonnia_legendary_bordeleaux		0	
+nag_outpost_special_nagashizzar			money	false	nag_outpost_special_nagashizzar		0	
+nag_outpost_special_mourkain			money	false	nag_outpost_special_mourkain		0	
+nag_outpost_special_lahmia			money	false	nag_outpost_special_lahmia		0	
+nag_outpost_special_khemri			money	false	nag_outpost_special_khemri		0	
+nag_outpost_special_awakening			money	false	nag_outpost_special_awakening		0	
+nag_outpost_special_drakenhof			money	false	nag_outpost_special_drakenhof		0	
+nag_outpost_special_quintex			money	false	nag_outpost_special_quintex		0	
+nag_outpost_primary_research			money	false	nag_outpost_primary_research		6	
+nag_outpost_primary_arcane			money	false	nag_outpost_primary_arcane		7	
+nag_outpost_primary_support			money	false	nag_outpost_primary_support		8	
+nag_outpost_primary_nehek			money	false	nag_outpost_primary_nehek		1	
+nag_outpost_primary_nagashizzar			money	false	nag_outpost_primary_nagashizzar		2	
+nag_outpost_primary_coast			money	false	nag_outpost_primary_coast		3	
+nag_outpost_primary_count			money	false	nag_outpost_primary_count		4	
+nag_outpost_primary_warpstone			money	false	nag_outpost_primary_warpstone		5	
+nag_outpost_secondary_fields			money	false	nag_outpost_secondary_fields		1	
+nag_outpost_secondary_corruption			money	false	nag_outpost_secondary_corruption		2	
+nag_outpost_secondary_syphon			money	false	nag_outpost_secondary_syphon		3	
+nag_outpost_secondary_energy			money	false	nag_outpost_secondary_energy		4	
+nag_settlement_cavalry			military	false	nag_sch_settlement_cavalry		2	
+nag_settlement_chariots			military	false	nag_sch_settlement_chariots		3	
+nag_settlement_citadel			military	false	nag_sch_settlement_citadel		14	
+nag_settlement_defence_major			military	false	nag_sch_settlement_defence_major		10	
+nag_settlement_estate			money	false	nag_sch_settlement_estate		13	
+nag_settlement_growth			money	false	nag_sch_settlement_growth		11	
+nag_settlement_hierotitan			military	false	nag_sch_settlement_hierotitan		99	
+nag_settlement_income			money	false	nag_sch_settlement_income		12	
+nag_settlement_infantry			military	false	nag_sch_settlement_infantry		1	
+nag_settlement_necrosphinx			military	false	nag_sch_settlement_necrosphinx		9	
+nag_settlement_scorpions			military	false	nag_sch_settlement_scorpions		7	
+nag_settlement_ushabti			military	false	nag_sch_settlement_ushabti		5	
+nag_settlement_warsphinx			military	false	nag_sch_settlement_warsphinx		8	
+nag_settlement_priest			military	false	nag_sch_settlement_priest		4	
+nag_settlement_spirit			military	false	nag_sch_settlement_spirit		6	
+nag_resource_gemstones			money	false	wh2_main_sch_human_resource_gems		10	
+nag_resource_obsidian			money	false	wh2_main_sch_resource_obsidian		10	
+nag_resource_dyes			money	false	wh_main_sch_human_resource_dyes		10	
+nag_resource_furs			money	false	wh_main_sch_human_resource_furs		10	
+nag_resource_gold			money	false	wh_main_sch_human_resource_gold		10	
+nag_resource_iron			money	false	wh_main_sch_human_resource_iron		10	
+nag_resource_marble			money	false	wh_main_sch_human_resource_marble		10	
+nag_resource_pottery			money	false	wh_main_sch_human_resource_pottery		10	
+nag_resource_salt			money	false	wh_main_sch_human_resource_salt		10	
+nag_resource_timber			money	false	wh_main_sch_human_resource_timber		10	
+nag_resource_wine			money	false	wh_main_sch_human_resource_wine		10	
