@@ -159,9 +159,6 @@ key	building	unit	xp	conditions	faction	enabled
 8426986	nag_krell_horde_special_5	nag_vanilla_vmp_inf_skeleton_warriors_0	0	0		false
 8426987	nag_krell_horde_special_5	nag_vanilla_vmp_inf_skeleton_warriors_1	0	0		false
 8426988	nag_krell_horde_special_5	nag_vanilla_vmp_inf_zombie	0	0		false
-8426989	nag_luthor_horde_special_1	nag_vanilla_cst_inf_zombie_deckhands_mob_0	0	0		false
-8426990	nag_luthor_horde_special_1	nag_vanilla_cst_inf_zombie_deckhands_mob_1	0	0		false
-8426991	nag_luthor_horde_special_2	nag_vanilla_cst_inf_zombie_gunnery_mob_0	0	0		false
 8426992	nag_horde_military1_barracks_1	nag_vanilla_vmp_mon_dire_wolves	0	0		false
 8426993	nag_horde_military1_barracks_1	nag_vanilla_vmp_mon_fell_bats	0	0		false
 8426994	nag_horde_military1_barracks_2	nag_vanilla_vmp_mon_dire_wolves	0	0		false
@@ -436,3 +433,17 @@ key	building	unit	xp	conditions	faction	enabled
 8427263	nag_outpost_special_drakenhof_5	nag_vanilla_vmp_cav_blood_knights_0	0	0		false
 8427264	nag_outpost_special_quintex_4	nag_morghasts	0	0		false
 8427265	nag_outpost_special_quintex_5	nag_morghasts	0	0		false
+8427266	nag_luthor_horde_special_1	nag_vanilla_cst_inf_zombie_deckhands_mob_0	0	0		false
+8427267	nag_luthor_horde_special_1	nag_vanilla_cst_inf_zombie_deckhands_mob_1	0	0		false
+8427268	nag_luthor_horde_special_2	nag_vanilla_cst_inf_zombie_gunnery_mob_0	0	0		false
+8427269	nag_luthor_horde_special_2	nag_vanilla_cst_inf_zombie_deckhands_mob_0	0	0		false
+8427270	nag_luthor_horde_special_2	nag_vanilla_cst_inf_zombie_deckhands_mob_1	0	0		false
+8427271	nag_luthor_horde_special_3	nag_vanilla_cst_inf_zombie_gunnery_mob_0	0	0		false
+8427272	nag_luthor_horde_special_3	nag_vanilla_cst_inf_zombie_deckhands_mob_0	0	0		false
+8427273	nag_luthor_horde_special_3	nag_vanilla_cst_inf_zombie_deckhands_mob_1	0	0		false
+8427274	nag_luthor_horde_special_4	nag_vanilla_cst_inf_zombie_gunnery_mob_0	0	0		false
+8427275	nag_luthor_horde_special_4	nag_vanilla_cst_inf_zombie_deckhands_mob_0	0	0		false
+8427276	nag_luthor_horde_special_4	nag_vanilla_cst_inf_zombie_deckhands_mob_1	0	0		false
+8427277	nag_luthor_horde_special_5	nag_vanilla_cst_inf_zombie_gunnery_mob_0	0	0		false
+8427278	nag_luthor_horde_special_5	nag_vanilla_cst_inf_zombie_deckhands_mob_0	0	0		false
+8427279	nag_luthor_horde_special_5	nag_vanilla_cst_inf_zombie_deckhands_mob_1	0	0		false
