@@ -42,7 +42,7 @@ effects_description_nag_effect_army_cav_charge_bonus_skill	Charge bonus: %+n for
 effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
-effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
+effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Spirit Hosts, Fell Spectres, Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_magic_resistance_skill	Magic resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
 effects_description_nag_effect_army_construct_melee_attack_skill	Melee attack: %+n for all Monster and Large Construct units	true
@@ -358,3 +358,5 @@ effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your 
 effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Nagashizzar[[/col]]	true
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
 effects_description_nag_archai_cap	Hero capacity: +%n for Morghast Archai	true
+effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
+effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true

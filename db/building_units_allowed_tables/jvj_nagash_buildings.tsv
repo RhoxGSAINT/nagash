@@ -258,8 +258,6 @@ key	building	unit	xp	conditions	faction	enabled
 8427088	nag_subhorde_military1_barracks_3	nag_vanilla_vmp_mon_fell_bats	0	0		false
 8427089	nag_subhorde_military1_barracks_3	nag_sand_crawlies	0	0		false
 8427090	nag_subhorde_military1_barracks_3	nag_vanilla_tmb_mon_sepulchral_stalkers_0	0	0		false
-8427091	nag_subhorde_military1_barracks_3	nag_vanilla_tmb_inf_tomb_guard_0	0	0		false
-8427092	nag_subhorde_military1_barracks_3	nag_vanilla_tmb_inf_tomb_guard_1	0	0		false
 8427093	nag_subhorde_military2_stables_1	nag_vanilla_tmb_cav_skeleton_horsemen_0	0	0		false
 8427094	nag_subhorde_military2_stables_1	nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	0	0		false
 8427095	nag_subhorde_military2_stables_2	nag_vanilla_tmb_cav_skeleton_horsemen_0	0	0		false
@@ -272,11 +270,6 @@ key	building	unit	xp	conditions	faction	enabled
 8427102	nag_subhorde_support2_worship_2	nag_spirit_hosts	0	0		false
 8427103	nag_subhorde_support2_worship_2	nag_vanilla_vmp_inf_cairn_wraiths	0	0		false
 8427104	nag_subhorde_support2_worship_2	nag_spectre_swarm	0	0		false
-8427105	nag_subhorde_support2_worship_3	nag_spirit_hosts	0	0		false
-8427106	nag_subhorde_support2_worship_3	nag_vanilla_vmp_inf_cairn_wraiths	0	0		false
-8427107	nag_subhorde_support2_worship_3	nag_spectre_swarm	0	0		false
-8427108	nag_subhorde_support2_worship_3	nag_vanilla_vmp_cav_hexwraiths	0	0		false
-8427109	nag_subhorde_support2_worship_3	nag_carrion_riders	0	0		false
 8427110	nag_outpost_secondary_fields_1	nag_vanilla_vmp_inf_crypt_ghouls	0	0		false
 8427111	nag_settlement_cavalry_1	nag_vanilla_tmb_cav_skeleton_horsemen_0	0	0		false
 8427112	nag_settlement_cavalry_1	nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	0	0		false

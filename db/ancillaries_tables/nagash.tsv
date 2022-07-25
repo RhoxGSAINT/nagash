@@ -46,3 +46,10 @@ nag_anc_mount_liche_priest_light_skeletal_steed	wh2_dlc09_anc_mount_skeleton_ste
 nag_anc_mount_liche_priest_nehekhara_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_nehekhara_1		1	1		false	false	true
 nag_anc_mount_liche_priest_shadow_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_nehekhara_1		1	1		false	false	true
 nag_anc_mount_liche_priest_undeath_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_undeath_1		1	1		false	false	true
+nag_anc_mount_vmp_vampire_shadow_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_dlc05_vmp_cha_vampire_shadows_1		1	1		false	false	true
+nag_anc_mount_vmp_vampire_shadow_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_dlc05_vmp_cha_vampire_shadows_2		1	1		false	false	true
+nag_anc_mount_vmp_vampire_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_vampire_1		1	1		false	false	true
+nag_anc_mount_vmp_vampire_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_vampire_2		1	1		false	false	true
+nag_anc_mount_vmp_wight_king_barded_skeletal_steed	wh_main_anc_mount_barded_skeletal_steed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_wight_king_1		1	1		false	false	true
+nag_anc_mount_vmp_wight_king_skeletal_steed	wh_main_anc_mount_skeletal_steed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_wight_king_2		1	1		false	false	true
+nag_anc_mount_cst_gunnery_wight_rotting_promethean	wh2_dlc11_anc_mount_rotting_promethean	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh2_dlc11_cst_cha_gunnery_wight_1		1	1		false	false	true
