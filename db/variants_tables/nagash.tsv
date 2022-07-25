@@ -5,14 +5,14 @@ nag_nagash_revenant		nag_nagash_revenant		1.0	1.2	0.0
 nag_nagash_boss		nag_nagash_boss		1.0	4.0	0.0	
 nag_neferata		nag_neferata		1.0	1.2	0.0	
 nag_neferata_abyssal		nag_neferata_abyssal		1.0	1.2	0.0	
-nag_morghasts		nag_morghasts	hu12\bst\bst_minotaurs\low_poly\bst_minotaur_axe_axe_lowlod	1.0	1.0	0.05	
-nag_morghasts_archai		nag_morghasts_archai	hu12\bst\bst_minotaurs\low_poly\bst_minotaur_lowlod	1.0	1.1	0.05	
-nag_nagashi_guard		nag_nagashi_guard	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
-nag_nagashi_guard_halb		nag_nagashi_guard_halb	hu1/tmb/tmb_tomb_guard/imposter/tmb_tomb_guard_imposter	1.0	1.0	0.05	hu1\imposter\humanoid_imposter
-nag_bone_golems		nag_bone_golems	hu6e/tmb/tmb_ushabti/imposter/tmb_ushabti_imposter	1.0	0.8	0.05	
+nag_morghasts		nag_morghasts		1.0	1.0	0.05	
+nag_morghasts_archai		nag_morghasts_archai		1.0	1.1	0.05	
+nag_nagashi_guard		nag_nagashi_guard		1.0	1.0	0.05	
+nag_nagashi_guard_halb		nag_nagashi_guard_halb		1.0	1.0	0.05	
+nag_bone_golems		nag_bone_golems		1.0	0.8	0.05	
 nagash_hero_barrel		nagash_hero_barrel		1.0	1.1	0.05	
 nag_sand_crawlies		nag_sand_crawlies		1.0	0.4	0.05	
-nag_warp_ghouls		nag_warp_ghouls	gh4/cst/cst_mourngul_haunter/cst_mourngul_imposter	1.0	0.25	0.05	
+nag_warp_ghouls		nag_warp_ghouls		1.0	0.25	0.05	
 cr_nag_carrion_mount	VariantMeshes\wh_variantmodels\bi1b\nag\nag_carrion_mount\tech	tmb_carrion		1.0	0.65	0.0	
 nag_lon_mortis_sphinx	VariantMeshes\wh_variantmodels\bc1\lon\nag_lon_mortis_sphinx\tech	nag_lon_mortis_sphinx		1.0	1.0	0.05	
 nag_giant_spoop		nag_giant_spoop		1.0	1.0	0.0	
