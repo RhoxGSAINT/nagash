@@ -123,15 +123,34 @@ function mortarch:spawn()
     local subtype = self.subtype
 
     local is_sea = self.pos.is_sea or false
-    local dist = self.pos.dist or 12
+    local dist = self.pos.dist or 20
 
-    local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
-        bdsm:get_faction_key(),
-        self.pos.region,
-        is_sea,
-        false,
-        dist
-    )
+    local region = cm:get_region(self.pos.region)
+
+    local x,y = region:settlement():logical_position_x(), region:settlement():logical_position_y()
+    ---@cast x number
+    ---@cast y number
+
+    local function test_coords()
+        x = x + math.random(-5, 5)
+        y = y + math.random(-5, 5)
+        
+        local tx,ty = cm:find_valid_spawn_location_for_character_from_position(
+            bdsm:get_faction_key(),
+            x,
+            y,
+            false,
+            dist
+        )
+
+        if tx == -1 then
+            return test_coords()
+        end
+
+        return tx,ty
+    end
+
+    test_coords()
 
     local faction_human_test = cm:get_faction(bdsm:get_faction_key())
 
@@ -860,12 +879,48 @@ local function init()
     )
 end
 
+--- A debug check to see if the player has researched a mort tech but doesn't have that character in their faction
+local function morts_error_fix()
+    local f = bdsm:get_faction()
+    local cl = f:character_list()
+
+    --- loop through all mortarch types
+    ---@param mort mortarch
+    for i,mort in ipairs(bdsm._mortarchs) do 
+        local t = mort.tech_key
+
+        -- test if we have this technology researched!
+        if f:has_technology(t) then
+            -- test if we have this character!
+            local has = false
+            for j = 0, cl:num_items() -1 do 
+                local c = cl:item_at(j)
+
+                -- we do have this character!
+                if c:character_subtype_key() == mort.subtype then
+                    has = true
+                end
+            end
+
+            -- if we have the tech and don't have the character, spawn them!
+            if not has then
+                mort:spawn()
+            end
+        end
+    end
+end
+
 --- TODO do this only if player is Nag
 cm:add_first_tick_callback(
     function()
         logf("morts lua start")
         local ok, err = pcall(function()
         init()
+
+        if not cm:get_saved_value("bdsm_morts_error_fix") then
+            morts_error_fix()
+            cm:set_saved_value("bdsm_morts_error_fix", true)
+        end
         end) if not ok then bdsm:errorf(err) end
 
         logf("morts lua OK")
