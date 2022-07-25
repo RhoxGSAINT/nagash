@@ -368,7 +368,7 @@ local function trigger_mortarch_unlock_missions()
             
             local mm = mission_manager:new(key, mort.."_unlock")
             mm:add_new_objective("KILL_X_ENTITIES")
-            mm:add_condition("total 5000")
+            mm:add_condition("total 15000")
             mm:add_payload("money 1000")
             
             mm:trigger()
@@ -833,7 +833,7 @@ local function init()
         logf("Is new game!")
         lock_starting_techs()
 
-        trigger_mortarch_unlock_missions()
+        -- trigger_mortarch_unlock_missions()
     end
     -- bdsm:logf("mortarch_unlock_listeners")
     mortarch_unlock_listeners()
@@ -844,19 +844,17 @@ local function init()
         --- lock techs that have completed missions already
     end
 
-
-    --- BETA temp disabled
-    -- core:add_listener(
-    --     "MortarchMissionsTrigger",
-    --     "BlackPyramidRaised",
-    --     true,
-    --     function(context)
-    --         -- Trigger all Mortarch Unlock missions when the BP is raised.
-    --         --- TODO ^ wait a turn?
-    --         trigger_mortarch_unlock_missions()
-    --     end,
-    --     false
-    -- )
+    core:add_listener(
+        "MortarchMissionsTrigger",
+        "BlackPyramidRaised",
+        true,
+        function(context)
+            -- Trigger all Mortarch Unlock missions when the BP is raised.
+            --- TODO ^ wait a turn?
+            trigger_mortarch_unlock_missions()
+        end,
+        false
+    )
 end
 
 --- TODO do this only if player is Nag
