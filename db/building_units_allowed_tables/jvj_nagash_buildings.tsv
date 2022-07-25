@@ -400,11 +400,8 @@ key	building	unit	xp	conditions	faction	enabled
 8427237	nag_outpost_special_awakening_5	nag_vanilla_cst_inf_depth_guard_0	0	0		false
 8427238	nag_outpost_special_awakening_5	nag_vanilla_cst_art_carronade	0	0		false
 8427239	nag_outpost_special_awakening_5	nag_vanilla_cst_mon_necrofex_colossus_0	0	0		false
-8427240	nag_outpost_special_mourkain_3	nag_revenants	0	0		false
-8427241	nag_outpost_special_mourkain_4	nag_revenants	0	0		false
 8427242	nag_outpost_special_mourkain_4	nag_nagashi_guard	0	0		false
 8427243	nag_outpost_special_mourkain_4	nag_nagashi_guard_halb	0	0		false
-8427244	nag_outpost_special_mourkain_5	nag_revenants	0	0		false
 8427245	nag_outpost_special_mourkain_5	nag_nagashi_guard	0	0		false
 8427246	nag_outpost_special_mourkain_5	nag_nagashi_guard_halb	0	0		false
 8427247	nag_outpost_special_mourkain_5	nag_morghasts	0	0		false
