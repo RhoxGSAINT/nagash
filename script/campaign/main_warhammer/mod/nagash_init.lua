@@ -219,7 +219,6 @@ local function init_listeners()
 
             if has_warpstone_mine(region) then
                 --- TODO calculate chance
-                local chance = 20
                 local turns_since_last = cm:get_saved_value("nag_turns_since_last_warpstone")
 
                 -- 20/30/40/50/60/70/80/90/100 until 0 again
@@ -228,7 +227,6 @@ local function init_listeners()
     
                 local val = cm:random_number(100)
                 if val <= chance then
-                --if true then
                     cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
                     cm:set_saved_value("nag_turns_since_last_warpstone", 0)
                 end
