@@ -851,11 +851,6 @@ local function init()
     if cm:is_new_game() then
         logf("Is new game!")
         lock_starting_techs()
-<<<<<<< HEAD
-
-        -- trigger_mortarch_unlock_missions()
-=======
->>>>>>> active_dev
     end
 
 
@@ -867,9 +862,6 @@ local function init()
         "BlackPyramidRaised",
         true,
         function(context)
-            -- Trigger all Mortarch Unlock missions when the BP is raised.
-            --- TODO ^ wait a turn?
-            --- TODO inform Player w/ event feed
             trigger_mortarch_unlock_missions()
         end,
         false
@@ -905,21 +897,6 @@ local function morts_error_fix()
             end
         end
     end
-<<<<<<< HEAD
-
-    core:add_listener(
-        "MortarchMissionsTrigger",
-        "BlackPyramidRaised",
-        true,
-        function(context)
-            -- Trigger all Mortarch Unlock missions when the BP is raised.
-            --- TODO ^ wait a turn?
-            trigger_mortarch_unlock_missions()
-        end,
-        false
-    )
-=======
->>>>>>> active_dev
 end
 
 --- TODO do this only if player is Nag
