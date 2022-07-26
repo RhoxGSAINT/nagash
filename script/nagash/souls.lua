@@ -183,6 +183,7 @@ function bdsm:add_bp_button()
 
     if parent then
         local uic = find_uicomponent(parent, "icon_black_pyramid")
+        
         if not uic then
             uic = core:get_or_create_component("icon_black_pyramid", "ui/templates/custom_image")
     

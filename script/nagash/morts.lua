@@ -311,31 +311,31 @@ local tech_progress = {
 
 --- All of the event techs begin locked, as do all Mort unlock techs
 local locked_techs = {
-    -- "nag_mortarch_arkhan_event_1",
-    -- "nag_mortarch_arkhan_event_2",
-    -- "nag_mortarch_arkhan_event_3",
-    -- "nag_mortarch_luthor_event_1",
-    -- "nag_mortarch_luthor_event_2",
-    -- "nag_mortarch_luthor_event_3",
-    -- "nag_mortarch_mannfred_event_1",
-    -- "nag_mortarch_mannfred_event_2",
-    -- "nag_mortarch_mannfred_event_3",
-    -- "nag_mortarch_krell_event_1",
-    -- "nag_mortarch_krell_event_2",
-    -- "nag_mortarch_krell_event_3",
-    -- "nag_mortarch_neferata_event_1",
-    -- "nag_mortarch_neferata_event_2",
-    -- "nag_mortarch_neferata_event_3",
-    -- "nag_mortarch_vlad_event_1",
-    -- "nag_mortarch_vlad_event_2",
-    -- "nag_mortarch_vlad_event_3",
+    "nag_mortarch_arkhan_event_1",
+    "nag_mortarch_arkhan_event_2",
+    "nag_mortarch_arkhan_event_3",
+    "nag_mortarch_luthor_event_1",
+    "nag_mortarch_luthor_event_2",
+    "nag_mortarch_luthor_event_3",
+    "nag_mortarch_mannfred_event_1",
+    "nag_mortarch_mannfred_event_2",
+    "nag_mortarch_mannfred_event_3",
+    "nag_mortarch_krell_event_1",
+    "nag_mortarch_krell_event_2",
+    "nag_mortarch_krell_event_3",
+    "nag_mortarch_neferata_event_1",
+    "nag_mortarch_neferata_event_2",
+    "nag_mortarch_neferata_event_3",
+    "nag_mortarch_vlad_event_1",
+    "nag_mortarch_vlad_event_2",
+    "nag_mortarch_vlad_event_3",
 
-    "nag_mortarch_arkhan_unlock",
-    "nag_mortarch_luthor_unlock",
-    "nag_mortarch_mannfred_unlock",
-    "nag_mortarch_krell_unlock",
-    "nag_mortarch_neferata_unlock",
-    "nag_mortarch_vlad_unlock",
+    -- "nag_mortarch_arkhan_unlock",
+    -- "nag_mortarch_luthor_unlock",
+    -- "nag_mortarch_mannfred_unlock",
+    -- "nag_mortarch_krell_unlock",
+    -- "nag_mortarch_neferata_unlock",
+    -- "nag_mortarch_vlad_unlock",
 }
 
 --- First node for each Mortarch
@@ -841,6 +841,12 @@ local function mortarch_event_listeners()
 
     
 end
+
+local function unlock_old_techs()
+    for i,tech_key in ipairs(locked_techs) do 
+        cm:unlock_technology(bdsm:get_faction_key(), tech_key)
+    end
+end
     
 --- TODO VLIB tech stuff
 --- TODO start up the listeners for each tech event.
@@ -852,6 +858,8 @@ local function init()
         logf("Is new game!")
         lock_starting_techs()
     end
+
+    unlock_old_techs()
 
 
     mortarch_unlock_listeners()
