@@ -328,8 +328,22 @@ function bdsm:begin_bp_raise()
 
     --- wound Nagash Husk for 999 turns, replace him with a Traitor King
     local f_leader = self:get_faction_leader()
-    cm:apply_effect_bundle_to_character("nag_effect_bundle_dead_forever",f_leader,1)
-    cm:kill_character_and_commanded_unit("character_cqi:"..f_leader:command_queue_index(), false, false)
+    local f_cqi = f_leader:command_queue_index()
+    local rank = f_leader:rank()
+
+    cm:set_saved_value("nag_last_xp", rank)
+
+    core:add_listener(
+        "KillThem",
+        "CharacterConvalescedOrKilled",
+        function(context) return context:character():command_queue_index() == f_cqi end,
+        function(context)
+            cm:stop_character_convalescing(f_cqi)
+        end,
+        false
+    )
+
+    cm:kill_character(f_cqi, false, true)
     
     --- set a composite scene on the settlement
     cm:add_scripted_composite_scene_to_settlement("nag_bp_raise", "wh2_dlc16_wef_healing_ritual", bdsm._bp_settlement_key, 0, 0, false, true, false)
@@ -362,6 +376,8 @@ function bdsm:begin_bp_raise()
     --- set a timer for "survive 5/10 turns" and then complete the mission above
     self:set_current_ritual("nag_bp_raise", 5)
     cm:set_saved_value("nag_bp_raise", true)
+
+
     local label = find_uicomponent("3d_ui_parent", "label_"..bdsm._bp_settlement_key) -- IT'S NOT THE REGION KEY BECAUSE THE SETTLEMENT KEY IS DIFFERENT FUCK
             if label and label:Visible() then
                 local icon_holder = find_uicomponent(label, "list_parent", "icon_holder")
@@ -526,7 +542,9 @@ function bdsm:complete_bp_raise()
         "",
         true,
         function(cqi)
-            
+            local rank = cm:get_saved_value("nag_last_xp")
+
+            cm:add_agent_experience("character_cqi:"..cqi, rank-3, true)
         end
     )
     

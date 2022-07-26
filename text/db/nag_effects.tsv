@@ -3,7 +3,7 @@ key	text	tooltip
 effects_description_nag_effect_horde_growth	Undead Horde growth: %+n	true
 effects_description_nag_effect_horde_replenishment	Casualty replenishment rate: %+n%	true
 effects_description_nag_effect_patrol_dummy	Defence: Undead Patrols may spawn from this location	false
-effects_description_nag_effect_warpstone_token	%+n% chance of generating Warpstone per turn	true
+effects_description_nag_effect_warpstone_token	Low chance of generating Warpstone per turn	true
 effects_description_nag_building_effect_cannot_grow_enable	This settlement cannot grow on its own	true
 effects_description_nag_building_effect_cannot_grow_disable	Allows the settlement to grow	true
 effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence: %+n for Bone Golems	true
@@ -355,5 +355,3 @@ effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carste
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
 effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Nagashizzar[[/col]]	true
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
-effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
-effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true
