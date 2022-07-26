@@ -1331,7 +1331,7 @@ function bdsm:setup_rites()
     self:unlock_rites_listeners()
     self:trigger_rites_listeners()
 
-    self:add_bp_button()
+    get_vandy_lib():callback(function() self:add_bp_button() end, 20, "add_bp_button")
 
     core:add_listener(
         "bp_button_pressed",
