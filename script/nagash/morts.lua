@@ -175,20 +175,18 @@ function mortarch:spawn()
 
             cm:add_agent_experience("character_cqi:"..cqi, xp_to_apply, true)
 
+            --- Spawn Isabella w/ Vlad
             if subtype == "nag_mortarch_vlad" then
-                local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
-                    faction_key,
-                    x + 1,
-                    y + 1,
-                    true,
-                    5
-                )   
+                x = x + 1
+                y = y + 1
+                test_coords()
+
                 cm:create_agent(
                     faction_key,
                     "dignitary",
                     "nag_mortarch_isabella",
-                    ax,
-                    ay,
+                    x,
+                    y,
                     false,
                     function(cqi)
             
@@ -214,8 +212,11 @@ end
 
 --- The XP used on the spawning of the Mortarchs / Big Nag.
 function bdsm:get_xp()
-    local rank = self:get_faction_leader():rank()
-    return clamp(rank - 3, 20, 2)
+    local last = cm:get_saved_value("nag_xp_boost")
+    if not last then last = 3 end
+    cm:set_saved_value("nag_xp_boost", last + 3)
+
+    return last
 end
 
 ---@param o mortarch
