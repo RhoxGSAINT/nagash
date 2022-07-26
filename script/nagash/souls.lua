@@ -331,7 +331,17 @@ function bdsm:begin_bp_raise()
     local f_cqi = f_leader:command_queue_index()
     local rank = f_leader:rank()
 
-    cm:set_saved_value("nag_last_xp", rank)
+    local function clamp(x, max, min)
+        if is_number(x) then
+            if not is_number(max) and not is_number(min) then return x end
+    
+            return x >= max and max or
+            x <= min and min or
+            x
+        end
+    end
+
+    cm:set_saved_value("nag_last_xp", clamp(rank - 3, 1, 5))
 
     core:add_listener(
         "KillThem",
@@ -544,7 +554,7 @@ function bdsm:complete_bp_raise()
         function(cqi)
             local rank = cm:get_saved_value("nag_last_xp")
 
-            cm:add_agent_experience("character_cqi:"..cqi, rank-3, true)
+            cm:add_agent_experience("character_cqi:"..cqi, rank, true)
         end
     )
     

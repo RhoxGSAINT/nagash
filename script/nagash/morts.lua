@@ -200,16 +200,6 @@ function mortarch:spawn()
     self:trigger_event_missions()
 end
 
-local function clamp(x, max, min)
-    if is_number(x) then
-        if not is_number(max) and not is_number(min) then return x end
-
-        return x >= max and max or
-        x <= min and min or
-        x
-    end
-end
-
 --- The XP used on the spawning of the Mortarchs / Big Nag.
 function bdsm:get_xp()
     local last = cm:get_saved_value("nag_xp_boost")
