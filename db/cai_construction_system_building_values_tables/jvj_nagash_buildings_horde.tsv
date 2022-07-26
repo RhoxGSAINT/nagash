@@ -2,14 +2,14 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 #cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/jvj_nagash_buildings_horde																												
 		nag_bpyramid_main_1	nag_bpyramid_main_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_bpyramid_ew2_mortuary_1	nag_bpyramid_ew2_mortuary_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
-		nag_bpyramid_ew1_barracks_1	nag_bpyramid_ew1_barracks_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_bpyramid_ww1_stables_1	nag_bpyramid_ww1_stables_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ew1_barracks_1	nag_bpyramid_ew1_barracks_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ww1_stables_1	nag_bpyramid_ww1_stables_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_bpyramid_ww2_warmachines_1	nag_bpyramid_ww2_warmachines_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_bpyramid_main_obelisk_1	nag_bpyramid_main_obelisk_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_bpyramid_ew4_other_1	nag_bpyramid_ew4_other_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_bpyramid_ww4_extra_1	nag_bpyramid_ww4_extra_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_bpyramid_ew3_growth_1	nag_bpyramid_ew3_growth_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_bpyramid_ww3_industry_1	nag_bpyramid_ww3_industry_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_main_obelisk_1	nag_bpyramid_main_obelisk_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ew4_other_1	nag_bpyramid_ew4_other_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ww4_extra_1	nag_bpyramid_ww4_extra_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ew3_growth_1	nag_bpyramid_ew3_growth_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_bpyramid_ww3_industry_1	nag_bpyramid_ww3_industry_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_nagash_horde_special_1	nag_nagash_horde_special_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_arkhan_horde_special_1	nag_arkhan_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_vlad_horde_special_1	nag_vlad_horde_special_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
@@ -24,8 +24,8 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		nag_manny_horde_landmark_0	nag_manny_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_krell_horde_landmark_0	nag_krell_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_luthor_horde_landmark_0	nag_luthor_horde_landmark_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
-		nag_horde_military1_barracks_1	nag_horde_military1_barracks_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_horde_military2_stables_1	nag_horde_military2_stables_4			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_military1_barracks_1	nag_horde_military1_barracks_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_horde_military2_stables_1	nag_horde_military2_stables_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_horde_military3_warmachines_1	nag_horde_military3_warmachines_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_horde_military4_monsters_1	nag_horde_military4_monsters_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_horde_support1_smith_1	nag_horde_support1_smith_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
@@ -37,8 +37,8 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		nag_subhorde_main_1	nag_subhorde_main_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_subhorde_military0_guard_1	nag_subhorde_military0_guard_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	150	150
 		nag_subhorde_military1_barracks_1	nag_subhorde_military1_barracks_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
-		nag_subhorde_military2_stables_1	nag_subhorde_military2_stables_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_subhorde_military2_stables_1	nag_subhorde_military2_stables_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_subhorde_support1_smith_1	nag_subhorde_support1_smith_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
-		nag_subhorde_support2_worship_1	nag_subhorde_support2_worship_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
+		nag_subhorde_support2_worship_1	nag_subhorde_support2_worship_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_subhorde_infrastructure1_growth_1	nag_subhorde_infrastructure1_growth_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_subhorde_infrastructure2_industry_1	nag_subhorde_infrastructure2_industry_2			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50

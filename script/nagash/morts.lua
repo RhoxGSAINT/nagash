@@ -123,17 +123,37 @@ function mortarch:spawn()
     local subtype = self.subtype
 
     local is_sea = self.pos.is_sea or false
-    local dist = self.pos.dist or 12
+    local dist = self.pos.dist or 20
 
-    local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
-        bdsm:get_faction_key(),
-        self.pos.region,
-        is_sea,
-        false,
-        dist
-    )
+    local region = cm:get_region(self.pos.region)
+
+    local x,y = region:settlement():logical_position_x(), region:settlement():logical_position_y()
+    ---@cast x number
+    ---@cast y number
+
+    local function test_coords()
+        x = x + math.random(-5, 5)
+        y = y + math.random(-5, 5)
+        
+        local tx,ty = cm:find_valid_spawn_location_for_character_from_position(
+            bdsm:get_faction_key(),
+            x,
+            y,
+            false,
+            dist
+        )
+
+        if tx == -1 then
+            return test_coords()
+        end
+
+        return tx,ty
+    end
+
+    test_coords()
 
     local faction_human_test = cm:get_faction(bdsm:get_faction_key())
+    local xp_to_apply = bdsm:get_xp()
 
     cm:create_force_with_general(
         bdsm:get_faction_key(),
@@ -152,12 +172,41 @@ function mortarch:spawn()
             if not faction_human_test:is_human() then
                 cm:apply_effect_bundle_to_characters_force("wh_main_bundle_military_upkeep_free_force_special_character", cqi, 0, true);
             end
+
+            cm:add_agent_experience("character_cqi:"..cqi, xp_to_apply, true)
+
+            --- Spawn Isabella w/ Vlad
+            if subtype == "nag_mortarch_vlad" then
+                x = x + 1
+                y = y + 1
+                test_coords()
+
+                cm:create_agent(
+                    faction_key,
+                    "dignitary",
+                    "nag_mortarch_isabella",
+                    x,
+                    y,
+                    false,
+                    function(cqi)
+            
+                    end
+                )  
+            end
         end
     )
 
-
     self.acquired = true
     self:trigger_event_missions()
+end
+
+--- The XP used on the spawning of the Mortarchs / Big Nag.
+function bdsm:get_xp()
+    local last = cm:get_saved_value("nag_xp_boost")
+    if not last then last = 3 end
+    cm:set_saved_value("nag_xp_boost", last + 3)
+
+    return last
 end
 
 ---@param o mortarch
@@ -306,7 +355,7 @@ local function lock_starting_techs()
     local cc = vlib:get_module("camp_counselor")
 
     local mortarch_techs = {
-        -- nag_arkhan_unlock = true,
+        nag_mortarch_arkhan_unlock = true,
         nag_mortarch_luthor_unlock = true,
         nag_mortarch_mannfred_unlock = true,
         nag_mortarch_krell_unlock = true,
@@ -314,12 +363,8 @@ local function lock_starting_techs()
         nag_mortarch_vlad_unlock = true,
     }
 
-    local filter = {faction=bdsm:get_faction_key()}
-
-    cc:set_techs_lock_state("nag_mortarch_arkhan_unlock", "locked", effect.get_localised_string("tech_lock_nag_mortarch_arkhan_unlock"), filter)
-
-    for tech_key,_ in pairs(mortarch_techs) do
-        cc:set_techs_lock_state(tech_key, "locked", effect.get_localised_string("tech_lock_unavailable_bp"), filter)
+    for tech_key,_ in pairs(mortarch_techs) do 
+        cm:lock_technology(bdsm:get_faction_key(), tech_key)
     end
 end
 
@@ -418,7 +463,9 @@ local function mortarch_unlock_listeners()
     local filter = {faction=bdsm:get_faction_key()}
     local function unlock(key)
         --- TODO don't do the unlock if it's already unlocked
-        cc:set_techs_lock_state(key, "unlocked", "", filter)
+        -- cc:set_techs_lock_state(key, "unlocked", "", filter)
+
+        cm:unlock_technology(bdsm:get_faction_key(), key)
 
         cm:show_message_event(
             bdsm:get_faction_key(),
@@ -474,87 +521,62 @@ local function mortarch_unlock_listeners()
             --- format "nag_mortarch_arkhan_unlock" to "nag_arkhan"
             local mort_clean_key = string.gsub(mort_key, "nag_mortarch", "nag")
             -- get and spawn the mortarch
-            bdsm:logf("Spawning mort_key %s", mort_key)
-            bdsm:logf("Spawning mort_clean_key %s", mort_clean_key)
+            -- bdsm:logf("Spawning mort_key %s", mort_key)
+            -- bdsm:logf("Spawning mort_clean_key %s", mort_clean_key)
 
+            --- TODO change how this works for AI/played Mortarch and AI/played Nagash
+            local function offer_choice(faction_key, forced)
+                local faction = cm:get_faction(faction_key)
+                if faction and not faction:is_dead() then
+                    if not faction:is_human()  then
+                        local chance = cm:random_number(100)
+                        if chance >= 50 or forced then
+                            -- Perma forced vassalge
+                            cm:force_make_vassal(bdsm:get_faction_key(), faction_key)
+                            cm:force_diplomacy("faction:"..bdsm:get_faction_key(), "faction:"..faction_key, "break vassal", false, false, true, false)
+                            cm:force_diplomacy("faction:"..bdsm:get_faction_key(), "faction:"..faction_key, "war", false, false, true, false)
+                        else
+                            --- Perma forced war
+                            cm:force_declare_war(bdsm:get_faction_key(), faction_key, false, true)
+                            cm:force_diplomacy("faction:"..bdsm:get_faction_key(), "faction:"..faction_key, "peace", false, false, true, false)
+                            cm:force_diplomacy("faction:"..bdsm:get_faction_key(), "faction:"..faction_key, "all", false, false, true, false)
+                        end
+                    else
+                        --- TODO offer a Dilemma to the played Mortarch faction
+                    end
+                end
+            end
+            
             --- TODO make sure mort:spawn() allows for spawning on map or spawning in pool
             local mort = bdsm:get_mortarch_with_key(mort_key)
-            mort:spawn()
 
-            if mort_key == "nag_mortarch_arkhan" then
-                kill_faction("wh2_dlc09_tmb_followers_of_nagash")                
+            -- If Nagash is AI, offer a choice to the factions to either ally or war
+            if not bdsm:get_faction():is_human() then
+                if mort_key == "nag_mortarch_arkhan" then
+                    offer_choice("wh2_dlc09_tmb_followers_of_nagash", true)
+                elseif mort_key == "nag_mortarch_vlad" then
+                    offer_choice("wh_main_vmp_schwartzhafen")
+                elseif mort_key == "nag_mortarch_mannfred" then
+                    offer_choice("wh_main_vmp_vampire_counts")
+                elseif mort_key == "nag_mortarch_luthor" then
+                    offer_choice("wh2_dlc11_cst_vampire_coast")
+                else
+                    --- Spawn Krell / Neffy!
+                    mort:spawn()
+                end
+            else
+                mort:spawn()
+
+                if mort_key == "nag_mortarch_arkhan" then
+                    kill_faction("wh2_dlc09_tmb_followers_of_nagash")
+                elseif mort_key == "nag_mortarch_vlad" then
+                    kill_faction("wh_main_vmp_schwartzhafen")
+                elseif mort_key == "nag_mortarch_mannfred" then
+                    kill_faction("wh_main_vmp_vampire_counts")
+                elseif mort_key == "nag_mortarch_luthor" then
+                    kill_faction("wh2_dlc11_cst_vampire_coast")
+                end
             end
-            if mort_key == "nag_mortarch_vlad" then
-                kill_faction("wh_main_vmp_schwartzhafen")    
-                local faction_key = bdsm:get_faction_key()
-                local faction_obj = cm:get_faction(faction_key)
-                local faction_leader = faction_obj:faction_leader()
-                local cqi = faction_leader:command_queue_index()
-                local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
-                                    faction_key,
-                                    691,
-                                    419,
-                                    true,
-                                    5
-                                )   
-                cm:create_agent(
-                                    faction_key,
-                                    "dignitary",
-                                    "nag_mortarch_isabella",
-                                    ax,
-                                    ay,
-                                    false,
-                                    function(cqi)
-                            
-                                    end
-                                )  
-                                    -- local fact = bdsm:get_faction()
-                                    -- local nagash = bdsm:get_faction_leader()
-                                    -- local nag_mf = nagash:military_force()
-                                    -- x = 691,
-                                    -- y = 419
-                                    -- cm:spawn_agent_at_military_force(fact, nag_mf, "dignitary", "nag_mortarch_isabella")
-    
-            end
-            if mort_key == "nag_mortarch_mannfred" then
-                kill_faction("wh_main_vmp_vampire_counts")
-            end
-            if mort_key == "nag_mortarch_luthor" then
-                kill_faction("wh2_dlc11_cst_vampire_coast")
-            end
-
-            local filter = {faction=bdsm:get_faction_key()}
-            
-            -- nag_arkhan_archai
-            cc:set_techs_lock_state(mort_clean_key.."_archai", "unlocked", "", filter)
-            -- nag_arkhan_proclamation
-            cc:set_techs_lock_state(mort_clean_key.."_proclamation", "unlocked", "", filter)
-            -- nag_mortarch_arkhan_event_1
-            cc:set_techs_lock_state(mort_key.."_event_1", "unlocked", "", filter)
-            -- nag_mortarch_arkhan_event_2
-            cc:set_techs_lock_state(mort_key.."_event_2", "unlocked", "", filter)
-            -- nag_mortarch_arkhan_event_3
-            cc:set_techs_lock_state(mort_key.."_event_3", "unlocked", "", filter)
-            -- nag_arkhan_battle_1
-            cc:set_techs_lock_state(mort_clean_key.."_battle_1", "unlocked", "", filter)
-            -- nag_arkhan_battle_2
-            cc:set_techs_lock_state(mort_clean_key.."_battle_2", "unlocked", "", filter)
-            -- nag_arkhan_battle_3
-            cc:set_techs_lock_state(mort_clean_key.."_battle_3", "unlocked", "", filter)
-            --- BETA temp disable
-            do return end
-
-            --- lock each sub-tech
-            -- for i = 1,3 do 
-            --     local sub_tech_key = mort_key .. "_event"..i
-            --     local str = effect.get_localised_string("tech_lock_"..sub_tech_key)
-
-            --     if str:find("%%d") then
-            --         str = string.format(str, 0)
-            --     end
-
-            --     cc:set_techs_lock_state(sub_tech_key, "locked", str, {faction=bdsm:get_faction_key()})
-            -- end
         end,
         true
     )
@@ -825,24 +847,65 @@ end
 --- TODO track values and shit.
 local function init()
     logf("Mort init!")
-    local vlib = get_vlib()
-    ---@type vlib_camp_counselor
-    local cc = vlib:get_module("camp_counselor")
 
     if cm:is_new_game() then
         logf("Is new game!")
         lock_starting_techs()
+<<<<<<< HEAD
 
         -- trigger_mortarch_unlock_missions()
+=======
+>>>>>>> active_dev
     end
-    -- bdsm:logf("mortarch_unlock_listeners")
+
+
     mortarch_unlock_listeners()
-    -- bdsm:logf("mortarch_unlock_listeners")
     mortarch_event_listeners()
-    -- bdsm:logf("mortarch_event_listeners")
-    if not cm:get_saved_value("nag_another_issue") then
-        --- lock techs that have completed missions already
+
+    core:add_listener(
+        "MortarchMissionsTrigger",
+        "BlackPyramidRaised",
+        true,
+        function(context)
+            -- Trigger all Mortarch Unlock missions when the BP is raised.
+            --- TODO ^ wait a turn?
+            --- TODO inform Player w/ event feed
+            trigger_mortarch_unlock_missions()
+        end,
+        false
+    )
+end
+
+--- A debug check to see if the player has researched a mort tech but doesn't have that character in their faction
+local function morts_error_fix()
+    local f = bdsm:get_faction()
+    local cl = f:character_list()
+
+    --- loop through all mortarch types
+    ---@param mort mortarch
+    for i,mort in ipairs(bdsm._mortarchs) do 
+        local t = mort.tech_key
+
+        -- test if we have this technology researched!
+        if f:has_technology(t) then
+            -- test if we have this character!
+            local has = false
+            for j = 0, cl:num_items() -1 do 
+                local c = cl:item_at(j)
+
+                -- we do have this character!
+                if c:character_subtype_key() == mort.subtype then
+                    has = true
+                end
+            end
+
+            -- if we have the tech and don't have the character, spawn them!
+            if not has then
+                mort:spawn()
+            end
+        end
     end
+<<<<<<< HEAD
 
     core:add_listener(
         "MortarchMissionsTrigger",
@@ -855,17 +918,22 @@ local function init()
         end,
         false
     )
+=======
+>>>>>>> active_dev
 end
 
 --- TODO do this only if player is Nag
 cm:add_first_tick_callback(
     function()
-        logf("morts lua start")
-        local ok, err = pcall(function()
         init()
-        end) if not ok then bdsm:errorf(err) end
 
-        logf("morts lua OK")
+        --- Backwards compat for Mort spawn fail stuff
+        if not cm:get_saved_value("bdsm_morts_error_fix") then
+            if not cm:is_new_game() then
+                morts_error_fix()
+            end
+            cm:set_saved_value("bdsm_morts_error_fix", true)
+        end
     end
 )
 

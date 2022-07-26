@@ -3,7 +3,7 @@ key	text	tooltip
 effects_description_nag_effect_horde_growth	Undead Horde growth: %+n	true
 effects_description_nag_effect_horde_replenishment	Casualty replenishment rate: %+n%	true
 effects_description_nag_effect_patrol_dummy	Defence: Undead Patrols may spawn from this location	false
-effects_description_nag_effect_warpstone_token	%+n% chance of generating Warpstone per turn	true
+effects_description_nag_effect_warpstone_token	Low chance of generating Warpstone per turn	true
 effects_description_nag_building_effect_cannot_grow_enable	This settlement cannot grow on its own	true
 effects_description_nag_building_effect_cannot_grow_disable	Allows the settlement to grow	true
 effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence: %+n for Bone Golems	true
@@ -42,7 +42,7 @@ effects_description_nag_effect_army_cav_charge_bonus_skill	Charge bonus: %+n for
 effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
-effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
+effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Spirit Hosts, Fell Spectres, Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_magic_resistance_skill	Magic resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
 effects_description_nag_effect_army_construct_melee_attack_skill	Melee attack: %+n for all Monster and Large Construct units	true
@@ -134,8 +134,6 @@ effects_description_nag_effect_agent_cap_increase_liche_priest	Hero capacity: %+
 effects_description_nag_effect_agent_cap_increase_gunnery_wight	Hero capacity: %+n for Gunnery Wights	true
 effects_description_nag_effect_agent_cap_increase_vampire	Hero capacity: %+n for Vampires	true
 effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+n for Tomb Princes & Wight Kings	true
-effects_description_nag_effect_agent_cap_increase_prince	Hero capacity: %+n for Tomb Princes	true
-effects_description_nag_effect_agent_cap_increase_wight	Hero capacity: %+n for Wight Kings	true
 effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archai	true
 effects_description_nag_ability_enable_wrath_of_the_gods	Army ability: "Wrath of the Gods"	true
 effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true
@@ -351,3 +349,11 @@ effects_description_nag_krell_unit_effect	Weapon strength: %+n% for Krell	true
 effects_description_nag_neferata_unit_effect	Grants Stalk to Neferata	true
 effects_description_nag_vlad_unit_effect	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded" for Vlad	true
 effects_description_nag_undead_corruption_world_dummy	Vampiric corruption: %+n (Whole World)	true
+effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Quatar[[/col]]	true
+effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to your Legion, spawning in [[col:yellow]]The Awakening[[/col]]	true
+effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
+effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
+effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Nagashizzar[[/col]]	true
+effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
+effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
+effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true

@@ -64,3 +64,5 @@ nagash_climate_ocean	wh2_climate_suitable	1.0
 nagash_climate_savannah	wh2_climate_suitable	1.0
 nagash_climate_temperate	wh2_climate_suitable	1.0
 nagash_climate_wasteland	wh2_climate_suitable	1.0
+nag_waaagh	grn_faction_waaagh_reward_group_undead	0.0
+nag_diplomacy	dlc09_diplomacy_Subcult_TombKings	0.0

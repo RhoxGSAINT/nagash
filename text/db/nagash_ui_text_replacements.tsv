@@ -12,7 +12,7 @@ ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_nag_nagash	D
 ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_title_nag_nagash	Dark Magic Summary Panel	true
 ui_text_replacements_localised_text_tooltip_campaign_upkeep_effect_description_nag_nagash	Dark Magic are unique - the life-force of the unliving, the more Dark Magic will be drawn to them. If the Winds of Dhar are shared between powerful Vampires and Necromancers, however, Dark Magic becomes more difficult to accumulate - their Undead legions requiring more energy to remain bound.	true
 ui_text_replacements_localised_text_tooltip_campaign_upkeep_effect_title_nag_nagash	Diffusion of Magic	true
-ui_text_replacements_localised_text_tooltip_nag_warpstone	Use Warpstone[[img:nag_warpstone]][[/img]] to power Nagash's rituals.\\nGather Warpstone from marked mines[[img:nag_warpstone]][[/img]] around the world. (Warpstone = Canopic Jars for research.)	true
+ui_text_replacements_localised_text_tooltip_nag_warpstone	Use Warpstone[[img:nag_warpstone]][[/img]] to power Nagash's rituals.\\nGather Warpstone from marked mines[[img:nag_warpstone]][[/img]] around the world.	true
 ui_text_replacements_localised_text_technology_header_nag_nagash_nag_nagash	Mortarchs	true
 ui_text_replacements_localised_text_technology_header_nag_nagash	Mortarchs	true
 ui_text_replacements_localised_text_rites_button_nag_nagash_nag_nagash	Great Rituals	true
@@ -21,4 +21,6 @@ ui_text_replacements_localised_text_rites_header_nag_nagash_nag_nagash	Great Rit
 ui_text_replacements_localised_text_tooltip_nag_grand_spell_01	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
 ui_text_replacements_localised_text_tooltip_nag_grand_spell_02	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
 ui_text_replacements_localised_text_tooltip_nag_grand_spell_03	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
-ui_text_replacements_localised_text_rite_pooled_resource_cost_nag_nagash	Use Warpstone[[img:nag_warpstone]][[/img]] to power Nagash's rituals.	true
+ui_text_replacements_localised_text_rite_pooled_resource_cost_nag_nagash	Cost||Use [[img:nag_warpstone]][[/img]]Warpstone to power Nagash's rituals.	true
+ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_nag_nagash	In order to research this technology, this amount of [[img:nag_warpstone]][[/img]]Warpstone will be deducted from your total.	true
+ui_text_replacements_localised_text_icon_pooled_resource_mission_nag_nagash	[[img:nag_warpstone]][[/img]]	true

@@ -219,12 +219,17 @@ local function init_listeners()
 
             if has_warpstone_mine(region) then
                 --- TODO calculate chance
-                local chance = 20
+                local turn = cm:model():turn_number()
+                local turns_since_last = cm:get_saved_value("nag_turn_last_acquired_warpstone") - turn
+
+                -- 20/25/30/etc until 0 again
+                local chance = 20 + (5 * turns_since_last)
+                if chance >= 100 then chance = 100 end
     
                 local val = cm:random_number(100)
                 if val <= chance then
-                --if true then
                     cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
+                    cm:set_saved_value("nag_turn_last_acquired_warpstone", turn)
                 end
                 
                 --- TODO "soak up" mechanic, ie. apply a permanent bundle to a region when it's gotten enough Warpstone.
@@ -321,6 +326,30 @@ local function init_listeners()
         false
     )
 
+    core:add_listener(
+        "NagCharacterSelected",
+        "CharacterSelected",
+        function(context)
+            local c = context:character()
+            return c:faction():name() == bdsm:get_faction_key() and c:character_type_key() == "general" and cm:get_local_faction_name(true) == bdsm:get_faction_key()
+        end,
+        function(context)
+
+            get_vandy_lib():repeat_callback(function()
+                -- root > layout > hud_center_docker > hud_center > small_bar > button_group_army > button_ogre_mercenaries_pool
+                -- button_mercenaries
+
+                local p = find_uicomponent(core:get_ui_root(), "layout", "hud_center_docker", "hud_center", "small_bar", "button_group_army")
+                if p then
+                    find_uicomponent(p, "button_ogre_mercenaries_pool"):SetVisible(false)
+                    -- find_uicomponent(p, "button_mercenaries"):SetVisible(true)
+                else
+                    get_vandy_lib():remove_callback("NagCharacterSelected")
+                end
+            end, 15, "NagCharacterSelected")
+        end,
+        true
+    )
 
     --- TODO the listeners for ritual interactive markers
     core:add_listener(
@@ -366,14 +395,11 @@ local function init_listeners()
                 local mission_key = context:mission():mission_record_key()
                 local num = string.gsub(mission_key, "nagash_intro_", "")
 
-                bdsm:logf("Mission num is %s", num)
                 num = tonumber(num)
-                bdsm:logf("Tonumber is %d", num)
 
                 local nag_fact = bdsm:get_faction_key()
 
-                bdsm:logf("???")
-                
+
                 if num == 5 then
                     bdsm:logf("5")
                     --- last mission, TP through
@@ -478,6 +504,9 @@ local function init()
         cm:set_saved_value("nagash_stuff_loaded", false)
         bdsm:setup_structures()        
     end
+
+    if not cm:get_saved_value("nag_turn_last_acquired_warpstone") then cm:set_saved_value("nag_turn_last_acquired_warpstone", cm:model():turn_number()) end
+
     local faction = cm:get_faction(faction_key)
     --- player only
     -- if not faction:is_human() then return end
@@ -496,6 +525,7 @@ local function init()
 
     bdsm:logf("Starting the intro, first_turn_begin()!")
     if not faction:is_human() then
+        --- AI starts at the "mid game" point, w/ BP etc.
         f = bdsm.mid_game_start
     else
         f = bdsm.first_turn_begin

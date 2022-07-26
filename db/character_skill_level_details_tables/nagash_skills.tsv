@@ -52,6 +52,13 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_wizard_unique_liche_priest_nehekhara_skeletal_steed		x	6
 		1	nag_wizard_unique_liche_priest_shadow_skeletal_steed		x	6
 		1	nag_wizard_unique_liche_priest_undeath_skeletal_steed		x	6
+		1	nag_dignitary_shadow_unique_vampire_barded_nightmare		x	7
+		1	nag_dignitary_shadow_unique_vampire_hellsteed		x	9
+		1	nag_dignitary_unique_vampire_barded_nightmare		x	7
+		1	nag_dignitary_unique_vampire_hellsteed		x	9
+		1	nag_vmp_champion_unique_wight_king_skeletal_steed		x	3
+		1	nag_vmp_champion_unique_wight_king_barded_skeletal_steed		x	6
+		1	nag_cst_engineer_unique_gunnery_wight_rotting_pro		x	9
 		1	nag_skill_personal_nagash_supreme_lord		x	11
 		1	nag_skill_personal_nagash_undying_king		x	29
 		1	nag_skill_personal_nagash_great_necromancer		x	24
