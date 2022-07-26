@@ -334,7 +334,7 @@ function bdsm:begin_bp_raise()
     local f_cqi = f_leader:command_queue_index()
     local rank = f_leader:rank()
 
-    local function clamp(x, max, min)
+    local function clamp(x, min, max)
         if is_number(x) then
             if not is_number(max) and not is_number(min) then return x end
     
@@ -382,7 +382,8 @@ function bdsm:begin_bp_raise()
         invasion_object:set_target("REGION", region_key, nag_key)
         invasion_object:add_aggro_radius(25, {nag_key}, 1)
         invasion_object:apply_effect("wh_main_bundle_military_upkeep_free_force_siege_attacker", 10);
-        invasion_object:apply_effect("wh2_dlc11_bundle_immune_all_attrition", 10);         
+        invasion_object:apply_effect("wh2_dlc11_bundle_immune_all_attrition", 10);
+
         invasion_object:start_invasion(true,true,false,false)
     end
 
