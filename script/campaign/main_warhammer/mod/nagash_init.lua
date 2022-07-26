@@ -321,6 +321,30 @@ local function init_listeners()
         false
     )
 
+    core:add_listener(
+        "NagCharacterSelected",
+        "CharacterSelected",
+        function(context)
+            local c = context:character()
+            return c:faction():name() == bdsm:get_faction_key() and c:character_type_key() == "general" and cm:get_local_faction_name(true) == bdsm:get_faction_key()
+        end,
+        function(context)
+
+            get_vandy_lib():repeat_callback(function()
+                -- root > layout > hud_center_docker > hud_center > small_bar > button_group_army > button_ogre_mercenaries_pool
+                -- button_mercenaries
+
+                local p = find_uicomponent(core:get_ui_root(), "layout", "hud_center_docker", "hud_center", "small_bar", "button_group_army")
+                if p then
+                    find_uicomponent(p, "button_ogre_mercenaries_pool"):SetVisible(false)
+                    -- find_uicomponent(p, "button_mercenaries"):SetVisible(true)
+                else
+                    get_vandy_lib():remove_callback("NagCharacterSelected")
+                end
+            end, 15, "NagCharacterSelected")
+        end,
+        true
+    )
 
     --- TODO the listeners for ritual interactive markers
     core:add_listener(
@@ -496,6 +520,7 @@ local function init()
 
     bdsm:logf("Starting the intro, first_turn_begin()!")
     if not faction:is_human() then
+        --- AI starts at the "mid game" point, w/ BP etc.
         f = bdsm.mid_game_start
     else
         f = bdsm.first_turn_begin
