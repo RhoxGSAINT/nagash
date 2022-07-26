@@ -220,11 +220,17 @@ local function init_listeners()
             if has_warpstone_mine(region) then
                 --- TODO calculate chance
                 local chance = 20
+                local turns_since_last = cm:get_saved_value("nag_turns_since_last_warpstone")
+
+                -- 20/30/40/50/60/70/80/90/100 until 0 again
+                local chance = 20 + (10 * turns_since_last)
+                if chance >= 100 then chance = 100 end
     
                 local val = cm:random_number(100)
                 if val <= chance then
                 --if true then
                     cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
+                    cm:set_saved_value("nag_turns_since_last_warpstone", 0)
                 end
                 
                 --- TODO "soak up" mechanic, ie. apply a permanent bundle to a region when it's gotten enough Warpstone.
@@ -390,14 +396,11 @@ local function init_listeners()
                 local mission_key = context:mission():mission_record_key()
                 local num = string.gsub(mission_key, "nagash_intro_", "")
 
-                bdsm:logf("Mission num is %s", num)
                 num = tonumber(num)
-                bdsm:logf("Tonumber is %d", num)
 
                 local nag_fact = bdsm:get_faction_key()
 
-                bdsm:logf("???")
-                
+
                 if num == 5 then
                     bdsm:logf("5")
                     --- last mission, TP through
@@ -502,6 +505,9 @@ local function init()
         cm:set_saved_value("nagash_stuff_loaded", false)
         bdsm:setup_structures()        
     end
+
+    if not cm:get_saved_value("nag_turns_since_last_warpstone") then cm:set_saved_value("nag_turns_since_last_warpstone", 0) end
+
     local faction = cm:get_faction(faction_key)
     --- player only
     -- if not faction:is_human() then return end
