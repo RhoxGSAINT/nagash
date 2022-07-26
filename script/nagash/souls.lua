@@ -182,20 +182,23 @@ function bdsm:add_bp_button()
     local parent = find_uicomponent(core:get_ui_root(), "layout", "resources_bar", "topbar_list_parent")
 
     if parent then
-        local uic = core:get_or_create_component("icon_black_pyramid", "ui/templates/custom_image")
-
-        local pos = 1
-        -- remove all other children of the parent bar, except for the treasury, so the new PR will be to the right of the treasury holder
-        for i = 0, parent:ChildCount() - 1 do
-            local child = UIComponent(parent:Find(i))
-            if child:Id() == "treasury_holder" then
-                -- dummy:Adopt(child:Address())
-                pos = i
-                break
+        local uic = find_uicomponent(parent, "icon_black_pyramid")
+        if not uic then
+            uic = core:get_or_create_component("icon_black_pyramid", "ui/templates/custom_image")
+    
+            local pos = 1
+            -- remove all other children of the parent bar, except for the treasury, so the new PR will be to the right of the treasury holder
+            for i = 0, parent:ChildCount() - 1 do
+                local child = UIComponent(parent:Find(i))
+                if child:Id() == "treasury_holder" then
+                    -- dummy:Adopt(child:Address())
+                    pos = i
+                    break
+                end
             end
+    
+            parent:Adopt(uic:Address(), pos+1)
         end
-
-        parent:Adopt(uic:Address(), pos+1)
 
         uic:SetInteractive(true)
         
