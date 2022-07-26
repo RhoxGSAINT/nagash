@@ -44,8 +44,6 @@ nag_effect_agent_cap_increase_liche_priest	wizard.png	4	wizard.png	campaign	true
 nag_effect_agent_cap_increase_gunnery_wight	gunnery_wight.png	4	gunnery_wight.png	campaign	true
 nag_effect_agent_cap_increase_vampire	vampire.png	4	vampire.png	campaign	true
 nag_effect_agent_cap_increase_prince_wight	tomb_prince.png	4	tomb_prince.png	campaign	true
-nag_effect_agent_cap_increase_prince	tomb_prince.png	4	tomb_prince.png	campaign	true
-nag_effect_agent_cap_increase_wight	wight_king.png	4	wight_king.png	campaign	true
 nag_effect_agent_cap_increase_archai	saurus_scar_veteran.png	4	saurus_scar_veteran.png	campaign	true
 nag_ability_enable_batocalypse	general_ability.png	101	general_ability.png	battle	true
 nag_ability_enable_endless_tomb	general_ability.png	101	general_ability.png	battle	true

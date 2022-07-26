@@ -134,8 +134,6 @@ effects_description_nag_effect_agent_cap_increase_liche_priest	Hero capacity: %+
 effects_description_nag_effect_agent_cap_increase_gunnery_wight	Hero capacity: %+n for Gunnery Wights	true
 effects_description_nag_effect_agent_cap_increase_vampire	Hero capacity: %+n for Vampires	true
 effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+n for Tomb Princes & Wight Kings	true
-effects_description_nag_effect_agent_cap_increase_prince	Hero capacity: %+n for Tomb Princes	true
-effects_description_nag_effect_agent_cap_increase_wight	Hero capacity: %+n for Wight Kings	true
 effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archai	true
 effects_description_nag_ability_enable_wrath_of_the_gods	Army ability: "Wrath of the Gods"	true
 effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true
@@ -357,6 +355,5 @@ effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carste
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
 effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Nagashizzar[[/col]]	true
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
-effects_description_nag_archai_cap	Hero capacity: +%n for Morghast Archai	true
 effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
 effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true
