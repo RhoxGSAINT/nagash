@@ -171,10 +171,70 @@ local function add_scroll_bar()
 
             -- kill the dummies
             dummy:Adopt(killer_dummy:Address())
-            dummy:DestoryChildren()
+            dummy:DestroyChildren()
         end,
         true
     )
+end
+
+--- TODO create a button on the topbar that is used for interacting with the Black Pyramid
+function bdsm:add_bp_button()
+    local parent = find_uicomponent(core:get_ui_root(), "layout", "resources_bar", "topbar_list_parent")
+
+    if parent then
+        local uic = core:get_or_create_component("icon_black_pyramid", "ui/templates/custom_image")
+
+        local pos = 1
+        -- remove all other children of the parent bar, except for the treasury, so the new PR will be to the right of the treasury holder
+        for i = 0, parent:ChildCount() - 1 do
+            local child = UIComponent(parent:Find(i))
+            if child:Id() == "treasury_holder" then
+                -- dummy:Adopt(child:Address())
+                pos = i
+                break
+            end
+        end
+
+        parent:Adopt(uic:Address(), pos+1)
+
+        uic:SetInteractive(true)
+        
+        local state = "disabled"
+
+        -- if we've risen the BP, 
+        if cm:get_saved_value("nag_bp_ritual_completed") then
+            state = "woke"
+        elseif bdsm:is_bp_rite_available() then
+            state = "avail"
+        elseif cm:get_saved_value("nag_ritual_current") then
+            state = "ongoing"
+        end
+
+        local img = string.format("ui/skins/nag_nagash/nag_skull_top_blyramid_%s.png", state)
+        local tt = string.format("nag_nagash_icon_black_pyramid_%s", state)
+
+        --- default w/h
+        local dw,dh = 127,80
+
+        -- ratio to multiply height by to get width
+        local r = dw / dh
+        local h = parent:Height() * 2.1
+        local w = h * r
+
+        uic:SetImagePath(img, 0)
+        uic:SetTooltipText(effect.get_localised_string(tt), true)
+        uic:SetState("custom_state_1")
+        uic:Resize(w, h)
+
+        uic:SetCanResizeWidth(false)
+        uic:SetCanResizeHeight(false)
+
+        if state == "avail" then
+            uic:StartPulseHighlight(3)
+        else
+            uic:StopPulseHighlight()
+        end
+    end
 end
 
 --- unlock rite + show event message
@@ -486,74 +546,6 @@ function bdsm:complete_bp_raise()
     cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
     cm:apply_dilemma_diplomatic_bonus("nag_nagash", "wh2_dlc09_tmb_khemri", -6)
 
-end
-
---- Callback to see if we need to create the BP button
-function bdsm:check_bp_button()
-    -- self:logf("++++++check_bp_button !")
-    if self:is_bp_rite_available() then
-        -- self:logf("++++++is_bp_rite_available !")
-        self:add_bp_button()
-    end
-end
-
---- callback to kill the BP button
-function bdsm:remove_bp_button()
-    vlib:remove_callback("add_bp_button")
-end
-
---- Repeated callback that adds the floating button on the BP settlement banner
-function bdsm:add_bp_button()
-    vlib:repeat_callback(
-        function()
-            --- TODO handle states if the ritual is already underway, if Nagash isn't nearby, if Arkhan isn't nearby, etc etc etc
-            local label = find_uicomponent("3d_ui_parent", "label_"..bdsm._bp_settlement_key) -- IT'S NOT THE REGION KEY BECAUSE THE SETTLEMENT KEY IS DIFFERENT FUCK
-            if label and label:Visible() then
-                local icon_holder = find_uicomponent(label, "list_parent", "icon_holder")
-                local test = find_uicomponent(icon_holder, "bp_button")
-                if test and test:Visible() then
-                    return
-                end
-
-                local extant = find_uicomponent(icon_holder, "icon_port")
-
-                local w,h = extant:Dimensions()
-
-                local bp_button = core:get_or_create_component("bp_button", "ui/templates/round_small_button", icon_holder)
-
-                bp_button:SetCanResizeWidth(true)
-                bp_button:SetCanResizeHeight(true)
-
-                bp_button:SetVisible(true)
-
-                bp_button:Resize(w, h)
-                
-                --- TODO icon
-                local t = effect.get_localised_string("bp_button_text")
-                -- local icon = 
-                bp_button:SetTooltipText(t, true)
-                bp_button:SetVisible(true)
-
-                icon_holder:Layout()
-            end
-        end,
-        100, -- 100ms
-        "add_bp_button"
-    )
-
-    --- TODO STATEIFY THE BUTTON!
-    core:add_listener(
-        "bp_button_pressed",
-        "ComponentLClickUp",
-        function(context)
-            return context.string == "bp_button"
-        end,
-        function(context)
-            -- start the ritual
-            bdsm:begin_bp_raise()
-        end,
-        true
-    )
 end
 
 --- add in Black Pyramid raising rite
@@ -1306,8 +1298,48 @@ function bdsm:setup_rites()
     self:unlock_rites_listeners()
     self:trigger_rites_listeners()
 
-    --- TODO refresh if settlement capture!
-    self:check_bp_button()
+    self:add_bp_button()
+
+    core:add_listener(
+        "bp_button_pressed",
+        "ComponentLClickUp",
+        function(context)
+            return context.string == "icon_black_pyramid" and bdsm:is_bp_rite_available()
+        end,
+        function(context)
+            -- start the ritual
+            bdsm:begin_bp_raise()
+
+            --- refresh the button!
+            bdsm:add_bp_button()
+        end,
+        true
+    )
+
+    core:add_listener(
+        "bp_button_state_change",
+        "BlackPyramidRaised",
+        true,
+        function(context)
+
+            --- refresh the button!
+            bdsm:add_bp_button()
+        end,
+        true
+    )
+
+    core:add_listener(
+        "bp_button_state_change",
+        "RegionFactionChangeEvent",
+        function(context)
+            local r = context:region()
+            return r:name() == bdsm._bp_key and r:faction():name() == bdsm:get_faction_key()
+        end,
+        function(context)
+            bdsm:add_bp_button()
+        end,
+        true
+    )
 end
 
 cm:add_saving_game_callback(
