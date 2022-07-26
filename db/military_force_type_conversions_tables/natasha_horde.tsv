@@ -4,8 +4,8 @@ nag_bp_horde	HORDE	false
 nag_bp_horde	ARMY	true
 HORDE	nag_bp_horde	false
 ARMY	nag_bp_horde	false
-nag_husk_horde	HORDE	false
-nag_husk_horde	ARMY	true
+nag_husk_horde	HORDE	true
+nag_husk_horde	ARMY	false
 HORDE	nag_husk_horde	false
 ARMY	nag_husk_horde	false
 nag_arkhan_horde	HORDE	false

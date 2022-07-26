@@ -253,24 +253,24 @@ local function init_listeners()
         true
     )
 
-    --- Give Traitor Kings a horde!
-    core:add_listener(
-        "NagTraitorKing",
-        "CharacterCreated",
-        function(context)
-            local c = context:character()
-            return c:faction():name() == bdsm:get_faction_key() and c:character_subtype_key() == "nag_traitor_king" and c:has_military_force()
-        end,
-        function(context)
-            --- Provide horde IF NOT a Shambling Horde (how to detect????)
-            local c = context:character()
-            local mf = c:military_force()
+    -- --- Give Traitor Kings a horde!
+    -- core:add_listener(
+    --     "NagTraitorKing",
+    --     "CharacterCreated",
+    --     function(context)
+    --         local c = context:character()
+    --         return c:faction():name() == bdsm:get_faction_key() and c:character_subtype_key() == "nag_traitor_king" and c:has_military_force()
+    --     end,
+    --     function(context)
+    --         --- Provide horde IF NOT a Shambling Horde (how to detect????)
+    --         local c = context:character()
+    --         local mf = c:military_force()
 
-            --- This should prevent Shambling Horde conversions (there's no Shambling Horde -> Traitor King Horde direct conversion)
-            cm:convert_force_to_type(mf, "nag_traitor_horde")
-        end,
-        true
-    )
+    --         --- This should prevent Shambling Horde conversions (there's no Shambling Horde -> Traitor King Horde direct conversion)
+    --         cm:convert_force_to_type(mf, "nag_traitor_horde")
+    --     end,
+    --     true
+    -- )
 
     -- core:add_listener(
     --     "CharacterReplacingGeneralNagTraitorKing",

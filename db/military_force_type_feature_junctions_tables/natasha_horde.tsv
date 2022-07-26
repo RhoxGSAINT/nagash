@@ -3,7 +3,6 @@ feature	force_type
 character_bound	nag_bp_horde
 general_is_irreplaceable	nag_bp_horde
 character_bound	nag_husk_horde
-general_is_irreplaceable	nag_husk_horde
 character_bound	nag_arkhan_horde
 general_is_irreplaceable	nag_arkhan_horde
 character_bound	nag_vlad_horde
