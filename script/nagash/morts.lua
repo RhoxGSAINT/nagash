@@ -413,7 +413,7 @@ local function trigger_mortarch_unlock_missions()
             
             local mm = mission_manager:new(key, mort.."_unlock")
             mm:add_new_objective("KILL_X_ENTITIES")
-            mm:add_condition("total 5000")
+            mm:add_condition("total 15000")
             mm:add_payload("money 1000")
             
             mm:trigger()
@@ -862,9 +862,6 @@ local function init()
         "BlackPyramidRaised",
         true,
         function(context)
-            -- Trigger all Mortarch Unlock missions when the BP is raised.
-            --- TODO ^ wait a turn?
-            --- TODO inform Player w/ event feed
             trigger_mortarch_unlock_missions()
         end,
         false
