@@ -219,16 +219,17 @@ local function init_listeners()
 
             if has_warpstone_mine(region) then
                 --- TODO calculate chance
-                local turns_since_last = cm:get_saved_value("nag_turns_since_last_warpstone")
+                local turn = cm:model():turn_number()
+                local turns_since_last = cm:get_saved_value("nag_turn_last_acquired_warpstone") - turn
 
-                -- 20/30/40/50/60/70/80/90/100 until 0 again
-                local chance = 20 + (10 * turns_since_last)
+                -- 20/25/30/etc until 0 again
+                local chance = 20 + (5 * turns_since_last)
                 if chance >= 100 then chance = 100 end
     
                 local val = cm:random_number(100)
                 if val <= chance then
                     cm:faction_add_pooled_resource(bdsm:get_faction_key(), "nag_warpstone", "nag_warpstone_buildings", 1)
-                    cm:set_saved_value("nag_turns_since_last_warpstone", 0)
+                    cm:set_saved_value("nag_turn_last_acquired_warpstone", turn)
                 end
                 
                 --- TODO "soak up" mechanic, ie. apply a permanent bundle to a region when it's gotten enough Warpstone.
@@ -504,7 +505,7 @@ local function init()
         bdsm:setup_structures()        
     end
 
-    if not cm:get_saved_value("nag_turns_since_last_warpstone") then cm:set_saved_value("nag_turns_since_last_warpstone", 0) end
+    if not cm:get_saved_value("nag_turn_last_acquired_warpstone") then cm:set_saved_value("nag_turn_last_acquired_warpstone", cm:model():turn_number()) end
 
     local faction = cm:get_faction(faction_key)
     --- player only
