@@ -248,6 +248,16 @@ function bdsm:add_bp_button()
     end
 end
 
+function bdsm:test_bp_button()
+    get_vandy_lib():repeat_callback(function()
+        local test = find_uicomponent(core:get_ui_root(), "layout", "resources_bar", "topbar_list_parent")
+        if is_uicomponent(test) then
+            self:add_bp_button()
+            get_vandy_lib():remove_callback("add_bp_button")
+        end
+    end, 200, "add_bp_button")
+end
+
 --- unlock rite + show event message
 local function unlock_rite(rite_key)
     if rite_status[rite_key] == nil then
@@ -1324,13 +1334,8 @@ function bdsm:setup_rites()
     self:unlock_rites_listeners()
     self:trigger_rites_listeners()
 
-    get_vandy_lib():repeat_callback(function()
-        local test = find_uicomponent("layout", "resources_bar", "topbar_list_parent")
-        if is_uicomponent(test) then
-            self:add_bp_button()
-            get_vandy_lib():remove_callback("add_bp_button")
-        end
-    end, 50, "add_bp_button")
+    self:test_bp_button()
+
 
     core:add_listener(
         "bp_button_pressed",
@@ -1365,10 +1370,10 @@ function bdsm:setup_rites()
         "RegionFactionChangeEvent",
         function(context)
             local r = context:region()
-            return r:name() == bdsm._bp_key and not r:faction():is_null_interface() and r:faction():name() == bdsm:get_faction_key()
+            return r:name() == bdsm._bp_key and not r:owning_faction():is_null_interface() and r:owning_faction():name() == bdsm:get_faction_key()
         end,
         function(context)
-            bdsm:add_bp_button()
+            bdsm:test_bp_button()
             bdsm:trigger_bp_raise_mission()
         end,
         true
