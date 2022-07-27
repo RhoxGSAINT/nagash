@@ -255,7 +255,7 @@ function bdsm:test_bp_button()
             self:add_bp_button()
             get_vandy_lib():remove_callback("add_bp_button")
         end
-    end, 200, "add_bp_button")
+    end, 50, "add_bp_button")
 end
 
 --- unlock rite + show event message
