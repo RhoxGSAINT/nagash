@@ -205,15 +205,21 @@ function bdsm:add_bp_button()
         
         local state = "disabled"
 
-        -- if we've risen the BP, 
+        -- if we've risen the BP, set the awakened state
         if cm:get_saved_value("nag_bp_ritual_completed") then
             state = "woke"
+
+        --- if we can use it, it's available
         elseif bdsm:is_bp_rite_available() then
             state = "avail"
-        elseif cm:get_saved_value("nag_ritual_current") then
+
+        --- if we're currently doing the ritual
+        elseif cm:get_saved_value("nag_ritual_current") == "nag_bp_raise" then
             state = "ongoing"
         end
 
+        --- TODO text formatting on "ongoing" tooltip
+        
         local img = string.format("ui/skins/nag_nagash/nag_skull_top_blyramid_%s.png", state)
         local tt = string.format("nag_nagash_icon_black_pyramid_%s", state)
 

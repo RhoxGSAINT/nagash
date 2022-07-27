@@ -218,9 +218,10 @@ local function init_listeners()
             local region = context:region()
 
             if has_warpstone_mine(region) then
-                --- TODO calculate chance
+                --- calculate chance!
                 local turn = cm:model():turn_number()
-                local turns_since_last = cm:get_saved_value("nag_turn_last_acquired_warpstone") - turn
+                -- number of turns between now (say, 15) and the last turn we got Warpstone (say, 10) which would be (say, 5 turns since last)
+                local turns_since_last = turn - cm:get_saved_value("nag_turn_last_acquired_warpstone")
 
                 -- 20/25/30/etc until 0 again
                 local chance = 20 + (5 * turns_since_last)
