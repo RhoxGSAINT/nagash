@@ -387,9 +387,10 @@ function bdsm:begin_bp_raise()
         local invasion_object = invasion_manager:new_invasion(invasion_key, invasion_faction, unit_list, {sx, sy})
         -- invasion_object:apply_effect(self.invasion_force_effect_bundle, -1);
         invasion_object:set_target("REGION", region_key, nag_key)
-        invasion_object:add_aggro_radius(25, {nag_key}, 1)
+        invasion_object:add_aggro_radius(25, {nag_key}, 10)
         invasion_object:apply_effect("wh_main_bundle_military_upkeep_free_force_siege_attacker", 10);
         invasion_object:apply_effect("wh2_dlc11_bundle_immune_all_attrition", 10);
+        invasion_object:apply_effect("wh2_main_bundle_force_siege_equipment_skv", 10);
 
         invasion_object:start_invasion(true,true,false,false)
     end
