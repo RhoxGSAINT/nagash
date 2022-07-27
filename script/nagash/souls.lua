@@ -318,9 +318,10 @@ end
 function bdsm:begin_bp_raise()
     local v = cm:get_saved_value("nag_bp_raise")
 
-    -- if v and v == true then
-    --     return false
-    -- end
+    if v and v == true then
+        return false
+    end
+    
     if not self:is_bp_rite_available() then
         return false
     end
@@ -332,9 +333,11 @@ function bdsm:begin_bp_raise()
     local mm = mission_manager:new(bdsm:get_faction_key(), "nag_bp_survive")
     mm:add_new_objective("SCRIPTED")
     mm:add_condition("script_key nag_bp_survive")
-    mm:add_condition("override_text mission_text_text_nag_bp_survive")
+    mm:add_condition("override_text mission_text_text_nag_bp_survive_5")
     mm:add_payload("money 1000")
     mm:trigger()
+
+    cm:set_scripted_mission_text("nag_bp_survive", "nag_bp_survive", "mission_text_text_nag_bp_survive_5")
 
     --- wound Nagash Husk for 999 turns, replace him with a Traitor King
     local f_leader = self:get_faction_leader()
@@ -584,10 +587,10 @@ function bdsm:is_bp_rite_available()
 
     local r_list = f:region_list()
     -- self:logf("++++++is_bp_rite_available 01 !")
-    if v and v == true then
-        -- self:logf("++++++is_bp_rite_available 02 !")
-        return false
-    end
+    -- if v and v == true then
+    --     -- self:logf("++++++is_bp_rite_available 02 !")
+    --     return false
+    -- end
 
     for i = 0, r_list:num_items() -1 do
         local region = r_list:item_at(i)
@@ -1107,12 +1110,13 @@ function bdsm:trigger_rites_listeners()
             -- self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
 			local bp = cm:get_region(bdsm._bp_key)
             local key = bdsm:get_faction_key()
-            if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then 
+
+            --- TODO fail the ritual/mission
+            if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then
                 -- self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 02 cast!")
                 self:reset_current_ritual()
                 cm:remove_scripted_composite_scene("nag_bp_raise")
                 cm:set_saved_value("nag_bp_raise", false)
-                self:check_bp_button()
             end
             -- self:logf("++++++RegionFactionChangeEventBlyramidLostRitual 01 cast!")
 		end,
@@ -1136,7 +1140,6 @@ function bdsm:trigger_rites_listeners()
                 self:reset_current_ritual()
                 cm:remove_scripted_composite_scene("nag_bp_raise")
                 cm:set_saved_value("nag_bp_raise", false)
-                self:check_bp_button()
             end
             
             -- self:logf("++++++RegionAbandonedWithBuildingEventBlyramidLostRitual 01 cast!")
@@ -1367,7 +1370,7 @@ function bdsm:setup_rites()
         "RegionFactionChangeEvent",
         function(context)
             local r = context:region()
-            return r:name() == bdsm._bp_key and r:faction():name() == bdsm:get_faction_key()
+            return r:name() == bdsm._bp_key and not r:faction():is_null_interface() and r:faction():name() == bdsm:get_faction_key()
         end,
         function(context)
             bdsm:add_bp_button()

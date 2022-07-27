@@ -357,24 +357,25 @@ local function init_listeners()
         "NagTurnStartTimer",
         "FactionTurnStart",
         function(context)
-            local t = cm:get_saved_value("nag_ritual_turns_remaining") 
-            return context:faction():name() == bdsm:get_faction_key() and not is_nil(t) and t > 0
+            local t = cm:get_saved_value("nag_ritual_current") 
+            return context:faction():name() == bdsm:get_faction_key() and is_string(t) and t ~= ""
         end,
-        function(context)            
-
-
+        function(context)
             local current_ritual = cm:get_saved_value("nag_ritual_current")
 
             local t = cm:get_saved_value("nag_ritual_turns_remaining") -1
             --- TODO if it's been X turns **AND** all of the invading armies have been dealt with
-            if t == 0 then 
-                -- Complete!
-                if current_ritual == "nag_bp_raise" then
+
+            if current_ritual == "nag_bp_raise" then
+                if t == 0 then
+                    -- Complete!
                     bdsm:complete_bp_raise()
+                else
+                    cm:set_scripted_mission_text("nag_bp_survive", "nag_bp_survive", "mission_text_text_nag_bp_survive_"..t)
                 end
             end
 
-            cm:set_saved_value("nag_ritual_turns_remaining", t)
+            bdsm:set_current_ritual(current_ritual, t)
         end,
         true
     )

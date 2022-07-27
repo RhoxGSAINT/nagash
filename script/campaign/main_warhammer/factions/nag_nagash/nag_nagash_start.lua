@@ -19,7 +19,7 @@ cm:add_first_tick_callback_mp_new(
 		-- put faction-specific calls that should only gets triggered in a new multiplayer game here
 		core:progress_on_loading_screen_dismissed(
 			function() 
-				local faction = cm:model():world():faction_by_key(local_faction)				
+				local faction = cm:get_local_faction(true)			
 				local faction_capital = faction:home_region():settlement()
 				
 				cam_start_x = faction_capital:display_position_x()

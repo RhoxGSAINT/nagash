@@ -582,85 +582,85 @@ local function mortarch_unlock_listeners()
     )
 
 
-    local faction_human_test = cm:get_faction(bdsm:get_faction_key())
-    if not faction_human_test:is_human() then
-        core:add_listener(
-            "Nagash_AI_research_T800",
-            "FactionTurnStart",
-            function(context)
-                -- bdsm:logf("Nagash_AI_research_T800 faction %s", context:faction():name())
-                return context:faction():name() == bdsm:get_faction_key()
-            end,
-            function(context)
-                -- cm:treasury_mod(bdsm:get_faction_key(), 2000)
-                -- bdsm:logf("Nagash_AI_research_T800 faction %s turn %d ", context:faction():name(), cm:turn_number())
-                if cm:turn_number() == 20  then
-                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
-                    mort:spawn()
-                    kill_faction("wh2_dlc09_tmb_followers_of_nagash")   
-                end
+    -- local faction_human_test = cm:get_faction(bdsm:get_faction_key())
+    -- if not faction_human_test:is_human() then
+    --     core:add_listener(
+    --         "Nagash_AI_research_T800",
+    --         "FactionTurnStart",
+    --         function(context)
+    --             -- bdsm:logf("Nagash_AI_research_T800 faction %s", context:faction():name())
+    --             return context:faction():name() == bdsm:get_faction_key()
+    --         end,
+    --         function(context)
+    --             -- cm:treasury_mod(bdsm:get_faction_key(), 2000)
+    --             -- bdsm:logf("Nagash_AI_research_T800 faction %s turn %d ", context:faction():name(), cm:turn_number())
+    --             if cm:turn_number() == 20  then
+    --                 local mort = bdsm:get_mortarch_with_key("nag_mortarch_arkhan")
+    --                 mort:spawn()
+    --                 kill_faction("wh2_dlc09_tmb_followers_of_nagash")   
+    --             end
 
-                if cm:turn_number() == 40 then
-                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_krell")
-                    mort:spawn()
-                end
+    --             if cm:turn_number() == 40 then
+    --                 local mort = bdsm:get_mortarch_with_key("nag_mortarch_krell")
+    --                 mort:spawn()
+    --             end
                 
-                if cm:turn_number() == 60 then
-                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_neferata")
-                    mort:spawn()
-                end
+    --             if cm:turn_number() == 60 then
+    --                 local mort = bdsm:get_mortarch_with_key("nag_mortarch_neferata")
+    --                 mort:spawn()
+    --             end
 
-                if cm:turn_number() == 80 then
-                    kill_faction("wh_main_vmp_schwartzhafen")  
-                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_vlad")
-                    mort:spawn()  
-                    local faction_key = bdsm:get_faction_key()
-                    local faction_obj = cm:get_faction(faction_key)
-                    local faction_leader = faction_obj:faction_leader()
-                    local cqi = faction_leader:command_queue_index()
-                    local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
-                                        faction_key,
-                                        691,
-                                        419,
-                                        true,
-                                        5
-                                    )   
-                    cm:create_agent(
-                                        faction_key,
-                                        "dignitary",
-                                        "nag_mortarch_isabella",
-                                        ax,
-                                        ay,
-                                        false,
-                                        function(cqi)
+    --             if cm:turn_number() == 80 then
+    --                 kill_faction("wh_main_vmp_schwartzhafen")  
+    --                 local mort = bdsm:get_mortarch_with_key("nag_mortarch_vlad")
+    --                 mort:spawn()  
+    --                 local faction_key = bdsm:get_faction_key()
+    --                 local faction_obj = cm:get_faction(faction_key)
+    --                 local faction_leader = faction_obj:faction_leader()
+    --                 local cqi = faction_leader:command_queue_index()
+    --                 local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
+    --                                     faction_key,
+    --                                     691,
+    --                                     419,
+    --                                     true,
+    --                                     5
+    --                                 )   
+    --                 cm:create_agent(
+    --                                     faction_key,
+    --                                     "dignitary",
+    --                                     "nag_mortarch_isabella",
+    --                                     ax,
+    --                                     ay,
+    --                                     false,
+    --                                     function(cqi)
                                 
-                                        end
-                                    )  
-                                        -- local fact = bdsm:get_faction()
-                                        -- local nagash = bdsm:get_faction_leader()
-                                        -- local nag_mf = nagash:military_force()
-                                        -- x = 691,
-                                        -- y = 419
-                                        -- cm:spawn_agent_at_military_force(fact, nag_mf, "dignitary", "nag_mortarch_isabella")
+    --                                     end
+    --                                 )  
+    --                                     -- local fact = bdsm:get_faction()
+    --                                     -- local nagash = bdsm:get_faction_leader()
+    --                                     -- local nag_mf = nagash:military_force()
+    --                                     -- x = 691,
+    --                                     -- y = 419
+    --                                     -- cm:spawn_agent_at_military_force(fact, nag_mf, "dignitary", "nag_mortarch_isabella")
         
-                end
-                if cm:turn_number() == 100 then
-                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_mannfred")
-                    mort:spawn()
-                    kill_faction("wh_main_vmp_vampire_counts")  
-                end
+    --             end
+    --             if cm:turn_number() == 100 then
+    --                 local mort = bdsm:get_mortarch_with_key("nag_mortarch_mannfred")
+    --                 mort:spawn()
+    --                 kill_faction("wh_main_vmp_vampire_counts")  
+    --             end
                 
-                if cm:turn_number() == 120 then
-                    local mort = bdsm:get_mortarch_with_key("nag_mortarch_luthor")
-                    mort:spawn()
-                    kill_faction("wh2_dlc11_cst_vampire_coast")   
-                end
+    --             if cm:turn_number() == 120 then
+    --                 local mort = bdsm:get_mortarch_with_key("nag_mortarch_luthor")
+    --                 mort:spawn()
+    --                 kill_faction("wh2_dlc11_cst_vampire_coast")   
+    --             end
                 
                  
-            end,
-            true
-        )
-    end
+    --         end,
+    --         true
+    --     )
+    -- end
 end
 
 
