@@ -219,7 +219,7 @@ function bdsm:add_bp_button()
         end
 
         --- TODO text formatting on "ongoing" tooltip
-        
+
         local img = string.format("ui/skins/nag_nagash/nag_skull_top_blyramid_%s.png", state)
         local tt = string.format("nag_nagash_icon_black_pyramid_%s", state)
 
@@ -397,17 +397,6 @@ function bdsm:begin_bp_raise()
     --- set a timer for "survive 5/10 turns" and then complete the mission above
     self:set_current_ritual("nag_bp_raise", 5)
     cm:set_saved_value("nag_bp_raise", true)
-
-
-    local label = find_uicomponent("3d_ui_parent", "label_"..bdsm._bp_settlement_key) -- IT'S NOT THE REGION KEY BECAUSE THE SETTLEMENT KEY IS DIFFERENT FUCK
-            if label and label:Visible() then
-                local icon_holder = find_uicomponent(label, "list_parent", "icon_holder")
-                local test = find_uicomponent(icon_holder, "bp_button")
-                if test and test:Visible() then
-                    test:SetVisible(false)
-                end
-            end
-    vlib:remove_callback("add_bp_button")
 end
 
 function bdsm:reset_current_ritual()
@@ -1337,7 +1326,13 @@ function bdsm:setup_rites()
     self:unlock_rites_listeners()
     self:trigger_rites_listeners()
 
-    get_vandy_lib():callback(function() self:add_bp_button() end, 20, "add_bp_button")
+    get_vandy_lib():repeat_callback(function()
+        local test = find_uicomponent("layout", "resources_bar", "topbar_list_parent")
+        if is_uicomponent(test) then
+            self:add_bp_button()
+            get_vandy_lib():remove_callback("add_bp_button")
+        end
+    end, 50, "add_bp_button")
 
     core:add_listener(
         "bp_button_pressed",
