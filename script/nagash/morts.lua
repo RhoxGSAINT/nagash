@@ -330,6 +330,32 @@ local locked_techs = {
     "nag_mortarch_vlad_event_2",
     "nag_mortarch_vlad_event_3",
 
+    "nag_arkhan_archai",
+    "nag_krell_archai",
+    "nag_luthor_archai",
+    "nag_mannfred_archai",
+    "nag_neferata_archai",
+    "nag_vlad_archai",
+
+    "nag_arkhan_battle_1",
+    "nag_arkhan_battle_2",
+    "nag_arkhan_battle_3",
+    "nag_krell_battle_1",
+    "nag_krell_battle_2",
+    "nag_krell_battle_3",
+    "nag_luthor_battle_1",
+    "nag_luthor_battle_2",
+    "nag_luthor_battle_3",
+    "nag_mannfred_battle_1",
+    "nag_mannfred_battle_2",
+    "nag_mannfred_battle_3",
+    "nag_neferata_battle_1",
+    "nag_neferata_battle_2",
+    "nag_neferata_battle_3",
+    "nag_vlad_battle_1",
+    "nag_vlad_battle_2",
+    "nag_vlad_battle_3",
+
     -- "nag_mortarch_arkhan_unlock",
     -- "nag_mortarch_luthor_unlock",
     -- "nag_mortarch_mannfred_unlock",
@@ -673,15 +699,15 @@ local function mortarch_event_listeners()
     ---@type vlib_camp_counselor
     local cc = vlib:get_module("camp_counselor")
 
-    ---@param tech_obj tech_class
-    local function is_locked(tech_obj)
-        return tech_obj and tech_obj:get_lock_state(nk) >= 2
-    end
+    -- ---@param tech_obj tech_class
+    -- local function is_locked(tech_obj)
+    --     return tech_obj and tech_obj:get_lock_state(nk) >= 2
+    -- end
 
-    ---@return tech_class
-    local function get_tech(key)
-        return cc:get_object("TechObj", key)
-    end
+    -- ---@return tech_class
+    -- local function get_tech(key)
+    --     return cc:get_object("TechObj", key)
+    -- end
 
     --- TODO urgent vvvv
     --- TODO only trigger these listeners if the tech ISN'T RESEARCHED and the MORTARCH IS SPAWNED. Use a saved value?

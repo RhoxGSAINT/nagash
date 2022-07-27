@@ -525,7 +525,7 @@ local function init()
 
     local f = nil
 
-    bdsm:logf("Starting the intro, first_turn_begin()!")
+    -- bdsm:logf("Starting the intro, first_turn_begin()!")
     if not faction:is_human() then
         --- AI starts at the "mid game" point, w/ BP etc.
         f = bdsm.mid_game_start

@@ -203,19 +203,20 @@ function bdsm:add_bp_button()
 
         uic:SetInteractive(true)
         
+        -- assume it's disabled by default
         local state = "disabled"
 
         -- if we've risen the BP, set the awakened state
         if cm:get_saved_value("nag_bp_ritual_completed") then
             state = "woke"
 
-        --- if we can use it, it's available
-        elseif bdsm:is_bp_rite_available() then
-            state = "avail"
-
         --- if we're currently doing the ritual
         elseif cm:get_saved_value("nag_ritual_current") == "nag_bp_raise" then
             state = "ongoing"
+
+        --- if we can use it, it's available
+        elseif bdsm:is_bp_rite_available() then
+            state = "avail"
         end
 
         --- TODO text formatting on "ongoing" tooltip
@@ -321,7 +322,7 @@ function bdsm:begin_bp_raise()
     if v and v == true then
         return false
     end
-    
+
     if not self:is_bp_rite_available() then
         return false
     end
@@ -1180,12 +1181,6 @@ function bdsm:trigger_rites_listeners()
             local reg = context:region()
             cm:instantly_set_settlement_primary_slot_level(reg:settlement(), 1)
             -- self:logf("++++++NagashWimp !")
-            if reg:name() == bdsm._bp_key and bdsm:is_bp_rite_available() then 
-                -- self:logf("++++++NagashWimp trigger !")
-                --- trigger the "Raise the BP!" mission
-                bdsm:trigger_bp_raise_mission()
-                bdsm:check_bp_button()
-            end
         end,
         true
     )
@@ -1374,6 +1369,7 @@ function bdsm:setup_rites()
         end,
         function(context)
             bdsm:add_bp_button()
+            bdsm:trigger_bp_raise_mission()
         end,
         true
     )
