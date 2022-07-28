@@ -222,7 +222,7 @@ function bdsm:add_bp_button()
 
         --- TODO text formatting on "ongoing" tooltip
 
-        local img = string.format("ui/skins/nag_nagash/nag_skull_top_blyramid_%s.png", state)
+        local img = string.format("ui/skins/wh2_nag_nagash/nag_skull_top_blyramid_%s.png", state)
         local tt = string.format("nag_nagash_icon_black_pyramid_%s", state)
 
         --- default w/h
