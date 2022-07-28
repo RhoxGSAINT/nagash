@@ -309,7 +309,7 @@ local tech_progress = {
 
 }
 
---- All of the event techs begin locked, as do all Mort unlock techs
+--- Apparently all sub-techs to a locked tech are immediately locked and need to be manually unlocked (:
 local locked_techs = {
     "nag_mortarch_arkhan_event_1",
     "nag_mortarch_arkhan_event_2",
@@ -356,12 +356,12 @@ local locked_techs = {
     "nag_vlad_battle_2",
     "nag_vlad_battle_3",
 
-    -- "nag_mortarch_arkhan_unlock",
-    -- "nag_mortarch_luthor_unlock",
-    -- "nag_mortarch_mannfred_unlock",
-    -- "nag_mortarch_krell_unlock",
-    -- "nag_mortarch_neferata_unlock",
-    -- "nag_mortarch_vlad_unlock",
+    "nag_arkhan_proclamation",
+    "nag_luthor_proclamation",
+    "nag_mannfred_proclamation",
+    "nag_krell_proclamation",
+    "nag_neferata_proclamation",
+    "nag_vlad_proclamation",
 }
 
 --- First node for each Mortarch

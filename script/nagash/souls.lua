@@ -179,6 +179,7 @@ end
 
 --- TODO create a button on the topbar that is used for interacting with the Black Pyramid
 function bdsm:add_bp_button()
+    if cm:get_local_faction_name(true) ~= self:get_faction_key() then return end
     local parent = find_uicomponent(core:get_ui_root(), "layout", "resources_bar", "topbar_list_parent")
 
     if parent then
