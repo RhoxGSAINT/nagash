@@ -2,7 +2,7 @@ key	text	tooltip
 #Loc PackedFile;1;text/db/nag_mission_text.loc		
 mission_text_text_nagash_intro_5	Meet up with Arkhan, go through the tunnels!	true
 mission_text_text_nag_nagash_capture_settlement_black_pyramid	Capture the Black Pyramid.	true
-mission_text_text_nag_mortarch_vlad_unlock	Spend turns Channeling near Altdorf to find the Carstein Ring	true
+mission_text_text_nag_mortarch_vlad_unlock	Spend turns Channeling near Altdorf to find Vlad von Carstein's remains	true
 mission_text_text_nag_mortarch_arkhan_event_1	Raise the Black Pyramid	true
 mission_text_text_nag_mortarch_luthor_event_1_0	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 0	true
 mission_text_text_nag_mortarch_luthor_event_1_1	Fight 5 batles with Luthor AT SEA or AGAINST LIZARDMEN (PHPHPHP fix up how that's phrased)\nCurrently fought: 1	true
