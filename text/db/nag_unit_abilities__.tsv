@@ -18,9 +18,9 @@ unit_abilities_tooltip_text_wh_main_spell_nagash_grave_call_secondary_hidden_02	
 unit_abilities_onscreen_name_wh_main_spell_nagash_grave_call_secondary_hidden_02	Grave Call (02) [PH]	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_soul_stealer	The wizard tears the souls from his victims' bodies before breathing unlife into their sundered corpses.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_soul_stealer	The Soul Stealer	true
-unit_abilities_tooltip_text_wh_main_spell_nagash_breath_of_darkness	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
+unit_abilities_tooltip_text_wh_main_spell_nagash_breath_of_darkness	The wizard draws tendrils of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_breath_of_darkness	Breath of Darkness	true
-unit_abilities_tooltip_text_wh_main_spell_nagash_breath_of_darkness_upgraded	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
+unit_abilities_tooltip_text_wh_main_spell_nagash_breath_of_darkness_upgraded	The wizard draws tendrils of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_breath_of_darkness_upgraded	Breath of Darkness Upgraded	true
 unit_abilities_tooltip_text_wh_main_spell_nagash_become_construct	Become construct [PH]	true
 unit_abilities_onscreen_name_wh_main_spell_nagash_become_construct	Become construct [PH]	true
@@ -42,7 +42,7 @@ unit_abilities_tooltip_text_nag_bound_spell_nagash_dark_riders	At the wizard's c
 unit_abilities_onscreen_name_nag_bound_spell_nagash_dark_riders	The Dark Riders	true
 unit_abilities_tooltip_text_nag_bound_spell_nagash_hand_of_dust	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victim to dust in a single heartbeat.	true
 unit_abilities_onscreen_name_nag_bound_spell_nagash_hand_of_dust	The Hand of Dust	true
-unit_abilities_tooltip_text_nag_bound_spell_nagash_breath_of_darkness	The wizard draws tendrills of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
+unit_abilities_tooltip_text_nag_bound_spell_nagash_breath_of_darkness	The wizard draws tendrils of the Wind of Death into a dark fog that restores the undead and fills them with unholy vigour.	true
 unit_abilities_onscreen_name_nag_bound_spell_nagash_breath_of_darkness	Breath of Darkness	true
 unit_abilities_tooltip_text_nag_nag_bound_spell_nagash_abyssal_swarm	The wizard binds the bones of predatory creatures with dark magic, causing them to rise from their animal graves.	true
 unit_abilities_onscreen_name_nag_bound_spell_nagash_abyssal_swarm	Abyssal Swarm	true
@@ -121,7 +121,7 @@ unit_abilities_tooltip_text_wh_main_lore_nagash_raise_the_dead	The living do not
 unit_abilities_onscreen_name_nag_nagash_passive_eternal_danse_macabre	Vanhel's Eternal Danse Macabre	true
 unit_abilities_tooltip_text_nag_nagash_passive_eternal_danse_macabre	Friendly targets are filled with magical energy, making them even more aggressive!	true
 unit_abilities_onscreen_name_nag_nagash_passive_malediction_of_nagash	Malediction of Nagash	true
-unit_abilities_tooltip_text_nag_nagash_passive_malediction_of_nagash	At the Necromancer's commad, his enemies feel the looming shadow of undeath fall across them, sapping their strength and endurance.	true
+unit_abilities_tooltip_text_nag_nagash_passive_malediction_of_nagash	At the Necromancer's command, his enemies feel the looming shadow of undeath fall across them, sapping their strength and endurance.	true
 unit_abilities_onscreen_name_nag_nagash_passive_death_magic_incarnate	Death Magic Incarnate	true
 unit_abilities_tooltip_text_nag_nagash_passive_death_magic_incarnate	A mass of accursed necrotic power swirls around Nagash, fusing into the unstable bonds of the dead and strengthening them.	true
 unit_abilities_onscreen_name_nag_nagash_abilities_morikhane_black_armour	Black Armour of Nagash	true

@@ -392,4 +392,4 @@ effects_description_nag_effect_book_extra_stack_dummy	Effects below are now at: 
 effects_description_nag_effect_character_stat_mod_miscast_chance_dummy	Miscast base chance: -2% (Max stack -20%)	true
 effects_description_nag_effect_military_force_winds_of_magic_depletion_mod_character_dummy	Winds of Magic power reserve: +2 (Max stack +20%)	true
 effects_description_nag_effect_morghast_archai_ward_save_dummy	Ward save: +2% (Max stack +20%) for Morghast units and Morghast Archai heroes ([[img:ui/campaign ui/effect_bundles/army.png]][[/img]]Lord's army)	true
-effects_description_nag_effect_mortarch_ward_save_dummy	Ward save: +2% (Max stack +20%) for Mortarch lords (factionwide)	true
+effects_description_nag_effect_mortarch_ward_save_dummy	Ward save: +1% (Max stack +10%) for Mortarch lords (factionwide)	true
