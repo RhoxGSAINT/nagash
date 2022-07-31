@@ -52,3 +52,4 @@ nag_unit_passive_spectre_swarm_vortex_visual_dummy	false	wh2_dlc11_lord_passive_
 nag_luthor_harkon_carcinization	true	wh2_dlc11_spell_deep_denizens_of_the_deep		wh_type_hex		wh_main_anc_group_unique	true	false	lord		false
 nag_unit_passive_zombie_battery	false	wh2_dlc17_unit_passive_strength_from_flesh		wh_type_area_of_regeneration		wh_main_anc_group_uncommon	false	false	unit		false
 nag_unit_passive_curse_quintex	true	wh2_main_item_passive_enchanted_spyglass		wh_type_vortex		wh_main_anc_group_rare	true	false	bound		false
+nag_unit_passive_magical_attacks	true			wh_type_augment		wh_main_anc_group_uncommon	false	true	unit		false

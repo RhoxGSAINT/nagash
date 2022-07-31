@@ -63,10 +63,10 @@ effects_description_nag_effect_army_vet_nagash_deathblow_skill	Ability: "Deathbl
 effects_description_nag_effect_army_vet_nagash_fatigue_res_skill	Attribute: Fatigue Resistance for Nagashizzar units {{tr:rank7}}	true
 effects_description_nag_effect_army_vet_nagash_ward_save_skill	Ward save: %n% for Nagashizzar units {{tr:rank7}}	true
 effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength: %+n% for Nagashizzar units {{tr:rank7}}	true
-effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts and Vargheists	true
-effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Deck Gunners, Bloated Corpses, Depth Guard and Death Shreik Terrorgheists	true
-effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeleton Archers, Skeleton Spearmen, Skeleton Warriors, Nehekhara Warriors, Tomb Guard, Skeleton Horsemen, Skeleton Horse Archers, Nehekhara Horsemen, Skeleton Archer Chariots and Skeleton Chariots	true
-effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Sand Crawlers, Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Bone Golems, Nagashizzar Guard, Carrion Riders, Mortis Engines and Morghasts	true
+effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Crypt Horrors, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts, Vargheists and Varghulfs	true
+effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Deck Gunners, Bloated Corpses, Depth Guard, Carronades, Death Shreik Terrorgheists and Necrofex Colossi	true
+effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeletons, Skeleton Archers, Skeleton Horsemen, Skeleton Chariots, Nehekhara Warriors, Nehekhara Horsemen, Tomb Guard, Screaming Skull Catapults and Caskets of Souls	true
+effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Carrion Riders, Sand Crawlers, Glowing Ghouls, Bone Golems, Nagashizzar Guard, Mortis Engines and Morghasts	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm	Spell: "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_cooldown_abyssal_swarm	Cooldown: %+n% to "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm_upgrade	Overcast spell: "Abyssal Swarm Upgraded"	true
@@ -109,7 +109,7 @@ effects_description_nag_spell_nagash_enable_harbinger_upgrade	Overcast spell: "T
 effects_description_nag_spell_nagash_miscast_reduction_harbinger	Miscast base chance: %+n% for "The Harbinger Upgraded"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger	Winds of Magic cost: %n for "The Harbinger"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger_upgraded	Winds of Magic cost: %n for "The Harbinger Upgraded"	true
-effects_description_nag_nag_effect_self_arkhan_melee_attack_nehek	Melee attack: %+n for Nehekhara Warriors and Nehekhara Horsemen units	true
+effects_description_nag_effect_self_arkhan_melee_attack_nehek	Melee attack: %+n for Nehekhara Warriors and Nehekhara Horsemen units	true
 effects_description_nag_nag_effect_self_arkhan_rank_nehek_plus	Recruit rank: %+n for Nehekhara Warriors, Nehekhara Horsemen, Dire Wolves and Hexwraiths units	true
 effects_description_nag_effect_self_krell_infantry_melee_defence_skill	Melee defence: %+n for all Infantry units	true
 effects_description_nag_effect_self_krell_infantry_upkeep_skill	Upkeep: %+n% for Grave Guard & Nagashizzar Guard units	true
@@ -117,7 +117,7 @@ effects_description_nag_effect_self_krell_melee_attack_versus_nor_chs_bst	Melee 
 effects_description_nag_effect_self_krell_melee_damage_versus_nor_chs_bst	Weapon strength: %+n% for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	Charge bonus: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_luthor_missile_strength_arty	Missile strength: %+n% for all Artillery units	true
-effects_description_nag_effect_self_luthor_missile_strength_gunnery_carronade	Missile strength: %+n% for Zombie Pirate Gunnery Mob and Carronade units	true
+effects_description_nag_effect_self_luthor_missile_strength_gunnery_carronade	Missile strength: %+n% for Zombie Pirate Gunnery Mobs, Deck Gunners and Carronade units	true
 effects_description_nag_effect_enable_mount_arkhan_abyssal	Mount: Razarak (Abyssal Terror)	true
 effects_description_nag_effect_enable_mount_mannfred_abyssal	Mount: Ashigaroth (Abyssal Terror)	true
 effects_description_nag_effect_enable_mount_neferata_abyssal	Mount: Nagadron (Abyssal Terror)	true
@@ -156,7 +156,7 @@ effects_description_nag_effect_melee_attack_traitor_foot	Melee attack (when on f
 effects_description_nag_effect_melee_defence_traitor_foot	Melee defence (when on foot): %+n	true
 effects_description_nag_effect_unit_xp_levels_all_horsemen_serpent_cavalry	Recruit rank: %+n for all Skeletal Cavalry units	true
 effects_description_nag_effect_unit_xp_levels_all_skeleton	Recruit rank: %+n for all Skeletal Infantry units	true
-effects_description_nag_effect_physical_resistance_ghouls_zombies	Physical resistance: %n% for Ghoul and Zombie units	true
+effects_description_nag_effect_physical_resistance_ghouls_zombies	Physical resistance: %n% for all Ghoul and all Zombie units	true
 effects_description_nag_effect_force_unit_stat_melee_attack_vs_undead	Melee attack: %+n when fighting against Vampire Counts, Vampire Coast and Tomb Kings	true
 effects_description_nag_effect_self_arkhan_stat_enable_flaming_attacks_vs_tmb	Enables flaming attacks when fighting against Tomb Kings	true
 effects_description_nag_effect_self_arkhan_chariot_speed	Speed: %+n% for Chariot units	true
@@ -236,7 +236,7 @@ effects_description_nag_effect_ability_enable_the_restless_dead_hidden	[Hidden]	
 effects_description_nag_effect_ability_enable_curse_of_undeath_hidden	[Hidden]	false
 effects_description_nag_effect_ability_enable_life-leeching_hidden	[Hidden]	false
 effects_description_nag_effect_ability_enable_master_arcane_conduit	Passive ability: "Master Arcane Conduit"	true
-effects_description_nag_effect_recruit_rank_nag_ghouls_zombies	Recruit rank: %+n for Ghoul and Zombie units	true
+effects_description_nag_effect_recruit_rank_nag_ghouls_zombies	Recruit rank: %+n for all Ghoul and all Zombie units	true
 effects_description_nag_effect_enable_heralds_of_the_accursed_one	Passive ability: "Herald of the Accursed One"	true
 effects_description_nag_effect_resource_xp_rank_ethereal	Recruit rank: %+n for Ethereal units	true
 effects_description_nag_effect_resource_xp_rank_nagashizzar	Recruit rank: %+n for Nagashizzar units	true
@@ -244,7 +244,7 @@ effects_description_nag_effect_resource_xp_rank_nehek	Recruit rank: %+n for Nehe
 effects_description_nag_effect_resource_xp_rank_beasts	Recruit rank: %+n for Dire Wolves, Fell Bats, Vargheists and Sand Crawler units	true
 effects_description_nag_effect_resource_xp_rank_count	Recruit rank: %+n for Sylvanian units	true
 effects_description_nag_effect_resource_xp_rank_construct	Recruit rank: %+n for Construct units	true
-effects_description_nag_effect_resource_xp_rank_zombie	Recruit rank: %+n for Ghoul and Zombie units	true
+effects_description_nag_effect_resource_xp_rank_zombie	Recruit rank: %+n for all Ghoul and all Zombie units	true
 effects_description_nag_effect_resource_xp_rank_coast	Recruit rank: %+n for Coast units	true
 effects_description_nag_effect_resource_upkeep_reduction_ethereal	Upkeep: %+n% for Ethereal units	true
 effects_description_nag_effect_resource_upkeep_reduction_nagashizzar	Upkeep: %+n% for Nagashizzar units	true
@@ -252,16 +252,26 @@ effects_description_nag_effect_resource_upkeep_reduction_nehek	Upkeep: %+n% for 
 effects_description_nag_effect_resource_upkeep_reduction_beasts	Upkeep: %+n% for Dire Wolves, Fell Bats, Vargheists and Sand Crawler units	true
 effects_description_nag_effect_resource_upkeep_reduction_count	Upkeep: %+n% for Sylvanian units	true
 effects_description_nag_effect_resource_upkeep_reduction_construct	Upkeep: %+n% for Construct units	true
-effects_description_nag_effect_resource_upkeep_reduction_zombie	Upkeep: %+n% for Ghoul and Zombie units	true
+effects_description_nag_effect_resource_upkeep_reduction_zombie	Upkeep: %+n% for all Ghoul and all Zombie units	true
 effects_description_nag_effect_resource_upkeep_reduction_coast	Upkeep: %+n% for Coast units	true
 effects_description_nag_effect_agent_recruitment_xp_general_traitor_kings	Lord recruit rank: %+n for Traitor Kings	true
 effects_description_nag_effect_agent_recruitment_xp_hero_all	Hero recruit rank: %+n for all Heroes	true
+effects_description_nag_effect_agent_recruitment_xp_champion_wight_king	Hero recruit rank: %+n for Wight Kings	true
 effects_description_nag_effect_agent_recruitment_xp_champion_tomb_prince	Hero recruit rank: %+n for Tomb Princes	true
 effects_description_nag_effect_agent_recruitment_xp_spy_archai	Hero recruit rank: %+n for Morghast Archai	true
 effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	Hero recruit rank: %+n for Wight Kings & Tomb Princes	true
 effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests	Hero recruit rank: %+n for Liche Priests	true
 effects_description_nag_effect_agent_recruitment_xp_engineer_gunnery_wight	Hero recruit rank: %+n for Gunnery Wights	true
 effects_description_nag_effect_agent_recruitment_xp_dignitary_vampires	Hero recruit rank: %+n for Vampires	true
+effects_description_nag_effect_agent_recruitment_xp_spy_archai_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_general_traitor_kings_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_hero_all_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_champion_tomb_prince_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_engineer_gunnery_wight_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_dignitary_vampires_hidden	[Hidden]	true
 effects_description_nag_effect_force_enemy_campaign_movement_range_hidden	[HIDDEN] Campaign movement range: %+n% for enemy armies starting their turn in this region	true
 effects_description_nag_effect_force_own_campaign_movement_range_hidden	[HIDDEN] Campaign movement range: %+n% for own armies starting their turn in this province	true
 effects_description_nag_effect_tech_missile_resistance_all_zombies	Missile resistance: %n% for all zombie units	true
@@ -357,3 +367,29 @@ effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
 effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
 effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true
+effects_description_wh2_dlc09_title_king	[HIDDEN] Adds the name "King"	true
+effects_description_wh2_dlc09_title_prince	[HIDDEN] Adds the name "Prince"	true
+effects_description_nag_effect_charge_bonus_increase_dire_wolves_hexwraiths	Charge bonus: %+n for Dire Wolves, Fell Bats and Hexwraiths units	true
+effects_description_nag_effect_character_physical_resist_lord_hero_all	Physical resistance: %n% for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
+effects_description_nag_effect_unit_enable_flaming_attacks_constructs	Enables flaming attacks for all Construct units	true
+effects_description_nag_effect_unit_speed_all_skeleton	Speed: %+n% for Skeletal Infantry, Cavalry and Chariot units.	true
+effects_description_nag_effect_unit_vigour_loss_reduction_all_skeleton	Vigour loss reduction: %+n% for Skeletal Infantry, Cavalry and Chariot units.	true
+effects_description_nag_effect_unit_frostbite_attacks_spirits	Enables frostbite attacks for 	true
+effects_description_nag_effect_unit_magic_attacks_morghasts	Enables magical attacks in battles: For Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes 	true
+effects_description_nag_effect_unit_magic_resistance_morghasts	Magic resistance: %n% for Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes	true
+effects_description_nag_effect_enable_ability_chilling_aura_zombies	Passive ability: "The Chilling Aura" for Zombie units	true
+effects_description_nag_effect_unit_missile_resistance_zombie_units	Missile resistance: %+n for all Ghoul and all Zombie units	true
+effects_description_nag_effect_character_stat_mod_miscast_chance_hidden	[HIDDEN] 	true
+effects_description_nag_effect_military_force_winds_of_magic_depletion_mod_character_hidden	[HIDDEN] 	true
+effects_description_nag_effect_morghast_archai_ward_save_hidden	[HIDDEN] Ward save: %n% for Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes	true
+effects_description_nag_effect_mortarch_ward_save_hidden	[HIDDEN] Ward save: %n% for Mortarch Lords	true
+effects_description_nag_effect_morghast_archai_ward_save	Ward save: %n% for Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes	true
+effects_description_nag_effect_mortarch_ward_save	Ward save: %n% for Mortarch Lords	true
+effects_description_nag_ability_enable_blyramid_itself	[HIDDEN] Adds Touring Black Pyramid	true
+effects_description_nag_effect_unit_ability_magic_attacks_morghasts_hidden	[HIDDEN] Passive ability: "Magic Attacks" for Morghast & Archai units 	true
+effects_description_nag_effect_book_stack_dummy	Effects below stack with each Book unlocked:	true
+effects_description_nag_effect_book_extra_stack_dummy	Effects below are now at: Max stack	true
+effects_description_nag_effect_character_stat_mod_miscast_chance_dummy	Miscast base chance: -2% (Max stack -20%)	true
+effects_description_nag_effect_military_force_winds_of_magic_depletion_mod_character_dummy	Winds of Magic power reserve: +2 (Max stack +20%)	true
+effects_description_nag_effect_morghast_archai_ward_save_dummy	Ward save: +2% (Max stack +20%) for Morghast units and Morghast Archai heroes ([[img:ui/campaign ui/effect_bundles/army.png]][[/img]]Lord's army)	true
+effects_description_nag_effect_mortarch_ward_save_dummy	Ward save: +2% (Max stack +20%) for Mortarch lords (factionwide)	true

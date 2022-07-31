@@ -175,7 +175,12 @@ nag_effect_bonus_charge_fighting_against_all	charge.png	102	charge.png	battle	tr
 nag_nagash_trait_true_immortalitiy	trait_mortarch.png	1	trait_mortarch.png	campaign	false
 nag_effect_grant_immortality_hero	wound_time.png	3	wound_time.png	campaign	true
 nag_effect_grant_immortality_lord	wound_time.png	2	wound_time.png	campaign	true
-nag_effect_morghast_archai_ward_save	resistance_ward_save.png	55	resistance_ward_save.png	battle	true
+nag_effect_character_stat_mod_miscast_chance_hidden		0		campaign	true
+nag_effect_military_force_winds_of_magic_depletion_mod_character_hidden		0		campaign	true
+nag_effect_morghast_archai_ward_save	resistance_ward_save.png	2	resistance_ward_save.png	battle	true
+nag_effect_mortarch_ward_save	resistance_ward_save.png	2	resistance_ward_save.png	battle	true
+nag_effect_morghast_archai_ward_save_hidden		0		battle	true
+nag_effect_mortarch_ward_save_hidden		0		battle	true
 nag_effect_ability_enable_eternal_danse_macabre	general_ability.png	1	general_ability.png	battle	true
 nag_effect_ability_enable_malediction_of_nagash	general_ability.png	1	general_ability.png	battle	true
 nag_effect_ability_enable_raise_the_dead	general_ability.png	1	general_ability.png	battle	true
@@ -211,3 +216,6 @@ nag_effect_army_nagash_damage_base_skill	weapon_damage.png	3	weapon_damage.png	b
 nag_effect_enable_ability_guardian_ghouls_blood_knights	general_ability.png	1	general_ability.png	battle	true
 nag_effect_diplomatic_relations_living	diplomacy.png	2	diplomacy.png	campaign	true
 nag_effect_diplomatic_relations_humans	diplomacy.png	2	diplomacy.png	campaign	true
+nag_title_king		0		campaign	true
+nag_title_prince		0		campaign	true
+nag_effect_charge_bonus_increase_dire_wolves_hexwraiths	charge.png	121	charge.png	battle	true

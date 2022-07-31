@@ -180,6 +180,8 @@ character_skills_localised_name_nag_skill_unique_nagash_crown	The Crown of Sorce
 character_skills_localised_description_nag_skill_unique_nagash_crown	The Crown of Sorcery sometimes known as the Crown of Nagash is a magical crown/circlet forged by the great Necromancer Nagash around -1300 IC in his fortress of Nagashizzar in Cripple Peak. The crown is infused with part of Nagash's malicious spirit, partially holding his spirit to the mortal world, and exerts a corrupting influence on anyone who wears it.	true
 character_skills_localised_name_nag_skill_personal_arkhan_unique_3	Legions of Death	true
 character_skills_localised_description_nag_skill_personal_arkhan_unique_3	Although not as numerous as Settra's grand army, Arkhan's Undead legions are bolstered by the Liche King's unparalleled necromantic dexterity.	true
+character_skills_localised_name_nag_skill_personal_arkhan_unique_4	Liche King	true
+character_skills_localised_description_nag_skill_personal_arkhan_unique_4	The monarch of the Undead, the liege of the Unliving.	true
 character_skills_localised_name_nag_skill_personal_arkhan_unique_5	Right-Hand of Nagash	true
 character_skills_localised_description_nag_skill_personal_arkhan_unique_5	The first and most loyal of the Great Necromancer's followers will stand at his side once again. So it is written…	true
 character_skills_localised_name_nag_skill_self_luthor_smuggler	Smuggler	true
@@ -382,3 +384,7 @@ character_skills_localised_name_nag_vmp_champion_unique_wight_king_barded_skelet
 character_skills_localised_description_nag_vmp_champion_unique_wight_king_barded_skeletal_steed	Skeletal Steeds draped in fine armour make for an impressive and dangerous sight.	true
 character_skills_localised_name_nag_cst_engineer_unique_gunnery_wight_rotting_pro	Rotting Promethean	true
 character_skills_localised_description_nag_cst_engineer_unique_gunnery_wight_rotting_pro	The unnatural speed and brutality of a reanimated Promethean makes it the ideal mount for any Undead, battle-mongering pirate.	true
+character_skills_localised_name_nag_skill_tomb_king_elixir_of_immortality_lord	Elixir of Immortality	true
+character_skills_localised_description_nag_skill_tomb_king_elixir_of_immortality_lord	This complex distillation not only preserves the drinker in glorious Unlife, it also increases their physical resistance to attack.	true
+character_skills_localised_name_nag_skill_hidden_king_title	King Title [HIDDEN]	true
+character_skills_localised_name_nag_skill_hidden_prince_title	Prince Title [HIDDEN]	true

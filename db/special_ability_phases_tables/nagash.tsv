@@ -23,7 +23,7 @@ nag_army_abilities_batocalypse_02	90.0	negative		false	false	false	0.0	0.0	0.0	0
 nag_endless_tomb_visuals	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	false	0		belisarians_nagash_endless_tomb		-1.0	false	true	true	0.0	
 nag_nagash_abilities_master_arcane_conduit	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.06	60.0	false	0				-1.0	false	true	true	0.0	
 nag_nagash_abilities_mortis_blade	-1.0	positive		false	false	true	0.0	0.0	0.0	0.5	4	0.0	0	0	4	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
-nag_nagash_abilities_staff_of_power	30.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	-0.03	-15.0	false	0				-1.0	false	false	true	0.0	
+nag_nagash_abilities_staff_of_power	-1.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	-0.04	0.0	false	0				-1.0	false	true	true	0.0	
 nag_nagash_abilities_morikhane_black_armour	30.0	positive		false	true	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_generic_ward_save_all	wh_main_item_abilities_potion_of_healing	-1.0	false	true	true	0.0	
 nag_nagash_passive_eternal_danse_macabre	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_spell_vampires_vanhels_danse_macabre	wh_main_spell_vampires_vanhels_danse_macabre	-1.0	false	true	false	0.0	
 nag_nagash_passive_malediction_of_nagash	18.0	negative		false	false	false	0.2	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh2_main_spell_dark_magic_soul_stealer	wh_main_spell_dark_magic_soul_stealer	-1.0	false	false	true	0.0	
@@ -48,3 +48,4 @@ nag_contact_slownado	10.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	
 nag_luthor_harkon_carcinization	10.0	negative		false	false	false	0.0	0.0	0.0	1.0	0	1.0	500	100	0	false	0.0	0.0	false	0		wh_dlc03_spell_beast_flock_of_doom		-1.0	false	true	true	0.0	
 nag_unit_passive_zombie_battery	-1.0	positive		false	false	false	-0.05	0.0	0.0	0.5	2	0.0	0	0	4	false	0.0	0.0	false	0				-1.0	false	true	true	0.0	
 nag_endless_tomb_skeleton_unbinding	165.0	negative		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	0	0	false	0.0	0.0	false	0		wh_main_bound_entity_energy_small	wh2_dlc13_ability_summon_unbinding_generic_small_phase_01	-1.0	false	true	true	0.0	
+nag_unit_passive_magical_attacks	-1.0	positive		false	false	false	0.0	0.0	0.0	0.0	0	0.0	0	-1	0	false	0.0	0.0	true	0				-1.0	false	true	true	0.0	

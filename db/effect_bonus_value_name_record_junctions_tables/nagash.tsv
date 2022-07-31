@@ -1,3 +1,7 @@
 bonus_value_id	effect	name_record
 #effect_bonus_value_name_record_junctions_tables;1;db/effect_bonus_value_name_record_junctions_tables/nagash		
 active	nag_effect_name_epithet_isabella_von_carstein	1937224336
+active	nag_title_king	8427019
+priority	nag_title_king	8427019
+active	nag_title_prince	8427020
+priority	nag_title_prince	8427020

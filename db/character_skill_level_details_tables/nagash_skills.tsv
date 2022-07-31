@@ -64,3 +64,7 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_personal_nagash_great_necromancer		x	24
 		1	nag_skill_personal_nagash_world_at_peace		x	32
 		1	nag_skill_personal_nagash_fate_of_flesh		x	17
+		1	nag_skill_personal_arkhan_unique_3		x	9
+		1	nag_skill_personal_arkhan_unique_4		x	9
+		1	nag_skill_personal_arkhan_unique_5		x	11
+		1	nag_skill_tomb_king_elixir_of_immortality_lord		x	11

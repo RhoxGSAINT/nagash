@@ -28,6 +28,7 @@ nag_nagash_passive_malediction_of_nagash	stat_melee_damage_base	0.75	mult
 nag_nagash_abilities_mortis_blade	stat_melee_damage_ap	1.1	mult
 nag_nagash_abilities_mortis_blade	stat_melee_damage_base	1.1	mult
 nag_nagash_abilities_staff_of_power	scalar_speed	0.8	mult
+nag_nagash_abilities_staff_of_power	scalar_miscast_chance	1.5	mult
 nag_unit_abilities_heralds_of_the_accursed_one	stat_melee_attack	5.0	add
 nag_unit_abilities_heralds_of_the_accursed_one	stat_resistance_physical	5.0	add
 nag_unit_passive_torment	stat_melee_damage_ap	1.28	mult

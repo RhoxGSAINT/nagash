@@ -90,6 +90,7 @@ nag_skill_unique_nagash_book_seven	skill_book_7.png	[PH]	Seventh Book of Nagash	
 nag_skill_unique_nagash_book_eight	skill_book_8.png	[PH]	Eighth Book of Nagash	0	false	false	false	0.0	0
 nag_skill_unique_nagash_book_nine	skill_book_9.png	[PH]	Ninth Book of Nagash	0	false	false	false	0.0	0
 nag_skill_personal_arkhan_unique_3	character_morale.png	Although not as numerous as Settra's grand army, Arkhan's Undead legions are bolstered by the Liche King's unparalleled necromantic dexterity.	Legions of Death	0	false	false	false	0.0	0
+nag_skill_personal_arkhan_unique_4	character_experience.png	The monarch of the Undead, the liege of the Unliving.	Liche King	9	false	false	false	0.0	0
 nag_skill_personal_arkhan_unique_5	character_health.png	The first and most loyal of the Great Necromancer's followers will stand at his side once again. So it is written…	Right-Hand of Nagash	9	false	false	false	0.0	0
 nag_skill_self_krell_hatred_of_the_gods	character_damage.png		Hatred of the Gods	0	false	false	false	0.0	0
 nag_skill_personal_krell_immortal_challenger	wh_pro03_lord_abilities_lord_of_undeath.png		Immortal Challenger	0	false	false	false	0.0	0
@@ -192,3 +193,6 @@ nag_skill_hero_undeath_spell_nagash_grave_call_master	nagash_grave_call.png	Dwar
 nag_skill_hero_undeath_spell_nagash_hand_of_dust	nagash_hand_of_dust.png	Grasping hold of his foe, the wizard pours forth the decaying power of ages, desiccating flesh, armour and bone, and reducing his victom to dust in a single heartbeat.	Sulekhim - The Hand of Dust	0	false	false	false	0.0	0
 nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	nagash_breath_of_darkness.png		Breath of Darkness [HIDDEN]	0	false	false	false	0.0	0
 nag_skill_personal_neferata_guardian	wh2_dlc10_guardian.png	 		0	false	false	false	0.0	0
+nag_skill_tomb_king_elixir_of_immortality_lord	wh2_dlc09_elixir.png	This complex distillation not only preserves the drinker in glorious Unlife, it also increases their physical resistance to attack.	Elixir of Immortality	9	false	false	false	0.0	0
+nag_skill_hidden_king_title	character_general_ability.png	 	King Title [HIDDEN]	0	false	false	false	0.0	0
+nag_skill_hidden_prince_title	character_general_ability.png	 	Prince Title [HIDDEN]	0	false	false	false	0.0	0
