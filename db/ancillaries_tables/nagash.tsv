@@ -31,8 +31,8 @@ nag_anc_arcane_item_staff_of_pain	wh_main_anc_arcane_item	.	false	false	false	1	
 nag_anc_talisman_the_carstein_ring	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
 nag_anc_weapon_blood_drinker	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false
 nag_anc_enchanted_item_blood_chalice_of_bathori	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false
-nag_anc_mount_isabella_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_isabella_hellsteed		1	1		false	false	true
-nag_anc_mount_isabella_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_isabella_warhorse		1	1		false	false	true
+nag_anc_mount_isabella_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_isabella_warhorse		1	1		false	false	true
+nag_anc_mount_isabella_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_isabella_hellsteed		1	1		false	false	true
 nag_anc_weapon_chaos_tomb_blade	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false
 nag_anc_armour_armour_of_the_barrows	wh_main_anc_armour	1	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false
 nag_anc_weapon_black_axe_of_krell	wh_main_anc_weapon	1	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false

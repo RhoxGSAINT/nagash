@@ -17,7 +17,7 @@ effects_description_nag_effect_landmark_arkhan_character_wom_reserves	Winds of M
 effects_description_nag_effect_landmark_arkhan_buff_magic_attacks_scorpion	Enables magical attacks for Tomb Scorpion	true
 effects_description_nag_effect_landmark_arkhan_buff_magic_attacks_warshpinx	Enables magical attacks for Khemrian Warsphinx	true
 effects_description_nag_effect_landmark_manny_character_wom_reserves	Winds of Magic power reserve: %+n	true
-effects_description_nag_effect_landmark_manny_spell_cost	Winds of Magic cost: %n% for Lore of Vampires	true
+effects_description_nag_effect_landmark_manny_spell_cost	Winds of Magic cost: %n for Lore of Vampires	true
 effects_description_nag_effect_landmark_manny_movement	Campaign movement range: %+n%	true
 effects_description_nag_effect_landmark_manny_recruit_rank_knights	Recruit rank: %+n for Black Knight units	true
 effects_description_nag_effect_landmark_neffy_buff_ushabti_melee	Melee attack: %+n for Ushabti	true
@@ -393,3 +393,5 @@ effects_description_nag_effect_character_stat_mod_miscast_chance_dummy	Miscast b
 effects_description_nag_effect_military_force_winds_of_magic_depletion_mod_character_dummy	Winds of Magic power reserve: +2 (Max stack +20%)	true
 effects_description_nag_effect_morghast_archai_ward_save_dummy	Ward save: +2% (Max stack +20%) for Morghast units and Morghast Archai heroes ([[img:ui/campaign ui/effect_bundles/army.png]][[/img]]Lord's army)	true
 effects_description_nag_effect_mortarch_ward_save_dummy	Ward save: +1% (Max stack +10%) for Mortarch lords (factionwide)	true
+effects_description_nag_effect_force_army_battle_leadership_all_defending	Leadership: %+n for all units when defending	true
+effects_description_nag_effect_agent_action_enable_wizard_passive_spread_corruption_vmp	[HIDDEN] 	true

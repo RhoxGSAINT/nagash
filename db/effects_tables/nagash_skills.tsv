@@ -219,3 +219,4 @@ nag_effect_diplomatic_relations_humans	diplomacy.png	2	diplomacy.png	campaign	tr
 nag_title_king		0		campaign	true
 nag_title_prince		0		campaign	true
 nag_effect_charge_bonus_increase_dire_wolves_hexwraiths	charge.png	121	charge.png	battle	true
+nag_effect_agent_action_enable_wizard_passive_spread_corruption_vmp		0		campaign	true
