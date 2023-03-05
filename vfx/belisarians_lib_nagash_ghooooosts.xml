@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="1" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters>
+		<emitter type="continuous_mesh" id="sparks">
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="1000.00" w="1000.00"/>
+			<property name="ParticleCullDistances" quality="0" x="1.00" y="20.00" z="100.00" w="300.00"/>
+			<property name="VectorFieldStrengthStart" quality="0" value="0.10"/>
+			<property name="VectorFieldStrengthEnd" quality="0" value="0.10"/>
+			<property name="VectorFieldSize" quality="0" value="5.00"/>
+			<property name="VectorFieldStrId" quality="0" value="vfx/vectorfields/04_spherical_vortex_8_xyz.dds"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.5|x_max,16711680;0.0,0.7:x,1;0,1</property>
+			<property name="ParticleScale" quality="0">x_min,8388608;-0.005405,0.1|x_max,16711680;0.001802,0.25|y_min,32768;-0.007207,0.1|y_max,65280;-0.003604,0.25|z_min,128;-0.001802,0.1|z_max,255;-0.001802,0.1:x,1;0,1|y,1;2,3|z,0;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,1.0|y_max,65280;0.0,1.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="SpawnAreaBox" quality="0">x_min,8388608;0.0,2.0|x_max,16711680;0.0,2.0|y_min,32768;0.0,2.0|y_max,65280;0.0,2.0|z_min,128;0.0,2.0|z_max,255;0.0,2.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="InfiniteLife" quality="0" value="true"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,15.0|x_max,16711680;0.0,20.0:x,1;0,1</property>
+		</emitter>
+		<emitter type="continuous_mesh" id="glow">
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="1000.00" w="1000.00"/>
+			<property name="ParticleCullDistances" quality="0" x="1.00" y="10.00" z="100.00" w="400.00"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.0,5.0|x_max,16711680;0.0,5.0|y_min,32768;0.0,5.0|y_max,65280;0.0,5.0|z_min,128;0.0,5.0|z_max,255;0.0,5.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,1.0|y_max,65280;0.0,1.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="UseSurfaceNormal" quality="0" value="false"/>
+			<property name="InfiniteLife" quality="0" value="true"/>
+			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
+			<property name="AllowEmitFromMesh" quality="0" value="false"/>
+			<property name="ParticleLoopParams" quality="0" x="0.40" y="0.60"/>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="EmissionLoopAnim" quality="0" value="false"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0;0.1,0.0|x_max,16711680;0.0,1.0;0.1,0.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+		</emitter>
+		<emitter type="continuous_rigid" id="winds_rigid">
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="1000.00" w="1000.00"/>
+			<property name="ParticleCullDistances" quality="0" x="1.00" y="25.00" z="200.00" w="500.00"/>
+			<property name="RigidModelFile" quality="0" value="vfx/models/vfx_nagash_ghooooosts.wsmodel"/>
+			<ranged_property name="Mass" quality="0" min="0.01" max="100.00"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="360.00" z="360.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;-0.005405,0.75|x_max,16711680;0.0,1.0|y_min,32768;0.0,0.75|y_max,65280;0.0,1.0|z_min,128;0.0,1.0|z_max,255;0.0,1.0:x,1;0,1|y,1;2,3|z,0;4,5</property>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,1.0|y_max,65280;0.0,1.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="InfiniteLife" quality="0" value="true"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,0.3|x_max,16711680;0.0,0.3:x,1;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,0.5|x_max,16711680;0.0,0.5:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,10.0|x_max,16711680;0.0,10.0:x,0;0,1</property>
+			<property name="EmissionLoopAnim" quality="0" value="false"/>
+		</emitter>
+		<emitter type="continuous_mesh" id="omni_light_green_blue">
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="400.00" w="600.00"/>
+			<property name="ParticleCullDistances" quality="0" x="0.00" y="0.00" z="1000.00" w="1000.00"/>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="ParticleInitialSpeedLoopAnim" quality="0" value="false"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.001802,4.383818;0.998198,4.383818;0.2,4.383818;0.8,4.383818;0.263891,4.423399;0.559603,4.182622;0.602163,4.329474;0.655192,4.229968;0.696644,4.370652;0.759775,4.232111;0.405406,4.388618;0.327928,4.266828;0.513513,4.268552;0.445045,4.215951|x_max,16711680;0.001802,4.383818;0.998198,4.383818;0.2,4.383818;0.8,4.383818;0.263891,4.423399;0.559603,4.182622;0.602163,4.329474;0.655192,4.229968;0.696644,4.370652;0.759775,4.232111;0.405406,4.388618;0.327928,4.266828;0.513513,4.268552;0.445045,4.215951|y_min,32768;0.001802,4.383818;0.998198,4.383818;0.2,4.383818;0.8,4.383818;0.263891,4.423399;0.559603,4.182622;0.602163,4.329474;0.655192,4.229968;0.696644,4.370652;0.759775,4.232111;0.405406,4.388618;0.327928,4.266828;0.513513,4.268552;0.445045,4.215951|y_max,65280;0.001802,4.383818;0.998198,4.383818;0.2,4.383818;0.8,4.383818;0.263891,4.423399;0.559603,4.182622;0.602163,4.329474;0.655192,4.229968;0.696644,4.370652;0.759775,4.232111;0.405406,4.388618;0.327928,4.266828;0.513513,4.268552;0.445045,4.215951|z_min,128;0.001802,4.383818;0.998198,4.383818;0.2,4.383818;0.8,4.383818;0.263891,4.423399;0.559603,4.182622;0.602163,4.329474;0.655192,4.229968;0.696644,4.370652;0.759775,4.232111;0.405406,4.388618;0.327928,4.250153;0.513513,4.268552;0.445045,4.215951|z_max,255;0.001802,4.383818;0.998198,4.383818;0.2,4.383818;0.8,4.383818;0.263891,4.423399;0.559603,4.182622;0.602163,4.329474;0.655192,4.229968;0.696644,4.370652;0.759775,4.232111;0.405406,4.388618;0.327928,4.250153;0.513513,4.268552;0.445045,4.215951:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,2.0|y_max,65280;0.0,2.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="SpawnAreaLoopAnim" quality="0" value="false"/>
+			<property name="AllowEmitFromMesh" quality="0" value="false"/>
+			<property name="UseSurfaceNormal" quality="0" value="false"/>
+			<ranged_property name="LifeTime" quality="0" min="0.10" max="0.10"/>
+			<property name="InfiniteLife" quality="0" value="true"/>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,3.0|x_max,16711680;0.0,3.0:x,0;0,1</property>
+			<property name="EmissionLoopAnim" quality="0" value="false"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0;0.201802,-0.0|x_max,16711680;0.0,1.0;0.201802,-0.0:x,1;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLoopParams" quality="0" x="0.20" y="0.80"/>
+		</emitter>
+	</emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains>
+		<behaviour_chain id="sparks">
+			<modifier fragment="vs_translation">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="restriction" type="int" value="0"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(3.0,0.0,0.015686,1.0)" max="float4(2.0,0.0,2.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(2.0,2.0,0.011765,1.0)" max="float4(0.047059,2.0,0.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(0.003922,1.5,2.0,1.0)" max="float4(0.019608,0.066667,3.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.25" max="0.70"/>
+			</modifier>
+			<modifier fragment="vs_cell_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="8"/>
+				<property name="atlas_number_of_cells_y" type="int" value="8"/>
+				<property name="atlas_cell" type="int" value="59"/>
+				<property name="number_of_cells_x" type="int" value="2"/>
+				<property name="number_of_cells_y" type="int" value="2"/>
+				<property name="cell" type="int" value="1"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0;0.189189,0.168219;0.735135,0.168219;0.996396,0.0|alpha_max,16711680;0.0,0.0;0.181982,0.829911;0.729729,0.829911;0.996396,0.0:alpha,1;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/glow_cells_A_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="true"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="1.0"/>
+				<property name="small_particles" type="float" value="0.1"/>
+				<property name="large_particles" type="float" value="0.5"/>
+				<property name="directionality" type="float" value="0.4"/>
+				<property name="emissive" type="float" value="40.0"/>
+				<property name="average_size" type="float" value="0.6"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="glow">
+			<modifier fragment="vs_translation">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="restriction" type="int" value="0"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(1.0,1.0,1.0,1.0)" max="float4(1.0,1.0,1.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.00" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_cell_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="2"/>
+				<property name="atlas_number_of_cells_y" type="int" value="2"/>
+				<property name="atlas_cell" type="int" value="0"/>
+				<property name="number_of_cells_x" type="int" value="2"/>
+				<property name="number_of_cells_y" type="int" value="2"/>
+				<property name="cell" type="int" value="2"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0;0.4,1.0;0.6,1.0;0.994595,0.0|alpha_max,16711680;0.0,0.0;0.4,1.0;0.6,1.0;0.994595,0.0:alpha,0;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/glow_cells_A_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="4.0"/>
+				<property name="small_particles" type="float" value="0.1"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="0.5"/>
+				<property name="emissive" type="float" value="0.0"/>
+				<property name="average_size" type="float" value="0.1"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="winds_rigid">
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.001802,0.0;0.477477,1.0;1.0,0.0|alpha_max,16711680;0.001802,0.0;0.477477,1.0;1.0,0.0:alpha,0;0,1</property>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="omni_light_green_blue">
+			<modifier fragment="vs_translation">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="restriction" type="int" value="0"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(0.0,0.0,0.0,1.0)" max="float4(0.0,0.0,0.0,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(2.0,5.0,2.0,1.0)" max="float4(0.0,2.0,4.0,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(0.0,0.0,0.0,1.0)" max="float4(0.0,0.0,0.0,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.20" max="0.80"/>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path=""/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="1.0"/>
+				<property name="small_particles" type="float" value="0.1"/>
+				<property name="large_particles" type="float" value="0.5"/>
+				<property name="directionality" type="float" value="0.4"/>
+				<property name="emissive" type="float" value="0.0"/>
+				<property name="average_size" type="float" value="0.6"/>
+			</modifier>
+		</behaviour_chain>
+	</behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks>
+		<effect_render_stack id="sparks">
+			<emitters_selected>
+				<emitter id="sparks"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="sparks"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="glow">
+			<emitters_selected>
+				<emitter id="glow"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="glow"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="winds_rigid">
+			<emitters_selected>
+				<emitter id="winds_rigid"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="winds_rigid"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+		<effect_render_stack id="omni_light_green_blue">
+			<emitters_selected>
+				<emitter id="omni_light_green_blue"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="omni_light_green_blue"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="4" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
+	</effect_render_stacks>
+</vfx><vfx_references></vfx_references>

@@ -1,3 +1,0 @@
-faction_key	faction_group	is_major_faction	sort_order	show_in_frontend
-#frontend_faction_groups_to_factions_tables;1;db/frontend_faction_groups_to_factions_tables/nagash				
-nag_nagash	destruction	true	160	true

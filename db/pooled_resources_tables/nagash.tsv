@@ -1,6 +1,0 @@
-key	maximum	minimum	persistent_factors	ai_ignored	default_factor	optional_icon_path
-#pooled_resources_tables;7;db/pooled_resources_tables/nagash						
-nag_warpstone	50	0	true	true	wh2_main_resource_factor_other	icon_warpstone.png
-nag_grand_spell_01	20	0	false	false	nag_grand_spell_01_recharge	icon_oathgold.png
-nag_grand_spell_02	20	0	false	false	nag_grand_spell_02_recharge	icon_oathgold.png
-nag_grand_spell_03	20	0	false	false	nag_grand_spell_03_recharge	icon_oathgold.png

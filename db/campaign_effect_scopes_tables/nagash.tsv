@@ -1,9 +1,0 @@
-key	location	ownership	source	target	territory
-#campaign_effect_scopes_tables;2;db/campaign_effect_scopes_tables/nagash					
-faction_to_army_general_own	factionwide	yours	character	character_when_commanding_army	any
-province_to_character_in_adjacent_regions	neighbour_region	yours	province	character_when_commanding	any
-province_to_character_own_provincewide	provincewide	yours	province	character	any
-foreign_building_to_adjacent_province	provincewide	any	foreign_building	province	any
-province_to_force_enemy_factionwide	factionwide	enemy	province	force	any
-province_to_building_own_provincewide	provincewide	yours	province	building	any
-edict_province_to_force_own_factionwide	factionwide	yours	province	force	any

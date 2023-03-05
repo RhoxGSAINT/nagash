@@ -1,5 +1,0 @@
-id	dilemma_key	option_key	value
-#cdir_events_dilemma_option_junctions_tables;2;db/cdir_events_dilemma_option_junctions_tables/nagash_quest_battles			
-11039	after_mission_blyramid_rising	VAR_CHANCE	100
-11040	after_mission_blyramid_rising	VAR_FOLLOWUP_CHANCE	
-11041	after_mission_blyramid_rising	GEN_TARGET_NONE	100

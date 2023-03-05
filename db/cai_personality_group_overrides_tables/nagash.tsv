@@ -1,8 +1,0 @@
-difficulty_handicap	faction_key	campaign_key	player_faction	player_subculture	player_culture	personality_group
-#cai_personality_group_overrides_tables;2;db/cai_personality_group_overrides_tables/nagash						
--2	nag_nagash	main_warhammer				wh_group_greenskins_subjugator_hard
--2	nag_nagash	wh2_main_great_vortex				wh_group_greenskins_subjugator_hard
--3	nag_nagash	main_warhammer				wh_group_greenskins_subjugator_hard
--3	nag_nagash	wh2_main_great_vortex				wh_group_greenskins_subjugator_hard
-1	nag_nagash	main_warhammer				wh_group_greenskins_subjugator_hard
-1	nag_nagash	wh2_main_great_vortex				wh_group_greenskins_subjugator_hard

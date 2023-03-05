@@ -1,0 +1,22 @@
+key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_colour_hex	tertiary_colour_hex
+#unit_variants_colours_tables;3;db/unit_variants_colours_tables/rhox_nagash							
+666301190		soldier	nag_nagashi_guard		000000	000000	000000
+666301191		soldier	nag_nagashi_guard_halb		000000	000000	000000
+666301192		soldier	nag_vanilla_vmp_inf_zombie		000000	000000	000000
+666301193		soldier	nag_vanilla_vmp_inf_skeleton_warriors_0		000000	000000	000000
+666301194		soldier	nag_vanilla_vmp_inf_skeleton_warriors_1		000000	000000	000000
+666301195		soldier	nag_vanilla_vmp_inf_crypt_ghouls		000000	000000	000000
+666301196		soldier	nag_vanilla_vmp_inf_cairn_wraiths		000000	000000	000000
+666301197		soldier	nag_vanilla_vmp_inf_grave_guard_0		000000	000000	000000
+666301198		soldier	nag_vanilla_vmp_inf_grave_guard_1		000000	000000	000000
+666301199		soldier	nag_vanilla_vmp_cav_black_knights_0		000000	000000	000000
+666301200		soldier	nag_vanilla_vmp_cav_black_knights_3		000000	000000	000000
+666301201		soldier	nag_vanilla_vmp_cav_hexwraiths		000000	000000	000000
+666301202		soldier	nag_vanilla_vmp_cav_blood_knights_0		000000	000000	000000
+666301203		soldier	nag_vanilla_vmp_veh_corpse_cart_1		000000	000000	000000
+666301204		soldier	nag_vanilla_vmp_veh_corpse_cart_2		000000	000000	000000
+666301205		soldier	nag_vanilla_vmp_mon_dire_wolves		000000	000000	000000
+666301206		soldier	nag_vanilla_vmp_mon_fell_bats		000000	000000	000000
+666301207		soldier	nag_vanilla_vmp_mon_vargheists		000000	000000	000000
+666301208	mixer_nag_nagash	soldier	wh_main_vmp_mon_crypt_horrors		000000	000000	000000
+666301209	mixer_nag_nagash	soldier	wh_main_vmp_mon_varghulf		000000	000000	000000

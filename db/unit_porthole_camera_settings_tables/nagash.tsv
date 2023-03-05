@@ -1,6 +1,0 @@
-key	distance	fov	phi	theta	target_x	target_y	target_z	environment_file
-#unit_porthole_camera_settings_tables;2;db/unit_porthole_camera_settings_tables/nagash								
-nag_morghasts	3.0	28.0	190.0	195.0	-0.17	2.55	0.0	Porthole/advisor/default_porthole.lighting
-nag_bone_golems	4.4	28.0	180.0	195.0	-0.25	2.7	0.0	Porthole/advisor/default_porthole.lighting
-nag_spirit_hosts	2.5	28.0	180.0	180.0	0.0	1.2	0.0	Porthole/advisor/default_porthole.lighting
-nag_spectre_swarm	5.0	28.0	180.0	180.0	0.0	1.2	0.0	Porthole/advisor/default_porthole.lighting

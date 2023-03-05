@@ -1,5 +1,0 @@
-feature	group	available
-#campaign_features_tables;0;db/campaign_features_tables/nagash_culture		
-undead_unit_saving_postbattle	nagash_feature	true
-vampiric_mercenary_recruitment	nagash_feature	false
-public_order	nagash_feature	false

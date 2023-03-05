@@ -1,7 +1,0 @@
-key	destroyed_model	destruction_animation	engine_type	gun_animation_table	missile_weapon	model	battle_entity	asset_folder	variant	draught_attachment_point	tech_folder	rider_attachment_point	first_person	destruct_model	destruct_anim	destruct_meta
-#battlefield_engines_tables;19;db/battlefield_engines_tables/nagash																
-nag_bone_thrower	warmachines/engines/nag_bone_thrower/nag_bone_thrower.rigid_model_v2	hef_eagle_claw_bolt_thrower_destruct	Generic_3_Crew	wm_bolt_thrower01b	nag_bone_thrower	nag_bone_thrower	wh2_main_hef_art_eagle_claw_bolt_thrower						emp_helblaster_volley_gun			
-BAKnag_bone_thrower	warmachines/engines/nag_bone_thrower/nag_bone_thrower.rigid_model_v2	hef_eagle_claw_bolt_thrower_destruct	Generic_3_Crew	wm_bolt_thrower01b	wh2_main_hef_eagle_claw_bolt	nag_bone_thrower	wh2_main_hef_art_eagle_claw_bolt_thrower						emp_helblaster_volley_gun			
-nag_spirit_host_base			Generic_No_Crew_Rotate	wm_mortisengine01_centered		nag_empty	nag_spectre_shade_base			ap_draughtposition	warmachines\chariot\vmp_mortis_engine\tech	ap_crewposition				
-nag_spirit_host_base_small			Generic_No_Crew_Rotate	wm_mortisengine01_centered_dynamic		nag_empty	wh_main_monster_crypt_horrors			ap_draughtposition	warmachines\chariot\vmp_mortis_engine\tech	ap_crewposition				
-nag_plaguecart		vmp_corpse_cart_destruct	Generic_No_Crew_Rotate	wm_corpsecart01_virion		nag_plaguecart	nag_plaguecart_chariot			ap_draughtposition	warmachines\chariot\nag_plague_cart\tech	ap_crewposition				

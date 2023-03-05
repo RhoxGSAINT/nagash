@@ -1,0 +1,8 @@
+uniform_name	filename	battle_filename	campaign_porthole_filename	campaign_politician_filename	campaign_override_skeleton
+#agent_uniforms_tables;10;db/agent_uniforms_tables/rhox_nagash					
+nag_nagash_husk	nag_nagash_husk	nag_nagash_husk	nag_nagash_husk		
+nag_nagash_boss	nag_nagash_boss	nag_nagash_boss	nag_nagash_boss		
+nag_morghasts_archai	nag_morghasts_archai	nag_morghasts_archai	nag_morghasts_archai		
+nag_mortarch_krell	wh_pro03_vmp_ch_krell	wh_pro03_vmp_ch_krell	wh_pro03_vmp_ch_krell		
+nag_mortarch_neferata	nag_neferata	nag_neferata	nag_neferata		
+nag_mortarch_isabella	wh_pro02_vmp_ch_isabella	wh_pro02_vmp_ch_isabella	wh_pro02_vmp_ch_isabella		

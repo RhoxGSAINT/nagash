@@ -16,7 +16,7 @@
    <source>commontextures/bloodmap.dds</source>
   </texture>
   <texture>
-   <slot>s_diffuse</slot>
+   <slot>s_base_colour</slot>
    <source>variantmeshes/wh_variantmodels/hu1/vmp/nagash/body/tex/nagash_boss_weapons_01_diffuse.dds</source>
   </texture>
   <texture>
@@ -28,7 +28,7 @@
    <source>commontextures/noise_greyscale.dds</source>
   </texture>
   <texture>
-   <slot>s_gloss</slot>
+   <slot>s_material</slot>
    <source>variantmeshes/wh_variantmodels/hu1/vmp/nagash/body/tex/nagash_boss_weapons_01_gloss_map.dds</source>
   </texture>
   <texture>
@@ -38,10 +38,6 @@
   <texture>
    <slot>s_normal</slot>
    <source>variantmeshes/wh_variantmodels/hu1/vmp/nagash/body/tex/nagash_boss_weapons_01_normal.dds</source>
-  </texture>
-  <texture>
-   <slot>s_specular</slot>
-   <source>variantmeshes/wh_variantmodels/hu1/vmp/nagash/body/tex/nagash_boss_weapons_01_specular.dds</source>
   </texture>
   <texture>
    <slot>s_dither</slot>

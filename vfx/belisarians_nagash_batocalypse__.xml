@@ -1,0 +1,122 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="20.00" scale_max="20.00" pos_x="0.00" pos_y="10.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="5.50" start_time_max="5.50" infinite_life="true">
+		<emitter name="bat_main_vortex" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<!-- x side -->
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="170.00" pos_y="20.00" pos_z="-5.00" rot_x="0.00" rot_y="0.00" rot_z="110.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
+		<emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="170.00" pos_y="20.00" pos_z="-5.00" rot_x="0.00" rot_y="0.00" rot_z="-90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+		<emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="180.00" pos_y="20.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="-90.00" start_time_min="11.00" start_time_max="11.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="300.00" pos_y="25.00" pos_z="-5.00" rot_x="0.00" rot_y="0.00" rot_z="80.00" start_time_min="5.50" start_time_max="5.50" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_down" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="310.00" pos_y="25.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="-90.00" start_time_min="6.00" start_time_max="6.00" infinite_life="true"> --> -->
+		<!-- <!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> --> -->
+	<!-- <!-- </vfx> --> -->
+	
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="448.00" pos_y="62.00" pos_z="-5.00" rot_x="0.00" rot_y="0.00" rot_z="120.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="448.00" pos_y="62.00" pos_z="-5.00" rot_x="0.00" rot_y="0.00" rot_z="-90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="370.00" pos_y="30.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="-90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.70" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.70" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="588.00" pos_y="94.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_down" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="598.00" pos_y="94.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="-90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="745.00" pos_y="18.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="45.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_down" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="3.00" particle_lifetime_bias_max="3.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="745.00" pos_y="18.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="-90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	
+	<!-- -x side -->
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="-170.00" pos_y="20.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="-110.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
+		<emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>	
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="-170.00" pos_y="20.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+		<emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="-300.00" pos_y="25.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="-80.00" start_time_min="5.50" start_time_max="5.50" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_down" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="-448.00" pos_y="62.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="-120.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="-448.00" pos_y="62.00" pos_z="5.00" rot_x="0.00" rot_y="0.00" rot_z="90.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	
+	<!-- z side -->
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="5.00" pos_y="20.00" pos_z="170.00" rot_x="-110.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
+		<emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>	
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="5.00" pos_y="20.00" pos_z="170.00" rot_x="90.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+		<emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="5.00" pos_y="25.00" pos_z="300.00" rot_x="-80.00" rot_y="0.00" rot_z="0.00" start_time_min="5.50" start_time_max="5.50" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_down" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="5.00" pos_y="62.00" pos_z="448.00" rot_x="-120.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="5.00" pos_y="62.00" pos_z="448.00" rot_x="90.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	
+	<!-- -z side -->
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="-5.00" pos_y="20.00" pos_z="-170.00" rot_x="110.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
+		<emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>	
+	<vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="-5.00" pos_y="20.00" pos_z="-170.00" rot_x="-90.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+		<emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/>
+	</vfx>
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="-5.00" pos_y="25.00" pos_z="-300.00" rot_x="80.00" rot_y="0.00" rot_z="0.00" start_time_min="5.50" start_time_max="5.50" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_down" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="10.00" scale_max="10.00" pos_x="-5.00" pos_y="62.00" pos_z="-448.00" rot_x="120.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_gradual_up" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="main time - 30sec" vfx_ref="belisarians_lib_nagash_batocalypse" scale_min="13.00" scale_max="13.00" pos_x="-5.00" pos_y="62.00" pos_z="-448.00" rot_x="-90.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="bat_stream_collector" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.30" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.30" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="-3.00" emitter_lifetime_bias_max="-3.00"/> -->
+	<!-- </vfx> -->
+	
+	<!-- <vfx inst_name="outer_circle" vfx_ref="belisarians_lib_rlk_warp_portal" scale_min="0.40" scale_max="0.40" pos_x="0.00" pos_y="10.00" pos_z="0.00" rot_x="90.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="SPAWN_outer_patches_light" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="flat_circle" vfx_ref="belisarians_lib_rlk_warp_portal" scale_min="1.15" scale_max="1.15" pos_x="0.00" pos_y="10.00" pos_z="0.00" rot_x="90.00" rot_y="0.00" rot_z="0.00" start_time_min="1.0" start_time_max="1.0" infinite_life="false"> -->
+		<!-- <emitter name="warp_portal_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="lightning" vfx_ref="belisarians_lib_rlk_warp_portal" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="10.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="ground_shots" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="2.50" particle_lifetime_bias_max="2.50" emitter_lifetime_bias_min="100.00" emitter_lifetime_bias_max="100.00"/> -->
+		<!-- <emitter name="upper_shot" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="2.50" particle_lifetime_bias_max="2.50" emitter_lifetime_bias_min="100.00" emitter_lifetime_bias_max="100.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="center_ball" vfx_ref="belisarians_lib_rlk_warp_portal" scale_min="0.4" scale_max="0.4" pos_x="0.00" pos_y="10.00" pos_z="0.00" rot_x="90.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="SPAWN_inner_patches" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="60.00" emitter_lifetime_bias_max="60.00"/> -->
+	<!-- </vfx> -->
+
+
+
+</vfx_references>

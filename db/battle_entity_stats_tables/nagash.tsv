@@ -1,6 +1,0 @@
-key	primary_melee_weapon	primary_missile_weapon
-#battle_entity_stats_tables;2;db/battle_entity_stats_tables/nagash		
-nag_hero_melee_summon	wh_main_emp_hammer_hero	
-nag_hero_mage_summon	wh_main_emp_hammer_hero	wh_main_nagash_mage_hero
-nag_hero_ranged_summon	wh_main_emp_hammer_hero	wh2_dlc11_cst_vampire_fleet_admiral_female_pistol
-cr_nag_cav_carrion_rider	wh_main_unarmed	

@@ -1,6 +1,0 @@
-key	effect_bundle	order	icon_path	campaign_vfx_id	religion_restriction
-#provincial_initiative_records_tables;3;db/provincial_initiative_records_tables/nagash					
-wh_main_edict_master_of_puppets	nag_effect_edict_master_of_puppets	1	UI/Campaign UI/edicts/nag_edict_master_of_puppets.png		
-wh_main_edict_soul_harvest	nag_effect_edict_soul_harvest	2	UI/Campaign UI/edicts/nag_edict_soul_harvest.png		
-wh_main_edict_tempest_of_death	nag_effect_edict_tempest_of_death	3	UI/Campaign UI/edicts/nag_edict_tempest_of_death.png		
-wh_main_edict_chains_of_life	nag_effect_edict_chains_of_life	4	UI/Campaign UI/edicts/nag_edict_chains_of_life.png		

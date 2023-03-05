@@ -69,7 +69,7 @@ missions_localised_description_nag_mortarch_vlad_event_2	[PH]	true
 missions_localised_title_nag_mortarch_vlad_event_3	[PH] missions_localised_title_nag_mortarch_vlad_event_3	true
 missions_localised_description_nag_mortarch_vlad_event_3	[PH]	true
 missions_localised_title_nag_bp_raise	Nagash Rising VII - Raise the Black Pyramid	true
-missions_localised_description_nag_bp_raise	All is in order to perform the Grand Resurrection, and return to your empowered state! Channel energy to the Black Pyramid, return it to the skies, and regain your ancient power!\\n\\n[[col:red]]NOTE: This will begin a series of battles as others try to stop you from raising the Black Pyramid. Nagash will be inactive during the battles to come, replaced with a temporary Traitor King.[[/col]]	true
+missions_localised_description_nag_bp_raise	All is in order to perform the Grand Resurrection, and return to your empowered state! Channel energy to the Black Pyramid, return it to the skies, and regain your ancient power!\\n\\n[[col:red]]NOTE: This will begin a series of battles as others try to stop you from raising the Black Pyramid. Nagash will be inactive during the battles to come, replaced with a temporary Traitor King.[[/col]]\\n\\n[[col:yellow]]You can perform the ritual by clicking the Black Pyramid icon on the top bar.[[/col]]	true
 missions_localised_title_nag_bp_survive	Nagash Rising VIII - Survive the Onslaught	true
 missions_localised_description_nag_bp_survive	Others come to stop your Grand Resurrection, hoping to intercept your ascension to greater power. Hold them at bay as the Black Pyramid rises from the ground!	true
 missions_localised_title_nag_waprstone_mines	Warpstone Mines	true

@@ -1,6 +1,0 @@
-army_name	ai_army_tactic	approach_angle	army_emblem	army_model	deployment_zone_id	faction	is_allied_to_player	is_reinforcement_army	is_frontend_player_army	use_default_deployment_zones	is_hidden_army	should_merge_army
-#battle_set_piece_armies_tables;7;db/battle_set_piece_armies_tables/nagash_quest_battles												
-battle_blyramid_rising_army_player		0	dwarfs_test_emblem_army_01	5213	0	nag_nagash	false	false	true	false	false	false
-battle_blyramid_army_def		160	beastmen_test_emblem_army_01	4055	0	wh2_main_def_dark_elves	false	true	false	false	false	false
-battle_blyramid_army_tmb		0	beastmen_test_emblem_army_01	4055	0	wh2_dlc09_tmb_tomb_kings	false	false	false	false	false	false
-battle_blyramid_army_grn		200	beastmen_test_emblem_army_01	4055	0	wh_main_grn_greenskins	false	true	false	false	false	false

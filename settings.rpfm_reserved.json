@@ -1,7 +1,7 @@
 {
   "settings_text": {
-    "diagnostics_files_to_ignore": "db/slot_template_to_building_superchain_junctions_tables;slot_template",
-    "import_files_to_ignore": ".git/\n.gitignore\nREADME.md\n.gitattributes\n.vscode/"
+    "diagnostics_files_to_ignore": "",
+    "import_files_to_ignore": ""
   },
   "settings_string": {},
   "settings_bool": {

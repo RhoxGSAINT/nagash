@@ -1,3 +1,0 @@
-key	index	fallback_ui_culture	ui_background_image	audio_state	ui_group_by_culture	audio_rtpc	audio_corruption_state
-#cultures_tables;8;db/cultures_tables/nagash_culture							
-nag_nagash	909090		UI/skins/default/panorama_tomb_kings.png	Tomb_Kings	false		

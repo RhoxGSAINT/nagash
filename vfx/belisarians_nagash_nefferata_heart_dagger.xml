@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="2" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+	
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="10.00" scale_max="10.00" pos_x="0.00" pos_y="15.00" pos_z="0.00" rot_x="115.00" rot_y="45.00" rot_z="0.00" start_time_min="19.00" start_time_max="19.00" infinite_life="true">
+		<emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<!-- <vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="10.00" scale_max="10.00" pos_x="0.00" pos_y="15.00" pos_z="0.00" rot_x="115.00" rot_y="135.00" rot_z="0.00" start_time_min="6.00" start_time_max="6.00" infinite_life="true"> -->
+		<!-- <emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="10.00" scale_max="10.00" pos_x="0.00" pos_y="15.00" pos_z="0.00" rot_x="115.00" rot_y="225.00" rot_z="0.00" start_time_min="12.00" start_time_max="12.00" infinite_life="true"> -->
+		<!-- <emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="10.00" scale_max="10.00" pos_x="0.00" pos_y="15.00" pos_z="0.00" rot_x="115.00" rot_y="315.00" rot_z="0.00" start_time_min="18.00" start_time_max="18.00" infinite_life="true"> -->
+		<!-- <emitter name="blade_01" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
+	<!-- <vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="10.00" pos_z="0.00" rot_x="270.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="summoning_circle" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="0.10" scale_max="0.10" pos_x="0.00" pos_y="16.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<emitter name="Main_Heart" enable="true" tint_min_r="1.00" tint_min_g="0.00" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="0.00" tint_max_b="0.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="Lightning" enable="true" tint_min_r="1.00" tint_min_g="0.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="0.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	<vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="0.10" scale_max="0.10" pos_x="0.00" pos_y="16.50" pos_z="0.00" rot_x="0.00" rot_y="180.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="false">
+		<!-- <emitter name="Main_Heart" enable="true" tint_min_r="1.00" tint_min_g="0.00" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="0.00" tint_max_b="0.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+		<emitter name="Lightning" enable="true" tint_min_r="1.00" tint_min_g="0.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="0.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+	
+	<!-- <vfx inst_name="vfxref_2395" vfx_ref="belisarians_lib_nagash_nefferata_heart_dagger" scale_min="0.30" scale_max="0.30" pos_x="0.00" pos_y="17.50" pos_z="0.00" rot_x="90.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="Side_heart_Connection01" enable="true" tint_min_r="1.00" tint_min_g="0.00" tint_min_b="0.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="0.00" tint_max_b="0.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
+	
+	<vfx inst_name="vfxref_1170" vfx_ref="wh_dlc05_lib_arrow_of_kurnous" scale_min="3.5" scale_max="3.5" pos_x="0.00" pos_y="15.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="23.70" start_time_max="23.70" infinite_life="true">
+		<emitter name="trail_glow_tip" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="trail_glow_thin" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="trail_embers" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="impact_omni" enable="true" tint_min_r="1.0" tint_min_g="0.0" tint_min_b="0.0" tint_min_a="1.00" tint_max_r="1.0" tint_max_g="0.0" tint_max_b="0.0" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="impact_fire_spikes" enable="true" tint_min_r="1.0" tint_min_g="0.0" tint_min_b="0.0" tint_min_a="1.00" tint_max_r="1.0" tint_max_g="0.0" tint_max_b="0.0" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="impact_distortion" enable="true" tint_min_r="1.0" tint_min_g="0.0" tint_min_b="0.0" tint_min_a="1.00" tint_max_r="1.0" tint_max_g="0.0" tint_max_b="0.0" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<!-- <emitter name="impact_decal_impact" enable="true" tint_min_r="1.0" tint_min_g="0.0" tint_min_b="0.0" tint_min_a="1.00" tint_max_r="1.0" tint_max_g="0.0" tint_max_b="0.0" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+		<emitter name="impact_embers_up" enable="true" tint_min_r="1.0" tint_min_g="0.0" tint_min_b="0.0" tint_min_a="1.00" tint_max_r="1.0" tint_max_g="0.0" tint_max_b="0.0" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="magic_explosion" enable="true" tint_min_r="1.0" tint_min_g="0.0" tint_min_b="0.0" tint_min_a="1.00" tint_max_r="1.0" tint_max_g="0.0" tint_max_b="0.0" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="center_explosion" enable="true" tint_min_r="1.0" tint_min_g="0.0" tint_min_b="0.0" tint_min_a="1.00" tint_max_r="1.0" tint_max_g="0.0" tint_max_b="0.0" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+		<emitter name="trail_dark_tip" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
+	</vfx>
+
+
+	
+	
+	
+	
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+	<!-- ============================================================================================ -->
+		
+	
+	
+</vfx_references>

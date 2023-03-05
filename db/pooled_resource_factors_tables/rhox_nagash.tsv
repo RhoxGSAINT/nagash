@@ -1,0 +1,8 @@
+key	is_hidden
+#pooled_resource_factors_tables;5;db/pooled_resource_factors_tables/rhox_nagash	
+nag_nagash_rituals	false
+nag_warpstone_buildings	false
+nag_warpstone_refund	false
+nag_grand_spell_01_recharge	false
+nag_grand_spell_02_recharge	false
+nag_grand_spell_03_recharge	false
