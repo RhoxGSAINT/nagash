@@ -3,7 +3,7 @@
 	<!-- EMITTERS-->
 	<emitters>
 		<emitter type="continuous_rigid" id="ghost_01">
-			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/gh1/vmp/nag_spirit_host_crew/body/spirit_host_01_alter_01.wsmodel"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes\wh_variantmodels\gh1\nag\nag_spirit_host_crew\spirit_host_01.wsmodel"/>
 			<property name="RigidAnimFile" quality="0" value="animations\battle\ghost01\sword\locomotion\gh1_sw_run_mortisengine_02.anim"/>
 
 			<property name="ParticlesLocalSpace" quality="0" value="true"/>
@@ -30,7 +30,7 @@
 			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
 		</emitter>
 		<emitter type="continuous_rigid" id="ghost_02">
-			<property name="RigidModelFile" quality="0" value="variantmeshes/wh_variantmodels/gh1/vmp/nag_spirit_host_crew/body/spirit_host_01.wsmodel"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes\wh_variantmodels\gh1\nag\nag_spirit_host_crew\spirit_host_01.wsmodel"/>
 			<property name="RigidAnimFile" quality="0" value="animations\battle\ghost01\sword\locomotion\gh1_sw_run_mortisengine_02.anim"/>
 
 			<property name="ParticlesLocalSpace" quality="0" value="true"/>

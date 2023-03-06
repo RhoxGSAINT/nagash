@@ -1,7 +1,0 @@
-ability_group	icon_path	special_edition_mask	sort_order	is_naval	button_name	sound_event	is_composite_group	unique_id	sound_switch	show_lore_icon	colour_hex
-#special_ability_groups_tables;11;db/special_ability_groups_tables/rhox_nagash											
-wh2_main_lore_nagash	UI\Battle UI\ability_icons\wh_main_lore_nagash_raise_the_dead.png	0	0	false	lore_nag_undeath	Play_WH_UI_Ability_Click_Generic_Death	false	0		true	0000FF
-wh2_main_lore_undeath	UI\Battle UI\ability_icons\wh_main_lore_nagash_raise_the_dead.png	0	0	false	lore_nag_undeath	Play_WH_UI_Ability_Click_Generic_Death	true	0		true	0000FF
-wh2_main_lore_nagash_death_vamp	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_death	Play_WH_UI_Ability_Click_Generic_Light	true	0		false	0000FF
-wh2_main_lore_nagash_nehek_light	UI\Battle UI\ability_icons\wh2_main_lore_passive_combined.png	0	0	false	lore_death	Play_WH_UI_Ability_Click_Generic_Light	true	0		false	0000FF
-wh2_main_lore_double_vampires	UI\Battle UI\ability_icons\wh_main_lore_nagash_curse_of_undeath.png	0	1	false	lore_vampire	Play_WH_UI_Ability_Click_Generic_Vampire	true	0		true	0000FF

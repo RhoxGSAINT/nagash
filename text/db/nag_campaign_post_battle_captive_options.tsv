@@ -1,8 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/nag_campaign_post_battle_captive_options.loc		
-campaign_post_battle_captive_options_onscreen_name_enslavenagash_enslave	Dominate Captives	true
-campaign_post_battle_captive_options_description_enslavenagash_enslave	Kill them, raise them, bind them. All belong to Nagash!	true
-campaign_post_battle_captive_options_onscreen_name_killnagash_kill	Humiliate Captives	true
-campaign_post_battle_captive_options_description_killnagash_kill	Oh, they won't just die or be tortured. There is no such thing as 'honourable defeat' against Nagash.	true
-campaign_post_battle_captive_options_onscreen_name_releasenagash_release	Return Captives	true
-campaign_post_battle_captive_options_description_releasenagash_release	Send the captives loose. They won't notice some of their souls were eaten.	true

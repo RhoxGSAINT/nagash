@@ -293,7 +293,7 @@
 			<property name="ParticleLifeTime" quality="0">x_min,8405056;0.0,13.0,linear,linear|x_max,16728128;0.0,13.0,linear,linear:x,1;0,1</property>
 		</emitter>
 		<emitter type="continuous_rigid" id="energy_wind_orbs">
-			<property name="RigidModelFile" quality="0" value="VariantMeshes/wh_variantmodels/hu1/tmb/nag_nagash_husk/props/gyro_book_4.rigid_model_v2"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes\wh_variantmodels\hu1\nag\nag_nagash_husk\props\gyro_book_4.wsmodel"/>
 			<property name="ParticlesLocalSpace" quality="0" value="true"/>
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="600.00" w="600.00"/>
 			<property name="ParticleCullDistances" quality="0" x="0.00" y="0.00" z="200.00" w="600.00"/>			
@@ -371,7 +371,7 @@
 			<!-- <property name="ParticleLifeTime" quality="0">x_min,8405056;0.0,6000.2,linear,linear|x_max,16728128;0.0,6000.2,linear,linear:x,1;0,1</property> -->
 		</emitter>
 		<emitter type="continuous_rigid" id="energy_wind_orbs_2">
-			<property name="RigidModelFile" quality="0" value="VariantMeshes/wh_variantmodels/hu1/tmb/nag_nagash_husk/props/gyro_book_4.rigid_model_v2"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes\wh_variantmodels\hu1\nag\nag_nagash_husk\props\gyro_book_4.wsmodel"/>
 			<property name="ParticlesLocalSpace" quality="0" value="true"/>
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="600.00" w="600.00"/>
 			<property name="ParticleCullDistances" quality="0" x="0.00" y="0.00" z="200.00" w="600.00"/>			
@@ -421,7 +421,7 @@
 			<!-- <property name="RigidsMax" quality="0" value="1"/> -->
 		</emitter>
 		<emitter type="continuous_rigid" id="energy_wind_orbs_3">
-			<property name="RigidModelFile" quality="0" value="VariantMeshes/wh_variantmodels/hu1/tmb/nag_nagash_husk/props/gyro_book_4.rigid_model_v2"/>
+			<property name="RigidModelFile" quality="0" value="variantmeshes\wh_variantmodels\hu1\nag\nag_nagash_husk\props\gyro_book_4.wsmodel"/>
 			<property name="ParticlesLocalSpace" quality="0" value="true"/>
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="600.00" w="600.00"/>
 			<property name="ParticleCullDistances" quality="0" x="0.00" y="0.00" z="200.00" w="600.00"/>			

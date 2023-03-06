@@ -1,9 +1,0 @@
-key	image_path
-#ui_tagged_images_tables;0;db/ui_tagged_images_tables/rhox_nagash	
-nag_warpstone	ui/skins/default/icon_warpstone.png
-res_nag_coast	ui\campaign ui\effect_bundles\res_nag_coast.png
-res_nag_counts	ui\campaign ui\effect_bundles\res_nag_counts.png
-res_nag_nagash	ui\campaign ui\effect_bundles\res_nag_nagash.png
-res_nag_nehek	ui\campaign ui\effect_bundles\res_nag_nehek.png
-rhox_wizard_icon	ui/skins/default/icon_wh_main_lore_nag_wight.png
-trait_set_nagash	ui/skins/default/icon_wh_main_lore_nagash.png
