@@ -1,3 +1,0 @@
-key	ammo_caisson_destroyed_model	ammo_caisson_destruction	ammo_caisson_entity	ammo_caisson_model	articulated_entity	articulation_node_1_offset	articulation_node_1_radius	articulation_node_2_offset	articulation_node_2_radius	articulation_node_3_offset	articulation_node_3_radius	articulation_max_angle	head_offset
-#land_unit_articulated_vehicles_tables;4;db/land_unit_articulated_vehicles_tables/rhox_nagash_units													
-nag_plaguecart		vmp_black_coach_01			nag_plaguecart_articulation	1.4000	1.4000	3.1000	0.2500	5.5000	1.7500	30.0000	2.0000

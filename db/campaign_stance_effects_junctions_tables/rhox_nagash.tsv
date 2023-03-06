@@ -1,6 +1,0 @@
-stance	culture	subculture	faction	force_type	effect_bundle	resource_cost
-#campaign_stance_effects_junctions_tables;1;db/campaign_stance_effects_junctions_tables/rhox_nagash						
-MILITARY_FORCE_ACTIVE_STANCE_TYPE_DEFAULT			mixer_nag_nagash		wh_main_bundle_stance_army_default	
-MILITARY_FORCE_ACTIVE_STANCE_TYPE_DOUBLE_TIME			mixer_nag_nagash		wh_main_bundle_stance_navy_double_time	
-MILITARY_FORCE_ACTIVE_STANCE_TYPE_CHANNELING			mixer_nag_nagash		wh_main_bundle_stance_army_channelling_vmp	
-MILITARY_FORCE_ACTIVE_STANCE_TYPE_SETTLE			mixer_nag_nagash		nag_bundle_stance_army_settlement_horde	

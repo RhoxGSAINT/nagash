@@ -1,8 +1,0 @@
-key	text	tooltip
-#Loc PackedFile;1;text/db/nag_technology_script_lock_reasons.loc		
-technology_script_lock_reasons_lock_reason_nag_mortarch_arkhan_unlock	[[col:red]]Complete the Mission "Nagash Rising V"[[/col]]	true
-technology_script_lock_reasons_lock_reason_nag_mortarch_luthor_unlock	[[col:red]]Complete the Mission "Mortarch of the Abyss"[[/col]]	true
-technology_script_lock_reasons_lock_reason_nag_mortarch_mannfred_unlock	[[col:red]]Complete the Mission "Mortarch of Night"[[/col]]	true
-technology_script_lock_reasons_lock_reason_nag_mortarch_krell_unlock	[[col:red]]Complete the Mission "Mortarch of Despair"[[/col]]	true
-technology_script_lock_reasons_lock_reason_nag_mortarch_neferata_unlock	[[col:red]]Complete the Mission "Mortarch of Blood"[[/col]]	true
-technology_script_lock_reasons_lock_reason_nag_mortarch_vlad_unlock	[[col:red]]Complete the Mission "Mortarch of Shadows"[[/col]]	true
