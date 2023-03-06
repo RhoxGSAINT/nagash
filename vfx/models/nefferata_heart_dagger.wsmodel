@@ -1,9 +1,0 @@
-<model version="1">
- <geometry>variantmeshes/wh_variantmodels/hu1d/def/def_props/def_khanite_assassin_dagger_03.rigid_model_v2</geometry>
-  <materials>
-    <material part_index="0" lod_index="0">vfx/materials/nefferata_heart_dagger.xml.material</material>
-    <material part_index="0" lod_index="2">vfx/materials/nefferata_heart_dagger.xml.material</material>
-    <material part_index="0" lod_index="1">vfx/materials/nefferata_heart_dagger.xml.material</material>
-    <material part_index="0" lod_index="3">vfx/materials/nefferata_heart_dagger.xml.material</material>
-  </materials>
-</model>
