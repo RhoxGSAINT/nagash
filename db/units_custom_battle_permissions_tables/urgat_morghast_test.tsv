@@ -1,0 +1,4 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set
+#units_custom_battle_permissions_tables;10;db/units_custom_battle_permissions_tables/urgat_morghast_test									
+wh3_main_dae_daemon_prince	false	wh3_main_kho_mon_bloodthirster_0_morghast_test	true	true				false	
+wh3_main_kho_khorne	false	wh3_main_kho_mon_bloodthirster_0_morghast_test	true	true				false	

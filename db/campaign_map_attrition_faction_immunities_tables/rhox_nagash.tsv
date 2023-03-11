@@ -1,0 +1,11 @@
+attrition	faction
+#campaign_map_attrition_faction_immunities_tables;0;db/campaign_map_attrition_faction_immunities_tables/rhox_nagash	
+horde_infighting	mixer_nag_nagash
+desert	mixer_nag_nagash
+blockaded	mixer_nag_nagash
+mountain	mixer_nag_nagash
+snow	mixer_nag_nagash
+swamp	mixer_nag_nagash
+wasteland	mixer_nag_nagash
+vampire_territory	mixer_nag_nagash
+non_vampire_territory	mixer_nag_nagash

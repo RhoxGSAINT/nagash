@@ -1,0 +1,8 @@
+key	text	tooltip
+#Loc;1;text/db/nag_campaign_post_battle_captive_options.loc		
+campaign_post_battle_captive_options_onscreen_name_372134560	Dominate Captives	true
+campaign_post_battle_captive_options_description_372134560	Kill them, raise them, bind them. All belong to Nagash!	true
+campaign_post_battle_captive_options_onscreen_name_372134561	Humiliate Captives	true
+campaign_post_battle_captive_options_description_372134561	Oh, they won't just die or be tortured. There is no such thing as 'honourable defeat' against Nagash.	true
+campaign_post_battle_captive_options_onscreen_name_372134562	Return Captives	true
+campaign_post_battle_captive_options_description_372134562	Send the captives loose. They won't notice some of their souls were eaten.	true

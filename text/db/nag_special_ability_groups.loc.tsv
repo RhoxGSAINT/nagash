@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/nag_special_ability_groups.loc		
+special_ability_groups_name_wh2_main_lore_nagash	Lore of Nagash	true
+special_ability_groups_name_wh2_main_lore_nagash_death_vamp	Death and Vampires Lore Pool	true
+special_ability_groups_name_wh2_main_lore_nagash_nehek_light	Nehekhara and Light Lore Pool	true
+special_ability_groups_name_wh2_main_lore_double_vampires	Lore of Vampires	true

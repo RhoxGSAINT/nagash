@@ -1,0 +1,18 @@
+key	sort_order	effect_state
+#unit_abilities_additional_ui_effects_tables;3;db/unit_abilities_additional_ui_effects_tables/rhox_nagash		
+wh2_nagash_2_zombies_summon	109	positive
+wh2_nagash_black_knights_summon	108	positive
+wh2_nagash_blood_knights_summon	108	positive
+wh2_nagash_heroes_party_summon	109	positive
+wh2_nagash_heroes_on_kitty_summon	109	positive
+wh2_nagash_abyss_wolves	109	positive
+wh2_nagash_spell_stationary_aoe_upgraded	109	positive
+wh2_nagash_all_good_against_flying_upgraded	109	positive
+nag_bound_gaze_of_nagash	109	positive
+nag_summon_of_summon	109	positive
+nag_heal_active_990	109	positive
+nag_all_increased_max_power_very_high	106	positive
+nag_decreased_reserves	109	positive
+nag_summon_skeletons	100	positive
+nag_drain_essence	101	positive
+nag_aoe_damage_and_heal	1	positive

@@ -1,0 +1,6 @@
+key	human_only	payload_base
+#ritual_payloads_tables;0;db/ritual_payloads_tables/rhox_nagash		
+nag_man	false	
+nag_divinity	false	
+nag_death	false	
+nag_winds	false	

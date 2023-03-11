@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/nag_ui_stuff.loc		
+nag_nagash_icon_black_pyramid_disabled	The Black Pyramid||[[col:red]]You must conquer the Black Pyramid first![[/col]]	true
+nag_nagash_icon_black_pyramid_avail	Raise the Black Pyramid||Perform a [[col:yellow]]Grand Ritual[[/col]] to Ascend both Nagash and the Black Pyramid, returning both to their fullest power.\\n[[col:red]]Activating the Grand Ritual will take Nagash off the map, as he performs the Grand Resurrection. Hold out against the invasion to unlock Ascended Nagash, and the Empowered Black Pyramid![[/col]]	true
+nag_nagash_icon_black_pyramid_woke	The Black Pyramid||[[col:green]]The Black Pyramid[[/col]] is empowered, and Nagash is Ascended. Travel onwards and crush the foolish living underfoot!	true
+nag_nagash_icon_black_pyramid_ongoing	The Black Pyramid||Hold off the Skaven Invasion and finish the [[col:yellow]]Grand Ritual[[/col]]!	true

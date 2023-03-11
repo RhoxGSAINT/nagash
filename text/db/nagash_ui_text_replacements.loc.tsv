@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc;1;text/db/nagash_ui_text_replacements.loc		
+ui_text_replacements_localised_text_		true
+ui_text_replacements_localised_text_hp_campaign_money_term_nag_nagash	Dark Magic	true
+ui_text_replacements_localised_text_hp_campaign_money_term_title_nag_nagash	Dark Magic	true
+ui_text_replacements_localised_text_treasury_header_nag_nagash	Dark Magic Summary	true
+ui_text_replacements_localised_text_treasury_nag_nagash	Total Dark Magic	true
+ui_text_replacements_localised_text_treasury_tooltip_nag_nagash	Total Dark Magic||This is the total amount of {{tr:icon_money}}Dark Magic available to your faction. Dark Magic can be generated via buildings, loot from winning battles, raiding and diplomacy.	true
+ui_text_replacements_localised_text_hp_campaign_description_treasury_nag_nagash	The available {{tr:icon_treasury}}Dark Magic is displayed at the top of the screen on the campaign interface.	true
+ui_text_replacements_localised_text_hp_campaign_description_treasury_button_term_nag_nagash	Dark Magic Summary Button	true
+ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_nag_nagash	Dark Magic Summary Panel	true
+ui_text_replacements_localised_text_hp_campaign_treasury_panel_term_title_nag_nagash	Dark Magic Summary Panel	true
+ui_text_replacements_localised_text_tooltip_campaign_upkeep_effect_description_nag_nagash	Dark Magic are unique - the life-force of the unliving, the more Dark Magic will be drawn to them. If the Winds of Dhar are shared between powerful Vampires and Necromancers, however, Dark Magic becomes more difficult to accumulate - their Undead legions requiring more energy to remain bound.	true
+ui_text_replacements_localised_text_tooltip_campaign_upkeep_effect_title_nag_nagash	Diffusion of Magic	true
+ui_text_replacements_localised_text_tooltip_nag_warpstone	Use Warpstone[[img:nag_warpstone]][[/img]] to power Nagash's rituals.\\nGather Warpstone from marked mines[[img:nag_warpstone]][[/img]] around the world.	true
+ui_text_replacements_localised_text_technology_header_nag_nagash_nag_nagash	Mortarchs	true
+ui_text_replacements_localised_text_technology_header_nag_nagash	Mortarchs	true
+ui_text_replacements_localised_text_rites_button_nag_nagash_nag_nagash	Great Rituals	true
+ui_text_replacements_localised_text_rites_button_tooltip_nag_nagash_nag_nagash	Perform Great Rituals to empower your legions with temporary benefits	true
+ui_text_replacements_localised_text_rites_header_nag_nagash_nag_nagash	Great Rituals	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_01	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_02	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_03	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_rite_pooled_resource_cost_nag_nagash	Cost||Use [[img:nag_warpstone]][[/img]]Warpstone to power Nagash's rituals.	true
+ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_nag_nagash	In order to research this technology, this amount of [[img:nag_warpstone]][[/img]]Warpstone will be deducted from your total.	true
+ui_text_replacements_localised_text_icon_pooled_resource_mission_nag_nagash	[[img:nag_warpstone]][[/img]]	true
+frontend_factions_localised_mechanics_mixer_nag_nagash	[[img:nag_warpstone]][[/img]] Use Warpstone to power Nagash's rituals.\\nGather Warpstone from marked mines[[img:nag_warpstone]][[/img]] around the world.||[[img:wizard]][[/img]]Dark Magic are unique - the life force of the unliving, the more Dark Magic will be drawn to them. If the Winds of Dhar are shared between powerful Vampires and Necromancers, however, Dark Magic becomes more difficult to accumulate - their Undead legions require more energy to remain bound.||[[img:trait_set_nagash]][[/img]] [[img:res_nag_coast]][[/img]][[img:res_nag_counts]][[/img]][[img:res_nag_nagash]][[/img]][[img:res_nag_nehek]][[/img]] Collect Powerful Mortarchs around the word. 	true
+cultures_subcultures_name_mixer_nag_nagash	Nagash	false

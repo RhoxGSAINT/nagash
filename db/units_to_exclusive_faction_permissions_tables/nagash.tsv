@@ -1,0 +1,6 @@
+key	faction	allowed
+#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/nagash		
+nag_bone_colossus	mixer_nag_nagash	true
+nag_virion_plaguecart	mixer_nag_nagash	true
+nag_revenants	mixer_nag_nagash	true
+nag_shade_haunts	mixer_nag_nagash	true

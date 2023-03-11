@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/nag_campaign_payload_ui_details.loc		
+campaign_payload_ui_details_description_dummy_nag_ability_enable_batocalypse	[PH] frickin bats	true
+campaign_payload_ui_details_description_dummy_nag_ability_enable_endless_tomb	[PH] frickin tombs	true
+campaign_payload_ui_details_description_dummy_nag_ability_enable_blyramid_bombardment	[PH] frickin bomb	true
+campaign_payload_ui_details_description_dummy_blankfornow	[TODO] give good bonuses in combat against specific faction	true

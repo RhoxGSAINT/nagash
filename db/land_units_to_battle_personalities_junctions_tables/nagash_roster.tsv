@@ -1,0 +1,5 @@
+battle_personality	land_unit	attach	riders_attachment_point
+#land_units_to_battle_personalities_junctions_tables;0;db/land_units_to_battle_personalities_junctions_tables/nagash_roster			
+nag_mortis_engine_banshee1	nag_spirit_hosts	autonomous_rider	
+nag_mortis_engine_banshee2	nag_spirit_hosts	autonomous_rider	
+nag_mortis_engine_banshee3	nag_spirit_hosts	autonomous_rider	

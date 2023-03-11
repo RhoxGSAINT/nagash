@@ -1,0 +1,9 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set
+#pooled_resource_factor_junctions_tables;2;db/pooled_resource_factor_junctions_tables/rhox_nagash					
+nag_warpstone_rituals	nag_nagash_rituals	nag_warpstone	-2147483647	2147483647	
+nag_warpstone_buildings	nag_warpstone_buildings	nag_warpstone	-2147483647	2147483647	
+nag_warpstone_refund	nag_warpstone_refund	nag_warpstone	-2147483647	2147483647	
+nag_grand_spell_01_recharge	nag_grand_spell_01_recharge	nag_grand_spell_01	-2147483647	2147483647	
+nag_grand_spell_02_recharge	nag_grand_spell_02_recharge	nag_grand_spell_02	-2147483647	2147483647	
+nag_grand_spell_03_recharge	nag_grand_spell_03_recharge	nag_grand_spell_03	-2147483647	2147483647	
+nag_warpstone_other	wh2_main_resource_factor_other	nag_warpstone	-2147483647	2147483647	

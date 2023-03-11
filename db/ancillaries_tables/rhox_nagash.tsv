@@ -1,0 +1,55 @@
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed	faction_set
+#ancillaries_tables;0;db/ancillaries_tables/rhox_nagash																												
+nag_anc_armour_morikhane_the_black_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_weapon_the_mortis_blade	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_arcane_item_alakanash_staff_of_power	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_enchanted_item_crown_of_nagash	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_one	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_two	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_three	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_four	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_five	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_six	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_seven	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_eight	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_books_of_nagash_book_nine	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_mount_mannfred_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_mannfred_warhorse		1	1		false	false	true	all
+nag_anc_mount_mannfred_abyssal	nag_anc_mount_mannfred_abyssal	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_mannfred_abyssal		200	1		false	false	true	all
+nag_anc_armour_armour_of_templehof	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_weapon_sword_of_unholy_power	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_mount_arkhan_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_arkhan_warhorse		1	1		false	false	true	all
+nag_anc_mount_arkhan_skeleton_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_arkhan_chariot		1	1		false	false	true	all
+nag_anc_mount_arkhan_abyssal	nag_anc_mount_arkhan_abyssal	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_arkhan_abyssal		200	1		false	false	true	all
+nag_anc_weapon_the_tomb_blade_of_arkhan	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_arcane_item_staff_of_nagash	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_mount_luthor_harkon_terrorgheist	wh_dlc04_anc_mount_terrorgheist	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_luthor_terrorgheist		1	1		false	false	true	all
+nag_anc_enchanted_item_slann_gold	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			true	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_mount_neferata_warhorse	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_neferata_warhorse		1	1		false	false	true	all
+nag_anc_mount_neferata_abyssal	nag_anc_mount_neferata_abyssal	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_neferata_abyssal		200	1		false	false	true	all
+nag_anc_weapon_dagger_of_jet	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_arcane_item_staff_of_pain	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_talisman_the_carstein_ring	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_weapon_blood_drinker	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_enchanted_item_blood_chalice_of_bathori	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_mount_isabella_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_isabella_warhorse		1	1		false	false	true	all
+nag_anc_mount_isabella_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_isabella_hellsteed		1	1		false	false	true	all
+nag_anc_weapon_chaos_tomb_blade	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_armour_armour_of_the_barrows	wh_main_anc_armour	1	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_weapon_black_axe_of_krell	wh_main_anc_weapon	1	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_mount_tomb_king_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_king_1		1	1		false	false	true	all
+nag_anc_mount_tomb_king_skeleton_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_king_2		1	1		false	false	true	all
+nag_anc_mount_tomb_king_khemrian_warsphinx	wh2_dlc09_anc_mount_khemrian_warsphinx	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_king_3		1	1		false	false	true	all
+nag_anc_mount_tomb_prince_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_prince_1		1	1		false	false	true	all
+nag_anc_mount_tomb_prince_skeleton_chariot	wh2_dlc09_anc_mount_skeleton_chariot	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_tomb_prince_2		1	1		false	false	true	all
+nag_anc_mount_liche_priest_death_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_death_1		1	1		false	false	true	all
+nag_anc_mount_liche_priest_light_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_light_1		1	1		false	false	true	all
+nag_anc_mount_liche_priest_nehekhara_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_nehekhara_1		1	1		false	false	true	all
+nag_anc_mount_liche_priest_shadow_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_nehekhara_1		1	1		false	false	true	all
+nag_anc_mount_liche_priest_undeath_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_cha_liche_priest_undeath_1		1	1		false	false	true	all
+nag_anc_mount_vmp_vampire_shadow_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_dlc05_vmp_cha_vampire_shadows_1		1	1		false	false	true	all
+nag_anc_mount_vmp_vampire_shadow_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_dlc05_vmp_cha_vampire_shadows_2		1	1		false	false	true	all
+nag_anc_mount_vmp_vampire_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_vampire_1		1	1		false	false	true	all
+nag_anc_mount_vmp_vampire_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_vampire_2		1	1		false	false	true	all
+nag_anc_mount_vmp_wight_king_barded_skeletal_steed	wh_main_anc_mount_barded_skeletal_steed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_wight_king_1		1	1		false	false	true	all
+nag_anc_mount_vmp_wight_king_skeletal_steed	wh_main_anc_mount_skeletal_steed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_wight_king_2		1	1		false	false	true	all
+nag_anc_mount_cst_gunnery_wight_rotting_promethean	wh2_dlc11_anc_mount_rotting_promethean	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh2_dlc11_cst_cha_gunnery_wight_1		1	1		false	false	true	all
