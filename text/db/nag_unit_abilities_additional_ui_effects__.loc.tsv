@@ -1,0 +1,18 @@
+key	text	tooltip
+#Loc;1;text/db/nag_unit_abilities_additional_ui_effects__.loc		
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_2_zombies_summon	[[col:green]]Summons 2 additional units of Zombies[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_black_knights_summon	[[col:green]]Summons a unit of Black Knights[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_blood_knights_summon	[[col:magic]]Summons a unit of Hexwraiths[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_heroes_party_summon	[[col:green]]Summons a Wight King, Liche Priest and Fleet Captain[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_heroes_on_kitty_summon	[[col:magic]]Summons a Wight King, Liche Priest and Fleet Captain, mounted on a Warsphinx[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_abyss_wolves	[[col:green]]Randomly forward-moving packs of wolves[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_spell_stationary_aoe_upgraded	[[col:magic]]Huge, stationary area of effect[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_wh2_nagash_all_good_against_flying_upgraded	[[col:magic]]Good against flying[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_bound_gaze_of_nagash	[[col:magic]]Grants 3 bound casts of Gaze of Nagash[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_of_summon	[[col:green]] Summons a Tomb, which periodically spawns Skeleton Warriors[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_heal_active_990	[[col:green]]Restores up to [[img:icon_hp]][[/img]]1.1% of Hit Points[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_all_increased_max_power_very_high	[[col:green]]Massive increase to [[img:icon_wom_power]][[/img]]power reserves[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_decreased_reserves	[[col:red]]Decrease to [[img:icon_wom_power]][[/img]]power reserves[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_skeletons	[[col:green]]Summons a unit of Skeleton Warriors[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_drain_essence	[[col:red]]Drains life-essence health and fatigue damage[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_aoe_damage_and_heal	[[col:green]]Deals [[img:icon_dmg_magical]][[/img]]damage to foes and heals allies in the same area[[/col]]	true
