@@ -1,13 +1,73 @@
 local nagash_faction = "mixer_nag_nagash"
 
 
-local unlock_techs = {
-    nag_mortarch_arkhan_unlock = true,
-    nag_mortarch_luthor_unlock = true,
-    nag_mortarch_mannfred_unlock = true,
-    nag_mortarch_krell_unlock = true,
-    nag_mortarch_neferata_unlock = true,
-    nag_mortarch_vlad_unlock = true,
+RHOX_NAGASH_UNLOCK_TECHS = {
+    nag_mortarch_arkhan_unlock = {
+        "nag_arkhan_battle_1",
+        "nag_arkhan_battle_2",
+        "nag_arkhan_battle_3",
+        "nag_mortarch_arkhan_event_1",
+        "nag_mortarch_arkhan_event_2",
+        "nag_mortarch_arkhan_event_3",
+        "nag_mortarch_arkhan_unlock",
+        "nag_arkhan_proclamation",
+        "nag_arkhan_archai"
+    },
+    nag_mortarch_luthor_unlock = {
+        "nag_luthor_battle_1",
+        "nag_luthor_battle_2",
+        "nag_luthor_battle_3",
+        "nag_mortarch_luthor_event_1",
+        "nag_mortarch_luthor_event_2",
+        "nag_mortarch_luthor_event_3",
+        "nag_mortarch_luthor_unlock",
+        "nag_luthor_proclamation",
+        "nag_luthor_archai"
+    },
+    nag_mortarch_mannfred_unlock = {
+        "nag_mannfred_battle_1",
+        "nag_mannfred_battle_2",
+        "nag_mannfred_battle_3",
+        "nag_mortarch_mannfred_event_1",
+        "nag_mortarch_mannfred_event_2",
+        "nag_mortarch_mannfred_event_3",
+        "nag_mortarch_mannfred_unlock",
+        "nag_mannfred_proclamation",
+        "nag_mannfred_archai"
+    },
+    nag_mortarch_krell_unlock = {
+        "nag_krell_battle_1",
+        "nag_krell_battle_2",
+        "nag_krell_battle_3",
+        "nag_mortarch_krell_event_1",
+        "nag_mortarch_krell_event_2",
+        "nag_mortarch_krell_event_3",
+        "nag_mortarch_krell_unlock",
+        "nag_krell_proclamation",
+        "nag_krell_archai"
+    },
+    nag_mortarch_neferata_unlock = {
+        "nag_neferata_battle_1",
+        "nag_neferata_battle_2",
+        "nag_neferata_battle_3",
+        "nag_mortarch_neferata_event_1",
+        "nag_mortarch_neferata_event_2",
+        "nag_mortarch_neferata_event_3",
+        "nag_mortarch_neferata_unlock",
+        "nag_neferata_proclamation",
+        "nag_neferata_archai"
+    },
+    nag_mortarch_vlad_unlock = {
+        "nag_vlad_battle_1",
+        "nag_vlad_battle_2",
+        "nag_vlad_battle_3",
+        "nag_mortarch_vlad_event_1",
+        "nag_mortarch_vlad_event_2",
+        "nag_mortarch_vlad_event_3",
+        "nag_mortarch_vlad_unlock",
+        "nag_vlad_proclamation",
+        "nag_vlad_archai"
+    }
 }
 
 
@@ -18,14 +78,21 @@ local mort_key_to_faction_key ={
     ["nag_mortarch_luthor"]="wh2_dlc11_cst_vampire_coast"
 }
 
+
+
+
+
+
+
+
 local mort_key_to_name ={
-    ["nag_mortarch_arkhan"]="Arkhan, Mortarch of Sacrament",
-    ["nag_mortarch_vlad"]="Vlad, Mortarch of Shadow",
-    ["nag_mortarch_mannfred"]="Mannfred, Mortarch of Night",
-    ["nag_mortarch_luthor"]="Luthor, Mortarch of the Abyss",
-    ["nag_mortarch_neferata"]="Neferata, Mortarch of Blood",
-    ["nag_mortarch_krell"]="Krell, Mortarch of Despair",
-    ["nag_mortarch_isabella"]="Isabella von Carstein"
+    ["nag_mortarch_arkhan"]="nag_nagash_name_arkhan",
+    ["nag_mortarch_vlad"]="nag_nagash_name_vlad",
+    ["nag_mortarch_mannfred"]="nag_nagash_name_mannfred",
+    ["nag_mortarch_luthor"]="nag_nagash_name_luthor",
+    ["nag_mortarch_neferata"]="nag_nagash_name_neferata",
+    ["nag_mortarch_krell"]="nag_nagash_name_krell",
+    ["nag_mortarch_isabella"]="nag_nagash_name_isabella"
 }
 
 
@@ -157,7 +224,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     --cm:force_confederation(nagash_faction, faction_key)
     --cm:remove_effect_bundle("wh_main_bundle_confederation_vmp", nagash_faction)
     
-    local forename = mort_key_to_name[mort_key]
+    local forename = common.get_localised_string(mort_key_to_name[mort_key])
     cm:change_character_custom_name(new_character, forename, "","","")
 end
 
@@ -196,7 +263,7 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
     end);
    
     --local new_character = cm:get_most_recently_created_character_of_type(nagash_faction)
-    local forename = mort_key_to_name[mort_key]
+    local forename = common.get_localised_string(mort_key_to_name[mort_key])
     cm:change_character_custom_name(new_character, forename, "","","")
     cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
 
@@ -211,7 +278,7 @@ function mortarch_unlock_listeners()
         "MortarchUnlock",
         "ResearchCompleted",
         function(context)
-            return unlock_techs[context:technology()]
+            return RHOX_NAGASH_UNLOCK_TECHS[context:technology()]
         end,
         function(context)
             out("Rhox Nagash: Hey, you unlocked a Mortarch technology!")
@@ -253,13 +320,18 @@ function mortarch_unlock_listeners()
         "MissionSucceeded",
         function(context)
             local mission = context:mission()
-            return unlock_techs[mission:mission_record_key()] --mission and unlock has the same name
+            return RHOX_NAGASH_UNLOCK_TECHS[mission:mission_record_key()] --mission and unlock has the same name
         end,
         function(context)
+            out("Rhox Nagash: You finished the mission!")
             local mission = context:mission()
-            cm:unlock_technology(nagash_faction, mission:mission_record_key())
+            local unlock_tech_table = RHOX_NAGASH_UNLOCK_TECHS[mission:mission_record_key()]
+            for i, technology in pairs(unlock_tech_table) do
+                out("Rhox Nagash Current technology: "..technology)
+                cm:unlock_technology(nagash_faction, technology)
+            end
         end,
-        ture
+        true
     )
 end
 
