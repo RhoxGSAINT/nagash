@@ -30,18 +30,25 @@ local function rhox_nagash_init_setting()
     "",
     true,
     function(cqi)
-        nagash_character = cm:get_character_by_cqi(cqi)
+        
+        cm:callback(
+			function()
+				nagash_character = cm:get_character_by_cqi(cqi)
+                local forename = common:get_localised_string("names_name_1937224327")
+                cm:change_character_custom_name(nagash_character, forename, "","","") --damn it's not working on faction leaders
+			end,
+			0.5
+		)
     end);
-    local forename = common:get_localised_string("names_name_1937224327")
-    cm:change_character_custom_name(nagash_character, forename, "","","") --damn it's not working on faction leaders
+    
     
     
     cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
     cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
     cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
     
-    local new_faction_leader = faction:faction_leader()
-    cm:change_character_custom_name(new_faction_leader, common:get_localised_string("cultures_name_nag_nagash"), "", "", "")
+    --local new_faction_leader = faction:faction_leader()
+    --cm:change_character_custom_name(new_faction_leader, common:get_localised_string("cultures_name_nag_nagash"), "", "", "")
     
     cm:force_declare_war(nagash_faction, "wh3_main_skv_clan_carrion", false, false)
     
@@ -60,6 +67,8 @@ local function rhox_nagash_init_setting()
     
     
 end
+
+
 
 local function add_nagash_listener()
     core:add_listener(
@@ -84,7 +93,12 @@ local function add_nagash_listener()
                 --- last mission, TP through
                 cm:teleportation_network_close_node("rhox_nagash_combi_province_the_desolation_of_nagash");
                 cm:teleportation_network_close_node("rhox_nagash_combi_province_barrier_idols");
-                cm:unlock_technology(nag_fact, "nag_mortarch_arkhan_unlock")
+                
+                local unlock_tech_table = RHOX_NAGASH_UNLOCK_TECHS["nag_mortarch_arkhan_unlock"]
+                for i, technology in pairs(unlock_tech_table) do
+                    cm:unlock_technology(nagash_faction, technology)
+                end
+                --cm:unlock_technology(nag_fact, "nag_mortarch_arkhan_unlock")
                 cm:make_region_visible_in_shroud(nag_fact, "wh3_main_combi_region_black_pyramid_of_nagash")
                 cm:set_saved_value("nagash_intro_completed", true)
                 core:remove_listener("NagashIntroChain")
