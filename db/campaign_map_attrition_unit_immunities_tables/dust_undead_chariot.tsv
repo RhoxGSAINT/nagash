@@ -1,0 +1,4 @@
+attrition	unit
+#campaign_map_attrition_unit_immunities_tables;0;db/campaign_map_attrition_unit_immunities_tables/dust_undead_chariot	
+vampire_territory	nag_undead_chariot_unit
+non_vampire_territory	nag_undead_chariot_unit
