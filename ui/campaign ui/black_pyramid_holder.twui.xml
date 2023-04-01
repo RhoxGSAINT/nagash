@@ -19,6 +19,7 @@
 			allowverticalresize="false"
 			visible="false"
 			priority="1"
+            dock_offset="0.00,-20.00"
 			tooltipslocalised="true"
 			uniqueguid="5CBFECF8-2126-3E7B-2FFD345EBF49B0D0"
 			currentstate="82807239-6472-419B-4CB39139FF156E64"
@@ -30,8 +31,8 @@
 				<newstate
 					this="82807239-6472-419B-4CB39139FF156E64"
 					name="NewState"
-					width="63"
-					height="40"
+					width="95"
+					height="95"
 					texthbehaviour="Never split"
 					interactive="true"
 					uniqueguid="82807239-6472-419B-4CB39139FF156E64">
@@ -41,8 +42,8 @@
 							uniqueguid="E568CD52-F99A-BED6-C7BAB08828C4FFC7"
 							componentimage="50495A85-BEC0-3948-725D654B8C8B3D20"
 							offset="0.00,3.00"
-							width="63"
-							height="40"/>
+							width="95"
+							height="95"/>
 					</imagemetrics>
 				</newstate>
 			</states>
@@ -56,6 +57,7 @@
 			docking="Center"
 			dock_offset="0.00,3.00"
 			component_anchor_point="0.50,0.50"
+            dock_offset="0.00,0.00"
 			priority="1"
 			tooltipslocalised="true"
 			uniqueguid="9CBF7420-490D-26D6-5E3DC23E1D2973B1"
@@ -72,11 +74,11 @@
 				<component_image
 					this="7733C344-A558-B3AA-1F104C5098A9DDCF"
 					uniqueguid="7733C344-A558-B3AA-1F104C5098A9DDCF"
-					imagepath="ui/skins/mixer_nag_nagash/nag_skull_top_blyramid_avail.png"/>
+					imagepath="ui/skins/mixer_nag_nagash/nag_skull_top_blyramid_ongoing.png"/>
 				<component_image
 					this="FEADE10B-C2A1-CDAB-FFCFD0C26315CBCF"
 					uniqueguid="FEADE10B-C2A1-CDAB-FFCFD0C26315CBCF"
-					imagepath="ui/skins/mixer_nag_nagash/nag_skull_top_blyramid_ongoing.png"/>
+					imagepath="ui/skins/mixer_nag_nagash/nag_skull_top_blyramid_avail.png"/>
                 <component_image
 					this="DD33DDB1-E450-34D2-F706995F0F01B695"
 					uniqueguid="DD33DDB1-E450-34D2-F706995F0F01B695"
@@ -86,8 +88,8 @@
 				<rhox_nagash_disabled
 					this="5D4E8933-4007-8BF7-3D414D80AE1E5FC6"
 					name="rhox_nagash_disabled"
-					width="63"
-					height="40"
+					width="95"
+					height="60"
 					texthbehaviour="Never split"
 					interactive="true"
 					uniqueguid="5D4E8933-4007-8BF7-3D414D80AE1E5FC6">
@@ -96,15 +98,15 @@
 							this="0B5790BC-CF30-3349-CE367490B1E482AE"
 							uniqueguid="0B5790BC-CF30-3349-CE367490B1E482AE"
 							componentimage="05FB6B5F-1124-0390-7A5EC1424F70CC85"
-							width="63"
-							height="40"/>
+							width="95"
+							height="60"/>
 					</imagemetrics>
 				</rhox_nagash_disabled>
 				<rhox_nagash_avail
 					this="EE629F96-7E31-91ED-2BDC0A94B155198B"
 					name="rhox_nagash_avail"
-					width="63"
-					height="40"
+					width="95"
+					height="60"
 					texthbehaviour="Never split"
 					interactive="true"
 					uniqueguid="EE629F96-7E31-91ED-2BDC0A94B155198B">
@@ -113,15 +115,15 @@
 							this="3E1B642A-EB59-FCE4-2C3FAD0C0A877E64"
 							uniqueguid="3E1B642A-EB59-FCE4-2C3FAD0C0A877E64"
 							componentimage="FEADE10B-C2A1-CDAB-FFCFD0C26315CBCF"
-							width="63"
-							height="40"/>
+							width="95"
+							height="60"/>
 					</imagemetrics>
 				</rhox_nagash_avail>
 				<rhox_nagash_ongoing
 					this="A8BA663C-9060-541B-E7D05C2E3958A6E8"
 					name="rhox_nagash_ongoing"
-					width="63"
-					height="40"
+					width="95"
+					height="60"
 					texthbehaviour="Never split"
 					interactive="true"
 					uniqueguid="A8BA663C-9060-541B-E7D05C2E3958A6E8">
@@ -130,15 +132,15 @@
 							this="FFE656D1-C6ED-51B9-859B8CEFDFE034DE"
 							uniqueguid="FFE656D1-C6ED-51B9-859B8CEFDFE034DE"
 							componentimage="7733C344-A558-B3AA-1F104C5098A9DDCF"
-							width="63"
-							height="40"/>
+							width="95"
+							height="60"/>
 					</imagemetrics>
 				</rhox_nagash_ongoing>
                 <rhox_nagash_woke
 					this="89668FF4-8164-D899-1065D35358B8A96D"
 					name="rhox_nagash_woke"
-					width="63"
-					height="40"
+					width="95"
+					height="60"
 					texthbehaviour="Never split"
 					interactive="true"
 					uniqueguid="89668FF4-8164-D899-1065D35358B8A96D">
@@ -147,8 +149,8 @@
 							this="26047B86-3E78-BCA6-E5CE50617377BE77"
 							uniqueguid="26047B86-3E78-BCA6-E5CE50617377BE77"
 							componentimage="DD33DDB1-E450-34D2-F706995F0F01B695"
-							width="63"
-							height="40"/>
+							width="95"
+							height="60"/>
 					</imagemetrics>
 				</rhox_nagash_woke>
 			</states>
@@ -186,26 +188,27 @@
 				</default>
 			</states>
 		</root>
-        <rhox_bad_button_vfx
-			this="0AF51531-8885-BF50-14B9852F85F8C06B"
-			id="rhox_bad_button_vfx"
-			offset="-19.00,-17.00"
-            visible="true"
+        <rhox_good_button_vfx
+			this="9C6CDCC7-5D78-BA5A-C58023C07A2F1E5A"
+			id="rhox_good_button_vfx"
+			offset="9.00,5.00"
+			visible="true"
 			docking="Center"
-			dock_offset="-1.00,1.00"
+			dock_offset="0.00,0.00"
 			component_anchor_point="0.50,0.50"
+			priority="1"
 			tooltipslocalised="true"
-			uniqueguid="0AF51531-8885-BF50-14B9852F85F8C06B"
+			uniqueguid="9C6CDCC7-5D78-BA5A-C58023C07A2F1E5A"
 			isrelativeresize="true"
-			currentstate="26EAAC4E-6875-8226-7C9C36377E382FE8"
-			defaultstate="26EAAC4E-6875-8226-7C9C36377E382FE8">
+			currentstate="AE42F07B-EB9F-3AEE-CD016AC8991B1FF1"
+			defaultstate="AE42F07B-EB9F-3AEE-CD016AC8991B1FF1">
 			<callbackwithcontextlist>
 				<callback_with_context callback_id="SpriteAnimation"/>
 			</callbackwithcontextlist>
 			<userproperties>
 				<property
 					name="frame_name"
-					value="UI/sprite_anims/sword_of_khaine_button/button_flame"/>
+					value="UI/sprite_anims/shanty_glow/button_flame"/>
 				<property
 					name="last_frame"
 					value="59"/>
@@ -227,27 +230,76 @@
 			</userproperties>
 			<componentimages>
 				<component_image
-					this="3A5B299F-6F17-A961-E4EA368C7D376A34"
-					uniqueguid="3A5B299F-6F17-A961-E4EA368C7D376A34"/>
+					this="CDDAD115-659E-E89B-909488021A80E1B4"
+					uniqueguid="CDDAD115-659E-E89B-909488021A80E1B4"/>
 			</componentimages>
 			<states>
 				<newstate
-					this="26EAAC4E-6875-8226-7C9C36377E382FE8"
+					this="AE42F07B-EB9F-3AEE-CD016AC8991B1FF1"
 					name="NewState"
-					width="50"
-					height="50"
+					width="70"
+					height="70"
 					texthbehaviour="Never split"
-					uniqueguid="26EAAC4E-6875-8226-7C9C36377E382FE8">
+					uniqueguid="AE42F07B-EB9F-3AEE-CD016AC8991B1FF1">
 					<imagemetrics>
 						<image
-							this="B7FD1EE2-017F-4C28-90226344CF3D86A8"
-							uniqueguid="B7FD1EE2-017F-4C28-90226344CF3D86A8"
-							componentimage="3A5B299F-6F17-A961-E4EA368C7D376A34"
-							width="50"
-							height="50"/>
+							this="5A9D9E56-48CA-5480-2E114EC91F655402"
+							uniqueguid="5A9D9E56-48CA-5480-2E114EC91F655402"
+							componentimage="CDDAD115-659E-E89B-909488021A80E1B4"
+							width="70"
+							height="70"/>
 					</imagemetrics>
 				</newstate>
 			</states>
-		</rhox_bad_button_vfx>
+			<animations>
+				<show id="show">
+					<frames>
+						<frame
+							interpolationtime="0"
+							interpolationpropertymask="64"
+							targetmetrics_m_colour="#FFFFFF00"
+							targetmetrics_m_height="70"
+							targetmetrics_m_width="70"
+							targetmetrics_m_offset="-1.00,1.00"
+							soundcategory="UI_ANIM_CST_Shanty_Acquired">
+							<triggers>
+								<trigger
+									trigger_component="9C6CDCC7-5D78-BA5A-C58023C07A2F1E5A"
+									trigger_property="Visibility true"/>
+							</triggers>
+						</frame>
+						<frame
+							interpolationtime="300"
+							interpolationpropertymask="64"
+							targetmetrics_m_height="70"
+							targetmetrics_m_width="70"
+							targetmetrics_m_offset="-1.00,1.00"/>
+					</frames>
+				</show>
+				<hide id="hide">
+					<frames>
+						<frame
+							interpolationtime="0"
+							interpolationpropertymask="64"
+							targetmetrics_m_height="60"
+							targetmetrics_m_width="60"
+							targetmetrics_m_offset="-1.00,1.00"/>
+						<frame
+							interpolationtime="600"
+							interpolationpropertymask="64"
+							targetmetrics_m_colour="#FFFFFF00"
+							targetmetrics_m_height="60"
+							targetmetrics_m_width="60"
+							targetmetrics_m_offset="-1.00,1.00">
+							<triggers>
+								<trigger
+									trigger_component="9C6CDCC7-5D78-BA5A-C58023C07A2F1E5A"
+									trigger_property="Visibility false"/>
+							</triggers>
+						</frame>
+					</frames>
+				</hide>
+			</animations>
+		</rhox_good_button_vfx>
 	</components>
 </layout>

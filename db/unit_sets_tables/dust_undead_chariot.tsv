@@ -1,3 +1,0 @@
-key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
-#unit_sets_tables;2;db/unit_sets_tables/dust_undead_chariot				
-nag_effect_unit_cap_nag_undead_chariot_unit	false	-1	-1	

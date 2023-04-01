@@ -1,5 +1,0 @@
-variant_name	tech_folder	variant_filename	low_poly_filename	mount_scale	scale	scale_variation	super_low_poly_filename
-#variants_tables;6;db/variants_tables/dust_undead_chariot							
-nag_undead_chariot_unit		nag_chariot_skeleton_spear_shield		1.0000	1.0000	0.0500	
-nag_undead_chariot_horse		tmb_skeletal_steed_base		1.0000	1.0000	0.0500	
-nag_undead_chariot_unit_archer		nag_chariot_skeleton_archer		1.0000	1.0000	0.0500	

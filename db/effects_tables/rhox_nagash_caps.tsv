@@ -49,3 +49,4 @@ nag_effect_unit_cap_terrorgheist	unit_capacity.png	1	unit_capacity.png	campaign	
 nag_effect_unit_cap_spectre_swarm	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_spirit_hosts	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_warp_ghouls	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_nag_undead_chariot_unit	unit_capacity.png	1	unit_capacity.png	campaign	true
