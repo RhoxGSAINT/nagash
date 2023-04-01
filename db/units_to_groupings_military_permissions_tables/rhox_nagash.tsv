@@ -1,5 +1,5 @@
 unit	military_group
-#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/nagash_units	
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/rhox_nagash	
 nag_bone_golems	mixer_nag_nagash
 nag_bone_thrower	mixer_nag_nagash
 nag_carrion_riders	mixer_nag_nagash
@@ -114,3 +114,4 @@ nag_spectre_swarm	mixer_nag_nagash
 nag_virion_plaguecart	mixer_nag_nagash
 nag_revenants	mixer_nag_nagash
 nag_bone_colossus	mixer_nag_nagash
+nag_undead_chariot_unit	mixer_nag_nagash

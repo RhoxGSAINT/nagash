@@ -43,6 +43,8 @@ local function rhox_nagash_begin_bp_raise()
 
     cm:remove_effect_bundle("rhox_nagash_avail", nagash_faction)
     cm:apply_effect_bundle("rhox_nagash_ongoing", nagash_faction, 0)
+    rhox_nagash_check_pyramid_status() --remove the highlight
+    
     --- wound Nagash Husk and replace it. 
     -------------------------
     
@@ -110,6 +112,7 @@ function rhox_nagash_add_black_pyramid_listener()
             mm:trigger()
 
             cm:set_saved_value("bp_ritual_available", true)
+            rhox_nagash_check_pyramid_status() --to highlight stuff
         end,
         false --you don't have to listen for it twice
     )
@@ -215,7 +218,13 @@ function complete_bp_raise()
     
     cm:remove_effect_bundle("rhox_nagash_ongoing", nagash_faction)
     cm:apply_effect_bundle("rhox_nagash_woke", nagash_faction, 0)
+    rhox_nagash_check_pyramid_status()
     
+    
+    
+    
+    
+    cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
     local nagash_character = cm:get_faction(nagash_faction):faction_leader()
     local region_key = nagash_character:region():name()
     local is_at_sea = nagash_character:is_at_sea()
@@ -355,8 +364,9 @@ function complete_bp_raise()
     )
     
     --core:trigger_custom_event("BlackPyramidRaised", {})
-
-    --[[
+    
+    
+    --below create agent causes error at some point so be cautious
     cm:create_agent(
         faction_key,
         "spy",
@@ -368,7 +378,9 @@ function complete_bp_raise()
 
         end
     )
-    --]]
+    
+    
+    cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
     cm:apply_dilemma_diplomatic_bonus(nagash_faction, "wh2_dlc09_tmb_khemri", -6)
     cm:apply_dilemma_diplomatic_bonus(nagash_faction, "wh2_dlc09_tmb_khemri", -6)
     trigger_mortarch_unlock_missions()

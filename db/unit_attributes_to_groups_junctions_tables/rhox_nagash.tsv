@@ -18,3 +18,6 @@ undead	nag_fear_terror_strider_guerrilla_hideForest_undead
 causes_fear	nag_fear_strider_undead
 strider	nag_fear_strider_undead
 undead	nag_fear_strider_undead
+causes_fear	nag_undead_chariot_unit_attributes
+hide_forest	nag_undead_chariot_unit_attributes
+undead	nag_undead_chariot_unit_attributes

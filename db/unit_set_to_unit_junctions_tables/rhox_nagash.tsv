@@ -394,3 +394,10 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_sneaky_sand	false
 			nag_sand_crawlies	nag_army_speed_scorpion_crawler	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_speed_scorpion_crawler	false
+			nag_undead_chariot_unit	mp_cap_group_chariots_warmachines	false
+			nag_undead_chariot_unit	mp_cap_group_360_degree_fire	false
+			nag_undead_chariot_unit	mp_cap_group_ranged_units	false
+			nag_undead_chariot_unit	nag_skeletons	false
+			nag_undead_chariot_unit	nag_skeletons_plus	false
+			nag_undead_chariot_unit	nag_chariots	false
+			nag_undead_chariot_unit	wh2_dlc09_tmb_chariots	false

@@ -1,4 +1,9 @@
 local nagash_faction = "mixer_nag_nagash"
+local pooled_resource_key = "nag_warpstone"
+
+local factions_with_pooled_resource = {
+    ["mixer_nag_nagash"] = true
+}
 
 
 
@@ -46,7 +51,7 @@ local function rhox_nagash_init_setting()
     cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
     cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
     cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
-    
+    cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
     --local new_faction_leader = faction:faction_leader()
     --cm:change_character_custom_name(new_faction_leader, common:get_localised_string("cultures_name_nag_nagash"), "", "", "")
     
@@ -179,7 +184,7 @@ local function add_nagash_listener()
 end
 
 
-
+--not using it
 local function rhox_nagash_swith_skarbrand_arkhan()
     local ska_faction = "wh3_main_kho_exiles_of_khorne"
     local arkhan_faction = "wh2_dlc09_tmb_followers_of_nagash"
@@ -230,6 +235,78 @@ local srr = ""
 local trr = ""
 
 
+
+function rhox_nagash_check_pyramid_status() --this is to apply blink effect. But not now
+    ------to add highlight effect
+    if cm:get_local_faction(true):has_effect_bundle("rhox_nagash_avail") then
+        --local blink_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "rhox_nagash_black_pyramid_holder", "blink_animation");
+        highlight_visible_component(true, false, "hud_campaign", "resources_bar_holder", "resources_bar", "rhox_nagash_black_pyramid_holder") --, "icon_effect"
+        --blink_ui:SetVisible(true)
+    else 
+        highlight_visible_component(false, false, "hud_campaign", "resources_bar_holder", "resources_bar", "rhox_nagash_black_pyramid_holder") --, "icon_effect"
+    end
+    
+    
+    --[[--let's not use this for now
+    -------------------to add vfx effect
+    if cm:get_local_faction(true):has_effect_bundle("rhox_nagash_woke") then
+        local vfx = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "rhox_nagash_black_pyramid_holder", "rhox_good_button_vfx");
+        vfx:SetVisible(true)
+    else
+        local vfx = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "rhox_nagash_black_pyramid_holder", "rhox_good_button_vfx");
+        vfx:SetVisible(false)
+    end
+    --]]
+    
+end
+
+
+
+local function get_or_create_pooled_resource_ui()
+    -- :root:hud_campaign:resources_bar_holder:resources_bar
+    local resource_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
+    if not resource_bar then
+        out("Could not find resource bar")
+        return
+    end
+    local existing_prui = find_uicomponent(resource_bar, pooled_resource_key.."_holder")
+    if existing_prui then
+        out("Found existing pooled resource UI")
+    else
+        out("Creating a PR UI for "..pooled_resource_key)
+        local prui = UIComponent(resource_bar:CreateComponent(pooled_resource_key.."_holder", "ui/campaign ui/warpstone_holder"))
+        prui:SetContextObject(cco("CcoCampaignFaction", cm:get_local_faction_name(true)))
+        prui:SetVisible(true)
+    end
+end
+
+local function pooled_resource_check_callback()
+    local local_faction = cm:get_local_faction_name(true)
+    if factions_with_pooled_resource[local_faction] then
+        local ok, err = pcall(get_or_create_pooled_resource_ui)
+        if not ok then
+            out("Error in pooled_resource_check_callback: "..tostring(err))
+        end
+    end
+end
+
+
+-----------------this is to remove the black pyramid end game
+cm:add_post_first_tick_callback(
+    function()
+        if cm:is_new_game() and #endgame.scenarios > 0 then --there is something in the end game scenarios
+            for i=1, #endgame.scenarios do
+                local value = endgame.scenarios[i]
+                if value == "endgame_pyramid_of_nagash" then
+                    table.remove(endgame.scenarios, i) --remove black pryramid
+                    break
+                end
+            end
+        end
+    end
+)
+
+
 cm:add_first_tick_callback(
 	function()
         pcall(function()
@@ -275,84 +352,30 @@ cm:add_first_tick_callback(
                 return false;
             end;
 
-
-            
+            rhox_nagash_check_pyramid_status()
             
 		end
+		
+		--------------------for pooled resource
+        cm:real_callback(pooled_resource_check_callback, 50, "add_pooled_resource_ui")
+        core:add_listener(
+            "rhox_nagash_pooled_resource_check",
+            "FactionTurnStart",
+            function (context)
+                return context:faction():name() == cm:get_local_faction_name(true)
+            end,
+            function (context)
+                pooled_resource_check_callback()
+                rhox_nagash_check_pyramid_status()
+            end,
+            
+            true)
         
 	end
 )
 
-cm:add_post_first_tick_callback(
-    function()
-        if cm:is_new_game() and #endgame.scenarios > 0 then --there is something in the end game scenarios
-            for i=1, #endgame.scenarios do
-                local value = endgame.scenarios[i]
-                if value == "endgame_pyramid_of_nagash" then
-                    table.remove(endgame.scenarios, i) --remove black pryramid
-                    break
-                end
-            end
-            --out("Rhox Nagash: end time check!")
-            --endgame:choose_scenario() --this is for debug comment it out before releasing!
-
-
-
-        end
-    end
-)
 
 
 
 
---------------------for pooled resource
 
-
-local pooled_resource_key = "nag_warpstone"
-
-local factions_with_pooled_resource = {
-    ["mixer_nag_nagash"] = true
-}
-
-local function get_or_create_pooled_resource_ui()
-    -- :root:hud_campaign:resources_bar_holder:resources_bar
-    local resource_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    if not resource_bar then
-        out("Could not find resource bar")
-        return
-    end
-    local existing_prui = find_uicomponent(resource_bar, pooled_resource_key.."_holder")
-    if existing_prui then
-        out("Found existing pooled resource UI")
-    else
-        out("Creating a PR UI for "..pooled_resource_key)
-        local prui = UIComponent(resource_bar:CreateComponent(pooled_resource_key.."_holder", "ui/campaign ui/warpstone_holder"))
-        prui:SetContextObject(cco("CcoCampaignFaction", cm:get_local_faction_name(true)))
-        prui:SetVisible(true)
-    end
-end
-
-local function pooled_resource_check_callback()
-    local local_faction = cm:get_local_faction_name(true)
-    if factions_with_pooled_resource[local_faction] then
-        local ok, err = pcall(get_or_create_pooled_resource_ui)
-        if not ok then
-            out("Error in pooled_resource_check_callback: "..tostring(err))
-        end
-    end
-end
-
-cm:add_first_tick_callback(function ()
-    --[[core:progress_on_loading_screen_dismissed(function ()
-        cm:real_callback(pooled_resource_check_callback, 50, "add_pooled_resource_ui")
-    end)]]--
-    cm:real_callback(pooled_resource_check_callback, 50, "add_pooled_resource_ui")
-    core:add_listener(
-        "rhox_nagash_pooled_resource_check",
-        "FactionTurnStart",
-        function (context)
-            return context:faction():name() == cm:get_local_faction_name(true)
-        end,
-        pooled_resource_check_callback,
-        true)
-end)

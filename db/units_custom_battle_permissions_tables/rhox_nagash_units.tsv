@@ -112,3 +112,4 @@ mixer_nag_nagash	false	nag_spirit_hosts	true	true				false
 mixer_nag_nagash	false	nag_spectre_swarm	true	true				false	
 mixer_nag_nagash	false	nag_virion_plaguecart	true	true				false	
 mixer_nag_nagash	false	nag_revenants	true	true				false	
+mixer_nag_nagash	false	nag_undead_chariot_unit	true	true				false	
