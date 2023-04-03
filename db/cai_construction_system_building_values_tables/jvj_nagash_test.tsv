@@ -48,3 +48,8 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 		nag_resource_salt_1	nag_resource_salt_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_resource_timber_1	nag_resource_timber_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	100	100
 		nag_resource_wine_1	nag_resource_wine_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+nag_resource_animals						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+nag_resource_medical						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+nag_resource_pastures						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+nag_resource_spices						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
+nag_resource_ivory						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10

@@ -303,20 +303,20 @@ function complete_bp_raise()
     mm:trigger()
 
 
-    --[[
+
     local mm_1 = mission_manager:new(nag_fact, "nag_waprstone_mines")
     mm_1:add_new_objective("OWN_N_REGIONS_INCLUDING");
-    mm_1:add_condition("region wh2_main_southlands_worlds_edge_mountains_karak_zorn");
-    mm_1:add_condition("region wh_main_desolation_of_nagash_karak_azul");
-    mm_1:add_condition("region wh2_main_the_wolf_lands_crookback_mountain");
-    mm_1:add_condition("region wh2_main_gnoblar_country_flayed_rock");
-    mm_1:add_condition("region wh_main_the_vaults_karak_izor");
-    mm_1:add_condition("region wh2_main_skavenblight_skavenblight");
-    mm_1:add_condition("region wh2_main_southern_dark_lands_desolation_of_drakenmoor");
-    mm_1:add_condition("region wh2_main_hell_pit_hell_pit");
-    mm_1:add_condition("region wh_main_gianthome_mountains_kraka_drak");
-    mm_1:add_condition("region wh2_main_deadwood_the_frozen_city");
-    mm_1:add_condition("region wh2_main_titan_peaks_ancient_city_of_quintex");
+    mm_1:add_condition("region wh3_main_combi_region_karak_zorn");
+    mm_1:add_condition("region wh3_main_combi_region_karak_azul");
+    mm_1:add_condition("region wh3_main_combi_region_crookback_mountain");
+    mm_1:add_condition("region wh3_main_combi_region_flayed_rock");
+    mm_1:add_condition("region wh3_main_combi_region_karak_izor");
+    mm_1:add_condition("region wh3_main_combi_region_skavenblight");
+    mm_1:add_condition("region wh3_main_combi_region_desolation_of_drakenmoor");
+    mm_1:add_condition("region wh3_main_combi_region_hell_pit");
+    mm_1:add_condition("region wh3_main_combi_region_kraka_drak");
+    mm_1:add_condition("region wh3_main_combi_region_the_frozen_city");
+    mm_1:add_condition("region wh3_main_combi_region_ancient_city_of_quintex");
     mm_1:add_condition("total 11");
     mm_1:add_payload("money 1000");
     mm_1:trigger()
@@ -332,7 +332,6 @@ function complete_bp_raise()
             cm:kill_character_and_commanded_unit("character_cqi:"..cqi, true, false)
         end
     end
---]]
     -- ruin the BP and set it as untargetable 
     --cm:set_region_abandoned(bp_key)
     --cm:cai_disable_targeting_against_settlement("settlement:"..bp_key)

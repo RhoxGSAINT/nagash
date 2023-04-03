@@ -17,7 +17,7 @@ nag_outpost_primary_nehek			money	false	nag_outpost_primary_nehek		1		true
 nag_outpost_primary_nagashizzar			money	false	nag_outpost_primary_nagashizzar		2		true
 nag_outpost_primary_coast			money	false	nag_outpost_primary_coast		3		true
 nag_outpost_primary_count			money	false	nag_outpost_primary_count		4		true
-nag_outpost_primary_warpstone			money	false	nag_outpost_primary_warpstone		5		true
+nag_outpost_primary_warpstone			money	false	nag_outpost_primary_warpstone		0		true
 nag_outpost_secondary_fields			money	false	nag_outpost_secondary_fields		1		true
 nag_outpost_secondary_corruption			money	false	nag_outpost_secondary_corruption		2		true
 nag_outpost_secondary_syphon			money	false	nag_outpost_secondary_syphon		3		true
@@ -57,3 +57,8 @@ nag_non_unique_settlement_infantry			military	false	nag_sch_settlement_infantry	
 nag_non_unique_settlement_ushabti			military	false	nag_sch_settlement_ushabti		5		true
 nag_non_unique_settlement_priest			military	false	nag_sch_settlement_priest		4		true
 nag_non_unique_settlement_spirit			military	false	nag_sch_settlement_spirit		6		true
+nag_resource_animals			money	false	wh2_main_sch_resource_animals		10		true
+nag_resource_medical			money	false	wh2_main_sch_resource_medicine		10		true
+nag_resource_pastures			money	false	wh_main_sch_human_resource_pastures		10		true
+nag_resource_spices			money	false	wh2_main_sch_resource_spices		10		true
+nag_resource_ivory			money	false	wh3_main_sch_human_resource_ivory		10		true
