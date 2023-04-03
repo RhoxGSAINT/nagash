@@ -1,0 +1,22 @@
+building	culture	subculture	faction	description	icon	disables	short_description	display_tooltip
+#building_culture_variants_tables;4;db/building_culture_variants_tables/rhox_nagash_non_unique								
+nag_non_unique_settlement_cavalry_1				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_1	true
+nag_non_unique_settlement_cavalry_2				wh_main_PLACEHOLDER	tmb_ cavalry_stables	false	wh2_dlc09_tmb_cavalry_2	true
+nag_non_unique_settlement_chariots_1				wh_main_PLACEHOLDER	tmb_ chariot_artillery	false	wh2_dlc09_tmb_chariots_1	true
+nag_non_unique_settlement_chariots_2				wh_main_PLACEHOLDER	tmb_ chariot_artillery	false	wh2_dlc09_tmb_chariots_2	true
+nag_non_unique_settlement_chariots_3				wh_main_PLACEHOLDER	tmb_ chariot_artillery	false	wh2_dlc09_tmb_chariots_3	true
+nag_non_unique_settlement_defence_major_1				wh_main_PLACEHOLDER	tmb_ walls	false	wh2_dlc09_tmb_walls_1	true
+nag_non_unique_settlement_defence_major_2				wh_main_PLACEHOLDER	tmb_ walls	false	wh2_dlc09_tmb_walls_2	true
+nag_non_unique_settlement_growth_1				wh_main_PLACEHOLDER	tmb_ growth	false	wh2_dlc09_tmb_growth_1	true
+nag_non_unique_settlement_growth_2				wh_main_PLACEHOLDER	tmb_ growth	false	wh2_dlc09_tmb_growth_2	true
+nag_non_unique_settlement_growth_3				wh_main_PLACEHOLDER	tmb_ growth	false	wh2_dlc09_tmb_growth_3	true
+nag_non_unique_settlement_income_1				wh_main_PLACEHOLDER	tmb_ income	false	wh2_dlc09_tmb_income_1	true
+nag_non_unique_settlement_income_2				wh_main_PLACEHOLDER	tmb_ income	false	wh2_dlc09_tmb_income_2	true
+nag_non_unique_settlement_income_3				wh_main_PLACEHOLDER	tmb_ income	false	wh2_dlc09_tmb_income_3	true
+nag_non_unique_settlement_infantry_1				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	wh2_dlc09_tmb_infantry_1	true
+nag_non_unique_settlement_infantry_2				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	wh2_dlc09_tmb_infantry_2	true
+nag_non_unique_settlement_infantry_3				wh_main_PLACEHOLDER	tmb_ infantry_barracks	false	wh2_dlc09_tmb_infantry_3	true
+nag_non_unique_settlement_ushabti_1				wh_main_PLACEHOLDER	tmb_ushabti	false	wh2_dlc09_tmb_ushabti_1	true
+nag_non_unique_settlement_priest_1				wh_main_PLACEHOLDER	nag_priest	false	nag_settlement_priest_1	true
+nag_non_unique_settlement_spirit_1				wh_main_PLACEHOLDER	nag_spirit	false	nag_settlement_spirit_1	true
+nag_non_unique_settlement_spirit_2				wh_main_PLACEHOLDER	nag_spirit	false	nag_settlement_spirit_2	true

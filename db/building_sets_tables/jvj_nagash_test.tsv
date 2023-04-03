@@ -1,0 +1,27 @@
+key	icon	sort_order	show_in_ui	audio_switch	colour_hex
+#building_sets_tables;5;db/building_sets_tables/jvj_nagash_test					
+nag_bpyramid_new_horde	placeholder	0	true	Province_Capital	FFFFFF
+nag_bpyramid_hidden	UI/Buildings/Icons/nag_cat_bp_owo.png	0	true		000000
+nag_bpyramid_settlement	placeholder	5	true	Province_Capital	3E3D38
+nag_bpyramid_settlement_support	UI/Buildings/Icons/empire_cat_landmark.png	1	true	Landmark	64143C
+nag_bpyramid_ew_recruitment	UI/Buildings/Icons/nag_cat_bp_ew_barracks.png	6	true	Military_Recruitment	781414
+nag_bpyramid_ww_recruitment	UI/Buildings/Icons/nag_cat_bp_ww_barracks.png	4	true	Military_Recruitment	781414
+nag_bpyramid_ew_military_support	UI/Buildings/Icons/nag_cat_bp_ew_advanced.png	7	true	Advanced_Military	4B4158
+nag_bpyramid_ww_military_support	UI/Buildings/Icons/nag_cat_bp_ww_advanced.png	3	true	Advanced_Military	4B4158
+nag_bpyramid_ew_infrastructure	UI/Buildings/Icons/nag_cat_bp_ew_other.png	8	true	Infrastructure	3E4739
+nag_bpyramid_ww_infrastructure	UI/Buildings/Icons/nag_cat_bp_ww_other.png	2	true	Infrastructure	3E4739
+nag_outpost_port	placeholder	1	true	Resource	354551
+nag_outpost_unique	UI/Buildings/Icons/empire_cat_landmark.png	2	true	Landmark	64143C
+nag_outpost_special_recruitment	UI/Buildings/Icons/nag_cat_recruitment.png	5	true	Resource	64143C
+nag_outpost_primary_outpost	UI/Buildings/Icons/vampire_cat_support.png	6	true	Province_Capital	4B4158
+nag_outpost_secondary_outpost	UI/Buildings/Icons/beastmen_cat_civic.png	7	true	Province_Capital	3E4739
+nag_horde_settlement	placeholder	0	true	Province_Capital	3E3D38
+nag_horde_unique	UI/Buildings/Icons/empire_cat_landmark.png	1	true	Landmark	64143C
+nag_horde_recruitment	UI/Buildings/Icons/tomb_kings_cat_basic_military.png	2	true	Military_Recruitment	781414
+nag_horde_military_support	UI/Buildings/Icons/tomb_kings_cat_advanced_military.png	3	true	Advanced_Military	4B4158
+nag_horde_infrastructure	UI/Buildings/Icons/tomb_kings_cat_infrastructure.png	5	true	Infrastructure	3E4739
+nag_subhorde_settlement	placeholder	0	true	Province_Capital	3E3D38
+nag_subhorde_unique	UI/Buildings/Icons/empire_cat_landmark.png	1	true	Landmark	64143C
+nag_subhorde_recruitment	UI/Buildings/Icons/tomb_kings_cat_basic_military.png	2	true	Military_Recruitment	781414
+nag_subhorde_military_support	UI/Buildings/Icons/tomb_kings_cat_advanced_military.png	3	true	Advanced_Military	4B4158
+nag_subhorde_infrastructure	UI/Buildings/Icons/tomb_kings_cat_infrastructure.png	5	true	Infrastructure	3E4739

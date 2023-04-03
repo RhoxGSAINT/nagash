@@ -1,0 +1,13 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/rhox_nagash_horde				
+	rhox_nagash_special_horde_boss	nag_bp_horde_primary		false
+	rhox_nagash_special_horde_arkhan	nag_arkhan_horde_primary		false
+	rhox_nagash_special_horde_vlad	nag_vlad_horde_primary		false
+	rhox_nagash_special_horde_neffy	nag_neferata_horde_primary		false
+	rhox_nagash_special_horde_manny	nag_mannfred_horde_primary		false
+	rhox_nagash_special_horde_krell	nag_krell_horde_primary		false
+	rhox_nagash_special_horde_luthor	nag_harkon_horde_primary		false
+	rhox_nagash_special_horde_husk	nag_husk_horde_primary		false
+	rhox_nagash_bp_horde_secondary	nag_bp_horde_secondary		false
+	rhox_nagash_subhorde_secondary	nag_subhorde_secondary		false
+	rhox_nag_horde_secondary	nag_horde_secondary		false
