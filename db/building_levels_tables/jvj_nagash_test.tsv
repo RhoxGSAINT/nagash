@@ -9,47 +9,47 @@ nag_outpost_secondary_main_1	nag_outpost_secondary_main	1	1	300	0		false	false		
 nag_outpost_main_port_ruin	nag_outpost_main_port	0	1	0	0		false	false		true	nag_outpost_main_port	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
 nag_outpost_main_port_1	nag_outpost_main_port	1	1	500	0		false	false		true	nag_outpost_main_port	false	0.0000	0	true	0	wh_cam_settlement_tombkings_port	true	0	0		1
 nag_outpost_special_nagashizzar_ruin	nag_outpost_special_nagashizzar	0	1	0	0		false	false		true	nag_outpost_special_nagashizzar	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
-nag_outpost_special_nagashizzar_1	nag_outpost_special_nagashizzar	1	2	800	0		false	false		true	nag_outpost_special_nagashizzar	false	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_nagashizzar_2	nag_outpost_special_nagashizzar	2	3	1600	0		false	false		true	nag_outpost_special_nagashizzar	false	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_nagashizzar_3	nag_outpost_special_nagashizzar	3	4	3200	0		false	false		true	nag_outpost_special_nagashizzar	false	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_nagashizzar_4	nag_outpost_special_nagashizzar	4	5	6400	0		false	false		true	nag_outpost_special_nagashizzar	false	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_nagashizzar_5	nag_outpost_special_nagashizzar	5	6	12800	0		false	false		true	nag_outpost_special_nagashizzar	false	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_nagashizzar_1	nag_outpost_special_nagashizzar	1	2	800	0		false	false		true	nag_outpost_special_nagashizzar	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_nagashizzar_2	nag_outpost_special_nagashizzar	2	3	1600	0		false	false		true	nag_outpost_special_nagashizzar	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_nagashizzar_3	nag_outpost_special_nagashizzar	3	4	3200	0		false	false		true	nag_outpost_special_nagashizzar	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_nagashizzar_4	nag_outpost_special_nagashizzar	4	5	6400	0		false	false		true	nag_outpost_special_nagashizzar	true	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_nagashizzar_5	nag_outpost_special_nagashizzar	5	6	12800	0		false	false		true	nag_outpost_special_nagashizzar	true	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_mourkain_ruin	nag_outpost_special_mourkain	0	1	0	0		false	false		true	nag_outpost_special_mourkain	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
-nag_outpost_special_mourkain_1	nag_outpost_special_mourkain	1	2	800	0		false	false		true	nag_outpost_special_mourkain	false	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_mourkain_2	nag_outpost_special_mourkain	2	3	1600	0		false	false		true	nag_outpost_special_mourkain	false	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_mourkain_3	nag_outpost_special_mourkain	3	4	3200	0		false	false		true	nag_outpost_special_mourkain	false	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_mourkain_4	nag_outpost_special_mourkain	4	5	6400	0		false	false		true	nag_outpost_special_mourkain	false	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_mourkain_5	nag_outpost_special_mourkain	5	6	12800	0		false	false		true	nag_outpost_special_mourkain	false	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_mourkain_1	nag_outpost_special_mourkain	1	2	800	0		false	false		true	nag_outpost_special_mourkain	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_mourkain_2	nag_outpost_special_mourkain	2	3	1600	0		false	false		true	nag_outpost_special_mourkain	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_mourkain_3	nag_outpost_special_mourkain	3	4	3200	0		false	false		true	nag_outpost_special_mourkain	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_mourkain_4	nag_outpost_special_mourkain	4	5	6400	0		false	false		true	nag_outpost_special_mourkain	true	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_mourkain_5	nag_outpost_special_mourkain	5	6	12800	0		false	false		true	nag_outpost_special_mourkain	true	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_lahmia_ruin	nag_outpost_special_lahmia	0	1	0	0		false	false		true	nag_outpost_special_lahmia	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
-nag_outpost_special_lahmia_1	nag_outpost_special_lahmia	1	2	800	0		false	false		true	nag_outpost_special_lahmia	false	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_lahmia_2	nag_outpost_special_lahmia	2	3	1600	0		false	false		true	nag_outpost_special_lahmia	false	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_lahmia_3	nag_outpost_special_lahmia	3	4	3200	0		false	false		true	nag_outpost_special_lahmia	false	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_lahmia_4	nag_outpost_special_lahmia	4	5	6400	0		false	false		true	nag_outpost_special_lahmia	false	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_lahmia_5	nag_outpost_special_lahmia	5	6	12800	0		false	false		true	nag_outpost_special_lahmia	false	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_lahmia_1	nag_outpost_special_lahmia	1	2	800	0		false	false		true	nag_outpost_special_lahmia	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_lahmia_2	nag_outpost_special_lahmia	2	3	1600	0		false	false		true	nag_outpost_special_lahmia	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_lahmia_3	nag_outpost_special_lahmia	3	4	3200	0		false	false		true	nag_outpost_special_lahmia	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_lahmia_4	nag_outpost_special_lahmia	4	5	6400	0		false	false		true	nag_outpost_special_lahmia	true	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_lahmia_5	nag_outpost_special_lahmia	5	6	12800	0		false	false		true	nag_outpost_special_lahmia	true	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_khemri_ruin	nag_outpost_special_khemri	0	1	0	0		false	false		true	nag_outpost_special_khemri	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
-nag_outpost_special_khemri_1	nag_outpost_special_khemri	1	2	800	0		false	false		true	nag_outpost_special_khemri	false	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_khemri_2	nag_outpost_special_khemri	2	3	1600	0		false	false		true	nag_outpost_special_khemri	false	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_khemri_3	nag_outpost_special_khemri	3	4	3200	0		false	false		true	nag_outpost_special_khemri	false	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_khemri_4	nag_outpost_special_khemri	4	5	6400	0		false	false		true	nag_outpost_special_khemri	false	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_khemri_5	nag_outpost_special_khemri	5	6	12800	0		false	false		true	nag_outpost_special_khemri	false	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_khemri_1	nag_outpost_special_khemri	1	2	800	0		false	false		true	nag_outpost_special_khemri	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_khemri_2	nag_outpost_special_khemri	2	3	1600	0		false	false		true	nag_outpost_special_khemri	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_khemri_3	nag_outpost_special_khemri	3	4	3200	0		false	false		true	nag_outpost_special_khemri	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_khemri_4	nag_outpost_special_khemri	4	5	6400	0		false	false		true	nag_outpost_special_khemri	true	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_khemri_5	nag_outpost_special_khemri	5	6	12800	0		false	false		true	nag_outpost_special_khemri	true	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_awakening_ruin	nag_outpost_special_awakening	0	1	0	0		false	false		true	nag_outpost_special_awakening	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
-nag_outpost_special_awakening_1	nag_outpost_special_awakening	1	2	800	0		false	false		true	nag_outpost_special_awakening	false	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_awakening_2	nag_outpost_special_awakening	2	3	1600	0		false	false		true	nag_outpost_special_awakening	false	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_awakening_3	nag_outpost_special_awakening	3	4	3200	0		false	false		true	nag_outpost_special_awakening	false	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_awakening_4	nag_outpost_special_awakening	4	5	6400	0		false	false		true	nag_outpost_special_awakening	false	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_awakening_5	nag_outpost_special_awakening	5	6	12800	0		false	false		true	nag_outpost_special_awakening	false	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_awakening_1	nag_outpost_special_awakening	1	2	800	0		false	false		true	nag_outpost_special_awakening	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_awakening_2	nag_outpost_special_awakening	2	3	1600	0		false	false		true	nag_outpost_special_awakening	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_awakening_3	nag_outpost_special_awakening	3	4	3200	0		false	false		true	nag_outpost_special_awakening	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_awakening_4	nag_outpost_special_awakening	4	5	6400	0		false	false		true	nag_outpost_special_awakening	true	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_awakening_5	nag_outpost_special_awakening	5	6	12800	0		false	false		true	nag_outpost_special_awakening	true	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_drakenhof_ruin	nag_outpost_special_drakenhof	0	1	0	0		false	false		true	nag_outpost_special_drakenhof	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
-nag_outpost_special_drakenhof_1	nag_outpost_special_drakenhof	1	2	800	0		false	false		true	nag_outpost_special_drakenhof	false	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_drakenhof_2	nag_outpost_special_drakenhof	2	3	1600	0		false	false		true	nag_outpost_special_drakenhof	false	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_drakenhof_3	nag_outpost_special_drakenhof	3	4	3200	0		false	false		true	nag_outpost_special_drakenhof	false	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_drakenhof_4	nag_outpost_special_drakenhof	4	5	6400	0		false	false		true	nag_outpost_special_drakenhof	false	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_drakenhof_5	nag_outpost_special_drakenhof	5	6	12800	0		false	false		true	nag_outpost_special_drakenhof	false	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_drakenhof_1	nag_outpost_special_drakenhof	1	2	800	0		false	false		true	nag_outpost_special_drakenhof	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_drakenhof_2	nag_outpost_special_drakenhof	2	3	1600	0		false	false		true	nag_outpost_special_drakenhof	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_drakenhof_3	nag_outpost_special_drakenhof	3	4	3200	0		false	false		true	nag_outpost_special_drakenhof	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_drakenhof_4	nag_outpost_special_drakenhof	4	5	6400	0		false	false		true	nag_outpost_special_drakenhof	true	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_drakenhof_5	nag_outpost_special_drakenhof	5	6	12800	0		false	false		true	nag_outpost_special_drakenhof	true	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_quintex_ruin	nag_outpost_special_quintex	0	0	0	0		false	false		true	nag_outpost_special_quintex	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0
-nag_outpost_special_quintex_1	nag_outpost_special_quintex	0	1	800	0		false	false		true	nag_outpost_special_quintex	false	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_quintex_2	nag_outpost_special_quintex	1	2	1600	0		false	false		true	nag_outpost_special_quintex	false	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_quintex_3	nag_outpost_special_quintex	2	3	3200	0		false	false		true	nag_outpost_special_quintex	false	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_quintex_4	nag_outpost_special_quintex	3	4	6400	0		false	false		true	nag_outpost_special_quintex	false	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_outpost_special_quintex_5	nag_outpost_special_quintex	4	5	12800	0		false	false		true	nag_outpost_special_quintex	false	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_quintex_1	nag_outpost_special_quintex	0	1	800	0		false	false		true	nag_outpost_special_quintex	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_quintex_2	nag_outpost_special_quintex	1	2	1600	0		false	false		true	nag_outpost_special_quintex	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_quintex_3	nag_outpost_special_quintex	2	3	3200	0		false	false		true	nag_outpost_special_quintex	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_quintex_4	nag_outpost_special_quintex	3	4	6400	0		false	false		true	nag_outpost_special_quintex	true	0.0000	4	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
+nag_outpost_special_quintex_5	nag_outpost_special_quintex	4	5	12800	0		false	false		true	nag_outpost_special_quintex	true	0.0000	5	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_primary_research_1	nag_outpost_primary_research	0	1	750	0		false	false		false	nag_outpost_primary_research	false	0.0000	0	true	1		true	0	0		0
 nag_outpost_primary_arcane_1	nag_outpost_primary_arcane	0	1	750	0		false	false		false	nag_outpost_primary_arcane	false	0.0000	0	true	1		true	0	0		0
 nag_outpost_primary_support_1	nag_outpost_primary_support	0	1	750	0		false	false		false	nag_outpost_primary_support	false	0.0000	0	true	1		true	0	0		0
@@ -57,7 +57,7 @@ nag_outpost_primary_nehek_1	nag_outpost_primary_nehek	0	0	1250	0		false	false		f
 nag_outpost_primary_nagashizzar_1	nag_outpost_primary_nagashizzar	0	0	1250	0		false	false		false	nag_outpost_primary_exclusive_recruit	false	0.0000	0	true	1		true	0	0		0
 nag_outpost_primary_coast_1	nag_outpost_primary_coast	0	0	1250	0		false	false		false	nag_outpost_primary_exclusive_recruit	false	0.0000	0	true	1		true	0	0		0
 nag_outpost_primary_count_1	nag_outpost_primary_count	0	0	1250	0		false	false		false	nag_outpost_primary_exclusive_recruit	false	0.0000	0	true	1		true	0	0		0
-nag_outpost_primary_warpstone_1	nag_outpost_primary_warpstone	0	1	1500	0		false	false		false	nag_outpost_primary_warpstone	false	0.0000	0	true	1		true	0	0		0
+nag_outpost_primary_warpstone_1	nag_outpost_primary_warpstone	0	1	1500	0		false	false		false	nag_outpost_primary_warpstone	false	0.0000	0	true	1	wh_cam_resource_mining	true	0	0		0
 nag_outpost_secondary_fields_1	nag_outpost_secondary_fields	0	1	500	0		false	false		false	nag_outpost_secondary_fields	false	0.0000	0	true	1		true	0	0		0
 nag_outpost_secondary_corruption_1	nag_outpost_secondary_corruption	0	1	500	0		false	false		false	nag_outpost_secondary_corruption	false	0.0000	0	true	1		true	0	0		0
 nag_outpost_secondary_syphon_1	nag_outpost_secondary_syphon	0	1	500	0		false	false		false	nag_outpost_secondary_syphon	false	0.0000	0	true	1		true	0	0		0

@@ -4,4 +4,4 @@ res_nag_coast		0	ui\campaign ui\effect_bundles\res_nag_coast.png	0	false	true
 res_nag_counts		0	ui\campaign ui\effect_bundles\res_nag_counts.png	0	false	true
 res_nag_nagash		0	ui\campaign ui\effect_bundles\res_nag_nagash.png	0	false	true
 res_nag_nehek		0	ui\campaign ui\effect_bundles\res_nag_nehek.png	0	false	true
-res_nag_warpstone		0	ui/skins/default/icon_warpstone_large.png	0	false	true
+res_nag_warpstone		0	ui\skins\default\icon_warpstone_large.png	0	false	true

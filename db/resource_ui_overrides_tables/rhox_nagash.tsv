@@ -1,27 +1,5 @@
 override_faction	override_subculture	source_resource	target_resource
 #resource_ui_overrides_tables;0;db/resource_ui_overrides_tables/rhox_nagash			
-	mixer_nag_nagash	res_location_brt_wef_hef	
-	mixer_nag_nagash	res_location_brt	
-	mixer_nag_nagash	res_location_def	
-	mixer_nag_nagash	res_location_dwf_grn_skv	
-	mixer_nag_nagash	res_location_dwf_grn	
-	mixer_nag_nagash	res_location_dwf_skv	
-	mixer_nag_nagash	res_location_dwf	
-	mixer_nag_nagash	res_location_emp_brt	
-	mixer_nag_nagash	res_location_emp_vmp_brt	
-	mixer_nag_nagash	res_location_emp_vmp	
-	mixer_nag_nagash	res_location_emp	
-	mixer_nag_nagash	res_location_grn	
-	mixer_nag_nagash	res_location_hef_def	
-	mixer_nag_nagash	res_location_hef_wef	
-	mixer_nag_nagash	res_location_hef	
-	mixer_nag_nagash	res_location_lzd	
-	mixer_nag_nagash	res_location_skv_lzd	
-	mixer_nag_nagash	res_location_skv	
-	mixer_nag_nagash	res_location_tmb	
-	mixer_nag_nagash	res_location_vmp_arkhan	
-	mixer_nag_nagash	res_location_vmp	
-	mixer_nag_nagash	res_location_xef_emp_brt	
 	wh_dlc03_sc_bst_beastmen	res_nag_coast	
 	wh_dlc05_sc_wef_wood_elves	res_nag_coast	
 	wh_main_sc_brt_bretonnia	res_nag_coast	
