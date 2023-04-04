@@ -8,6 +8,7 @@ local rite_status = {
 }
 
 
+
 --- unlock rite + show event message
 local function unlock_rite(rite_key)
     if rite_status[rite_key] == nil then
@@ -57,7 +58,7 @@ function unlock_rites_listeners()
             function(context)
 --                 out("Rhox Nagash Nagwinds")
                 if not rite_status.nag_winds then
-                    self:logf("MilitaryForceBuildingCompleteEvent!")
+                    out("MilitaryForceBuildingCompleteEvent!")
                     unlock_rite("nag_winds")
                     rite_status.nag_winds = true
                 end

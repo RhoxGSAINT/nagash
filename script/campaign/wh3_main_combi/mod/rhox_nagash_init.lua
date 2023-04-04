@@ -181,6 +181,52 @@ local function add_nagash_listener()
 		end,
 		true
 	);
+	
+	core:add_listener(
+        "NagashWarpstone",
+        "FactionTurnStart",
+        function(context)
+            return context:faction():name() == nagash_faction
+
+        end,
+        function(context)
+            local region_list=context:faction():region_list()
+            local num_items = region_list:num_items()
+            for i=0,num_items-1 do
+                local region = region_list:item_at(i)
+                if region:bonus_values():scripted_value("rhox_nagash_warpstone_chance", "value") > 0 then
+                   --- calculate chance!
+                    local turn = cm:model():turn_number()
+                    -- number of turns between now (say, 15) and the last turn we got Warpstone (say, 10) which would be (say, 5 turns since last)
+                    
+                    if not cm:get_saved_value("nag_turn_last_acquired_warpstone"..region:name()) then 
+                        cm:set_saved_value("nag_turn_last_acquired_warpstone"..region:name(), 1) 
+                        out("Rhox Nagash: You haven't discovered warpstone from here before. Setting initial turn count to 1")
+                    end
+
+
+                    local turns_since_last = turn - cm:get_saved_value("nag_turn_last_acquired_warpstone"..region:name())
+
+                    -- 20/25/30/etc until 0 again
+                    local chance = region:bonus_values():scripted_value("rhox_nagash_warpstone_chance", "value") + (5 * turns_since_last)
+                    
+                    if chance >= 100 then chance = 100 end
+                    out("Rhox Nagash: This is your chance for "..region:name()..": "..chance)
+                    
+                    local val = cm:random_number(100)
+                    if val <= chance then
+                        cm:faction_add_pooled_resource(nagash_faction, "nag_warpstone", "nag_warpstone_buildings", 1)
+                        cm:set_saved_value("nag_turn_last_acquired_warpstone"..region:name(), turn)
+                        out("Rhox Nagash:Adding Warpstones")
+                    end
+                    
+                    --- TODO "soak up" mechanic, ie. apply a permanent bundle to a region when it's gotten enough Warpstone. 
+                end
+            end
+        end,
+        true
+    )
+
 end
 
 
@@ -343,7 +389,7 @@ cm:add_first_tick_callback(
             rhox_nagash_add_black_pyramid_listener()
             unlock_rites_listeners() --unlock rite with conditions
             rhox_nagash_add_teleport_listener() --add teleport network if quintax is controlled, and spawn Damon army when the player uses them.
-
+            rhox_nagash_trigger_rites_listeners()
 
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
             local result = core:get_or_create_component("rhox_nagash_black_pyramid_holder", "ui/campaign ui/black_pyramid_holder.twui.xml", parent_ui)
