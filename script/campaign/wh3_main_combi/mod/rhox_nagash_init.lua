@@ -308,33 +308,6 @@ end
 
 
 
-local function get_or_create_pooled_resource_ui()
-    -- :root:hud_campaign:resources_bar_holder:resources_bar
-    local resource_bar = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar")
-    if not resource_bar then
-        out("Could not find resource bar")
-        return
-    end
-    local existing_prui = find_uicomponent(resource_bar, pooled_resource_key.."_holder")
-    if existing_prui then
-        out("Found existing pooled resource UI")
-    else
-        out("Creating a PR UI for "..pooled_resource_key)
-        local prui = UIComponent(resource_bar:CreateComponent(pooled_resource_key.."_holder", "ui/campaign ui/warpstone_holder"))
-        prui:SetContextObject(cco("CcoCampaignFaction", cm:get_local_faction_name(true)))
-        prui:SetVisible(true)
-    end
-end
-
-local function pooled_resource_check_callback()
-    local local_faction = cm:get_local_faction_name(true)
-    if factions_with_pooled_resource[local_faction] then
-        local ok, err = pcall(get_or_create_pooled_resource_ui)
-        if not ok then
-            out("Error in pooled_resource_check_callback: "..tostring(err))
-        end
-    end
-end
 
 
 -----------------this is to remove the black pyramid end game
@@ -353,11 +326,102 @@ cm:add_post_first_tick_callback(
 )
 
 
+function rhox_nagash_grandspell_ui()
+    local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+    
+    if cm:get_saved_value("grand_spell_status_nag_grand_spell_01") == true then --do ui stuff
+        local grand1 = core:get_or_create_component("rhox_nagash_grand_spell1_holder", "ui/campaign ui/rhox_nagash_grandspell1.twui.xml", parent_ui)
+        if not grand1 then
+            script_error("Rhox Nagash: ".. "ERROR: could not create grand spell1 ui component? How can this be?");
+            return false;
+        end;
+        cm:callback(
+            function()
+                local amount = cm:get_local_faction(true):pooled_resource_manager():resource("nag_grand_spell_01"):value()
+                out("Rhox Nagash: Grand Spell 1 value: ".. amount)
+                local pp1=find_child_uicomponent_by_index(grand1, 0)
+                if not pp1 then
+                    return
+                end
+                local pp2=find_child_uicomponent_by_index(pp1, 1)
+                if not pp2 then
+                    return
+                end
+                local pip=find_child_uicomponent_by_index(pp2, 0)
+                if not pip then
+                    return
+                end
+                pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
+                
+            end,
+            0.2
+        )
+    end
+    if cm:get_saved_value("grand_spell_status_nag_grand_spell_02") ==true then --do ui stuff
+        local grand2 = core:get_or_create_component("rhox_nagash_grand_spell2_holder", "ui/campaign ui/rhox_nagash_grandspell2.twui.xml", parent_ui)
+        if not grand2 then
+            script_error("Rhox Nagash: ".. "ERROR: could not create grand spell2 ui component? How can this be?");
+            return false;
+        end;
+        cm:callback(
+            function()
+                local amount = cm:get_local_faction(true):pooled_resource_manager():resource("nag_grand_spell_02"):value()
+                local pp1=find_child_uicomponent_by_index(grand2, 0)
+                if not pp1 then
+                    return
+                end
+                local pp2=find_child_uicomponent_by_index(pp1, 1)
+                if not pp2 then
+                    return
+                end
+                local pip=find_child_uicomponent_by_index(pp2, 0)
+                if not pip then
+                    return
+                end
+                out("Rhox Nagash: Grand Spell 2 value: ".. amount)
+                pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
+            end,
+            0.2
+        )
+    end
+    if cm:get_saved_value("grand_spell_status_nag_grand_spell_03") ==true then --do ui stuff
+        local grand3 = core:get_or_create_component("rhox_nagash_grand_spell3_holder", "ui/campaign ui/rhox_nagash_grandspell3.twui.xml", parent_ui)
+        if not grand3 then
+            script_error("Rhox Nagash: ".. "ERROR: could not create grand spell3 ui component? How can this be?");
+            return false;
+        end;
+        cm:callback(
+            function()
+                local amount = cm:get_local_faction(true):pooled_resource_manager():resource("nag_grand_spell_03"):value()
+                local pp1=find_child_uicomponent_by_index(grand3, 0)
+                if not pp1 then
+                    return
+                end
+                local pp2=find_child_uicomponent_by_index(pp1, 1)
+                if not pp2 then
+                    return
+                end
+                local pip=find_child_uicomponent_by_index(pp2, 0)
+                if not pip then
+                    return
+                end
+                out("Rhox Nagash: Grand Spell 3 value: ".. amount)
+                pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
+            end,
+            0.2
+        )
+    end
+    
+    
+end
+
+
 cm:add_first_tick_callback(
 	function()
         pcall(function()
             mixer_set_faction_trait("mixr_nag_nagash", "wh2_main_lord_trait_vmp_nagash", true)
         end)
+
 		if cm:is_new_game() then
             local nagash_interface = cm:get_faction(nagash_faction)
             for i = 1, #ror_units do
@@ -397,25 +461,21 @@ cm:add_first_tick_callback(
                 script_error("Rhox Nagash: ".. "ERROR: could not create black pyramid ui component? How can this be?");
                 return false;
             end;
-
+            
+            
+            local result2 = core:get_or_create_component("rhox_nagash_warpstone_holder", "ui/campaign ui/warpstone_holder.twui.xml", parent_ui)
+            if not result2 then
+                script_error("Rhox Nagash: ".. "ERROR: could not create warpstone ui component? How can this be?");
+                return false;
+            end;
+            
+            
+            rhox_nagash_grandspell_ui()
             rhox_nagash_check_pyramid_status()
             
 		end
 		
-		--------------------for pooled resource
-        cm:real_callback(pooled_resource_check_callback, 50, "add_pooled_resource_ui")
-        core:add_listener(
-            "rhox_nagash_pooled_resource_check",
-            "FactionTurnStart",
-            function (context)
-                return context:faction():name() == cm:get_local_faction_name(true)
-            end,
-            function (context)
-                pooled_resource_check_callback()
-                rhox_nagash_check_pyramid_status()
-            end,
-            
-            true)
+
         
 	end
 )

@@ -1,11 +1,8 @@
 key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
 #effect_bundles_tables;4;db/effect_bundles_tables/rhox_nagash								
-wh2_main_lord_trait_vmp_nagash	ph	ph	faction	1	character.png	false	false	true
+wh2_main_lord_trait_vmp_nagash	ph	ph	faction	1	character.png	true	false	true
 nag_nagash_group	ph	ph	faction	1	character.png	false	false	true
 nag_bundle_stance_army_settlement_horde		Stance: Encamp	force	1	icon_effects_fortify.png	true	false	true
-nag_ability_enable_batocalypse	ph	ph	faction	0	 	false	false	true
-nag_ability_enable_endless_tomb	ph	ph	faction	0	 	false	false	true
-nag_ability_enable_blyramid_bombardment	ph	ph	faction	0	 	false	false	true
 nag_man			faction	1	character.png	true	false	true
 nag_divinity			faction	1	icon_effects_fortify.png	true	false	true
 nag_death			faction	1	character.png	true	false	true
@@ -56,3 +53,6 @@ rhox_nagash_disabled	This is UI enabler		faction	1		true	true	false
 rhox_nagash_avail	This is UI enabler		faction	1		true	true	false
 rhox_nagash_ongoing	This is UI enabler		faction	1		true	true	false
 rhox_nagash_woke	This is UI enabler		faction	1		true	true	false
+nag_grand_spell_01_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
+nag_grand_spell_02_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
+nag_grand_spell_03_20	[HIDDEN]	HIDDEN	faction	0		true	false	true

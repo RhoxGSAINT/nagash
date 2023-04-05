@@ -1,0 +1,15 @@
+member	context	max_range	min_range
+#campaign_group_member_criteria_numeric_ranges_tables;1;db/campaign_group_member_criteria_numeric_ranges_tables/rhox_nagash			
+nag_grand_spell_01_20	VALUE	20	20
+nag_grand_spell_02_20	VALUE	20	20
+nag_grand_spell_03_20	VALUE	20	20
+wh3_main_corruption_vampiric_1-10_mixer_nag_nagash	VALUE	10	1
+wh3_main_corruption_vampiric_11-20_mixer_nag_nagash	VALUE	20	11
+wh3_main_corruption_vampiric_21-30_mixer_nag_nagash	VALUE	30	21
+wh3_main_corruption_vampiric_31-40_mixer_nag_nagash	VALUE	40	31
+wh3_main_corruption_vampiric_41-50_mixer_nag_nagash	VALUE	50	41
+wh3_main_corruption_vampiric_51-60_mixer_nag_nagash	VALUE	60	51
+wh3_main_corruption_vampiric_61-70_mixer_nag_nagash	VALUE	70	61
+wh3_main_corruption_vampiric_71-80_mixer_nag_nagash	VALUE	80	71
+wh3_main_corruption_vampiric_81-90_mixer_nag_nagash	VALUE	90	81
+wh3_main_corruption_vampiric_91-100_mixer_nag_nagash	VALUE	100	91
