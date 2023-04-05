@@ -29,7 +29,21 @@ local function rhox_nagash_begin_bp_raise()
     end
     out("Rhox Nagash: In the function")
     cm:complete_scripted_mission_objective(nagash_faction, "nag_bp_raise", "nag_bp_raise", true)
-    --cm:perform_ritual(nagash_faction, "", "nag_bp_raise")  -- I don't think we have to do this
+    
+    --- wound Nagash Husk and replace it. 
+    -------------------------
+    --[[
+    local leader = cm:get_faction(nagash_faction):faction_leader()
+    local leader_lookup = cm:char_lookup_str(leader)
+    out("Rhox Nagash: leader lookup string is: "..leader_lookup)
+    --cm:remove_unit_from_character(leader_lookup, "nag_nagash_husk")
+    --cm:kill_character(leader_lookup, false)
+    --cm:wound_character(leader_lookup, 999)
+    --cm:remove_unit_from_character(leader_lookup, "nag_nagash_husk")
+    --]]
+    
+    
+
 
     --- trigger mission for "survive"
     local mm = mission_manager:new(nagash_faction, "nag_bp_survive")
@@ -45,8 +59,7 @@ local function rhox_nagash_begin_bp_raise()
     cm:apply_effect_bundle("rhox_nagash_ongoing", nagash_faction, 0)
     rhox_nagash_check_pyramid_status() --remove the highlight
     
-    --- wound Nagash Husk and replace it. 
-    -------------------------
+    
     
     
     --- set a composite scene on the settlement
@@ -56,8 +69,9 @@ local function rhox_nagash_begin_bp_raise()
     --cm:add_garrison_residence_vfx(garrison_residence_CQI, "scripted_effect5", true);
     -- Make the Black Pyramid fly!
 	cm:override_building_chain_display("wh2_dlc09_special_settlement_pyramid_of_nagash_tmb", "wh2_dlc09_special_settlement_pyramid_of_nagash_floating")
-
-    
+	cm:override_building_chain_display("nag_outpost_special_blackpyramid", "wh2_dlc09_special_settlement_pyramid_of_nagash_floating")
+    out("Rhox Nagash: Added flying scene to the settlement")
+        
     --cm:add_garrison_residence_vfx(cm:get_region("wh3_main_combi_region_black_pyramid_of_nagash"):garrison_residence():command_queue_index(), "scripted_effect3", true);
     cm:add_scripted_composite_scene_to_settlement("nag_bp_raise", "wh2_dlc16_wef_healing_ritual", region, 0, 0, false, true, false)
 
@@ -337,6 +351,7 @@ function complete_bp_raise()
     --cm:cai_disable_targeting_against_settlement("settlement:"..bp_key)
     
     cm:override_building_chain_display("wh2_dlc09_special_settlement_pyramid_of_nagash_tmb", "wh2_dlc09_tmb_settlement_major")
+    cm:override_building_chain_display("nag_outpost_special_blackpyramid", "wh2_dlc09_tmb_settlement_major")
 
     --cm:force_religion_factors(bp_key, "wh_main_religion_undeath", 1)
 
@@ -365,6 +380,7 @@ function complete_bp_raise()
     --core:trigger_custom_event("BlackPyramidRaised", {})
     
     
+    --[[
     --below create agent causes error at some point so be cautious
     cm:create_agent(
         faction_key,
@@ -377,6 +393,7 @@ function complete_bp_raise()
 
         end
     )
+    --]]
     
     
     cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);

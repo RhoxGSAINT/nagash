@@ -2,103 +2,94 @@
 <layout
 	version="138"
 	comment=""
-	precache_condition="">
+	precache_condition="IsSkinActive(&quot;warhammer3&quot;) == false">
 	<hierarchy>
-		<root this="8DD348EF-BA92-9CB0-C051671B8A020E06">
-			<custom_pooled_resource_holder this="3DF52410-929C-4AE9-B8E5C90C561A1BEC">
-				<dy_pooled_resource this="63F44E4A-140A-F02F-9E26FA381A106A2B">
-					<icon this="E10FE2C6-D205-2988-9BAED13C017F37BB"/>
-				</dy_pooled_resource>
-			</custom_pooled_resource_holder>
+		<root this="38F8A4C4-E0A7-A484-795E777992E91A63">
+            <resource_iron_holder this="57AAFF92-9B12-A95A-0093FBED7BE0AA1D">
+                <resource_iron this="6E7DA3C5-1F2C-F84E-D9FB8E0D660DEAA2"/>
+            </resource_iron_holder>
 		</root>
 	</hierarchy>
 	<components>
-		<root
-			this="8DD348EF-BA92-9CB0-C051671B8A020E06"
+        <root
+			this="38F8A4C4-E0A7-A484-795E777992E91A63"
 			id="root"
 			tooltipslocalised="true"
-			uniqueguid="8DD348EF-BA92-9CB0-C051671B8A020E06"
-			currentstate="FF808053-B810-E063-59AFC74E407C3FEF"
-			defaultstate="FF808053-B810-E063-59AFC74E407C3FEF">
+			uniqueguid="38F8A4C4-E0A7-A484-795E777992E91A63"
+			currentstate="362D107F-11D9-CAAA-2FAFACC3986BA7A4"
+			defaultstate="362D107F-11D9-CAAA-2FAFACC3986BA7A4">
 			<componentimages>
 				<component_image
-					this="DB7255E7-935F-8F1D-791063316C98C36A"
-					uniqueguid="DB7255E7-935F-8F1D-791063316C98C36A"/>
+					this="927C6AE0-896E-A150-72CB85D25A467703"
+					uniqueguid="927C6AE0-896E-A150-72CB85D25A467703"/>
 			</componentimages>
 			<states>
 				<default
-					this="FF808053-B810-E063-59AFC74E407C3FEF"
+					this="362D107F-11D9-CAAA-2FAFACC3986BA7A4"
 					name="default"
 					width="1600"
 					height="900"
 					texthbehaviour="Never split"
 					interactive="true"
-					uniqueguid="FF808053-B810-E063-59AFC74E407C3FEF">
+					uniqueguid="362D107F-11D9-CAAA-2FAFACC3986BA7A4">
 					<imagemetrics>
 						<image
-							this="2BD93676-6452-4F93-1DB242549010FDF7"
-							uniqueguid="2BD93676-6452-4F93-1DB242549010FDF7"
-							componentimage="DB7255E7-935F-8F1D-791063316C98C36A"
+							this="2E32523A-EA73-87EF-76AD7BDB448E1ADC"
+							uniqueguid="2E32523A-EA73-87EF-76AD7BDB448E1ADC"
+							componentimage="927C6AE0-896E-A150-72CB85D25A467703"
 							width="1600"
 							height="900"
-							colour="#B3B3B3FF"/>
+							colour="#F0F0F0FF"/>
 					</imagemetrics>
 				</default>
 			</states>
 		</root>
-		<custom_pooled_resource_holder
-			this="3DF52410-929C-4AE9-B8E5C90C561A1BEC"
-			id="custom_pooled_resource_holder"
-			offset="1532.00,0.00"
+        <resource_iron_holder
+			this="57AAFF92-9B12-A95A-0093FBED7BE0AA1D"
+			id="resource_iron_holder"
+			offset="0.00,0.00"
 			allowverticalresize="false"
-			priority="1"
+			docking="Top Center"
+			dock_offset="0.00,0.00"
+			component_anchor_point="0.50,0.50"
 			tooltipslocalised="true"
-			uniqueguid="3DF52410-929C-4AE9-B8E5C90C561A1BEC"
-			currentstate="C7A93B49-4EAD-BDF5-B81BD3267EF00FDD"
-			defaultstate="C7A93B49-4EAD-BDF5-B81BD3267EF00FDD">
+            visible="true"
+			uniqueguid="57AAFF92-9B12-A95A-0093FBED7BE0AA1D"
+			currentstate="BFBA59BB-ADC8-A56E-3E4705E1E673F077"
+			defaultstate="BFBA59BB-ADC8-A56E-3E4705E1E673F077">
+			<states>
+				<newstate
+					this="BFBA59BB-ADC8-A56E-3E4705E1E673F077"
+					name="NewState"
+					width="70"
+					height="36"
+					texthbehaviour="Never split"
+					uniqueguid="BFBA59BB-ADC8-A56E-3E4705E1E673F077">
+				</newstate>
+			</states>
+            <LayoutEngine
+				type="HorizontalList"
+				spacing="40.00,0.00"
+				secondary_margins="13.00,0.00"
+				margins="30.00,0.00"/>
+		</resource_iron_holder>
+        <resource_iron
+			this="6E7DA3C5-1F2C-F84E-D9FB8E0D660DEAA2"
+			id="resource_iron"
+			offset="0.00,0.00"
+			allowverticalresize="false"
+			docking="Center"
+			component_anchor_point="0.00,0.00"
+			componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}"
+			tooltiplabel="resource_rampage_Tooltip_7e002a"
+			uniqueguid="6E7DA3C5-1F2C-F84E-D9FB8E0D660DEAA2"
+			currentstate="FDEDFD9F-9192-365C-C6755EE101F9FA79"
+			defaultstate="FDEDFD9F-9192-365C-C6755EE101F9FA79">
 			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_object_id="CcoCampaignFaction"
-					context_function_id="IsScriptLockActive(&quot;hide_faction_specific_pooled_resource&quot;) == false">
-					<child_m_user_properties>
-						<property
-							name="event0"
-							value="CampaignScriptLockChanged_hide_faction_specific_pooled_resource"/>
-					</child_m_user_properties>
-				</callback_with_context>
 				<callback_with_context
 					callback_id="ContextPropagator"
-					context_object_id="CcoCampaignFaction"/>
-			</callbackwithcontextlist>
-			<states>
-				<default
-					this="C7A93B49-4EAD-BDF5-B81BD3267EF00FDD"
-					name="default"
-					width="336"
-					height="53"
-					texthbehaviour="Never split"
-					uniqueguid="C7A93B49-4EAD-BDF5-B81BD3267EF00FDD"/>
-			</states>
-			<LayoutEngine
-				type="HorizontalList"
-				spacing="4.00,0.00"
-				sizetocontent="true"
-				secondary_margins="8.00,0.00"
-				margins="0.00,10.00"/>
-		</custom_pooled_resource_holder>
-		<dy_pooled_resource
-			this="63F44E4A-140A-F02F-9E26FA381A106A2B"
-			id="dy_pooled_resource"
-			offset="0.00,8.00"
-			allowverticalresize="false"
-			priority="1"
-			componentleveltooltip="{{tt:ui/campaign ui/tooltip_pooled_resource_breakdown}}"
-			tooltiplabel="ComponentTooltip_6cd375c8"
-			uniqueguid="63F44E4A-140A-F02F-9E26FA381A106A2B"
-			currentstate="B1EC4F68-8237-3B3B-A46C40E44C228FD8"
-			defaultstate="B1EC4F68-8237-3B3B-A46C40E44C228FD8">
-			<callbackwithcontextlist>
+					context_object_id="CcoStaticObject"
+					context_function_id="PlayersFaction.PooledResourceContext(&quot;nag_warpstone&quot;)"/>
 				<callback_with_context
 					callback_id="ContextTextLabel"
 					context_object_id="CcoCampaignPooledResource"
@@ -110,79 +101,49 @@
 					</child_m_user_properties>
 				</callback_with_context>
 				<callback_with_context
-					callback_id="ContextComponentInitialiser"
-					context_object_id="CcoCampaignFaction"
-					context_function_id="PooledResourceContext(&quot;nag_warpstone&quot;)"/>
+					callback_id="ContextImageSetter"
+					context_object_id="CcoCampaignPooledResource"
+					context_function_id="IconPath"/>
 				<callback_with_context
 					callback_id="ContextCustomTooltipStore"
 					context_object_id="CcoCampaignPooledResource"/>
 			</callbackwithcontextlist>
+            <componentimages>
+				<component_image
+					this="E198F262-DBCE-A229-A0C6FD077F4665F4"
+					uniqueguid="E198F262-DBCE-A229-A0C6FD077F4665F4"
+					imagepath="ui/skins/default/icon_warpstone.png"/>
+			</componentimages>
 			<states>
-				<default
-					this="B1EC4F68-8237-3B3B-A46C40E44C228FD8"
-					name="default"
-					width="62"
+				<newstate
+					this="FDEDFD9F-9192-365C-C6755EE101F9FA79"
+					name="NewState"
+					width="24"
+					height="24"
 					text="9999"
-					textxoffset="26.00,0.00"
-					textyoffset="9.00,0.00"
+					textvalign="Center"
+					textxoffset="0.00,0.00"
 					texthbehaviour="Resize"
-					textlabel="dy_devotion_default_Text_0"
+					textlabel="resource_iron_NewState_Text_0"
 					font_m_size="12"
 					font_m_colour="#FFF8D7FF"
 					font_m_leading="3"
 					fontcat_name="fe_text"
 					interactive="true"
-					disabled="true"
-					text_shader_name="drop_shadow_t0"
-					textshadervars="-1.00,-1.00,1.00,0.00"
-					uniqueguid="B1EC4F68-8237-3B3B-A46C40E44C228FD8"/>
-			</states>
-		</dy_pooled_resource>
-		<icon
-			this="E10FE2C6-D205-2988-9BAED13C017F37BB"
-			id="icon"
-			offset="0.00,1.00"
-			allowhorizontalresize="false"
-			allowverticalresize="false"
-			docking="Center Left"
-			dock_offset="0.00,-2.00"
-			component_anchor_point="0.00,0.50"
-			priority="1"
-			tooltipslocalised="true"
-			uniqueguid="E10FE2C6-D205-2988-9BAED13C017F37BB"
-			currentstate="C626C7CC-D09E-B50A-A3D7B722C8B7A8CB"
-			defaultstate="C626C7CC-D09E-B50A-A3D7B722C8B7A8CB">
-            <callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextImageSetter"
-					context_object_id="CcoCampaignPooledResource"
-					context_function_id="IconPath"/>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="D83C3A7D-2593-CB09-C2E987E0C3B92A71"
-					uniqueguid="D83C3A7D-2593-CB09-C2E987E0C3B92A71"
-					imagepath="ui/skins/default/icon_warpstone.png"/>
-			</componentimages>
-			<states>
-				<default
-					this="C626C7CC-D09E-B50A-A3D7B722C8B7A8CB"
-					name="default"
-					width="26"
-					height="26"
-					texthbehaviour="Never split"
-					disabled="true"
-					uniqueguid="C626C7CC-D09E-B50A-A3D7B722C8B7A8CB">
-					<imagemetrics>
+					uniqueguid="FDEDFD9F-9192-365C-C6755EE101F9FA79">
+                    <imagemetrics>
 						<image
-							this="C2A891D2-7E85-B041-8EC5308E2D1756EB"
-							uniqueguid="C2A891D2-7E85-B041-8EC5308E2D1756EB"
-							componentimage="D83C3A7D-2593-CB09-C2E987E0C3B92A71"
-							width="26"
-							height="26"/>
+							this="2F24435F-6724-53D0-70B5050EAA8DBD9A"
+							uniqueguid="2F24435F-6724-53D0-70B5050EAA8DBD9A"
+							componentimage="E198F262-DBCE-A229-A0C6FD077F4665F4"
+                            offset="-30.00,0.00"
+							width="24"
+							height="24"
+							canresizeheight="false"
+							canresizewidth="false"/>
 					</imagemetrics>
-				</default>
+				</newstate>
 			</states>
-		</icon>
+		</resource_iron>
 	</components>
 </layout>

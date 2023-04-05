@@ -550,3 +550,17 @@ key	building	unit	xp	conditions	faction	enabled
 8427384	nag_settlement_spirit_4	nag_carrion_riders	0	0		false
 8427385	nag_settlement_spirit_4	nag_mortis_engine	0	0		false
 8427386	nag_settlement_chariots_3	nag_undead_chariot_unit	0	0		false
+8427387	nag_outpost_special_blackpyramid_1	nag_vanilla_vmp_inf_zombie	0	0		false
+8427388	nag_outpost_special_blackpyramid_1	nag_vanilla_tmb_inf_skeleton_spearmen_0	0	0		false
+8427389	nag_outpost_special_blackpyramid_1	nag_vanilla_tmb_inf_skeleton_warriors_0	0	0		false
+8427390	nag_outpost_special_blackpyramid_2	nag_vanilla_vmp_inf_zombie	0	0		false
+8427391	nag_outpost_special_blackpyramid_2	nag_vanilla_tmb_inf_skeleton_archers_0	0	0		false
+8427392	nag_outpost_special_blackpyramid_2	nag_vanilla_tmb_inf_skeleton_spearmen_0	0	0		false
+8427393	nag_outpost_special_blackpyramid_2	nag_vanilla_tmb_inf_skeleton_warriors_0	0	0		false
+8427394	nag_outpost_special_blackpyramid_3	nag_vanilla_vmp_inf_zombie	0	0		false
+8427395	nag_outpost_special_blackpyramid_3	nag_vanilla_tmb_inf_skeleton_archers_0	0	0		false
+8427396	nag_outpost_special_blackpyramid_3	nag_vanilla_tmb_inf_skeleton_spearmen_0	0	0		false
+8427397	nag_outpost_special_blackpyramid_3	nag_vanilla_tmb_inf_skeleton_warriors_0	0	0		false
+8427398	nag_outpost_special_blackpyramid_3	nag_nagashi_guard	0	0		false
+8427399	nag_outpost_special_blackpyramid_3	nag_nagashi_guard_halb	0	0		false
+8427400	nag_outpost_special_blackpyramid_3	nag_bone_golems	0	0		false

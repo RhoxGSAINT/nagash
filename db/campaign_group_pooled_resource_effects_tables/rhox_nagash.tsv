@@ -1,0 +1,5 @@
+campaign_group	effect_bundle	effect_type
+#campaign_group_pooled_resource_effects_tables;2;db/campaign_group_pooled_resource_effects_tables/rhox_nagash		
+nag_grand_spell_01_20	nag_grand_spell_01_20	ABSOLUTE_VALUE
+nag_grand_spell_02_20	nag_grand_spell_02_20	ABSOLUTE_VALUE
+nag_grand_spell_03_20	nag_grand_spell_03_20	ABSOLUTE_VALUE

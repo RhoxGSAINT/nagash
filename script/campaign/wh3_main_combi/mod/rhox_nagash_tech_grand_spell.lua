@@ -1,5 +1,18 @@
 local nagash_faction = "mixer_nag_nagash"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_faction, faction_type)
     -- spawns markers which will later spawn invasion armies
     -- self:logf("++++++tech invasions throw_enemies_at_settlement !")
@@ -30,6 +43,7 @@ local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_f
 
 end
 
+
 function rhox_nagash_trigger_rites_listeners()
 
     core:add_listener(
@@ -49,7 +63,7 @@ function rhox_nagash_trigger_rites_listeners()
                 cm:make_region_visible_in_shroud(nag_fact, "wh3_main_combi_region_the_awakening")
                 cm:make_region_visible_in_shroud(nag_fact, "wh3_main_combi_region_castle_drakenhof")
                 cm:make_region_visible_in_shroud(nag_fact, "wh3_main_combi_region_ancient_city_of_quintex")
-        
+                rhox_nagash_grandspell_ui()
             end,
             true
     )
@@ -99,5 +113,117 @@ function rhox_nagash_trigger_rites_listeners()
         end,
         true
     )
+    
+    core:add_listener(
+		"rhox_azhag_battle_completed",
+		"CharacterCompletedBattle",
+        function(context)
+            return context:character():faction():name() == nagash_faction
+        end,
+		function(context)
+			local pending_battle = cm:model():pending_battle()
+            local total_card_number;
+            local card_table;
+			if pending_battle:has_been_fought() == true then
+                local faction = cm:get_faction(nagash_faction);
+                
+            
+                local grand1_used = 0
+                grand1_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_endless_tomb")					
+
+                if grand1_used > 0 then
+                    cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_01", "nag_grand_spell_01_recharge", -20);
+                end
+                
+                local grand2_used = 0
+                grand2_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_batocalypse")					
+
+                if grand2_used > 0 then
+                    cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_02", "nag_grand_spell_02_recharge", -20);
+                end
+                
+                local grand3_used = 0
+                grand3_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_00")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_01")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_02")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_03")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_04")
+
+                if grand3_used > 0 then
+                    cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_03", "nag_grand_spell_03_recharge", -20);
+                end
+                rhox_nagash_grandspell_ui()
+            end
+		end,
+		true
+	);
+    
+    
+    -- build the BP main 3
+    core:add_listener(
+        "nag_grand_spell_01_unlocking",
+        "MilitaryForceBuildingCompleteEvent",
+        function(context)
+            return context:building() == "nag_bpyramid_main_3";
+        end,
+        function(context)
+            out("nag_grand_spell_01_unlocking!")
+            cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_01", "nag_grand_spell_01_recharge", 20)            
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_01", true)
+            rhox_nagash_grandspell_ui()
+        end,
+        true
+    )
+    
+    -- build the BP obelisk 4
+    core:add_listener(
+        "nag_grand_spell_02_unlocking",
+        "MilitaryForceBuildingCompleteEvent",
+        function(context)
+            return context:building() == "nag_bpyramid_main_obelisk_4";
+        end,
+        function(context)
+            out("nag_grand_spell_02_unlocking!")
+            cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_02", "nag_grand_spell_02_recharge", 20)            
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_02", true)
+            rhox_nagash_grandspell_ui()
+        end,
+        true
+    )
+
+    -- build the BP main 5
+    core:add_listener(
+        "nag_grand_spell_03_unlocking",
+        "MilitaryForceBuildingCompleteEvent",
+        function(context)
+            return context:building() == "nag_bpyramid_main_5";
+        end,
+        function(context)
+            out("nag_grand_spell_03_unlocking!")
+            cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_03", "nag_grand_spell_03_recharge", 20)            
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_03", true)
+            rhox_nagash_grandspell_ui()
+        end,
+        true
+    )
+    
+    
+    core:add_listener(
+        "rhox_nagash_ritual_event",
+        "RitualCompletedEvent",
+        function(context)
+            return context:performing_faction():is_human() and context:ritual():ritual_key() == "nag_winds"
+        end,
+        function(context)
+            if cm:get_saved_value("grand_spell_status_nag_grand_spell_01") ==true then
+                cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_01", "nag_grand_spell_01_recharge", 20)            
+            end
+            if cm:get_saved_value("grand_spell_status_nag_grand_spell_02") ==true then
+                cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_02", "nag_grand_spell_02_recharge", 20)            
+            end
+            if cm:get_saved_value("grand_spell_status_nag_grand_spell_03") ==true then
+                cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_03", "nag_grand_spell_03_recharge", 20)            
+            end
+            
+            rhox_nagash_grandspell_ui()
+        end,
+        true
+    )    
 
 end

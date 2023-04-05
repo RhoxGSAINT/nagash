@@ -94,3 +94,9 @@ effect_bundles_localised_title_nag_effect_edict_tempest_of_death	Tempest of Deat
 effect_bundles_localised_description_nag_effect_edict_tempest_of_death	A chill wind surges across the land, necrotic energy infusing with the bodies of the dead to spirit them towards the nearest battlefield.	true
 effect_bundles_localised_title_nag_effect_edict_chains_of_life	Chains of Life	true
 effect_bundles_localised_description_nag_effect_edict_chains_of_life	Shackled by the chains of life, set these mortals free.	true
+effect_bundles_localised_description_nag_grand_spell_01_20	{{tr:tooltip_nag_grand_spell_01}}	false
+effect_bundles_localised_description_nag_grand_spell_02_20	{{tr:tooltip_nag_grand_spell_02}}	false
+effect_bundles_localised_description_nag_grand_spell_03_20	{{tr:tooltip_nag_grand_spell_03}}	false
+effect_bundles_localised_title_nag_grand_spell_01_20	Endless Tomb	true
+effect_bundles_localised_title_nag_grand_spell_02_20	Apocalyptic Swarm	true
+effect_bundles_localised_title_nag_grand_spell_03_20	Wrath of the Gods	true
