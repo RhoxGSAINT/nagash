@@ -143,7 +143,7 @@ function rhox_nagash_trigger_rites_listeners()
                 end
                 
                 local grand3_used = 0
-                grand3_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_00")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_01")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_02")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_03")+pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_04")
+                grand3_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_targeting") --other bombardments are called by this
 
                 if grand3_used > 0 then
                     cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_03", "nag_grand_spell_03_recharge", -20);
