@@ -79,12 +79,6 @@ local mort_key_to_faction_key ={
 }
 
 
-
-
-
-
-
-
 local mort_key_to_name ={
     ["nag_mortarch_arkhan"]="nag_nagash_name_arkhan",
     ["nag_mortarch_vlad"]="nag_nagash_name_vlad",
@@ -93,6 +87,88 @@ local mort_key_to_name ={
     ["nag_mortarch_neferata"]="nag_nagash_name_neferata",
     ["nag_mortarch_krell"]="nag_nagash_name_krell",
     ["nag_mortarch_isabella"]="nag_nagash_name_isabella"
+}
+
+local mort_key_to_region ={
+    ["nag_mortarch_arkhan"]="wh3_main_combi_region_quatar",
+    ["nag_mortarch_vlad"]="wh3_main_combi_region_castle_drakenhof",
+    ["nag_mortarch_mannfred"]="wh3_main_combi_region_castle_drakenhof",
+    ["nag_mortarch_luthor"]="wh3_main_combi_region_the_awakening",
+    ["nag_mortarch_neferata"]="wh3_main_combi_region_silver_pinnacle",
+    ["nag_mortarch_krell"]="wh3_main_combi_region_morgheim",
+    ["nag_mortarch_isabella"]="wh3_main_combi_region_castle_drakenhof"
+}
+
+local mort_key_to_units={
+    ["nag_mortarch_arkhan"]={
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_tmb_inf_nehekhara_warriors_0",
+        "nag_vanilla_tmb_veh_skeleton_chariot_0",
+        "nag_vanilla_tmb_mon_tomb_scorpion_0",
+        "nag_nagashi_guard_halb",
+        "nag_nagashi_guard_halb",
+    },
+    ["nag_mortarch_vlad"]={
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_mon_dire_wolves",
+        "nag_vanilla_vmp_mon_dire_wolves",
+        "nag_vanilla_vmp_mon_fell_bats",
+        "nag_vanilla_vmp_cav_black_knights_3",
+        "nag_vanilla_vmp_mon_vargheists",
+        "nag_vanilla_vmp_mon_vargheists",
+        "nag_nagashi_guard_halb",
+        "nag_vanilla_vmp_cav_blood_knights_0",
+    },
+    ["nag_mortarch_mannfred"]={
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_cav_black_knights_0",
+        "nag_vanilla_vmp_cav_black_knights_0",
+        "nag_vanilla_vmp_mon_varghulf",
+        "nag_vanilla_vmp_mon_varghulf",
+        "nag_nagashi_guard",
+    },
+    ["nag_mortarch_luthor"]={
+        "nag_vanilla_cst_mon_bloated_corpse_0",
+        "nag_vanilla_cst_mon_bloated_corpse_0",
+        "nag_vanilla_cst_art_carronade",
+        "nag_vanilla_cst_inf_zombie_deckhands_mob_0",
+        "nag_vanilla_cst_inf_zombie_deckhands_mob_0",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_0",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_0",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
+        "nag_vanilla_cst_inf_zombie_gunnery_mob_1",
+        "nag_nagashi_guard_halb",
+        "nag_vanilla_cst_mon_necrofex_colossus_0",
+    },
+    ["nag_mortarch_neferata"]={
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_tmb_inf_tomb_guard_0",
+        "nag_vanilla_tmb_inf_tomb_guard_0",
+        "nag_vanilla_vmp_mon_fell_bats",
+        "nag_nagashi_guard_halb",
+        "nag_nagashi_guard_halb",
+    },
+    ["nag_mortarch_krell"]= {                               
+        "nag_vanilla_vmp_inf_skeleton_warriors_1",
+        "nag_vanilla_vmp_inf_grave_guard_0",
+        "nag_vanilla_vmp_inf_grave_guard_0",
+        "nag_vanilla_vmp_inf_grave_guard_0",
+        "nag_vanilla_vmp_inf_grave_guard_1",
+        "nag_vanilla_vmp_inf_grave_guard_1",
+        "nag_vanilla_vmp_inf_grave_guard_1",
+        "nag_nagashi_guard",
+    },
+    ["nag_mortarch_isabella"]=""
 }
 
 
@@ -188,14 +264,14 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     local new_character
 
     out("This leader does not have a military force. Maybe he is wounded")
-    local region_key = nagash_character:region():name()
-    local is_at_sea = nagash_character:is_at_sea()
+    local region_key = mort_key_to_region[mort_key]
+    local is_at_sea = false--nagash_character:is_at_sea()
     --out("Rhox Nagash: region key: "..region_key)
     local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, is_at_sea, true, 5)
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     nagash_faction,
-    "",
+    table.concat(mort_key_to_units[mort_key], ","),
     region_key,
     new_x,
     new_y,
@@ -238,30 +314,37 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
     
     local new_character
     --out("Rhox Nagash: new character subtype: "..mort_key)
-    local region_key = nagash_character:region():name()
-    local is_at_sea = nagash_character:is_at_sea()
+    --local region_key = nagash_character:region():name()
+    local region_key = mort_key_to_region[mort_key]
+    --local is_at_sea = nagash_character:is_at_sea()
     --out("Rhox Nagash: region key: "..region_key)
-    local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, is_at_sea, true, 5)
+    local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, false, true, 5)
     --out("New x: "..new_x)
     --out("New y: "..new_y)
-    cm:create_force_with_general(
-    -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
-    nagash_faction,
-    "",
-    region_key,
-    new_x,
-    new_y,
-    "general",
-    mort_key,
-    "",
-    "",
-    "",
-    "",
-    false,
-    function(cqi)
-        new_character = cm:get_character_by_cqi(cqi)
-    end);
-   
+    if mort_key == "nag_mortarch_isabella" then
+        cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, "dignitary", mort_key)
+        new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "dignitary", mort_key)
+    else
+        cm:create_force_with_general(
+        -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+        nagash_faction,
+        table.concat(mort_key_to_units[mort_key], ","),
+        region_key,
+        new_x,
+        new_y,
+        "general",
+        mort_key,
+        "",
+        "",
+        "",
+        "",
+        false,
+        function(cqi)
+            new_character = cm:get_character_by_cqi(cqi)
+        end);
+    end
+    
+    
     --local new_character = cm:get_most_recently_created_character_of_type(nagash_faction)
     local forename = common.get_localised_string(mort_key_to_name[mort_key])
     cm:change_character_custom_name(new_character, forename, "","","")
@@ -293,7 +376,7 @@ function mortarch_unlock_listeners()
             local nagash_interface = cm:get_faction(nagash_faction)
 
             
-
+            
             local faction_key = mort_key_to_faction_key[mort_key]
             if faction_key ~= nil then --do something more if that Mortarch has faction
                 out("faction key: "..faction_key)
@@ -306,6 +389,8 @@ function mortarch_unlock_listeners()
             else
                 spawn_mortarch(mort_key)--just spawn one as this one does not have a faction
             end
+            
+            --spawn_mortarch(mort_key)--scrap the upgrade idea
     
             if mort_key == "nag_mortarch_vlad" then
                 spawn_mortarch("nag_mortarch_isabella")--spawn isabella also if it's Vlad

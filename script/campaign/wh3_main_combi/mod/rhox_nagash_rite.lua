@@ -124,6 +124,96 @@ function unlock_rites_listeners()
             false
         )
     end
+    
+    local function get_random_mortarch(faction)
+        local morts = {}
+        local char_list = self:get_faction():character_list()
+        for i = 0, char_list:num_items() -1 do
+            local char = char_list:item_at(i)
+            if char:has_military_force() and char:region():is_null_interface() == false and char:character_subtype_key():find("_mortarch_") then 
+                morts[#morts+1] = char
+            end
+        end
+
+        if #morts == 0 then return nil end
+
+        return morts[cm:random_number(#morts)]
+    end
+
+    random_army_manager:new_force("nag_death")
+
+    --- Will always be 1 Nagashi Guard
+    random_army_manager:add_mandatory_unit("nag_death", "nag_nagashi_guard", 1)
+
+    --- Numbers here are "weights", which are pooled to determine chance.
+    random_army_manager:add_unit("nag_death", "nag_spirit_hosts", 2)
+    random_army_manager:add_unit("nag_death", "nag_vanilla_tmb_cav_skeleton_horsemen_0", 2)
+    random_army_manager:add_unit("nag_death", "nag_vanilla_tmb_inf_skeleton_archers_0", 2)
+    random_army_manager:add_unit("nag_death", "nag_vanilla_tmb_inf_skeleton_spearmen_0", 6)
+    random_army_manager:add_unit("nag_death", "nag_vanilla_vmp_inf_zombie", 6)
+    
+    core:add_listener(
+        "NagDeath",
+        "RitualCompletedEvent",
+        function(context)
+            return context:ritual():ritual_key() == "nag_death"
+        end,
+        function(context)
+            
+            --- spawn a death army at Nagash, at BP, or at a random Mortarch, or at a random settlement, in that order.
+            local faction = cm:get_faction(nagash_faction)
+            local nag = cm:get_faction(nagash_faction):faction_leader()
+            local key = nagash_faction
+            local x,y,region
+            if nag:has_military_force() and nag:region():is_null_interface() == false then
+                x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..nag:command_queue_index(), true, 5)
+                region = nag:region():name()
+            else
+                -- check BP
+                local bp = cm:get_region("wh3_main_combi_region_black_pyramid_of_nagash")
+                if bp and bp:owning_faction():is_null_interface() == false and bp:owning_faction():name() == key then 
+                    x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, "wh3_main_combi_region_black_pyramid_of_nagash", false, true, 5)
+                    region = bp
+                else
+                    -- check for a random mortarch
+                    local random_mort = get_random_mortarch(faction)
+                    if random_mort then
+                        x,y = cm:find_valid_spawn_location_for_character_from_character(key, "character_cqi:"..random_mort:command_queue_index(), true, 5)
+                        region = random_mort:region():name()
+                    else
+                        -- check for a random settlement
+                        local settlement_list = faction:region_list()
+                        local random_settlement = settlement_list:item_at(cm:random_number(settlement_list:num_items()-1, 0))
+
+                        x,y = cm:find_valid_spawn_location_for_character_from_settlement(key, random_settlement:name(), false, true, 5)
+                        region = random_settlement:name()
+                    end
+                end
+            end
+
+            --- spawn the army
+            cm:create_force(
+                key,
+                random_army_manager:generate_force("nag_death", 19, false),
+                region,
+                x,
+                y,
+                true,
+                function(char_cqi, mf_cqi)
+                    local mf = cm:get_military_force_by_cqi(mf_cqi)
+                    --- TODO apply EB for the duration of the ritual
+                    local eb_key = "nag_death_shambling_horde"
+                    cm:apply_effect_bundle_to_force(eb_key, mf_cqi, 5)
+
+                    -- cm:convert_force_to_type(mf, "nag_shambling_horde")
+                end,
+                false
+            )
+
+            --- TODO add an event message
+        end,
+        true
+    )
 end
 
 

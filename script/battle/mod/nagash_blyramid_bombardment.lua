@@ -141,9 +141,11 @@ end
 
 -- main loop, cleans up UI of whatever got killed last cycle (used for blyramid bombard) and runs unit scan function from both sides
 local function update()
-    --[[
+    
+	
+	
+	--[[
 	local ui_root = core:get_ui_root()
-	--
 	local event_icon = find_uicomponent(ui_root, "hud_battle", "radar_holder", "radar_group", "adc_frame", "event_icon")
 	if event_icon then
 		local label = find_uicomponent(event_icon, "label")
@@ -181,8 +183,30 @@ local function update()
         scan_units_for_targets(alliance_armies, enemy_armies)
 		scan_units_for_targets(enemy_armies, alliance_armies)
     end)
-
+    
+    local abilities_need_hiding={
+        "button_holder_nag_army_abilities_endless_tomb_hidden_dummy",
+        "button_holder_nag_army_abilities_blyramid_bombardment_00",
+        "button_holder_nag_army_abilities_blyramid_bombardment_01",
+        "button_holder_nag_army_abilities_blyramid_bombardment_02",
+        "button_holder_nag_army_abilities_blyramid_bombardment_03",
+        "button_holder_nag_army_abilities_blyramid_bombardment_04",
+        "button_holder_nag_blyramid_itself"
+    }
+    
 	
+	local army_ability_parent = find_uicomponent(core:get_ui_root(), "hud_battle", "army_ability_container", "army_ability_parent")
+	if not army_ability_parent then
+        return
+    end
+    for i=1,#abilities_need_hiding do
+        local ability = find_uicomponent(army_ability_parent, abilities_need_hiding[i])
+        if not ability then
+            return
+        end
+        ability:SetVisible(false)
+    end
+    
 end
 
 

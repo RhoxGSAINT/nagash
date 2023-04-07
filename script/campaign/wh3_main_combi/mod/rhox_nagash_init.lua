@@ -468,6 +468,24 @@ function rhox_nagash_grandspell_ui()
 end
 
 
+local raise_dead_units={
+    nag_vanilla_tmb_inf_skeleton_archers_0 = {1, 20, 1},
+    nag_vanilla_tmb_inf_skeleton_spearmen_0 = {1, 20, 1},
+    nag_vanilla_tmb_inf_skeleton_warriors_0 = {1, 20, 1},
+    nag_vanilla_tmb_inf_nehekhara_warriors_0 = {0, 10, 1},
+    nag_vanilla_vmp_inf_skeleton_warriors_0 = {1, 20, 1},
+    nag_vanilla_vmp_inf_skeleton_warriors_1 = {1, 20, 1},
+    nag_vanilla_vmp_inf_zombie = {2, 35, 3},
+    nag_vanilla_vmp_mon_dire_wolves = {0, 20, 1},
+    nag_vanilla_vmp_mon_fell_bats = {1, 20, 2},
+    nag_vanilla_cst_inf_zombie_gunnery_mob_0 = {2, 20, 2},
+    nag_vanilla_cst_inf_zombie_gunnery_mob_1 = {1, 20, 1},
+    nag_vanilla_cst_inf_zombie_deckhands_mob_1 = {0, 10, 1},
+    nag_vanilla_cst_inf_zombie_deckhands_mob_0 = {1, 50, 3},
+    nag_vanilla_cst_mon_bloated_corpse_0 = {1, 35, 3}
+}
+
+
 cm:add_first_tick_callback(
 	function()
         pcall(function()
@@ -497,13 +515,22 @@ cm:add_first_tick_callback(
                 cm:apply_effect_bundle("rhox_nagash_disabled", nagash_faction, 0)
                 cm:set_saved_value("bp_ritual_available", false)
             end
+            
+            local region_list = cm:model():world():region_manager():region_list()
+            for i=0,region_list:num_items()-1 do
+                local region= region_list:item_at(i)
+                for key, unit in pairs(raise_dead_units) do
+                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
+                end
+            end
+            
 		end
 
         if cm:get_local_faction_name(true) == nagash_faction then
 			add_nagash_listener()
             mortarch_unlock_listeners()
             rhox_nagash_add_black_pyramid_listener()
-            unlock_rites_listeners() --unlock rite with conditions
+            unlock_rites_listeners() --unlock rite with conditions, and rite complete script
             rhox_nagash_add_teleport_listener() --add teleport network if quintax is controlled, and spawn Damon army when the player uses them.
             rhox_nagash_trigger_rites_listeners()
 
@@ -524,7 +551,7 @@ cm:add_first_tick_callback(
             
             rhox_nagash_grandspell_ui()
             rhox_nagash_check_pyramid_status()
-            
+            rhox_nag_add_harkon_listener()
 		end
 		
 
