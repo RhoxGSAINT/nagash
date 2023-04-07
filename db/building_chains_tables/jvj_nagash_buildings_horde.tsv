@@ -34,7 +34,7 @@ nag_horde_infrastructure1_growth			money	false	nag_horde_infrastructure1_growth	
 nag_horde_infrastructure2_industry			money	false	nag_horde_infrastructure2_industry		11		true
 nag_horde_infrastructure3_energy			money	false	nag_horde_infrastructure3_energy		12		true
 nag_horde_infrastructure4_other			money	false	nag_horde_infrastructure4_other		13		true
-nag_nagash_horde_special			military	false	nag_nagash_horde_special	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
+nag_nagash_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
 nag_nagash_horde_landmark			military	false	nag_nagash_horde_landmark		2	nag_nagash_husk	true
 nag_subhorde_main			military	false	nag_subhorde_main	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
 nag_subhorde_military0_guard			military	false	nag_subhorde_military0_guard		2		true

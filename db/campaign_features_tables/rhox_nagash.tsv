@@ -3,3 +3,4 @@ feature	group	available
 additional_army_upkeep	rhox_nagash_feature_group	false
 enslaving_captives_replenishes_hitpoints	rhox_nagash_feature_group	true
 undead_unit_saving_postbattle	rhox_nagash_feature_group	true
+vampiric_mercenary_recruitment	rhox_nagash_feature_group	true

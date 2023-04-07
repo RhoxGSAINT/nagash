@@ -253,7 +253,15 @@ function complete_bp_raise()
     rhox_nagash_check_pyramid_status()
     
     
-    
+    local units = {
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_vmp_inf_skeleton_warriors_0",
+        "nag_vanilla_tmb_cav_nehekhara_horsemen_0",
+        "nag_carrion_riders",
+        "nag_nagashi_guard",
+        "nag_nagashi_guard_halb",
+    }
+
     
     
     cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
@@ -265,7 +273,7 @@ function complete_bp_raise()
     cm:create_force_with_general(
         -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
         nagash_faction,
-        "",
+        table.concat(units, ","),
         region_key,
         new_x,
         new_y,
