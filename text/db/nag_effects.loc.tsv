@@ -395,3 +395,4 @@ effects_description_nag_effect_morghast_archai_ward_save_dummy	Ward save: +2% (M
 effects_description_nag_effect_mortarch_ward_save_dummy	Ward save: +1% (Max stack +10%) for Mortarch lords (factionwide)	true
 effects_description_nag_effect_force_army_battle_leadership_all_defending	Leadership: %+n for all units when defending	true
 effects_description_nag_effect_agent_action_enable_wizard_passive_spread_corruption_vmp	[HIDDEN] 	true
+effects_description_rhox_nagash_remaining_turns	Remaining Turns: %n	false
