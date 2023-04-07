@@ -4,15 +4,6 @@ local nagash_faction = "mixer_nag_nagash"
 
 
 
-function reset_current_ritual()
-    out("Rhox Nagash: Ritual resetted")
-    cm:set_saved_value("nag_ritual_turns_remaining", 0)
-    cm:set_saved_value("nag_ritual_current", "")
-    --reset it so the player get the correct effect bundle
-    cm:remove_effect_bundle("rhox_nagash_ongoing", nagash_faction)
-    cm:apply_effect_bundle("rhox_nagash_avail", nagash_faction, 0)
-end
-
 function set_current_ritual(key, turns)
     out("Rhox Nagash: Ritual setted")
     cm:set_saved_value("nag_ritual_turns_remaining", turns)
@@ -32,17 +23,31 @@ local function rhox_nagash_begin_bp_raise()
     
     --- wound Nagash Husk and replace it. 
     -------------------------
-    --[[
+    
     local leader = cm:get_faction(nagash_faction):faction_leader()
     local leader_lookup = cm:char_lookup_str(leader)
     out("Rhox Nagash: leader lookup string is: "..leader_lookup)
     --cm:remove_unit_from_character(leader_lookup, "nag_nagash_husk")
-    --cm:kill_character(leader_lookup, false)
-    --cm:wound_character(leader_lookup, 999)
+    --cm:suppress_immortality(leader:family_member():command_queue_index(), true)
+    cm:set_character_cannot_disband(leader, false)
+    --cm:replace_general_in_force(leader:military_force(), "nag_traitor_king")
+    
     --cm:remove_unit_from_character(leader_lookup, "nag_nagash_husk")
-    --]]
     
-    
+    local f_cqi = leader:command_queue_index()
+    core:add_listener(
+        "KillThem",
+        "CharacterConvalescedOrKilled",
+        function(context) return context:character():command_queue_index() == f_cqi end,
+        function(context)
+            cm:stop_character_convalescing(f_cqi)
+            out("Rhox Nagash: Inside this convales function")
+        end,
+        false
+    )
+
+    cm:kill_character(f_cqi, false, true)
+    cm:wound_character(leader_lookup, 999)
 
 
     --- trigger mission for "survive"
@@ -56,7 +61,13 @@ local function rhox_nagash_begin_bp_raise()
     cm:set_scripted_mission_text("nag_bp_survive", "nag_bp_survive", "mission_text_text_nag_bp_survive_5")
 
     cm:remove_effect_bundle("rhox_nagash_avail", nagash_faction)
-    cm:apply_effect_bundle("rhox_nagash_ongoing", nagash_faction, 0)
+    --[[
+    local duration = cm:create_new_custom_effect_bundle("rhox_nagash_ongoing");
+    duration:add_effect("rhox_nagash_remaining_turns", "faction_to_faction_own_unseen", 5)
+	duration:set_duration(0);
+    cm:apply_custom_effect_bundle_to_faction(duration, cm:get_faction(nagash_faction))
+    --]] --it didn't work out very well
+    cm:apply_effect_bundle("rhox_nagash_ongoing", nagash_faction, 5)
     rhox_nagash_check_pyramid_status() --remove the highlight
     
     
@@ -157,7 +168,6 @@ function rhox_nagash_add_black_pyramid_listener()
 
             
             if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then
-                reset_current_ritual()
                 cm:remove_scripted_composite_scene("nag_bp_raise")
                 cm:set_saved_value("nag_bp_raise", false)
                 rhox_kill_faction(nagash_faction)
@@ -178,7 +188,6 @@ function rhox_nagash_add_black_pyramid_listener()
             local key = nagash_faction
 
             if bp and (bp:owning_faction():is_null_interface() ~= false or bp:owning_faction():name() ~= key) then 
-                reset_current_ritual()
                 cm:remove_scripted_composite_scene("nag_bp_raise")
                 cm:set_saved_value("nag_bp_raise", false)
                 rhox_kill_faction(nagash_faction)
@@ -194,7 +203,7 @@ function rhox_nagash_add_black_pyramid_listener()
         "FactionTurnStart",
         function(context)
             local t = cm:get_saved_value("nag_ritual_current") 
-            return context:faction():name() == nagash_faction and is_string(t) and t ~= "" and cm:get_faction(nagash_faction):has_effect_bundle("rhox_nagash_ongoing")
+            return context:faction():name() == nagash_faction and is_string(t) and t ~= "" -- and cm:get_faction(nagash_faction):has_effect_bundle("rhox_nagash_ongoing") --I don't think we need effect bundle condition for this
         end,
         function(context)
             local current_ritual = cm:get_saved_value("nag_ritual_current")
@@ -207,6 +216,15 @@ function rhox_nagash_add_black_pyramid_listener()
                     complete_bp_raise()
                 else
                     cm:set_scripted_mission_text("nag_bp_survive", "nag_bp_survive", "mission_text_text_nag_bp_survive_"..t)
+                    --[[
+                    cm:remove_effect_bundle("rhox_nagash_ongoing", nagash_faction)
+                    local duration = cm:create_new_custom_effect_bundle("rhox_nagash_ongoing");
+                    duration:remove_effect_by_key("rhox_nagash_remaining_turns")
+                    duration:add_effect("rhox_nagash_remaining_turns", "faction_to_faction_own_unseen", tonumber(t))
+                    duration:set_effect_value_by_key("rhox_nagash_remaining_turns", tonumber(t))
+                    duration:set_duration(0);
+                    cm:apply_custom_effect_bundle_to_faction(duration, cm:get_faction(nagash_faction))
+                    --]]
                 end
             end
 
@@ -240,8 +258,8 @@ function complete_bp_raise()
     
     cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
     local nagash_character = cm:get_faction(nagash_faction):faction_leader()
-    local region_key = nagash_character:region():name()
-    local is_at_sea = nagash_character:is_at_sea()
+    local region_key = "wh3_main_combi_region_black_pyramid_of_nagash"
+    local is_at_sea = false
     local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, is_at_sea, true, 5)
     local new_character
     cm:create_force_with_general(
@@ -280,6 +298,7 @@ function complete_bp_raise()
     
     if new_character then
 		CUS:update_new_character(old_char_details, new_character, 1)
+		cm:replenish_action_points(cm:char_lookup_str(new_character))
 	end
     
     local forename = common:get_localised_string("names_name_1937224328")

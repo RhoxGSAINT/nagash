@@ -6,7 +6,11 @@ local skill_to_anc ={
     nag_skill_unique_nagash_book_eight = "nag_anc_talisman_books_of_nagash_book_eight"
 } --husk and boss both have these skill, so to remove the duplicate ancillary
 	
-	
+
+
+
+
+
 
 core:add_listener(
 	"rhox_nagash_CharacterSkillPointAllocated",
@@ -35,3 +39,4 @@ core:add_listener(
 	end,
 	true
 )
+

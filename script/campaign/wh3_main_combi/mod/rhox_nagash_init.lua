@@ -16,6 +16,18 @@ local function rhox_nagash_init_setting()
     
     cm:heal_garrison(cm:get_region("wh3_main_combi_region_desolation_of_nagash"):cqi());
     
+    if cm:get_local_faction_name(true) == nagash_faction then
+        local nagashizzar_settlement = capital_region:settlement()
+        cm:instantly_set_settlement_primary_slot_level(nagashizzar_settlement , 2)--for human only
+        --cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_primary_nagashizzar", 50)
+        cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_special_nagashizzar", 50)
+        
+    end
+    
+    
+    cm:kill_character(cm:char_lookup_str(cm:get_faction("wh3_main_skv_clan_carrion"):faction_leader()), true) --remove this stupid full stack army
+    
+    
     local faction = cm:get_faction(nagash_faction);
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
     
@@ -23,7 +35,7 @@ local function rhox_nagash_init_setting()
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     nagash_faction,
-    "wh2_dlc09_tmb_mon_necrosphinx_0,wh2_dlc09_tmb_mon_necrosphinx_ror,wh2_dlc09_tmb_mon_khemrian_warsphinx_0,wh2_dlc09_tmb_mon_heirotitan_0,wh_main_vmp_mon_terrorgheist,wh2_dlc11_cst_mon_rotting_leviathan_0, wh2_dlc11_cst_mon_necrofex_colossus_0,wh2_dlc09_tmb_art_casket_of_souls_0,wh2_dlc09_tmb_mon_ushabti_1,wh2_dlc09_tmb_mon_ushabti_ror,wh2_dlc09_tmb_mon_ushabti_0,wh2_dlc09_tmb_mon_tomb_scorpion_0,wh2_dlc11_cst_art_queen_bess,wh_dlc02_vmp_cav_blood_knights_0,wh_main_vmp_inf_grave_guard_0,wh_main_vmp_inf_grave_guard_1,wh_dlc04_vmp_veh_mortis_engine_0",
+    "nag_bone_golems,nag_nagashi_guard,nag_nagashi_guard,nag_vanilla_vmp_mon_fell_bats,nag_vanilla_vmp_mon_fell_bats,nag_vanilla_tmb_inf_skeleton_warriors_0,nag_vanilla_tmb_inf_skeleton_warriors_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0",
     "wh3_main_combi_region_nagashizzar",
     853,
     400,
@@ -46,7 +58,24 @@ local function rhox_nagash_init_setting()
 		)
     end);
     
+    local mission_target_cqi =0
     
+    local enemy_x,enemy_y = cm:find_valid_spawn_location_for_character_from_position("wh3_main_skv_clan_carrion",853,400,true,10)
+    
+    cm:create_force(
+        "wh3_main_skv_clan_carrion",
+        "wh2_main_skv_inf_skavenslaves_0,wh2_main_skv_inf_skavenslaves_0,wh2_dlc14_skv_inf_warp_grinder_0,wh2_main_skv_inf_clanrats_1,wh2_main_skv_inf_clanrats_1,wh2_main_skv_inf_clanrats_1",
+        "wh3_main_combi_region_nagashizzar",
+        enemy_x,
+        enemy_y,
+        true,
+        function(cqi, mf_cqi)
+            mission_target_cqi = mf_cqi
+            cm:set_force_has_retreated_this_turn(cm:get_military_force_by_cqi(mf_cqi))
+        end,
+        false
+    )
+
     
     cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
     cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);          
@@ -57,18 +86,41 @@ local function rhox_nagash_init_setting()
     
     cm:force_declare_war(nagash_faction, "wh3_main_skv_clan_carrion", false, false)
     
-    if cm:get_local_faction_name(true) == nagash_faction then
-        local mm = mission_manager:new(nagash_faction, "nagash_intro_1")
-        mm:set_mission_issuer("CLAN_ELDERS")
-        mm:add_new_objective("ENGAGE_FORCE")
-        mm:add_condition("cqi "..cm:get_faction("wh3_main_skv_clan_carrion"):faction_leader():military_force():command_queue_index())
-        mm:add_condition("requires_victory")
-        mm:add_payload("money 1000");
-        mm:set_turn_limit(0);
-        
-        mm:set_should_whitelist(true)
-        mm:trigger()
-    end
+    cm:callback(
+        function() 
+            if cm:get_local_faction_name(true) == nagash_faction then
+
+            
+            
+                local faction_name = nagash_faction
+                local title = "event_feed_strings_text_wh2_scripted_event_how_they_play_title";
+                local primary_detail = "factions_screen_name_" .. faction_name;
+                local secondary_detail = "event_feed_strings_text_nag_scripted_event_how_they_play_nagasha";
+                local pic = 594;
+                
+                cm:show_message_event(
+                    faction_name,
+                    title,
+                    primary_detail,
+                    secondary_detail,
+                    true,
+                    pic
+                );
+            
+            
+                local mm = mission_manager:new(nagash_faction, "nagash_intro_1")
+                mm:set_mission_issuer("CLAN_ELDERS")
+                mm:add_new_objective("ENGAGE_FORCE")
+                mm:add_condition("cqi "..mission_target_cqi)
+                mm:add_condition("requires_victory")
+                mm:add_payload("money 1000");
+                mm:set_turn_limit(0);
+                
+                mm:set_should_whitelist(true)
+                mm:trigger()
+            end
+        end, 
+    3);
     
     
 end
