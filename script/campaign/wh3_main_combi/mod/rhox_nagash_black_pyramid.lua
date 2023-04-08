@@ -4,17 +4,8 @@ local nagash_faction = "mixer_nag_nagash"
 
 
 local old_char_details = {
-    mf = nil,
     rank = nil,
-    fm_cqi = nil,
-    character_details = nil,
-    faction_key = nil,
-    character_forename = nil,
-    character_surname = nil,
-    parent_force = nil,
-    subtype = nil,
-    traits = nil,
-    ap = nil
+    traits = nil
 }
 
 function set_current_ritual(key, turns)
@@ -47,21 +38,10 @@ local function rhox_nagash_begin_bp_raise()
     
     --cm:remove_unit_from_character(leader_lookup, "nag_nagash_husk")
     local character = leader
-    local nagash_details = {   --set up oldchar details so we can use later
-        mf = character:military_force(),
-        rank = character:rank(),
-        fm_cqi = character:family_member():command_queue_index(),
-        character_details = character:character_details(),
-        faction_key = character:faction():name(),
-        character_forename = character:get_forename(),
-        character_surname = character:get_surname(),
-        parent_force = character:embedded_in_military_force(),
-        subtype = character:character_subtype_key(),
-        traits = character:all_traits(),
-        ap = character:action_points_remaining_percent()
-    }
     
-    old_char_details = nagash_details
+    
+    old_char_details.rank = character:rank()
+    old_char_details.traits = character:all_traits()
     
     
     
@@ -300,7 +280,7 @@ function complete_bp_raise()
     local region_key = "wh3_main_combi_region_black_pyramid_of_nagash"
     local is_at_sea = false
     local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, is_at_sea, true, 5)
-    local new_character
+    local new_character = nil
     cm:create_force_with_general(
         -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
         nagash_faction,
@@ -316,7 +296,23 @@ function complete_bp_raise()
         "",
         true,
         function(cqi)
+            out("Rhox Nagash: Nagash Revived")
             new_character = cm:get_character_by_cqi(cqi)
+            local new_char_lookup = cm:char_lookup_str(cqi)
+            local traits_to_copy = old_char_details.traits
+            if traits_to_copy then
+                for i =1, #traits_to_copy do
+                    
+                    local trait_to_copy = traits_to_copy[i]
+                    out("Rhox Nagash: Currently Copying: "..trait_to_copy)
+                    cm:force_add_trait(new_char_lookup, trait_to_copy)
+                    
+                end
+            end
+            out("Rhox Nagash: Previous rank was: "..old_char_details.rank)
+            cm:add_agent_experience(new_char_lookup,old_char_details.rank, true)
+
+            cm:replenish_action_points(cm:char_lookup_str(new_character))
         end); 
     
     --[[
@@ -337,13 +333,12 @@ function complete_bp_raise()
     --]]
     
     
-    if new_character then
-		CUS:update_new_character(old_char_details, new_character, 1)
-		cm:replenish_action_points(cm:char_lookup_str(new_character))
-	end
+
+    
     
     local forename = common:get_localised_string("names_name_1937224328")
     cm:change_character_custom_name(new_character, forename, "","","")
+
     --later
     local sentinels_key = "wh2_dlc09_tmb_the_sentinels"
     local bp_key = "wh3_main_combi_region_black_pyramid_of_nagash"
