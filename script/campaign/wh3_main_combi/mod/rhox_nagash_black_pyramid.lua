@@ -3,6 +3,19 @@ local nagash_faction = "mixer_nag_nagash"
 
 
 
+local old_char_details = {
+    mf = nil,
+    rank = nil,
+    fm_cqi = nil,
+    character_details = nil,
+    faction_key = nil,
+    character_forename = nil,
+    character_surname = nil,
+    parent_force = nil,
+    subtype = nil,
+    traits = nil,
+    ap = nil
+}
 
 function set_current_ritual(key, turns)
     out("Rhox Nagash: Ritual setted")
@@ -29,10 +42,28 @@ local function rhox_nagash_begin_bp_raise()
     out("Rhox Nagash: leader lookup string is: "..leader_lookup)
     --cm:remove_unit_from_character(leader_lookup, "nag_nagash_husk")
     --cm:suppress_immortality(leader:family_member():command_queue_index(), true)
-    cm:set_character_cannot_disband(leader, false)
+    --cm:set_character_cannot_disband(leader, false)
     --cm:replace_general_in_force(leader:military_force(), "nag_traitor_king")
     
     --cm:remove_unit_from_character(leader_lookup, "nag_nagash_husk")
+    local character = leader
+    local nagash_details = {   --set up oldchar details so we can use later
+        mf = character:military_force(),
+        rank = character:rank(),
+        fm_cqi = character:family_member():command_queue_index(),
+        character_details = character:character_details(),
+        faction_key = character:faction():name(),
+        character_forename = character:get_forename(),
+        character_surname = character:get_surname(),
+        parent_force = character:embedded_in_military_force(),
+        subtype = character:character_subtype_key(),
+        traits = character:all_traits(),
+        ap = character:action_points_remaining_percent()
+    }
+    
+    old_char_details = nagash_details
+    
+    
     
     local f_cqi = leader:command_queue_index()
     core:add_listener(
@@ -288,6 +319,7 @@ function complete_bp_raise()
             new_character = cm:get_character_by_cqi(cqi)
         end); 
     
+    --[[
     local character = nagash_character
     local old_char_details = {
         mf = character:military_force(),
@@ -302,6 +334,7 @@ function complete_bp_raise()
         traits = character:all_traits(),
         ap = character:action_points_remaining_percent()
     }
+    --]]
     
     
     if new_character then
@@ -430,3 +463,19 @@ function complete_bp_raise()
 end
 
 
+
+--------------------------------------------------------------
+----------------------- SAVING / LOADING ---------------------
+--------------------------------------------------------------
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("rhox_nagash_old_char_details", old_char_details, context, true)
+	end
+)
+cm:add_loading_game_callback(
+	function(context)
+		if cm:is_new_game() == false then
+			old_char_details = cm:load_named_value("rhox_nagash_old_char_details", old_char_details, context, true)
+		end
+	end
+)

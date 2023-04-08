@@ -18,7 +18,7 @@ local function rhox_nagash_init_setting()
     
     if cm:get_local_faction_name(true) == nagash_faction then
         local nagashizzar_settlement = capital_region:settlement()
-        cm:instantly_set_settlement_primary_slot_level(nagashizzar_settlement , 2)--for human only
+        cm:instantly_set_settlement_primary_slot_level(nagashizzar_settlement , 1)--for human only
         --cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_primary_nagashizzar", 50)
         cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_special_nagashizzar", 50)
         
@@ -211,7 +211,7 @@ local function add_nagash_listener()
 
                 mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
                 mm:add_condition("faction " .. nag_fact);
-                mm:add_condition("building_level nag_outpost_primary_warpstone_1");
+                mm:add_condition("building_level nag_outpost_special_nagashizzar_2");
                 mm:add_condition("total 1");
                 mm:add_payload("money 1000")
                 mm:trigger()
