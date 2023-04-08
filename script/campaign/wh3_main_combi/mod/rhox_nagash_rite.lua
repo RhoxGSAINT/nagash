@@ -96,7 +96,7 @@ function unlock_rites_listeners()
                 return context:building() == "nag_bpyramid_main_obelisk_4";
             end,
             function(context)
---                 out("Rhox Nagash Nagwinds")
+                --out("Rhox Nagash Nagwinds")
                 if not rite_status.nag_winds then
                     out("MilitaryForceBuildingCompleteEvent!")
                     unlock_rite("nag_winds")
