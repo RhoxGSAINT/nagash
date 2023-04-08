@@ -202,11 +202,19 @@ local function add_nagash_listener()
                 -- trigger num 3
                 cm:trigger_mission(nag_fact, "nagash_intro_3", true, false)
                 out("Rhox Nagash number 2")
+                
             elseif num == 1 then 
                 out("Rhox Nagash number 1")
                 -- trigger num 2
-                cm:trigger_mission(nag_fact, "nagash_intro_2", true, false)
-                
+                --cm:trigger_mission(nag_fact, "nagash_intro_2", true, false)
+                local mm = mission_manager:new(nag_fact, "nagash_intro_2")
+
+                mm:add_new_objective("CONSTRUCT_N_BUILDINGS_INCLUDING");
+                mm:add_condition("faction " .. nag_fact);
+                mm:add_condition("building_level nag_outpost_primary_warpstone_1");
+                mm:add_condition("total 1");
+                mm:add_payload("money 1000")
+                mm:trigger()
             end
     
     
@@ -469,20 +477,15 @@ end
 
 
 local raise_dead_units={
-    nag_vanilla_tmb_inf_skeleton_archers_0 = {1, 20, 1},
-    nag_vanilla_tmb_inf_skeleton_spearmen_0 = {1, 20, 1},
-    nag_vanilla_tmb_inf_skeleton_warriors_0 = {1, 20, 1},
-    nag_vanilla_tmb_inf_nehekhara_warriors_0 = {0, 10, 1},
-    nag_vanilla_vmp_inf_skeleton_warriors_0 = {1, 20, 1},
-    nag_vanilla_vmp_inf_skeleton_warriors_1 = {1, 20, 1},
-    nag_vanilla_vmp_inf_zombie = {2, 35, 3},
-    nag_vanilla_vmp_mon_dire_wolves = {0, 20, 1},
-    nag_vanilla_vmp_mon_fell_bats = {1, 20, 2},
-    nag_vanilla_cst_inf_zombie_gunnery_mob_0 = {2, 20, 2},
-    nag_vanilla_cst_inf_zombie_gunnery_mob_1 = {1, 20, 1},
-    nag_vanilla_cst_inf_zombie_deckhands_mob_1 = {0, 10, 1},
-    nag_vanilla_cst_inf_zombie_deckhands_mob_0 = {1, 50, 3},
-    nag_vanilla_cst_mon_bloated_corpse_0 = {1, 35, 3}
+    nag_vanilla_tmb_inf_skeleton_archers_0= {1, 20, 1},
+    nag_vanilla_tmb_inf_skeleton_spearmen_0= {1, 20, 1},
+    nag_vanilla_tmb_inf_skeleton_warriors_0= {1, 20, 1},
+    nag_vanilla_tmb_inf_nehekhara_warriors_0= {0, 10, 1},
+    nag_vanilla_vmp_inf_skeleton_warriors_0= {1, 20, 1},
+    nag_vanilla_vmp_inf_skeleton_warriors_1= {1, 20, 1},
+    nag_vanilla_vmp_inf_zombie= {2, 35, 3},
+    nag_vanilla_vmp_mon_dire_wolves= {0, 20, 1},
+    nag_vanilla_vmp_mon_fell_bats= {1, 20, 2}
 }
 
 
@@ -502,14 +505,15 @@ cm:add_first_tick_callback(
 
 			rhox_nagash_init_setting()
             
-
-            --add script lock to technologies
-            cm:lock_technology(nagash_faction, "nag_mortarch_arkhan_unlock")
-            cm:lock_technology(nagash_faction, "nag_mortarch_luthor_unlock")
-            cm:lock_technology(nagash_faction, "nag_mortarch_mannfred_unlock")
-            cm:lock_technology(nagash_faction, "nag_mortarch_krell_unlock")
-            cm:lock_technology(nagash_faction, "nag_mortarch_neferata_unlock")
-            cm:lock_technology(nagash_faction, "nag_mortarch_vlad_unlock")
+            if cm:get_faction(nagash_faction):is_human() then
+                --add script lock to technologies. for human only
+                cm:lock_technology(nagash_faction, "nag_mortarch_arkhan_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_luthor_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_mannfred_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_krell_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_neferata_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_vlad_unlock")
+            end
             if cm:get_local_faction_name(true) == nagash_faction then
                 --rhox_nagash_swith_skarbrand_arkhan()
                 cm:apply_effect_bundle("rhox_nagash_disabled", nagash_faction, 0)

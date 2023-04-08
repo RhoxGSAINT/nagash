@@ -171,6 +171,14 @@ local mort_key_to_units={
     ["nag_mortarch_isabella"]=""
 }
 
+local raise_dead_sea_units={
+    nag_vanilla_cst_inf_zombie_gunnery_mob_0= {2, 20, 2},
+    nag_vanilla_cst_inf_zombie_gunnery_mob_1= {1, 20, 1},
+    nag_vanilla_cst_inf_zombie_deckhands_mob_1= {0, 10, 1},
+    nag_vanilla_cst_inf_zombie_deckhands_mob_0= {1, 50, 3},
+    nag_vanilla_cst_mon_bloated_corpse_0= {1, 35, 3}
+}
+
 
 --pass the faction key(string)
 function rhox_kill_faction(faction_key)
@@ -217,12 +225,13 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     
     local character = faction:faction_leader() --real leader before the change
     
-    
-    --[[
-    if mort_key == "nag_mortarch_luthor" then
-        cm:kill_character(cm:char_lookup_str(character), false) -- because his horde bound and can't be replaced and we have to wound him. but it's not working damm!
+    if faction:is_human() then
+        force_declare_war(nagash_faction, faction_key, true, true) --declare war if mortarch was a player
+        --TODO add incident for the player
+        return --and do nothing
     end
-    --]]
+    
+
     
     
     cm:create_force_with_general(
@@ -263,7 +272,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     
     local new_character
 
-    out("This leader does not have a military force. Maybe he is wounded")
+    --out("This leader does not have a military force. Maybe he is wounded")
     local region_key = mort_key_to_region[mort_key]
     local is_at_sea = false--nagash_character:is_at_sea()
     --out("Rhox Nagash: region key: "..region_key)
@@ -296,12 +305,23 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
 	end
     out("Upgrading a new character")
 
-    rhox_kill_faction(faction_key)
-    --cm:force_confederation(nagash_faction, faction_key)
-    --cm:remove_effect_bundle("wh_main_bundle_confederation_vmp", nagash_faction)
+    if cm:get_faction(nagash_faction):is_human() then
+        rhox_kill_faction(faction_key) -- if nagash is a human, destroy the faction
+    else
+        cm:force_confederation(nagash_faction, faction_key) --make nagash siphon the mortarch if it's AI
+        cm:suppress_immortality(character_to_kill:family_member():command_queue_index(), true)
+        cm:kill_character(cm:char_lookup_str(character_to_kill), true)
+        cm:remove_effect_bundle("wh_main_bundle_confederation_vmp", nagash_faction)
+    end
+    
+    --
+    --
     
     local forename = common.get_localised_string(mort_key_to_name[mort_key])
     cm:change_character_custom_name(new_character, forename, "","","")
+    
+    
+        
 end
 
 
@@ -350,6 +370,8 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
     cm:change_character_custom_name(new_character, forename, "","","")
     cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
 
+
+            
 end
 
                            
@@ -391,10 +413,21 @@ function mortarch_unlock_listeners()
             end
             
             --spawn_mortarch(mort_key)--scrap the upgrade idea
-    
-            if mort_key == "nag_mortarch_vlad" then
+            if mort_key == "nag_mortarch_vlad" and (cm:get_faction("wh_main_vmp_schwartzhafen"):is_human()==false or cm:get_faction("wh_main_vmp_schwartzhafen"):is_dead()) then --the faction has to be non-human or dead to summon the Isabella
                 spawn_mortarch("nag_mortarch_isabella")--spawn isabella also if it's Vlad
             end
+            
+            if mort_key == "nag_mortarch_luthor" then --add cst units to the raise dead pool
+                local region_list = cm:model():world():region_manager():region_list()
+                for i=0,region_list:num_items()-1 do
+                    local region= region_list:item_at(i)
+                    for key, unit in pairs(raise_dead_sea_units) do
+                        cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
+                    end
+                end
+            end
+            
+            
                 
         end,
         true
@@ -437,6 +470,10 @@ function trigger_mortarch_unlock_missions()
         
         
         
+        
+
+
+
         out("pre krell")
         --- Krell's mission
         do
@@ -446,7 +483,7 @@ function trigger_mortarch_unlock_missions()
             mm:add_new_objective("KILL_X_ENTITIES")
             mm:add_condition("total 15000")
             mm:add_payload("money 1000")
-            
+            mm:add_payload("text_display nag_mortarch_krell_technology");
             mm:trigger()
         end
         
@@ -465,7 +502,7 @@ function trigger_mortarch_unlock_missions()
             mm:add_new_objective("OWN_N_REGIONS_INCLUDING");
             mm:add_condition("region " .. "wh3_main_combi_region_castle_drakenhof");
             mm:add_condition("total 1");
-
+            mm:add_payload("text_display nag_mortarch_mannfred_technology");
             mm:add_payload("money 1000")
 
             mm:trigger()
@@ -481,7 +518,7 @@ function trigger_mortarch_unlock_missions()
             mm:add_condition("faction " .. key);
             mm:add_condition("building_level nag_outpost_special_nagashizzar_3");
             mm:add_condition("total 1");
-            
+            mm:add_payload("text_display nag_mortarch_neferata_technology");
             mm:add_payload("money 1000")
             mm:trigger()
         end
