@@ -44,9 +44,49 @@ local function unlock_rite(rite_key)
 end
 
 
+local function play_rite()
+    out("Rhox Nagash: Inside the rite visibility function")
+	local orig_rite_performed = find_uicomponent(core:get_ui_root(), "rite_performed")
+	if not orig_rite_performed then 
+        out("Rhox Nagash: I don't see any rite")
+        --return --not summoned so let's do this
+    end
+
+	local rite = core:get_or_create_component("rhox_nagash_rite", "ui/campaign ui/rite_performed", core:get_ui_root())
+	if not rite then
+        out("Rhox Nagash: Could not create it? Why?")
+	end
+	for i = 0, rite:ChildCount() - 1 do
+		local uic_child = UIComponent(rite:Find(i));
+		uic_child:SetVisible(false)
+	end;
+	
+	local tokmbking_animation = find_uicomponent(rite, "wh2_dlc09_tmb_tomb_kings")
+	tokmbking_animation:SetVisible(true)
+
+end
+
+
+
 
 function unlock_rites_listeners()
     out("Rhox Nagash Rite listener")
+    
+    
+    core:add_listener(
+        "rhox_nagash_rite_animation",
+        "RitualStartedEvent",
+        function(context)
+            return context:performing_faction() == cm:get_local_faction(true) and cm:get_local_faction_name(true) == nagash_faction
+        end,
+        function()
+            cm:callback(function()
+                play_rite()
+            end, 0)
+        end,
+        true
+    )
+    
     if not rite_status.nag_winds then
         -- build the BP Obelisk
         core:add_listener(
