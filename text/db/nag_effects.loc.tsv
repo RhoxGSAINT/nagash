@@ -363,7 +363,7 @@ effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/co
 effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to your Legion, spawning in [[col:yellow]]The Awakening[[/col]]	true
 effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
-effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Nagashizzar[[/col]]	true
+effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Silver Pinnacle[[/col]]	true
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
 effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
 effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true
@@ -396,3 +396,4 @@ effects_description_nag_effect_mortarch_ward_save_dummy	Ward save: +1% (Max stac
 effects_description_nag_effect_force_army_battle_leadership_all_defending	Leadership: %+n for all units when defending	true
 effects_description_nag_effect_agent_action_enable_wizard_passive_spread_corruption_vmp	[HIDDEN] 	true
 effects_description_rhox_nagash_remaining_turns	Remaining Turns: %n	false
+effects_description_nag_dieter_unlock	Summon [[col:yellow]]Dieter Helsnicht[[/col]] to your Legion, spawning in [[col:yellow]]Gorssel[[/col]]	false

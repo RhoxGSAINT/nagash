@@ -513,7 +513,13 @@ cm:add_first_tick_callback(
                 cm:lock_technology(nagash_faction, "nag_mortarch_krell_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_neferata_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_vlad_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock")
             end
+            if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
+                cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock") --this needs to be done for the AI also if mixu lords aren't there
+            end
+            
+            
             if cm:get_local_faction_name(true) == nagash_faction then
                 --rhox_nagash_swith_skarbrand_arkhan()
                 cm:apply_effect_bundle("rhox_nagash_disabled", nagash_faction, 0)
@@ -556,6 +562,10 @@ cm:add_first_tick_callback(
             rhox_nagash_grandspell_ui()
             rhox_nagash_check_pyramid_status()
             rhox_nag_add_harkon_listener()
+            
+            if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
+                rhox_nagash_remove_dieter_tech_listener()
+            end
 		end
 		
 
