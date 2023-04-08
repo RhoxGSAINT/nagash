@@ -201,12 +201,10 @@ local function update()
     end
     for i=1,#abilities_need_hiding do
         local ability = find_uicomponent(army_ability_parent, abilities_need_hiding[i])
-        if not ability then
-            return
+        if ability then
+            ability:SetVisible(false)
         end
-        ability:SetVisible(false)
     end
-    
 end
 
 
