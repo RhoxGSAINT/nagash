@@ -3,8 +3,8 @@ key	text	tooltip
 factions_attack_desc_nag_nagash	You are attacking Legions of Nagashizzar! 	true
 factions_defend_desc_nag_nagash	You are defending against Legions of Nagashizzar! 	true
 factions_screen_adjective_nag_nagash	Legions of Nagashizzar 	true
-factions_screen_name_nag_nagash	Legions of Nagashizzar 	true
-factions_screen_name_when_rebels_nag_nagash	Legions of Nagashizzar (Rebels) 	true
+factions_screen_name_mixer_nag_nagash	Legions of Nagashizzar 	true
+factions_screen_name_when_rebels_mixer_nag_nagash	Legions of Nagashizzar (Rebels) 	true
 frontend_factions_localised_mechanics_nag_nagash	[[img:bullet_vmp_dead]][[/img]]Return of Nagash: Powerful horde armies can bide their time around Nagashizzar and outposts until the Black Pyramid and Nagash himself can be restored to their full power.||[[img:bullet_vmp_corruption]][[/img]]Vampiric Corruption: The taint of Undeath can be spread within enemy territory, leading to public order issues and undead incursions.||[[img:bullet_vmp_units]][[/img]]Varied unit roster with flying units, monsters and Undead troops from Nagashizzar, Nehekhara and Mortarch forces.	true
 custom_loading_screen_components_localised_text_wh2_main_vmp_nagashcustom_quote	NAGASH IS NOT WEAK! However, he has only just coalesced back into shape in the secrecy of Nagashizzar, and for the moment he is but a shade of himself. His great resurgence is in motion, and it goes through consolidating his legions within the fortress of Nagashizzar, eliminating any nearby ratman who might reveal his presence. After that, westwards, through Nehekhara, letting Arkhan join his forces, and reminding all the other Mortarchs, and the world, that Nagash is back...	true
 custom_loading_screen_components_localised_text_wh2_main_vmp_nagashbackground		true

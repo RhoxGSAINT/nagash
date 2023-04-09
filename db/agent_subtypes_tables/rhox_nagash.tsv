@@ -22,3 +22,4 @@ nag_wight_king	true	false	ui/campaign ui/agents/wh_main_lore_nag_wight.png	wh_ma
 nag_gunnery_wight	true	false		wh2_dlc11_cst_cha_gunnery_wight_0	wh2_dlc11_vo_actor_VampireCoast_Gunnery_Wight	true	-1	false	true	false	true				false	true	can_be_saved_loaded		false	true	0
 nag_morghasts_archai	true	false	ui/campaign ui/agents/wh2_dlc17_bst_wargor.png	nag_morghasts_archai	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false	true	can_be_saved_loaded		false	true	0
 nag_traitor_king_shambling_horde	true	false		nag_cha_tomb_king_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	false	-1	false	true	false	true	vmp_master_necromancer			false	true	can_be_saved_loaded		false	true	0
+nag_mortarch_dieter	false	true		mixu_vmp_cha_dieter_helsnicht	wh_main_vo_actor_Vampire_MasterNecromancer	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100

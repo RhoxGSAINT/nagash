@@ -11,3 +11,4 @@ chain	chain_set	slot_template	super_chain	remove
 	rhox_nagash_bp_horde_secondary	nag_bp_horde_secondary		false
 	rhox_nagash_subhorde_secondary	nag_subhorde_secondary		false
 	rhox_nag_horde_secondary	nag_horde_secondary		false
+	rhox_nagash_special_horde_dieter	nag_dieter_horde_primary		false

@@ -38,3 +38,7 @@ HORDE	nag_traitor_horde	false
 ARMY	nag_traitor_horde	false
 ARMY	nag_shambling_horde	false
 nag_shambling_horde	ARMY	true
+nag_dieter_horde	HORDE	false
+nag_dieter_horde	ARMY	true
+HORDE	nag_dieter_horde	false
+ARMY	nag_dieter_horde	false

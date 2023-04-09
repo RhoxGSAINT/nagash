@@ -67,6 +67,17 @@ RHOX_NAGASH_UNLOCK_TECHS = {
         "nag_mortarch_vlad_unlock",
         "nag_vlad_proclamation",
         "nag_vlad_archai"
+    },
+    nag_mortarch_dieter_unlock = {
+        "nag_dieter_battle_1",
+        "nag_dieter_battle_2",
+        "nag_dieter_battle_3",
+        "nag_mortarch_dieter_event_1",
+        "nag_mortarch_dieter_event_2",
+        "nag_mortarch_dieter_event_3",
+        "nag_mortarch_dieter_unlock",
+        "nag_dieter_proclamation",
+        "nag_dieter_archai"
     }
 }
 
@@ -75,7 +86,8 @@ local mort_key_to_faction_key ={
     ["nag_mortarch_arkhan"]="wh2_dlc09_tmb_followers_of_nagash",
     ["nag_mortarch_vlad"]="wh_main_vmp_schwartzhafen",
     ["nag_mortarch_mannfred"]="wh_main_vmp_vampire_counts",
-    ["nag_mortarch_luthor"]="wh2_dlc11_cst_vampire_coast"
+    ["nag_mortarch_luthor"]="wh2_dlc11_cst_vampire_coast",
+    ["nag_mortarch_dieter"]="mixer_vmp_helsnicht"
 }
 
 
@@ -86,7 +98,8 @@ local mort_key_to_name ={
     ["nag_mortarch_luthor"]="nag_nagash_name_luthor",
     ["nag_mortarch_neferata"]="nag_nagash_name_neferata",
     ["nag_mortarch_krell"]="nag_nagash_name_krell",
-    ["nag_mortarch_isabella"]="nag_nagash_name_isabella"
+    ["nag_mortarch_isabella"]="nag_nagash_name_isabella",
+    ["nag_mortarch_dieter"]="nag_nagash_name_dieter"
 }
 
 local mort_key_to_region ={
@@ -96,7 +109,8 @@ local mort_key_to_region ={
     ["nag_mortarch_luthor"]="wh3_main_combi_region_the_awakening",
     ["nag_mortarch_neferata"]="wh3_main_combi_region_silver_pinnacle",
     ["nag_mortarch_krell"]="wh3_main_combi_region_morgheim",
-    ["nag_mortarch_isabella"]="wh3_main_combi_region_castle_drakenhof"
+    ["nag_mortarch_isabella"]="wh3_main_combi_region_castle_drakenhof",
+    ["nag_mortarch_dieter"]="wh3_main_combi_region_aarnau"
 }
 
 local mort_key_to_units={
@@ -168,7 +182,17 @@ local mort_key_to_units={
         "nag_vanilla_vmp_inf_grave_guard_1",
         "nag_nagashi_guard",
     },
-    ["nag_mortarch_isabella"]=""
+    ["nag_mortarch_isabella"]="",
+    ["nag_mortarch_dieter"]= {                               
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_mon_varghulf",
+        "nag_vanilla_vmp_mon_varghulf",
+        "nag_vanilla_vmp_mon_vargheists",
+        "nag_vanilla_vmp_mon_vargheists",
+    }
 }
 
 local raise_dead_sea_units={
@@ -519,6 +543,18 @@ function trigger_mortarch_unlock_missions()
             mm:add_condition("building_level nag_outpost_special_nagashizzar_3");
             mm:add_condition("total 1");
             mm:add_payload("text_display nag_mortarch_neferata_technology");
+            mm:add_payload("money 1000")
+            mm:trigger()
+        end
+        
+        if vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then --mixer lords exist
+            local mort = "nag_mortarch_dieter"
+            
+            local mm = mission_manager:new(key, mort.."_unlock")
+            mm:add_new_objective("DEFEAT_N_ARMIES_OF_FACTION");
+            mm:add_condition("subculture wh_dlc08_sc_nor_norsca");
+            mm:add_condition("total 1");
+            mm:add_payload("text_display nag_mortarch_dieter_technology");
             mm:add_payload("money 1000")
             mm:trigger()
         end

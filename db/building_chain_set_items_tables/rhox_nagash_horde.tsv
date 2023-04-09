@@ -45,3 +45,5 @@ nag_horde_infrastructure1_growth	rhox_nag_horde_secondary		false
 nag_horde_infrastructure2_industry	rhox_nag_horde_secondary		false
 nag_horde_infrastructure3_energy	rhox_nag_horde_secondary		false
 nag_horde_infrastructure4_other	rhox_nag_horde_secondary		false
+nag_dieter_horde_landmark	rhox_nag_horde_secondary		false
+nag_dieter_horde_special	rhox_nagash_special_horde_dieter		false
