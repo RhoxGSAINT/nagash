@@ -18,5 +18,13 @@ agent_culture_details_onscreen_name_909097	Morghast Archai	true
 agent_culture_details_description_text_909097	The most powerful Hammurai of Ptra are turned into willing emissaries of Nagash, spearheads of doom.	true
 agent_culture_details_onscreen_name_909098	Liche Priest	true
 agent_culture_details_description_text_909098	Liche Priests are the undying members of the Nehekhara's Mortuary Cult, and they hold the secrets to Unlife.	true
-agent_culture_details_onscreen_name_		true
-agent_culture_details_description_text_		true
+agent_subtypes_onscreen_name_override_nag_traitor_king_shambling_horde		false
+agent_subtypes_description_text_override_nag_traitor_king_shambling_horde		false
+agent_subtype_subculture_overrides_onscreen_name_nag_tomb_princemixer_nag_nagashchampion	Tomb Prince	false
+agent_subtype_subculture_overrides_description_nag_tomb_princemixer_nag_nagashchampion	Tomb Princes are the sons of the Tomb Kings. Each of the kings of ancient Nehekhara had many heirs, but only one could succeed his father to the throne.	false
+agent_subtype_subculture_overrides_onscreen_name_nag_vampiremixer_nag_nagashdignitary	Vampire	false
+agent_subtype_subculture_overrides_description_nag_vampiremixer_nag_nagashdignitary	Vampires are the true masters of Undeath. Despite their curse, Vampires retain all of their devious intelligence, and hence all of their ambition and desire.	false
+agent_subtype_subculture_overrides_onscreen_name_nag_gunnery_wightmixer_nag_nagashengineer	Gunnery Wight	false
+agent_subtype_subculture_overrides_description_nag_gunnery_wightmixer_nag_nagashengineer	Masters of the ballistic arts, even in death Gunnery Wights maintain the lines and a steady flow of black powder.	false
+agent_subtype_subculture_overrides_onscreen_name_nag_liche_priest_deathmixer_nag_nagashwizard	Liche Priest	false
+agent_subtype_subculture_overrides_description_nag_liche_priest_deathmixer_nag_nagashwizard	Liche Priests are the undying members of the Nehekhara's Mortuary Cult, and they hold the secrets to Unlife.	false

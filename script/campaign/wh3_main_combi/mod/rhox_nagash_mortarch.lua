@@ -547,6 +547,8 @@ function trigger_mortarch_unlock_missions()
             mm:trigger()
         end
         
+        
+        --dieter missions. Only if Mixu lords exist
         if vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then --mixer lords exist
             local mort = "nag_mortarch_dieter"
             
