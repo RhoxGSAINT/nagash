@@ -55,10 +55,19 @@
 			<property name="Enable" quality="2" value="false"/>
 		</emitter>
 		<emitter type="continuous_rigid" id="arm_rigid_01">
+			<property_rigid_data name="RigidData" quality="0">
+				<rigid_entry>
+					<!-- <ModelFile value="vfx/models/cst_skeleton_vfx_head_01.wsmodel"/> -->
+					<ModelFile value="vfx/models/vfx_nagash_hounds.wsmodel"/>
+					<PivotPoint x="0.50" y="0.50" z="0.50"/>
+					<AnimFile value="animations/battle/wolf01/locomotion/wf1_run.anim"/>
+					<AnimSpeed value="1.00"/>
+				</rigid_entry>
+			</property_rigid_data>
 			<property name="RelativeParticleOrientation" quality="0" value="true"/>
 			<property name="RandomSeed" quality="0" value="-3"/>
-			<property name="RigidAnimFile" quality="0" value="animations\battle\wolf01\locomotion\wf1_run.anim"/>			
-			<property name="RigidModelFile" quality="0" value="vfx\models\vfx_nagash_hounds.wsmodel"/>
+			<!-- <property name="RigidAnimFile" quality="0" value="animations\battle\wolf01\locomotion\wf1_run.anim"/>			 -->
+			<!-- <property name="RigidModelFile" quality="0" value="vfx\models\vfx_nagash_hounds.wsmodel"/> -->
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="600.00" w="600.00"/>
 			<property name="ParticleCullDistances" quality="0" x="0.00" y="0.00" z="600.00" w="600.00"/>
 			<property name="ParticleDeceleration" quality="0">x_min,8405056;0.0,2.0,linear,linear|x_max,16728128;0.0,5.0,linear,linear:x,1;0,1</property>

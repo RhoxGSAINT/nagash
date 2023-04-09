@@ -4,31 +4,31 @@
  <sort_override>255</sort_override>
  <textures>
   <texture>
-   <slot>s_diffuse</slot>
+   <slot version="2">t_xml_base_colour</slot>
    <source>commontextures/noise_perlin_octave.dds</source>
   </texture>
   <texture>
-   <slot>s_diffuse2</slot>
+   <slot version="2">t_xml_diffuse2</slot>
    <source>commontextures/noise_perlin_octave.dds</source>
   </texture>
   <texture>
-   <slot>s_extra_alpha_mask</slot>
-   <source>vfx/Textures/cst_skeleton_vfx_head_mask.dds</source>
+   <slot version="2">t_xml_extra_alpha_mask</slot>
+   <source>vfx/Textures/cst_skeleton_vfx_head_mask_base_colour.dds</source>
   </texture>
   <texture>
-   <slot>s_flow_map</slot>
+   <slot version="2">t_xml_flow_map</slot>
    <source>vfx/Textures/cst_skeleton_vfx_head_flow_map.dds</source>
   </texture>
   <texture>
-   <slot>s_normal</slot>
+   <slot version="2">t_xml_normal</slot>
    <source>commontextures/noise_perlin_octave_strong_normal.dds</source>
   </texture>
   <texture>
-   <slot>s_normal2</slot>
+   <slot version="2">t_xml_normal2</slot>
    <source>commontextures/noise_perlin_octave_strong_normal.dds</source>
   </texture>
   <texture>
-   <slot>s_2b6c203b_7650_4488_8346_69b5e3c16751</slot>
+   <slot version="2">t_xml_2b6c203b_7650_4488_8346_69b5e3c16751</slot>
    <source>commontextures/winds_of_magic_noise.dds</source>
   </texture>
  </textures>
@@ -41,7 +41,7 @@
   <param>
    <name>dark_colour</name>
    <type>float3</type>
-   <value>0,0.008,0.02</value>
+   <value>0.03,0.01,0.1</value>
   </param>
   <param>
    <name>diffuse_tiling</name>
@@ -66,12 +66,12 @@
   <param>
    <name>fresnel_pow</name>
    <type>float</type>
-   <value>0.5</value>
+   <value>1</value>
   </param>
   <param>
    <name>light_colour</name>
    <type>float3</type>
-   <value>0.12,0.12,0.12</value>
+   <value>0.03,0.01,0.1</value>
   </param>
  </params>
 </material>

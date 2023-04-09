@@ -72,11 +72,20 @@
 			<property name="ParticleCullDistances" quality="2" x="1.00" y="2.00" z="150.00" w="300.00"/>
 		</emitter>
 		<emitter type="continuous_rigid" id="skull_mesh">
-			<property name="RigidModelFile" quality="0" value="vfx/models/nagash_breath_skull.wsmodel"/>
+			<property_rigid_data name="RigidData" quality="0">
+				<rigid_entry>
+					<ModelFile value="vfx/models/nagash_breath_skull.wsmodel"/>
+					<PivotPoint x="0.50" y="0.50" z="0.50"/>
+					<AnimFile value="vfx/models/burning_head.anim"/>
+					<AnimSpeed value="1.00"/>
+				</rigid_entry>
+			</property_rigid_data>
+
+			<!-- <property name="RigidModelFile" quality="0" value="vfx/models/nagash_breath_skull.wsmodel"/> -->
 			<property name="ParticlesLocalSpace" quality="0" value="true"/>
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="800.00" w="800.00"/>
 			<property name="ParticleCullDistances" quality="0" x="5.00" y="20.00" z="600.00" w="800.00"/>
-			<property name="RigidAnimFile" quality="0" value="vfx/models/burning_head.anim"/>
+			<!-- <property name="RigidAnimFile" quality="0" value="vfx/models/burning_head.anim"/> -->
 			<property name="ParticleOrientationMin" quality="0" x="55.00" y="0.00" z="0.00"/>
 			<property name="ParticleOrientationMax" quality="0" x="55.00" y="0.00" z="0.00"/>
 			<property name="ParticleScale" quality="0">x_min,8388608;0.0,10.0;0.996165,13.028681|x_max,16711680;0.0,10.0;0.996165,13.028681|y_min,32768;0.0,10.0;0.996165,13.028681|y_max,65280;0.0,10.0;0.996165,13.028681|z_min,128;0.0,10.0;0.996165,13.028681|z_max,255;0.0,10.0;0.996165,13.028681:x,0;0,1|y,0;2,3|z,0;4,5</property>
