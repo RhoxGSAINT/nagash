@@ -565,18 +565,19 @@
 				<property name="cell_blend" type="bool" value="false"/>
 				<property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/>
 				<property name="randomize_cell" type="bool" value="true"/>
-				<property name="loop" type="bool" value="false"/>
-				<property name="no_loops" type="float2" value="float2(120.0,120.0)"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(6.0,7.0)"/>
 				<property name="row_restricted" type="bool" value="false"/>
 				<property name="row_restriction" type="int" value="0"/>
 				<property name="randomize_row" type="bool" value="false"/>
+				<property name="time_mode" type="list" value="using_particle_lifetime"/>
 			</modifier>
 			<modifier fragment="vs_vertex_alpha">
 				<property name="curve_alpha" type="curve">alpha_min,8388608;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,-0.0|alpha_max,16711680;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,0.0:alpha,0;0,1</property>
 			</modifier>
 			<modifier fragment="ps_texture">
-				<texture_property name="diffuse" type="file" path="vfx/Textures/bat_diffuse.dds"/>
-				<!-- <texture_property name="diffuse" type="file" path="vfx/Textures/butterfly_diffuse.dds"/> -->
+				<texture_property name="diffuse" type="file" path="vfx/textures/bat_diffuse.dds"/>
+				<!-- <texture_property name="diffuse" type="file" path="vfx/textures/butterfly_diffuse.dds"/> -->
 				<texture_property name="normal" type="file" path=""/>
 				<property name="overlay_colour" type="bool" value="false"/>
 			</modifier>
@@ -588,6 +589,148 @@
 				<property name="emissive" type="float" value="0.0"/>
 				<property name="average_size" type="float" value="0.6"/>
 			</modifier>
+			
+			<!-- <quality value="0"> -->
+				<!-- <modifier fragment="ps_texture"> -->
+					<!-- <texture_property name="diffuse" type="file" path="vfx\textures\bat_diffuse.dds"/> -->
+					<!-- <texture_property name="normal" type="file" path=""/> -->
+					<!-- <property name="overlay_colour" type="bool" value="false"/> -->
+					<!-- <property name="pre_multiplied_alpha" type="bool" value="true"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_translation_velocity_v2"> -->
+					<!-- <property name="pivot_x" type="float" value="0.5"/> -->
+					<!-- <property name="pivot_y" type="float" value="0.5"/> -->
+					<!-- <property name="velocity_stretch_mul" type="curve">x_min,8388608,0;0.0,0.3,linear,linear,-0.05,0.0,0.05,0.0,1|x_max,16711680,0;0.0,0.3,linear,linear,-0.05,0.0,0.05,0.0,1:x,0;0,1</property> -->
+					<!-- <property name="orientation_mode" type="list" value="Camera-facing velocity-aligned"/> -->
+					<!-- <property name="velocity_stretch_cap" type="float" value="1000.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_animated_texture"> -->
+					<!-- <property name="atlas_number_of_cells_x" type="int" value="1"/> -->
+					<!-- <property name="atlas_number_of_cells_y" type="int" value="1"/> -->
+					<!-- <property name="atlas_cell" type="int" value="0"/> -->
+					<!-- <property name="cell_blend" type="bool" value="false"/> -->
+					<!-- <property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/> -->
+					<!-- <property name="randomize_cell" type="bool" value="true"/> -->
+					<!-- <property name="loop" type="bool" value="true"/> -->
+					<!-- <property name="no_loops" type="float2" value="float2(6.0,7.0)"/> -->
+					<!-- <property name="row_restricted" type="bool" value="false"/> -->
+					<!-- <property name="row_restriction" type="int" value="0"/> -->
+					<!-- <property name="randomize_row" type="bool" value="false"/> -->
+					<!-- <property name="time_mode" type="list" value="using_particle_lifetime"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="ps_lighting"> -->
+					<!-- <property name="additive_blend_mul" type="float" value="0.0"/> -->
+					<!-- <property name="small_particles" type="float" value="0.0"/> -->
+					<!-- <property name="large_particles" type="float" value="2.0"/> -->
+					<!-- <property name="directionality" type="float" value="0.5"/> -->
+					<!-- <property name="emissive" type="float" value="0.0"/> -->
+					<!-- <property name="average_size" type="float" value="2.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_flip_uv"> -->
+					<!-- <property name="flip_u" type="float" value="0.5"/> -->
+					<!-- <property name="flip_v" type="float" value="0.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_vertex_alpha"> -->
+					<!-- <property name="curve_alpha" type="curve">alpha_min,8388608,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.05,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.95,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;1.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0|alpha_max,16711680,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.05,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.95,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;1.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0:alpha,0;0,1</property> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_colour"> -->
+					<!-- <property name="curve_colour" type="curve">r_min,16711680,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|r_max,16711680,0;0.0,0.301961,linear,linear,-0.05,0.0,0.05,0.0,1|g_min,65280,0;0.0,0.360784,linear,linear,-0.05,0.0,0.05,0.0,1|g_max,65280,0;0.0,0.164706,linear,linear,-0.05,0.0,0.05,0.0,1|b_min,255,0;0.0,0.447059,linear,linear,-0.05,0.0,0.05,0.0,1|b_max,255,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|brightness_min,16777215,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|brightness_max,16777215,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1:r,1;0,1|g,1;2,3|b,1;4,5|brightness,0;6,7</property> -->
+				<!-- </modifier> -->
+			<!-- </quality> -->
+			<!-- <quality value="1"> -->
+				<!-- <modifier fragment="ps_texture"> -->
+					<!-- <texture_property name="diffuse" type="file" path="vfx\textures\bat_diffuse.dds"/> -->
+					<!-- <texture_property name="normal" type="file" path=""/> -->
+					<!-- <property name="overlay_colour" type="bool" value="false"/> -->
+					<!-- <property name="pre_multiplied_alpha" type="bool" value="true"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_translation_velocity_v2"> -->
+					<!-- <property name="pivot_x" type="float" value="0.5"/> -->
+					<!-- <property name="pivot_y" type="float" value="0.5"/> -->
+					<!-- <property name="velocity_stretch_mul" type="curve">x_min,8388608,0;0.0,0.3,linear,linear,-0.05,0.0,0.05,0.0,1|x_max,16711680,0;0.0,0.3,linear,linear,-0.05,0.0,0.05,0.0,1:x,0;0,1</property> -->
+					<!-- <property name="orientation_mode" type="list" value="Camera-facing velocity-aligned"/> -->
+					<!-- <property name="velocity_stretch_cap" type="float" value="1000.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_animated_texture"> -->
+					<!-- <property name="atlas_number_of_cells_x" type="int" value="1"/> -->
+					<!-- <property name="atlas_number_of_cells_y" type="int" value="1"/> -->
+					<!-- <property name="atlas_cell" type="int" value="0"/> -->
+					<!-- <property name="cell_blend" type="bool" value="false"/> -->
+					<!-- <property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/> -->
+					<!-- <property name="randomize_cell" type="bool" value="true"/> -->
+					<!-- <property name="loop" type="bool" value="true"/> -->
+					<!-- <property name="no_loops" type="float2" value="float2(6.0,7.0)"/> -->
+					<!-- <property name="row_restricted" type="bool" value="false"/> -->
+					<!-- <property name="row_restriction" type="int" value="0"/> -->
+					<!-- <property name="randomize_row" type="bool" value="false"/> -->
+					<!-- <property name="time_mode" type="list" value="using_particle_lifetime"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="ps_lighting"> -->
+					<!-- <property name="additive_blend_mul" type="float" value="0.0"/> -->
+					<!-- <property name="small_particles" type="float" value="0.0"/> -->
+					<!-- <property name="large_particles" type="float" value="2.0"/> -->
+					<!-- <property name="directionality" type="float" value="0.5"/> -->
+					<!-- <property name="emissive" type="float" value="0.0"/> -->
+					<!-- <property name="average_size" type="float" value="2.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_flip_uv"> -->
+					<!-- <property name="flip_u" type="float" value="0.5"/> -->
+					<!-- <property name="flip_v" type="float" value="0.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_vertex_alpha"> -->
+					<!-- <property name="curve_alpha" type="curve">alpha_min,8388608,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.05,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.95,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;1.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0|alpha_max,16711680,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.05,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.95,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;1.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0:alpha,0;0,1</property> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_colour"> -->
+					<!-- <property name="curve_colour" type="curve">r_min,16711680,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|r_max,16711680,0;0.0,0.301961,linear,linear,-0.05,0.0,0.05,0.0,1|g_min,65280,0;0.0,0.360784,linear,linear,-0.05,0.0,0.05,0.0,1|g_max,65280,0;0.0,0.164706,linear,linear,-0.05,0.0,0.05,0.0,1|b_min,255,0;0.0,0.447059,linear,linear,-0.05,0.0,0.05,0.0,1|b_max,255,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|brightness_min,16777215,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|brightness_max,16777215,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1:r,1;0,1|g,1;2,3|b,1;4,5|brightness,0;6,7</property> -->
+				<!-- </modifier> -->
+			<!-- </quality> -->
+			<!-- <quality value="2"> -->
+				<!-- <modifier fragment="ps_texture"> -->
+					<!-- <texture_property name="diffuse" type="file" path="vfx\textures\bat_diffuse.dds"/> -->
+					<!-- <texture_property name="normal" type="file" path=""/> -->
+					<!-- <property name="overlay_colour" type="bool" value="false"/> -->
+					<!-- <property name="pre_multiplied_alpha" type="bool" value="true"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_translation_velocity_v2"> -->
+					<!-- <property name="pivot_x" type="float" value="0.5"/> -->
+					<!-- <property name="pivot_y" type="float" value="0.5"/> -->
+					<!-- <property name="velocity_stretch_mul" type="curve">x_min,8388608,0;0.0,0.3,linear,linear,-0.05,0.0,0.05,0.0,1|x_max,16711680,0;0.0,0.3,linear,linear,-0.05,0.0,0.05,0.0,1:x,0;0,1</property> -->
+					<!-- <property name="orientation_mode" type="list" value="Camera-facing velocity-aligned"/> -->
+					<!-- <property name="velocity_stretch_cap" type="float" value="1000.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_animated_texture"> -->
+					<!-- <property name="atlas_number_of_cells_x" type="int" value="1"/> -->
+					<!-- <property name="atlas_number_of_cells_y" type="int" value="1"/> -->
+					<!-- <property name="atlas_cell" type="int" value="0"/> -->
+					<!-- <property name="cell_blend" type="bool" value="false"/> -->
+					<!-- <property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/> -->
+					<!-- <property name="randomize_cell" type="bool" value="true"/> -->
+					<!-- <property name="loop" type="bool" value="true"/> -->
+					<!-- <property name="no_loops" type="float2" value="float2(6.0,7.0)"/> -->
+					<!-- <property name="row_restricted" type="bool" value="false"/> -->
+					<!-- <property name="row_restriction" type="int" value="0"/> -->
+					<!-- <property name="randomize_row" type="bool" value="false"/> -->
+					<!-- <property name="time_mode" type="list" value="using_particle_lifetime"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="ps_lighting"> -->
+					<!-- <property name="additive_blend_mul" type="float" value="0.0"/> -->
+					<!-- <property name="small_particles" type="float" value="0.0"/> -->
+					<!-- <property name="large_particles" type="float" value="2.0"/> -->
+					<!-- <property name="directionality" type="float" value="0.5"/> -->
+					<!-- <property name="emissive" type="float" value="0.0"/> -->
+					<!-- <property name="average_size" type="float" value="2.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_flip_uv"> -->
+					<!-- <property name="flip_u" type="float" value="0.5"/> -->
+					<!-- <property name="flip_v" type="float" value="0.0"/> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_vertex_alpha"> -->
+					<!-- <property name="curve_alpha" type="curve">alpha_min,8388608,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.05,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.95,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;1.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0|alpha_max,16711680,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.05,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;0.95,1.0,linear,linear,-0.05,0.0,0.05,0.0,0;1.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0:alpha,0;0,1</property> -->
+				<!-- </modifier> -->
+				<!-- <modifier fragment="vs_colour"> -->
+					<!-- <property name="curve_colour" type="curve">r_min,16711680,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|r_max,16711680,0;0.0,0.301961,linear,linear,-0.05,0.0,0.05,0.0,1|g_min,65280,0;0.0,0.360784,linear,linear,-0.05,0.0,0.05,0.0,1|g_max,65280,0;0.0,0.164706,linear,linear,-0.05,0.0,0.05,0.0,1|b_min,255,0;0.0,0.447059,linear,linear,-0.05,0.0,0.05,0.0,1|b_max,255,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|brightness_min,16777215,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1|brightness_max,16777215,0;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,1:r,1;0,1|g,1;2,3|b,1;4,5|brightness,0;6,7</property> -->
+				<!-- </modifier> -->
+			<!-- </quality> -->
 		</behaviour_chain>
 		<behaviour_chain id="bat_stream_collector">
 			<modifier fragment="vs_translation_velocity_v2">
@@ -609,11 +752,12 @@
 				<property name="cell_blend" type="bool" value="false"/>
 				<property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/>
 				<property name="randomize_cell" type="bool" value="true"/>
-				<property name="loop" type="bool" value="false"/>
-				<property name="no_loops" type="float2" value="float2(120.0,120.0)"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(6.0,7.0)"/>
 				<property name="row_restricted" type="bool" value="false"/>
 				<property name="row_restriction" type="int" value="0"/>
 				<property name="randomize_row" type="bool" value="false"/>
+				<property name="time_mode" type="list" value="using_particle_lifetime"/>
 			</modifier>
 			<modifier fragment="vs_vertex_alpha">
 				<property name="curve_alpha" type="curve">alpha_min,8388608;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,-0.0|alpha_max,16711680;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,0.0:alpha,0;0,1</property>
@@ -653,11 +797,12 @@
 				<property name="cell_blend" type="bool" value="false"/>
 				<property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/>
 				<property name="randomize_cell" type="bool" value="true"/>
-				<property name="loop" type="bool" value="false"/>
-				<property name="no_loops" type="float2" value="float2(120.0,120.0)"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(6.0,7.0)"/>
 				<property name="row_restricted" type="bool" value="false"/>
 				<property name="row_restriction" type="int" value="0"/>
 				<property name="randomize_row" type="bool" value="false"/>
+				<property name="time_mode" type="list" value="using_particle_lifetime"/>
 			</modifier>
 			<modifier fragment="vs_vertex_alpha">
 				<property name="curve_alpha" type="curve">alpha_min,8388608;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,-0.0|alpha_max,16711680;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,0.0:alpha,0;0,1</property>
@@ -697,11 +842,12 @@
 				<property name="cell_blend" type="bool" value="false"/>
 				<property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/>
 				<property name="randomize_cell" type="bool" value="true"/>
-				<property name="loop" type="bool" value="false"/>
-				<property name="no_loops" type="float2" value="float2(120.0,120.0)"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(6.0,7.0)"/>
 				<property name="row_restricted" type="bool" value="false"/>
 				<property name="row_restriction" type="int" value="0"/>
 				<property name="randomize_row" type="bool" value="false"/>
+				<property name="time_mode" type="list" value="using_particle_lifetime"/>
 			</modifier>
 			<modifier fragment="vs_vertex_alpha">
 				<property name="curve_alpha" type="curve">alpha_min,8388608;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,-0.0|alpha_max,16711680;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,0.0:alpha,0;0,1</property>
@@ -741,11 +887,12 @@
 				<property name="cell_blend" type="bool" value="false"/>
 				<property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/>
 				<property name="randomize_cell" type="bool" value="true"/>
-				<property name="loop" type="bool" value="false"/>
-				<property name="no_loops" type="float2" value="float2(120.0,120.0)"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(6.0,7.0)"/>
 				<property name="row_restricted" type="bool" value="false"/>
 				<property name="row_restriction" type="int" value="0"/>
 				<property name="randomize_row" type="bool" value="false"/>
+				<property name="time_mode" type="list" value="using_particle_lifetime"/>
 			</modifier>
 			<modifier fragment="vs_vertex_alpha">
 				<property name="curve_alpha" type="curve">alpha_min,8388608;0.0,0.0,linear,linear;1.0,1.0,linear,linear|alpha_max,16711680;0.0,0.0,linear,linear;1.0,1.0,linear,linear:alpha,0;0,1</property>

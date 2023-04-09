@@ -534,11 +534,12 @@
 				<property name="cell_blend" type="bool" value="false"/>
 				<property name="no_cells_xy" type="float2" value="float2(4.0,4.0)"/>
 				<property name="randomize_cell" type="bool" value="true"/>
-				<property name="loop" type="bool" value="false"/>
-				<property name="no_loops" type="float2" value="float2(7.0,7.0)"/>
+				<property name="loop" type="bool" value="true"/>
+				<property name="no_loops" type="float2" value="float2(6.0,7.0)"/>
 				<property name="row_restricted" type="bool" value="false"/>
 				<property name="row_restriction" type="int" value="0"/>
 				<property name="randomize_row" type="bool" value="false"/>
+				<property name="time_mode" type="list" value="using_particle_lifetime"/>
 			</modifier>
 			<modifier fragment="vs_vertex_alpha">
 				<property name="curve_alpha" type="curve">alpha_min,8388608;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,-0.0|alpha_max,16711680;0.00726,0.0;0.05,1.0;0.95,1.0;1.001815,0.0:alpha,0;0,1</property>
