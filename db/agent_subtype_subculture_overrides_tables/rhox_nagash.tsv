@@ -1,0 +1,6 @@
+subculture	subtype	agent	associated_unit_override	icon
+#agent_subtype_subculture_overrides_tables;5;db/agent_subtype_subculture_overrides_tables/rhox_nagash				
+mixer_nag_nagash	nag_tomb_prince	champion		ui/campaign ui/agents/wh2_dlc09_tmb_champion.png
+mixer_nag_nagash	nag_liche_priest_death	wizard		ui/campaign ui/agents/wh_main_wizard.png
+mixer_nag_nagash	nag_vampire	dignitary		ui/campaign ui/agents/wh_main_lore_death.png
+mixer_nag_nagash	nag_gunnery_wight	engineer		ui/campaign ui/agents/wh2_dlc11_cst_engineer.png
