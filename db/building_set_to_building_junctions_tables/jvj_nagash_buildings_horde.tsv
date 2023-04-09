@@ -47,3 +47,5 @@ nag_subhorde_support1_smith		nag_subhorde_military_support	false
 nag_subhorde_support2_worship		nag_subhorde_military_support	false
 nag_subhorde_infrastructure1_growth		nag_subhorde_infrastructure	false
 nag_subhorde_infrastructure2_industry		nag_subhorde_infrastructure	false
+nag_dieter_horde_landmark		nag_horde_unique	false
+nag_dieter_horde_special		nag_horde_settlement	false

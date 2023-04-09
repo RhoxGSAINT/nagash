@@ -123,3 +123,10 @@ nag_subhorde_infrastructure1_growth_1	nag_subhorde_infrastructure1_growth	0	1	75
 nag_subhorde_infrastructure1_growth_2	nag_subhorde_infrastructure1_growth	1	1	1500	0		false	false		true	nag_subhorde_infrastructure1_growth	false	0.0000	1	true	1		true	0	0		0
 nag_subhorde_infrastructure2_industry_1	nag_subhorde_infrastructure2_industry	0	1	750	0		false	false		true	nag_subhorde_infrastructure2_industry	false	0.0000	0	true	0		true	0	0		0
 nag_subhorde_infrastructure2_industry_2	nag_subhorde_infrastructure2_industry	1	1	1500	0		false	false		true	nag_subhorde_infrastructure2_industry	false	0.0000	1	true	2		true	0	0		0
+nag_dieter_horde_landmark_0	nag_dieter_horde_landmark	0	1	2500	0		false	false		true	nag_dieter_horde_landmark	false	0.0000	1	true	1		true	0	0		0
+nag_dieter_horde_landmark_1	nag_dieter_horde_landmark	1	1	5000	0		false	false		true	nag_dieter_horde_landmark	false	0.0000	2	true	3		true	0	0		0
+nag_dieter_horde_special_1	nag_dieter_horde_special	0	1	1000	0		false	false		true	nag_dieter_horde_special	false	0.0000	0	false	0		true	0	0		0
+nag_dieter_horde_special_2	nag_dieter_horde_special	1	1	2000	0		false	false		true	nag_dieter_horde_special	false	0.0000	1	false	1		true	0	0		0
+nag_dieter_horde_special_3	nag_dieter_horde_special	2	1	4000	0		false	false		true	nag_dieter_horde_special	false	0.0000	2	false	2		true	0	0		0
+nag_dieter_horde_special_4	nag_dieter_horde_special	3	1	6000	0		false	false		true	nag_dieter_horde_special	false	0.0000	4	false	3		true	0	0		0
+nag_dieter_horde_special_5	nag_dieter_horde_special	4	1	8000	0		false	false		true	nag_dieter_horde_special	false	0.0000	5	false	4		true	0	0		0

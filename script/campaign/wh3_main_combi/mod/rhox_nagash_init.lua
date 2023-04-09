@@ -16,12 +16,11 @@ local function rhox_nagash_init_setting()
     
     cm:heal_garrison(cm:get_region("wh3_main_combi_region_desolation_of_nagash"):cqi());
     
-    if cm:get_local_faction_name(true) == nagash_faction then
+    if cm:get_faction(nagash_faction):is_human()  then
         local nagashizzar_settlement = capital_region:settlement()
         cm:instantly_set_settlement_primary_slot_level(nagashizzar_settlement , 1)--for human only
-        --cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_primary_nagashizzar", 50)
         cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_special_nagashizzar", 50)
-        
+        cm:add_development_points_to_region("wh3_main_combi_region_nagashizzar", 1)
     end
     
     
@@ -492,7 +491,7 @@ local raise_dead_units={
 cm:add_first_tick_callback(
 	function()
         pcall(function()
-            mixer_set_faction_trait("mixr_nag_nagash", "wh2_main_lord_trait_vmp_nagash", true)
+            mixer_set_faction_trait(nagash_faction, "wh2_main_lord_trait_vmp_nagash", true)
         end)
 
 		if cm:is_new_game() then
