@@ -1,3 +1,5 @@
+local nagash_faction = "mixer_nag_nagash"
+
 
 local skill_to_anc ={
     nag_skill_unique_nagash_alakanash = "nag_anc_arcane_item_alakanash_staff_of_power",
@@ -37,7 +39,31 @@ core:add_listener(
 
 
 
-----------------------------------
+core:add_listener(
+    "rhox_nagash_uber_husk",
+    "CharacterRankUp",
+    function(context)
+        local character = context:character()
+        return character:character_subtype("nag_nagash_husk") and character:rank() >= 30 and cm:get_saved_value("rhox_nag_uber_husk") ~=true
+    end,
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        if faction:is_human() then
+            cm:trigger_incident_with_targets(faction:command_queue_index(), "rhox_nagash_uber_husk", 0, 0, character:command_queue_index(), 0, 0, 0)
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_01", true)
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_02", true)
+            cm:set_saved_value("grand_spell_status_nag_grand_spell_03", true)
+            cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_01", "nag_grand_spell_01_recharge", 20)
+            cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_02", "nag_grand_spell_02_recharge", 20)
+            cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_03", "nag_grand_spell_03_recharge", 20)
+            rhox_nagash_grandspell_ui()
+        end
+        cm:set_saved_value("rhox_nag_uber_husk", true)
+    end,
+    false
+) 
+----------------------------------Harkon persnoality
 local harkon_personality = {
 	turns_until_swap = 5,
 	current = "",

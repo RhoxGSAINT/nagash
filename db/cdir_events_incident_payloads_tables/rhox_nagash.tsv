@@ -1,0 +1,3 @@
+id	incident_key	payload_key	value	target_key
+#cdir_events_incident_payloads_tables;2;db/cdir_events_incident_payloads_tables/rhox_nagash				
+1402080409	rhox_nagash_uber_husk	GIVE_TRAIT	TRAIT_LEVEL_KEY[rhox_nagash_uber_husk]	default

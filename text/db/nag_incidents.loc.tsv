@@ -2,3 +2,5 @@ key	text	tooltip
 #Loc;1;text/db/nag_incidents.loc		
 incidents_localised_title_nag_luthor_madness_4	Restored Mind	true
 incidents_localised_description_nag_luthor_madness_4	Ha, Mad? Never, never was, never have been and never will be!"	true
+incidents_localised_title_rhox_nagash_uber_husk	Change of mind	false
+incidents_localised_description_rhox_nagash_uber_husk	Actually, living as the Husk is not bad at all. Why do I need to reclaim my body when I can smash the enemies in this form?\\n\\nWhy do I need Black Pyramid in the first place? I can make a new one. \\n\\n[[col:red]]Warning: This is a joke event. If you're a new player and don't know what to do, conquer the Black Pyramid of Nagash and hold a ritual there.[[/col]]	false
