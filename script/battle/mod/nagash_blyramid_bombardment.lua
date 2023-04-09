@@ -41,7 +41,7 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 				
 				
 				-- spawns blyramid and remembers coordinates
-				if (type_key == "nag_nagash_boss") and spawn_blyramid < 1 and gb:has_battle_started() then
+				if (type_key == "nag_nagash_boss" or type_key == "nag_nagash_husk") and spawn_blyramid < 1 and gb:has_battle_started() then  --because of uber husk, we have to put husk condition
                     out("Rhox Nagash: I'm spawning the black Pyramid!")
 					-- current_unit:position();
 					blyramid_anchor_coords = current_unit:position();

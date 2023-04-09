@@ -308,6 +308,7 @@ function complete_bp_raise()
                     cm:force_add_trait(new_char_lookup, trait_to_copy)
                     
                 end
+                cm:force_remove_trait(new_char_lookup, "rhox_nagash_uber_husk") --from uber husk event 
             end
             out("Rhox Nagash: Previous rank was: "..old_char_details.rank)
             cm:add_agent_experience(new_char_lookup,old_char_details.rank, true)

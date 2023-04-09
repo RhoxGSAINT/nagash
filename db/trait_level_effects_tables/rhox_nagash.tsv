@@ -1,0 +1,6 @@
+trait_level	effect	effect_scope	value
+#trait_level_effects_tables;0;db/trait_level_effects_tables/rhox_nagash			
+rhox_nagash_uber_husk	nag_ability_enable_blyramid_itself	general_to_force_own	1.0000
+rhox_nagash_uber_husk	nag_effect_grand_spell_01_recharge	character_to_faction	1.0000
+rhox_nagash_uber_husk	nag_effect_grand_spell_02_recharge	character_to_faction	1.0000
+rhox_nagash_uber_husk	nag_effect_grand_spell_03_recharge	character_to_faction	1.0000

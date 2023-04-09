@@ -402,6 +402,10 @@ function rhox_nagash_grandspell_ui()
                 if not pp1 then
                     return
                 end
+                if pp1:ChildCount() <2 then
+                    out("Rhox Nagash: It's template wasn't made and has "..pp1:child_count().." Children only")
+                    return
+                end
                 local pp2=find_child_uicomponent_by_index(pp1, 1)
                 if not pp2 then
                     return
@@ -429,6 +433,10 @@ function rhox_nagash_grandspell_ui()
                 if not pp1 then
                     return
                 end
+                if pp1:ChildCount() <2 then
+                    out("Rhox Nagash: It's template wasn't made and has "..pp1:child_count().." Children only")
+                    return
+                end
                 local pp2=find_child_uicomponent_by_index(pp1, 1)
                 if not pp2 then
                     return
@@ -454,6 +462,10 @@ function rhox_nagash_grandspell_ui()
                 local amount = cm:get_local_faction(true):pooled_resource_manager():resource("nag_grand_spell_03"):value()
                 local pp1=find_child_uicomponent_by_index(grand3, 0)
                 if not pp1 then
+                    return
+                end
+                if pp1:ChildCount() <2 then
+                    out("Rhox Nagash: It's template wasn't made and has "..pp1:child_count().." Children only")
                     return
                 end
                 local pp2=find_child_uicomponent_by_index(pp1, 1)
