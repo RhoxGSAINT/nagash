@@ -1,13 +1,13 @@
 key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_actor_group	show_in_ui	cap	has_female_name	can_gain_xp	loyalty_is_applicable	contributes_to_agent_cap	recruitment_category	magic_lore	names_group	can_be_loaned	recruitable	saving_settings	audio_vo_culture_override	spam_click_vo_enabled	can_equip_ancillaries	cost
 #agent_subtypes_tables;1;db/agent_subtypes_tables/rhox_nagash																					
-nag_nagash_boss	false	true		nag_nagash_boss	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Skeleton_Unit	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
-nag_nagash_husk	false	true		nag_nagash_husk	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Skeleton_Unit	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
-nag_mortarch_neferata	false	true		nag_mortarch_neferata	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
-nag_mortarch_krell	false	false		nag_mortarch_krell	wh_pro03_vo_actor_Vampire_chaos_Krell	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
-nag_mortarch_vlad	false	true		nag_mortarch_vlad	wh_dlc04_vo_actor_Vampire_dlc04_Vlad_Von_Carstein	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
-nag_mortarch_mannfred	false	true		nag_mortarch_mannfred	wh_main_vo_actor_Vampire_MannfredVonCarstein	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
-nag_mortarch_luthor	false	false		nag_mortarch_luthor	wh2_dlc11_vo_actor_VampireCoast_Luthor_Harkon	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
-nag_mortarch_arkhan	false	true		nag_mortarch_arkhan	wh2_dlc09_vo_actor_Tomb_Kings_Arkhan	true	-1	false	true	false	false	legendary_lords			false	true	can_be_saved_loaded		false	true	0
+nag_nagash_boss	false	true		nag_nagash_boss	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Skeleton_Unit	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_nagash_husk	false	true		nag_nagash_husk	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Skeleton_Unit	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_mortarch_neferata	false	true		nag_mortarch_neferata	wh_main_vo_actor_Vampire_FemaleVamp	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_mortarch_krell	false	false		nag_mortarch_krell	wh_pro03_vo_actor_Vampire_chaos_Krell	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_mortarch_vlad	false	true		nag_mortarch_vlad	wh_dlc04_vo_actor_Vampire_dlc04_Vlad_Von_Carstein	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_mortarch_mannfred	false	true		nag_mortarch_mannfred	wh_main_vo_actor_Vampire_MannfredVonCarstein	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_mortarch_luthor	false	false		nag_mortarch_luthor	wh2_dlc11_vo_actor_VampireCoast_Luthor_Harkon	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_mortarch_arkhan	false	true		nag_mortarch_arkhan	wh2_dlc09_vo_actor_Tomb_Kings_Arkhan	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
 nag_mortarch_isabella	false	true		nag_mortarch_isabella	wh_pro02_vo_actor_Vampire_Isabella_Von_Carstein	false	1	true	true	false	false				false	true	can_be_saved_loaded		false	true	0
 nag_traitor_king	true	false		nag_cha_tomb_king_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	true	-1	false	true	false	true	nag_traitor_king			false	true	can_be_saved_loaded		false	true	0
 nag_tomb_prince	true	false	ui/campaign ui/agents/wh_main_lore_nag_prince.png	nag_cha_tomb_prince_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Prince	true	-1	false	true	false	true				false	true	can_be_saved_loaded		false	true	0
@@ -23,3 +23,4 @@ nag_gunnery_wight	true	false		wh2_dlc11_cst_cha_gunnery_wight_0	wh2_dlc11_vo_act
 nag_morghasts_archai	true	false	ui/campaign ui/agents/wh2_dlc17_bst_wargor.png	nag_morghasts_archai	wh_main_vo_actor_Vampire_WightKing	true	-1	false	true	false	true				false	true	can_be_saved_loaded		false	true	0
 nag_traitor_king_shambling_horde	true	false		nag_cha_tomb_king_0	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_King	false	-1	false	true	false	true	vmp_master_necromancer			false	true	can_be_saved_loaded		false	true	0
 nag_mortarch_dieter	false	true		mixu_vmp_cha_dieter_helsnicht	wh_main_vo_actor_Vampire_MasterNecromancer	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1100
+nag_mortarch_azhag	false	true		wh_main_grn_cha_azhag_the_slaughterer_0	wh_main_vo_actor_Orc_AzhagTheSlaughterer	true	-1	false	true	false	true	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1450

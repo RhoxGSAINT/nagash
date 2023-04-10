@@ -2,3 +2,5 @@ key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	s
 #ancillaries_tables;0;db/ancillaries_tables/zzzzz_thanks_mixu_dieter																												
 mixu_vmp_dieter_helsnicht_mount_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true			1	0		false	false	false	all
 mixu_vmp_dieter_helsnicht_mount_manticore	wh_main_anc_mount_manticore	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true			1	0		false	false	false	all
+mixu_vmp_dieter_helsnicht_weapon_chaos_runesword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	true	all
+mixu_vmp_dieter_helsnicht_arcane_item_staff_of_flaming_death	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	1		false	false	true	all

@@ -1,3 +1,4 @@
 key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event
 #incidents_tables;5;db/incidents_tables/rhox_nagash							
 rhox_nagash_uber_husk	false	tmb/unique_black_pyramid_floating	false	Quest		true	
+rhox_nagash_azhag_mortarch	false	tmb/unique_black_pyramid_floating	false	Quest		true	

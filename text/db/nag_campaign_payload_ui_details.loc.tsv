@@ -4,3 +4,11 @@ campaign_payload_ui_details_description_dummy_nag_ability_enable_batocalypse	[PH
 campaign_payload_ui_details_description_dummy_nag_ability_enable_endless_tomb	[PH] frickin tombs	true
 campaign_payload_ui_details_description_dummy_nag_ability_enable_blyramid_bombardment	[PH] frickin bomb	true
 campaign_payload_ui_details_description_dummy_blankfornow	[TODO] give good bonuses in combat against specific faction	true
+campaign_payload_ui_details_description_nag_azhag_recruit	Azhag has become Mortarch and joined your forces	false
+campaign_payload_ui_details_description_nag_mortarch_neferata_technology	Unlocks technology [[col:orange]]Neferata, Mortarch of Blood[[/col]]	false
+campaign_payload_ui_details_description_nag_mortarch_krell_technology	Unlocks technology [[col:orange]]Krell, Mortarch of Despair[[/col]]	false
+campaign_payload_ui_details_description_nag_mortarch_vlad_technology	Unlocks technology [[col:orange]]Vlad, Mortarch of Shadow[[/col]]	false
+campaign_payload_ui_details_description_nag_mortarch_mannfred_technology	Unlocks technology [[col:orange]]Mannfred, Mortarch of Night[[/col]]	false
+campaign_payload_ui_details_description_nag_mortarch_luthor_technology	Unlocks technology [[col:orange]]Luthor, Mortarch of the Abyss[[/col]]	false
+campaign_payload_ui_details_description_nag_mortarch_arkhan_technology	Unlocks technology [[col:orange]]Arkhan, Mortarch of Sacrament[[/col]]	false
+campaign_payload_ui_details_description_nag_mortarch_dieter_technology	Unlocks technology [[col:orange]]Dieter Helsnicht[[/col]]	false

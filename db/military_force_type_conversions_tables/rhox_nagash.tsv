@@ -42,3 +42,7 @@ nag_dieter_horde	HORDE	false
 nag_dieter_horde	ARMY	true
 HORDE	nag_dieter_horde	false
 ARMY	nag_dieter_horde	false
+nag_azhag_horde	HORDE	false
+nag_azhag_horde	ARMY	true
+HORDE	nag_azhag_horde	false
+ARMY	nag_azhag_horde	false

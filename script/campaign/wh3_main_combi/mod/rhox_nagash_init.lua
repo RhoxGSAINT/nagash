@@ -403,7 +403,7 @@ function rhox_nagash_grandspell_ui()
                     return
                 end
                 if pp1:ChildCount() <2 then
-                    out("Rhox Nagash: It's template wasn't made and has "..pp1:child_count().." Children only")
+                    out("Rhox Nagash: It's template wasn't made and has "..pp1:ChildCount().." Children only")
                     return
                 end
                 local pp2=find_child_uicomponent_by_index(pp1, 1)
@@ -417,7 +417,7 @@ function rhox_nagash_grandspell_ui()
                 pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
                 
             end,
-            0.2
+            1
         )
     end
     if cm:get_saved_value("grand_spell_status_nag_grand_spell_02") ==true then --do ui stuff
@@ -434,7 +434,7 @@ function rhox_nagash_grandspell_ui()
                     return
                 end
                 if pp1:ChildCount() <2 then
-                    out("Rhox Nagash: It's template wasn't made and has "..pp1:child_count().." Children only")
+                    out("Rhox Nagash: It's template wasn't made and has "..pp1:ChildCount().." Children only")
                     return
                 end
                 local pp2=find_child_uicomponent_by_index(pp1, 1)
@@ -448,7 +448,7 @@ function rhox_nagash_grandspell_ui()
                 out("Rhox Nagash: Grand Spell 2 value: ".. amount)
                 pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
             end,
-            0.2
+            1
         )
     end
     if cm:get_saved_value("grand_spell_status_nag_grand_spell_03") ==true then --do ui stuff
@@ -465,7 +465,7 @@ function rhox_nagash_grandspell_ui()
                     return
                 end
                 if pp1:ChildCount() <2 then
-                    out("Rhox Nagash: It's template wasn't made and has "..pp1:child_count().." Children only")
+                    out("Rhox Nagash: It's template wasn't made and has "..pp1:ChildCount().." Children only")
                     return
                 end
                 local pp2=find_child_uicomponent_by_index(pp1, 1)
@@ -479,7 +479,7 @@ function rhox_nagash_grandspell_ui()
                 out("Rhox Nagash: Grand Spell 3 value: ".. amount)
                 pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
             end,
-            0.2
+            1
         )
     end
     

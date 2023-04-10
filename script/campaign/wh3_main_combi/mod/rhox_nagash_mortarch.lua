@@ -87,7 +87,8 @@ local mort_key_to_faction_key ={
     ["nag_mortarch_vlad"]="wh_main_vmp_schwartzhafen",
     ["nag_mortarch_mannfred"]="wh_main_vmp_vampire_counts",
     ["nag_mortarch_luthor"]="wh2_dlc11_cst_vampire_coast",
-    ["nag_mortarch_dieter"]="mixer_vmp_helsnicht"
+    ["nag_mortarch_dieter"]="mixer_vmp_helsnicht",
+    ["nag_mortarch_azhag"]="wh2_dlc15_grn_bonerattlaz"
 }
 
 
@@ -99,7 +100,8 @@ local mort_key_to_name ={
     ["nag_mortarch_neferata"]="nag_nagash_name_neferata",
     ["nag_mortarch_krell"]="nag_nagash_name_krell",
     ["nag_mortarch_isabella"]="nag_nagash_name_isabella",
-    ["nag_mortarch_dieter"]="nag_nagash_name_dieter"
+    ["nag_mortarch_dieter"]="nag_nagash_name_dieter",
+    ["nag_mortarch_azhag"]="nag_nagash_name_azhag"
 }
 
 local mort_key_to_region ={
@@ -110,7 +112,8 @@ local mort_key_to_region ={
     ["nag_mortarch_neferata"]="wh3_main_combi_region_silver_pinnacle",
     ["nag_mortarch_krell"]="wh3_main_combi_region_morgheim",
     ["nag_mortarch_isabella"]="wh3_main_combi_region_castle_drakenhof",
-    ["nag_mortarch_dieter"]="wh3_main_combi_region_aarnau"
+    ["nag_mortarch_dieter"]="wh3_main_combi_region_aarnau",
+    ["nag_mortarch_azhag"]="wh3_main_combi_region_nagashizzar"
 }
 
 local mort_key_to_units={
@@ -192,6 +195,10 @@ local mort_key_to_units={
         "nag_vanilla_vmp_mon_varghulf",
         "nag_vanilla_vmp_mon_vargheists",
         "nag_vanilla_vmp_mon_vargheists",
+    },
+    ["nag_mortarch_azhag"]={                               
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
     }
 }
 
@@ -288,10 +295,12 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
         traits = character:all_traits(),
         ap = character:action_points_remaining_percent()
     }
+    --[[
     out("Rhox Nagash: old character details")
     for k, detail in pairs(old_char_details) do
         out(tostring(detail))
     end
+    --]]
 
     
     local new_character
@@ -471,6 +480,32 @@ function mortarch_unlock_listeners()
             for i, technology in pairs(unlock_tech_table) do
                 out("Rhox Nagash Current technology: "..technology)
                 cm:unlock_technology(nagash_faction, technology)
+            end
+        end,
+        true
+    )
+    
+    
+    core:add_listener(
+        "rhox_azhag_mission_success",
+        "MissionSucceeded",
+        function(context)
+            local mission = context:mission()
+            return mission:mission_record_key() == "rhox_nagash_get_azhag_mission"
+        end,
+        function(context)
+            out("Rhox Nagash: You finished the Azhag mission!")
+            local mort_key = "nag_mortarch_azhag"
+            
+            
+            
+            local faction_key = mort_key_to_faction_key[mort_key]
+            local faction = cm:get_faction(faction_key)
+            if not faction:is_dead() then
+                --fire incident
+                cm:trigger_incident_with_targets(cm:get_faction(nagash_faction):command_queue_index(), "rhox_nagash_azhag_mortarch", 0,0,
+                faction:faction_leader():cqi(), 0,0,0)
+                upgrade_into_mortarch(faction, faction_key, mort_key)
             end
         end,
         true
