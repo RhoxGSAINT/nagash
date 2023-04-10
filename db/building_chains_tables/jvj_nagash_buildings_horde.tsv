@@ -48,3 +48,5 @@ nag_subhorde_infrastructure1_growth			money	false	nag_subhorde_infrastructure1_g
 nag_subhorde_infrastructure2_industry			money	false	nag_subhorde_infrastructure2_industry		11		true
 nag_dieter_horde_landmark			military	false	nag_dieter_horde_landmark		2	nag_mortarch_dieter	true
 nag_dieter_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
+nag_azhag_horde_landmark			military	false	nag_azhag_horde_landmark		2	nag_mortarch_azhag	true
+nag_azhag_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true

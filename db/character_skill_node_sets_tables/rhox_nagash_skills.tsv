@@ -23,3 +23,4 @@ nag_skill_node_set_cst_gunnery_wight	engineer	false	false				nag_gunnery_wight
 nag_skill_node_set_morghast_archai	spy	false	false				nag_morghasts_archai
 nag_traitor_king_shambling_horde	general	false	false				nag_traitor_king_shambling_horde
 nag_skill_node_set_mortarch_dieter	general	false	false				nag_mortarch_dieter
+nag_skill_node_set_mortarch_azhag	general	false	false				nag_mortarch_azhag
