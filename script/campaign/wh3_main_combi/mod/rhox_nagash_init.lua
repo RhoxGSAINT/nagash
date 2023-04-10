@@ -15,12 +15,14 @@ local function rhox_nagash_init_setting()
     cm:heal_garrison(capital_region:cqi());
     
     cm:heal_garrison(cm:get_region("wh3_main_combi_region_desolation_of_nagash"):cqi());
+    local nagash_character_type = "nag_nagash_boss"
     
-    if cm:get_faction(nagash_faction):is_human()  then
+    if cm:get_faction(nagash_faction):is_human() then
         local nagashizzar_settlement = capital_region:settlement()
         cm:instantly_set_settlement_primary_slot_level(nagashizzar_settlement , 1)--for human only
         cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_special_nagashizzar", 50)
         cm:add_development_points_to_region("wh3_main_combi_region_nagashizzar", 1)
+        nagash_character_type = "nag_nagash_husk"
     end
     
     
@@ -29,6 +31,8 @@ local function rhox_nagash_init_setting()
     
     local faction = cm:get_faction(nagash_faction);
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
+    
+    
     
     local nagash_character
     cm:create_force_with_general(
@@ -39,7 +43,7 @@ local function rhox_nagash_init_setting()
     853,
     400,
     "general",
-    "nag_nagash_husk",
+    nagash_character_type,
     "names_name_1937224327",
     "",
     "",
@@ -525,6 +529,10 @@ cm:add_first_tick_callback(
                 cm:lock_technology(nagash_faction, "nag_mortarch_neferata_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_vlad_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock")
+            else --if they're not human. They're getting free grand spells
+                cm:apply_effect_bundle("nag_grand_spell_01_20", nagash_faction,0)
+                cm:apply_effect_bundle("nag_grand_spell_02_20", nagash_faction,0)
+                cm:apply_effect_bundle("nag_grand_spell_03_20", nagash_faction,0)
             end
             if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock") --this needs to be done for the AI also if mixu lords aren't there
@@ -579,8 +587,8 @@ cm:add_first_tick_callback(
             end
 		end
 		
-
-        
+        ------------this is the part for every first tick regardless of AI or human
+        table.insert(campaign_traits.trait_exclusions["culture"]["wh2_main_trait_corrupted_vampire"],"mixer_nag_nagash") --so they shouldn't get it
 	end
 )
 
