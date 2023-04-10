@@ -450,7 +450,11 @@ function mortarch_unlock_listeners()
                 spawn_mortarch("nag_mortarch_isabella")--spawn isabella also if it's Vlad
             end
             
-            if mort_key == "nag_mortarch_luthor" then --add cst units to the raise dead pool
+            if mort_key == "nag_mortarch_luthor" then --add cst units to the raise dead pool_setup his mind
+                local new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "general", mort_key)
+                if new_character then
+                    rhox_nagash_setup_mortarch_harkon_mind(new_character)
+                end
                 local region_list = cm:model():world():region_manager():region_list()
                 for i=0,region_list:num_items()-1 do
                     local region= region_list:item_at(i)

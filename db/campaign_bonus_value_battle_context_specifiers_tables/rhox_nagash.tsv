@@ -1,0 +1,6 @@
+key	night_battles_only	your_force_type	their_force_type
+#campaign_bonus_value_battle_context_specifiers_tables;0;db/campaign_bonus_value_battle_context_specifiers_tables/rhox_nagash			
+fighting_culture_gullable	false		
+fighting_faction_lybaras	false		
+fighting_culture_living	false		
+fighting_culture_vampire_coast_counts	false		

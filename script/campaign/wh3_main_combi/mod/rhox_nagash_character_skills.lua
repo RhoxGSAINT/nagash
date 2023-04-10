@@ -125,8 +125,8 @@ function rhox_nag_add_harkon_listener()
         "CharacterTurnStart",
         function(context)
             local character = context:character()
-            
-            return character:character_subtype_key() == "nag_mortarch_luthor" and character:has_military_force() and not harkon_personality.restored
+            local faction = character:faction()
+            return character:character_subtype_key() == "nag_mortarch_luthor" and character:has_military_force() and faction:is_human() and not harkon_personality.restored
         end,
         function(context)
             local character = context:character()
@@ -178,6 +178,17 @@ function rhox_nag_add_harkon_listener()
         true
     )
 
+end
+
+function rhox_nagash_setup_mortarch_harkon_mind(character)
+    if character:faction():is_human() then
+        cm:force_add_trait(cm:char_lookup_str(character), "wh2_dlc11_trait_harkon_personality_mad", false, 1)
+        harkon_personality.current = "mad"
+    else --AI gets just better Harkon
+        cm:force_add_trait(cm:char_lookup_str(character), "wh2_dlc11_trait_harkon_personality_restored", false, 1)
+        harkon_personality.restored = true
+		harkon_personality.new = "restored"
+    end
 end
 
 
