@@ -1,3 +1,6 @@
 key	no_going_back_level	hidden	precedence	icon	ui_priority	pre_battle_speech_parameter
 #character_traits_tables;2;db/character_traits_tables/rhox_nagash						
 rhox_nagash_uber_husk	1	false	1	personality	-1	
+rhox_nagash_nagash_defeat_trait	1	false	1	nagash_icon	1	
+rhox_nagash_neferata_defeat_trait	1	false	1	vampire_counts	1	
+rhox_nagash_krell_defeat_trait	1	false	1	vampire_counts	1	
