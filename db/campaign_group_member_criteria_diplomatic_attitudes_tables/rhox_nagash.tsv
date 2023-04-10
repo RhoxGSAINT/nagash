@@ -1,0 +1,4 @@
+member	attitude
+#campaign_group_member_criteria_diplomatic_attitudes_tables;0;db/campaign_group_member_criteria_diplomatic_attitudes_tables/rhox_nagash	
+diplomacy_Subcult_Nagash_&_Negative	hostile
+diplomacy_Subcult_Nagash_&_Positive	friendly
