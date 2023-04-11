@@ -135,7 +135,7 @@ effects_description_nag_effect_agent_cap_increase_gunnery_wight	Hero capacity: %
 effects_description_nag_effect_agent_cap_increase_vampire	Hero capacity: %+n for Vampires	true
 effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+n for Tomb Princes & Wight Kings	true
 effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archai	true
-effects_description_nag_ability_enable_wrath_of_the_gods	Army ability: "Wrath of the Gods"	true
+effects_description_nag_ability_enable_wrath_of_the_gods	Army ability: "Wrath of the Dead"	true
 effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true
 effects_description_nag_effect_enable_bound_spell_nagash_hand_of_dust	Bound spell: "The Hand of Dust"	true
 effects_description_nag_effect_enable_bound_spell_nagash_breath_of_darkness	Bound spell: "Breath of Darkness"	true
@@ -346,10 +346,10 @@ effects_description_nag_effect_upkeep_mannfred	Upkeep: %+n% for Mannfred	true
 effects_description_nag_effect_ap_warbeasts	Armour-piercing damage: %+n for Dire Wolves, Fell Bats and Sand Crawler units	true
 effects_description_nag_effect_grand_spell_01_recharge	Army ability: "Endless Tomb" (with 20 turn recharge time)\\n(all armies)	true
 effects_description_nag_effect_grand_spell_02_recharge	Army ability: "Apocalyptic Swarm" (with 20 turn recharge time)\\n(all armies)	true
-effects_description_nag_effect_grand_spell_03_recharge	Army ability: "Wrath of the Gods" (with 20 turn recharge time) \\n([[img:icon_general]][[/img]]Lord's army)	true
+effects_description_nag_effect_grand_spell_03_recharge	Army ability: "Wrath of the Dead" (with 20 turn recharge time) \\n([[img:icon_general]][[/img]]Lord's army)	true
 effects_description_nag_effect_grand_spell_01_recharge_instant	Recharges ability: "Endless Tomb" (if unlocked)	true
 effects_description_nag_effect_grand_spell_02_recharge_instant	Recharges ability: "Apocalyptic Swarm" (if unlocked)	true
-effects_description_nag_effect_grand_spell_03_recharge_instant	Recharges ability: "Wrath of the Gods" (if unlocked)	true
+effects_description_nag_effect_grand_spell_03_recharge_instant	Recharges ability: "Wrath of the Dead" (if unlocked)	true
 effects_description_nag_effect_spawns_army_dummy	Spawns army at Nagash location	true
 effects_description_nag_effect_cannot_grow_disable	Allows the settlement to grow permanently (current location of Nagash)	true
 effects_description_nag_arkhan_unit_effect	Physical resistance: %n% for Arkhan	true

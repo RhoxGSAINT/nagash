@@ -533,6 +533,8 @@ cm:add_first_tick_callback(
                 cm:apply_effect_bundle("nag_grand_spell_01_20", nagash_faction,0)
                 cm:apply_effect_bundle("nag_grand_spell_02_20", nagash_faction,0)
                 cm:apply_effect_bundle("nag_grand_spell_03_20", nagash_faction,0)
+                cm:treasury_mod(nagash_faction, 50000)
+                cm:apply_effect_bundle("rhox_nagash_ai_bonus", nagash_faction,0) --TODO this is to make sure AI Nagash is super strong. Remove this before the Launch
             end
             if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock") --this needs to be done for the AI also if mixu lords aren't there
@@ -557,10 +559,9 @@ cm:add_first_tick_callback(
 
         if cm:get_local_faction_name(true) == nagash_faction then
 			add_nagash_listener()
-            mortarch_unlock_listeners()
             rhox_nagash_add_black_pyramid_listener()
             unlock_rites_listeners() --unlock rite with conditions, and rite complete script
-            rhox_nagash_add_teleport_listener() --add teleport network if quintax is controlled, and spawn Damon army when the player uses them.
+            rhox_nagash_add_teleport_listener() --add teleport network if quintex is controlled, and spawn Damon army when the player uses them.
             rhox_nagash_trigger_rites_listeners()
 
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
@@ -581,14 +582,17 @@ cm:add_first_tick_callback(
             rhox_nagash_grandspell_ui()
             rhox_nagash_check_pyramid_status()
             rhox_nag_add_harkon_listener()
-            
+            mortarch_unlock_listeners() --AI doesn't trigger the research completed condition. So let's just leave it here
             if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
                 rhox_nagash_remove_dieter_tech_listener()
             end
+        else
+            rhox_nagash_add_ai_mortarch_mission() --and AI listener for them
 		end
 		
         ------------this is the part for every first tick regardless of AI or human
         table.insert(campaign_traits.trait_exclusions["culture"]["wh2_main_trait_corrupted_vampire"],"mixer_nag_nagash") --so they shouldn't get it
+        
 	end
 )
 

@@ -47,7 +47,7 @@ end
 function rhox_nagash_trigger_rites_listeners()
 
     core:add_listener(
-            "rhox_ngash_faction_turn_start",
+            "rhox_nagash_faction_turn_start",
             "FactionTurnStart",
             function(context)
                 return context:faction():name() == nagash_faction and cm:get_saved_value("nag_bp_ritual_completed") == true

@@ -8,3 +8,5 @@ effect_bundles_localised_title_rhox_nagash_ongoing	The Black Pyramid	true
 effect_bundles_localised_description_rhox_nagash_ongoing	Hold off the Skaven Invasion and finish the [[col:yellow]]Grand Ritual[[/col]]!	true
 effect_bundles_localised_title_rhox_nagash_woke	The Black Pyramid	true
 effect_bundles_localised_description_rhox_nagash_woke	[[col:green]]The Black Pyramid[[/col]] is empowered, and Nagash is Ascended. Travel onwards and crush the foolish living underfoot!	true
+effect_bundles_localised_title_rhox_nagash_ai_bonus	Hidden for AI	false
+effect_bundles_localised_description_rhox_nagash_ai_bonus	This gives upkeep -100 for all forces	false

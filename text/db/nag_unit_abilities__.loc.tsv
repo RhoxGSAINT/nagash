@@ -115,7 +115,7 @@ unit_abilities_onscreen_name_nag_army_abilities_endless_tomb_hidden_raise_dead	R
 unit_abilities_tooltip_text_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDDEN]	true
 unit_abilities_onscreen_name_nag_endless_tomb_visuals	Endless Tomb visuals  [HIDDEN]	true
 unit_abilities_tooltip_text_nag_army_abilities_blyramid_bombardment_targeting	Calls upon Black Pyramids vast energies to enact bombardment and annihilate anything in the area.	true
-unit_abilities_onscreen_name_nag_army_abilities_blyramid_bombardment_targeting	Wrath of the Gods	true
+unit_abilities_onscreen_name_nag_army_abilities_blyramid_bombardment_targeting	Wrath of the Dead	true
 unit_abilities_onscreen_name_wh_main_lore_nagash_raise_the_dead	Raise the Dead	true
 unit_abilities_tooltip_text_wh_main_lore_nagash_raise_the_dead	The living do not stay dead long and neither do the dead, contorting their way through unlife with improved vigour and purpose.	true
 unit_abilities_onscreen_name_nag_nagash_passive_eternal_danse_macabre	Vanhel's Eternal Danse Macabre	true
