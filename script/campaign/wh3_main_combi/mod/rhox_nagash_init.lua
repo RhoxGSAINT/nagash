@@ -121,6 +121,8 @@ local function rhox_nagash_init_setting()
                 
                 mm:set_should_whitelist(true)
                 mm:trigger()
+            else
+                cm:add_agent_experience(cm:char_lookup_str(nagash_character), 30, true) --add level for ai nagash
             end
         end, 
     3);
