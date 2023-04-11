@@ -266,7 +266,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     local character = faction:faction_leader() --real leader before the change
     
     out("Rhox Nagash: This Mort's obedience chance is: "..mort_key_to_success_chance[mort_key])
-    if faction:is_human() or cm:model():random_percent(100-mort_key_to_success_chance[mort_key]) then
+    if cm:get_faction(nagash_faction):is_human() ==false and (faction:is_human() or cm:model():random_percent(100-mort_key_to_success_chance[mort_key])) then
         cm:force_declare_war(nagash_faction, faction_key, true, true) --declare war if mortarch was a player
         --TODO add incident for the player
         local human_factions = cm:get_human_factions()
