@@ -564,3 +564,6 @@ key	building	unit	xp	conditions	faction	enabled
 8427398	nag_outpost_special_blackpyramid_3	nag_nagashi_guard	0	0		false
 8427399	nag_outpost_special_blackpyramid_3	nag_nagashi_guard_halb	0	0		false
 8427400	nag_outpost_special_blackpyramid_3	nag_bone_golems	0	0		false
+8427401	nag_bpyramid_ww1_stables_3	nag_undead_chariot_unit	0	0		false
+8427402	nag_bpyramid_ww1_stables_4	nag_undead_chariot_unit	0	0		false
+8427403	nag_horde_military2_stables_3	nag_undead_chariot_unit	0	0		false

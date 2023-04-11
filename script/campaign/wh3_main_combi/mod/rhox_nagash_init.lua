@@ -255,6 +255,7 @@ local function add_nagash_listener()
 
         end,
         function(context)
+            rhox_nagash_grandspell_ui() --nothing to do with wapstone but let's put it here
             local region_list=context:faction():region_list()
             local num_items = region_list:num_items()
             for i=0,num_items-1 do
@@ -420,7 +421,7 @@ function rhox_nagash_grandspell_ui()
                 if not pip then
                     return
                 end
-                pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
+                pip:SetImagePath("ui/skins/mixer_nag_nagash/superspells_crypt"..tostring(amount)..".png")
                 
             end,
             1
@@ -452,7 +453,7 @@ function rhox_nagash_grandspell_ui()
                     return
                 end
                 out("Rhox Nagash: Grand Spell 2 value: ".. amount)
-                pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
+                pip:SetImagePath("ui/skins/mixer_nag_nagash/superspells_bat"..tostring(amount)..".png")
             end,
             1
         )
@@ -483,7 +484,7 @@ function rhox_nagash_grandspell_ui()
                     return
                 end
                 out("Rhox Nagash: Grand Spell 3 value: ".. amount)
-                pip:SetImagePath("ui/skins/mixer_nag_nagash/gp1_"..tostring(amount)..".png")
+                pip:SetImagePath("ui/skins/mixer_nag_nagash/superspells_bomb"..tostring(amount)..".png")
             end,
             1
         )
