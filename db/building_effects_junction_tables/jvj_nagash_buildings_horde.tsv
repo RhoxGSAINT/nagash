@@ -33,6 +33,7 @@ nag_bpyramid_main_4	nag_effect_unit_cap_warp_ghouls		faction_to_faction_own_unse
 nag_bpyramid_main_4	wh_main_effect_economy_gdp_culture		force_to_force_building	800.0000	800.0000	0.0000
 nag_bpyramid_main_4	wh2_dlc09_effect_increase_army_capacity		building_to_faction_own	2.0000	0.0000	0.0000
 nag_bpyramid_main_4	nag_effect_grand_spell_01_recharge		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
+nag_bpyramid_main_4	wh3_main_effect_foreign_slot_max_winds_of_magic		force_to_character_own_provincetext	1.0000	1.0000	0.0000
 nag_bpyramid_main_5	nag_effect_horde_growth		force_to_force_own	13.0000	13.0000	0.0000
 nag_bpyramid_main_5	wh3_main_effect_winds_of_magic_pool_min		force_to_force_own	20.0000	20.0000	0.0000
 nag_bpyramid_main_5	wh3_main_effect_winds_of_magic_enemy_character		force_to_character_own_provincetext	-15.0000	-15.0000	0.0000
@@ -51,6 +52,7 @@ nag_bpyramid_main_5	nag_effect_agent_enable_recruitment_archai		force_to_force_o
 nag_bpyramid_main_5	nag_effect_agent_cap_increase_archai		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
 nag_bpyramid_main_5	nag_effect_grand_spell_01_recharge		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
 nag_bpyramid_main_5	nag_effect_grand_spell_03_recharge		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
+nag_bpyramid_main_5	wh3_main_effect_foreign_slot_max_winds_of_magic		force_to_character_own_provincetext	1.0000	1.0000	0.0000
 nag_bpyramid_main_obelisk_1	nag_effect_landmark_nagash_buff_ethereal_magic_res		force_to_force_own_lords_army	10.0000	10.0000	0.0000
 nag_bpyramid_main_obelisk_1	nag_effect_landmark_nagash_enemy_undead_hex		force_to_character_own_provincetext	-6.0000	-6.0000	0.0000
 nag_bpyramid_main_obelisk_1	nag_effect_landmark_nagash_character_wom_reserves		force_to_force_own	15.0000	15.0000	0.0000

@@ -44,13 +44,20 @@ building_short_description_texts_short_description_nag_outpost_special_quintex_2
 building_short_description_texts_short_description_nag_outpost_special_quintex_3	Quintex has stood since before the dawn of recorded history. Within its vaults lie treasures beyond comprehension.	true
 building_short_description_texts_short_description_nag_outpost_special_quintex_4	The deepest chancels within Quintex may very well hold treasures and learnings that unlock the past, and foretell the future.	true
 building_short_description_texts_short_description_nag_outpost_special_quintex_5	Quintex, the Ancient City, origins unknown, this bastion has witnessed the rise and fall of countless civilizations and will likely see many more fall still.	true
-building_short_description_texts_short_description_nag_outpost_primary_research_1	A colossal black tower of carved obsidian pierces through the landscape with a shrouded dark aura puzzling at its base.	true
+building_short_description_texts_short_description_nag_outpost_primary_research_1	A colossal black tower of carved obsidian pierces through the landscape enshrouded by dark aura pulsing at its base.	true
+building_short_description_texts_short_description_nag_outpost_primary_research_2	A colossal black tower of carved obsidian pierces through the landscape enshrouded by dark aura pulsing at its base.	false
 building_short_description_texts_short_description_nag_outpost_primary_arcane_1	The ground has split in two, a chilling wind gushes into the chasm, ferrying a stream of souls to its depths.	true
+building_short_description_texts_short_description_nag_outpost_primary_arcane_2	The ground has split in two, a chilling wind gushes into the chasm, ferrying a stream of souls to its depths.	false
 building_short_description_texts_short_description_nag_outpost_primary_support_1	Legions of ancient warriors encased behind grand carved stones, waiting to hear their call to battle.	true
+building_short_description_texts_short_description_nag_outpost_primary_support_2	Legions of ancient warriors encased behind grand carved stones, waiting to hear their call to battle.	false
 building_short_description_texts_short_description_nag_outpost_primary_nehek_1	Underneath these sandstone tombs lay the vast dorment armies of Nehekhara.	true
+building_short_description_texts_short_description_nag_outpost_primary_nehek_2	Underneath these sandstone tombs lay the vast dorment armies of Nehekhara.	false
 building_short_description_texts_short_description_nag_outpost_primary_nagashizzar_1	Glory of Nagash, forever and always.	true
+building_short_description_texts_short_description_nag_outpost_primary_nagashizzar_2	Glory of Nagash, forever and always.	false
 building_short_description_texts_short_description_nag_outpost_primary_coast_1	Hear the siren's call, as the dead are calling.	true
+building_short_description_texts_short_description_nag_outpost_primary_coast_2	Hear the siren's call, as the dead are calling.	false
 building_short_description_texts_short_description_nag_outpost_primary_count_1	No pulse, no breath, no life, yet still they stir.	true
+building_short_description_texts_short_description_nag_outpost_primary_count_2	No pulse, no breath, no life, yet still they stir.	false
 building_short_description_texts_short_description_nag_outpost_primary_warpstone_1	Warpstone is Nagash's most valuable resource and he will strip the earth bare to get it all.	true
 building_short_description_texts_short_description_nag_outpost_secondary_fields_1	Unstable footing accompanied by a mysterious crunching sound...	true
 building_short_description_texts_short_description_nag_outpost_secondary_corruption_1	There are some places in the world where no living thing should tread.	true
@@ -121,6 +128,21 @@ building_short_description_texts_short_description_nag_resource_timber_3	From th
 building_short_description_texts_short_description_nag_resource_wine_1	When a Vampire drinks an "aged red" from a wine glass, chances are it hasn't been made from grapes…	true
 building_short_description_texts_short_description_nag_resource_wine_2	These orchards contain low-hanging, spooky trees, whose thorny branches are as likely to grab a passer-by as provide fruit.	true
 building_short_description_texts_short_description_nag_resource_wine_3	Vampires crave the illusion that they are nobles, and so they bottle their own "special" vintages.	true
+building_short_description_texts_short_description_nag_resource_animals_1	A pit, filled with the remains and carcasses of numerous different creatures, waiting for someone to piece them backtogether.	true
+building_short_description_texts_short_description_nag_resource_animals_2	Even the animals and beasts of Nehekhara could not escape Nagash's terrible curse.	true
+building_short_description_texts_short_description_nag_resource_animals_3	They don't come back the same, sometimes dead is better.	true
+building_short_description_texts_short_description_nag_resource_medicine_1	Smoke and noise billow and bellow from within, as dark and curious transmutations are perfected.	true
+building_short_description_texts_short_description_nag_resource_medicine_2	Witch? Yes, doctor not so much, but the potions are bubbling and the spirits are high.	true
+building_short_description_texts_short_description_nag_resource_medicine_3	A grim and sterile place, metal tools line it's walls, as hands cold and precise, work the bones with the detached efficiency of a machine.	true
+building_short_description_texts_short_description_nag_resource_pasture_1	Those that still have heartbeats must still make a living. Most do in the cursed fields, tending to withering crops.	true
+building_short_description_texts_short_description_nag_resource_pasture_2	A twisted wicker frame stands alone in the desolate crop field, casting an eerie shadow across the lifeless earth.	true
+building_short_description_texts_short_description_nag_resource_pasture_3	At night, the mill by the blood-clotted streams begins to turn, mixing grains with grinded bone.	true
+building_short_description_texts_short_description_nag_resource_spices_1	Even for the dead, the spice merchants are insalubrious. Yet the precious spice, they continually insist, *must* flow.	true
+building_short_description_texts_short_description_nag_resource_spices_2	Here, the dead are not at rest, but rather sold and traded like mere commodities. Rows upon rows of corpses lie in various states of decay, each with a price tag dangling from their decaying limbs.	true
+building_short_description_texts_short_description_nag_resource_spices_3	A dimly lit room filled with ancient tomes, strange artifacts, and a palpable aura of dark magic, stood in the center is a shadowing figure offering a simple offer, "Your Soul, for power".	true
+building_short_description_texts_short_description_nag_resource_ivory_1	Creatures of darkness roam the night in search of bones. Their eyes glow with a sickly green light as they scour the desolate landscape, their rotting hands clawing at the earth.	true
+building_short_description_texts_short_description_nag_resource_ivory_2	In the land of the dead, gold is for fools and true wealth is ripped from a cold corpse or excavated from the ground.	true
+building_short_description_texts_short_description_nag_resource_ivory_3	The young bretonnian necromancer Lady Petits Filous, discovered that ivory could be ground down and infused with bones to make them stronger, she coined the product "Bone Meal".	true
 building_short_description_texts_short_description_nag_nagash_settlement	Once a thriving settlement of living, breathing creatures, now little more than magic-scorched cold ruins where the dead roam and march.	true
 building_short_description_texts_short_description_nag_nagash_occupied_big_port	Nagash cares little about seafaring, but he understands strategic locations. These can turn out useful to Harkon, on good days.	true
 building_short_description_texts_short_description_nag_outpost_special_khemri	Oh, what a victory to be savoured, and many monuments to be defaced. 	true
