@@ -4,3 +4,7 @@ id	incident_key	option_key	value	target
 1450500410	rhox_nagash_uber_husk	GEN_TARGET_MODEL		default
 1450500411	rhox_nagash_azhag_mortarch	VAR_CHANCE	100	default
 1450500412	rhox_nagash_azhag_mortarch	GEN_TARGET_MODEL		default
+1450500413	rhox_nagash_mortarch_notify	VAR_CHANCE	100	default
+1450500414	rhox_nagash_mortarch_notify	GEN_TARGET_MODEL		default
+1450500415	rhox_nagash_declare_war	VAR_CHANCE	100	default
+1450500416	rhox_nagash_declare_war	GEN_TARGET_MODEL		default

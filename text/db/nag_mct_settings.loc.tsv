@@ -1,0 +1,15 @@
+key	text	tooltip
+#Loc;1;text/db/nag_mct_settings.loc		
+mct_nag_nagsh_title	Nagash	false
+mct_nag_nagsh_author	Nagash Team	false
+mct_nag_nagsh_description	Here, you can adjust some settings for the AI Nagash	false
+mct_nag_nagsh_nag_mortarch_arkhan_text	Arkahn obedience chance	false
+mct_nag_nagsh_nag_mortarch_arkhan_tooltip	When AI Nagash researches technology, Arkhan will obey and become confederated with the following chance	false
+mct_nag_nagsh_nag_mortarch_vlad_text	Vlad obedience chance	false
+mct_nag_nagsh_nag_mortarch_vlad_tooltip	When AI Nagash researches technology, Vlad will obey and become confederated with the following chance	false
+mct_nag_nagsh_nag_mortarch_mannfred_text	Mannfred obedience chance	false
+mct_nag_nagsh_nag_mortarch_mannfred_tooltip	When AI Nagash researches technology, Mannfred will obey and become confederated with the following chance	false
+mct_nag_nagsh_nag_mortarch_luthor_text	Luthor obedience chance	false
+mct_nag_nagsh_nag_mortarch_luthor_tooltip	When AI Nagash researches technology, Luthor will obey and become confederated with the following chance	false
+mct_nag_nagsh_nag_mortarch_dieter_text	Dieter obedience chance	false
+mct_nag_nagsh_nag_mortarch_dieter_tooltip	When AI Nagash researches technology, Dieter will obey and become confederated with the following chance	false

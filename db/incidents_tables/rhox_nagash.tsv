@@ -2,3 +2,5 @@ key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident
 #incidents_tables;5;db/incidents_tables/rhox_nagash							
 rhox_nagash_uber_husk	false	tmb/unique_black_pyramid_floating	false	Quest		true	
 rhox_nagash_azhag_mortarch	false	tmb/unique_black_pyramid_floating	false	Quest		true	
+rhox_nagash_mortarch_notify	false	tmb/unique_black_pyramid_floating	false	Quest		false	
+rhox_nagash_declare_war	false	tmb/unique_black_pyramid_floating	false	Quest		false	

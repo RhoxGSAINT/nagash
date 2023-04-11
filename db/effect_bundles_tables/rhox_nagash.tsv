@@ -56,3 +56,4 @@ rhox_nagash_woke	This is UI enabler		faction	1		true	true	false
 nag_grand_spell_01_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_grand_spell_02_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_grand_spell_03_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
+rhox_nagash_ai_bonus	[HIDDEN]	HIDDEN	faction	0		false	false	true

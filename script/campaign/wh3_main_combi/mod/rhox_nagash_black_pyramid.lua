@@ -22,7 +22,7 @@ local function rhox_nagash_begin_bp_raise()
     if ritual_flag and ritual_flag == true then
         return false
     end
-    out("Rhox Nagash: In the function")
+    --out("Rhox Nagash: In the function")
     cm:complete_scripted_mission_objective(nagash_faction, "nag_bp_raise", "nag_bp_raise", true)
     
     --- wound Nagash Husk and replace it. 
@@ -227,19 +227,11 @@ function rhox_nagash_add_black_pyramid_listener()
                     complete_bp_raise()
                 else
                     cm:set_scripted_mission_text("nag_bp_survive", "nag_bp_survive", "mission_text_text_nag_bp_survive_"..t)
-                    --[[
-                    cm:remove_effect_bundle("rhox_nagash_ongoing", nagash_faction)
-                    local duration = cm:create_new_custom_effect_bundle("rhox_nagash_ongoing");
-                    duration:remove_effect_by_key("rhox_nagash_remaining_turns")
-                    duration:add_effect("rhox_nagash_remaining_turns", "faction_to_faction_own_unseen", tonumber(t))
-                    duration:set_effect_value_by_key("rhox_nagash_remaining_turns", tonumber(t))
-                    duration:set_duration(0);
-                    cm:apply_custom_effect_bundle_to_faction(duration, cm:get_faction(nagash_faction))
-                    --]]
+                    set_current_ritual(current_ritual, t)--complete will do the saved states so it goes to here
                 end
             end
 
-            set_current_ritual(current_ritual, t)
+            
         end,
         true
     )

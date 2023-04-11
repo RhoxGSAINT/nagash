@@ -116,6 +116,15 @@ local mort_key_to_region ={
     ["nag_mortarch_azhag"]="wh3_main_combi_region_nagashizzar"
 }
 
+
+local mort_key_to_success_chance ={
+    ["nag_mortarch_arkhan"]=100,
+    ["nag_mortarch_vlad"]=35,
+    ["nag_mortarch_mannfred"]=35,
+    ["nag_mortarch_luthor"]=35,
+    ["nag_mortarch_dieter"]=35
+}
+
 local mort_key_to_units={
     ["nag_mortarch_arkhan"]={
         "nag_vanilla_vmp_inf_skeleton_warriors_0",
@@ -256,9 +265,23 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     
     local character = faction:faction_leader() --real leader before the change
     
-    if faction:is_human() then
-        force_declare_war(nagash_faction, faction_key, true, true) --declare war if mortarch was a player
+    out("Rhox Nagash: This Mort's obedience chance is: "..mort_key_to_success_chance[mort_key])
+    if faction:is_human() or cm:model():random_percent(100-mort_key_to_success_chance[mort_key]) then
+        cm:force_declare_war(nagash_faction, faction_key, true, true) --declare war if mortarch was a player
         --TODO add incident for the player
+        local human_factions = cm:get_human_factions()
+        for i = 1, #human_factions do
+            cm:trigger_incident_with_targets(
+                cm:get_faction(human_factions[i]):command_queue_index(),
+                "rhox_nagash_declare_war",
+                faction:command_queue_index(),
+                0,
+                0,
+                0,
+                0,
+                0
+            )
+        end
         return --and do nothing
     end
     
@@ -332,27 +355,88 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     out(old_char_details.character_surname)
     --new_character = cm:get_most_recently_created_character_of_type(nagash_faction):military_force()
 
+    
+    
+    
     out("Created a new character")
     if new_character then
 		CUS:update_new_character(old_char_details, new_character, 1)
 	end
     out("Upgrading a new character")
+    local forename = common.get_localised_string(mort_key_to_name[mort_key])
+    cm:change_character_custom_name(new_character, forename, "","","")
+    
+    
+    if mort_key == "nag_mortarch_vlad" then --spawn isabella too in case of Vlad
+        local mort_key = "nag_mortarch_isabella"
+        new_character= nil
+        character = nil
+        local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, false, true, 5)
+        cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, "dignitary", mort_key)
+        new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "dignitary", mort_key)
+        
+
+        local loop_char_list = faction:character_list()
+        
+        for i = 0, loop_char_list:num_items() - 1 do
+            local looping = loop_char_list:item_at(i)
+            --out("Rhox Nagash: Current character subtype: "..looping:character_subtype_key())
+            if looping:character_subtype_key() == "wh_pro02_vmp_isabella_von_carstein_hero" then
+                character = looping
+                break
+            end
+        end
+		
+		if character then
+            out("Rhox Nagash: Found old Isabella")
+            old_char_details = {
+                mf = character:military_force(),
+                rank = character:rank(),
+                fm_cqi = character:family_member():command_queue_index(),
+                character_details = character:character_details(),
+                faction_key = character:faction():name(),
+                character_forename = character:get_forename(),
+                character_surname = character:get_surname(),
+                parent_force = character:embedded_in_military_force(),
+                subtype = character:character_subtype_key(),
+                traits = character:all_traits(),
+                ap = character:action_points_remaining_percent()
+            }
+            CUS:update_new_character(old_char_details, new_character, 1)
+		else --there wasn't a isabella maybe a mod, recruit defeated or whatever
+            out("Rhox Nagash: There wasn't an old Isabella")
+            local nagash_character = cm:get_faction(nagash_faction):faction_leader()
+            local nagash_rank = nagash_character:rank()
+            cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
+		end
+		local forename = common.get_localised_string(mort_key_to_name[mort_key])
+        cm:change_character_custom_name(new_character, forename, "","","")
+		
+    end
 
     if cm:get_faction(nagash_faction):is_human() then
         rhox_kill_faction(faction_key) -- if nagash is a human, destroy the faction
     else
+        local human_factions = cm:get_human_factions()
+        for i = 1, #human_factions do
+            cm:trigger_incident_with_targets(
+                cm:get_faction(human_factions[i]):command_queue_index(),
+                "rhox_nagash_mortarch_notify",
+                faction:command_queue_index(),
+                0,
+                0,
+                0,
+                0,
+                0
+            )
+        end
         cm:force_confederation(nagash_faction, faction_key) --make nagash siphon the mortarch if it's AI
         cm:suppress_immortality(character_to_kill:family_member():command_queue_index(), true)
         cm:kill_character(cm:char_lookup_str(character_to_kill), true)
         cm:remove_effect_bundle("wh_main_bundle_confederation_vmp", nagash_faction)
     end
     
-    --
-    --
-    
-    local forename = common.get_localised_string(mort_key_to_name[mort_key])
-    cm:change_character_custom_name(new_character, forename, "","","")
-    
+
     
         
 end
@@ -374,35 +458,44 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
     local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, false, true, 5)
     --out("New x: "..new_x)
     --out("New y: "..new_y)
-    if mort_key == "nag_mortarch_isabella" then
-        cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, "dignitary", mort_key)
-        new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "dignitary", mort_key)
-    else
-        cm:create_force_with_general(
-        -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
-        nagash_faction,
-        table.concat(mort_key_to_units[mort_key], ","),
-        region_key,
-        new_x,
-        new_y,
-        "general",
-        mort_key,
-        "",
-        "",
-        "",
-        "",
-        false,
-        function(cqi)
-            new_character = cm:get_character_by_cqi(cqi)
-        end);
-    end
+    
+    
+    cm:create_force_with_general(
+    -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+    nagash_faction,
+    table.concat(mort_key_to_units[mort_key], ","),
+    region_key,
+    new_x,
+    new_y,
+    "general",
+    mort_key,
+    "",
+    "",
+    "",
+    "",
+    false,
+    function(cqi)
+        new_character = cm:get_character_by_cqi(cqi)
+    end);
+    
     
     
     --local new_character = cm:get_most_recently_created_character_of_type(nagash_faction)
     local forename = common.get_localised_string(mort_key_to_name[mort_key])
     cm:change_character_custom_name(new_character, forename, "","","")
     cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
-
+    
+    
+    if mort_key == "nag_mortarch_vlad" then --spawn isabella also in case of Vlad
+        out("Rhox Nagash: It's Vlad. Should summon Isabella too")
+        local mort_key = "nag_mortarch_isabella"
+        local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, false, true, 5)
+        cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, "dignitary", mort_key)
+        new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "dignitary", mort_key)
+        local forename = common.get_localised_string(mort_key_to_name[mort_key])
+        cm:change_character_custom_name(new_character, forename, "","","")
+        cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
+    end
 
             
 end
@@ -411,11 +504,13 @@ end
                            
                            
 function mortarch_unlock_listeners()
+    out("Rhox Nagash: Setting out Nagash Mortarch listeners")
     core:add_listener(
     --- When an "unlock" tech is researched, spawn the related Morty.
         "MortarchUnlock",
         "ResearchCompleted",
         function(context)
+            --out("Rhox Nagash: Researched technology: "..context:technology())
             return RHOX_NAGASH_UNLOCK_TECHS[context:technology()]
         end,
         function(context)
@@ -445,10 +540,7 @@ function mortarch_unlock_listeners()
                 spawn_mortarch(mort_key)--just spawn one as this one does not have a faction
             end
             
-            --spawn_mortarch(mort_key)--scrap the upgrade idea
-            if mort_key == "nag_mortarch_vlad" and (cm:get_faction("wh_main_vmp_schwartzhafen"):is_human()==false or cm:get_faction("wh_main_vmp_schwartzhafen"):is_dead()) then --the faction has to be non-human or dead to summon the Isabella
-                spawn_mortarch("nag_mortarch_isabella")--spawn isabella also if it's Vlad
-            end
+
             
             if mort_key == "nag_mortarch_luthor" then --add cst units to the raise dead pool_setup his mind
                 local new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "general", mort_key)
@@ -516,6 +608,44 @@ function mortarch_unlock_listeners()
     )
 end
 
+function rhox_nagash_add_ai_mortarch_mission()
+    core:add_listener(
+            "rhox_ai_nagash_faction_turn_start",
+            "FactionTurnStart",
+            function(context)
+                return context:faction():name() == nagash_faction
+            end,
+            function(context)
+                out("Rhox Nagash: AI Nagash faction turn start")
+                local faction = context:faction()
+                for tech_key, contents in pairs(RHOX_NAGASH_UNLOCK_TECHS) do
+                    if faction:has_technology(tech_key) and cm:get_saved_value("ai"..tech_key) ~= true then
+                        out("Rhox Nagash: Nagash has researched: "..tech_key)
+                        cm:set_saved_value("ai"..tech_key, true)
+                        local mort_key = string.gsub(tech_key, "_unlock", "")
+                        local faction_key = mort_key_to_faction_key[mort_key]
+                        if faction_key ~= nil then --do something more if that Mortarch has faction
+                            out("faction key: "..faction_key)
+                            local faction = cm:get_faction(faction_key)
+                            if not faction:is_dead() then
+                                upgrade_into_mortarch(faction, faction_key, mort_key)
+                            else
+                                spawn_mortarch(mort_key)--just spawn one as the faction is already dead. Not going to get anything from the leader since recruit defeated lords might be affecting them
+                            end
+                        else
+                            spawn_mortarch(mort_key)--just spawn one as this one does not have a faction
+                        end
+                        
+                        --spawn_mortarch(mort_key)--scrap the upgrade idea
+                        if mort_key == "nag_mortarch_vlad" and (cm:get_faction("wh_main_vmp_schwartzhafen"):is_human()==false or cm:get_faction("wh_main_vmp_schwartzhafen"):is_dead()) then --the faction has to be non-human or dead to summon the Isabella. 
+                            spawn_mortarch("nag_mortarch_isabella")--spawn isabella also if it's Vlad
+                        end
+                    end
+                end
+            end,
+            true
+    )
+end
 
 function trigger_mortarch_unlock_missions()
     local key = nagash_faction
@@ -604,3 +734,93 @@ function trigger_mortarch_unlock_missions()
     else
     end
 end
+
+
+core:add_listener(
+    "rhox_nagash_mct_initialize",
+    "MctInitialized",
+    true,
+    function(context)
+        -- get the mct object
+        local mct = context:mct()
+
+        local my_mod = mct:get_mod_by_key("nag_nagash")
+
+        -- get the mct_option object with the key "do_thing_one", and its finalized setting - reading from the mct_settings.lua file if it's a new game, or the save game file if it isn't
+        local nag_mortarch_arkhan = my_mod:get_option_by_key("nag_mortarch_arkhan")
+        local nag_mortarch_arkhan_setting = nag_mortarch_arkhan:get_finalized_setting()
+        
+        local nag_mortarch_vlad = my_mod:get_option_by_key("nag_mortarch_vlad")
+        local nag_mortarch_vlad_setting = nag_mortarch_vlad:get_finalized_setting()
+        
+        local nag_mortarch_mannfred = my_mod:get_option_by_key("nag_mortarch_mannfred")
+        local nag_mortarch_mannfred_setting = nag_mortarch_mannfred:get_finalized_setting()
+        
+        local nag_mortarch_luthor = my_mod:get_option_by_key("nag_mortarch_luthor")
+        local nag_mortarch_luthor_setting = nag_mortarch_luthor:get_finalized_setting()
+        
+        local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
+        local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
+        
+
+        
+        mort_key_to_success_chance["nag_mortarch_arkhan"]=nag_mortarch_arkhan_setting
+        mort_key_to_success_chance["nag_mortarch_vlad"]=nag_mortarch_vlad_setting
+        mort_key_to_success_chance["nag_mortarch_mannfred"]=nag_mortarch_mannfred_setting
+        mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
+        mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
+        
+        out("Rhox Nagash: Mortarch percentages")
+        out(mort_key_to_success_chance["nag_mortarch_arkhan"])
+        out(mort_key_to_success_chance["nag_mortarch_vlad"])
+        out(mort_key_to_success_chance["nag_mortarch_mannfred"])
+        out(mort_key_to_success_chance["nag_mortarch_luthor"])
+        out(mort_key_to_success_chance["nag_mortarch_dieter"])
+    end,
+    true
+)
+
+
+core:add_listener(
+    "rhox_nagash_mct_setting_change",
+    "MctOptionSettingFinalized",
+    true,
+    function(context)
+        -- get the mct object
+        local mct = context:mct()
+
+        local my_mod = mct:get_mod_by_key("nag_nagash")
+
+        -- get the mct_option object with the key "do_thing_one", and its finalized setting - reading from the mct_settings.lua file if it's a new game, or the save game file if it isn't
+        local nag_mortarch_arkhan = my_mod:get_option_by_key("nag_mortarch_arkhan")
+        local nag_mortarch_arkhan_setting = nag_mortarch_arkhan:get_finalized_setting()
+        
+        local nag_mortarch_vlad = my_mod:get_option_by_key("nag_mortarch_vlad")
+        local nag_mortarch_vlad_setting = nag_mortarch_vlad:get_finalized_setting()
+        
+        local nag_mortarch_mannfred = my_mod:get_option_by_key("nag_mortarch_mannfred")
+        local nag_mortarch_mannfred_setting = nag_mortarch_mannfred:get_finalized_setting()
+        
+        local nag_mortarch_luthor = my_mod:get_option_by_key("nag_mortarch_luthor")
+        local nag_mortarch_luthor_setting = nag_mortarch_luthor:get_finalized_setting()
+        
+        local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
+        local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
+        
+
+        
+        mort_key_to_success_chance["nag_mortarch_arkhan"]=nag_mortarch_arkhan_setting
+        mort_key_to_success_chance["nag_mortarch_vlad"]=nag_mortarch_vlad_setting
+        mort_key_to_success_chance["nag_mortarch_mannfred"]=nag_mortarch_mannfred_setting
+        mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
+        mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
+        
+        out("Rhox Nagash: Mortarch percentages")
+        out(mort_key_to_success_chance["nag_mortarch_arkhan"])
+        out(mort_key_to_success_chance["nag_mortarch_vlad"])
+        out(mort_key_to_success_chance["nag_mortarch_mannfred"])
+        out(mort_key_to_success_chance["nag_mortarch_luthor"])
+        out(mort_key_to_success_chance["nag_mortarch_dieter"])
+    end,
+    true
+)
