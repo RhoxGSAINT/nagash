@@ -8,15 +8,11 @@ local spawn_blyramid = 0;
 local blyramid_anchor_coords = nil;
 
 --load_script_libraries(); --added by rhox
-bm = battle_manager:new(empire_battle:new());
+--bm = battle_manager:new(empire_battle:new());
 -- local gc = generated_cutscene:new(true);
-gb = generated_battle:new(
-	false,                                      		-- screen starts black
-	false,                                     		-- prevent deployment for player
-	false,                                      	-- prevent deployment for ai
-	nil, -- intro cutscene function
-	false                                      		-- debug mode
-);
+
+
+
 
 -- check for various types of units, and takes action if finds fitting ones, enemy army and ally army are relative
 local function scan_units_for_targets(alliance_armies, enemy_armies)
@@ -41,7 +37,7 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 				
 				
 				-- spawns blyramid and remembers coordinates
-				if (type_key == "nag_nagash_boss" or type_key == "nag_nagash_husk") and spawn_blyramid < 1 and gb:has_battle_started() then  --because of uber husk, we have to put husk condition
+				if (type_key == "nag_nagash_boss" or type_key == "nag_nagash_husk") and spawn_blyramid < 1 then  --because of uber husk, we have to put husk condition
                     out("Rhox Nagash: I'm spawning the black Pyramid!")
 					-- current_unit:position();
 					blyramid_anchor_coords = current_unit:position();
@@ -56,7 +52,7 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 				end
                 
 				-- sends units summoned diretly at the enemy and takes control away from player
-				if (type_key == "nag_inf_skeleton_warriors_endless_tomb_summoned") and gb:has_battle_started() then
+				if (type_key == "nag_inf_skeleton_warriors_endless_tomb_summoned") then
 					
 					-- out("script nag_inf_skeleton_warriors_endless_tomb_summoned")
 					-- script_unit:new(current_army, unit_index_in_army);
@@ -132,7 +128,6 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 						army:use_special_ability("nag_army_abilities_blyramid_bombardment_04", v(original_x - 10, y_generated, original_z - 10), angle_radians)
 					end		
 				end
-				--]]
 			end
 		end
 	end
@@ -141,39 +136,6 @@ end
 
 -- main loop, cleans up UI of whatever got killed last cycle (used for blyramid bombard) and runs unit scan function from both sides
 local function update()
-    
-	
-	
-	--[[
-	local ui_root = core:get_ui_root()
-	local event_icon = find_uicomponent(ui_root, "hud_battle", "radar_holder", "radar_group", "adc_frame", "event_icon")
-	if event_icon then
-		local label = find_uicomponent(event_icon, "label")
-		if label then
-			if string.find(label:GetStateText(), "wiped out") then
-				UIComponent(label:Parent()):SetVisible(false)
-			end
-		end
-	end
-
-	if last_kill and os.clock() - last_kill < 5 then
-		local adc_ping = find_uicomponent(ui_root, "hud_battle", "ping_parent", "adc_ping")
-		if adc_ping then
-			local adc_icon = find_uicomponent(adc_ping, "adc_icon")
-			local arrow = find_uicomponent(adc_ping, "arrow")
-			if adc_icon and arrow then
-				if string.find(adc_icon:GetTooltipText(), "wiped out") then
-					UIComponent(adc_icon:Parent()):SetVisible(false)
-					adc_icon:SetVisible(false)
-					adc_ping:SetVisible(false)
-					arrow:SetVisible(false)
-				end
-			end
-		end
-	end
-	--]] --let's not do this. People need to see wiped out event
-
-
 	local alliance_armies = bm:alliances():item(bm:get_player_alliance_num()):armies()
 	local enemy_armies = bm:alliances():item(bm:get_non_player_alliance_num()):armies()
     --out("Rhox Nagash: Player Alliance number "..bm:get_player_alliance_num())
@@ -184,6 +146,10 @@ local function update()
 		scan_units_for_targets(enemy_armies, alliance_armies)
     end)
     
+end
+
+
+local function rhox_remove_ui()
     local abilities_need_hiding={
         "button_holder_nag_army_abilities_endless_tomb_hidden_dummy",
         "button_holder_nag_army_abilities_blyramid_bombardment_00",
@@ -194,9 +160,9 @@ local function update()
         "button_holder_nag_blyramid_itself"
     }
     
-	
-	local army_ability_parent = find_uicomponent(core:get_ui_root(), "hud_battle", "army_ability_container", "army_ability_parent")
-	if not army_ability_parent then
+    
+    local army_ability_parent = find_uicomponent(core:get_ui_root(), "hud_battle", "army_ability_container", "army_ability_parent")
+    if not army_ability_parent then
         return
     end
     for i=1,#abilities_need_hiding do
@@ -208,24 +174,40 @@ local function update()
 end
 
 
+local function rhox_start_listeners()
+    -- killing and reviving listener
+    core:remove_listener("belisarian_nagash_blyramid_scan_listener_cb")
+    core:add_listener(
+        "belisarian_nagash_blyramid_scan_listener_cb",
+        "RealTimeTrigger",
+        function(context)
+            return context.string == "belisarian_nagash_blyramid_scan_listener"
+        end,
+        function(context)
+            update()
+            real_timer.register_singleshot("belisarian_nagash_blyramid_scan_listener", 50)
+        end,
+        true
+    )
+    -- repeat every 50 ms cycle
+    bm:remove_process("belisarian_nagash_blyramid_scan_cycle")
+    bm:callback(function()
+        update()
+        real_timer.register_singleshot("belisarian_nagash_blyramid_scan_listener", 50)
+    end, 1000, "belisarian_nagash_blyramid_scan_cycle")
+end
 
--- killing and reviving listener
-core:remove_listener("belisarian_nagash_blyramid_scan_listener_cb")
-core:add_listener(
-	"belisarian_nagash_blyramid_scan_listener_cb",
-	"RealTimeTrigger",
-	function(context)
-		return context.string == "belisarian_nagash_blyramid_scan_listener"
-	end,
-	function(context)
-		update()
-		real_timer.register_singleshot("belisarian_nagash_blyramid_scan_listener", 50)
-	end,
-	true
-)
--- repeat every 50 ms cycle
-bm:remove_process("belisarian_nagash_blyramid_scan_cycle")
-bm:callback(function()
-	update()
-	real_timer.register_singleshot("belisarian_nagash_blyramid_scan_listener", 50)
-end, 1000, "belisarian_nagash_blyramid_scan_cycle")
+
+bm:register_phase_change_callback(
+	"Deployed", 
+	function()
+		rhox_start_listeners()
+	end
+);
+
+bm:register_phase_change_callback(
+	"Deployment", 
+	function()
+		rhox_remove_ui()
+	end
+);
