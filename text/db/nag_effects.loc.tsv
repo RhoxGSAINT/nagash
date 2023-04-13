@@ -397,3 +397,4 @@ effects_description_nag_effect_force_army_battle_leadership_all_defending	Leader
 effects_description_nag_effect_agent_action_enable_wizard_passive_spread_corruption_vmp	[HIDDEN] 	true
 effects_description_rhox_nagash_remaining_turns	Remaining Turns: %n	false
 effects_description_nag_dieter_unlock	Summon [[col:yellow]]Dieter Helsnicht[[/col]] to your Legion, spawning in [[col:yellow]]Aarnau[[/col]]	false
+effects_description_rhox_nagash_hidden_wrath_abilities	This is supposed to be hidden	false
