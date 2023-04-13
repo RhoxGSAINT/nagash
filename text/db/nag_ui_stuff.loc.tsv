@@ -14,3 +14,4 @@ nag_nagash_name_isabella	Isabella von Carstein	false
 campaign_effect_scopes_localised_text_rhox_nagash_building_to_region		false
 nag_nagash_name_dieter	Dieter Helsnicht	false
 nag_nagash_name_azhag	Mortarch Azhag	false
+campaign_effect_scopes_localised_text_nagash_building_to_force_own_provincewide	\\n(provincewide)	false
