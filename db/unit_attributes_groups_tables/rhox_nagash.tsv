@@ -4,7 +4,7 @@ nag_bone_colossus
 nag_fear_terror_strider_guerrilla_undead
 nag_fear_terror_strider_guerrilla_hideForest_undead
 nag_fear_strider_undead
-nag_undead_chariot_unit_attributes
+nag_undead_chariot_unit
 nag_nagash_husk
 nag_nagash_revenant
 nag_nagash_boss
@@ -68,5 +68,3 @@ nag_spectre_swarm
 nag_shade_haunts
 nag_virion_plaguecart
 nag_revenants
-nag_cha_liche_priest_undeath_0_attributes
-nag_cha_liche_priest_undeath_1_attributes
