@@ -1,11 +1,11 @@
-key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military
-#technologies_tables;6;db/technologies_tables/rhox_nagash_dieter										
-nag_mortarch_dieter_unlock	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766558	false	false	true
-nag_dieter_archai	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766559	false	false	true
-nag_dieter_proclamation	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766560	false	false	true
-nag_mortarch_dieter_event_1	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766561	false	false	true
-nag_mortarch_dieter_event_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766562	false	false	true
-nag_mortarch_dieter_event_3	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766563	false	false	true
-nag_dieter_battle_1	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766564	false	false	true
-nag_dieter_battle_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766565	false	false	true
-nag_dieter_battle_3	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766566	false	false	true
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
+#technologies_tables;7;db/technologies_tables/rhox_nagash_dieter											
+nag_mortarch_dieter_unlock	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766558	false	false	true	false
+nag_dieter_archai	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766559	false	false	true	false
+nag_dieter_proclamation	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766560	false	false	true	false
+nag_mortarch_dieter_event_1	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766561	false	false	true	false
+nag_mortarch_dieter_event_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766562	false	false	true	false
+nag_mortarch_dieter_event_3	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766563	false	false	true	false
+nag_dieter_battle_1	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766564	false	false	true	false
+nag_dieter_battle_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766565	false	false	true	false
+nag_dieter_battle_3	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1586766566	false	false	true	false
