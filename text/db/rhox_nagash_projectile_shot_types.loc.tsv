@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/rhox_nagash_projectile_shot_types.loc		
+projectile_shot_type_displays_onscreen_name_nag_bone_thrower	Single-Shot Round	false
+projectile_shot_type_displays_tooltip_text_nag_bone_thrower	Shooting a single, large projectile instead of many smaller ones is more effective when fighting larger single targets, such as monsters.	false
+projectile_shot_type_displays_onscreen_name_nag_bone_thrower_cluster	Multi-Shot Round	false
+projectile_shot_type_displays_tooltip_text_nag_bone_thrower_cluster	Shooting many smaller projectiles instead of one large one is more effective when fighting multiple small targets, such as infantry units.	false

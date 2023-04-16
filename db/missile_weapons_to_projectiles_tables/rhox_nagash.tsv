@@ -1,0 +1,4 @@
+missile_weapon	projectile
+#missile_weapons_to_projectiles_tables;0;db/missile_weapons_to_projectiles_tables/rhox_nagash	
+nag_bone_thrower	nag_bone_thrower
+nag_bone_thrower	nag_bone_thrower_cluster

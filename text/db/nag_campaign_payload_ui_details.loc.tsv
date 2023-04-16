@@ -12,3 +12,5 @@ campaign_payload_ui_details_description_nag_mortarch_mannfred_technology	Unlocks
 campaign_payload_ui_details_description_nag_mortarch_luthor_technology	Unlocks technology [[col:orange]]Luthor, Mortarch of the Abyss[[/col]]	false
 campaign_payload_ui_details_description_nag_mortarch_arkhan_technology	Unlocks technology [[col:orange]]Arkhan, Mortarch of Sacrament[[/col]]	false
 campaign_payload_ui_details_description_nag_mortarch_dieter_technology	Unlocks technology [[col:orange]]Dieter Helsnicht[[/col]]	false
+campaign_payload_ui_details_description_nag_mortarch_confederation	Leginos of Nagash has absorbed the faction	false
+campaign_payload_ui_details_description_nag_mortarch_war	Leginos of Nagash has declared war on the faction	false
