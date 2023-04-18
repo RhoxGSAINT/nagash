@@ -8,9 +8,9 @@ key	building	unit	xp	conditions	faction	enabled
 8427392	nag_non_unique_settlement_cavalry_2	nag_vanilla_tmb_cav_skeleton_horsemen_0	0	0		false
 8427393	nag_non_unique_settlement_chariots_1	nag_vanilla_tmb_veh_skeleton_chariot_0	0	0		false
 8427394	nag_non_unique_settlement_chariots_2	nag_vanilla_tmb_veh_skeleton_chariot_0	0	0		false
-8427395	nag_non_unique_settlement_chariots_2	nag_vanilla_tmb_veh_skeleton_archer_chariot_0	0	0		false
+8427395	nag_non_unique_settlement_chariots_2	nag_undead_chariot_unit	0	0		false
 8427396	nag_non_unique_settlement_chariots_3	nag_vanilla_tmb_veh_skeleton_chariot_0	0	0		false
-8427397	nag_non_unique_settlement_chariots_3	nag_vanilla_tmb_veh_skeleton_archer_chariot_0	0	0		false
+8427397	nag_non_unique_settlement_chariots_3	nag_undead_chariot_unit	0	0		false
 8427398	nag_non_unique_settlement_chariots_3	nag_vanilla_tmb_art_screaming_skull_catapult_0	0	0		false
 8427399	nag_non_unique_settlement_infantry_1	nag_vanilla_tmb_inf_skeleton_spearmen_0	0	0		false
 8427400	nag_non_unique_settlement_infantry_1	nag_vanilla_tmb_inf_skeleton_warriors_0	0	0		false
@@ -30,4 +30,3 @@ key	building	unit	xp	conditions	faction	enabled
 8427414	nag_non_unique_settlement_spirit_2	nag_spirit_hosts	0	0		false
 8427415	nag_non_unique_settlement_spirit_2	nag_vanilla_vmp_inf_cairn_wraiths	0	0		false
 8427416	nag_non_unique_settlement_spirit_2	nag_spectre_swarm	0	0		false
-8427417	nag_non_unique_settlement_chariots_3	nag_undead_chariot_unit	0	0		false

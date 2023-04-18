@@ -528,7 +528,7 @@ nag_skill_tmb_tomb_king_campaign_0		nag_skill_campaign_movement	nag_skill_node_s
 nag_skill_tmb_tomb_king_campaign_1		nag_skill_campaign_corruption	nag_skill_node_set_traitor_kings		5.0000	1.0000		0	0	true
 nag_skill_tmb_tomb_king_campaign_2		nag_skill_campaign_raiding	nag_skill_node_set_traitor_kings		5.0000	2.0000		0	0	true
 nag_skill_tmb_tomb_king_campaign_3		nag_skill_campaign_replenishment	nag_skill_node_set_traitor_kings		5.0000	3.0000		0	0	true
-nag_skill_tmb_tomb_king_campaign_4		nag_skill_campaign_growth	nag_skill_node_set_traitor_kings		5.0000	4.0000		0	0	true
+nag_skill_tmb_tomb_king_campaign_4		wh_main_skill_vmp_lord_campaign_children_of_the_night	nag_skill_node_set_traitor_kings		5.0000	4.0000		0	0	true
 nag_skill_tmb_tomb_king_campaign_5		nag_skill_campaign_recruit	nag_skill_node_set_traitor_kings		5.0000	5.0000		0	4	true
 nag_skill_tmb_tomb_king_campaign_6		wh_main_skill_all_lord_campaign_lightning_strike	nag_skill_node_set_traitor_kings		5.0000	6.0000		0	0	true
 nag_skill_tmb_tomb_king_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_traitor_kings		5.0000	7.0000		0	0	true
