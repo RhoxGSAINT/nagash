@@ -44,7 +44,7 @@ local function rhox_nagash_begin_bp_raise()
     old_char_details.traits = character:all_traits()
     
     
-    
+    cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
     local f_cqi = leader:command_queue_index()
     core:add_listener(
         "KillThem",
@@ -59,7 +59,7 @@ local function rhox_nagash_begin_bp_raise()
 
     cm:kill_character(f_cqi, false, true)
     cm:wound_character(leader_lookup, 999)
-
+    cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
 
     --- trigger mission for "survive"
     local mm = mission_manager:new(nagash_faction, "nag_bp_survive")
