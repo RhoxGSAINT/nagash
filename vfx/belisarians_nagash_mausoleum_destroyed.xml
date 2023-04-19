@@ -8,52 +8,47 @@
 	<effect_render_stacks></effect_render_stacks>
 </vfx><vfx_references>
 
-	<!-- <vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
-		<!-- <emitter name="mausoleum" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
-	<!-- </vfx> -->
-	<vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="2.00" scale_max="2.00" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
+
+	<vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="2.00" scale_max="2.00" pos_x="0.00" pos_y="6.10" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="5.0" start_time_max="5.0" infinite_life="true">
 		<emitter name="mausoleum_destroyed" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
 	</vfx>
-	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="1.30" scale_max="1.30" pos_x="0.50" pos_y="0.00" pos_z="1.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+
+	<!-- spawn dust mausoleum -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="0.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true"> -->
 		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
 		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
 	<!-- </vfx>	 -->
-	<!-- spawn dust mausoleum -->
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="0.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="0.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="0.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="0.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="2.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="2.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="2.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="2.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="0.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="0.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="0.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="2.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="1.0" pos_y="2.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="2.00" pos_z="2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-1.0" pos_y="2.00" pos_z="-2.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
 
 	<!-- ground plate stuff -->
-	<vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="11.00" scale_max="11.0" pos_x="0.00" pos_y="-5.20" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
+	<vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="11.00" scale_max="11.0" pos_x="0.00" pos_y="1.90" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
 		<emitter name="ground_plate_destroyed" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
 	</vfx>
 	<!-- <vfx inst_name="main" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.80" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="10.00" start_time_max="10.00" infinite_life="true"> -->
@@ -61,35 +56,35 @@
 	<!-- </vfx> -->
 
 	
-	<vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="2.00" scale_max="2.00" pos_x="4.00" pos_y="0.00" pos_z="6.00" rot_x="0.00" rot_y="180.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
-		<emitter name="pillar_destroyed" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
-	</vfx>
+	<!-- <vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="2.00" scale_max="2.00" pos_x="4.00" pos_y="6.00" pos_z="6.00" rot_x="0.00" rot_y="180.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true"> -->
+		<!-- <emitter name="pillar_destroyed" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
 	<!-- <vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="1.00" scale_max="1.00" pos_x="-2.00" pos_y="0.00" pos_z="3.00" rot_x="0.00" rot_y="180.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
 		<!-- <emitter name="pillar" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
 	<!-- </vfx> -->
 	<!-- <vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="1.00" scale_max="1.00" pos_x="2.00" pos_y="0.00" pos_z="-3.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
 		<!-- <emitter name="pillar" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
 	<!-- </vfx> -->
-	<vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="2.00" scale_max="2.00" pos_x="-4.00" pos_y="0.00" pos_z="-6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true">
-		<emitter name="pillar_destroyed" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/>
-	</vfx>
+	<!-- <vfx inst_name="vfxref_3012" vfx_ref="belisarians_lib_nagash_endless_tomb" scale_min="2.00" scale_max="2.00" pos_x="-4.00" pos_y="6.00" pos_z="-6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.0" start_time_max="0.0" infinite_life="true"> -->
+		<!-- <emitter name="pillar_destroyed" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.0" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00"/> -->
+	<!-- </vfx> -->
 	<!-- pillar dust -->
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="4.0" pos_y="0.00" pos_z="6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-4.0" pos_y="0.00" pos_z="6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.50" start_time_max="2.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.30" scale_max="0.60" pos_x="4.0" pos_y="0.00" pos_z="-6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
-	<vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-4.0" pos_y="0.00" pos_z="-6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true">
-		<emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-		<emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/>
-	</vfx>	
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="4.0" pos_y="0.00" pos_z="6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-4.0" pos_y="0.00" pos_z="6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="1.50" start_time_max="2.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.30" scale_max="0.60" pos_x="4.0" pos_y="0.00" pos_z="-6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
+	<!-- <vfx inst_name="vfxref_2033" vfx_ref="wh2_main_lib_rock_impact" scale_min="0.60" scale_max="0.60" pos_x="-4.0" pos_y="0.00" pos_z="-6.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true"> -->
+		<!-- <emitter name="dust_pole" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+		<!-- <emitter name="dust_end" enable="true" tint_min_r="3.00" tint_min_g="3.00" tint_min_b="3.00" tint_min_a="1.00" tint_max_r="3.00" tint_max_g="3.00" tint_max_b="3.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="2.00" emitter_lifetime_bias_max="2.00"/> -->
+	<!-- </vfx>	 -->
 	
 
 	

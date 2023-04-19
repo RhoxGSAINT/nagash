@@ -19,16 +19,15 @@
 			<property name="InfiniteLife" quality="0" value="true"/>
 			<property name="AllowEmitFromMesh" quality="0" value="false"/>
 			<ranged_property name="LifeTime" quality="0" min="1.00" max="1.00"/>
-			<property name="RigidsMax" quality="0" value="1"/>
+			<property name="MaximumParticles" quality="0" value="1"/>
 			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
 			<property name="ParticleLoopParams" quality="0" x="0.40" y="0.60"/>
 			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,0.5|x_max,16711680;0.0,0.5:x,1;0,1</property>
 			<property name="EmissionLoopAnim" quality="0" value="false"/>
 			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0;0.061261,-0.006224|x_max,16711680;0.0,1.0;0.061261,-0.006224:x,0;0,1</property>
 			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
-			<property_event name="OnParticleDeath" quality="0" action="0" vfx_name="belisarians_nagash_mausoleum_destroyed"/>
+			<property_event name="OnParticleDeath" quality="0" vfx_name="belisarians_nagash_mausoleum_destroyed" death_event_time_offset="150.00"/>
 			<property name="EventEnable" quality="0" value="true"/>
-			<!-- <property_event name="OnParticleSpawn" quality="0" action="0" vfx_name="belisarians_chill_king_ice_smoke_crystals"/> -->
 
 
 		<!-- <property name="ParticlesLocalSpace" quality="0" value="true"/> -->
