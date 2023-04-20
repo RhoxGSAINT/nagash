@@ -841,6 +841,11 @@ core:add_listener(
 
 function rhox_nag_debug_function()
     for mort_key, faction_key in pairs(mort_key_to_name) do
-        spawn_mortarch(mort_key)
+        if mort_key == "nag_mortarch_isabella" then
+            out("Rhox Nagash: We do not call Isabella with spawn function")
+        else
+            out("Rhox Nagash: Spawning: ".. mort_key)
+            spawn_mortarch(mort_key)
+        end
     end
 end
