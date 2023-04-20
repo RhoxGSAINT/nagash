@@ -565,3 +565,15 @@ key	building	unit	xp	conditions	faction	enabled
 8427400	nag_outpost_special_blackpyramid_3	nag_bone_golems	0	0		false
 8427401	nag_arkhan_horde_landmark_0	nag_vanilla_tmb_veh_skeleton_archer_chariot_0	0	0		false
 8427402	nag_arkhan_horde_landmark_1	nag_vanilla_tmb_veh_skeleton_archer_chariot_0	0	0		false
+8427403	nag_azhag_horde_landmark_0	vigpro_nagash_skeleton_orcs	0	0		false
+8427404	nag_azhag_horde_landmark_0	vigpro_nagash_skeleton_giant	0	0		false
+8427405	nag_azhag_horde_landmark_0	vigpro_nagash_skeleton_goblin_range	0	0		false
+8427406	nag_azhag_horde_landmark_0	vigpro_nagash_skeleton_goblin_melee	0	0		false
+8427407	nag_azhag_horde_landmark_0	vigpro_nagash_skeleton_troll_1h	0	0		false
+8427408	nag_azhag_horde_landmark_0	vigpro_nagash_skeleton_troll_2h	0	0		false
+8427409	nag_azhag_horde_landmark_1	vigpro_nagash_skeleton_orcs	0	0		false
+8427410	nag_azhag_horde_landmark_1	vigpro_nagash_skeleton_giant	0	0		false
+8427411	nag_azhag_horde_landmark_1	vigpro_nagash_skeleton_goblin_range	0	0		false
+8427412	nag_azhag_horde_landmark_1	vigpro_nagash_skeleton_goblin_melee	0	0		false
+8427413	nag_azhag_horde_landmark_1	vigpro_nagash_skeleton_troll_1h	0	0		false
+8427414	nag_azhag_horde_landmark_1	vigpro_nagash_skeleton_troll_2h	0	0		false

@@ -194,7 +194,7 @@ local mort_key_to_units={
         "nag_vanilla_vmp_inf_grave_guard_1",
         "nag_nagashi_guard",
     },
-    ["nag_mortarch_isabella"]="",
+    ["nag_mortarch_isabella"]={},
     ["nag_mortarch_dieter"]= {                               
         "nag_vanilla_vmp_inf_crypt_ghouls",
         "nag_vanilla_vmp_inf_crypt_ghouls",
@@ -268,7 +268,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     out("Rhox Nagash: This Mort's obedience chance is: "..mort_key_to_success_chance[mort_key])
     if cm:get_faction(nagash_faction):is_human() ==false and (faction:is_human() or cm:model():random_percent(100-mort_key_to_success_chance[mort_key])) then
         cm:force_declare_war(nagash_faction, faction_key, true, true) --declare war if mortarch was a player
-        --TODO add incident for the player
+        cm:set_saved_value("failed_to_get" .. mort_key, true)
         local human_factions = cm:get_human_factions()
         for i = 1, #human_factions do
             cm:trigger_incident_with_targets(
@@ -501,7 +501,15 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
 end
 
                            
-                           
+function rhox_nagash_disable_mortarch_factions_seduction()
+    for mort_key, faction_key in pairs(mort_key_to_faction_key) do
+        cm:faction_add_pooled_resource(faction_key, "rhox_nagash_influence", "other", -100)
+    end
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_exiles_of_nehek", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_khemri", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_lybaras", "rhox_nagash_influence", "other", -100)
+
+end
                            
 function mortarch_unlock_listeners()
     out("Rhox Nagash: Setting out Nagash Mortarch listeners")
@@ -642,6 +650,12 @@ function rhox_nagash_add_ai_mortarch_mission()
                         end
                     end
                 end
+                for mort_key, faction_key in pairs(mort_key_to_faction_key) do
+                    if cm:get_saved_value("failed_to_get" .. mort_key) == true and cm:get_faction(faction_key):is_dead() then --if they failed to summon but the faction is dead later, summon the Mortarchs,
+                        spawn_mortarch(mort_key)
+                        cm:set_saved_value("failed_to_get" .. mort_key, false) --do not trigger this again
+                    end 
+                end
             end,
             true
     )
@@ -659,13 +673,7 @@ function trigger_mortarch_unlock_missions()
             local mort = "nag_mortarch_luthor"
             cm:trigger_mission(key, mort.."_unlock", true, false, true)
         end
-        
-        
-        
-        
-        
-
-
+    
 
         out("pre krell")
         --- Krell's mission
@@ -821,6 +829,18 @@ core:add_listener(
         out(mort_key_to_success_chance["nag_mortarch_mannfred"])
         out(mort_key_to_success_chance["nag_mortarch_luthor"])
         out(mort_key_to_success_chance["nag_mortarch_dieter"])
+        
+        if nag_mortarch_arkhan_setting == 105 then --for debug
+            rhox_nag_debug_function()
+        end
     end,
     true
 )
+
+
+
+function rhox_nag_debug_function()
+    for mort_key, faction_key in pairs(mort_key_to_name) do
+        spawn_mortarch(mort_key)
+    end
+end

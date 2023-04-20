@@ -220,3 +220,17 @@ nag_title_king		0		campaign	true
 nag_title_prince		0		campaign	true
 nag_effect_charge_bonus_increase_dire_wolves_hexwraiths	charge.png	121	charge.png	battle	true
 nag_effect_agent_action_enable_wizard_passive_spread_corruption_vmp		0		campaign	true
+nag_effect_army_ranged_ammo_skill_azhag	ammo.png	1	ammo.png	battle	true
+nag_effect_army_ranged_missile_strength_skill_azhag	ranged_damage.png	2	raned_damage.png	battle	true
+nag_effect_army_infantry_armour_skill_azhag	armour.png	1	armour.png	battle	true
+nag_effect_army_infantry_melee_attack_skill_azhag	melee.png	2	melee.png	battle	true
+nag_effect_army_beasts_melee_attack_skill_azhag	melee.png	1	melee.png	battle	true
+nag_effect_army_beasts_charge_bonus_skill_azhag	charge.png	2	charge.png	battle	true
+nag_effect_army_construct_melee_defence_skill_azhag	defence.png	1	defence.png	battle	true
+nag_effect_army_construct_melee_attack_skill_azhag	melee.png	2	melee.png	battle	true
+nag_effect_army_construct_charge_bonus_skill_azhag	charge.png	3	charge.png	battle	true
+nag_effect_army_vet_nagash_deathblow_skill_azhag	general_ability.png	1	general_ability.png	battle	true
+nag_effect_army_vet_nagash_fatigue_res_skill_azhag	attribute_fatigue_res.png	1	attribute_fatigue_res.png	battle	true
+nag_effect_army_vet_nagash_ward_save_skill_azhag	resistance_ward_save.png	2	resistance_ward_save.png	battle	true
+nag_effect_army_vet_nagash_damage_base_skill_azhag	weapon_damage.png	3	weapon_damage.png	battle	true
+nag_effect_army_nagashizzar_unit_set_skill_azhag	trait_set_nagash.png	5	trait_set_nagash.png	campaign	true

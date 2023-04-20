@@ -1,0 +1,3 @@
+effect	effect list	scope	value
+#campaign_effect_list_effect_junctions_tables;0;db/campaign_effect_list_effect_junctions_tables/rhox_nagash			
+wh3_main_effect_forced_vassalage_disabled	rhox_nagash_diplomacy_effect_vlad_to_vassal	faction_to_faction_own_unseen	1.0000

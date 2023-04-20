@@ -4,3 +4,4 @@ rhox_nagash_feature_group	nag_warpstone	1
 rhox_nagash_feature_group	nag_grand_spell_01	0
 rhox_nagash_feature_group	nag_grand_spell_02	0
 rhox_nagash_feature_group	nag_grand_spell_03	0
+rhox_nagash_seducible_factions	rhox_nagash_influence	100
