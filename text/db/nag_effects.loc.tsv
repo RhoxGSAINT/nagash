@@ -398,3 +398,17 @@ effects_description_nag_effect_agent_action_enable_wizard_passive_spread_corrupt
 effects_description_rhox_nagash_remaining_turns	Remaining Turns: %n	false
 effects_description_nag_dieter_unlock	Summon [[col:yellow]]Dieter Helsnicht[[/col]] to your Legion, spawning in [[col:yellow]]Aarnau[[/col]]	false
 effects_description_rhox_nagash_hidden_wrath_abilities	This is supposed to be hidden	false
+effects_description_nag_effect_army_ranged_ammo_skill_azhag	Ammunition: %+n% for all Ranged units	false
+effects_description_nag_effect_army_ranged_missile_strength_skill_azhag	Missile strength: %+n% for all Ranged units	false
+effects_description_nag_effect_army_infantry_armour_skill_azhag	Armour: %+n for all Infantry units	false
+effects_description_nag_effect_army_infantry_melee_attack_skill_azhag	Melee attack: %+n for all Infantry units	false
+effects_description_nag_effect_army_beasts_melee_attack_skill_azhag	Melee attack: %+n for all War Beast and Monstrous Infantry units	false
+effects_description_nag_effect_army_beasts_charge_bonus_skill_azhag	Charge bonus: %+n for all War Beast and Monstrous Infantry units	false
+effects_description_nag_effect_army_construct_melee_defence_skill_azhag	Melee defence: %+n for all Monster and Large Construct units	false
+effects_description_nag_effect_army_construct_melee_attack_skill_azhag	Melee attack: %+n for all Monster and Large Construct units	false
+effects_description_nag_effect_army_construct_charge_bonus_skill_azhag	Charge bonus: %+n for all Monster and Large Construct units	false
+effects_description_nag_effect_army_vet_nagash_deathblow_skill_azhag	Ability: "Deathblow" for Nagashizzar units {{tr:rank7}}	false
+effects_description_nag_effect_army_vet_nagash_fatigue_res_skill_azhag	Attribute: Fatigue Resistance for Nagashizzar units {{tr:rank7}}	false
+effects_description_nag_effect_army_vet_nagash_ward_save_skill_azhag	Ward save: %n% for Nagashizzar units {{tr:rank7}}	false
+effects_description_nag_effect_army_vet_nagash_damage_base_skill_azhag	Weapon strength: %+n% for Nagashizzar units {{tr:rank7}}	false
+effects_description_nag_effect_army_nagashizzar_unit_set_skill_azhag	Nagashizzar units: Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Carrion Riders, Sand Crawlers, Glowing Ghouls, Bone Golems, Nagashizzar Guard, Mortis Engines and Morghasts and Skeleton Orc units	false

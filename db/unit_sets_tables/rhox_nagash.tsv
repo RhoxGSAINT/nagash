@@ -64,3 +64,9 @@ nag_mortarch_unit_set	false	-1	-1
 nag_zombie	false	-1	-1	
 nag_wolves_hex	false	-1	-1	
 nag_effect_unit_cap_nag_undead_chariot_unit	false	-1	-1	
+nag_army_ranged_azhag	false	-1	-1	
+nag_army_infantry_azhag	false	-1	-1	
+nag_army_warbeasts_monstrous_inf_azhag	false	-1	-1	
+nag_army_monsters_constructs_azhag	false	-1	-1	
+nag_army_nagashizzar_units_vet_azhag	true	7	9	
+nag_army_nagashizzar_units_azhag	false	-1	-1	

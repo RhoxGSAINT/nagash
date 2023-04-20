@@ -7,3 +7,4 @@ nag_grand_spell_01_recharge	nag_grand_spell_01_recharge	nag_grand_spell_01	-2147
 nag_grand_spell_02_recharge	nag_grand_spell_02_recharge	nag_grand_spell_02	-2147483647	2147483647	
 nag_grand_spell_03_recharge	nag_grand_spell_03_recharge	nag_grand_spell_03	-2147483647	2147483647	
 nag_warpstone_other	wh2_main_resource_factor_other	nag_warpstone	-2147483647	2147483647	
+rhox_nagash_influence_other	other	rhox_nagash_influence	-2147483647	2147483647	

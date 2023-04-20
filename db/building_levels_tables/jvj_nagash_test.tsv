@@ -154,5 +154,3 @@ nag_outpost_special_blackpyramid_ruin	nag_outpost_special_blackpyramid	0	0	0	0		
 nag_outpost_special_blackpyramid_1	nag_outpost_special_blackpyramid	1	2	800	0		false	false		true	nag_outpost_special_blackpyramid	true	0.0000	0	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_blackpyramid_2	nag_outpost_special_blackpyramid	2	3	1600	0		false	false		true	nag_outpost_special_blackpyramid	true	0.0000	1	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
 nag_outpost_special_blackpyramid_3	nag_outpost_special_blackpyramid	3	4	3200	0		false	false		true	nag_outpost_special_blackpyramid	true	0.0000	2	true	0	wh2_cam_settlement_capital_tombkings	true	0	0		0
-nag_azhag_horde_special_4	nag_azhag_horde_special	3	1	6000	0		false	false		true	nag_azhag_horde_special	false	0.0000	4	false	3		true	0	0		0
-nag_azhag_horde_special_5	nag_azhag_horde_special	4	1	8000	0		false	false		true	nag_azhag_horde_special	false	0.0000	5	false	4		true	0	0		0

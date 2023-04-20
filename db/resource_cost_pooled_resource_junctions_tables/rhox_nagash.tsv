@@ -6,3 +6,9 @@ nag_warpstone_rituals	nag_man	-1	absolute	default
 nag_warpstone_rituals	nag_divinity	-1	absolute	default
 nag_warpstone_rituals	nag_death	-1	absolute	default
 nag_warpstone_rituals	nag_winds	-1	absolute	default
+nag_warpstone_buildings	nag_building_1	-1	absolute	default
+nag_warpstone_buildings	nag_building_2	-2	absolute	default
+nag_warpstone_buildings	nag_building_3	-3	absolute	default
+nag_warpstone_buildings	nag_building_4	-4	absolute	default
+nag_warpstone_buildings	nag_building_5	-5	absolute	default
+nag_warpstone_rituals	nag_vassal_ritual	-10	absolute	default

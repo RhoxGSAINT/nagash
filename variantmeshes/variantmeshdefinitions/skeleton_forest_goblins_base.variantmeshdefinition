@@ -1,0 +1,21 @@
+<VARIANT_MESH>
+	<SLOT name="body">
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\grn_forest_goblin_torso_01.rigid_model_v2">
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh_goblin</META_DATA></VARIANT_MESH>
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\grn_forest_goblin_torso_02.rigid_model_v2">
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh_goblin</META_DATA></VARIANT_MESH>
+			<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\grn_forest_goblin_torso_03.rigid_model_v2">
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh_goblin</META_DATA></VARIANT_MESH>
+			<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\goblin_body.rigid_model_v2">
+			<META_DATA>audio_armour_type:body</META_DATA>			<META_DATA>audio_entity_type:wh_goblin</META_DATA></VARIANT_MESH>
+	</SLOT>
+	<SLOT name="head" >
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\grn_forest_goblin_head_01.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\grn_forest_goblin_head_02.rigid_model_v2"  />
+		<VARIANT_MESH model="VariantMeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\grn_forest_goblin_head_03.rigid_model_v2"  />
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\goblin_head.rigid_model_v2"  />
+	</SLOT>
+	<SLOT name="legs" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\hu5\vigpro_skeleton_goblins\grn_forest_goblin\goblin_legs.rigid_model_v2"  />
+	</SLOT>
+</VARIANT_MESH>

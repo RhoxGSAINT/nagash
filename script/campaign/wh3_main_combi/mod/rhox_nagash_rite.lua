@@ -165,6 +165,40 @@ function unlock_rites_listeners()
         )
     end
     
+    --not unlcoker but still
+    core:add_listener(
+        "rhox_nagash_diplomacy_panel_open_listener",
+        "ScriptEventPlayerOpensDiplomacyPanel",
+        true,
+        function()
+            out("Rhox Vlad: I'm here?")
+            local parent_ui = find_uicomponent(core:get_ui_root(), "diplomacy_dropdown", "faction_right_status_panel", "header", "porthole", "porthole_frame");
+            local result = core:get_or_create_component("rhox_nagash_vassal_button", "ui/campaign ui/rhox_nagash_vassal_button.twui.xml", parent_ui)
+            if not result then
+                script_error("Rhox Nagash: ".. "ERROR: could not create cooking ui component? How can this be?");
+                return false;
+            end;
+            --result:SetVisible(true)
+        end,
+        true
+    )
+   core:add_listener(
+        "rhox_nagash_diplomacy_panel_open_listener2",
+        "ScriptEventDiplomacyPanelOpened",
+        true,
+        function()
+            out("Rhox Vlad: I'm here?")
+            local parent_ui = find_uicomponent(core:get_ui_root(), "diplomacy_dropdown", "faction_right_status_panel", "header", "porthole", "porthole_frame");
+            local result = core:get_or_create_component("rhox_nagash_vassal_button", "ui/campaign ui/rhox_nagash_vassal_button.twui.xml", parent_ui)
+            if not result then
+                script_error("Rhox Nagash: ".. "ERROR: could not create cooking ui component? How can this be?");
+                return false;
+            end;
+            --result:SetVisible(true)
+        end,
+        true
+    )
+    
     local function get_random_mortarch(faction)
         local morts = {}
         local char_list = self:get_faction():character_list()

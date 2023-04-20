@@ -89,6 +89,9 @@ local function rhox_nagash_init_setting()
     
     cm:force_declare_war(nagash_faction, "wh3_main_skv_clan_carrion", false, false)
     
+    
+    rhox_nagash_disable_mortarch_factions_seduction()------------make LL Tombkings and mortarch factions unseducible
+    
     cm:callback(
         function() 
             if cm:get_local_faction_name(true) == nagash_faction then

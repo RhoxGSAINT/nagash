@@ -31,3 +31,9 @@ urgat_morghast_test		urgat_morghast_test		1.0000	1.8000	0.0000
 nag_undead_chariot_unit		nag_chariot_skeleton_spear_shield		1.0000	1.0000	0.0500	
 nag_undead_chariot_horse		tmb_skeletal_steed_base		1.0000	1.0000	0.0500	
 nag_undead_chariot_unit_archer		nag_chariot_skeleton_archer		1.0000	1.0000	0.0500	
+vigpro_nagash_skeleton_orcs		vigpro_grn_orc_big_uns		1.0000	1.1500	0.1000	
+vigpro_nagash_skeleton_giant		vigpro_vmp_skeleton_giant		1.0000	1.0000	0.0000	
+vigpro_nagash_skeleton_goblin_range		skeleton_goblins_bow		1.0000	1.0000	0.0500	
+vigpro_nagash_skeleton_goblin_melee		skeleton_sword_goblin		1.0000	1.0000	0.0500	
+vigpro_nagash_skeleton_troll_1h		skeleton_troll_1h		1.0000	0.7500	0.1000	
+vigpro_nagash_skeleton_troll_2h		skeleton_troll_2h		1.0000	0.7500	0.1000	

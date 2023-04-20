@@ -1,0 +1,15 @@
+id	culture	faction	remove	set	subculture
+#faction_set_items_tables;1;db/faction_set_items_tables/rhox_nagash					
+7804202200			false	rhox_nagash_undead_faction	wh2_dlc09_sc_tmb_tomb_kings
+7804202201			false	rhox_nagash_undead_faction	wh2_dlc11_sc_cst_vampire_coast
+7804202202			false	rhox_nagash_undead_faction	wh_main_sc_vmp_vampire_counts
+7804202203			false	rhox_nagash_undead_faction	mixer_vmp_jade_vampires
+7804202204		wh2_dlc09_tmb_followers_of_nagash	true	rhox_nagash_undead_faction	
+7804202205		wh_main_vmp_schwartzhafen	true	rhox_nagash_undead_faction	
+7804202206		wh_main_vmp_vampire_counts	true	rhox_nagash_undead_faction	
+7804202207		wh2_dlc11_cst_vampire_coast	true	rhox_nagash_undead_faction	
+7804202208		mixer_vmp_helsnicht	true	rhox_nagash_undead_faction	
+7804202209		wh2_dlc09_tmb_exiles_of_nehek	true	rhox_nagash_undead_faction	
+7804202210		wh2_dlc09_tmb_khemri	true	rhox_nagash_undead_faction	
+7804202211		wh2_dlc09_tmb_lybaras	true	rhox_nagash_undead_faction	
+7804202212		mixer_nag_nagash	false	rhox_nagash_faction_set	
