@@ -8,22 +8,11 @@
 			<seductive_influence_holder this="DD79EE38-43C7-A024-82DA04C5E22CC26A">
 				<active_vfx this="C6584712-781A-03E0-9C08779F2AD352B6"/>
 				<seductive_influence_background this="93330D6E-5DEE-8C43-3333F893EA2E477F"/>
+                <seductive_influence_border this="E1D5F38D-6AD6-70C9-9B3D66B75CFB8B7C"/>
 				<fill_bar_radial this="D536009D-C917-9D74-9852806A46423B42">
 					<fill this="3D1D28AF-7093-56BD-71722E55930C9278"/>
 				</fill_bar_radial>
-				<seductive_influence_border this="E1D5F38D-6AD6-70C9-9B3D66B75CFB8B7C"/>
-				<seductive_influence_accents this="E1D59CDE-AC37-040E-D32134E27E48C956">
-					<tooltip_handler_effect_top this="4F0FD534-D4C8-25EE-B6183CAD8F6480B3"/>
-					<tooltip_handler_effect_bottom this="44030A15-5A08-4E15-1CEF3EB543F3F6B1"/>
-					<tooltip_handler_effect_left this="B5B40623-0D2B-CBA8-62A3CEBEE7BF3EE9"/>
-					<tooltip_handler_effect_right this="AFCEF619-59DF-715E-E13DB4D366EF64B2"/>
-				</seductive_influence_accents>
-				<seductive_influence_glow_holder this="FAEF524E-8901-7687-188BBAA64C0FA5A7">
-					<seductive_influence_glow_left this="BEA0288E-FBC7-723B-70310525D3C2B253"/>
-					<seductive_influence_glow_top this="187B1FD7-38CC-2C62-146007AC9522C366"/>
-					<seductive_influence_glow_right this="769F8362-0BAD-D0FE-C6EB87906869642D"/>
-					<seductive_influence_glow_bottom this="F3F31D0D-9CCE-8900-751D87966EA973BE"/>
-				</seductive_influence_glow_holder>
+				<seductive_influence_glow_holder this="FAEF524E-8901-7687-188BBAA64C0FA5A7"/>
 				<button_force_vassal this="ED1401AA-E87B-D49B-3A95512DA37F5D7C"/>
 			</seductive_influence_holder>
 		</root>
@@ -38,6 +27,7 @@
 			uniqueguid="ED1401AA-E87B-D49B-3A95512DA37F5D7C"
 			dimensions="56.00,56.00"
 			dock_point="Center"
+            offset="2.00,-4.00"
 			tooltips_localised="false"
 			priority="56"
 			sound_category="UI_CAM_Click_Slaansh_Force_Vassal">
@@ -60,22 +50,22 @@
 			</state_uniqueguids>
 			<component_image_uniqueguids>
 				<component_image_uniqueguid
-					name="ui/campaign ui/technologies/wh_main_vmp_spread_vampire_covens.png"
+					name="ui/skins/mixer_nag_nagash/undeath_domination_icon.png"
 					uniqueguid="EED6CC4B-7270-3243-0FE94488915A4E54"/>
 				<component_image_uniqueguid
-					name="ui\skins\default\button_round_medium_pressed.png"
+					name=""
 					uniqueguid="EAEBD437-A23C-F73D-66F78FDEFD52030E"/>
 				<component_image_uniqueguid
-					name="ui\skins\default\button_round_medium_hover.png"
+					name=""
 					uniqueguid="164C62E2-8BE9-D2B3-8F56092FC689F255"/>
 				<component_image_uniqueguid
-					name="ui\skins\default\button_round_medium_active.png"
+					name=""
 					uniqueguid="FE7AA8AB-6AE1-E26E-432DB6EEB4B077B6"/>
 				<component_image_uniqueguid
-					name="ui\skins\default\button_round_medium_inactive.png"
+					name=""
 					uniqueguid="03610D1A-5F52-E873-76B8BD40AA1F20B6"/>
 				<component_image_uniqueguid
-					name="ui\skins\default\button_round_medium_underlay.png"
+					name=""
 					uniqueguid="D9EA60B1-FCC9-2774-19B57B75F6303BCB"/>
 			</component_image_uniqueguids>
 			<callbacks_with_context>
@@ -149,12 +139,12 @@
 					is_text_localised="false"/>
 			</localised_texts>
 			<override_images>
-				<element value="ui/campaign ui/technologies/wh_main_vmp_spread_vampire_covens.png"/>
-				<element value="ui\skins\default\button_round_medium_pressed.png"/>
-				<element value="ui\skins\default\button_round_medium_hover.png"/>
-				<element value="ui\skins\default\button_round_medium_active.png"/>
-				<element value="ui\skins\default\button_round_medium_inactive.png"/>
-				<element value="ui\skins\default\button_round_medium_underlay.png"/>
+				<element value="ui/skins/mixer_nag_nagash/undeath_domination_icon.png"/>
+				<element value=""/>
+				<element value=""/>
+				<element value=""/>
+				<element value=""/>
+				<element value=""/>
 				<element value=""/>
 			</override_images>
 		</button_force_vassal>
@@ -329,7 +319,7 @@
 				<component_image
 					this="4F5299D1-3EB0-21AC-AB507AC45B6C8B60"
 					uniqueguid="4F5299D1-3EB0-21AC-AB507AC45B6C8B60"
-					imagepath="ui/skins/default/rhox_vlad_seductive_influence_fill.png"/>
+					imagepath="ui/skins/mixer_nag_nagash/undeath_domination_fill.png"/>
 			</componentimages>
 			<states>
 				<default
@@ -505,7 +495,7 @@
 					<material_m_texture_overrides>
 						<property
 							slot_id="t_xml_effect_colours"
-							filepath="ui/effects/textures/astral_projection/effect_slaanesh.dds"
+							filepath="ui/effects/textures/astral_projection/effect_winds_of_magic.dds"
 							is_override_of_default="true"/>
 						<property
 							slot_id="t_xml_heat_mask"
@@ -535,39 +525,6 @@
 				</default>
 			</states>
 		</active_vfx>
-		<seductive_influence_accents
-			this="E1D59CDE-AC37-040E-D32134E27E48C956"
-			id="seductive_influence_accents"
-			priority="56"
-			tooltipslocalised="true"
-			uniqueguid="E1D59CDE-AC37-040E-D32134E27E48C956"
-			currentstate="D7B79DDB-18D7-8B78-6531A7B6A5993FF7"
-			defaultstate="D7B79DDB-18D7-8B78-6531A7B6A5993FF7">
-			<componentimages>
-				<component_image
-					this="D94C5BB5-89A7-E18F-E08AC20A5B5E4D03"
-					uniqueguid="D94C5BB5-89A7-E18F-E08AC20A5B5E4D03"
-					imagepath="ui/skins/default/seductive_influence_accents.png"/>
-			</componentimages>
-			<states>
-				<default
-					this="D7B79DDB-18D7-8B78-6531A7B6A5993FF7"
-					name="default"
-					width="136"
-					height="136"
-					texthbehaviour="Never split"
-					uniqueguid="D7B79DDB-18D7-8B78-6531A7B6A5993FF7">
-					<imagemetrics>
-						<image
-							this="0707CA20-D120-99C6-CEDA18D17BAEBE07"
-							uniqueguid="0707CA20-D120-99C6-CEDA18D17BAEBE07"
-							componentimage="D94C5BB5-89A7-E18F-E08AC20A5B5E4D03"
-							width="136"
-							height="136"/>
-					</imagemetrics>
-				</default>
-			</states>
-		</seductive_influence_accents>
 		<seductive_influence_background
 			this="93330D6E-5DEE-8C43-3333F893EA2E477F"
 			id="seductive_influence_background"
@@ -622,7 +579,7 @@
 				<component_image
 					this="23EF4678-B0E0-DB1D-F5346B5954C7FA6B"
 					uniqueguid="23EF4678-B0E0-DB1D-F5346B5954C7FA6B"
-					imagepath="ui/skins/default/rhox_vlad_seductive_influence_border.png"/>
+					imagepath="ui/skins/mixer_nag_nagash/undeath_domination_border.png"/>
 			</componentimages>
 			<states>
 				<default
@@ -643,188 +600,6 @@
 				</default>
 			</states>
 		</seductive_influence_border>
-		<seductive_influence_glow_bottom
-			this="F3F31D0D-9CCE-8900-751D87966EA973BE"
-			id="seductive_influence_glow_bottom"
-			visible="false"
-			priority="56"
-			tooltipslocalised="true"
-			uniqueguid="F3F31D0D-9CCE-8900-751D87966EA973BE"
-			currentstate="9733CD49-06DC-E005-99A540D62ADADD60"
-			defaultstate="9733CD49-06DC-E005-99A540D62ADADD60">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_object_id="CcoCampaignPooledResource"
-					context_function_id="PercentageOfCapacity &gt;= 0.5"/>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="75ACAA0D-E7A7-23F8-556751DC1754F9B5"
-					uniqueguid="75ACAA0D-E7A7-23F8-556751DC1754F9B5"
-					imagepath="ui/skins/default/seductive_influence_glow_bottom.png"/>
-			</componentimages>
-			<states>
-				<default
-					this="9733CD49-06DC-E005-99A540D62ADADD60"
-					name="default"
-					width="136"
-					height="136"
-					texthbehaviour="Never split"
-					uniqueguid="9733CD49-06DC-E005-99A540D62ADADD60">
-					<imagemetrics>
-						<image
-							this="F8C02A50-10F2-3572-1CA3C991BD363421"
-							uniqueguid="F8C02A50-10F2-3572-1CA3C991BD363421"
-							componentimage="75ACAA0D-E7A7-23F8-556751DC1754F9B5"
-							width="136"
-							height="136"
-							shader_name="normal_t0"/>
-					</imagemetrics>
-				</default>
-			</states>
-		</seductive_influence_glow_bottom>
-		<seductive_influence_glow_holder
-			this="FAEF524E-8901-7687-188BBAA64C0FA5A7"
-			id="seductive_influence_glow_holder"
-			priority="56"
-			tooltipslocalised="true"
-			uniqueguid="FAEF524E-8901-7687-188BBAA64C0FA5A7"
-			currentstate="6C978509-6AD0-D4E7-EB30D6837F100E47"
-			defaultstate="6C978509-6AD0-D4E7-EB30D6837F100E47">
-			<states>
-				<default
-					this="6C978509-6AD0-D4E7-EB30D6837F100E47"
-					name="default"
-					width="136"
-					height="136"
-					texthbehaviour="Never split"
-					uniqueguid="6C978509-6AD0-D4E7-EB30D6837F100E47"/>
-			</states>
-		</seductive_influence_glow_holder>
-		<seductive_influence_glow_left
-			this="BEA0288E-FBC7-723B-70310525D3C2B253"
-			id="seductive_influence_glow_left"
-			visible="false"
-			priority="56"
-			tooltipslocalised="true"
-			uniqueguid="BEA0288E-FBC7-723B-70310525D3C2B253"
-			currentstate="467EC858-7A08-BEEA-B444810951E08F1E"
-			defaultstate="467EC858-7A08-BEEA-B444810951E08F1E">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_object_id="CcoCampaignPooledResource"
-					context_function_id="PercentageOfCapacity &gt;= 0.75"/>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="964E8620-30DE-B43C-9F779297EBD3AE3A"
-					uniqueguid="964E8620-30DE-B43C-9F779297EBD3AE3A"
-					imagepath="ui/skins/default/seductive_influence_glow_left.png"/>
-			</componentimages>
-			<states>
-				<default
-					this="467EC858-7A08-BEEA-B444810951E08F1E"
-					name="default"
-					width="136"
-					height="136"
-					texthbehaviour="Never split"
-					uniqueguid="467EC858-7A08-BEEA-B444810951E08F1E">
-					<imagemetrics>
-						<image
-							this="BC00F6C6-63C0-70FA-607FE5D620F8FABB"
-							uniqueguid="BC00F6C6-63C0-70FA-607FE5D620F8FABB"
-							componentimage="964E8620-30DE-B43C-9F779297EBD3AE3A"
-							width="136"
-							height="136"
-							shader_name="normal_t0"/>
-					</imagemetrics>
-				</default>
-			</states>
-		</seductive_influence_glow_left>
-		<seductive_influence_glow_right
-			this="769F8362-0BAD-D0FE-C6EB87906869642D"
-			id="seductive_influence_glow_right"
-			visible="false"
-			priority="56"
-			tooltipslocalised="true"
-			uniqueguid="769F8362-0BAD-D0FE-C6EB87906869642D"
-			currentstate="CE09DAFC-E26A-5581-8167C94043D106D2"
-			defaultstate="CE09DAFC-E26A-5581-8167C94043D106D2">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_object_id="CcoCampaignPooledResource"
-					context_function_id="PercentageOfCapacity &gt;= 0.25"/>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="A4262C16-26E7-0DEE-F104C90BC331D86F"
-					uniqueguid="A4262C16-26E7-0DEE-F104C90BC331D86F"
-					imagepath="ui/skins/default/seductive_influence_glow_right.png"/>
-			</componentimages>
-			<states>
-				<default
-					this="CE09DAFC-E26A-5581-8167C94043D106D2"
-					name="default"
-					width="136"
-					height="136"
-					texthbehaviour="Never split"
-					uniqueguid="CE09DAFC-E26A-5581-8167C94043D106D2">
-					<imagemetrics>
-						<image
-							this="5348F7D0-072A-344D-0B8ECD624514873B"
-							uniqueguid="5348F7D0-072A-344D-0B8ECD624514873B"
-							componentimage="A4262C16-26E7-0DEE-F104C90BC331D86F"
-							width="136"
-							height="136"
-							shader_name="normal_t0"/>
-					</imagemetrics>
-				</default>
-			</states>
-		</seductive_influence_glow_right>
-		<seductive_influence_glow_top
-			this="187B1FD7-38CC-2C62-146007AC9522C366"
-			id="seductive_influence_glow_top"
-			visible="false"
-			priority="56"
-			tooltipslocalised="true"
-			uniqueguid="187B1FD7-38CC-2C62-146007AC9522C366"
-			currentstate="D53FFAA9-DE7A-D0FA-EAF5F02272EF8411"
-			defaultstate="D53FFAA9-DE7A-D0FA-EAF5F02272EF8411">
-			<callbackwithcontextlist>
-				<callback_with_context
-					callback_id="ContextVisibilitySetter"
-					context_object_id="CcoCampaignPooledResource"
-					context_function_id="PercentageOfCapacity &gt;= 1"/>
-			</callbackwithcontextlist>
-			<componentimages>
-				<component_image
-					this="94B43BC9-27A5-ACF8-38C4AC352BECF632"
-					uniqueguid="94B43BC9-27A5-ACF8-38C4AC352BECF632"
-					imagepath="ui/skins/default/seductive_influence_glow_top.png"/>
-			</componentimages>
-			<states>
-				<default
-					this="D53FFAA9-DE7A-D0FA-EAF5F02272EF8411"
-					name="default"
-					width="136"
-					height="136"
-					texthbehaviour="Never split"
-					uniqueguid="D53FFAA9-DE7A-D0FA-EAF5F02272EF8411">
-					<imagemetrics>
-						<image
-							this="A9AF7F32-0124-1FD9-E571A1CFFA55DFCE"
-							uniqueguid="A9AF7F32-0124-1FD9-E571A1CFFA55DFCE"
-							componentimage="94B43BC9-27A5-ACF8-38C4AC352BECF632"
-							width="136"
-							height="136"
-							shader_name="normal_t0"/>
-					</imagemetrics>
-				</default>
-			</states>
-		</seductive_influence_glow_top>
 		<seductive_influence_holder
 			this="DD79EE38-43C7-A024-82DA04C5E22CC26A"
 			id="seductive_influence_holder"
