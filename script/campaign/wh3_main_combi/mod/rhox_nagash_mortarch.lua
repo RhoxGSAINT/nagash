@@ -206,10 +206,22 @@ local mort_key_to_units={
         "nag_vanilla_vmp_mon_vargheists",
     },
     ["nag_mortarch_azhag"]={                               
-        "nag_vanilla_vmp_inf_crypt_ghouls",
-        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "vigpro_nagash_skeleton_orcs",
+        "vigpro_nagash_skeleton_orcs",
+        "vigpro_nagash_skeleton_goblin_range",
+        "vigpro_nagash_skeleton_goblin_range",
+        "vigpro_nagash_skeleton_goblin_melee",
+        "vigpro_nagash_skeleton_goblin_melee",
+        "vigpro_nagash_skeleton_troll_1h",
+        "vigpro_nagash_skeleton_troll_2h",
+        "vigpro_nagash_skeleton_giant",
     }
 }
+
+
+
+
+
 
 local raise_dead_sea_units={
     nag_vanilla_cst_inf_zombie_gunnery_mob_0= {2, 20, 2},
