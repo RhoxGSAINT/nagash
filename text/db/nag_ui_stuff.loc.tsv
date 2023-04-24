@@ -15,3 +15,4 @@ campaign_effect_scopes_localised_text_rhox_nagash_building_to_region		false
 nag_nagash_name_dieter	Dieter Helsnicht	false
 nag_nagash_name_azhag	Mortarch Azhag	false
 campaign_effect_scopes_localised_text_nagash_building_to_force_own_provincewide	\\n(provincewide)	false
+uied_component_texts_localised_string_rhox_nagash_place_of_death_tooltip	Places of Death||This area is extremly important to Nagash	false
