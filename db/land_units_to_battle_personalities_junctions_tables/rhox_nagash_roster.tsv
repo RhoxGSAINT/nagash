@@ -1,7 +1,0 @@
-battle_personality	land_unit	attach	riders_attachment_point	engine_articulation_index
-#land_units_to_battle_personalities_junctions_tables;1;db/land_units_to_battle_personalities_junctions_tables/rhox_nagash_roster				
-nag_mortis_engine_banshee1	nag_spirit_hosts	autonomous_rider		-1
-nag_mortis_engine_banshee2	nag_spirit_hosts	autonomous_rider		-1
-nag_mortis_engine_banshee3	nag_spirit_hosts	autonomous_rider		-1
-nag_undead_chariot_unit_archer	nag_undead_chariot_unit	autonomous_rider	ap_crewposition_0	-1
-nag_undead_chariot_unit	wh2_dlc09_tmb_inf_skeleton_archers_0	autonomous_rider	ap_crewposition_1	-1

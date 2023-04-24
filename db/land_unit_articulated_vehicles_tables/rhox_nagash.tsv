@@ -1,0 +1,4 @@
+key	ammo_caisson_entity	ammo_caisson_destruction	ammo_caisson_model	ammo_caisson_destroyed_model	articulated_entity	head_offset	engine_articulation_node_index	draughts_articulation_node_index	is_train
+#land_unit_articulated_vehicles_tables;6;db/land_unit_articulated_vehicles_tables/rhox_nagash									
+nag_mortis_engine		vmp_black_coach_01			wh_dlc04_vehicle_vmp_mortis_engine_articulation	2.0000	2	0	false
+nag_plaguecart		vmp_black_coach_01			nag_plaguecart_articulation	2.0000	2	0	false

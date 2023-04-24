@@ -156,8 +156,8 @@ local function add_nagash_listener()
             if num == 5 then
                 out("Rhox Nagash number 5")
                 --- last mission, TP through
-                cm:teleportation_network_close_node("rhox_nagash_combi_province_the_desolation_of_nagash");
-                cm:teleportation_network_close_node("rhox_nagash_combi_province_barrier_idols");
+                --cm:teleportation_network_close_node("rhox_nagash_combi_province_the_desolation_of_nagash");
+                --cm:teleportation_network_close_node("rhox_nagash_combi_province_barrier_idols"); --don't close it. It's just a mountain pass
                 
                 local unlock_tech_table = RHOX_NAGASH_UNLOCK_TECHS["nag_mortarch_arkhan_unlock"]
                 for i, technology in pairs(unlock_tech_table) do
