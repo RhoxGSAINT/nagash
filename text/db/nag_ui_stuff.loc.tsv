@@ -12,7 +12,7 @@ nag_nagash_name_neferata	Neferata, Mortarch of Blood	false
 nag_nagash_name_krell	Krell, Mortarch of Despair	false
 nag_nagash_name_isabella	Isabella von Carstein	false
 campaign_effect_scopes_localised_text_rhox_nagash_building_to_region		false
-nag_nagash_name_dieter	Dieter Helsnicht	false
-nag_nagash_name_azhag	Mortarch Azhag	false
+nag_nagash_name_dieter	Dieter, Mortarch of Doom	false
+nag_nagash_name_azhag	Azhag, , Mortarch of Destruction	false
 campaign_effect_scopes_localised_text_nagash_building_to_force_own_provincewide	\\n(provincewide)	false
 uied_component_texts_localised_string_rhox_nagash_place_of_death_tooltip	Places of Death||This area is extremly important to Nagash	false

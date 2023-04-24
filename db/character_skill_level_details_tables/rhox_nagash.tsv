@@ -32,10 +32,10 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_mount_neferata_abyssal		x	16
 		1	nag_skill_unique_neferatal_dagger_of_jet		x	7
 		1	nag_skill_unique_neferatal_staff_of_pain		x	11
+		1	nag_skill_personal_neferata_dancer		x	24
 		1	nag_skill_unique_krell_chaos_tomb_blade		x	7
 		1	nag_skill_unique_krell_armour_of_the_barrows		x	9
 		1	nag_skill_unique_krell_black_axe_of_krell		x	12
-		1	nag_skill_mannfred_unique_loremaster_lore_of_vampires		x	8
 		1	nag_skill_unique_vlad_von_carstein_mesmerising_aura		x	14
 		1	nag_skill_archai_heralds_of_the_accursed_one		x	8
 		1	nag_skill_archai_ebon_wrought_armour		x	16
@@ -72,4 +72,5 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_azhag_anc_armour_azhags_ard_armour		x	11
 		1	nag_skill_azhag_anc_enchanted_item_the_crown_of_sorcery		x	6
 		1	nag_skill_azhag_anc_weapon_slaggas_slashas		x	16
-		1	rhox_nagash_grn_dump		x	11
+		1	nag_skill_grn_azhag_unique_0		x	11
+		1	nag_skill_grn_azhag_tyrant		x	3

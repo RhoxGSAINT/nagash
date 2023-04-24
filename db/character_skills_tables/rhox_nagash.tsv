@@ -135,14 +135,6 @@ nag_skill_mount_mannfred_abyssal	mount_skullmuncha.png		Ashigaroth, Gourger Upon
 nag_skill_mount_neferata_warhorse	mount_barded_nightmare.png		Barded Nightmare	0	false	false	false	0.0000	0
 nag_skill_mount_neferata_abyssal	mount_skullmuncha.png		Nagadron, The Adevore	0	false	false	false	0.0000	0
 nag_skill_mount_luthor_harkon_terrorgheist	mount_terrorgheist.png		Death Shriek Terrorgheist	0	false	false	false	0.0000	0
-nag_skill_mannfred_unique_loremaster_lore_of_vampires	character_magic.png		Loremaster, Lore of Vampires	0	false	false	false	0.0000	0
-nag_double_vmp_magic_vampires_01_invocation_of_nehek	wh_main_spell_vampires_invocation_of_nehek.png		Invocation of Nehek	0	false	false	false	0.0000	0
-nag_double_vmp_magic_vampires_02_vanhels_danse_macabre	wh_main_spell_vampires_vanhels_danse_macabre.png		Vanhel's Danse Macabre	0	false	false	false	0.0000	0
-nag_double_vmp_magic_vampires_04_gaze_of_nagash	wh_main_spell_vampires_gaze_of_nagash.png		Gaze of Nagash	0	false	false	false	0.0000	0
-nag_double_vmp_magic_vampires_05_raise_dead	wh_main_spell_vampires_raise_dead.png		Raise Dead	0	false	false	false	0.0000	0
-nag_double_vmp_magic_vampires_09_curse_of_years	wh_main_spell_vampires_curse_of_years.png		Curse of Years	0	false	false	false	0.0000	0
-nag_double_vmp_magic_vampires_10_wind_of_death	wh_main_spell_vampires_wind_of_death.png		Wind of Death	0	false	false	false	0.0000	0
-nag_double_vmp_magic_vampires_dummy_invocation_of_nehek	battle_attack.png		Invocation of Nehek [HIDDEN]	0	false	false	false	0.0000	0
 nag_skill_supreme_innate_nagash	trait_mortarch.png		The Supreme Lord of Undeath	0	true	false	false	5.0000	0
 nag_skill_husk_innate_nagash	trait_mortarch.png		The Undying King	0	true	false	false	5.0000	0
 nag_skill_mortarch_innate_arkhan	trait_mortarch.png		Mortarch of Sacrament	0	true	false	false	5.0000	0
@@ -193,6 +185,7 @@ nag_skill_hero_undeath_spell_nagash_grave_call_master	nagash_grave_call.png		Ryz
 nag_skill_hero_undeath_spell_nagash_hand_of_dust	nagash_hand_of_dust.png		Sulekhim - The Hand of Dust	0	false	false	false	0.0000	0
 nag_skill_hero_undeath_spell_nagash_dummy_breath_of_darkness	nagash_breath_of_darkness.png		Breath of Darkness [HIDDEN]	0	false	false	false	0.0000	0
 nag_skill_personal_neferata_guardian	wh2_dlc10_guardian.png			0	false	false	false	0.0000	0
+nag_skill_personal_neferata_dancer	nag_dance_of_despair.png		Dance with the Devil	0	false	false	false	0.0000	0
 nag_skill_tomb_king_elixir_of_immortality_lord	wh2_dlc09_elixir.png		Elixir of Immortality	0	false	false	false	0.0000	0
 nag_skill_hidden_king_title	character_general_ability.png		King Title [HIDDEN]	0	false	false	false	0.0000	0
 nag_skill_hidden_prince_title	character_general_ability.png		Prince Title [HIDDEN]	0	false	false	false	0.0000	0
@@ -205,3 +198,11 @@ nag_skill_army_buff_infantry_azhag	battle_armour.png		Infantry Buff	0	false	fals
 nag_skill_army_buff_beasts_azhag	battle_charge.png		War Beasts & Monstrous Inf Buff	0	false	false	false	0.0000	0
 nag_skill_army_buff_construct_azhag	battle_charge.png		Monsters & Constructs Buff	0	false	false	false	0.0000	0
 nag_skill_army_buff_vet_nagash_azhag	battle_nagashizzar.png		Nagashizzar Buff	0	false	false	false	0.0000	0
+nag_skill_grn_azhag_unique_0	character_military_spending.png	Held aloft and kept there by the rampant lunacy of their leader, Azhag's forces are all the stronger for his insane presence.	Imbued by Madness	11	false	false	false	0.0000	0
+nag_skill_grn_azhag_unique_1	character_morale.png	"Stoopid gits, I sed NOWWWWW!!!!!!!"	Earthshaking Orders	0	false	false	false	0.0000	0
+nag_skill_grn_azhag_unique_2	character_experience.png	Azhag's mysterious crown whispers fell plans and dastardly schemes; sometimes he understands them and passes the general gist to the Shamans in his army.	Insane Visions	0	false	false	false	0.0000	0
+nag_skill_grn_azhag_unique_3	character_subterranean.png	There are some who whisper that the Slaughterer's wild schemes are not sufficiently Orcy. Needless to say, the crown normally lets him know so he can weed out the dissenters.	Not Orcy Enuff!	0	false	false	false	0.0000	0
+nag_skill_grn_azhag_unique_4	character_charge.png	Enchanted armour and weapons, and the influence of the crown, allows Azhag to 'let go' somewhat on the battlefield!	Wild Abandon	0	false	false	false	0.0000	0
+nag_skill_grn_azhag_unique_5	wh_main_unit_passive_regeneration.png	When the crown takes control Azhag falls into a trance, his eyes cloud over and he mutters and even argues with himself…	Darkest Nimbus	0	false	false	false	0.0000	0
+nag_skill_grn_azhag_tyrant	green_tyrant.png	He's big, he's green and he has the whisperings of a tyrannical lord of the undead in his ear.	Green Tyrant	0	false	false	false	0.0000	0
+nag_skill_vmp_isabella_unique_court_of_blood	campaign_agent.png	Even in Undeath, every queen needs loyal retainers and handmaidens.	Court of Blood	0	false	false	false	0.0000	0

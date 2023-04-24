@@ -110,7 +110,7 @@ effects_description_nag_spell_nagash_miscast_reduction_harbinger	Miscast base ch
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger	Winds of Magic cost: %n for "The Harbinger"	true
 effects_description_nag_spell_nagash_reduce_wom_cost_harbinger_upgraded	Winds of Magic cost: %n for "The Harbinger Upgraded"	true
 effects_description_nag_effect_self_arkhan_melee_attack_nehek	Melee attack: %+n for Nehekhara Warriors and Nehekhara Horsemen units	true
-effects_description_nag_nag_effect_self_arkhan_rank_nehek_plus	Recruit rank: %+n for Nehekhara Warriors, Nehekhara Horsemen, Dire Wolves and Hexwraiths units	true
+effects_description_nag_effect_self_arkhan_rank_nehek_plus	Recruit rank: %+n for Nehekhara Warriors, Nehekhara Horsemen, Dire Wolves and Hexwraiths units	true
 effects_description_nag_effect_self_krell_infantry_melee_defence_skill	Melee defence: %+n for all Infantry units	true
 effects_description_nag_effect_self_krell_infantry_upkeep_skill	Upkeep: %+n% for Grave Guard & Nagashizzar Guard units	true
 effects_description_nag_effect_self_krell_melee_attack_versus_nor_chs_bst	Melee attack: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
@@ -176,40 +176,7 @@ effects_description_nag_effect_self_vlad_enable_mortarch_of_shadows_aura	Ability
 effects_description_nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	Improves "Aura of Dark Grandeur" with a penalty to enemy accuracy and a larger area of effect	true
 effects_description_nag_effect_item_neferata_ability_dagger_of_jet	Ability: "Dagger of Jet"	true
 effects_description_nag_effect_item_neferata_ability_enable_staff_of_pain	Ability: "Staff of Pain"	true
-effects_description_nag_effect_double_spell_range_mortarch_of_night_dummy	Spell Range: %+n% to Lore of Vampires spells	true
-effects_description_nag_double_magic_lore_of_vampires_cooldown_rate	Cooldown: %+n% to Lore of Vampires spells	true
-effects_description_nag_double_vampires_enable_invocation_of_nehek	Spell: "Invocation of Nehek"	true
-effects_description_nag_double_vampires_reduce_wom_cost_invocation_of_nehek	Winds of Magic cost: %n for "Invocation of Nehek"	true
-effects_description_nag_double_vampires_cooldown_invocation_of_nehek	Cooldown: %+n% to "Invocation of Nehek"	true
-effects_description_nag_double_vampires_enable_invocation_of_nehek_upgraded	Overcast spell: "Invocation of Nehek Upgraded"	true
-effects_description_nag_double_vampires_miscast_reduction_invocation_of_nehek_upgraded	Miscast base chance: %+n% for "Invocation of Nehek Upgraded"	true
-effects_description_nag_double_vampires_reduce_wom_cost_invocation_of_nehek_upgraded	Winds of Magic cost: %n for "Invocation of Nehek Upgraded"	true
-effects_description_nag_double_vampires_enable_vanhels_danse_macabre	Spell: "Vanhel's Danse Macabre"	true
-effects_description_nag_double_vampires_cooldown_vanhels_danse_macabre	Cooldown: %+n% to "Vanhel's Danse Macabre"	true
-effects_description_nag_double_vampires_reduce_wom_cost_vanhels_danse_macabre	Winds of Magic cost: %n for "Vanhel's Danse Macabre"	true
-effects_description_nag_double_vampires_enable_vanhels_danse_macabre_upgraded	Overcast spell: "Vanhel's Danse Macabre Upgraded"	true
-effects_description_nag_double_vampires_miscast_reduction_vanhels_danse_macabre_upgraded	Miscast base chance: %+n% for "Vanhel's Danse Macabre Upgraded"	true
-effects_description_nag_double_vampires_reduce_wom_cost_vanhels_danse_macabre_upgraded	Winds of Magic cost: %n for "Vanhel's Danse Macabre Upgraded"	true
-effects_description_nag_double_vampires_enable_gaze_of_nagash	Spell: "Gaze of Nagash"	true
-effects_description_nag_double_vampires_cooldown_gaze_of_nagash	Cooldown: %+n% to "Gaze of Nagash"	true
-effects_description_nag_double_vampires_reduce_wom_cost_gaze_of_nagash	Winds of Magic cost: %n for "Gaze of Nagash"	true
-effects_description_nag_double_vampires_enable_gaze_of_nagash_upgraded	Overcast spell: "Gaze of Nagash Upgraded"	true
-effects_description_nag_double_vampires_miscast_reduction_gaze_of_nagash_upgraded	Miscast base chance: %+n% for "Gaze of Nagash Upgraded"	true
-effects_description_nag_double_vampires_reduce_wom_cost_gaze_of_nagash_upgraded	Winds of Magic cost: %n for "Gaze of Nagash Upgraded"	true
-effects_description_nag_double_vampires_enable_raise_dead	Spell: "Raise Dead"	true
-effects_description_nag_double_vampires_cooldown_raise_dead	Cooldown: %+n% to "Raise Dead"	true
-effects_description_nag_double_mod_amount_of_uses_raise_dead	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded"	true
-effects_description_nag_double_vampires_enable_raise_dead_upgraded	Overcast spell: "Raise Dead Upgraded"	true
-effects_description_nag_double_vampires_miscast_reduction_raise_dead_upgraded	Miscast base chance: %+n% for "Raise Dead Upgraded"	true
-effects_description_nag_double_vampires_enable_curse_of_years	Spell: "Curse of Years"	true
-effects_description_nag_double_vampires_reduce_wom_cost_curse_of_years	Winds of Magic cost: %n for "Curse of Years"	true
-effects_description_nag_double_vampires_cooldown_curse_of_years	Cooldown: %+n% to "Curse of Years"	true
-effects_description_nag_double_vampires_enable_wind_of_death	Spell: "Wind of Death"	true
-effects_description_nag_double_vampires_cooldown_wind_of_death	Cooldown: %+n% to "Wind of Death"	true
-effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death	Winds of Magic cost: %n for "Wind of Death"	true
-effects_description_nag_double_vampires_enable_wind_of_death_upgraded	Overcast spell: "Wind of Death Upgraded"	true
-effects_description_nag_double_vampires_miscast_reduction_wind_of_death_upgraded	Miscast base chance: %+n% for "Wind of Death Upgraded"	true
-effects_description_nag_double_vampires_reduce_wom_cost_wind_of_death_upgraded	Winds of Magic cost: %n for "Wind of Death Upgraded"	true
+effects_description_nag_effect_double_spell_range_mortarch_of_night	Targeting range: %+n% for Lore of Vampires spells	true
 effects_description_nag_effect_upkeep_cost_reduction_crypt_ghouls	Upkeep: %+n% for Crypt Ghouls	true
 effects_description_nag_effect_enable_ability_blood_queen_dignitary_vmp	Passive ability: "Blood Queen" for all Female Vampires	true
 effects_description_nag_effect_stalk_scorpion_skill	Attribute: Stalk for Tomb Scorpion units	true
@@ -336,7 +303,7 @@ effects_description_nag_effect_force_unit_stat_melee_attack_versus_high_elves	Me
 effects_description_nag_effect_force_unit_stat_melee_attack_versus_lizardmen	Melee attack: %+n when fighting against Lizardmen	true
 effects_description_nag_effect_force_unit_stat_melee_attack_versus_vampires	Melee attack: %+n when fighting against Vampire Counts & the Vampire Coast	true
 effects_description_nag_effect_force_unit_stat_melee_attack_versus_wood_elves	Melee attack: %+n when fighting against Wood Elves	true
-effects_description_nag_effect_climate_dummy	Most regions are suitable, but only [[img:res_nag_coast]][[/img]][[img:res_nag_counts]][[/img]][[img:res_nag_nagash]][[/img]][[img:res_nag_nehek]][[/img]] locations are valuable	false
+effects_description_nag_effect_climate_dummy	Can bring undead factions under heel and can elevate certain legendary lords to become Mortarch's [[img:trait_mortarch]]	false
 effects_description_nag_effect_diplomatic_relations_living	Diplomatic relations: %+n with all Non-Undead factions	true
 effects_description_nag_effect_diplomatic_relations_humans	Diplomatic relations: %+n with Empire	true
 effects_description_nag_effect_missile_resistance_vlad_isa	Missile resistance: %n% for Vlad and Isabella	true
@@ -412,3 +379,14 @@ effects_description_nag_effect_army_vet_nagash_fatigue_res_skill_azhag	Attribute
 effects_description_nag_effect_army_vet_nagash_ward_save_skill_azhag	Ward save: %n% for Nagashizzar units {{tr:rank7}}	false
 effects_description_nag_effect_army_vet_nagash_damage_base_skill_azhag	Weapon strength: %+n% for Nagashizzar units {{tr:rank7}}	false
 effects_description_nag_effect_army_nagashizzar_unit_set_skill_azhag	Nagashizzar units: Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Carrion Riders, Sand Crawlers, Glowing Ghouls, Bone Golems, Nagashizzar Guard, Mortis Engines and Morghasts and Skeleton Orc units	false
+effects_description_nag_effect_army_enable_ability_frenzy_undead_green	Passive ability: "Frenzy" for all Undead Greenskin units	false
+effects_description_nag_effect_upkeep_reduction_undead_green	Upkeep: %+n% for all Undead Greenskin units	false
+effects_description_nag_effect_melee_defence_boyz_undead_green_morghasts	Melee defence: %+n for all Undead Greenskin and Morghast units	false
+effects_description_nag_effect_movement_speed_boyz_undead_green_morghasts	Speed: %+n% for all Undead Greenskin and Morghast units	false
+effects_description_nag_effect_force_stat_missile_damage_undead_green	Base missile damage: %+n% for all Undead Greenskin units	false
+effects_description_nag_effect_ability_enable_whispers	Ability: "Reckless Whispers" 	false
+effects_description_nag_effect_enable_bound_spell_dance_of_despair	Bound spell: "Dance of Death"	false
+effects_description_nag_effect_enable_bound_spell_ashes_and_dust	Bound spell: "Ashes and Dust"	false
+effects_description_nag_effect_army_vanguard_deployment_undead_green_morghasts	Attribute: Vanguard Deployment for all Undead Greenskin and Morghast units	false
+effects_description_nag_effect_arkhan_charge_bonus_chariots	Charge bonus: %+n for Nehekharan Chariot units	false
+effects_description_nag_effect_arkhan_devastating_flanker_chariots	Attribute: Devastating Flanker for Nehekharan Chariot units	false

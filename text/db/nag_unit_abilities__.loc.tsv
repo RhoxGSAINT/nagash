@@ -64,28 +64,6 @@ unit_abilities_tooltip_text_nag_bound_spell_nehek_skullstorm	A whirlwind of skul
 unit_abilities_onscreen_name_nag_bound_spell_nehek_skullstorm	Sakhmet's Incantation of the Skullstorm	true
 unit_abilities_tooltip_text_nag_bound_spell_deep_krakens_pull	Few have the strength to break free once the Kraken has them within its horrid, betentacled grasp.	true
 unit_abilities_onscreen_name_nag_bound_spell_deep_krakens_pull	Kraken's Pull	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_curse_of_years	The Wizard spits out an ancient curse, causing their enemies to age at an incredible rate - their hair turning white and skin shrivelling up.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_curse_of_years	Curse of Years	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_gaze_of_nagash	Bolts of Dark Magic leap from the caster’s eyes, withering flesh and blackening the bone beneath.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_gaze_of_nagash	Gaze of Nagash	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_gaze_of_nagash_upgraded	Bolts of Dark Magic leap from the caster’s eyes, withering flesh and blackening the bone beneath.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_gaze_of_nagash_upgraded	Gaze of Nagash Upgraded	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_invocation_of_nehek	The caster intones the dread syllables once uttered by Nagash, restoring friendly targets.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_invocation_of_nehek	Invocation of Nehek	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_invocation_of_nehek_upgraded	The caster intones the dread syllables once uttered by Nagash, restoring friendly targets.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_invocation_of_nehek_upgraded	Invocation of Nehek Upgraded	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_raise_dead	Necromancers can awaken mortal remains to reinforce their Undead legions.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_raise_dead	Raise Dead	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_raise_dead_upgraded	Necromancers can awaken mortal remains to reinforce their Undead legions.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_raise_dead_upgraded	Raise Dead Upgraded	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_vanhels_danse_macabre	Friendly targets are filled with magical energy, making them even more aggressive!	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_vanhels_danse_macabre	Vanhel's Danse Macabre	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_vanhels_danse_macabre_upgraded	Friendly targets are filled with magical energy, making them even more aggressive!	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_vanhels_danse_macabre_upgraded	Vanhel's Danse Macabre Upgraded	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_wind_of_death	The Wizard calls forth spectral winds that howl through the enemy ranks, tearing their souls from their bodies.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_wind_of_death	Wind of Death	true
-unit_abilities_tooltip_text_nag_double_spell_vampires_wind_of_death_upgraded	The Wizard calls forth spectral winds that howl through the enemy ranks, tearing their souls from their bodies.	true
-unit_abilities_onscreen_name_nag_double_spell_vampires_wind_of_death_upgraded	Wind of Death Upgraded	true
 unit_abilities_tooltip_text_nag_krell_passive_mortarch_of_despair	The cries from Krell's victims reinvigorate his deathly corpse in a perpetual cycle of suffering and pain.	true
 unit_abilities_onscreen_name_nag_krell_passive_mortarch_of_despair	Repair Beyond Despair	true
 unit_abilities_onscreen_name_nag_krell_armour_passive_armour_of_barrow	Armour of the Barrow	true
@@ -173,3 +151,5 @@ unit_abilities_onscreen_name_nag_unit_passive_curse_quintex	Curse of Quintex	tru
 unit_abilities_tooltip_text_nag_unit_passive_curse_quintex	Who knows what dwells deep below Quintex? They know.	true
 unit_abilities_onscreen_name_nag_endless_tomb_skeleton_unbinding	Unbinding	true
 unit_abilities_tooltip_text_nag_endless_tomb_skeleton_unbinding	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	true
+unit_abilities_onscreen_name_nag_azhag_abilities_reckless_whispers	Reckless Whispers	true
+unit_abilities_tooltip_text_nag_azhag_abilities_reckless_whispers	Azhag tries to understand the murmurs from the crown, "guilty feet, no... no rhythm, fool" Ahhh, Zog it!	true

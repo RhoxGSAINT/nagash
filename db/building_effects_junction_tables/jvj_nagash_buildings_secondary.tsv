@@ -84,12 +84,15 @@ nag_settlement_estate_1	wh_main_faction_xp_increase_generals_hidden		faction_to_
 nag_settlement_growth_1	wh_main_effect_force_all_campaign_replenishment_rate		province_to_force_own_provincewide	3.0000	3.0000	0.0000
 nag_settlement_growth_1	wh_main_effect_province_growth_building		region_to_province_own	25.0000	12.0000	0.0000
 nag_settlement_growth_1	wh3_main_effect_corruption_vampiric_buildings		region_to_region_own	1.0000	0.0000	0.0000
+nag_settlement_growth_1	nag_effect_horde_growth		building_to_forces_own_regionwide	2.0000	1.0000	0.0000
 nag_settlement_growth_2	wh_main_effect_force_all_campaign_replenishment_rate		province_to_force_own_provincewide	4.0000	4.0000	0.0000
 nag_settlement_growth_2	wh_main_effect_province_growth_building		region_to_province_own	35.0000	17.0000	0.0000
 nag_settlement_growth_2	wh3_main_effect_corruption_vampiric_buildings		region_to_region_own	2.0000	1.0000	0.0000
+nag_settlement_growth_2	nag_effect_horde_growth		building_to_forces_own_regionwide	4.0000	2.0000	0.0000
 nag_settlement_growth_3	wh_main_effect_force_all_campaign_replenishment_rate		province_to_force_own_provincewide	5.0000	5.0000	0.0000
 nag_settlement_growth_3	wh_main_effect_province_growth_building		region_to_province_own	45.0000	22.0000	0.0000
 nag_settlement_growth_3	wh3_main_effect_corruption_vampiric_buildings		region_to_region_own	3.0000	2.0000	0.0000
+nag_settlement_growth_3	nag_effect_horde_growth		building_to_forces_own_regionwide	6.0000	3.0000	0.0000
 nag_settlement_income_1	wh_main_effect_force_all_campaign_upkeep		region_to_force_own	-10.0000	-5.0000	0.0000
 nag_settlement_income_1	wh_main_effect_economy_gdp_culture		building_to_building_own	150.0000	75.0000	0.0000
 nag_settlement_income_2	wh_main_effect_force_all_campaign_upkeep		region_to_force_own	-20.0000	-10.0000	0.0000

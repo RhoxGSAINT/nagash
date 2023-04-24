@@ -308,22 +308,6 @@ character_skills_localised_name_nag_skill_traitor_kings_innate_eighth_book	Knowl
 character_skills_localised_description_nag_skill_traitor_kings_innate_eighth_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
 character_skills_localised_name_nag_skill_traitor_kings_innate_ninth_book	Knowledge of the Ninth Book	true
 character_skills_localised_description_nag_skill_traitor_kings_innate_ninth_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
-character_skills_localised_name_nag_skill_mannfred_unique_loremaster_lore_of_vampires	Loremaster, Lore of Vampires	true
-character_skills_localised_description_nag_skill_mannfred_unique_loremaster_lore_of_vampires	This one is no apprentice in the black arts but a master of Necromancy and Dark Magic.	true
-character_skills_localised_name_nag_double_vmp_magic_vampires_01_invocation_of_nehek	Invocation of Nehek	true
-character_skills_localised_description_nag_double_vmp_magic_vampires_01_invocation_of_nehek		true
-character_skills_localised_name_nag_double_vmp_magic_vampires_02_vanhels_danse_macabre	Vanhel's Danse Macabre	true
-character_skills_localised_description_nag_double_vmp_magic_vampires_02_vanhels_danse_macabre		true
-character_skills_localised_name_nag_double_vmp_magic_vampires_04_gaze_of_nagash	Gaze of Nagash	true
-character_skills_localised_description_nag_double_vmp_magic_vampires_04_gaze_of_nagash		true
-character_skills_localised_name_nag_double_vmp_magic_vampires_05_raise_dead	Raise Dead	true
-character_skills_localised_description_nag_double_vmp_magic_vampires_05_raise_dead		true
-character_skills_localised_name_nag_double_vmp_magic_vampires_09_curse_of_years	Curse of Years	true
-character_skills_localised_description_nag_double_vmp_magic_vampires_09_curse_of_years		true
-character_skills_localised_name_nag_double_vmp_magic_vampires_10_wind_of_death	Wind of Death	true
-character_skills_localised_description_nag_double_vmp_magic_vampires_10_wind_of_death		true
-character_skills_localised_name_nag_double_vmp_magic_vampires_dummy_invocation_of_nehek	Invocation of Nehek [HIDDEN]	true
-character_skills_localised_description_nag_double_vmp_magic_vampires_dummy_invocation_of_nehek		true
 character_skills_localised_name_nag_skill_archai_heralds_of_the_accursed_one	Heralds of the Accursed One	true
 character_skills_localised_description_nag_skill_archai_heralds_of_the_accursed_one	Once Divine warriors of Ptra, the Hammurai failed in their task of defeating The Supreme Lord of the Undead, Nagash looked upon their corpses of the hammurai and saw opportunity. Thus the Heralds of Accursed One were born.	true
 character_skills_localised_name_nag_skill_archai_ebon_wrought_armour	Ebon-wrought Armour	true
@@ -402,8 +386,6 @@ character_skills_localised_name_nag_skill_azhag_anc_enchanted_item_the_crown_of_
 character_skills_localised_description_nag_skill_azhag_anc_enchanted_item_the_crown_of_sorcery	The Crown of Sorcery was found in the ruins of Todtheim by Azhag the Slaughterer. Its malign influence has helped the Warboss carve a path of destruction throughout the Empire, for the Crown whispers advice and grants the wearer the power of Death Magic.	false
 character_skills_localised_name_nag_skill_azhag_anc_weapon_slaggas_slashas	Slagga's Slashas	false
 character_skills_localised_description_nag_skill_azhag_anc_weapon_slaggas_slashas	The crude twin blades wielded by Azhag the Slaughterer are known as Slagga’s Slashas, but just who is Slagga?	false
-character_skills_localised_name_rhox_nagash_grn_dump	Imbued by Madness	false
-character_skills_localised_description_rhox_nagash_grn_dump	Held aloft and kept there by the rampant lunacy of their leader, Azhag's forces are all the stronger for his insane presence.	false
 character_skills_localised_name_nag_skill_army_buff_ranged_azhag	Arrows of Nagashizzar	false
 character_skills_localised_description_nag_skill_army_buff_ranged_azhag	Asaph may have turned her back on these arrows, but Nagash's hatred is far-reaching.	false
 character_skills_localised_name_nag_skill_army_buff_infantry_azhag	Dhar-Scorched Bones	false
@@ -414,3 +396,21 @@ character_skills_localised_name_nag_skill_army_buff_construct_azhag	Corrupted St
 character_skills_localised_description_nag_skill_army_buff_construct_azhag	Not even stone is set in stone it seems – arcane death magic is used to bring tortured, savage vigour to once-dormant stone sentinels.	false
 character_skills_localised_name_nag_skill_army_buff_vet_nagash_azhag	Vengeance of Nagashizzar	false
 character_skills_localised_description_nag_skill_army_buff_vet_nagash_azhag	The long-waiting sentinels of the fortress, bolstered once again by their master, march as the best of his troops.	false
+character_skills_localised_name_nag_skill_grn_azhag_unique_0	Imbued by Madness	false
+character_skills_localised_description_nag_skill_grn_azhag_unique_0	Held aloft and kept there by the rampant lunacy of their leader, Azhag's forces are all the stronger for his insane presence.	false
+character_skills_localised_name_nag_skill_grn_azhag_unique_1	Earthshaking Orders	false
+character_skills_localised_description_nag_skill_grn_azhag_unique_1	"Stoopid gits, I sed NOWWWWW!!!!!!!"	false
+character_skills_localised_name_nag_skill_grn_azhag_unique_2	Insane Visions	false
+character_skills_localised_description_nag_skill_grn_azhag_unique_2	Azhag's mysterious crown whispers fell plans and dastardly schemes; sometimes he understands them most of the time he doesn't.	false
+character_skills_localised_name_nag_skill_grn_azhag_unique_3	Not Orcy Enuff!	false
+character_skills_localised_description_nag_skill_grn_azhag_unique_3	There are some who whisper that the Slaughterer's wild schemes are not sufficiently Orcy. Needless to say, the crown normally lets him know so he can weed out the dissenters.	false
+character_skills_localised_name_nag_skill_grn_azhag_unique_4	Wild Abandon	false
+character_skills_localised_description_nag_skill_grn_azhag_unique_4	Enchanted armour and weapons, and the influence of the crown, allows Azhag to 'let go' somewhat on the battlefield!	false
+character_skills_localised_name_nag_skill_grn_azhag_unique_5	Darkest Nimbus	false
+character_skills_localised_description_nag_skill_grn_azhag_unique_5	When the crown takes control Azhag falls into a trance, his eyes cloud over and he mutters and even argues with himself…	false
+character_skills_localised_name_nag_skill_grn_azhag_tyrant	Green Tyrant	false
+character_skills_localised_description_nag_skill_grn_azhag_tyrant	He's big, he's green and he has the whisperings of a tyrannical lord of the undead in his ear.	false
+character_skills_localised_name_nag_skill_personal_neferata_dancer	Dance with the Devil	false
+character_skills_localised_description_nag_skill_personal_neferata_dancer	Say goodbye, as we dance with the Devil tonight.	false
+character_skills_localised_name_nag_skill_vmp_isabella_unique_court_of_blood	Court of Blood	false
+character_skills_localised_description_nag_skill_vmp_isabella_unique_court_of_blood	Even in Undeath, every queen needs loyal retainers and handmaidens.	false

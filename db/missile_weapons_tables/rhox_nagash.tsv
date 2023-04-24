@@ -3,3 +3,4 @@ key	precursor	default_projectile	audio_type	use_secondary_ammo_pool
 wh_main_nagash_mage_hero	false	wh_main_nagash_mage_hero	catapult_screaming_skull	false
 nag_bone_thrower	false	nag_bone_thrower	bolt_large	false
 nag_bone_colossus_tombstone	false	nag_bone_colossus_tombstone		false
+nag_skeleton_bow_chariot	false	nag_skeleton_arrow_chariot	bow	false

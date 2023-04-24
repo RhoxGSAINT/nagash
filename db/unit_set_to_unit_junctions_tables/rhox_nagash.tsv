@@ -401,3 +401,5 @@ hero				nag_characters	false
 			nag_undead_chariot_unit	nag_skeletons_plus	false
 			nag_undead_chariot_unit	nag_chariots	false
 			nag_undead_chariot_unit	wh2_dlc09_tmb_chariots	false
+			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	nag_arkhan_tomb_chariots	false
+			nag_vanilla_tmb_veh_skeleton_chariot_0	nag_arkhan_tomb_chariots	false

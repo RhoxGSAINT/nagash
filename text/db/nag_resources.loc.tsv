@@ -15,6 +15,3 @@ resources_long_description_res_nag_nehek	 	true
 resources_onscreen_text_res_nag_warpstone	Warpstone Deposit	true
 resources_description_res_nag_warpstone	This area contains a deposit of Warpstone, desired and treasured by Nagash	true
 resources_long_description_res_nag_warpstone	 	true
-resources_onscreen_text_res_nag_deathplace	Places of Death	false
-resources_description_res_nag_deathplace	This area is extremly important to Nagash	false
-resources_long_description_res_nag_deathplace		false
