@@ -53,3 +53,6 @@ nag_anc_mount_vmp_vampire_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	fa
 nag_anc_mount_vmp_wight_king_barded_skeletal_steed	wh_main_anc_mount_barded_skeletal_steed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_wight_king_1		1	1		false	false	true	all
 nag_anc_mount_vmp_wight_king_skeletal_steed	wh_main_anc_mount_skeletal_steed	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh_main_vmp_cha_wight_king_2		1	1		false	false	true	all
 nag_anc_mount_cst_gunnery_wight_rotting_promethean	wh2_dlc11_anc_mount_rotting_promethean	.	false	false	false	1	0	1900			false	false	false	mount	16	30	30	50	true	wh2_dlc11_cst_cha_gunnery_wight_1		1	1		false	false	true	all
+nag_anc_armour_azhags_ard_armour	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_enchanted_item_the_crown_of_sorcery	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	-1		false	false	false	all
+nag_anc_weapon_slaggas_slashas	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
