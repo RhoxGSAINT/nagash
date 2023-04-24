@@ -1,38 +1,38 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_body_01.wsmodel" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_body_01.wsmodel" >
 			<META_DATA>audio_entity_type:wh2_dlc11_cst_mournguls</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA>
                 <SLOT name="head" >
-                    <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_head.wsmodel" />
+                    <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_head.wsmodel" />
                 </SLOT>
         </VARIANT_MESH>
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_body_02.wsmodel" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_body_02.wsmodel" >
 			<META_DATA>audio_entity_type:wh2_dlc11_cst_mournguls</META_DATA>			<META_DATA>audio_armour_type:body</META_DATA></VARIANT_MESH>
 	</SLOT>
     <SLOT name="warpstone" >
         <VARIANT_MESH>
                 <SLOT name="stones1" >
-                    <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_stone_01.wsmodel" />
-                    <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_stone_02.wsmodel" />
+                    <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_stone_01.wsmodel" />
+                    <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_stone_02.wsmodel" />
                 </SLOT>   
                 <SLOT name="stones2" >
-                    <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_stone_03.wsmodel" />
-                    <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_stone_04.wsmodel" />
+                    <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_stone_03.wsmodel" />
+                    <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_stone_04.wsmodel" />
                 </SLOT>     
         </VARIANT_MESH>
         <VARIANT_MESH>
                 <SLOT name="stones3 almost all" >
-                    <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_stone_05.wsmodel" />
+                    <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_stone_05.wsmodel" />
                 </SLOT>   
         </VARIANT_MESH>
     </SLOT> 
 
     <SLOT name="bone parts" >
-        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_ghoul_ribs_01.rigid_model_v2" />
-        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_ghoul_ribs_02.rigid_model_v2" />
+        <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_ghoul_ribs_01.wsmodel" />
+        <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_ghoul_ribs_02.wsmodel" />
     </SLOT>    
     <SLOT name="bone parts2" >
-        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_spines.rigid_model_v2" />
-        <VARIANT_MESH model="VariantMeshes/wh_variantmodels/gh4/cst/cst_mourngul_haunter/nag_warp_ghouls_terry_ribs.rigid_model_v2" />
+        <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_spines.wsmodel" />
+        <VARIANT_MESH model="variantmeshes\wh_variantmodels\gh4\nag\nag_warp_ghouls\nag_warp_ghouls_terry_ribs.wsmodel" />
     </SLOT>   
 </VARIANT_MESH>

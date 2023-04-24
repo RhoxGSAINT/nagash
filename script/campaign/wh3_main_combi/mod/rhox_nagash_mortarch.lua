@@ -517,6 +517,7 @@ function rhox_nagash_disable_mortarch_factions_seduction()
     for mort_key, faction_key in pairs(mort_key_to_faction_key) do
         cm:faction_add_pooled_resource(faction_key, "rhox_nagash_influence", "other", -100)
     end
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_the_sentinels", "rhox_nagash_influence", "other", -100) --you have to defeat them
     cm:faction_add_pooled_resource("wh2_dlc09_tmb_exiles_of_nehek", "rhox_nagash_influence", "other", -100)
     cm:faction_add_pooled_resource("wh2_dlc09_tmb_khemri", "rhox_nagash_influence", "other", -100)
     cm:faction_add_pooled_resource("wh2_dlc09_tmb_lybaras", "rhox_nagash_influence", "other", -100)

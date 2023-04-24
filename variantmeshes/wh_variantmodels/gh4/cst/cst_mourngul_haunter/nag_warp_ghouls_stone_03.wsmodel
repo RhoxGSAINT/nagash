@@ -1,9 +1,0 @@
-<model version="1">
-	<geometry>variantmeshes\wh_variantmodels\gh4\cst\cst_mourngul_haunter\nag_warp_ghouls_stone_03.rigid_model_v2</geometry>
-		<materials>
-			<material part_index="0" lod_index="0">variantmeshes\wh_variantmodels\hu18\skv\skv_rat_ogre_mutant\materials\skv_rat_ogre_mutant_01_weighted4_alpha_off.xml.material</material>
-			<material part_index="0" lod_index="1">variantmeshes\wh_variantmodels\hu18\skv\skv_rat_ogre_mutant\materials\skv_rat_ogre_mutant_01_weighted4_alpha_off.xml.material</material>
-			<material part_index="0" lod_index="2">variantmeshes\wh_variantmodels\hu18\skv\skv_rat_ogre_mutant\materials\skv_rat_ogre_mutant_01_weighted4_alpha_off.xml.material</material>
-			<material part_index="0" lod_index="3">variantmeshes\wh_variantmodels\hu18\skv\skv_rat_ogre_mutant\materials\skv_rat_ogre_mutant_01_weighted4_alpha_off.xml.material</material>
-	</materials>
-</model>

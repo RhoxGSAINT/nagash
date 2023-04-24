@@ -428,7 +428,7 @@ function complete_bp_raise()
     --core:trigger_custom_event("BlackPyramidRaised", {})
     
     
-    --[[
+
     --below create agent causes error at some point so be cautious
     cm:create_agent(
         faction_key,
@@ -441,7 +441,6 @@ function complete_bp_raise()
 
         end
     )
-    --]]
     
     
     cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);

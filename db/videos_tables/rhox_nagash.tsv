@@ -1,0 +1,3 @@
+video_name	video_type	audio_tracks	script_ref
+#videos_tables;7;db/videos_tables/rhox_nagash			
+warhammer/faction_select_nagash	FULLSCREEN_INTRO	1	0

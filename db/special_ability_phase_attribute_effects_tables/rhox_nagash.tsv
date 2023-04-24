@@ -1,0 +1,6 @@
+attribute	phase	attribute_type
+#special_ability_phase_attribute_effects_tables;1;db/special_ability_phase_attribute_effects_tables/rhox_nagash		
+construct	wh_main_spell_nagash_become_construct	positive
+unbreakable	nag_nagash_passive_death_magic_incarnate	positive
+rampage	nag_unit_passive_marshlight_aura_1	positive
+unspottable	nag_unit_abilities_beyond_the_veil	positive

@@ -1,3 +1,4 @@
 key	region_effects	closable	idle_scene	incoming_traveller_scene	close_scene	icon_path	shroud_mode	travel_cost	closure_cost_generals	closure_cost_agents	open_scene	layout	double_click_event	should_display_timer
 #teleportation_node_templates_tables;4;db/teleportation_node_templates_tables/rhox_nagash														
 rhox_nagash_teleportation_node_template		false	wh3_dlc20_portal_tze_idle	wh3_main_tze_teleporting_stop	wh3_dlc20_portal_neu_end	UI/skins/warhammer3/rift_icon_zanbaijin.png	DRAW_ALWAYS				wh3_dlc20_portal_tze_start	rifts		false
+rhox_nagash_mountain_pass_template		false	wh3_dlc20_portal_tze_idle	wh3_main_tze_teleporting_stop	wh3_dlc20_portal_neu_end	UI/skins/mixer_nag_nagash/rift_icon_nag.png	DRAW_ALWAYS				wh3_dlc20_portal_tze_start	rifts		false

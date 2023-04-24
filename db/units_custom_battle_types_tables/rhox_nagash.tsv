@@ -1,0 +1,7 @@
+alternate_unit	base_unit	type_category	type_icon	show_base_in_unit_list	id	colour	sort_order
+#units_custom_battle_types_tables;3;db/units_custom_battle_types_tables/rhox_nagash							
+nag_cha_liche_priest_death_0	nag_cha_liche_priest_death_0	type_spell_lore		true	5473651	FFFFFF	20
+nag_cha_liche_priest_light_0	nag_cha_liche_priest_death_0	type_spell_lore		false	5473652	FFFFFF	70
+nag_cha_liche_priest_nehekhara_0	nag_cha_liche_priest_death_0	type_spell_lore		false	5473653	FFFFFF	80
+nag_cha_liche_priest_shadow_0	nag_cha_liche_priest_death_0	type_spell_lore		false	5473654	FFFFFF	90
+nag_cha_liche_priest_undeath_0	nag_cha_liche_priest_death_0	type_spell_lore		false	5473655	FFFFFF	100
