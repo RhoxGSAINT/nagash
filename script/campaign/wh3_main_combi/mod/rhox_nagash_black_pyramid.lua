@@ -223,6 +223,8 @@ function rhox_nagash_add_black_pyramid_listener()
             out("Rhox Nagash Current turn: "..t)
             if current_ritual == "nag_bp_raise" then
                 if t == 0 then
+                    cm:set_scripted_mission_text("nag_bp_survive", "nag_bp_survive", "mission_text_text_nag_bp_survive_"..t)
+
                     -- Complete!
                     complete_bp_raise()
                 else
@@ -408,7 +410,7 @@ function complete_bp_raise()
     local faction_leader = faction_obj:faction_leader()
     local cqi = faction_leader:command_queue_index()
 
-    -- spawn the bone daddy
+    -- spawn the Morghast
     local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
         faction_key,
         bp_key,
