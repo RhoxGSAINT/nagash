@@ -122,7 +122,8 @@ local mort_key_to_success_chance ={
     ["nag_mortarch_vlad"]=35,
     ["nag_mortarch_mannfred"]=35,
     ["nag_mortarch_luthor"]=35,
-    ["nag_mortarch_dieter"]=35
+    ["nag_mortarch_dieter"]=35,
+    ["nag_mortarch_azhag"]=100 --AI won't use it this is for human to evade the script breaking
 }
 
 local mort_key_to_units={
