@@ -60,3 +60,10 @@ nag_unit_passive_heavy_with_death	stat_weakness_flame	-80.0000	add
 nag_unit_passive_heavy_with_death	stat_melee_defence	6.0000	add
 nag_contact_slownado	scalar_speed	0.5000	mult
 nag_contact_slownado	stat_melee_defence	-8.0000	add
+nag_azhag_abilities_reckless_whispers_i	stat_resistance_all	40.0000	add
+nag_azhag_abilities_reckless_whispers_ii	stat_melee_attack	8.0000	add
+nag_azhag_abilities_reckless_whispers_ii	stat_melee_damage_ap	1.4000	mult
+nag_azhag_abilities_reckless_whispers_ii	stat_melee_damage_base	1.4000	mult
+nag_azhag_abilities_reckless_whispers_iii	scalar_speed	1.5000	mult
+nag_azhag_abilities_reckless_whispers_iii	stat_charge_bonus	24.0000	add
+nag_azhag_abilities_reckless_whispers_iv	scalar_spell_mastery	1.5000	mult

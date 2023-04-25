@@ -1,4 +1,0 @@
-key	location	ownership	source	target	territory
-#campaign_effect_scopes_tables;2;db/campaign_effect_scopes_tables/rhox_nagash_test					
-rhox_nagash_building_to_region	regionwide	yours	building	region	any
-nagash_building_to_force_own_provincewide	provincewide	yours	building	force	any

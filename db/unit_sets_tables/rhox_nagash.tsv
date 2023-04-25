@@ -70,3 +70,6 @@ nag_army_warbeasts_monstrous_inf_azhag	false	-1	-1
 nag_army_monsters_constructs_azhag	false	-1	-1	
 nag_army_nagashizzar_units_vet_azhag	true	7	9	
 nag_army_nagashizzar_units_azhag	false	-1	-1	
+nag_undead_green	false	-1	-1	
+nag_undead_green_morghast	false	-1	-1	
+nag_arkhan_tomb_chariots	false	-1	-1	

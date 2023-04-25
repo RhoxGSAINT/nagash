@@ -21,4 +21,10 @@ unit_description_short_texts_text_nag_spectre_swarm	Spectres are in many ways th
 unit_description_short_texts_text_nag_shade_haunts	Walk through the dark sepulchral forests and woodlands of the world and you will hear the wails of the disembodied spirits that haunt these locations.	false
 unit_description_short_texts_text_nag_virion_plaguecart	The legends of all lands and races tell of the Plague Cart, but whether it is of this world or another, none can say...	false
 unit_description_short_texts_text_nag_revenants	Ancient bones of long vanquished wights, possessed and puppeteered by malicious spirits who are older still.	false
-unit_description_short_texts_text_nag_undead_chariot_unit_short_desc	These chariots were a parody of those used by Nagash's opponents, cnstructed from bone and sinew, and held together by the power of Dark Magic.	true
+unit_description_short_texts_text_nag_undead_chariot	These chariots were a parody of those used by Nagash's opponents, constructed from bone and sinew, held together by the power of Dark Magic.	false
+unit_description_short_texts_text_nag_skeleton_orcs	Thick bones, running towards you, screaming without vocal cords, yup that's a Dead Orc.... but it's running towards me.	false
+unit_description_short_texts_text_nag_skeleton_goblin_archers	Goblins, bad enough when they just have sticks but these ones have bows pointing at you, did I mention they were undead?	false
+unit_description_short_texts_text_nag_skeleton_goblins	Goblins, bad enough when they are alive, but these ones are dead and are still pointing sticks at you.	false
+unit_description_short_texts_text_nag_skeleton_troll	Up close, a Troll will batter foes into submission or vomit disgusting... wait a second, aren't these guys dead?	false
+unit_description_short_texts_text_nag_skeleton_troll_gw	It's a 500lb lean mean bone machine, and you're on the menu.	false
+unit_description_short_texts_text_nag_skeleton_giant	A bellowing, cursing display of raw might, ruthless aggression and mindless savagery. It's only mission is to feed it's hunger, but what do the dead hunger for?	false
