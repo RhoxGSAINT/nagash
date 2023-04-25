@@ -460,6 +460,7 @@
             offset="-5.00,0.00"
             dock_offset="0.00,0.00"
 			component_anchor_point="0.50,0.50"
+            componentleveltooltip="Places of Death"
 			tooltiplabel="rhox_nagash_place_of_death_tooltip"
 			uniqueguid="D25BCCC7-6771-E483-110A69516668BA59"
 			currentstate="7794DC23-4E22-9C17-1DB10B9375D06AA8"
