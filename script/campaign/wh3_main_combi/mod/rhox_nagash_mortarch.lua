@@ -847,6 +847,11 @@ core:add_listener(
         if nag_mortarch_arkhan_setting == 105 then --for debug
             rhox_nag_debug_function()
         end
+        
+        if nag_mortarch_arkhan_setting == 106 then --for debug
+            rhox_nag_debug_summon_bone_daddy()
+        end
+
     end,
     true
 )
@@ -862,4 +867,33 @@ function rhox_nag_debug_function()
             spawn_mortarch(mort_key)
         end
     end
+end
+
+
+function rhox_nag_debug_summon_bone_daddy()
+    local nagash_character = cm:get_faction(nagash_faction):faction_leader()
+    local region_key = "wh3_main_combi_region_black_pyramid_of_nagash"
+    local is_at_sea = false
+    local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, is_at_sea, true, 5)
+    cm:create_force_with_general(
+        -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+        nagash_faction,
+        "",
+        region_key,
+        new_x,
+        new_y,
+        "general",
+        "nag_nagash_boss",
+        "names_name_1937224328",
+        "",
+        "",
+        "",
+        true,
+        function(cqi)
+            out("Rhox Nagash: Nagash Revived")
+            local new_character = cm:get_character_by_cqi(cqi)
+            cm:replenish_action_points(cm:char_lookup_str(new_character))
+            local forename = common:get_localised_string("names_name_1937224328")
+            cm:change_character_custom_name(new_character, forename, "","","")
+        end); 
 end
