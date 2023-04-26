@@ -44,20 +44,22 @@ end
 
 cm:add_first_tick_callback(
     function()
-        out("Rhox Nagash: First tick")
-        core:remove_listener("rhox_nagash_realtime_settlement_label")
-        core:add_listener(
-            "rhox_nagash_realtime_settlement_label",
-            "RealTimeTrigger",
-            function(context)
-                return context.string == "rhox_nagash_settlement_real_time"
-            end,
-            function()
-                rhox_nagash_setup_settlement_label()    
-            end,
-            true
-        )
-        real_timer.unregister("rhox_nagash_settlement_real_time")
-        real_timer.register_repeating("rhox_nagash_settlement_real_time", 0.1)
+        if cm:get_local_faction_name(true) == "mixer_nag_nagash" then
+            out("Rhox Nagash: First tick")
+            core:remove_listener("rhox_nagash_realtime_settlement_label")
+            core:add_listener(
+                "rhox_nagash_realtime_settlement_label",
+                "RealTimeTrigger",
+                function(context)
+                    return context.string == "rhox_nagash_settlement_real_time"
+                end,
+                function()
+                    rhox_nagash_setup_settlement_label()    
+                end,
+                true
+            )
+            real_timer.unregister("rhox_nagash_settlement_real_time")
+            real_timer.register_repeating("rhox_nagash_settlement_real_time", 0.1)
+        end
     end
 );
