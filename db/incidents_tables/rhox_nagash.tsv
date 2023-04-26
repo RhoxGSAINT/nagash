@@ -4,3 +4,4 @@ rhox_nagash_uber_husk	false	tmb/unique_black_pyramid_floating	false	Quest		true	
 rhox_nagash_azhag_mortarch	false	tmb/unique_black_pyramid_floating	false	Quest		true		0.0000
 rhox_nagash_mortarch_notify	false	tmb/unique_black_pyramid_floating	false	Quest		false		0.0000
 rhox_nagash_declare_war	false	tmb/unique_black_pyramid_floating	false	Quest		false		0.0000
+rhox_nagash_victory	false	mixer_nag_nagash/victory	false	Quest		true		0.0000
