@@ -57,3 +57,4 @@ nag_grand_spell_01_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_grand_spell_02_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_grand_spell_03_20	[HIDDEN]	HIDDEN	faction	0		true	false	true
 rhox_nagash_ai_bonus	[HIDDEN]	HIDDEN	faction	0		false	false	true
+rhox_nagash_stance_brain_searching	He eats other spellcaster brains believing it'll make him more powerful	Stance: Searching for brain	force	1	icon_effects_raiding.png	true	false	true
