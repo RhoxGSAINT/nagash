@@ -1,9 +1,5 @@
 local nagash_faction = "mixer_nag_nagash"
-local pooled_resource_key = "nag_warpstone"
 
-local factions_with_pooled_resource = {
-    ["mixer_nag_nagash"] = true
-}
 
 
 
