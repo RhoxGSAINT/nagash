@@ -418,3 +418,11 @@ character_skills_localised_name_rhox_nagash_grn_dump		false
 character_skills_localised_description_rhox_nagash_grn_dump		false
 character_skills_localised_name_nag_skill_innate_vmp_dieter_helsnicht	Mortarch of Doom	false
 character_skills_localised_description_nag_skill_innate_vmp_dieter_helsnicht	[PH]Mortarch of Doom	false
+character_skills_localised_name_nag_skill_unique_nagash_hate_skaven	A Personal Vendetta	false
+character_skills_localised_description_nag_skill_unique_nagash_hate_skaven	Let the Skaven tremble in fear at the mere mention of my name, for I am Nagash, the supreme of the undead. I will not rest until I have avenged the countless wrongs that they have committed against me. They will know the full extent of my wrath, and they will rue the day that they ever crossed me.	false
+character_skills_localised_name_nag_skill_unique_nagash_hate_daemons	Anathema Chaotica	false
+character_skills_localised_description_nag_skill_unique_nagash_hate_daemons	As a master of the dark arts, Nagash understands the true nature of power. Power is not found in destruction and chaos, but in order and control.	false
+character_skills_localised_name_nag_skill_unique_nagash_hate_traitors	Despotic Domination	false
+character_skills_localised_description_nag_skill_unique_nagash_hate_traitors	They may call themselves 'kings,' but they are nothing but weak and pitiful shadows of their former selves, let them stand against me so i can show them the true meaning of power and dominance!	false
+character_skills_localised_name_nag_skill_unique_nagash_hate_equal	Inevitable Death	false
+character_skills_localised_description_nag_skill_unique_nagash_hate_equal	Death comes to those who wait. And to those who don't. So either way…	false

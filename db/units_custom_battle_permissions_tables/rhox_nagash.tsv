@@ -57,6 +57,7 @@ mixer_nag_nagash	false	nag_sand_crawlies	true	true				false		false
 mixer_nag_nagash	false	nag_warp_ghouls	true	true				false		false
 mixer_nag_nagash	false	nag_carrion_riders	true	true				false		false
 mixer_nag_nagash	false	nag_bone_colossus	true	true				false		false
+mixer_nag_nagash	false	nag_skeleton_reaper	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_tmb_inf_skeleton_archers_0	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_tmb_inf_skeleton_spearmen_0	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_tmb_inf_skeleton_warriors_0	true	true				false		false

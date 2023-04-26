@@ -16,6 +16,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_mortis_engine	nag_army_cavalry_chariots	false
 			nag_carrion_riders	nag_army_cavalry_chariots	false
 			nag_virion_plaguecart	nag_army_cavalry_chariots	false
+			nag_undead_chariot_unit	nag_army_cavalry_chariots	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_0	nag_army_coast_units	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_1	nag_army_coast_units	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_army_coast_units	false
@@ -85,6 +86,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_zombie_deckhands_mob_0	nag_army_infantry	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_1	nag_army_infantry	false
 			nag_vanilla_cst_inf_depth_guard_0	nag_army_infantry	false
+			nag_skeleton_reaper	nag_army_infantry	false
 			nag_vanilla_tmb_art_casket_of_souls_0	nag_army_magical_spirit	false
 			nag_vanilla_vmp_inf_cairn_wraiths	nag_army_magical_spirit	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_army_magical_spirit	false
@@ -117,6 +119,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_spirit_hosts	nag_army_nagashizzar_units	false
 			nag_spectre_swarm	nag_army_nagashizzar_units	false
 			nag_warp_ghouls	nag_army_nagashizzar_units	false
+			nag_undead_chariot_unit	nag_army_nagashizzar_units	false
 			nag_morghasts	nag_army_nagashizzar_units_vet	false
 			nag_nagashi_guard	nag_army_nagashizzar_units_vet	false
 			nag_nagashi_guard_halb	nag_army_nagashizzar_units_vet	false
@@ -130,6 +133,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_spirit_hosts	nag_army_nagashizzar_units_vet	false
 			nag_spectre_swarm	nag_army_nagashizzar_units_vet	false
 			nag_warp_ghouls	nag_army_nagashizzar_units_vet	false
+			nag_undead_chariot_unit	nag_army_nagashizzar_units_vet	false
 			nag_vanilla_tmb_inf_skeleton_archers_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_spearmen_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_army_nehek_units	false
@@ -169,6 +173,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_deck_gunners_0	nag_army_ranged	false
 			nag_vanilla_cst_art_carronade	nag_army_ranged	false
 			nag_vanilla_cst_mon_necrofex_colossus_0	nag_army_ranged	false
+			nag_undead_chariot_unit	nag_army_ranged	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_army_warbeasts_monstrous_inf	false
 			nag_vanilla_tmb_mon_ushabti_1	nag_army_warbeasts_monstrous_inf	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_army_warbeasts_monstrous_inf	false

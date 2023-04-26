@@ -494,14 +494,14 @@ end
 
 
 local raise_dead_units={
-    nag_vanilla_tmb_inf_skeleton_archers_0= {1, 20, 1},
-    nag_vanilla_tmb_inf_skeleton_spearmen_0= {1, 20, 1},
-    nag_vanilla_tmb_inf_skeleton_warriors_0= {1, 20, 1},
+    nag_vanilla_tmb_inf_skeleton_archers_0= {1, 20, 2},
+    nag_vanilla_tmb_inf_skeleton_spearmen_0= {1, 20, 2},
+    nag_vanilla_tmb_inf_skeleton_warriors_0= {1, 20, 2},
     nag_vanilla_tmb_inf_nehekhara_warriors_0= {0, 10, 1},
-    nag_vanilla_vmp_inf_skeleton_warriors_0= {1, 20, 1},
-    nag_vanilla_vmp_inf_skeleton_warriors_1= {1, 20, 1},
+    nag_vanilla_vmp_inf_skeleton_warriors_0= {0, 20, 0},
+    nag_vanilla_vmp_inf_skeleton_warriors_1= {0, 20, 0},
     nag_vanilla_vmp_inf_zombie= {2, 35, 3},
-    nag_vanilla_vmp_mon_dire_wolves= {0, 20, 1},
+    nag_vanilla_vmp_mon_dire_wolves= {0, 20, 2},
     nag_vanilla_vmp_mon_fell_bats= {1, 20, 2}
 }
 

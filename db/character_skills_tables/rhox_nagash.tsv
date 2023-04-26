@@ -88,6 +88,10 @@ nag_skill_unique_nagash_book_six	skill_book_6.png		Sixth Book of Nagash	0	false	
 nag_skill_unique_nagash_book_seven	skill_book_7.png		Seventh Book of Nagash	0	false	false	false	0.0000	0
 nag_skill_unique_nagash_book_eight	skill_book_8.png		Eighth Book of Nagash	0	false	false	false	0.0000	0
 nag_skill_unique_nagash_book_nine	skill_book_9.png		Ninth Book of Nagash	0	false	false	false	0.0000	0
+nag_skill_unique_nagash_hate_skaven	nag_hate_skaven.png		A Personal Vendetta	0	false	false	false	0.0000	0
+nag_skill_unique_nagash_hate_daemons	nag_hate_chaos.png		Anathema Chaotica	0	false	false	false	0.0000	0
+nag_skill_unique_nagash_hate_traitors	nag_hate_traitors.png		Despotic Domination	0	false	false	false	0.0000	0
+nag_skill_unique_nagash_hate_equal	character_attack.png		Inevitable Death	0	false	false	false	0.0000	0
 nag_skill_personal_arkhan_unique_3	character_morale.png		Legions of Death	0	false	false	false	0.0000	0
 nag_skill_personal_arkhan_unique_4	character_experience.png		Liche King	0	false	false	false	0.0000	0
 nag_skill_personal_arkhan_unique_5	character_health.png		Right-Hand of Nagash	0	false	false	false	0.0000	0

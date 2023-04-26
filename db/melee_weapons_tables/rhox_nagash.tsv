@@ -12,3 +12,4 @@ nag_nagash_boss	15	0	180	320	5.0000	sword	sword	large	7	1.0000	1.0000	0.0000	tru
 nag_spirit_hosts	0	0	26	4	1.0000	sword	claw		1	1.0000	1.0000	0.0000	true		0	10	4.3000		false
 nag_spectre_swarm	0	0	20	8	3.0000	sword	claw	medium	3	1.0000	1.0000	0.0000	true	nag_contact_slownado	0	10	4.3000		false
 vigpro_grn_choppa_dual_big_uns	0	8	29	13	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	3.9000		false
+nag_skeleton_reaper_scythe	0	8	12	16	1.0000	axe	halberd	small	1	1.0000	1.0000	0.0000	false		0	10	4.3000		false

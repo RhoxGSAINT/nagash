@@ -74,3 +74,7 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_azhag_anc_weapon_slaggas_slashas		x	16
 		1	nag_skill_grn_azhag_unique_0		x	11
 		1	nag_skill_grn_azhag_tyrant		x	3
+		1	nag_skill_unique_nagash_hate_skaven		x	2
+		1	nag_skill_unique_nagash_hate_daemons		x	2
+		1	nag_skill_unique_nagash_hate_traitors		x	2
+		1	nag_skill_unique_nagash_hate_equal		x	2

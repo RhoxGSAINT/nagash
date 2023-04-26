@@ -60,6 +60,10 @@ nag_skill_supreme_nagash_campaign_10		nag_skill_campaign_nagash_big_self_defense
 nag_skill_supreme_nagash_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_nagash_boss		5.0000	11.0000		0	4	true
 nag_skill_husk_innate_nagash		nag_skill_husk_innate_nagash	nag_skill_node_set_nagash_husk		6.0000	0.0000		1	0	false
 nag_skill_husk_nagash_unique_2		nag_skill_unique_nagash_alakanash	nag_skill_node_set_nagash_husk		0.0000	1.0000		0	0	true
+nag_skill_husk_nagash_unique_3		nag_skill_unique_nagash_hate_skaven	nag_skill_node_set_nagash_husk		1.0000	1.0000		0	0	true
+nag_skill_husk_nagash_unique_4		nag_skill_unique_nagash_hate_daemons	nag_skill_node_set_nagash_husk		1.0000	2.0000		0	0	true
+nag_skill_husk_nagash_unique_5		nag_skill_unique_nagash_hate_traitors	nag_skill_node_set_nagash_husk		1.0000	3.0000		0	0	true
+nag_skill_husk_nagash_unique_6		nag_skill_unique_nagash_hate_equal	nag_skill_node_set_nagash_husk		1.0000	4.0000		0	0	true
 nag_skill_husk_nagash_books_0		wh2_dlc14_skilll_all_magic_all_greater_arcane_conduit	nag_skill_node_set_nagash_husk		2.0000	0.0000		1	0	true
 nag_skill_husk_nagash_books_1		nag_skill_unique_nagash_book_two	nag_skill_node_set_nagash_husk		2.0000	1.0000		0	0	true
 nag_skill_husk_nagash_books_2		nag_skill_unique_nagash_book_three	nag_skill_node_set_nagash_husk		2.0000	2.0000		0	0	true
