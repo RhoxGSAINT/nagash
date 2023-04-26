@@ -120,6 +120,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_spectre_swarm	nag_army_nagashizzar_units	false
 			nag_warp_ghouls	nag_army_nagashizzar_units	false
 			nag_undead_chariot_unit	nag_army_nagashizzar_units	false
+			nag_skeleton_reaper	nag_army_nagashizzar_units	false
 			nag_morghasts	nag_army_nagashizzar_units_vet	false
 			nag_nagashi_guard	nag_army_nagashizzar_units_vet	false
 			nag_nagashi_guard_halb	nag_army_nagashizzar_units_vet	false
@@ -134,6 +135,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_spectre_swarm	nag_army_nagashizzar_units_vet	false
 			nag_warp_ghouls	nag_army_nagashizzar_units_vet	false
 			nag_undead_chariot_unit	nag_army_nagashizzar_units_vet	false
+			nag_skeleton_reaper	nag_army_nagashizzar_units_vet	false
 			nag_vanilla_tmb_inf_skeleton_archers_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_spearmen_0	nag_army_nehek_units	false
 			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_army_nehek_units	false
