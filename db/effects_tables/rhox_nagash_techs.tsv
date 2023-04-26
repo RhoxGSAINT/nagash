@@ -11,3 +11,5 @@ nag_ritual_attack_warning_dummy	climate_unpleasant.png	700	climate_unpleasant.pn
 nag_ritual_attack_warning_dummy_final	climate_uninhabitable.png	700	climate_uninhabitable.png	campaign	false
 nag_ritual_victory_dummy	edict_evocation_of_nagash.png	800	edict_evocation_of_nagash.png	campaign	true
 nag_dieter_unlock	army.png	1	army.png	campaign	true
+rhox_nagash_all_vassal_dummy	trait_mortarch.png	901	trait_mortarch.png	campaign	true
+rhox_nagash_zombie_apocalypse_dummy	trait_mortarch.png	902	trait_mortarch.png	campaign	true

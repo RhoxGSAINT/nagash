@@ -170,6 +170,5 @@ nag_effect_mortarch_ward_save_dummy	bullet_4.png	904	bullet_4.png	battle	true
 nag_effect_force_army_battle_leadership_all_defending	morale.png	65	morale.png	battle	true
 rhox_nagash_remaining_turns	turns.png	130	turns.png	campaign	true
 rhox_nagash_hidden_wrath_abilities		0		battle	true
-rhox_nagash_all_vassal_dummy	trait_mortarch.png	901	trait_mortarch.png	campaign	true
-rhox_nagash_zombie_apocalypse_dummy	trait_mortarch.png	902	trait_mortarch.png	campaign	true
 rhox_nagash_rift_dummy	champions_rift.png	902	champions_rift.png	campaign	true
+rhox_nagash_brain_searching_dummy	icon_effects_raiding.png	1	icon_effects_raiding.png	campaign	true
