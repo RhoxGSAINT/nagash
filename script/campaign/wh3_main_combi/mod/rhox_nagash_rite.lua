@@ -69,7 +69,7 @@ end
 
 
 
-function unlock_rites_listeners()
+function rhox_nagash_rites_listeners()
     out("Rhox Nagash Rite listener")
     
     
@@ -165,7 +165,7 @@ function unlock_rites_listeners()
         )
     end
     
-    --not unlcoker but still
+
     core:add_listener(
         "rhox_nagash_diplomacy_panel_open_listener",
         "ScriptEventPlayerOpensDiplomacyPanel",
@@ -198,6 +198,28 @@ function unlock_rites_listeners()
         end,
         true
     )
+    
+    core:add_listener(
+        "nag_divinity_listener",
+        "RitualCompletedEvent",
+        function(context)
+            return context:ritual():ritual_key() == "nag_divinity"
+        end,
+        function(context)
+
+            local region_list = cm:model():world():region_manager():region_list();
+            
+            for i = 0, region_list:num_items() - 1 do
+                local current_region = region_list:item_at(i);
+                
+                if current_region:is_province_capital() then
+                    cm:apply_effect_bundle_to_region("nag_divinity_rite_bundle_region_undead_rises", current_region:name(), 10);
+                end;
+            end;
+        end,
+        true
+    )
+
     
     local function get_random_mortarch(faction)
         local morts = {}

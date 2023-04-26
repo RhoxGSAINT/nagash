@@ -10,3 +10,4 @@ nag_mortarch_dieter_technology	ui/skins/default/technology_positive.png	positive
 nag_azhag_recruit	ui/battle ui/ability_icons/wh2_dlc15_army_abilities_azhags_waaagh.png	positive	0
 nag_mortarch_confederation	ui/campaign ui/effect_bundles/confederation.png	negative	0
 nag_mortarch_war	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	negative	0
+rhox_nagash_final_tech_unlock	ui/skins/default/technology_positive.png	positive	0

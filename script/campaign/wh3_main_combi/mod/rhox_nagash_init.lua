@@ -531,6 +531,7 @@ cm:add_first_tick_callback(
                 cm:lock_technology(nagash_faction, "nag_mortarch_neferata_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_vlad_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock")
+                cm:lock_technology(nagash_faction, "nag_nagash_ultimate")
             else --if they're not human. They're getting free grand spells
                 cm:apply_effect_bundle("nag_grand_spell_01_20", nagash_faction,0)
                 cm:apply_effect_bundle("nag_grand_spell_02_20", nagash_faction,0)
@@ -562,7 +563,7 @@ cm:add_first_tick_callback(
         if cm:get_local_faction_name(true) == nagash_faction then
 			add_nagash_listener()
             rhox_nagash_add_black_pyramid_listener()
-            unlock_rites_listeners() --unlock rite with conditions, and rite complete script
+            rhox_nagash_rites_listeners() --unlock rite with conditions, and rite complete script
             rhox_nagash_add_teleport_listener() --add teleport network if quintex is controlled, and spawn Damon army when the player uses them.
             rhox_nagash_trigger_rites_listeners()
 

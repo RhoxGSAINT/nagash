@@ -534,3 +534,8 @@ nag_outpost_special_blackpyramid_3	wh_main_effect_construction_slot_multiple_dum
 nag_outpost_special_blackpyramid_3	wh_main_effect_economy_gdp_subsistance		building_to_building_own	400.0000	200.0000	0.0000
 nag_outpost_special_blackpyramid_3	wh_main_effect_province_growth_building		region_to_province_own	30.0000	15.0000	0.0000
 nag_outpost_special_blackpyramid_3	wh_main_effect_settlement_walls	WallEffect	region_to_region_own	1.0000	1.0000	1.0000
+nag_outpost_special_quintex_1	rhox_nagash_rift_dummy		this_building	1.0000	1.0000	1.0000
+nag_outpost_special_quintex_2	rhox_nagash_rift_dummy		this_building	1.0000	1.0000	1.0000
+nag_outpost_special_quintex_3	rhox_nagash_rift_dummy		this_building	1.0000	1.0000	1.0000
+nag_outpost_special_quintex_4	rhox_nagash_rift_dummy		this_building	1.0000	1.0000	1.0000
+nag_outpost_special_quintex_5	rhox_nagash_rift_dummy		this_building	1.0000	1.0000	1.0000

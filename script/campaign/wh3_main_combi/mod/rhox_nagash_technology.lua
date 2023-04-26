@@ -1,4 +1,4 @@
-local new_tech_list={
+local dieter_tech_list={
     ["nag_dieter_archai"] =true,
     ["nag_dieter_battle_1"] =true,
     ["nag_dieter_battle_2"] =true,
@@ -36,7 +36,7 @@ function rhox_nagash_remove_dieter_tech_listener()
                         local node = find_child_uicomponent_by_index(technology_parent, i)
                         local node_key = node:Id()
                         --out("Rhox Nagash: Node Id: "..node_key)
-                        if new_tech_list[node_key] then
+                        if dieter_tech_list[node_key] then
                             --out("Rhox Nagash: Setting this node invisible")
                             node:SetVisible(false)
                         end
@@ -47,7 +47,7 @@ function rhox_nagash_remove_dieter_tech_listener()
                         local arrow = find_child_uicomponent_by_index(arrow_parent, i)
                         local parent_node = arrow:GetContextObject("CcoTreeLink")
                         local parent_node_key = parent_node:Call("ParentContext.NodeKey")
-                        if new_tech_list[parent_node_key] then
+                        if dieter_tech_list[parent_node_key] then
                             arrow:SetVisible(false)
                         end
                         --out("Rhox Nagash: "..tostring(i).."th value: "..tostring(parent_node_key))

@@ -3,16 +3,6 @@ local nagash_faction = "mixer_nag_nagash"
 
 
 
-
-
-
-
-
-
-
-
-
-
 local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_faction, faction_type)
     -- spawns markers which will later spawn invasion armies
     -- self:logf("++++++tech invasions throw_enemies_at_settlement !")
@@ -26,8 +16,7 @@ local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_f
         local x,y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, setttlement_key, false, true, cm:random_number(24, 12))
         -- marker:spawn(tech_key..i, x, y)
         local region_key = setttlement_key
-        -- local invasion_faction = "wh2_dlc13_skv_skaven_invasion"
-        local invasion_key = region_key.."_invasion_"..x.."_"..y
+        local invasion_key = region_key.."_invasion_"..x.."_"..y.."_"..tech_key
 
         local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, faction_type, 19, 7, true, false)
 
@@ -41,6 +30,64 @@ local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_f
         invasion_object:start_invasion(true,true,false,false)
     end
 
+end
+local undead_subculture = {
+    wh2_dlc09_sc_tmb_tomb_kings =true,
+    wh2_dlc11_sc_cst_vampire_coast =true,
+    wh_main_sc_vmp_vampire_counts =true,
+    mixer_vmp_jade_vampires =true
+}
+
+
+local zombie_apocalypse_unit_list={
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie",
+    "nag_vanilla_vmp_inf_zombie"
+}
+
+local function rhox_nagash_trigger_end_game()
+    local all_factions = cm:model():world():faction_list();
+    local vassal_list ={}
+    for i = 0, all_factions:num_items()-1 do
+        local faction = all_factions:item_at(i);
+        if faction:is_human() == false and faction:is_dead() == false and undead_subculture[faction:subculture()] == true then
+            cm:force_make_vassal(nagash_faction, faction:name())
+            table.insert(vassal_list, faction:name());
+        end
+    end;
+    
+    local region_list = cm:model():world():region_manager():region_list();
+            
+    for i = 0, region_list:num_items() - 1 do
+        local current_region = region_list:item_at(i);
+        
+        if current_region:is_province_capital() then
+            cm:apply_effect_bundle_to_region("nag_divinity_rite_bundle_region_undead_rises", current_region:name(), 0);
+            if #vassal_list > 0 then --you're not getting zombies if there aren't any vassals
+                local target_vassal = vassal_list[cm:random_number(#vassal_list)]
+                local x,y = cm:find_valid_spawn_location_for_character_from_settlement(target_vassal, current_region:name(), false, true, cm:random_number(24, 12))
+                local unit_list = table.concat(zombie_apocalypse_unit_list, ",")
+                cm:create_force(target_vassal, unit_list, current_region:name(), x, y, true, function(cqi, force_cqi) cm:apply_effect_bundle_to_force("wh_main_bundle_military_upkeep_free_force_siege_attacker", force_cqi, 0) end)
+            end
+        end;
+    end;
+    
 end
 
 
@@ -107,15 +154,30 @@ function rhox_nagash_trigger_rites_listeners()
                 throw_enemies_at_settlement("wh3_main_combi_region_castle_drakenhof", "nag_location_drakenhof", "wh2_dlc16_emp_empire_invasion", "wh_main_sc_emp_empire")
             end
             if tech_key == "nag_location_quintex" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_ancient_city_of_quintex", "nag_location_quintex", "wh2_dlc13_nor_norsca_invasion", "wh_main_sc_nor_norsca")
+                throw_enemies_at_settlement("wh3_main_combi_region_ancient_city_of_quintex", "nag_location_quintex", "wh2_dlc13_nor_norsca_invasion", "wh_dlc08_sc_nor_norsca")
             end
-         
+            
+            if tech_key == "nag_nagash_ultimate_preprartion" then
+                local mm = mission_manager:new(nagash_faction, "rhox_nagash_final_step_mission")
+                mm:add_new_objective("DESTROY_FACTION")
+                mm:add_condition("faction wh2_dlc13_skv_skaven_invasion")
+                mm:add_condition("faction wh2_dlc13_grn_greenskins_invasion")
+                mm:add_condition("faction wh2_dlc13_bst_beastmen_invasion")
+                mm:add_condition("faction wh2_dlc16_grn_savage_invasion")
+                mm:add_condition("faction wh2_dlc16_emp_colonist_invasion")
+                mm:add_condition("faction wh2_dlc16_emp_empire_invasion")
+                mm:add_condition("faction wh2_dlc13_nor_norsca_invasion")
+                mm:add_payload("text_display rhox_nagash_final_tech_unlock")
+                mm:trigger()
+
+            end
+
         end,
         true
     )
     
     core:add_listener(
-		"rhox_azhag_battle_completed",
+		"rhox_nagash_battle_completed",
 		"CharacterCompletedBattle",
         function(context)
             return context:character():faction():name() == nagash_faction
@@ -225,5 +287,35 @@ function rhox_nagash_trigger_rites_listeners()
         end,
         true
     )    
+    
+    
+    core:add_listener(
+        "NagashFinalMissions",
+        "MissionSucceeded",
+        function(context)
+            local mission = context:mission()
+            return mission:mission_record_key()== "rhox_nagash_final_step_mission"
+        end,
+        function(context)
+            out("Rhox Nagash: You finished the final mission!")
+            cm:unlock_technology(nagash_faction, "nag_nagash_ultimate")
+            
+        end,
+        true
+    )
+    
 
+    core:add_listener(
+    --- When the end game tech is researched, do stuff.
+        "Nagash_the_final_tech",
+        "ResearchCompleted",
+        function(context)
+            return context:technology() == "nag_nagash_ultimate"
+        end,
+        function(context)
+            cm:trigger_incident(nagash_faction, "rhox_nagash_victory", true, false)
+            rhox_nagash_trigger_end_game()
+        end,
+        true
+    )
 end

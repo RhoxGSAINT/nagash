@@ -59,7 +59,7 @@ cm:add_first_tick_callback(
                 true
             )
             real_timer.unregister("rhox_nagash_settlement_real_time")
-            real_timer.register_repeating("rhox_nagash_settlement_real_time", 0.1)
+            real_timer.register_repeating("rhox_nagash_settlement_real_time", 5)
         end
     end
 );
