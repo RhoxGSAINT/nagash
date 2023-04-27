@@ -16,3 +16,5 @@ nag_nagash_name_dieter	Dieter, Mortarch of Doom	false
 nag_nagash_name_azhag	Azhag, , Mortarch of Destruction	false
 campaign_effect_scopes_localised_text_nagash_building_to_force_own_provincewide	\\n(provincewide)	false
 uied_component_texts_localised_string_rhox_nagash_place_of_death_tooltip	Places of Death||This area is extremly important to Nagash	false
+rhox_nagash_short_victory_text	Perform the ritual in the Black Pyramid and restore Nagash to its true self!	false
+rhox_nagash_long_victory_text	Perform the Great ritual by researching the technology [[img:icon_tech]][[/img]][[col:yellow]]The Final Step[[/col]]	false

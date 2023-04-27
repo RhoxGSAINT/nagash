@@ -314,6 +314,7 @@ function rhox_nagash_trigger_rites_listeners()
         end,
         function(context)
             cm:trigger_incident(nagash_faction, "rhox_nagash_victory", true, false)
+            cm:complete_scripted_mission_objective(nagash_faction, "wh_main_long_victory", "nagash_final_ritual_complete", true)
             rhox_nagash_trigger_end_game()
         end,
         true

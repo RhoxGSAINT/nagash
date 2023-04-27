@@ -15,3 +15,5 @@ campaign_payload_ui_details_description_nag_mortarch_dieter_technology	Unlocks t
 campaign_payload_ui_details_description_nag_mortarch_confederation	Leginos of Nagash has absorbed the faction	false
 campaign_payload_ui_details_description_nag_mortarch_war	Leginos of Nagash has declared war on the faction	false
 campaign_payload_ui_details_description_rhox_nagash_final_tech_unlock	Unlocks technology [[col:orange]]The Final Step[[/col]] which is required for your campaign victory	false
+campaign_payload_ui_details_description_dummy_rhox_nagash_boss_appear	Nagash will restore its true form	false
+campaign_payload_ui_details_description_dummy_rhox_nagash_end_of_world	The world as we know it will end	false

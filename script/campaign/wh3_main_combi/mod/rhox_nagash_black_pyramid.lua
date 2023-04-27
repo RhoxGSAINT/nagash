@@ -243,6 +243,8 @@ end
 
 function complete_bp_raise()
     cm:complete_scripted_mission_objective(nagash_faction, "nag_bp_survive", "nag_bp_survive", true)
+    cm:complete_scripted_mission_objective(nagash_faction, "wh_main_short_victory", "nagash_bp_complete", true)
+
     cm:remove_scripted_composite_scene("nag_bp_raise")
     
     cm:set_saved_value("nag_bp_ritual_completed", true)
@@ -432,7 +434,7 @@ function complete_bp_raise()
     
 
     --below create agent causes error at some point so be cautious
-    cm:create_agent(
+    local archai = cm:create_agent(
         faction_key,
         "spy",
         "nag_morghasts_archai",
@@ -443,7 +445,9 @@ function complete_bp_raise()
 
         end
     )
-    
+    if archai then
+        cm:replenish_action_points(cm:char_lookup_str(archai))
+    end
     
     cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
     cm:apply_dilemma_diplomatic_bonus(nagash_faction, "wh2_dlc09_tmb_khemri", -6)
