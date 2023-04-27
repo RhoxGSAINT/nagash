@@ -34,7 +34,7 @@ local function rhox_nagash_init_setting()
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     nagash_faction,
-    "nag_bone_golems,nag_nagashi_guard,nag_nagashi_guard,nag_vanilla_vmp_mon_fell_bats,nag_vanilla_vmp_mon_fell_bats,nag_vanilla_tmb_inf_skeleton_warriors_0,nag_vanilla_tmb_inf_skeleton_warriors_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_bone_thrower",
+    "nag_bone_golems,nag_nagashi_guard,nag_nagashi_guard,nag_vanilla_vmp_mon_fell_bats,nag_vanilla_vmp_mon_fell_bats,nag_skeleton_reaper,nag_vanilla_tmb_inf_skeleton_warriors_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_bone_thrower",
     "wh3_main_combi_region_nagashizzar",
     853,
     400,
@@ -56,6 +56,31 @@ local function rhox_nagash_init_setting()
 			0.5
 		)
     end);
+    
+    local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
+        nagash_faction,
+        853,
+        400,
+        true,
+        5
+    )
+
+    local wight = cm:create_agent(
+        nagash_faction,
+        "champion",
+        "nag_wight_king",
+        ax,
+        ay,
+        false,
+        function(cqi)
+
+        end
+    )
+    if wight then
+        cm:replenish_action_points(cm:char_lookup_str(wight))
+    end
+    
+    
     
     local mission_target_cqi =0
     
