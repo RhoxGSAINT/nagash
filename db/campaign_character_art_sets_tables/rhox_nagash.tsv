@@ -22,11 +22,31 @@ nag_tomb_prince_02	champion				false	true	nag_tomb_prince	1.0000
 nag_tomb_prince_03	champion				false	true	nag_tomb_prince	1.0000
 nag_tomb_prince_04	champion				false	true	nag_tomb_prince	1.0000
 nag_tomb_prince_05	champion				false	true	nag_tomb_prince	1.0000
-nag_liche_priest_01	wizard				false	true		1.0000
-nag_liche_priest_02	wizard				false	true		1.0000
-nag_liche_priest_03	wizard				false	true		1.0000
-nag_liche_priest_04	wizard				false	true		1.0000
-nag_liche_priest_05	wizard				false	true		1.0000
+nag_liche_priest_01_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
+nag_liche_priest_01_death	wizard				false	true	nag_liche_priest_death	1.0000
+nag_liche_priest_01_light	wizard				false	true	nag_liche_priest_light	1.0000
+nag_liche_priest_01_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
+nag_liche_priest_01_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
+nag_liche_priest_02_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
+nag_liche_priest_02_death	wizard				false	true	nag_liche_priest_death	1.0000
+nag_liche_priest_02_light	wizard				false	true	nag_liche_priest_light	1.0000
+nag_liche_priest_02_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
+nag_liche_priest_02_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
+nag_liche_priest_03_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
+nag_liche_priest_03_death	wizard				false	true	nag_liche_priest_death	1.0000
+nag_liche_priest_03_light	wizard				false	true	nag_liche_priest_light	1.0000
+nag_liche_priest_03_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
+nag_liche_priest_03_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
+nag_liche_priest_04_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
+nag_liche_priest_04_death	wizard				false	true	nag_liche_priest_death	1.0000
+nag_liche_priest_04_light	wizard				false	true	nag_liche_priest_light	1.0000
+nag_liche_priest_04_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
+nag_liche_priest_04_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
+nag_liche_priest_05_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
+nag_liche_priest_05_death	wizard				false	true	nag_liche_priest_death	1.0000
+nag_liche_priest_05_light	wizard				false	true	nag_liche_priest_light	1.0000
+nag_liche_priest_05_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
+nag_liche_priest_05_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
 nag_vampire_01	dignitary				false	false	nag_vampire	1.0000
 nag_vampire_02	dignitary				false	false	nag_vampire	1.0000
 nag_vampire_03	dignitary				false	false	nag_vampire	1.0000
