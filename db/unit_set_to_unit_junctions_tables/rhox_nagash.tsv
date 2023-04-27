@@ -406,3 +406,19 @@ hero				nag_characters	false
 			nag_undead_chariot_unit	wh2_dlc09_tmb_chariots	false
 			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	nag_arkhan_tomb_chariots	false
 			nag_vanilla_tmb_veh_skeleton_chariot_0	nag_arkhan_tomb_chariots	false
+			nag_cha_liche_priest_death_0	vmp_agents	false
+			nag_cha_liche_priest_death_1	vmp_agents	false
+			nag_cha_liche_priest_light_0	vmp_agents	false
+			nag_cha_liche_priest_light_1	vmp_agents	false
+			nag_cha_liche_priest_nehekhara_0	vmp_agents	false
+			nag_cha_liche_priest_nehekhara_1	vmp_agents	false
+			nag_cha_liche_priest_shadow_0	vmp_agents	false
+			nag_cha_liche_priest_shadow_1	vmp_agents	false
+			nag_cha_tomb_prince_0	vmp_agents	false
+			nag_cha_tomb_prince_1	vmp_agents	false
+			nag_cha_tomb_prince_2	vmp_agents	false
+			nag_morghasts_archai	vmp_agents	false
+			nag_cha_liche_priest_undeath_0	vmp_agents	false
+			nag_cha_liche_priest_undeath_1	vmp_agents	false
+			wh2_dlc11_cst_cha_gunnery_wight_0	vmp_agents	false
+			wh2_dlc11_cst_cha_gunnery_wight_1	vmp_agents	false
