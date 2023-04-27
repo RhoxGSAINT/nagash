@@ -1,0 +1,6 @@
+building_level	diplomatic_stance
+#foreign_building_level_diplomatic_stance_requirements_tables;0;db/foreign_building_level_diplomatic_stance_requirements_tables/rhox_nagash	
+nag_allied_outpost_2	master
+nag_allied_outpost_2	military_allies
+nag_allied_outpost_3	master
+nag_allied_outpost_3	military_allies

@@ -54,3 +54,4 @@ nag_resource_pastures						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0
 nag_resource_spices						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
 nag_resource_ivory						cai_support_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	10	10
 		nag_outpost_special_blackpyramid_1	nag_outpost_special_blackpyramid_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+nag_allied_outpost						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	20	125

@@ -63,3 +63,4 @@ nag_resource_pastures			money	false	wh_main_sch_human_resource_pastures		10		tru
 nag_resource_spices			money	false	wh2_main_sch_resource_spices		10		true
 nag_resource_ivory			money	false	wh3_main_sch_human_resource_ivory		10		true
 nag_outpost_special_blackpyramid			money	false	wh_main_sch_main_settlement		0		true
+nag_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false
