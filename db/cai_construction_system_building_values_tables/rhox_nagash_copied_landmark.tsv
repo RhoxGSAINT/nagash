@@ -1,0 +1,16 @@
+building_chain	building_instance	building_or_building_range_start_inclusive	building_range_end_inclusive	building_super_chain	cai_construction_system_category	cai_construction_system_category_group	campaign	culture	faction	sub_culture	per_faction_building_limit_start	per_faction_building_limit_end	per_faction_building_minimum_discount_when_exceeding_limit_start	per_faction_building_maximum_discount_when_exceeding_limit_start	per_faction_building_minimum_discount_when_exceeding_limit_end	per_faction_building_maximum_discount_when_exceeding_limit_end	per_faction_per_building_discount_increment_when_exceeding_limit_start	per_faction_per_building_discount_increment_when_exceeding_limit_end	per_province_building_limit_start	per_province_building_limit_end	per_province_building_minimum_discount_when_exceeding_limit_start	per_province_building_maximum_discount_when_exceeding_limit_start	per_province_building_minimum_discount_when_exceeding_limit_end	per_province_building_maximum_discount_when_exceeding_limit_end	per_province_per_building_discount_increment_when_exceeding_limit_start	per_province_per_building_discount_increment_when_exceeding_limit_end	score_end_inclusive	score_or_score_start_inclusive
+#cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/rhox_nagash_copied_landmark																												
+rhox_nagash_special_black_tower_of_arkhan						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_pyramid_alcadizaar						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_pyramid_amenemhetum						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_pyramid_khatep						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_pyramid_phar						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_pyramid_settra						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_pyramid_tutankhanut						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_college_of_magic_vampires						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_blood_keep						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_castle_drachenfels						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_mousillon_merovech						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_ghrond_convent_of_sorcery_vmp						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_ogham_stones						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
+rhox_nagash_special_standing_stones_others						cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	400	2500
