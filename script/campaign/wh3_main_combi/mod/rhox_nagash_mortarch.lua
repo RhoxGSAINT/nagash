@@ -282,11 +282,21 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     if cm:get_faction(nagash_faction):is_human() ==false and (faction:is_human() or cm:model():random_percent(100-mort_key_to_success_chance[mort_key])) then
         cm:force_declare_war(nagash_faction, faction_key, true, true) --declare war if mortarch was a player
         cm:set_saved_value("failed_to_get" .. mort_key, true)
+        
+        local incident_key = "rhox_nagash_declare_war" --basic one for Vampire Coast
+        if faction:culture() == "wh2_dlc09_tmb_tomb_kings" then
+            incident_key = "rhox_nagash_declare_war_tk"
+        elseif faction:culture() == "wh2_dlc11_cst_vampire_coast" then
+            incident_key = "rhox_nagash_declare_war_coast"
+        elseif faction:culture() == "mixer_vmp_jade_vampires" then
+            incident_key = "rhox_nagash_declare_war_jv"
+        end
+        
         local human_factions = cm:get_human_factions()
         for i = 1, #human_factions do
             cm:trigger_incident_with_targets(
                 cm:get_faction(human_factions[i]):command_queue_index(),
-                "rhox_nagash_declare_war",
+                incident_key,
                 faction:command_queue_index(),
                 0,
                 0,
@@ -432,9 +442,18 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     else
         local human_factions = cm:get_human_factions()
         for i = 1, #human_factions do
+        
+            local incident_key = "rhox_nagash_mortarch_notify" --basic one for Vampire Coast
+            if faction:culture() == "wh2_dlc09_tmb_tomb_kings" then
+                incident_key = "rhox_nagash_mortarch_notify_tk"
+            elseif faction:culture() == "wh2_dlc11_cst_vampire_coast" then
+                incident_key = "rhox_nagash_mortarch_notify_coast"
+            elseif faction:culture() == "mixer_vmp_jade_vampires" then
+                incident_key = "rhox_nagash_mortarch_notify_jv"
+            end
             cm:trigger_incident_with_targets(
                 cm:get_faction(human_factions[i]):command_queue_index(),
-                "rhox_nagash_mortarch_notify",
+                incident_key,
                 faction:command_queue_index(),
                 0,
                 0,
@@ -443,6 +462,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
                 0
             )
         end
+        
         cm:force_confederation(nagash_faction, faction_key) --make nagash siphon the mortarch if it's AI
         cm:suppress_immortality(character_to_kill:family_member():command_queue_index(), true)
         cm:kill_character(cm:char_lookup_str(character_to_kill), true)

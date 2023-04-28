@@ -13,3 +13,4 @@ id	culture	faction	remove	set	subculture
 7804202210		wh2_dlc09_tmb_khemri	true	rhox_nagash_undead_faction	
 7804202211		wh2_dlc09_tmb_lybaras	true	rhox_nagash_undead_faction	
 7804202212		mixer_nag_nagash	false	rhox_nagash_faction_set	
+7804202213			false	rhox_nagash_undead_faction	wh_main_sc_vmp_jade_vampires

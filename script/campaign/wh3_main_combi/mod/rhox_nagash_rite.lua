@@ -200,6 +200,54 @@ function rhox_nagash_rites_listeners()
     )
     
     core:add_listener(
+		"rhox_nagash_forced_vassal_ritual",
+		"RitualCompletedEvent",
+		function(context)
+            local performing_faction = context:performing_faction()
+			return context:ritual():ritual_category() == "FORCE_VASSAL_NAGASH" and performing_faction:name() == "mixer_nag_nagash"
+		end,
+		function(context)
+			local performing_faction = context:performing_faction()
+			local target_faction = context:ritual_target_faction()
+
+			cm:force_diplomacy("faction:"..performing_faction:name(), "faction:"..target_faction:name(), "vassal", true, true, false)
+
+			cm:force_make_vassal(performing_faction:name(), target_faction:name(), true)
+			
+			local incident_key = "rhox_nagash_force_vassalised" --basic one for Vampire Coast
+            if target_faction:culture() == "wh2_dlc09_tmb_tomb_kings" then
+                incident_key = "rhox_nagash_force_vassalised_tk"
+            elseif target_faction:culture() == "wh2_dlc11_cst_vampire_coast" then
+                incident_key = "rhox_nagash_force_vassalised_coast"
+            elseif target_faction:culture() == "mixer_vmp_jade_vampires" then
+                incident_key = "rhox_nagash_force_vassalised_jv"
+            end
+			
+			
+
+
+			
+            local human_factions = cm:get_human_factions()
+			for i = 1, #human_factions do
+				local incident_faction = cm:get_faction(human_factions[i])
+				cm:trigger_incident_with_targets(
+					incident_faction:command_queue_index(), 
+					incident_key, 
+					target_faction:command_queue_index(),
+					0,
+					0,
+					0,
+					0,
+					0
+				)
+			end
+
+		end,
+		true
+	)
+
+    
+    core:add_listener(
         "nag_divinity_listener",
         "RitualCompletedEvent",
         function(context)

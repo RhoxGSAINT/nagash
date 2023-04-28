@@ -35,7 +35,8 @@ local undead_subculture = {
     wh2_dlc09_sc_tmb_tomb_kings =true,
     wh2_dlc11_sc_cst_vampire_coast =true,
     wh_main_sc_vmp_vampire_counts =true,
-    mixer_vmp_jade_vampires =true
+    mixer_vmp_jade_vampires =true,
+    wh_main_sc_vmp_jade_vampires = true --poljanan's one
 }
 
 

@@ -84,7 +84,11 @@ local function rhox_nagash_harkon_personality_trait_replace(character)
 	cm:callback(function() cm:disable_event_feed_events(false, "", "wh_event_subcategory_character_traits", "") end, 0.2)
 	
 	if faction:is_human() then
-		cm:trigger_incident_with_targets(faction:command_queue_index(), "wh2_dlc11_cst_harkon_mind_change_" .. harkon_personality.new, 0, 0, character:command_queue_index(), 0, 0, 0)
+        if harkon_personality.new == "restored" then
+            cm:trigger_incident_with_targets(faction:command_queue_index(), "rhox_nagash_harkon_restoed_incident", 0, 0, character:command_queue_index(), 0, 0, 0)
+        else
+            cm:trigger_incident_with_targets(faction:command_queue_index(), "wh2_dlc11_cst_harkon_mind_change_" .. harkon_personality.new, 0, 0, character:command_queue_index(), 0, 0, 0)
+        end
 	end
 	
 	harkon_personality.current = harkon_personality.new
