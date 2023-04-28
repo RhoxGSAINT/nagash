@@ -1,7 +1,18 @@
 key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event	sepia_fade
 #incidents_tables;6;db/incidents_tables/rhox_nagash								
-rhox_nagash_uber_husk	false	tmb/unique_black_pyramid_floating	false	Quest		true		0.0000
-rhox_nagash_azhag_mortarch	false	tmb/unique_black_pyramid_floating	false	Quest		true		0.0000
-rhox_nagash_mortarch_notify	false	tmb/unique_black_pyramid_floating	false	Quest		false		0.0000
-rhox_nagash_declare_war	false	tmb/unique_black_pyramid_floating	false	Quest		false		0.0000
-rhox_nagash_victory	false	mixer_nag_nagash/victory	false	Quest		true		0.0000
+rhox_nagash_uber_husk	false	mixer_nag_nagash/Nagash_Decides_to_Not_Raise_the_Black_Pyramid	false	Quest		true		0.0000
+rhox_nagash_azhag_mortarch	false	mixer_nag_nagash/nagash_dominates_azhag	false	Quest		true		0.0000
+rhox_nagash_mortarch_notify	false	mixer_nag_nagash/Nagash_Absorbs_Undead	false	Quest		false		0.0000
+rhox_nagash_declare_war	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000
+rhox_nagash_victory	false	mixer_nag_nagash/Nagash_Destroys_the_World	false	Quest		true		0.0000
+rhox_nagash_force_vassalised	false	mixer_nag_nagash/Nagash_Absorbs_Undead	false	Event		false		0.0000
+rhox_nagash_harkon_restoed_incident	false	mixer_nag_nagash/Luthor_Harkon_Restores_His_Mind	false	Quest		false		0.0000
+rhox_nagash_force_vassalised_coast	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Vampire_Coast	false	Event		false		0.0000
+rhox_nagash_force_vassalised_tk	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Tomb_Kings	false	Event		false		0.0000
+rhox_nagash_force_vassalised_jv	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Jade_Vampires	false	Event		false		0.0000
+rhox_nagash_mortarch_notify_coast	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Vampire_Coast	false	Quest		false		0.0000
+rhox_nagash_mortarch_notify_tk	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Tomb_Kings	false	Quest		false		0.0000
+rhox_nagash_mortarch_notify_jv	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Jade_Vampires	false	Quest		false		0.0000
+rhox_nagash_declare_war_coast	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000
+rhox_nagash_declare_war_tk	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000
+rhox_nagash_declare_war_jv	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000

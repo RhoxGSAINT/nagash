@@ -422,3 +422,6 @@ hero				nag_characters	false
 			nag_cha_liche_priest_undeath_1	vmp_agents	false
 			wh2_dlc11_cst_cha_gunnery_wight_0	vmp_agents	false
 			wh2_dlc11_cst_cha_gunnery_wight_1	vmp_agents	false
+			mixu_vmp_cha_dieter_helsnicht	nag_mortarch_unit_set	false
+			mixu_vmp_cha_dieter_helsnicht_barded_nightmare	nag_mortarch_unit_set	false
+			mixu_vmp_cha_dieter_helsnicht_manticore	nag_mortarch_unit_set	false
