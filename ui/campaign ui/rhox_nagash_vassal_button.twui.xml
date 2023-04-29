@@ -53,7 +53,7 @@
 					name="ui/skins/mixer_nag_nagash/undeath_domination_icon.png"
 					uniqueguid="EED6CC4B-7270-3243-0FE94488915A4E54"/>
 				<component_image_uniqueguid
-					name=""
+					name="ui/skins/mixer_nag_nagash/button_blank.png"
 					uniqueguid="EAEBD437-A23C-F73D-66F78FDEFD52030E"/>
 				<component_image_uniqueguid
 					name=""
@@ -140,7 +140,7 @@
 			</localised_texts>
 			<override_images>
 				<element value="ui/skins/mixer_nag_nagash/undeath_domination_icon.png"/>
-				<element value=""/>
+				<element value="ui/skins/mixer_nag_nagash/button_blank.png"/>
 				<element value=""/>
 				<element value=""/>
 				<element value=""/>

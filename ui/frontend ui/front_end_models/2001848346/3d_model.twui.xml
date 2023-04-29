@@ -92,12 +92,12 @@
 				num_models="1">
                 <model_list>
                     <ComponentModel
-                        filepath="variantmeshes/variantmeshdefinitions/nag_neferata.variantmeshdefinition"
+                        filepath="VariantMeshes/VariantMeshDefinitions/nag_neferata.VariantMeshDefinition"
                         id="model_0"
                         num_anims="1"
                         skeleton_type="humanoid01b">
                         <animation_paths>
-                            <path value="animations/battle/humanoid01b/staff_and_sword/stand/hu1b_sfsw_stand_pose_01.anim"/>
+                            <path value="animations\battle\humanoid01b\staff_and_sword\campaign\cam_hu1b_sws_stand_idle_03.anim"/>
                         </animation_paths>
                     </ComponentModel>
                 </model_list>

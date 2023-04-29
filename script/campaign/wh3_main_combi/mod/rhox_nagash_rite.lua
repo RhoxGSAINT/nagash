@@ -178,6 +178,14 @@ function rhox_nagash_rites_listeners()
                 script_error("Rhox Nagash: ".. "ERROR: could not create cooking ui component? How can this be?");
                 return false;
             end;
+            local button = find_uicomponent(result, "button_force_vassal")
+            if button then 
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",1)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",2)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",3)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",4)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",5)
+            end
             --result:SetVisible(true)
         end,
         true
@@ -194,6 +202,14 @@ function rhox_nagash_rites_listeners()
                 script_error("Rhox Nagash: ".. "ERROR: could not create cooking ui component? How can this be?");
                 return false;
             end;
+            local button = find_uicomponent(result, "button_force_vassal")
+            if button then 
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",1)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",2)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",3)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",4)
+                button:SetImagePath("ui/skins/mixer_nag_nagash/button_blank.png",5)
+            end
             --result:SetVisible(true)
         end,
         true

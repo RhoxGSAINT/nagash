@@ -425,3 +425,5 @@ hero				nag_characters	false
 			mixu_vmp_cha_dieter_helsnicht	nag_mortarch_unit_set	false
 			mixu_vmp_cha_dieter_helsnicht_barded_nightmare	nag_mortarch_unit_set	false
 			mixu_vmp_cha_dieter_helsnicht_manticore	nag_mortarch_unit_set	false
+			wh_main_vmp_inf_crypt_ghouls	nag_crypt_ghouls	false
+			wh2_dlc09_tmb_inf_crypt_ghouls	nag_crypt_ghouls	false

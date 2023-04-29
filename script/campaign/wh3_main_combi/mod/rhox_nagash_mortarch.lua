@@ -88,7 +88,8 @@ local mort_key_to_faction_key ={
     ["nag_mortarch_mannfred"]="wh_main_vmp_vampire_counts",
     ["nag_mortarch_luthor"]="wh2_dlc11_cst_vampire_coast",
     ["nag_mortarch_dieter"]="mixer_vmp_helsnicht",
-    ["nag_mortarch_azhag"]="wh2_dlc15_grn_bonerattlaz"
+    ["nag_mortarch_azhag"]="wh2_dlc15_grn_bonerattlaz",
+    ["nag_mortarch_neferata"]="wh3_main_vmp_lahmian_sisterhood"
 }
 
 

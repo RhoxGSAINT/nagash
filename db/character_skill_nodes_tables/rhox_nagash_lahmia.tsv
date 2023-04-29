@@ -1,6 +1,6 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/rhox_nagash_lahmia										
-nag_lahmia_skill_mortarch_innate_neferata		nag_skill_mortarch_innate_neferata	nag_skill_node_set_lahmia_neferata		6.0000	0.0000		1	0	false
+nag_lahmia_skill_mortarch_innate_neferata		nag_skill_lahmia_innate_neferata	nag_skill_node_set_lahmia_neferata		6.0000	0.0000		1	0	false
 nag_lahmia_skill_mortarch_neferata_unique_01		nag_skill_unique_neferatal_dagger_of_jet	nag_skill_node_set_lahmia_neferata		0.0000	1.0000		0	0	true
 nag_lahmia_skill_mortarch_neferata_unique_02		nag_skill_unique_neferatal_staff_of_pain	nag_skill_node_set_lahmia_neferata		0.0000	2.0000		0	0	true
 nag_lahmia_skill_mortarch_neferata_unique_03		nag_skill_mount_neferata_warhorse	nag_skill_node_set_lahmia_neferata		0.0000	3.0000		0	0	true
