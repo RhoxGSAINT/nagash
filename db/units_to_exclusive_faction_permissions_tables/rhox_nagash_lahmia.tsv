@@ -1,0 +1,4 @@
+key	faction	allowed
+#units_to_exclusive_faction_permissions_tables;0;db/units_to_exclusive_faction_permissions_tables/rhox_nagash_lahmia		
+nag_mortarch_neferata	wh3_main_vmp_lahmian_sisterhood	true
+nag_mortarch_neferata_warhorse	wh3_main_vmp_lahmian_sisterhood	true

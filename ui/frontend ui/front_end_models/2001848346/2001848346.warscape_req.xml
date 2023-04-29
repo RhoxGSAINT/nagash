@@ -2,5 +2,5 @@
 <warscape_requirements
 	version="1">
 	<model
-		filepath="variantmeshes/variantmeshdefinitions/nag_neferata.variantmeshdefinition"/>
+		filepath="VariantMeshes/VariantMeshDefinitions/nag_neferata.VariantMeshDefinition"/>
 </warscape_requirements>
