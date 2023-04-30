@@ -235,7 +235,7 @@ function rhox_nagash_rites_listeners()
                 incident_key = "rhox_nagash_force_vassalised_tk"
             elseif target_faction:culture() == "wh2_dlc11_cst_vampire_coast" then
                 incident_key = "rhox_nagash_force_vassalised_coast"
-            elseif target_faction:culture() == "mixer_vmp_jade_vampires" then
+            elseif target_faction:culture() == "mixer_vmp_jade_vampires" or target_faction:name() == "wh3_dlc21_vmp_jiangshi_rebels" then
                 incident_key = "rhox_nagash_force_vassalised_jv"
             end
 			

@@ -1,5 +1,5 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
-#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_azhag					
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_nagash_azhag					
 			vigpro_nagash_skeleton_orcs	nag_undead_green	false
 			vigpro_nagash_skeleton_goblin_melee	nag_undead_green	false
 			vigpro_nagash_skeleton_giant	nag_undead_green	false
