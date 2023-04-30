@@ -396,3 +396,4 @@ effects_description_rhox_nagash_rift_dummy	Creats a rift that connects all the i
 effects_description_rhox_nagash_brain_searching_dummy	Raiding stance is upgraded to "Searching for brain" which also has the benefit of Winds of Magic increase	false
 effects_description_nag_effect_force_stat_melee_attack_vs_daemons	Melee attack: %+n when fighting against Daemons of Chaos	false
 effects_description_nag_effect_force_stat_ward_save_vs_daemons	Ward save: %n% when fighting against Daemons of Chaos	false
+effects_description_rhox_nagash_effect_campaign_enable_attrition	Enables [[img:icon_attrition]][[/img]]attrition	false
