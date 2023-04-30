@@ -49,14 +49,11 @@ end
 
 cm:add_first_tick_callback(
 	function()
-        --[[
-        if not vfs.exists("script/frontend/mod/lah1_start.lua")then --use this function if you don't want to run a code if the player is using Dust's mod
+        if not vfs.exists("script/frontend/mod/lah1_start.lua")then --don't do this if Dust's one is already
+            pcall(function()
+                mixer_set_faction_trait(lahmia_faction, "rhox_lahmia_neferata_lord_trait", true)
+            end)
         end
-        --]]
-        pcall(function()
-            mixer_set_faction_trait(lahmia_faction, "rhox_lahmia_neferata_lord_trait", true)
-        end)
-        
 
 		if cm:is_new_game() then
             rhox_nagash_lahmia_init_setting()
