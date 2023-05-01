@@ -13,7 +13,7 @@ nag_nagash_name_krell	Krell, Mortarch of Despair	false
 nag_nagash_name_isabella	Isabella von Carstein	false
 campaign_effect_scopes_localised_text_rhox_nagash_building_to_region		false
 nag_nagash_name_dieter	Dieter, Mortarch of Doom	false
-nag_nagash_name_azhag	Azhag, Mortarch of Destruction	false
+nag_nagash_name_azhag	Azhag, "Mortarch" of Destruction	false
 campaign_effect_scopes_localised_text_nagash_building_to_force_own_provincewide	\\n(provincewide)	false
 uied_component_texts_localised_string_rhox_nagash_place_of_death_tooltip	Places of Death||These sites of power are of outmost importance to complete the Great Ritual.	false
 rhox_nagash_short_victory_text	Perform the ritual in the Black Pyramid and restore Nagash to his true self!	false
