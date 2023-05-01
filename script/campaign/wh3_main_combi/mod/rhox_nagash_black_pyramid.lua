@@ -387,6 +387,8 @@ function complete_bp_raise()
     mm_1:add_payload("money 1000");
     mm_1:trigger()
 
+    
+    --[[
     -- kill the Sentinels completely
     local sentinels = cm:get_faction(sentinels_key)
     do
@@ -398,6 +400,7 @@ function complete_bp_raise()
             cm:kill_character_and_commanded_unit("character_cqi:"..cqi, true, false)
         end
     end
+    --]]
     -- ruin the BP and set it as untargetable 
     --cm:set_region_abandoned(bp_key)
     --cm:cai_disable_targeting_against_settlement("settlement:"..bp_key)
