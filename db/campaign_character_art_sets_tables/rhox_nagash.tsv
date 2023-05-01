@@ -63,3 +63,15 @@ nag_morghasts_archai	spy				false	true	nag_morghasts_archai	1.0000
 nag_mixu_art_set_vmp_dieter_helsnicht	general				false	true	nag_mortarch_dieter	1.0000
 nag_mortarch_azhag	general				false	true	nag_mortarch_azhag	1.0000
 nag_lahmia_neferata	general				false	true	nag_lahmia_neferata	1.0000
+nag_vampire_lord_01	general				false	true	nag_vampire_lord	1.0000
+nag_vampire_lord_02	general				false	true	nag_vampire_lord	1.0000
+nag_vampire_lord_03	general				false	true	nag_vampire_lord	1.0000
+nag_vampire_lord_04	general				false	true	nag_vampire_lord	1.0000
+nag_vampire_lord_05	general				false	true	nag_vampire_lord	1.0000
+nag_master_necromancer_01	general				false	true	nag_master_necromancer	1.0000
+nag_master_necromancer_02	general				false	true	nag_master_necromancer	1.0000
+nag_master_necromancer_03	general				false	true	nag_master_necromancer	1.0000
+nag_master_necromancer_04	general				false	true	nag_master_necromancer	1.0000
+nag_tomb_banshee_01	runesmith				false	false	nag_tomb_banshee	1.0000
+nag_tomb_banshee_02	runesmith				false	false	nag_tomb_banshee	1.0000
+nag_tomb_banshee_03	runesmith				false	false	nag_tomb_banshee	1.0000

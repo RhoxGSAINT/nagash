@@ -193,21 +193,14 @@ nag_skill_personal_neferata_dancer	nag_dance_of_despair.png		Dance with the Devi
 nag_skill_tomb_king_elixir_of_immortality_lord	wh2_dlc09_elixir.png		Elixir of Immortality	0	false	false	false	0.0000	0
 nag_skill_hidden_king_title	character_general_ability.png		King Title [HIDDEN]	0	false	false	false	0.0000	0
 nag_skill_hidden_prince_title	character_general_ability.png		Prince Title [HIDDEN]	0	false	false	false	0.0000	0
-nag_skill_azhag_anc_armour_azhags_ard_armour	item_armour.png			0	false	false	false	0.0000	0
-nag_skill_azhag_anc_enchanted_item_the_crown_of_sorcery	item_enchanted_item.png			0	false	false	false	0.0000	0
-nag_skill_azhag_anc_weapon_slaggas_slashas	item_weapon.png			0	false	false	false	0.0000	0
 rhox_nagash_grn_dump	character_military_spending.png			11	false	false	false	0.0000	0
-nag_skill_army_buff_ranged_azhag	battle_ammo.png		Ranged Buff	0	false	false	false	0.0000	0
-nag_skill_army_buff_infantry_azhag	battle_armour.png		Infantry Buff	0	false	false	false	0.0000	0
-nag_skill_army_buff_beasts_azhag	battle_charge.png		War Beasts & Monstrous Inf Buff	0	false	false	false	0.0000	0
-nag_skill_army_buff_construct_azhag	battle_charge.png		Monsters & Constructs Buff	0	false	false	false	0.0000	0
-nag_skill_army_buff_vet_nagash_azhag	battle_nagashizzar.png		Nagashizzar Buff	0	false	false	false	0.0000	0
-nag_skill_grn_azhag_unique_0	character_military_spending.png	Held aloft and kept there by the rampant lunacy of their leader, Azhag's forces are all the stronger for his insane presence.	Imbued by Madness	11	false	false	false	0.0000	0
-nag_skill_grn_azhag_unique_1	character_morale.png	"Stoopid gits, I sed NOWWWWW!!!!!!!"	Earthshaking Orders	0	false	false	false	0.0000	0
-nag_skill_grn_azhag_unique_2	character_experience.png	Azhag's mysterious crown whispers fell plans and dastardly schemes; sometimes he understands them and passes the general gist to the Shamans in his army.	Insane Visions	0	false	false	false	0.0000	0
-nag_skill_grn_azhag_unique_3	character_subterranean.png	There are some who whisper that the Slaughterer's wild schemes are not sufficiently Orcy. Needless to say, the crown normally lets him know so he can weed out the dissenters.	Not Orcy Enuff!	0	false	false	false	0.0000	0
-nag_skill_grn_azhag_unique_4	character_charge.png	Enchanted armour and weapons, and the influence of the crown, allows Azhag to 'let go' somewhat on the battlefield!	Wild Abandon	0	false	false	false	0.0000	0
-nag_skill_grn_azhag_unique_5	wh_main_unit_passive_regeneration.png	When the crown takes control Azhag falls into a trance, his eyes cloud over and he mutters and even argues with himself…	Darkest Nimbus	0	false	false	false	0.0000	0
-nag_skill_grn_azhag_tyrant	green_tyrant.png	He's big, he's green and he has the whisperings of a tyrannical lord of the undead in his ear.	Green Tyrant	0	false	false	false	0.0000	0
-nag_skill_vmp_isabella_unique_court_of_blood	campaign_agent.png	Even in Undeath, every queen needs loyal retainers and handmaidens.	Court of Blood	0	false	false	false	0.0000	0
 nag_skill_lahmia_innate_neferata	first_of_vampires.png		Mortarch of Blood	0	true	false	false	5.0000	0
+nag_skill_vmp_isabella_unique_court_of_blood	campaign_agent.png		Court of Blood	0	false	false	false	0.0000	0
+nag_lord_unique_vampire_lord_barded_nightmare	mount_barded_nightmare.png		Barded Nightmare	0	false	false	false	0.0000	0
+nag_lord_unique_vampire_lord_hellsteed	mount_hellsteed.png		Hellsteed	0	false	false	false	0.0000	0
+nag_lord_unique_vampire_lord_zombie_dragon	mount_zombie_dragon.png		Zombie Dragon	0	false	false	false	0.0000	0
+nag_lord_unique_master_necromancer_corpse_cart	mount_corpse_cart.png		Corpse Cart	0	false	false	false	0.0000	0
+nag_lord_unique_master_necromancer_corpse_cart_balefire	mount_corpse_cart_with_balefire.png		Corpse Cart (Balefire)	0	false	false	false	0.0000	0
+nag_lord_unique_master_necromancer_corpse_cart_unholy_lodestone	mount_corpse_cart_with_lodestone.png		Corpse Cart (Unholy Lodestone)	0	false	false	false	0.0000	0
+nag_lord_unique_vmp_master_necromancer_barded_nightmare	mount_barded_nightmare.png		Barded Nightmare	0	false	false	false	0.0000	0
+nag_lord_unique_vmp_master_necromancer_hellsteed	mount_hellsteed.png		Hellsteed	0	false	false	false	0.0000	0

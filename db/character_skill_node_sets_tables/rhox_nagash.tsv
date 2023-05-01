@@ -24,3 +24,6 @@ nag_skill_node_set_morghast_archai	spy	false	false				nag_morghasts_archai
 nag_skill_node_set_mortarch_dieter	general	false	false				nag_mortarch_dieter
 nag_skill_node_set_mortarch_azhag	general	false	false				nag_mortarch_azhag
 nag_skill_node_set_lahmia_neferata	general	false	false				nag_lahmia_neferata
+nag_skill_node_set_vampire_lord	general	false	false				nag_vampire_lord
+nag_skill_node_set_master_necromancer	general	false	false				nag_master_necromancer
+nag_skill_node_set_tomb_banshee	runesmith	false	false				nag_tomb_banshee

@@ -39,12 +39,14 @@ nag_effect_agent_enable_recruitment_special_wizard_tmb	wizard.png	3	wizard.png	c
 nag_effect_agent_enable_recruitment_dignitary_vmp	vampire.png	3	vampire.png	campaign	true
 nag_effect_agent_enable_recruitment_champion_vmp	wight_king.png	3	wight_king.png	campaign	true
 nag_effect_agent_enable_recruitment_engineer_cst	gunnery_wight.png	3	gunnery_wight.png	campaign	true
+nag_effect_agent_enable_recruitment_runesmith_vmp	banshee.png	4	banshee.png	campaign	true
 nag_effect_agent_enable_recruitment_archai	saurus_scar_veteran.png	3	saurus_scar_veteran.png	campaign	true
 nag_effect_agent_cap_increase_liche_priest	wizard.png	4	wizard.png	campaign	true
 nag_effect_agent_cap_increase_gunnery_wight	gunnery_wight.png	4	gunnery_wight.png	campaign	true
 nag_effect_agent_cap_increase_vampire	vampire.png	4	vampire.png	campaign	true
 nag_effect_agent_cap_increase_prince_wight	tomb_prince.png	4	tomb_prince.png	campaign	true
 nag_effect_agent_cap_increase_archai	saurus_scar_veteran.png	4	saurus_scar_veteran.png	campaign	true
+nag_effect_agent_cap_increase_tomb_banshee	banshee.png	4	banshee.png	campaign	true
 nag_ability_enable_batocalypse	general_ability.png	101	general_ability.png	battle	true
 nag_ability_enable_endless_tomb	general_ability.png	101	general_ability.png	battle	true
 nag_ability_enable_endless_tomb_hidden		0		battle	true
@@ -90,6 +92,8 @@ nag_effect_agent_recruitment_xp_engineer_gunnery_wight	gunnery_wight.png	3	gunne
 nag_effect_agent_recruitment_xp_engineer_gunnery_wight_hidden		0		campaign	false
 nag_effect_agent_recruitment_xp_dignitary_vampires	vampire.png	3	vampire.png	campaign	true
 nag_effect_agent_recruitment_xp_dignitary_vampires_hidden		0		campaign	false
+nag_effect_agent_recruitment_xp_runesmith_tomb_banshee	banshee.png	3	banshee.png	campaign	true
+nag_effect_agent_recruitment_xp_runesmith_tomb_banshee_hidden		0		campaign	false
 nag_effect_force_enemy_campaign_movement_range_hidden		0		campaign	false
 nag_effect_force_own_campaign_movement_range_hidden		0		campaign	true
 nag_effect_enable_flaming_attacks_carrion	modifier_icon_flaming.png	61	modifier_icon_flaming.png	battle	true
@@ -120,6 +124,8 @@ nag_effect_agent_action_cost_mod_spy	treasury.png	101	treasury.png	campaign	true
 nag_effect_agent_action_success_chance_spy	saurus_scar_veteran.png	101	saurus_scar_veteran.png	campaign	true
 nag_effect_agent_action_cost_mod_dinitary	treasury.png	101	treasury.png	campaign	true
 nag_effect_agent_action_success_chance_dignitary	vampire.png	101	vampire.png	campaign	true
+nag_effect_agent_action_cost_mod_runesmith	treasury.png	101	treasury.png	campaign	true
+nag_effect_agent_action_success_chance_runesmith	banshee.png	101	banshee.png	campaign	true
 nag_effect_force_army_campaign_upkeep_cost_war_beasts	military_spending.png	101	military_spending.png	campaign	true
 nag_effect_force_army_campaign_upkeep_cost_war_machines	military_spending.png	101	military_spending.png	campaign	true
 nag_effect_force_unit_stat_melee_attack_versus_bretonnia	melee.png	109	melee.png	battle	true

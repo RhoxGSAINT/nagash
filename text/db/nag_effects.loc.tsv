@@ -130,11 +130,13 @@ effects_description_nag_effect_agent_enable_recruitment_dignitary_vmp	Unlocks [[
 effects_description_nag_effect_agent_enable_recruitment_champion_vmp	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Wight King	true
 effects_description_nag_effect_agent_enable_recruitment_engineer_cst	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Gunnery Wight	true
 effects_description_nag_effect_agent_enable_recruitment_archai	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Morghast Archai	true
+effects_description_nag_effect_agent_enable_recruitment_runesmith_vmp	Unlocks [[img:icon_hero]][[/img]]Hero recruitment: Tomb Banshee	false
 effects_description_nag_effect_agent_cap_increase_liche_priest	Hero capacity: %+n for Liche Priests	true
 effects_description_nag_effect_agent_cap_increase_gunnery_wight	Hero capacity: %+n for Gunnery Wights	true
 effects_description_nag_effect_agent_cap_increase_vampire	Hero capacity: %+n for Vampires	true
 effects_description_nag_effect_agent_cap_increase_prince_wight	Hero capacity: %+n for Tomb Princes & Wight Kings	true
 effects_description_nag_effect_agent_cap_increase_archai	Hero capacity: %+n for Morghast Archai	true
+effects_description_nag_effect_agent_cap_increase_tomb_banshee	Hero capacity: %+n for Tomb Banshee	false
 effects_description_nag_ability_enable_wrath_of_the_gods	Army ability: "Wrath of the Dead"	true
 effects_description_nag_effect_enable_bound_spell_nagash_dark_riders	Bound spell: "The Dark Riders"	true
 effects_description_nag_effect_enable_bound_spell_nagash_hand_of_dust	Bound spell: "The Hand of Dust"	true
@@ -230,6 +232,7 @@ effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_pri
 effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests	Hero recruit rank: %+n for Liche Priests	true
 effects_description_nag_effect_agent_recruitment_xp_engineer_gunnery_wight	Hero recruit rank: %+n for Gunnery Wights	true
 effects_description_nag_effect_agent_recruitment_xp_dignitary_vampires	Hero recruit rank: %+n for Vampires	true
+effects_description_nag_effect_agent_recruitment_xp_runesmith_tomb_banshee	Hero recruit rank: %+n for Tomb Banshee	false
 effects_description_nag_effect_agent_recruitment_xp_spy_archai_hidden	[Hidden]	true
 effects_description_nag_effect_agent_recruitment_xp_general_traitor_kings_hidden	[Hidden]	true
 effects_description_nag_effect_agent_recruitment_xp_hero_all_hidden	[Hidden]	true
@@ -239,6 +242,7 @@ effects_description_nag_effect_agent_recruitment_xp_champion_tomb_prince_hidden	
 effects_description_nag_effect_agent_recruitment_xp_wizard_liche_priests_hidden	[Hidden]	true
 effects_description_nag_effect_agent_recruitment_xp_engineer_gunnery_wight_hidden	[Hidden]	true
 effects_description_nag_effect_agent_recruitment_xp_dignitary_vampires_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_runesmith_tomb_banshee_hidden	[Hidden]	false
 effects_description_nag_effect_force_enemy_campaign_movement_range_hidden	[HIDDEN] Campaign movement range: %+n% for enemy armies starting their turn in this region	true
 effects_description_nag_effect_force_own_campaign_movement_range_hidden	[HIDDEN] Campaign movement range: %+n% for own armies starting their turn in this province	true
 effects_description_nag_effect_tech_missile_resistance_all_zombies	Missile resistance: %n% for all zombie units	true
@@ -255,7 +259,7 @@ effects_description_nag_effect_ammunition_powder	Ammunition: %+n% for Black Powd
 effects_description_nag_ability_enable_endless_tomb	Army ability: "Endless Tomb"	true
 effects_description_nag_ability_enable_endless_tomb_hidden	Army ability: "Endless Tomb" Enables Dummy [HIDDEN]	false
 effects_description_nag_effect_force_unit_stat_attack_attacking	Melee Attack: %+n for all units when attacking	true
-effects_description_nag_effect_upkeep_reduction_skeletons_basic	Upkeep: %+n% for Skeleton Warriors and Archers units	true
+effects_description_nag_effect_upkeep_reduction_skeletons_basic	Upkeep: %+n% for Skeleton Warriors, Spearmen, Reaper and Archers units	true
 effects_description_nag_effect_contact_charmed_vampires	Enables charmed attacks for all Vampire heroes	true
 effects_description_nag_death_shambling_horde_free_upkeep	Free upkeep for the Shambling Horde	true
 effects_description_nag_luthor_will_heal_dummy	Luthor Harkon's mind will be restored once all of these three events are fulfilled	false
@@ -290,11 +294,13 @@ effects_description_nag_effect_agent_action_cost_mod_engineer	Hero action cost: 
 effects_description_nag_effect_agent_action_cost_mod_wizard	Hero action cost: %+n% for Liche Priests	true
 effects_description_nag_effect_agent_action_cost_mod_spy	Hero action cost: %+n% for Morghast Archai	true
 effects_description_nag_effect_agent_action_cost_mod_dinitary	Hero action cost: %+n% for Vampires	true
+effects_description_nag_effect_agent_action_cost_mod_runesmith	Hero action cost: %+n% for Tomb Banshee	false
 effects_description_nag_effect_agent_action_success_chance_champion	Hero action success chance: %+n% for Tomb Princes and Wight Kings	true
 effects_description_nag_effect_agent_action_success_chance_engineer	Hero action success chance: %+n% for Gunnery Wights	true
 effects_description_nag_effect_agent_action_success_chance_wizard	Hero action success chance: %+n% for Liche Priests	true
 effects_description_nag_effect_agent_action_success_chance_spy	Hero action success chance: %+n% for Morghast Archai	true
 effects_description_nag_effect_agent_action_success_chance_dignitary	Hero action success chance: %+n% for Vampires	true
+effects_description_nag_effect_agent_action_success_chance_runesmith	Hero action success chance: %+n% for Tomb Banshee	false
 effects_description_nag_effect_force_army_campaign_upkeep_cost_war_beasts	Upkeep: %+n% for war beast units	true
 effects_description_nag_effect_force_army_campaign_upkeep_cost_war_machines	Upkeep: %+n% for war machine units	true
 effects_description_nag_effect_force_unit_stat_melee_attack_versus_bretonnia	Melee attack: %+n when fighting against Bretonnia	true
@@ -397,3 +403,21 @@ effects_description_rhox_nagash_brain_searching_dummy	Raiding stance is upgraded
 effects_description_nag_effect_force_stat_melee_attack_vs_daemons	Melee attack: %+n when fighting against Daemons of Chaos	false
 effects_description_nag_effect_force_stat_ward_save_vs_daemons	Ward save: %n% when fighting against Daemons of Chaos	false
 effects_description_rhox_nagash_effect_campaign_enable_attrition	Enables [[img:icon_attrition]][[/img]]attrition	false
+effects_description_nag_force_stat_armour_nehekhara_warriors_chariots	Armour: %+n for Nehekhara Warriors and Chariot units	false
+effects_description_nag_effect_force_stat_weapon_strength_nehekhara_warriors_chariots	Weapon strength: %+n% for Nehekhara Warriors and Chariot units	false
+effects_description_nag_effect_force_stat_charge_bonus_nehekhara_warriors_chariots	Charge bonus: %+n for Nehekhara Warriors and Chariot units	false
+effects_description_nag_effect_force_stat_melee_attack_nehekhara_warriors_chariots	Melee attack: %+n for Nehekhara Warriors and Chariot units	false
+effects_description_nag_effect_force_stat_melee_defence_nehekhara_warriors_chariots	Melee defence: %+n for Nehekhara Warriors and Chariot units	false
+effects_description_nag_effect_force_stat_movement_speed_zombies	Speed: %+n% for Zombies units	false
+effects_description_nag_effect_force_stat_melee_defence_zombies_skeletons	Melee defence: %+n for Zombies, Skeleton Warriors and Skeleton Spearmen units	false
+effects_description_nag_effect_force_stat_melee_defence_stalker_necropolis_knight	Melee defence: %+n for Sepulchral Stalkers and Necropolis Knights units	false
+effects_description_nag_effect_force_stat_melee_attack_blood_knights	Melee attack: %+n for Blood Knight units	false
+effects_description_nag_effect_upkeep_reduction_blood_knights	Upkeep: %+n% for Mortis Engine, and Blood Knight units	false
+effects_description_nag_effect_force_stat_armour_necropolis_knights	Armour: %+n for Necropolis Knights units	false
+effects_description_nag_effect_force_stat_weapon_strength_horsemen_necropolice	Weapon strength: %+n% for Necropolis Knights, Nehekhara Horsemen, Skeleton Horsemen and Skeleton Horsemen Archers units	false
+effects_description_nag_effect_force_stat_leadership_direwolves_fell_bats	Leadership: %+n for Dire Wolves and Fell Bats units	false
+effects_description_nag_effect_force_stat_charge_bonus_fell_bats_dire_wolves	Charge bonus: %+n for Dire Wolves and Fell Bats units	false
+effects_description_nag_effect_ability_enable_the_hunger_fellbats_direwolves	Passive ability: "The Hunger" for Dire Wolves and Fell Bats units	false
+effects_description_nag_effect_upkeep_reduction_unembedded_vampire_agents	Need this effect for when heroes arent embedded	false
+effects_description_nag_effect_upkeep_reduction_vampire_agents	Upkeep: %+n% for Vampire [[img:icon_hero]][[/img]]Heroes	false
+effects_description_nag_effect_force_stat_melee_attack_scorpions	Melee attack: %+n for Tomb Scorpion units	false

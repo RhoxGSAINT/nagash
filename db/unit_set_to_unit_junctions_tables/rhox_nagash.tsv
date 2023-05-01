@@ -279,30 +279,30 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_ushabti_1	nag_constructs_unit_set	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_constructs_unit_set	false
-			nag_vanilla_tmb_mon_sepulchral_stalkers_0	wh2_dlc09_tmb_sepulchral_stalkers	false
+			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_tech_sepulchral_stalkers	false
 			nag_vanilla_cst_mon_necrofex_colossus_0	nag_constructs_unit_set	false
 			nag_bone_colossus	wh2_main_ror_units_all	false
 			nag_virion_plaguecart	wh2_main_ror_units_all	false
 			nag_revenants	wh2_main_ror_units_all	false
 			nag_warp_ghouls	nag_beasts_unit_set	false
-			nag_vanilla_tmb_inf_tomb_guard_0	wh2_dlc09_tmb_tomb_guard	false
-			nag_vanilla_tmb_inf_tomb_guard_1	wh2_dlc09_tmb_tomb_guard	false
-			nag_vanilla_tmb_cav_necropolis_knights_0	wh2_dlc09_tmb_cav_necropolis_knights_0	false
-			nag_vanilla_tmb_cav_necropolis_knights_1	wh2_dlc09_tmb_cav_necropolis_knights_1	false
-			nag_vanilla_tmb_cav_necropolis_knights_0	wh2_dlc09_tmb_necropolis_knights	false
-			nag_vanilla_tmb_cav_necropolis_knights_1	wh2_dlc09_tmb_necropolis_knights	false
-			nag_vanilla_tmb_cav_nehekhara_horsemen_0	wh2_dlc09_tmb_horsemen	false
-			nag_vanilla_tmb_cav_skeleton_horsemen_0	wh2_dlc09_tmb_horsemen	false
-			nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	wh2_dlc09_tmb_horsemen	false
+			nag_vanilla_tmb_inf_tomb_guard_0	nag_tomb_guard	false
+			nag_vanilla_tmb_inf_tomb_guard_1	nag_tomb_guard	false
+			nag_vanilla_tmb_cav_necropolis_knights_0	nag_tech_cav_necropolis_knights_0	false
+			nag_vanilla_tmb_cav_necropolis_knights_1	nag_tech_cav_necropolis_knights_1	false
+			nag_vanilla_tmb_cav_necropolis_knights_0	nag_tech_necropolis_knights	false
+			nag_vanilla_tmb_cav_necropolis_knights_1	nag_tech_necropolis_knights	false
+			nag_vanilla_tmb_cav_nehekhara_horsemen_0	nag_tech_tmb_horsemen	false
+			nag_vanilla_tmb_cav_skeleton_horsemen_0	nag_tech_tmb_horsemen	false
+			nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	nag_tech_tmb_horsemen	false
 			nag_carrion_riders	nag_carrion	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_powder	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_powder	false
 			nag_vanilla_cst_inf_deck_gunners_0	nag_powder	false
 			nag_vanilla_cst_art_carronade	nag_powder	false
 			nag_vanilla_cst_mon_necrofex_colossus_0	nag_powder	false
-			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	wh2_dlc09_tmb_chariots	false
-			nag_vanilla_tmb_veh_skeleton_chariot_0	wh2_dlc09_tmb_chariots	false
-			nag_vanilla_tmb_inf_nehekhara_warriors_0	wh2_dlc09_tmb_inf_nehekhara_warriors_0	false
+			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	nag_tech_chariots	false
+			nag_vanilla_tmb_veh_skeleton_chariot_0	nag_tech_chariots	false
+			nag_vanilla_tmb_inf_nehekhara_warriors_0	nag_tech_nehekhara_warriors_0	false
 			nag_vanilla_tmb_inf_skeleton_archers_0	nag_skeletons_basic	false
 			nag_vanilla_tmb_inf_skeleton_spearmen_0	nag_skeletons_basic	false
 			nag_vanilla_tmb_inf_skeleton_warriors_0	nag_skeletons_basic	false
@@ -328,7 +328,7 @@ hero				nag_characters	false
 			nag_nagashi_guard_halb	nag_nagashi_guard	false
 			nag_vanilla_vmp_inf_grave_guard_0	vmp_graveguard	false
 			nag_vanilla_vmp_inf_grave_guard_1	vmp_graveguard	false
-			nag_vanilla_vmp_cav_blood_knights_0	vmp_blood_knights	false
+			nag_vanilla_vmp_cav_blood_knights_0	nag_tech_blood_knights	false
 			nag_vanilla_vmp_inf_zombie	nag_vanilla_vmp_inf_zombie	false
 			nag_cha_liche_priest_death_0	nag_liche_priests	false
 			nag_cha_liche_priest_death_1	nag_liche_priests	false
@@ -338,7 +338,7 @@ hero				nag_characters	false
 			nag_cha_liche_priest_nehekhara_1	nag_liche_priests	false
 			nag_cha_liche_priest_shadow_0	nag_liche_priests	false
 			nag_cha_liche_priest_shadow_1	nag_liche_priests	false
-			wh2_dlc09_tmb_art_casket_of_souls_0	wh2_dlc09_tmb_casket_of_souls	false
+			wh2_dlc09_tmb_art_casket_of_souls_0	nag_tech_casket_of_souls	false
 			nag_vanilla_vmp_inf_zombie	vmp_zombies	false
 			nag_vanilla_vmp_inf_cairn_wraiths	nag_frost_spirits	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_frost_spirits	false
@@ -383,9 +383,9 @@ hero				nag_characters	false
 			nag_vanilla_vmp_mon_dire_wolves	nag_wolves_hex	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_wolves_hex	false
 			nag_vanilla_vmp_mon_fell_bats	nag_wolves_hex	false
-			nag_vanilla_tmb_art_casket_of_souls_0	wh2_dlc09_tmb_casket_of_souls	false
-			nag_vanilla_vmp_mon_dire_wolves	wh2_dlc11_vmp_dire_wolves_fell_bats	false
-			nag_vanilla_vmp_mon_fell_bats	wh2_dlc11_vmp_dire_wolves_fell_bats	false
+			nag_vanilla_tmb_art_casket_of_souls_0	nag_tech_casket_of_souls	false
+			nag_vanilla_vmp_mon_dire_wolves	nag_tech_dire_wolves_fell_bats	false
+			nag_vanilla_vmp_mon_fell_bats	nag_tech_dire_wolves_fell_bats	false
 			nag_vanilla_cst_mon_terrorgheist	vmp_terrorgheist	false
 			nag_vanilla_vmp_mon_dire_wolves	vmp_beasts	false
 			nag_vanilla_vmp_mon_fell_bats	vmp_beasts	false
@@ -403,27 +403,32 @@ hero				nag_characters	false
 			nag_undead_chariot_unit	nag_skeletons	false
 			nag_undead_chariot_unit	nag_skeletons_plus	false
 			nag_undead_chariot_unit	nag_chariots	false
-			nag_undead_chariot_unit	wh2_dlc09_tmb_chariots	false
+			nag_undead_chariot_unit	nag_tech_chariots	false
 			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	nag_arkhan_tomb_chariots	false
 			nag_vanilla_tmb_veh_skeleton_chariot_0	nag_arkhan_tomb_chariots	false
-			nag_cha_liche_priest_death_0	vmp_agents	false
-			nag_cha_liche_priest_death_1	vmp_agents	false
-			nag_cha_liche_priest_light_0	vmp_agents	false
-			nag_cha_liche_priest_light_1	vmp_agents	false
-			nag_cha_liche_priest_nehekhara_0	vmp_agents	false
-			nag_cha_liche_priest_nehekhara_1	vmp_agents	false
-			nag_cha_liche_priest_shadow_0	vmp_agents	false
-			nag_cha_liche_priest_shadow_1	vmp_agents	false
-			nag_cha_tomb_prince_0	vmp_agents	false
-			nag_cha_tomb_prince_1	vmp_agents	false
-			nag_cha_tomb_prince_2	vmp_agents	false
-			nag_morghasts_archai	vmp_agents	false
-			nag_cha_liche_priest_undeath_0	vmp_agents	false
-			nag_cha_liche_priest_undeath_1	vmp_agents	false
-			wh2_dlc11_cst_cha_gunnery_wight_0	vmp_agents	false
-			wh2_dlc11_cst_cha_gunnery_wight_1	vmp_agents	false
 			mixu_vmp_cha_dieter_helsnicht	nag_mortarch_unit_set	false
 			mixu_vmp_cha_dieter_helsnicht_barded_nightmare	nag_mortarch_unit_set	false
 			mixu_vmp_cha_dieter_helsnicht_manticore	nag_mortarch_unit_set	false
 			wh_main_vmp_inf_crypt_ghouls	nag_crypt_ghouls	false
 			wh2_dlc09_tmb_inf_crypt_ghouls	nag_crypt_ghouls	false
+			nag_mortis_engine	nag_tech_blood_knights_mortis	false
+			nag_vanilla_vmp_cav_blood_knights_0	nag_tech_blood_knights_mortis	false
+			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_tech_stalker_necropolis_knight	false
+			nag_vanilla_tmb_cav_necropolis_knights_0	nag_tech_stalker_necropolis_knight	false
+			nag_vanilla_tmb_cav_necropolis_knights_1	nag_tech_stalker_necropolis_knight	false
+			wh_dlc05_vmp_cha_vampire_shadows_0	nag_tech_vampire_agents	false
+			wh_dlc05_vmp_cha_vampire_shadows_1	nag_tech_vampire_agents	false
+			wh_dlc05_vmp_cha_vampire_shadows_2	nag_tech_vampire_agents	false
+			wh_main_vmp_cha_vampire_0	nag_tech_vampire_agents	false
+			wh_main_vmp_cha_vampire_1	nag_tech_vampire_agents	false
+			wh_main_vmp_cha_vampire_2	nag_tech_vampire_agents	false
+			nag_mortarch_isabella	nag_tech_vampire_agents	false
+			nag_mortarch_isabella_hellsteed	nag_tech_vampire_agents	false
+			nag_mortarch_isabella_warhorse	nag_tech_vampire_agents	false
+			nag_vanilla_vmp_inf_grave_guard_0	nag_tech_graveguard	false
+			nag_vanilla_vmp_inf_grave_guard_1	nag_tech_graveguard	false
+			nag_nagashi_guard	nag_tech_nagashi_guard	false
+			nag_nagashi_guard_halb	nag_tech_nagashi_guard	false
+			nag_vanilla_tmb_inf_tomb_guard_0	nag_tech_tomb_guard	false
+			nag_vanilla_tmb_inf_tomb_guard_1	nag_tech_tomb_guard	false
+			wh_dlc02_vmp_cav_blood_knights_0	nag_tech_blood_knights	false
