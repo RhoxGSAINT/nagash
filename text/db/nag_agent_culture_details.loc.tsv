@@ -1,23 +1,23 @@
 key	text	tooltip
 #Loc;1;text/db/nag_agent_culture_details.loc		
-agent_culture_details_onscreen_name_909090	Tomb Prince	true
-agent_culture_details_description_text_909090	Tomb Princes are the sons of the Tomb Kings. Each of the kings of ancient Nehekhara had many heirs, but only one could succeed his father to the throne.	true
-agent_culture_details_onscreen_name_909091		true
-agent_culture_details_description_text_909091		true
-agent_culture_details_onscreen_name_909092	Vampire	true
-agent_culture_details_description_text_909092	Vampires are the true masters of Undeath. Despite their curse, Vampires retain all of their devious intelligence, and hence all of their ambition and desire.	true
-agent_culture_details_onscreen_name_909093	Gunnery Wight	true
-agent_culture_details_description_text_909093	Masters of the ballistic arts, even in death Gunnery Wights maintain the lines and a steady flow of black powder.	true
-agent_culture_details_onscreen_name_909094	Shambling Horde	true
-agent_culture_details_description_text_909094		true
-agent_culture_details_onscreen_name_909095		true
-agent_culture_details_description_text_909095		true
-agent_culture_details_onscreen_name_909096		true
-agent_culture_details_description_text_909096		true
-agent_culture_details_onscreen_name_909097	Morghast Archai	true
-agent_culture_details_description_text_909097	The most powerful Hammurai of Ptra are turned into willing emissaries of Nagash, spearheads of doom.	true
-agent_culture_details_onscreen_name_909098	Liche Priest	true
-agent_culture_details_description_text_909098	Liche Priests are the undying members of the Nehekhara's Mortuary Cult, and they hold the secrets to Unlife.	true
+agent_culture_details_onscreen_name_909090	Tomb Prince	false
+agent_culture_details_description_text_909090	Tomb Princes are the sons of the Tomb Kings. Each of the kings of ancient Nehekhara had many heirs, but only one could succeed his father to the throne.	false
+agent_culture_details_onscreen_name_909091		false
+agent_culture_details_description_text_909091		false
+agent_culture_details_onscreen_name_909092	Vampire	false
+agent_culture_details_description_text_909092	Vampires are the true masters of Undeath. Despite their curse, Vampires retain all of their devious intelligence, and hence all of their ambition and desire.	false
+agent_culture_details_onscreen_name_909093	Gunnery Wight	false
+agent_culture_details_description_text_909093	Masters of the ballistic arts, even in death Gunnery Wights maintain the lines and a steady flow of black powder.	false
+agent_culture_details_onscreen_name_909094	Shambling Horde	false
+agent_culture_details_description_text_909094		false
+agent_culture_details_onscreen_name_909095		false
+agent_culture_details_description_text_909095		false
+agent_culture_details_onscreen_name_909096		false
+agent_culture_details_description_text_909096		false
+agent_culture_details_onscreen_name_909097	Morghast Archai	false
+agent_culture_details_description_text_909097	The most powerful Hammurai of Ptra are turned into willing emissaries of Nagash, spearheads of doom.	false
+agent_culture_details_onscreen_name_909098	Liche Priest	false
+agent_culture_details_description_text_909098	Liche Priests are the undying members of the Nehekhara's Mortuary Cult, and they hold the secrets to Unlife.	false
 agent_subtypes_onscreen_name_override_nag_traitor_king_shambling_horde		false
 agent_subtypes_description_text_override_nag_traitor_king_shambling_horde		false
 agent_subtype_subculture_overrides_onscreen_name_nag_tomb_princemixer_nag_nagashchampion	Tomb Prince	false
@@ -28,3 +28,5 @@ agent_subtype_subculture_overrides_onscreen_name_nag_gunnery_wightmixer_nag_naga
 agent_subtype_subculture_overrides_description_nag_gunnery_wightmixer_nag_nagashengineer	Masters of the ballistic arts, even in death Gunnery Wights maintain the lines and a steady flow of black powder.	false
 agent_subtype_subculture_overrides_onscreen_name_nag_liche_priest_deathmixer_nag_nagashwizard	Liche Priest	false
 agent_subtype_subculture_overrides_description_nag_liche_priest_deathmixer_nag_nagashwizard	Liche Priests are the undying members of the Nehekhara's Mortuary Cult, and they hold the secrets to Unlife.	false
+agent_subtype_subculture_overrides_onscreen_name_nag_tomb_bansheemixer_nag_nagashrunesmith	Tomb Banshee	false
+agent_subtype_subculture_overrides_description_nag_nag_tomb_bansheemixer_nag_nagashrunesmith	A single Banshee is a terrifying prospect, and even those warriors skilled enough to match blades with a Vampire have little defence against her unnatural screams.	false
