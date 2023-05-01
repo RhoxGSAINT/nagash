@@ -1,6 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/nag_teleportation_template.loc		
-teleportation_node_templates_description_rhox_nagash_teleportation_node_template	A rift providing passage for Nagash's faction. [[col:magic]]This rift can only be entered by a [[img:icon_general]][[/img]]Lord or [[img:icon_hero]][[/img]]Hero belonging to Nagash and cannot be closed.[[/col]]	false
+teleportation_node_templates_description_rhox_nagash_teleportation_node_template	A rift providing passage for the Legions of Nagash. [[col:magic]]This rift can only be entered by a [[img:icon_general]][[/img]]Lord or [[img:icon_hero]][[/img]]Hero belonging to Nagash and cannot be closed.[[/col]]	false
 teleportation_node_templates_localised_name_rhox_nagash_teleportation_node_template	Rift	false
 teleportation_node_templates_description_rhox_nagash_mountain_pass_template	This mountain pass can be entered by any [[img:icon_general]][[/img]]Lord or [[img:icon_hero]][[/img]]Hero for direct travel between Deff Gorge and Desolation of Nagash	false
 teleportation_node_templates_localised_name_rhox_nagash_mountain_pass_template	Mountain Pass	false

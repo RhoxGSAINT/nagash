@@ -5,7 +5,7 @@ technologies_onscreen_name_nag_mortarch_vlad_event_2	The Emperor of Man	true
 technologies_onscreen_name_nag_mortarch_vlad_event_3	Grand Nemesis	true
 technologies_short_description_nag_mortarch_vlad_event_1	Vlad would risk anything, even eternal servitude under an unjust tyrant, in order to keep his beloved Isabella.	true
 technologies_short_description_nag_mortarch_vlad_event_2	Before his latest untimely demise, Vlad Von Carstein's most prized goal was the very throne of the Empire of Man. Now, it's time to collect it once more.	true
-technologies_short_description_nag_mortarch_vlad_event_3	Five hundred years ago, Vlad's reign of terror met an untimely hand due to the intervention of the previous Grand Theogonist. Though different in name and body, their role is shared - it's time to take out Volkmar the so-called Grim.	true
+technologies_short_description_nag_mortarch_vlad_event_3	Five hundred years ago, Vlad's reign of terror met an untimely conclusion at the hand of the previous Grand Theogonist. Though now a different man, it's time to take out Volkmar the so-called Grim, the current Grand Theogonist.	true
 technologies_onscreen_name_nag_mortarch_arkhan_unlock	Arkhan, Mortarch of Sacrament	true
 technologies_onscreen_name_nag_mortarch_krell_unlock	Krell, Mortarch of Despair	true
 technologies_onscreen_name_nag_mortarch_luthor_unlock	Luthor, Mortarch of the Abyss	true
@@ -27,7 +27,7 @@ technologies_short_description_nag_mortarch_arkhan_event_3	Arkhan prides himself
 technologies_onscreen_name_nag_mortarch_neferata_event_1	The First Vampire	false
 technologies_onscreen_name_nag_mortarch_neferata_event_2	The Queen of Mysteries	false
 technologies_onscreen_name_nag_mortarch_neferata_event_3	The Uncontested Queen	false
-technologies_short_description_nag_mortarch_neferata_event_1	And with no doubt whatsoever, the most powerful, fairest, and truest. Certainly, last standing.	false
+technologies_short_description_nag_mortarch_neferata_event_1	And with no doubt whatsoever, the most powerful, fairest, and truest. Certainly, the last standing.	false
 technologies_short_description_nag_mortarch_neferata_event_2	From atop her lair, the Queen of Mysteries oversees the intricate web of agents she has spun across the world.	false
 technologies_short_description_nag_mortarch_neferata_event_3	Lahmia is Neferata's birth right, and it has been wrestled from her fair hands for too long. This shall not stand any longer.	false
 technologies_onscreen_name_nag_arkhan_battle_1	The Black Legions	false
@@ -88,7 +88,7 @@ technologies_short_description_nag_krell_battle_2	Undead troops hardly cheer whe
 technologies_short_description_nag_krell_battle_3	An armoured gauntlet pointed at everything living, and unliving under the wrong banners. 	false
 technologies_short_description_nag_mortarch_krell_event_1	Krell used to collect skulls for the throne of his previous master. Now he adds them to the armies of the Great Necromancer.	false
 technologies_short_description_nag_mortarch_krell_event_2	As cold and devoid of emotion as he is, Krell will still challenge the mightiest foes to prove his mettle.	false
-technologies_short_description_nag_mortarch_krell_event_3	The Black Axe rarely stays unstained with the scarlet of blood and gore. Its tally is numberless.	false
+technologies_short_description_nag_mortarch_krell_event_3	The Black Axe rarely remains unstained with the scarlet of blood and gore. Its tally is numberless.	false
 technologies_short_description_nag_krell_proclamation	Loyal. Relentless. Large. Big-axed.	false
 technologies_short_description_nag_krell_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technologies_short_description_nag_luthor_battle_1	"Questions? What Questions?" 	false
@@ -129,7 +129,7 @@ technologies_short_description_nag_vlad_archai	For all their pledges, Mortarchs 
 technology_ui_groups_optional_display_name_nag_mortarchs	The Mortarchs	false
 technology_ui_groups_optional_display_description_nag_mortarchs	Dost this worketh?	false
 technologies_onscreen_name_nag_mortarch_dieter_unlock	Dieter Helsnicht	false
-technologies_short_description_nag_mortarch_dieter_unlock	I wanna learn Necromancy	false
+technologies_short_description_nag_mortarch_dieter_unlock	A long-time pupil.	false
 technologies_onscreen_name_nag_dieter_archai	Bestow the Archai	false
 technologies_short_description_nag_dieter_archai	For all their pledges, Mortarchs may need unfailingly-loyal eyes watching over them...	false
 technologies_onscreen_name_nag_dieter_proclamation	Doomlord	false
@@ -145,4 +145,4 @@ technologies_short_description_nag_dieter_battle_1	Long has Dieter Helnischt end
 technologies_onscreen_name_nag_dieter_battle_2	Devious tactician	false
 technologies_short_description_nag_dieter_battle_2	The Doom Lord is more than just a powerful necromancer. Underestimate his tactical acumen at your own risk	false
 technologies_onscreen_name_nag_dieter_battle_3	Zombified Manticore	false
-technologies_short_description_nag_dieter_battle_3	In ET, his manticore is quite obviously zombified.	false
+technologies_short_description_nag_dieter_battle_3	Dieter's manticore has served faitful to its death. It still serves, actually.	false

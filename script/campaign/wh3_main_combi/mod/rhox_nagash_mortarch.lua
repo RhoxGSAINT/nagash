@@ -124,7 +124,8 @@ local mort_key_to_success_chance ={
     ["nag_mortarch_mannfred"]=35,
     ["nag_mortarch_luthor"]=35,
     ["nag_mortarch_dieter"]=35,
-    ["nag_mortarch_azhag"]=100 --AI won't use it this is for human to evade the script breaking
+    ["nag_mortarch_neferata"] = 35,
+    ["nag_mortarch_azhag"]=100, --AI won't use it this is for human to evade the script breaking
 }
 
 local mort_key_to_units={
@@ -802,8 +803,13 @@ core:add_listener(
         local nag_mortarch_luthor = my_mod:get_option_by_key("nag_mortarch_luthor")
         local nag_mortarch_luthor_setting = nag_mortarch_luthor:get_finalized_setting()
         
+        local nag_mortarch_neferata = my_mod:get_option_by_key("nag_mortarch_neferata")
+        local nag_mortarch_neferata_setting = nag_mortarch_neferata:get_finalized_setting()
+        
         local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
         local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
+        
+    
         
 
         
@@ -811,14 +817,20 @@ core:add_listener(
         mort_key_to_success_chance["nag_mortarch_vlad"]=nag_mortarch_vlad_setting
         mort_key_to_success_chance["nag_mortarch_mannfred"]=nag_mortarch_mannfred_setting
         mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
+        mort_key_to_success_chance["nag_mortarch_neferata"]=nag_mortarch_neferata_setting
         mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
         
+
+        
         out("Rhox Nagash: Mortarch percentages")
-        out(mort_key_to_success_chance["nag_mortarch_arkhan"])
-        out(mort_key_to_success_chance["nag_mortarch_vlad"])
-        out(mort_key_to_success_chance["nag_mortarch_mannfred"])
-        out(mort_key_to_success_chance["nag_mortarch_luthor"])
-        out(mort_key_to_success_chance["nag_mortarch_dieter"])
+        out("Arkhan: ".. mort_key_to_success_chance["nag_mortarch_arkhan"])
+        out("Vlad: ".. mort_key_to_success_chance["nag_mortarch_vlad"])
+        out("Mannfred: ".. mort_key_to_success_chance["nag_mortarch_mannfred"])
+        out("Luthor: ".. mort_key_to_success_chance["nag_mortarch_luthor"])
+        out("Neferata: ".. mort_key_to_success_chance["nag_mortarch_neferata"])
+        out("Dieter: ".. mort_key_to_success_chance["nag_mortarch_dieter"])
+        
+
     end,
     true
 )
@@ -847,8 +859,12 @@ core:add_listener(
         local nag_mortarch_luthor = my_mod:get_option_by_key("nag_mortarch_luthor")
         local nag_mortarch_luthor_setting = nag_mortarch_luthor:get_finalized_setting()
         
+        local nag_mortarch_neferata = my_mod:get_option_by_key("nag_mortarch_neferata")
+        local nag_mortarch_neferata_setting = nag_mortarch_neferata:get_finalized_setting()
+        
         local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
         local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
+        
         
 
         
@@ -856,14 +872,18 @@ core:add_listener(
         mort_key_to_success_chance["nag_mortarch_vlad"]=nag_mortarch_vlad_setting
         mort_key_to_success_chance["nag_mortarch_mannfred"]=nag_mortarch_mannfred_setting
         mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
+        mort_key_to_success_chance["nag_mortarch_neferata"]=nag_mortarch_neferata_setting
         mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
         
         out("Rhox Nagash: Mortarch percentages")
-        out(mort_key_to_success_chance["nag_mortarch_arkhan"])
-        out(mort_key_to_success_chance["nag_mortarch_vlad"])
-        out(mort_key_to_success_chance["nag_mortarch_mannfred"])
-        out(mort_key_to_success_chance["nag_mortarch_luthor"])
-        out(mort_key_to_success_chance["nag_mortarch_dieter"])
+        out("Arkhan: ".. mort_key_to_success_chance["nag_mortarch_arkhan"])
+        out("Vlad: ".. mort_key_to_success_chance["nag_mortarch_vlad"])
+        out("Mannfred: ".. mort_key_to_success_chance["nag_mortarch_mannfred"])
+        out("Luthor: ".. mort_key_to_success_chance["nag_mortarch_luthor"])
+        out("Neferata: ".. mort_key_to_success_chance["nag_mortarch_neferata"])
+        out("Dieter: ".. mort_key_to_success_chance["nag_mortarch_dieter"])
+
+        
         
         if nag_mortarch_arkhan_setting == 105 then --for debug
             rhox_nag_debug_function()

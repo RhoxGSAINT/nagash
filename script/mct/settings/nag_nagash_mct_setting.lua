@@ -41,9 +41,20 @@ nag_mortarch_luthor:set_default_value(35)
 nag_mortarch_luthor:set_text("mct_nag_nagsh_nag_mortarch_luthor_text", true)
 nag_mortarch_luthor:set_tooltip_text("mct_nag_nagsh_nag_mortarch_luthor_tooltip", true)
 
+local nag_mortarch_dieter = mct_mod:add_new_option("nag_mortarch_neferata", "slider")
+nag_mortarch_dieter:slider_set_min_max(0, 100)
+nag_mortarch_dieter:slider_set_step_size(1)
+nag_mortarch_dieter:set_default_value(35)
+nag_mortarch_dieter:set_text("mct_nag_nagsh_nag_mortarch_neferata_text", true)
+nag_mortarch_dieter:set_tooltip_text("mct_nag_nagsh_nag_mortarch_neferata_tooltip", true)
+
+
 local nag_mortarch_dieter = mct_mod:add_new_option("nag_mortarch_dieter", "slider")
 nag_mortarch_dieter:slider_set_min_max(0, 100)
 nag_mortarch_dieter:slider_set_step_size(1)
 nag_mortarch_dieter:set_default_value(35)
 nag_mortarch_dieter:set_text("mct_nag_nagsh_nag_mortarch_dieter_text", true)
 nag_mortarch_dieter:set_tooltip_text("mct_nag_nagsh_nag_mortarch_dieter_tooltip", true)
+
+
+

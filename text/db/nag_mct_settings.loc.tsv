@@ -13,3 +13,5 @@ mct_nag_nagsh_nag_mortarch_luthor_text	Luthor obedience chance	false
 mct_nag_nagsh_nag_mortarch_luthor_tooltip	When AI Nagash researches technology, Luthor will obey and become confederated with the following chance	false
 mct_nag_nagsh_nag_mortarch_dieter_text	Dieter obedience chance	false
 mct_nag_nagsh_nag_mortarch_dieter_tooltip	When AI Nagash researches technology, Dieter will obey and become confederated with the following chance	false
+mct_nag_nagsh_nag_mortarch_neferata_text	Neferata obedience chance	false
+mct_nag_nagsh_nag_mortarch_neferata_tooltip	When AI Nagash researches technology, Neferata will obey and become confederated with the following chance	false
