@@ -1,18 +1,18 @@
 key	text	tooltip
 #Loc;1;text/db/nag_trait.loc		
-character_trait_levels_onscreen_name_rhox_nagash_uber_husk	Uber Husk	false
-character_trait_levels_colour_text_rhox_nagash_uber_husk	This husk can cast grand spell like its true form is	false
+character_trait_levels_onscreen_name_rhox_nagash_uber_husk	In the old pots...	false
+character_trait_levels_colour_text_rhox_nagash_uber_husk	Nagash's ancient, decayed body has reached near-godhood without even ascending, and wields the same powers.	false
 character_trait_levels_explanation_text_rhox_nagash_uber_husk	Gained by reaching 30 level with the Husk	false
 character_trait_levels_removal_text_rhox_nagash_uber_husk		false
 character_trait_levels_onscreen_name_rhox_nagash_nagash_defeat_trait	The Final Reckoning	false
-character_trait_levels_colour_text_rhox_nagash_nagash_defeat_trait	The necromancer king's reign of terror has come to an end, his dark magic shattered and his undead armies turned to dust.	false
+character_trait_levels_colour_text_rhox_nagash_nagash_defeat_trait	The Great Necromancer's reign of terror has come to an end, his dark magic shattered and his undead legions turned to dust.	false
 character_trait_levels_explanation_text_rhox_nagash_nagash_defeat_trait	Defeated Nagash	false
 character_trait_levels_removal_text_rhox_nagash_nagash_defeat_trait		false
 character_trait_levels_onscreen_name_rhox_nagash_neferata_defeat_trait	Former Queen	false
-character_trait_levels_colour_text_rhox_nagash_neferata_defeat_trait	The mistress of vampires has been vanquished, her centuries-long scheming and manipulation finally brought to an end	false
+character_trait_levels_colour_text_rhox_nagash_neferata_defeat_trait	The mistress of vampires has been vanquished, her centuries-long scheming and manipulations finally brought to an end.	false
 character_trait_levels_explanation_text_rhox_nagash_neferata_defeat_trait	Defeated Neferata	false
 character_trait_levels_removal_text_rhox_nagash_neferata_defeat_trait		false
 character_trait_levels_onscreen_name_rhox_nagash_krell_defeat_trait	Who do you serve now?	false
-character_trait_levels_colour_text_rhox_nagash_krell_defeat_trait	The fearsome champion of the undead legions has fallen, his ancient sword shattered and his cursed soul banished to the void beyond.	false
+character_trait_levels_colour_text_rhox_nagash_krell_defeat_trait	The fearsome champion of the undead legions has fallen, his ancient axe  shattered and his cursed soul banished to the void beyond.	false
 character_trait_levels_explanation_text_rhox_nagash_krell_defeat_trait	Defeated Krell	false
 character_trait_levels_removal_text_rhox_nagash_krell_defeat_trait		false
