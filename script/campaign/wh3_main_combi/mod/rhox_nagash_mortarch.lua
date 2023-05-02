@@ -663,6 +663,7 @@ function rhox_nagash_add_ai_mortarch_mission()
                 out("Rhox Nagash: AI Nagash faction turn start")
                 local faction = context:faction()
                 for tech_key, contents in pairs(RHOX_NAGASH_UNLOCK_TECHS) do
+                    out("Rhox Nagash: looking at: "..tech_key)
                     if faction:has_technology(tech_key) and cm:get_saved_value("ai"..tech_key) ~= true then
                         out("Rhox Nagash: Nagash has researched: "..tech_key)
                         cm:set_saved_value("ai"..tech_key, true)
