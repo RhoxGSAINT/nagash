@@ -30,3 +30,5 @@ agent_subtype_subculture_overrides_onscreen_name_nag_liche_priest_deathmixer_nag
 agent_subtype_subculture_overrides_description_nag_liche_priest_deathmixer_nag_nagashwizard	Liche Priests are the undying members of the Nehekhara's Mortuary Cult, and they hold the secrets to Unlife.	false
 agent_subtype_subculture_overrides_onscreen_name_nag_tomb_bansheemixer_nag_nagashrunesmith	Tomb Banshee	false
 agent_subtype_subculture_overrides_description_nag_nag_tomb_bansheemixer_nag_nagashrunesmith	A single Banshee is a terrifying prospect, and even those warriors skilled enough to match blades with a Vampire have little defence against her unnatural screams.	false
+agent_culture_details_onscreen_name_909099	Tomb Banshee	false
+agent_culture_details_description_text_909099	A single Banshee is a terrifying prospect, and even those warriors skilled enough to match blades with a Vampire have little defence against her unnatural screams.	false

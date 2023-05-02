@@ -78,3 +78,11 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_unique_nagash_hate_daemons		x	2
 		1	nag_skill_unique_nagash_hate_traitors		x	2
 		1	nag_skill_unique_nagash_hate_equal		x	2
+		1	nag_lord_unique_vmp_master_necromancer_barded_nightmare		x	7
+		1	nag_lord_unique_vmp_master_necromancer_hellsteed		x	9
+		1	nag_lord_unique_master_necromancer_corpse_cart		x	9
+		1	nag_lord_unique_master_necromancer_corpse_cart_balefire		x	12
+		1	nag_lord_unique_master_necromancer_corpse_cart_unholy_lodestone		x	15
+		1	nag_lord_unique_vampire_lord_barded_nightmare		x	7
+		1	nag_lord_unique_vampire_lord_hellsteed		x	9
+		1	nag_lord_unique_vampire_lord_zombie_dragon		x	17

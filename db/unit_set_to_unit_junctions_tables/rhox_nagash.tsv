@@ -432,3 +432,19 @@ hero				nag_characters	false
 			nag_vanilla_tmb_inf_tomb_guard_0	nag_tech_tomb_guard	false
 			nag_vanilla_tmb_inf_tomb_guard_1	nag_tech_tomb_guard	false
 			wh_dlc02_vmp_cav_blood_knights_0	nag_tech_blood_knights	false
+			nag_vampire_lord_0	nag_enemy_undead_unit_set	false
+			nag_vampire_lord_2	nag_enemy_undead_unit_set	false
+			nag_vampire_lord_3	nag_enemy_undead_unit_set	false
+			nag_vampire_lord_5	nag_enemy_undead_unit_set	false
+			nag_master_necromancer_1	nag_enemy_undead_unit_set	false
+			nag_master_necromancer_2	nag_enemy_undead_unit_set	false
+			nag_master_necromancer_3	nag_enemy_undead_unit_set	false
+			nag_master_necromancer_0	nag_enemy_undead_unit_set	false
+			nag_master_necromancer_4	nag_enemy_undead_unit_set	false
+			nag_master_necromancer_5	nag_enemy_undead_unit_set	false
+			nag_tomb_banshee	ethereal	false
+			nag_tomb_banshee	vmp_agents	false
+			nag_tomb_banshee	vmp_all	false
+			nag_tomb_banshee	vmp_characters	false
+			nag_tomb_banshee	vmp_dlc04_all_characters	false
+			nag_tomb_banshee	wh_pro02_isabella_extra_upkeep	false

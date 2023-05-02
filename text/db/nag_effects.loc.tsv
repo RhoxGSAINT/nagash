@@ -421,3 +421,4 @@ effects_description_nag_effect_ability_enable_the_hunger_fellbats_direwolves	Pas
 effects_description_nag_effect_upkeep_reduction_unembedded_vampire_agents	Need this effect for when heroes arent embedded	false
 effects_description_nag_effect_upkeep_reduction_vampire_agents	Upkeep: %+n% for Vampire [[img:icon_hero]][[/img]]Heroes	false
 effects_description_nag_effect_force_stat_melee_attack_scorpions	Melee attack: %+n for Tomb Scorpion units	false
+effects_description_nag_effect_upkeep_reduction_blood_knights_mortis	Upkeep: %+n% for Blood Knights and Mortis Engine units	false
