@@ -9,3 +9,4 @@ key	agent	culture	associated_unit	season	level	agent_recruited_movie	gender	icon
 909096	runesmith	mixer_nag_nagash	wh_main_vmp_cha_banshee		0				ui/campaign ui/agents/paladin.png	true
 909097	spy	mixer_nag_nagash	nag_morghasts_archai		0		m	UI/units/icons/wh2_dlc17_bst_wargor.png	ui/campaign ui/agents/wh2_dlc17_bst_wargor.png	true
 909098	wizard	mixer_nag_nagash	nag_cha_liche_priest_death_0		0		m		ui/campaign ui/agents/wh_main_wizard.png	true
+909099	general	mixer_nag_nagash	wh_main_vmp_cha_vampire_lord_0		0			UI/units/icons/wh_main_vmp_vampire_lord.png	ui/campaign ui/agents/wh_main_emp_champion.png	true
