@@ -9,7 +9,7 @@ general	mixer_nag_nagash	nag_mortarch_mannfred
 general	mixer_nag_nagash	nag_mortarch_luthor
 general	mixer_nag_nagash	nag_mortarch_krell
 general	mixer_nag_nagash	nag_traitor_king
-general	mixer_nag_nagash	wh_main_vmp_lord
+general	mixer_nag_nagash	nag_vampire_lord
 general	mixer_nag_nagash	nag_master_necromancer
 champion	mixer_nag_nagash	nag_tomb_prince
 wizard	mixer_nag_nagash	nag_liche_priest_death
@@ -27,3 +27,5 @@ spy	mixer_nag_nagash	nag_morghasts_archai
 general	mixer_nag_nagash	nag_mortarch_dieter
 general	mixer_nag_nagash	nag_mortarch_azhag
 general	wh3_main_vmp_lahmian_sisterhood	nag_lahmia_neferata
+colonel	mixer_nag_nagash	nag_vampire_lord
+minister	mixer_nag_nagash	nag_vampire_lord
