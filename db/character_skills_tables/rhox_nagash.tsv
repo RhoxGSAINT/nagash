@@ -204,3 +204,4 @@ nag_lord_unique_master_necromancer_corpse_cart_balefire	mount_corpse_cart_with_b
 nag_lord_unique_master_necromancer_corpse_cart_unholy_lodestone	mount_corpse_cart_with_lodestone.png		Corpse Cart (Unholy Lodestone)	0	false	false	false	0.0000	0
 nag_lord_unique_vmp_master_necromancer_barded_nightmare	mount_barded_nightmare.png		Barded Nightmare	0	false	false	false	0.0000	0
 nag_lord_unique_vmp_master_necromancer_hellsteed	mount_hellsteed.png		Hellsteed	0	false	false	false	0.0000	0
+nag_nagash_all_dummy_agent_actions_vmp_banshee	battle_attack.png		Actions [HIDDEN]	0	false	false	false	0.0000	0
