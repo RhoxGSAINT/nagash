@@ -42,21 +42,20 @@ mixer_nag_nagash	false	nag_cha_liche_priest_shadow_0	true	true	ui/portraits/port
 mixer_nag_nagash	false	nag_cha_liche_priest_shadow_1	true	true	ui/portraits/portholes/no_culture/tmb_liche_priest_campaign_03_0.png	wh2_dlc09_uniform_tmb_liche_priest_03	wh2_dlc09_tmb_cha_liche_priest_0	false		false
 mixer_nag_nagash	false	nag_cha_liche_priest_undeath_0	true	true	ui/portraits/portholes/no_culture/tmb_liche_priest_campaign_04_0.png	wh2_dlc09_uniform_tmb_liche_priest_04	wh2_dlc09_tmb_cha_liche_priest_0	false		false
 mixer_nag_nagash	false	nag_cha_liche_priest_undeath_1	true	true	ui/portraits/portholes/no_culture/tmb_liche_priest_campaign_04_0.png	wh2_dlc09_uniform_tmb_liche_priest_04	wh2_dlc09_tmb_cha_liche_priest_0	false		false
-mixer_nag_nagash	false	wh_dlc05_vmp_cha_vampire_shadows_0	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_02_0.png	wh_main_uniform_vmp_vampire_02	wh_main_vmp_cha_vampire_0	true		false
-mixer_nag_nagash	false	wh_dlc05_vmp_cha_vampire_shadows_1	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_02_0.png	wh_main_uniform_vmp_vampire_02	wh_main_vmp_cha_vampire_1	true		false
-mixer_nag_nagash	false	wh_dlc05_vmp_cha_vampire_shadows_2	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_02_0.png	wh_main_uniform_vmp_vampire_02	wh_main_vmp_cha_vampire_2	true		false
-mixer_nag_nagash	false	wh_main_vmp_cha_vampire_0	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_01_0.png	wh_main_uniform_vmp_vampire_01	wh_main_vmp_cha_vampire_0	true		false
-mixer_nag_nagash	false	wh_main_vmp_cha_vampire_1	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_01_0.png	wh_main_uniform_vmp_vampire_01	wh_main_vmp_cha_vampire_1	true		false
-mixer_nag_nagash	false	wh_main_vmp_cha_vampire_2	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_01_0.png	wh_main_uniform_vmp_vampire_01	wh_main_vmp_cha_vampire_2	true		false
-mixer_nag_nagash	false	wh2_dlc11_cst_cha_gunnery_wight_0	true	true	ui/portraits/portholes/no_culture/cst_gunnery_wight_campaign_01_0.png	wh2_dlc11_uniform_cst_gunnery_wight_01	wh2_dlc11_cst_cha_gunnery_wight_0	true		false
-mixer_nag_nagash	false	wh2_dlc11_cst_cha_gunnery_wight_1	true	true	ui/portraits/portholes/no_culture/cst_gunnery_wight_campaign_01_0.png	wh2_dlc11_uniform_cst_gunnery_wight_01	wh2_dlc11_cst_cha_gunnery_wight_0	true		false
-mixer_nag_nagash	false	wh_main_vmp_cha_wight_king_0	true	true	ui/portraits/portholes/no_culture/vmp_wight_king_sword_campaign_01_0.png	wh_main_uniform_vmp_wight_king_01	wh_main_vmp_cha_wight_king_0	true		false
-mixer_nag_nagash	false	wh_main_vmp_cha_wight_king_1	true	true	ui/portraits/portholes/no_culture/vmp_wight_king_sword_campaign_01_0.png	wh_main_uniform_vmp_wight_king_01	wh_main_vmp_cha_wight_king_1	true		false
-mixer_nag_nagash	false	wh_main_vmp_cha_wight_king_2	true	true	ui/portraits/portholes/no_culture/vmp_wight_king_sword_campaign_01_0.png	wh_main_uniform_vmp_wight_king_01	wh_main_vmp_cha_wight_king_2	true		false
+mixer_nag_nagash	false	wh_dlc05_vmp_cha_vampire_shadows_0	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_02_0.png	wh_main_uniform_vmp_vampire_02	wh_main_vmp_cha_vampire_0	false		false
+mixer_nag_nagash	false	wh_dlc05_vmp_cha_vampire_shadows_1	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_02_0.png	wh_main_uniform_vmp_vampire_02	wh_main_vmp_cha_vampire_1	false		false
+mixer_nag_nagash	false	wh_dlc05_vmp_cha_vampire_shadows_2	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_02_0.png	wh_main_uniform_vmp_vampire_02	wh_main_vmp_cha_vampire_2	false		false
+mixer_nag_nagash	false	wh_main_vmp_cha_vampire_0	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_01_0.png	wh_main_uniform_vmp_vampire_01	wh_main_vmp_cha_vampire_0	false		false
+mixer_nag_nagash	false	wh_main_vmp_cha_vampire_1	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_01_0.png	wh_main_uniform_vmp_vampire_01	wh_main_vmp_cha_vampire_1	false		false
+mixer_nag_nagash	false	wh_main_vmp_cha_vampire_2	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_01_0.png	wh_main_uniform_vmp_vampire_01	wh_main_vmp_cha_vampire_2	false		false
+mixer_nag_nagash	false	wh2_dlc11_cst_cha_gunnery_wight_0	true	true	ui/portraits/portholes/no_culture/cst_gunnery_wight_campaign_01_0.png	wh2_dlc11_uniform_cst_gunnery_wight_01	wh2_dlc11_cst_cha_gunnery_wight_0	false		false
+mixer_nag_nagash	false	wh2_dlc11_cst_cha_gunnery_wight_1	true	true	ui/portraits/portholes/no_culture/cst_gunnery_wight_campaign_01_0.png	wh2_dlc11_uniform_cst_gunnery_wight_01	wh2_dlc11_cst_cha_gunnery_wight_0	false		false
+mixer_nag_nagash	false	wh_main_vmp_cha_wight_king_0	true	true	ui/portraits/portholes/no_culture/vmp_wight_king_sword_campaign_01_0.png	wh_main_uniform_vmp_wight_king_01	wh_main_vmp_cha_wight_king_0	false		false
+mixer_nag_nagash	false	wh_main_vmp_cha_wight_king_2	true	true	ui/portraits/portholes/no_culture/vmp_wight_king_sword_campaign_01_0.png	wh_main_uniform_vmp_wight_king_01	wh_main_vmp_cha_wight_king_2	false		false
 mixer_nag_nagash	false	nag_tomb_banshee	true	true	ui/portraits/portholes/no_culture/vmp_banshees_campaign_01_0.png	wh_main_uniform_vmp_banshee_01	wh_main_vmp_cha_banshee	false		false
-mixer_nag_nagash	false	nag_mortarch_isabella	true	true	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	wh_pro02_uniform_vmp_isabella	nag_mortarch_isabella	true		false
-mixer_nag_nagash	false	nag_mortarch_isabella_hellsteed	true	true	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	wh_pro02_uniform_vmp_isabella	nag_mortarch_isabella_hellsteed	true		false
-mixer_nag_nagash	false	nag_mortarch_isabella_warhorse	true	true	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	wh_pro02_uniform_vmp_isabella	nag_mortarch_isabella_warhorse	true		false
+mixer_nag_nagash	false	nag_mortarch_isabella	true	true	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	wh_pro02_uniform_vmp_isabella	nag_mortarch_isabella	false		false
+mixer_nag_nagash	false	nag_mortarch_isabella_hellsteed	true	true	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	wh_pro02_uniform_vmp_isabella	nag_mortarch_isabella_hellsteed	false		false
+mixer_nag_nagash	false	nag_mortarch_isabella_warhorse	true	true	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	wh_pro02_uniform_vmp_isabella	nag_mortarch_isabella_warhorse	false		false
 mixer_nag_nagash	false	nag_morghasts_archai	true	true	ui/portraits/portholes/no_culture/nag_morghasts_archai.png	nag_morghasts_archai		false		false
 mixer_nag_nagash	false	nag_morghasts	true	true				false		false
 mixer_nag_nagash	false	nag_nagashi_guard	true	true				false		false
@@ -92,33 +91,33 @@ mixer_nag_nagash	false	nag_vanilla_tmb_mon_bone_giant_0	true	true				false		fals
 mixer_nag_nagash	false	nag_vanilla_tmb_art_screaming_skull_catapult_0	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_tmb_art_casket_of_souls_0	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_vmp_inf_zombie	true	true				false		false
-mixer_nag_nagash	false	nag_vanilla_vmp_inf_skeleton_warriors_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_inf_skeleton_warriors_1	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_inf_crypt_ghouls	true	true				true		false
+mixer_nag_nagash	false	nag_vanilla_vmp_inf_skeleton_warriors_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_inf_skeleton_warriors_1	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_inf_crypt_ghouls	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_vmp_inf_cairn_wraiths	true	true				false		false
-mixer_nag_nagash	false	nag_vanilla_vmp_inf_grave_guard_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_inf_grave_guard_1	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_cav_black_knights_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_cav_black_knights_3	true	true				true		false
+mixer_nag_nagash	false	nag_vanilla_vmp_inf_grave_guard_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_inf_grave_guard_1	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_cav_black_knights_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_cav_black_knights_3	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_vmp_cav_hexwraiths	true	true				false		false
-mixer_nag_nagash	false	nag_vanilla_vmp_cav_blood_knights_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_veh_corpse_cart_1	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_veh_corpse_cart_2	true	true				true		false
+mixer_nag_nagash	false	nag_vanilla_vmp_cav_blood_knights_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_veh_corpse_cart_1	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_veh_corpse_cart_2	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_vmp_mon_dire_wolves	true	true				false		false
 mixer_nag_nagash	false	nag_vanilla_vmp_mon_fell_bats	true	true				false		false
-mixer_nag_nagash	false	nag_vanilla_vmp_mon_vargheists	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_deckhands_mob_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_deckhands_mob_1	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_gunnery_mob_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_gunnery_mob_1	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_inf_deck_gunners_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_inf_depth_guard_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_mon_bloated_corpse_0	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_mon_terrorgheist	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_mon_crypt_horrors	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_vmp_mon_varghulf	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_art_carronade	true	true				true		false
-mixer_nag_nagash	false	nag_vanilla_cst_mon_necrofex_colossus_0	true	true				true		false
+mixer_nag_nagash	false	nag_vanilla_vmp_mon_vargheists	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_deckhands_mob_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_deckhands_mob_1	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_gunnery_mob_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_inf_zombie_gunnery_mob_1	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_inf_deck_gunners_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_inf_depth_guard_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_mon_bloated_corpse_0	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_mon_terrorgheist	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_mon_crypt_horrors	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_vmp_mon_varghulf	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_art_carronade	true	true				false		false
+mixer_nag_nagash	false	nag_vanilla_cst_mon_necrofex_colossus_0	true	true				false		false
 mixer_nag_nagash	false	nag_shade_haunts	true	true				false		false
 mixer_nag_nagash	false	nag_spirit_hosts	true	true				false		false
 mixer_nag_nagash	false	nag_spectre_swarm	true	true				false		false
