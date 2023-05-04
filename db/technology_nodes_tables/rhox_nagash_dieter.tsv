@@ -1,11 +1,11 @@
 key	campaign_key	faction_key	indent	technology_key	technology_node_set	tier	research_points_required	cost_per_round	food_cost	optional_ui_group	resource_cost	required_parents	pixel_offset_x	pixel_offset_y
 #technology_nodes_tables;0;db/technology_nodes_tables/rhox_nagash_dieter														
-nag_dieter_battle_1			5	nag_dieter_battle_1	nagash_tech	16	300	0	0			0	0	0
-nag_dieter_battle_2			6	nag_dieter_battle_2	nagash_tech	16	300	0	0			0	0	0
-nag_dieter_battle_3			7	nag_dieter_battle_3	nagash_tech	16	300	0	0			0	0	0
-nag_mortarch_dieter_event_1			1	nag_mortarch_dieter_event_1	nagash_tech	16	300	0	0			0	0	0
-nag_mortarch_dieter_event_2			2	nag_mortarch_dieter_event_2	nagash_tech	16	1	1000	0			0	0	0
-nag_mortarch_dieter_event_3			3	nag_mortarch_dieter_event_3	nagash_tech	16	1	2500	0			0	0	0
-nag_mortarch_dieter_unlock			4	nag_mortarch_dieter_unlock	nagash_tech	15	200	0	0			0	0	0
-nag_dieter_proclamation			8	nag_dieter_proclamation	nagash_tech	15	1	5000	0			0	0	0
-nag_dieter_archai			0	nag_dieter_archai	nagash_tech	15	1	0	0			0	0	0
+nag_dieter_battle_1			5	nag_dieter_battle_1	nagash_tech	17	300	0	0			0	0	0
+nag_dieter_battle_2			6	nag_dieter_battle_2	nagash_tech	17	300	0	0			0	0	0
+nag_dieter_battle_3			7	nag_dieter_battle_3	nagash_tech	17	300	0	0			0	0	0
+nag_mortarch_dieter_event_1			1	nag_mortarch_dieter_event_1	nagash_tech	17	300	0	0			0	0	0
+nag_mortarch_dieter_event_2			2	nag_mortarch_dieter_event_2	nagash_tech	17	1	1000	0			0	0	0
+nag_mortarch_dieter_event_3			3	nag_mortarch_dieter_event_3	nagash_tech	17	1	2500	0			0	0	0
+nag_mortarch_dieter_unlock			4	nag_mortarch_dieter_unlock	nagash_tech	16	200	0	0			0	0	0
+nag_dieter_proclamation			8	nag_dieter_proclamation	nagash_tech	16	1	5000	0			0	0	0
+nag_dieter_archai			0	nag_dieter_archai	nagash_tech	16	1	0	0			0	0	0

@@ -44,3 +44,7 @@ nag_azhag_horde	HORDE	false
 nag_azhag_horde	ARMY	true
 HORDE	nag_azhag_horde	false
 ARMY	nag_azhag_horde	false
+nag_dk_horde	HORDE	false
+nag_dk_horde	ARMY	true
+HORDE	nag_dk_horde	false
+ARMY	nag_dk_horde	false

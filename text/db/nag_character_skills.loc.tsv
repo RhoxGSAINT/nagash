@@ -450,3 +450,9 @@ character_skills_localised_name_nag_lord_unique_master_necromancer_corpse_cart_u
 character_skills_localised_name_nag_lord_unique_vmp_master_necromancer_barded_nightmare	Barded Nightmare	false
 character_skills_localised_name_nag_nagash_all_dummy_agent_actions_vmp_banshee	Dummy	false
 character_skills_localised_description_nag_nagash_all_dummy_agent_actions_vmp_banshee	This is because Banshee had changed its agent_type to runesmith from spy	false
+character_skills_localised_name_nag_Soulreaper	Soulreaper	false
+character_skills_localised_description_nag_Soulreaper	Claiming the souls of the living, trapped inside the sword. once filled allows the summoning of great warriors	false
+character_skills_localised_name_nag_elo_hand_punished_one	The Punished One	false
+character_skills_localised_description_nag_elo_hand_punished_one	The skeleton on this weapon is known to scream in agony. No sound is produced, yet all close to it feel its pain and witness its torment.	false
+character_skills_localised_name_nag_elo_hungering_blade	The Hungering Blade	false
+character_skills_localised_description_nag_elo_hungering_blade	A gift from Nagash to a loyal servant, the hungering blade will extend the unholy existence of its wielder should he ever be in danger.	false

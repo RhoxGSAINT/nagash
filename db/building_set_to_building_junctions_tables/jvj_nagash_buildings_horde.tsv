@@ -51,3 +51,5 @@ nag_dieter_horde_landmark		nag_horde_unique	false
 nag_dieter_horde_special		nag_horde_settlement	false
 nag_azhag_horde_landmark		nag_horde_unique	false
 nag_azhag_horde_special		nag_horde_settlement	false
+nag_dk_horde_landmark		nag_horde_unique	false
+nag_dk_horde_special		nag_horde_settlement	false
