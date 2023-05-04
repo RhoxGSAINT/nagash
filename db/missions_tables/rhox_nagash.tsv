@@ -42,3 +42,4 @@ nag_endgame_capture	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Mili
 rhox_nagash_get_azhag_mission	SCRIPTED			tmb/generic	event_province_positive.png	false	true	Quest		0	0	true	false	0.0000		true		false
 nag_mortarch_dieter_unlock	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
 rhox_nagash_final_step_mission	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Quest		0	0	false	false	0.0000		true	Success! You have achieved one of your goals.	false
+nag_mortarch_dk_unlock	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false

@@ -332,7 +332,7 @@ effects_description_nag_krell_unit_effect	Weapon strength: %+n% for Krell	true
 effects_description_nag_neferata_unit_effect	Grants Stalk to Neferata	true
 effects_description_nag_vlad_unit_effect	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded" for Vlad	true
 effects_description_nag_undead_corruption_world_dummy	Vampiric corruption: %+n (Whole World)	true
-effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Quatar[[/col]]	true
+effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Deff Gorge[[/col]]	true
 effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to your Legion, spawning in [[col:yellow]]The Awakening[[/col]]	true
 effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
@@ -422,3 +422,4 @@ effects_description_nag_effect_upkeep_reduction_unembedded_vampire_agents	Need t
 effects_description_nag_effect_upkeep_reduction_vampire_agents	Upkeep: %+n% for Vampire [[img:icon_hero]][[/img]]Heroes	false
 effects_description_nag_effect_force_stat_melee_attack_scorpions	Melee attack: %+n for Tomb Scorpion units	false
 effects_description_nag_effect_upkeep_reduction_blood_knights_mortis	Upkeep: %+n% for Blood Knights and Mortis Engine units	false
+effects_description_nag_dk_unlock	Summon [[col:yellow]]Dread King[[/col]] to your Legion, spawning in [[col:yellow]]Black Pyramid of Nagash[[/col]]	false

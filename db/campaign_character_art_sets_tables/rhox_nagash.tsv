@@ -75,3 +75,5 @@ nag_master_necromancer_04	general				false	true	nag_master_necromancer	1.0000
 nag_tomb_banshee_01	runesmith				false	false	nag_tomb_banshee	1.0000
 nag_tomb_banshee_02	runesmith				false	false	nag_tomb_banshee	1.0000
 nag_tomb_banshee_03	runesmith				false	false	nag_tomb_banshee	1.0000
+nag_mortarch_dk	general				false	true	nag_mortarch_dk	1.0000
+nag_mortarch_hand	champion				false	true	nag_mortarch_hand	1.0000

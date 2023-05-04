@@ -30,3 +30,4 @@ nag_effect_force_stat_charge_bonus_fell_bats_dire_wolves	charge.png	501	charge.p
 nag_effect_ability_enable_the_hunger_fellbats_direwolves	general_ability.png	600	general_ability.png	battle	true
 nag_effect_upkeep_reduction_unembedded_vampire_agents		0		campaign	false
 nag_effect_upkeep_reduction_vampire_agents	wh_main_vmp_vampire_counts/military_spending.png	105	military_spending.png	campaign	false
+nag_dk_unlock	army.png	1	army.png	campaign	true

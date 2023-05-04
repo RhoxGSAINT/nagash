@@ -15,3 +15,5 @@ mct_nag_nagsh_nag_mortarch_dieter_text	Dieter obedience chance	false
 mct_nag_nagsh_nag_mortarch_dieter_tooltip	When AI Nagash researches technology, Dieter will obey and become confederated with the following chance. When they disobey, Nagash will declare war on them	false
 mct_nag_nagsh_nag_mortarch_neferata_text	Neferata obedience chance	false
 mct_nag_nagsh_nag_mortarch_neferata_tooltip	When AI Nagash researches technology, Neferata will obey and become confederated with the following chance. When they disobey, Nagash will declare war on them	false
+mct_nag_nagsh_nag_mortarch_dk_text	Dread King obedience chance	false
+mct_nag_nagsh_nag_mortarch_dk_tooltip	When AI Nagash researches technology, Dread King will obey and become confederated with the following chance. When they disobey, Nagash will declare war on them	false

@@ -25,3 +25,6 @@ tech_lock_nag_mortarch_vlad_event_1	[PH] TBD	true
 tech_lock_nag_mortarch_vlad_event_2	[[col:red]]Reclaim Altdorf[[/col]]	true
 tech_lock_nag_mortarch_vlad_event_3	[PH] Volkmar Killed/Wipe out factions that follow Sigmar?	true
 tech_lock_unavailable_bp	[[col:red]]Raise the Black Pyramid to spread word of your coming to potential followers.[[/col]]	true
+technology_node_sets_localised_name_nagash_tech_dummy	You should never see this	false
+technology_node_sets_tooltip_string_nagash_tech_dummy	You should never see this	false
+technology_node_sets_encyclopaedia_string_nagash_tech_dummy	You should never see this	false
