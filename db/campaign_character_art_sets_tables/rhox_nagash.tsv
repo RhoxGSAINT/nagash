@@ -16,7 +16,7 @@ nag_traitor_king_02	general				false	true	nag_traitor_king	1.0000
 nag_traitor_king_03	general				false	true	nag_traitor_king	1.0000
 nag_traitor_king_04	general				false	true	nag_traitor_king	1.0000
 nag_traitor_king_05	general				false	true	nag_traitor_king	1.0000
-nag_mortarch_isabella	dignitary				false	true	nag_mortarch_isabella	1.0000
+nag_mortarch_isabella	dignitary				false	false	nag_mortarch_isabella	1.0000
 nag_tomb_prince_01	champion				false	true	nag_tomb_prince	1.0000
 nag_tomb_prince_02	champion				false	true	nag_tomb_prince	1.0000
 nag_tomb_prince_03	champion				false	true	nag_tomb_prince	1.0000
