@@ -25,7 +25,7 @@ nag_hand_of_nagash_self_9		wh2_dlc11_skill_all_lord_self_full_plate_armour	nag_s
 nag_hand_of_nagash_self_10		wh2_dlc11_skill_all_lord_self_blade_shield	nag_skill_node_set_mortarch_hand		2.0000	9.0000		0	0	true
 nag_hand_of_nagash_self_11		elo_hand_judge_executioner	nag_skill_node_set_mortarch_hand		2.0000	10.0000		0	4	true
 nag_hand_of_nagash_unique_01		elo_terror_land	nag_skill_node_set_mortarch_hand		1.0000	0.0000		0	0	true
-nag_hand_of_nagash_unique_02		elo_dark_charioteer	nag_skill_node_set_mortarch_hand		1.0000	1.0000		0	0	true
+nag_hand_of_nagash_unique_02		nag_elo_dark_charioteer	nag_skill_node_set_mortarch_hand		1.0000	1.0000		0	0	true
 nag_hand_of_nagash_unique_03		elo_undead_traveler	nag_skill_node_set_mortarch_hand		1.0000	2.0000		0	0	true
 nag_hand_of_nagash_unique_04		elo_undead_warrior	nag_skill_node_set_mortarch_hand		1.0000	3.0000		0	0	true
 nag_hand_of_nagash_unique_05		elo_hand_destroyer	nag_skill_node_set_mortarch_hand		1.0000	4.0000		0	0	true
@@ -38,7 +38,7 @@ nag_hand_of_nagash_mount_01		mount_skeletal_steed_hand_of_nagash	nag_skill_node_
 nag_hand_of_nagash_mount_02		mount_chariot_hand_of_nagash	nag_skill_node_set_mortarch_hand		0.0000	3.0000		0	0	true
 nag_hand_of_nagash_generic_05		nag_elo_hand_punished_one	nag_skill_node_set_mortarch_hand		0.0000	0.0000		0	0	true
 nag_hand_of_nagash_generic_06		nag_elo_hungering_blade	nag_skill_node_set_mortarch_hand		0.0000	1.0000		0	0	true
-nag_hand_of_nagash_trait		elo_nag_hand_of_nagash_trait	nag_skill_node_set_mortarch_hand		7.0000	7.0000		0	0	false
+nag_hand_of_nagash_trait		nag_elo_hand_of_nagash_trait	nag_skill_node_set_mortarch_hand		7.0000	7.0000		0	0	false
 nag_agent_action_scaling_hand_of_nagash		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_mortarch_hand		99.0000	0.0000		0	0	false
 nag_skill_node_vmp_hand_of_nagash_campaign_01		wh2_main_skill_all_hero_assist_army_training	nag_skill_node_set_mortarch_hand		5.0000	0.0000		0	0	true
 nag_skill_node_vmp_hand_of_nagash_campaign_02		wh2_main_skill_all_hero_passive_spread_public_order	nag_skill_node_set_mortarch_hand		5.0000	1.0000		0	0	true

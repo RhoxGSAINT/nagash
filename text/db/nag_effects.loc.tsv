@@ -326,7 +326,7 @@ effects_description_nag_effect_grand_spell_03_recharge_instant	Recharges ability
 effects_description_nag_effect_spawns_army_dummy	Spawns army at Nagash location	true
 effects_description_nag_effect_cannot_grow_disable	Allows the settlement to grow permanently (current location of Nagash)	true
 effects_description_nag_arkhan_unit_effect	Physical resistance: %n% for Arkhan	true
-effects_description_nag_luthor_harkon	Magic Resistance: %n% for Luthor Harkon	true
+effects_description_nag_luthor_harkon	Spell Resistance: %n% for Luthor Harkon	true
 effects_description_nag_mannfred_unit_effect	Cooldown : %n% Lore of Vampires for Mannfred	true
 effects_description_nag_krell_unit_effect	Weapon strength: %+n% for Krell	true
 effects_description_nag_neferata_unit_effect	Grants Stalk to Neferata	true
@@ -423,3 +423,4 @@ effects_description_nag_effect_upkeep_reduction_vampire_agents	Upkeep: %+n% for 
 effects_description_nag_effect_force_stat_melee_attack_scorpions	Melee attack: %+n for Tomb Scorpion units	false
 effects_description_nag_effect_upkeep_reduction_blood_knights_mortis	Upkeep: %+n% for Blood Knights and Mortis Engine units	false
 effects_description_nag_dk_unlock	Summon [[col:yellow]]Dread King[[/col]] to your Legion, spawning in [[col:yellow]]Black Pyramid of Nagash[[/col]]	false
+effects_description_nag_archai_spawn_effect_dummy	Morghast Archai will spawn near the Mortarch or where the Mortarch has spawned	false

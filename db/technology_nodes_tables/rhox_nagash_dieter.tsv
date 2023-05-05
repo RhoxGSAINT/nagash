@@ -8,4 +8,4 @@ nag_mortarch_dieter_event_2			2	nag_mortarch_dieter_event_2	nagash_tech	17	1	100
 nag_mortarch_dieter_event_3			3	nag_mortarch_dieter_event_3	nagash_tech	17	1	2500	0			0	0	0
 nag_mortarch_dieter_unlock			4	nag_mortarch_dieter_unlock	nagash_tech	16	200	0	0			0	0	0
 nag_dieter_proclamation			8	nag_dieter_proclamation	nagash_tech	16	1	5000	0			0	0	0
-nag_dieter_archai			0	nag_dieter_archai	nagash_tech	16	1	0	0			0	0	0
+nag_dieter_archai			0	nag_dieter_archai	nagash_tech	16	800	0	0			0	0	0
