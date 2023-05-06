@@ -16,3 +16,13 @@ nag_decreased_reserves	109	positive
 nag_summon_skeletons	100	positive
 nag_drain_essence	101	positive
 nag_aoe_damage_and_heal	1	positive
+nag_no_binding	1	positive
+nag_defend_frontline	1	positive
+nag_attack_enemy_missile	1	positive
+nag_summon_zombies	2	positive
+nag_summon_reapers	2	positive
+nag_summon_crypt_ghouls	2	positive
+nag_summon_cairn_wraiths	2	positive
+nag_summon_fell_bats	2	positive
+nag_summon_corpse_cart_balefire	2	positive
+nag_summon_corpse_cart_lodestone	2	positive

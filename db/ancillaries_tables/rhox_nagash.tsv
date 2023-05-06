@@ -64,3 +64,6 @@ nag_anc_mount_vmp_master_necromancer_corpse_cart_balefire	wh_dlc04_anc_mount_cor
 nag_anc_mount_vmp_master_necromancer_corpse_cart_unholy_lodestone	wh_dlc04_anc_mount_corpse_cart_lodestone	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_master_necromancer_3		1	0		false	false	true	all
 nag_anc_mount_vmp_master_necromancer_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_master_necromancer_5		1	0		false	false	true	all
 nag_anc_mount_vmp_master_necromancer_hellsteed	wh_main_anc_mount_hellsteed	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_master_necromancer_4		1	0		false	false	true	all
+nag_anc_husk_talisman_books_of_nagash_book_two	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_husk_talisman_books_of_nagash_book_three	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_husk_talisman_books_of_nagash_book_eight	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
