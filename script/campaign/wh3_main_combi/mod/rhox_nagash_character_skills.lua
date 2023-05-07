@@ -210,15 +210,6 @@ local nagash_defeat_LL = {
 }
 
 
-
-
-
-
-
-
-
-
-
 local function rhox_nagash_get_enemy_legendary_lords_in_last_battle(character)
 	local pb = cm:model():pending_battle()
 	local LL_attackers = {}
@@ -295,7 +286,71 @@ core:add_listener(
 )
 
 
+------------------------------------------------------------------------------------------------raise dead cap update
+local raise_dead_cap = 0
 
+local function rhox_nagash_update_raise_dead_pool()
+    local region_list = cm:model():world():region_manager():region_list()
+    for i=0,region_list:num_items()-1 do
+        local region= region_list:item_at(i)
+        for key, unit in pairs(RHOX_NAGASH_BASIC_RAISE_DEAD_UNITS) do
+            cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[3]+raise_dead_cap-1, unit[2], unit[3]+raise_dead_cap, 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
+        end
+        if cm:get_saved_value("rhox_nagash_luthor_recruited") == true then--it means Luthor has been recruited, update the sea pool also
+            for key, unit in pairs(RHOX_NAGASH_RAISE_DEAD_SEA_UNITS) do
+                cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[3]+raise_dead_cap-1, unit[2], unit[3]+raise_dead_cap, 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
+            end
+        end
+    end
+end
+
+
+
+
+
+core:add_listener(
+    "rhox_nagash_turn_start_raise_dead_cap_update",
+    "FactionTurnStart",
+    function(context)
+        local new_raise_dead_cap = context:faction():bonus_values():scripted_value("rhox_nagash_raisedead_cap", "value")
+        return context:faction():name() == nagash_faction and raise_dead_cap ~= new_raise_dead_cap --trigger only if new raise dead cap is differenct from before
+    end,
+    function(context)
+        local new_raise_dead_cap = context:faction():bonus_values():scripted_value("rhox_nagash_raisedead_cap", "value")
+        
+        out("Rhox Nagash: old raise dead cap: ".. raise_dead_cap)
+        out("Rhox Nagash: new raise dead cap: ".. new_raise_dead_cap)
+        raise_dead_cap = new_raise_dead_cap;
+        
+        rhox_nagash_update_raise_dead_pool()
+    end,
+    true
+)
+
+core:add_listener(
+	"rhox_nagash_raise_dead_CharacterSkillPointAllocated",
+	"CharacterSkillPointAllocated",
+	function(context)
+		local skill = context:skill_point_spent_on()
+		local character = context:character()
+		local faction = character:faction()
+		local new_raise_dead_cap = faction:bonus_values():scripted_value("rhox_nagash_raisedead_cap", "value")
+		return skill == "nag_lord_unique_necromancer_raising_dead" and raise_dead_cap ~= new_raise_dead_cap --trigger only if new raise dead cap is differenct from before
+	end,
+	function(context)
+        out("Rhox Nagash: Raisedead cap skill allocated")		
+        local character = context:character()
+		local faction = character:faction()
+		local new_raise_dead_cap = faction:bonus_values():scripted_value("rhox_nagash_raisedead_cap", "value")
+		out("Rhox Nagash: old raise dead cap: ".. raise_dead_cap)
+        out("Rhox Nagash: new raise dead cap: ".. new_raise_dead_cap)
+        raise_dead_cap = new_raise_dead_cap;
+        
+        rhox_nagash_update_raise_dead_pool()
+		
+	end,
+	true
+)
 
 
 --------------------------------------------------------------
@@ -304,11 +359,13 @@ core:add_listener(
 cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("rhox_nag_harkon_personality", harkon_personality, context)
+		cm:save_named_value("rhox_nag_raise_dead_cap", raise_dead_cap, context)
 	end
 )
 
 cm:add_loading_game_callback(
 	function(context)
 		harkon_personality = cm:load_named_value("rhox_nag_harkon_personality", harkon_personality, context)
+		raise_dead_cap = cm:load_named_value("rhox_nag_raise_dead_cap", raise_dead_cap, context)
 	end
 )
