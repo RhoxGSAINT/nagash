@@ -409,14 +409,14 @@ end
 
 
 
------------------this is to remove the black pyramid end game
+-----------------this is to remove the black pyramid and vampire rise end game
 cm:add_post_first_tick_callback(
     function()
         if cm:is_new_game() and #endgame.scenarios > 0 then --there is something in the end game scenarios
             for i=1, #endgame.scenarios do
                 local value = endgame.scenarios[i]
-                if value == "endgame_pyramid_of_nagash" then
-                    table.remove(endgame.scenarios, i) --remove black pryramid
+                if value == "endgame_pyramid_of_nagash" or value == "endgame_vampires_rise" then
+                    table.remove(endgame.scenarios, i) --remove black pryramid or vampire rise
                     break
                 end
             end
