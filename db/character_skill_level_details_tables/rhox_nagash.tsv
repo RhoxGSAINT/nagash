@@ -11,6 +11,9 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_unique_nagash_book_seven		x	0
 		1	nag_skill_unique_nagash_book_eight		x	0
 		1	nag_skill_unique_nagash_book_nine		x	0
+		1	nag_skill_unique_nagash_husk_book_two		x	0
+		1	nag_skill_unique_nagash_husk_book_three		x	0
+		1	nag_skill_unique_nagash_husk_book_eight		x	0
 		1	nag_skill_unique_nagash_alakanash		x	6
 		1	nag_skill_unique_vlad_blood_drinker		x	5
 		1	nag_skill_unique_vlad_the_carstein_ring		x	11
@@ -86,6 +89,8 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_lord_unique_vampire_lord_barded_nightmare		x	7
 		1	nag_lord_unique_vampire_lord_hellsteed		x	9
 		1	nag_lord_unique_vampire_lord_zombie_dragon		x	17
+		2	nag_lord_unique_necromancer_leading_dead		x	12
+		2	nag_lord_unique_necromancer_raising_dead		x	12
 		1	nag_Soulreaper		x	9
 		1	nag_elo_hand_punished_one		x	1
 		1	nag_elo_hungering_blade		x	1

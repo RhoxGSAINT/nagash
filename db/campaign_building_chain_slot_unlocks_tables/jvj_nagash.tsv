@@ -1,12 +1,6 @@
 building_chain	level	active_slot_count
 #campaign_building_chain_slot_unlocks_tables;1;db/campaign_building_chain_slot_unlocks_tables/jvj_nagash		
 nag_outpost_secondary_main	1	1
-nag_outpost_special_mourkain	-1	2
-nag_outpost_special_lahmia	-1	2
-nag_outpost_special_khemri	-1	2
-nag_outpost_special_awakening	-1	2
-nag_outpost_special_drakenhof	-1	2
-nag_outpost_special_quintex	-1	2
 nag_outpost_special_nagashizzar	1	2
 nag_outpost_special_nagashizzar	2	4
 nag_outpost_special_nagashizzar	3	6

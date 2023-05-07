@@ -153,3 +153,17 @@ unit_abilities_onscreen_name_nag_endless_tomb_skeleton_unbinding	Unbinding	true
 unit_abilities_tooltip_text_nag_endless_tomb_skeleton_unbinding	Summoned creatures exist in this world on borrowed time, disappearing back to the winds from whence they came.	true
 unit_abilities_onscreen_name_nag_azhag_abilities_reckless_whispers	Reckless Whispers	true
 unit_abilities_tooltip_text_nag_azhag_abilities_reckless_whispers	Azhag tries to understand the murmurs from the crown, "guilty feet, no... no rhythm, fool" Ahhh, Zog it!	true
+unit_abilities_onscreen_name_nag_bound_spell_raise_dead_zombie	Raise Dead	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_zombie	Necromancers can awaken mortal remains to reinforce their Undead legions.	false
+unit_abilities_onscreen_name_nag_bound_spell_raise_dead_reapers	Grim's Reaping	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_reapers	It's almost harvesting season.	false
+unit_abilities_onscreen_name_nag_bound_spell_raise_dead_crypt_ghouls	Tales from the Crypt	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_crypt_ghouls	In the darkness they linger, starving, waiting for a meal to present itself.	false
+unit_abilities_onscreen_name_nag_bound_spell_raise_dead_cairn_wraiths	Fright Night	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_cairn_wraiths	There are some very good reason to be afraid of the dark.	false
+unit_abilities_onscreen_name_nag_bound_spell_raise_dead_fell_bats	As Above, So Below	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_fell_bats	Look up...	false
+unit_abilities_onscreen_name_nag_bound_spell_raise_dead_corpse_cart_balefire	Infernal Braziers	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_corpse_cart_balefire	The green flames lick through the fog, empowering the dead around them.	false
+unit_abilities_onscreen_name_nag_bound_spell_raise_dead_corpse_cart_lodestone	For Whom the Bell Tolls	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_corpse_cart_lodestone	In the darkness the bell rings out, with the dead following in tow.	false
