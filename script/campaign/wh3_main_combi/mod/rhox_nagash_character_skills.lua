@@ -2,11 +2,8 @@ local nagash_faction = "mixer_nag_nagash"
 
 
 local skill_to_anc ={
-    nag_skill_unique_nagash_alakanash = "nag_anc_arcane_item_alakanash_staff_of_power",
-    nag_skill_unique_nagash_book_two = "nag_anc_talisman_books_of_nagash_book_two",
-    nag_skill_unique_nagash_book_three = "nag_anc_talisman_books_of_nagash_book_three",
-    nag_skill_unique_nagash_book_eight = "nag_anc_talisman_books_of_nagash_book_eight"
-} --husk and boss both have these skill, so to remove the duplicate ancillary
+    nag_skill_unique_nagash_alakanash = "nag_anc_arcane_item_alakanash_staff_of_power"
+} --husk and boss both have this skill, so to remove the duplicate ancillary
 	
 
 core:add_listener(
