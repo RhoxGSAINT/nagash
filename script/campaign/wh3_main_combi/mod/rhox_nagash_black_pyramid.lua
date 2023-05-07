@@ -436,7 +436,7 @@ function complete_bp_raise()
     
     
 
-    --below create agent causes error at some point so be cautious
+    
     local archai = cm:create_agent(
         faction_key,
         "spy",

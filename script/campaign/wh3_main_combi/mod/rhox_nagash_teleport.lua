@@ -34,7 +34,7 @@ function rhox_nagash_add_teleport_listener()
         "rhox_nagash_teleport_check",
         "FactionTurnStart",
         function (context)
-            return context:faction():name() == cm:get_local_faction_name(true)
+            return context:faction():name() == nagash_faction
         end,
         function (context)
             local region = cm:get_region("wh3_main_combi_region_ancient_city_of_quintex")

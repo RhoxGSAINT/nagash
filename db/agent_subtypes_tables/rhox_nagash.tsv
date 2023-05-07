@@ -27,3 +27,5 @@ nag_lahmia_neferata	false	true		nag_mortarch_neferata	wh_main_vo_actor_Vampire_F
 nag_vampire_lord	true	true		nag_vampire_lord_0	wh_main_vo_actor_Vampire_Lord	true	-1	false	true	false	true	vmp_lord		names_vmp_vampire_counts	true	true	can_be_saved_loaded		false	true	0
 nag_master_necromancer	true	true		nag_master_necromancer_0	wh_main_vo_actor_Vampire_MasterNecromancer	true	-1	false	true	false	true	vmp_master_necromancer		names_vmp_vampire_counts	true	true	can_be_saved_loaded		false	true	0
 nag_tomb_banshee	true	false	ui/campaign ui/agents/wh_main_vmp_spy.png	nag_tomb_banshee	wh_main_vo_actor_Vampire_Banshee	true	-1	true	true	false	true			names_vmp_vampire_counts	true	true	can_be_saved_loaded		false	true	0
+nag_mortarch_dk	false	true		Dread_King	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	false	legendary_lords			true	true	cannot_be_saved_loaded		false	true	0
+nag_mortarch_hand	false	true		elo_hand_of_nagash	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Prince	false	-1	false	true	false	false				true	true	cannot_be_saved_loaded		false	true	0

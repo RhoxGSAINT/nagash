@@ -194,7 +194,16 @@ local function add_nagash_listener()
                 mm:add_condition("region wh3_main_combi_region_black_pyramid_of_nagash");
                 mm:add_payload("money 1000");
                 mm:trigger()
-    
+                
+                if vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua") then --trigger dk mission only if you've dread king turned on
+                    local mm2 = mission_manager:new(nag_fact, "nag_mortarch_dk_unlock")
+                    mm2:add_new_objective("MOVE_TO_REGION");
+                    mm2:add_condition("region wh3_main_combi_region_black_pyramid_of_nagash");
+                    mm2:add_payload("text_display nag_mortarch_dk_technology");
+                    mm2:add_payload("money 1000");
+                    mm2:trigger()
+                end
+
                 --[[
                 --teleport Arkhan to Nagash's location
                 local nagash_character = cm:get_faction(nagash_faction):faction_leader()
@@ -400,14 +409,14 @@ end
 
 
 
------------------this is to remove the black pyramid end game
+-----------------this is to remove the black pyramid and vampire rise end game
 cm:add_post_first_tick_callback(
     function()
         if cm:is_new_game() and #endgame.scenarios > 0 then --there is something in the end game scenarios
             for i=1, #endgame.scenarios do
                 local value = endgame.scenarios[i]
-                if value == "endgame_pyramid_of_nagash" then
-                    table.remove(endgame.scenarios, i) --remove black pryramid
+                if value == "endgame_pyramid_of_nagash" or value == "endgame_vampires_rise" then
+                    table.remove(endgame.scenarios, i) --remove black pryramid or vampire rise
                     break
                 end
             end
@@ -556,6 +565,7 @@ cm:add_first_tick_callback(
                 cm:lock_technology(nagash_faction, "nag_mortarch_neferata_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_vlad_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_dk_unlock")
                 cm:lock_technology(nagash_faction, "nag_nagash_ultimate")
             else --if they're not human. They're getting free grand spells
                 cm:apply_effect_bundle("nag_grand_spell_01_20", nagash_faction,0)
@@ -564,12 +574,16 @@ cm:add_first_tick_callback(
                 cm:treasury_mod(nagash_faction, 50000)
                 cm:apply_effect_bundle("rhox_nagash_ai_bonus", nagash_faction,0) --TODO this is to make sure AI Nagash is super strong. Remove this before the Launch
             end
-            if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
+            if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock") --this needs to be done for the AI also if mixu lords aren't there
             end
             
+            if not vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua") then
+                cm:lock_technology(nagash_faction, "nag_mortarch_dk_unlock") --this needs to be done for the AI also if DK isn't active
+            end
             
-            if cm:get_local_faction_name(true) == nagash_faction then
+            
+            if cm:get_faction(nagash_faction):is_human() then
                 --rhox_nagash_swith_skarbrand_arkhan()
                 cm:apply_effect_bundle("rhox_nagash_disabled", nagash_faction, 0)
                 cm:set_saved_value("bp_ritual_available", false)
@@ -611,8 +625,9 @@ cm:add_first_tick_callback(
             rhox_nagash_check_pyramid_status()
             rhox_nag_add_harkon_listener()
             mortarch_unlock_listeners() --AI doesn't trigger the research completed condition. So let's just leave it here
-            if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then
-                rhox_nagash_remove_dieter_tech_listener()
+            if not (vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") and vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua")) then
+                out("Rhox Nagash: Calling Other tech remover listeners")
+                rhox_nagash_remove_other_mod_mortarch_tech_listener()
             end
         else
             rhox_nagash_add_ai_mortarch_mission() --and AI listener for them

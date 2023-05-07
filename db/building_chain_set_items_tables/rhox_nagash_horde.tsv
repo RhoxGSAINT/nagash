@@ -49,3 +49,5 @@ nag_dieter_horde_landmark	rhox_nag_horde_secondary		false
 nag_dieter_horde_special	rhox_nagash_special_horde_dieter		false
 nag_azhag_horde_landmark	rhox_nag_horde_secondary		false
 nag_azhag_horde_special	rhox_nagash_special_horde_azhag		false
+nag_dk_horde_landmark	rhox_nag_horde_secondary		false
+nag_dk_horde_special	rhox_nagash_special_horde_dk		false

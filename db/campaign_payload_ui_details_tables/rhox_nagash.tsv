@@ -13,3 +13,4 @@ nag_mortarch_war	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.pn
 rhox_nagash_final_tech_unlock	ui/skins/default/technology_positive.png	positive	0
 dummy_rhox_nagash_boss_appear	ui/skins/mixer_nag_nagash/nag_special_pyramids_icon.png	positive	0
 dummy_rhox_nagash_end_of_world	ui/campaign ui/effect_bundles/trait_mortarch.png	positive	0
+nag_mortarch_dk_technology	ui/skins/default/technology_positive.png	positive	0

@@ -50,3 +50,5 @@ nag_dieter_horde_landmark			military	false	nag_dieter_horde_landmark		2	nag_mort
 nag_dieter_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
 nag_azhag_horde_landmark			military	false	nag_azhag_horde_landmark		2	nag_mortarch_azhag	true
 nag_azhag_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
+nag_dk_horde_landmark			military	false	nag_dk_horde_landmark		2	nag_mortarch_dk	true
+nag_dk_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true

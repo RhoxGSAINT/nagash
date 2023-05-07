@@ -1,0 +1,6 @@
+key	text	tooltip
+#Loc;1;text/db/nag_nagash_technology_ui_tabs.loc		
+technology_ui_tabs_localised_name_nagash_ritual	Ritual	false
+technology_ui_tabs_tooltip_string_nagash_ritual	The Technologies in this section are focused around holding the ritual that ultimately leads to the campaign victory. 	false
+technology_ui_tabs_localised_name_nagash_mortarch	Mortarch	false
+technology_ui_tabs_tooltip_string_nagash_mortarch	The Technologies in this section are focused around recruiting the powerful Mortarchs into your army.	false

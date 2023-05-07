@@ -194,7 +194,7 @@ effects_description_nag_effect_grant_immortality_lord	When normally killed in ba
 effects_description_nag_effect_ability_enable_eternal_danse_macabre	Passive ability: "Vanhel's Eternal Danse Macabre"	true
 effects_description_nag_effect_ability_enable_malediction_of_nagash	Passive ability: "Malediction of Nagash"	true
 effects_description_nag_effect_ability_enable_raise_the_dead	Passive ability: "Raise the Dead"	true
-effects_description_nag_effect_nagash_enable_death_magic_incarnate	Passive ability: "Death Magic Incarnate"	true
+effects_description_nag_effect_nagash_enable_death_magic_incarnate	Ability: "Death Magic Incarnate"	true
 effects_description_nag_effect_item_nagash_ability_enable_morikhane	Ability: "Black Armour of Nagash"	true
 effects_description_nag_effect_item_nagash_ability_enable_mortis_blade	Ability: "The Great Blade of Death"	true
 effects_description_nag_effect_item_nagash_ability_enable_staff_of_power	Ability: "Staff of Power"	true
@@ -326,13 +326,13 @@ effects_description_nag_effect_grand_spell_03_recharge_instant	Recharges ability
 effects_description_nag_effect_spawns_army_dummy	Spawns army at Nagash location	true
 effects_description_nag_effect_cannot_grow_disable	Allows the settlement to grow permanently (current location of Nagash)	true
 effects_description_nag_arkhan_unit_effect	Physical resistance: %n% for Arkhan	true
-effects_description_nag_luthor_harkon	Magic Resistance: %n% for Luthor Harkon	true
+effects_description_nag_luthor_harkon	Spell Resistance: %n% for Luthor Harkon	true
 effects_description_nag_mannfred_unit_effect	Cooldown : %n% Lore of Vampires for Mannfred	true
 effects_description_nag_krell_unit_effect	Weapon strength: %+n% for Krell	true
 effects_description_nag_neferata_unit_effect	Grants Stalk to Neferata	true
 effects_description_nag_vlad_unit_effect	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded" for Vlad	true
 effects_description_nag_undead_corruption_world_dummy	Vampiric corruption: %+n (Whole World)	true
-effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Quatar[[/col]]	true
+effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Deff Gorge[[/col]]	true
 effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to your Legion, spawning in [[col:yellow]]The Awakening[[/col]]	true
 effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
@@ -437,3 +437,5 @@ effects_description_nag_effect_force_all_campaign_upkeep_hidden		false
 effects_description_nag_effect_building_restriction_advanced	Only one building of this category can be built in each settlement	false
 effects_description_nag_effect_building_restriction_exclusive_recruit	Only one building of this category can be built in each settlement	false
 effects_description_nag_effect_raise_dead_max_cap_dummy	Raise Dead: %+n Max unit capacity	false
+effects_description_nag_dk_unlock	Summon [[col:yellow]]Dread King[[/col]] to your Legion, spawning in [[col:yellow]]Black Pyramid of Nagash[[/col]]	false
+effects_description_nag_archai_spawn_effect_dummy	Morghast Archai will spawn near the Mortarch or where the Mortarch has spawned	false

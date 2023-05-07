@@ -8,3 +8,4 @@ technology_script_lock_reasons_lock_reason_nag_mortarch_neferata_unlock	[[col:re
 technology_script_lock_reasons_lock_reason_nag_mortarch_vlad_unlock	[[col:red]]Complete the Mission "Mortarch of Shadows"[[/col]]	true
 technology_script_lock_reasons_lock_reason_nag_mortarch_dieter_unlock	[[col:red]]Complete the Mission "Mortarch Dieter Helsnicht"[[/col]]	true
 technology_script_lock_reasons_lock_reason_nag_nagash_ultimate	[[col:red]]Finish the final ritual![[/col]]	false
+technology_script_lock_reasons_lock_reason_nag_mortarch_dk_unlock	[[col:red]]Complete the Mission "Mortarch Dread King"[[/col]]	true

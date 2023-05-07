@@ -78,7 +78,30 @@ RHOX_NAGASH_UNLOCK_TECHS = {
         "nag_mortarch_dieter_unlock",
         "nag_dieter_proclamation",
         "nag_dieter_archai"
+    },
+    nag_mortarch_dk_unlock = {
+        "nag_dk_battle_1",
+        "nag_dk_battle_2",
+        "nag_dk_battle_3",
+        "nag_mortarch_dk_event_1",
+        "nag_mortarch_dk_event_2",
+        "nag_mortarch_dk_event_3",
+        "nag_mortarch_dk_unlock",
+        "nag_dk_proclamation",
+        "nag_dk_archai"
     }
+
+}
+
+local archai_tech_key_to_mortarch={
+    nag_arkhan_archai="nag_mortarch_arkhan",
+    nag_vlad_archai="nag_mortarch_vlad",
+    nag_mannfred_archai="nag_mortarch_mannfred",
+    nag_luthor_archai="nag_mortarch_luthor",
+    nag_krell_archai="nag_mortarch_krell",
+    nag_dieter_archai="nag_mortarch_dieter",
+    nag_neferata_archai="nag_mortarch_neferata",
+    nag_dk_archai="nag_mortarch_dk"
 }
 
 
@@ -89,7 +112,8 @@ local mort_key_to_faction_key ={
     ["nag_mortarch_luthor"]="wh2_dlc11_cst_vampire_coast",
     ["nag_mortarch_dieter"]="mixer_vmp_helsnicht",
     ["nag_mortarch_azhag"]="wh2_dlc15_grn_bonerattlaz",
-    ["nag_mortarch_neferata"]="wh3_main_vmp_lahmian_sisterhood"
+    ["nag_mortarch_neferata"]="wh3_main_vmp_lahmian_sisterhood",
+    ["nag_mortarch_dk"]="ovn_tmb_dread_king",
 }
 
 
@@ -102,11 +126,13 @@ local mort_key_to_name ={
     ["nag_mortarch_krell"]="nag_nagash_name_krell",
     ["nag_mortarch_isabella"]="nag_nagash_name_isabella",
     ["nag_mortarch_dieter"]="nag_nagash_name_dieter",
-    ["nag_mortarch_azhag"]="nag_nagash_name_azhag"
+    ["nag_mortarch_azhag"]="nag_nagash_name_azhag",
+    ["nag_mortarch_dk"]="nag_nagash_name_dk"
+
 }
 
 local mort_key_to_region ={
-    ["nag_mortarch_arkhan"]="wh3_main_combi_region_quatar",
+    ["nag_mortarch_arkhan"]="wh3_main_combi_region_deff_gorge",
     ["nag_mortarch_vlad"]="wh3_main_combi_region_castle_drakenhof",
     ["nag_mortarch_mannfred"]="wh3_main_combi_region_castle_drakenhof",
     ["nag_mortarch_luthor"]="wh3_main_combi_region_the_awakening",
@@ -114,7 +140,8 @@ local mort_key_to_region ={
     ["nag_mortarch_krell"]="wh3_main_combi_region_morgheim",
     ["nag_mortarch_isabella"]="wh3_main_combi_region_castle_drakenhof",
     ["nag_mortarch_dieter"]="wh3_main_combi_region_aarnau",
-    ["nag_mortarch_azhag"]="wh3_main_combi_region_nagashizzar"
+    ["nag_mortarch_azhag"]="wh3_main_combi_region_nagashizzar",
+    ["nag_mortarch_dk"]="wh3_main_combi_region_black_pyramid_of_nagash"
 }
 
 
@@ -126,6 +153,7 @@ local mort_key_to_success_chance ={
     ["nag_mortarch_dieter"]=35,
     ["nag_mortarch_neferata"] = 35,
     ["nag_mortarch_azhag"]=100, --AI won't use it this is for human to evade the script breaking
+    ["nag_mortarch_dk"] = 10,
 }
 
 local mort_key_to_units={
@@ -218,6 +246,15 @@ local mort_key_to_units={
         "vigpro_nagash_skeleton_troll_1h",
         "vigpro_nagash_skeleton_troll_2h",
         "vigpro_nagash_skeleton_giant",
+    },
+    ["nag_mortarch_dk"]={
+        "ovn_dk_mon_skeleton_elephant",
+        "ovn_dk_mon_skeletal_minotaurs",
+        "ovn_dk_mon_bone_hydra",
+        "ovn_dk_inf_skeleton_hoplites",
+        "ovn_dk_inf_skeleton_hoplites",
+        "ovn_dk_cav_royal_guard_cavalry",
+        "ovn_dk_cav_royal_guard_lancers"
     }
 }
 
@@ -357,7 +394,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     local region_key = mort_key_to_region[mort_key]
     local is_at_sea = false--nagash_character:is_at_sea()
     --out("Rhox Nagash: region key: "..region_key)
-    local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, is_at_sea, true, 5)
+    local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, is_at_sea, true, 15)
     cm:create_force_with_general(
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     nagash_faction,
@@ -436,8 +473,27 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
 		end
 		local forename = common.get_localised_string(mort_key_to_name[mort_key])
         cm:change_character_custom_name(new_character, forename, "","","")
-		
+		cm:replenish_action_points(cm:char_lookup_str(new_character))
     end
+    
+    if mort_key == "nag_mortarch_dk" then --spawn hand too in the case of DK
+        local mort_key = "nag_mortarch_hand"
+        new_character= nil
+        character = nil
+        local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, false, true, 5)
+        cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, "champion", mort_key)
+        new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "champion", mort_key)
+        
+
+        local nagash_character = cm:get_faction(nagash_faction):faction_leader()
+        local nagash_rank = nagash_character:rank()
+        cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
+
+		local forename = common.get_localised_string("nag_nagash_name_hand")
+        cm:change_character_custom_name(new_character, forename, "","","")
+		cm:replenish_action_points(cm:char_lookup_str(new_character))
+    end
+
 
     if cm:get_faction(nagash_faction):is_human() then
         rhox_kill_faction(faction_key) -- if nagash is a human, destroy the faction
@@ -529,10 +585,25 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
         new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "dignitary", mort_key)
         local forename = common.get_localised_string(mort_key_to_name[mort_key])
         cm:change_character_custom_name(new_character, forename, "","","")
+        cm:replenish_action_points(cm:char_lookup_str(new_character))
         cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
     end
 
-            
+    if mort_key == "nag_mortarch_dk" then --spawn hand too in the case of DK
+        local mort_key = "nag_mortarch_hand"
+        character = nil
+        local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, false, true, 5)
+        cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, "champion", mort_key)
+        new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "champion", mort_key)
+
+		local forename = common.get_localised_string("nag_nagash_name_hand")
+        cm:change_character_custom_name(new_character, forename, "","","")
+		cm:replenish_action_points(cm:char_lookup_str(new_character))
+		
+		local nagash_character = cm:get_faction(nagash_faction):faction_leader()
+        local nagash_rank = nagash_character:rank()
+        cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
+    end
 end
 
                            
@@ -650,6 +721,49 @@ function mortarch_unlock_listeners()
         end,
         true
     )
+    
+    
+    
+    core:add_listener(
+    --- When an "unlock" tech is researched, spawn the related Morty.
+        "MorghastArchai",
+        "ResearchCompleted",
+        function(context)
+            return archai_tech_key_to_mortarch[context:technology()]
+        end,
+        function(context)            
+            local mort_key = archai_tech_key_to_mortarch[context:technology()]
+            local faction = context:faction()
+            local mort_character = nil
+            local loop_char_list = faction:character_list()
+        
+            for i = 0, loop_char_list:num_items() - 1 do
+                local looping = loop_char_list:item_at(i)
+                --out("Rhox Nagash: Current character subtype: "..looping:character_subtype_key())
+                if looping:character_subtype_key() == mort_key then
+                    mort_character = looping
+                    break
+                end
+            end
+            local x, y
+            if mort_character and mort_character:has_military_force() then 
+                x, y = cm:find_valid_spawn_location_for_character_from_character(faction:name(), cm:char_lookup_str(mort_character), true, 10)
+            else
+                x, y = cm:find_valid_spawn_location_for_character_from_settlement(faction:name(), mort_key_to_region[mort_key], false, true, 10)
+            end
+            
+            local archai = cm:create_agent(faction:name(), "spy", "nag_morghasts_archai",x,y,false,nil)
+            if archai then
+                cm:replenish_action_points(cm:char_lookup_str(archai))
+            end
+            
+
+            
+            
+        end,
+        true
+    )
+
 end
 
 function rhox_nagash_add_ai_mortarch_mission()
@@ -810,6 +924,10 @@ core:add_listener(
         local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
         local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
         
+        local nag_mortarch_dk = my_mod:get_option_by_key("nag_mortarch_dk")
+        local nag_mortarch_dk_setting = nag_mortarch_dk:get_finalized_setting()
+
+        
     
         
 
@@ -820,7 +938,7 @@ core:add_listener(
         mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
         mort_key_to_success_chance["nag_mortarch_neferata"]=nag_mortarch_neferata_setting
         mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
-        
+        mort_key_to_success_chance["nag_mortarch_dk"]=nag_mortarch_dk_setting
 
         
         out("Rhox Nagash: Mortarch percentages")
@@ -830,6 +948,8 @@ core:add_listener(
         out("Luthor: ".. mort_key_to_success_chance["nag_mortarch_luthor"])
         out("Neferata: ".. mort_key_to_success_chance["nag_mortarch_neferata"])
         out("Dieter: ".. mort_key_to_success_chance["nag_mortarch_dieter"])
+        out("Dread King: ".. mort_key_to_success_chance["nag_mortarch_dk"])
+
         
 
     end,
@@ -866,7 +986,9 @@ core:add_listener(
         local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
         local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
         
-        
+        local nag_mortarch_dk = my_mod:get_option_by_key("nag_mortarch_dk")
+        local nag_mortarch_dk_setting = nag_mortarch_dk:get_finalized_setting()
+
 
         
         mort_key_to_success_chance["nag_mortarch_arkhan"]=nag_mortarch_arkhan_setting
@@ -875,6 +997,7 @@ core:add_listener(
         mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
         mort_key_to_success_chance["nag_mortarch_neferata"]=nag_mortarch_neferata_setting
         mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
+        mort_key_to_success_chance["nag_mortarch_dk"]=nag_mortarch_dk_setting
         
         out("Rhox Nagash: Mortarch percentages")
         out("Arkhan: ".. mort_key_to_success_chance["nag_mortarch_arkhan"])
@@ -883,6 +1006,7 @@ core:add_listener(
         out("Luthor: ".. mort_key_to_success_chance["nag_mortarch_luthor"])
         out("Neferata: ".. mort_key_to_success_chance["nag_mortarch_neferata"])
         out("Dieter: ".. mort_key_to_success_chance["nag_mortarch_dieter"])
+        out("Dread King: ".. mort_key_to_success_chance["nag_mortarch_dk"])
 
         
         
