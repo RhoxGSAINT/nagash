@@ -331,6 +331,10 @@ function complete_bp_raise()
     
     
 
+    --remove husk books
+    cm:force_remove_ancillary_from_faction(cm:get_faction(nagash_faction), "nag_anc_husk_talisman_books_of_nagash_book_two")
+    cm:force_remove_ancillary_from_faction(cm:get_faction(nagash_faction), "nag_anc_husk_talisman_books_of_nagash_book_three")
+    cm:force_remove_ancillary_from_faction(cm:get_faction(nagash_faction), "nag_anc_husk_talisman_books_of_nagash_book_eight")
     
     
     local forename = common:get_localised_string("names_name_1937224328")
