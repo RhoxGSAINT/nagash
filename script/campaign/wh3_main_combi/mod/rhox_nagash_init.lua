@@ -409,7 +409,7 @@ end
 
 
 
------------------this is to remove the black pyramid and vampire rise end game
+-----------------this is to remove the black pyramid and vampire rise endgame
 cm:add_post_first_tick_callback(
     function()
         if cm:is_new_game() and #endgame.scenarios > 0 then --there is something in the end game scenarios
@@ -527,7 +527,7 @@ function rhox_nagash_grandspell_ui()
 end
 
 
-local raise_dead_units={
+RHOX_NAGASH_BASIC_RAISE_DEAD_UNITS={
     nag_vanilla_tmb_inf_skeleton_archers_0= {1, 20, 2},
     nag_vanilla_tmb_inf_skeleton_spearmen_0= {1, 20, 2},
     nag_vanilla_tmb_inf_skeleton_warriors_0= {1, 20, 2},
@@ -592,7 +592,7 @@ cm:add_first_tick_callback(
             local region_list = cm:model():world():region_manager():region_list()
             for i=0,region_list:num_items()-1 do
                 local region= region_list:item_at(i)
-                for key, unit in pairs(raise_dead_units) do
+                for key, unit in pairs(RHOX_NAGASH_BASIC_RAISE_DEAD_UNITS) do
                     cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
                 end
             end

@@ -436,6 +436,6 @@ effects_description_nag_effect_unit_leadership_ethereal	Leadership: %+n for Ethe
 effects_description_nag_effect_force_all_campaign_upkeep_hidden		false
 effects_description_nag_effect_building_restriction_advanced	Only one building of this category can be built in each settlement	false
 effects_description_nag_effect_building_restriction_exclusive_recruit	Only one building of this category can be built in each settlement	false
-effects_description_nag_effect_raise_dead_max_cap_dummy	Raise Dead: %+n Max unit capacity	false
+effects_description_nag_effect_raise_dead_max_cap	Raise Dead: %+n Max unit capacity	false
 effects_description_nag_dk_unlock	Summon [[col:yellow]]Dread King[[/col]] to your Legion, spawning in [[col:yellow]]Black Pyramid of Nagash[[/col]]	false
 effects_description_nag_archai_spawn_effect_dummy	Morghast Archai will spawn near the Mortarch or where the Mortarch has spawned	false

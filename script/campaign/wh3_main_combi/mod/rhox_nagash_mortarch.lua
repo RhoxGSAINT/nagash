@@ -263,7 +263,7 @@ local mort_key_to_units={
 
 
 
-local raise_dead_sea_units={
+RHOX_NAGASH_RAISE_DEAD_SEA_UNITS={
     nag_vanilla_cst_inf_zombie_gunnery_mob_0= {2, 20, 2},
     nag_vanilla_cst_inf_zombie_gunnery_mob_1= {1, 20, 1},
     nag_vanilla_cst_inf_zombie_deckhands_mob_1= {0, 10, 1},
@@ -658,6 +658,9 @@ function mortarch_unlock_listeners()
 
             
             if mort_key == "nag_mortarch_luthor" then --add cst units to the raise dead pool_setup his mind
+                cm:set_saved_value("rhox_nagash_luthor_recruited", true)
+                local faction = cm:get_faction(nagash_faction)
+                local raise_dead_cap = faction:bonus_values():scripted_value("rhox_nagash_raisedead_cap", "value") --apply the cap bonus also
                 local new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "general", mort_key)
                 if new_character then
                     rhox_nagash_setup_mortarch_harkon_mind(new_character)
@@ -665,8 +668,8 @@ function mortarch_unlock_listeners()
                 local region_list = cm:model():world():region_manager():region_list()
                 for i=0,region_list:num_items()-1 do
                     local region= region_list:item_at(i)
-                    for key, unit in pairs(raise_dead_sea_units) do
-                        cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
+                    for key, unit in pairs(RHOX_NAGASH_RAISE_DEAD_SEA_UNITS) do
+                        cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3]+raise_dead_cap, 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
                     end
                 end
             end
