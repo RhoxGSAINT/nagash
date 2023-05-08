@@ -7,7 +7,7 @@ effects_description_nag_effect_warpstone_token	Low chance of generating Warpston
 effects_description_nag_building_effect_cannot_grow_enable	This settlement cannot grow on its own	true
 effects_description_nag_building_effect_cannot_grow_disable	Allows the settlement to grow	true
 effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence: %+n for Bone Golems	true
-effects_description_nag_effect_landmark_nagash_buff_ethereal_magic_res	Magic resistance: %n% for all Ethereal units	true
+effects_description_nag_effect_landmark_nagash_buff_ethereal_magic_res	Spell resistance: %n% for all Ethereal units	true
 effects_description_nag_effect_landmark_nagash_buff_morghasts_regen	Ability: "Regeneration" for Morghasts units	true
 effects_description_nag_effect_landmark_nagash_enemy_undead_hex	Enemy Leadership: %+n when fighting against Undead	true
 effects_description_nag_effect_landmark_nagash_character_wom_reserves	Winds of Magic power reserve: %+n	true
@@ -32,7 +32,7 @@ effects_description_nag_effect_landmark_vlad_movement	Campaign movement range: %
 effects_description_nag_effect_landmark_vlad_buff_dags_fatigue_res	Vigour loss reduction: %+n% for Dire Wolves	true
 effects_description_nag_effect_landmark_vlad_buff_dags_melee	Melee attack: %+n for Dire Wolves	true
 effects_description_nag_effect_landmark_luthor_character_defence	Melee defence: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
-effects_description_nag_effect_landmark_luthor_magic_resistance	Magic resistance: %n% for all units	true
+effects_description_nag_effect_landmark_luthor_magic_resistance	Spell resistance: %n% for all units	true
 effects_description_nag_effect_army_ranged_ammo_skill	Ammunition: %+n% for all Ranged units	true
 effects_description_nag_effect_army_ranged_missile_strength_skill	Missile strength: %+n% for all Ranged units	true
 effects_description_nag_effect_army_infantry_armour_skill	Armour: %+n for all Infantry units	true
@@ -43,7 +43,7 @@ effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n 
 effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Spirit Hosts, Fell Spectres, Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
-effects_description_nag_effect_army_spirit_magic_resistance_skill	Magic resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
+effects_description_nag_effect_army_spirit_magic_resistance_skill	Spell resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
 effects_description_nag_effect_army_construct_melee_attack_skill	Melee attack: %+n for all Monster and Large Construct units	true
 effects_description_nag_effect_army_construct_charge_bonus_skill	Charge bonus: %+n for all Monster and Large Construct units	true
@@ -66,7 +66,7 @@ effects_description_nag_effect_army_vet_nagash_damage_base_skill	Weapon strength
 effects_description_nag_effect_army_vampiric_unit_set_skill	Sylvanian units: Zombies, Skeletons, Crypt Ghouls, Crypt Horrors, Grave Guard, Fell Bats, Dire Wolves, Black Knights, Blood Knights, Corpse Carts, Vargheists and Varghulfs	true
 effects_description_nag_effect_army_coast_unit_set_skill	Coast units: Zombie Deckhands, Zombie Gunnery Mobs, Deck Gunners, Bloated Corpses, Depth Guard, Carronades, Death Shreik Terrorgheists and Necrofex Colossi	true
 effects_description_nag_effect_army_nehekharan_unit_set_skill	Nehekharan units: Skeletons, Skeleton Archers, Skeleton Horsemen, Skeleton Chariots, Nehekhara Warriors, Nehekhara Horsemen, Tomb Guard, Screaming Skull Catapults and Caskets of Souls	true
-effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Carrion Riders, Sand Crawlers, Glowing Ghouls, Bone Golems, Nagashizzar Guard, Mortis Engines and Morghasts	true
+effects_description_nag_effect_army_nagashizzar_unit_set_skill	Nagashizzar units: Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Carrion Riders, Sand Crawlers, Glowing Ghouls, Bone Golems, Nagashizzar Guard, Mortis Engines, Undead Chariots and Morghasts	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm	Spell: "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_cooldown_abyssal_swarm	Cooldown: %+n% to "Abyssal Swarm"	true
 effects_description_nag_spell_nagash_enable_abyssal_swarm_upgrade	Overcast spell: "Abyssal Swarm Upgraded"	true
@@ -332,7 +332,7 @@ effects_description_nag_krell_unit_effect	Weapon strength: %+n% for Krell	true
 effects_description_nag_neferata_unit_effect	Grants Stalk to Neferata	true
 effects_description_nag_vlad_unit_effect	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded" for Vlad	true
 effects_description_nag_undead_corruption_world_dummy	Vampiric corruption: %+n (Whole World)	true
-effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Deff Gorge[[/col]]	true
+effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Quatar[[/col]]	true
 effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to your Legion, spawning in [[col:yellow]]The Awakening[[/col]]	true
 effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
@@ -349,7 +349,7 @@ effects_description_nag_effect_unit_speed_all_skeleton	Speed: %+n% for Skeletal 
 effects_description_nag_effect_unit_vigour_loss_reduction_all_skeleton	Vigour loss reduction: %+n% for Skeletal Infantry, Cavalry and Chariot units.	true
 effects_description_nag_effect_unit_frostbite_attacks_spirits	Enables frostbite attacks for 	true
 effects_description_nag_effect_unit_magic_attacks_morghasts	Enables magical attacks in battles: For Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes 	true
-effects_description_nag_effect_unit_magic_resistance_morghasts	Magic resistance: %n% for Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes	true
+effects_description_nag_effect_unit_magic_resistance_morghasts	Spell resistance: %n% for Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes	true
 effects_description_nag_effect_enable_ability_chilling_aura_zombies	Passive ability: "The Chilling Aura" for Zombie units	true
 effects_description_nag_effect_unit_missile_resistance_zombie_units	Missile resistance: %+n for all Ghoul and all Zombie units	true
 effects_description_nag_effect_character_stat_mod_miscast_chance_hidden	[HIDDEN] 	true
@@ -384,7 +384,7 @@ effects_description_nag_effect_army_vet_nagash_deathblow_skill_azhag	Ability: "D
 effects_description_nag_effect_army_vet_nagash_fatigue_res_skill_azhag	Attribute: Fatigue Resistance for Nagashizzar units {{tr:rank7}}	false
 effects_description_nag_effect_army_vet_nagash_ward_save_skill_azhag	Ward save: %n% for Nagashizzar units {{tr:rank7}}	false
 effects_description_nag_effect_army_vet_nagash_damage_base_skill_azhag	Weapon strength: %+n% for Nagashizzar units {{tr:rank7}}	false
-effects_description_nag_effect_army_nagashizzar_unit_set_skill_azhag	Nagashizzar units: Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Carrion Riders, Sand Crawlers, Glowing Ghouls, Bone Golems, Nagashizzar Guard, Mortis Engines and Morghasts and Skeleton Orc units	false
+effects_description_nag_effect_army_nagashizzar_unit_set_skill_azhag	Nagashizzar units: Spirit Hosts, Cairn Wraiths, Fell Spectres, Hexwraiths, Carrion Riders, Sand Crawlers, Glowing Ghouls, Bone Golems, Nagashizzar Guard, Mortis Engines, Undead Chariots and Morghasts and Skeleton Orc units	false
 effects_description_nag_effect_army_enable_ability_frenzy_undead_green	Passive ability: "Frenzy" for all Undead Greenskin units	false
 effects_description_nag_effect_upkeep_reduction_undead_green	Upkeep: %+n% for all Undead Greenskin units	false
 effects_description_nag_effect_melee_defence_boyz_undead_green_morghasts	Melee defence: %+n for all Undead Greenskin and Morghast units	false

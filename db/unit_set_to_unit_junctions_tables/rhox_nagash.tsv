@@ -234,8 +234,6 @@ hero				nag_characters	false
 			nag_mortarch_mannfred_abyssal	nag_vampiric	false
 			nag_mortarch_luthor	nag_vampiric	false
 			nag_mortarch_luthor_terrorgheist	nag_vampiric	false
-			wh2_dlc11_cst_cha_gunnery_wight_0	nag_vampiric	false
-			wh2_dlc11_cst_cha_gunnery_wight_1	nag_vampiric	false
 			wh_dlc05_vmp_cha_vampire_shadows_0	nag_vampiric	false
 			wh_dlc05_vmp_cha_vampire_shadows_1	nag_vampiric	false
 			wh_dlc05_vmp_cha_vampire_shadows_2	nag_vampiric	false
@@ -448,3 +446,7 @@ hero				nag_characters	false
 			nag_tomb_banshee	vmp_characters	false
 			nag_tomb_banshee	vmp_dlc04_all_characters	false
 			nag_tomb_banshee	wh_pro02_isabella_extra_upkeep	false
+			nag_mortarch_isabella	nag_vampiric	false
+			nag_mortarch_isabella_hellsteed	nag_vampiric	false
+			nag_mortarch_isabella_warhorse	nag_vampiric	false
+			nag_vanilla_vmp_mon_vargheists	nag_vampiric	false

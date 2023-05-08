@@ -50,3 +50,5 @@ wh_dlc04_vmp_corpse_cart_rider1_master_necromancer	nag_master_necromancer_2	auto
 wh_dlc04_vmp_corpse_cart_rider1_master_necromancer	nag_master_necromancer_3	autonomous_rider	ap_crewposition_0	-1
 wh_main_vmp_cha_vampire_lord_3	nag_vampire_lord_3	officer		-1
 wh2_dlc11_cst_cha_luthor_harkon_1	nag_mortarch_luthor_terrorgheist	officer		-1
+nag_hero_melee_summon	nag_hero_team_summon	officer		-1
+nag_hero_mage_summon	nag_hero_team_summon	additional_officer		-1

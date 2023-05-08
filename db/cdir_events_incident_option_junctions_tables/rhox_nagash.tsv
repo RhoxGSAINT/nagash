@@ -28,4 +28,3 @@ id	incident_key	option_key	value	target
 1450500434	rhox_nagash_declare_war_jv	VAR_CHANCE	100	default
 1450500435	rhox_nagash_declare_war_jv	GEN_TARGET_MODEL		default
 1450500436	rhox_nagash_force_vassalised_jv	GEN_TARGET_MODEL		default
-1450500437	wh2_main_incident_all_campaign_movement_down_replenish_up	CND_NOT_CULTURE	mixer_nag_nagash	default
