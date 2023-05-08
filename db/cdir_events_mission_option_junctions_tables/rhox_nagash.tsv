@@ -10,7 +10,7 @@ id	mission_key	option_key	value	target
 9815625	nagash_intro_4	GEN_TARGET_REGION		default
 9815626	nagash_intro_5	VAR_CHANCE	100	default
 9815627	nagash_intro_5	GEN_TARGET_REGION		default
-9815628	nagash_intro_5	GEN_CND_REGION	wh3_main_combi_region_deff_gorge	default
+9815628	nagash_intro_5	GEN_CND_REGION	wh3_main_combi_region_quatar	default
 9815629	nagash_intro_5	VAR_MISSION_LENGTH_INFINITE		default
 9814000	nagash_intro_2	VAR_OBJECTIVE_AMOUNT_INT	10000	default
 9814001	nagash_intro_3	VAR_OBJECTIVE_AMOUNT_INT	20	default

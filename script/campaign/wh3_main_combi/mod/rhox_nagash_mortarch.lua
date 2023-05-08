@@ -132,7 +132,7 @@ local mort_key_to_name ={
 }
 
 local mort_key_to_region ={
-    ["nag_mortarch_arkhan"]="wh3_main_combi_region_deff_gorge",
+    ["nag_mortarch_arkhan"]="wh3_main_combi_region_quatar",
     ["nag_mortarch_vlad"]="wh3_main_combi_region_castle_drakenhof",
     ["nag_mortarch_mannfred"]="wh3_main_combi_region_castle_drakenhof",
     ["nag_mortarch_luthor"]="wh3_main_combi_region_the_awakening",
