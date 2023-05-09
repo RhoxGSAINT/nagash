@@ -4,6 +4,7 @@ nag_anc_armour_morikhane_the_black_armour	wh_main_anc_armour	.	false	false	false
 nag_anc_weapon_the_mortis_blade	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_arcane_item_alakanash_staff_of_power	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_enchanted_item_crown_of_nagash	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_enchanted_item_crown_of_nagash_customs_only	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_talisman_books_of_nagash_book_one	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_talisman_books_of_nagash_book_two	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_talisman_books_of_nagash_book_three	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
@@ -28,6 +29,7 @@ nag_anc_mount_neferata_warhorse	wh_main_anc_mount_barded_nightmare	.	false	false
 nag_anc_mount_neferata_abyssal	nag_anc_mount_neferata_abyssal	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_neferata_abyssal		200	1		false	false	true	all
 nag_anc_weapon_dagger_of_jet	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_arcane_item_staff_of_pain	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
+nag_anc_arcane_item_staff_of_pain_custom_only	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_talisman_the_carstein_ring	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_weapon_blood_drinker	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_enchanted_item_blood_chalice_of_bathori	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all

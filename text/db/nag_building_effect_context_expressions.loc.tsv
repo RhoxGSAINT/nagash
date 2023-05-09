@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/nag_building_effect_context_expressions.loc		
+building_effect_context_expressions_display_text_IsNagash		false
+building_effect_context_expressions_display_text_TreasuryGreaterThan15000	When [[img:icon_money]][[/img]]Treasury is above 15000:	false
+building_effect_context_expressions_display_text_GDPGreaterThan500	When [[img:icon_income]][[/img]]income is 500 or more:	false

@@ -26,3 +26,5 @@ nag_summon_cairn_wraiths	2	positive
 nag_summon_fell_bats	2	positive
 nag_summon_corpse_cart_balefire	2	positive
 nag_summon_corpse_cart_lodestone	2	positive
+nag_damage_enemy_wavering_commander	1	positive
+nag_all_reduced_recharge_rate_high_enemy	1	positive

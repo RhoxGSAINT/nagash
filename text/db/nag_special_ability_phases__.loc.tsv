@@ -2,6 +2,8 @@ key	text	tooltip
 #Loc;1;text/db/nag_special_ability_phases__.loc		
 special_ability_phases_onscreen_name_wh_main_spell_nagash_abyssal_swarm_upgrade	[[col:red]][[img:icon_speed]][[/img]]Swarmed by Bats[[/col]]	true
 special_ability_phases_onscreen_name_nag_unit_passive_mortal_realm_of_souls		true
+special_ability_phases_onscreen_name_nag_nagash_passive_death_magic_incarnate	Death Magic Incarnate	true
+special_ability_phases_onscreen_name_nag_nagash_abilities_staff_of_power	Staff of Power	true
 special_ability_phases_onscreen_name_wh_dlc04_lord_passive_aura_of_dark_majesty	Aura of Dark Grandeur	true
 special_ability_phases_onscreen_name_wh2_dlc17_lord_passive_aura_of_dark_majesty_upgrade	Aura of Dark Grandeur	true
 special_ability_phases_onscreen_name_nag_krell_armour_passive_armour_of_barrow	Armour of the Barrow	true

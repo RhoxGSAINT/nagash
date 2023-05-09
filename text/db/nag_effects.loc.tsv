@@ -164,7 +164,7 @@ effects_description_nag_effect_self_arkhan_stat_enable_flaming_attacks_vs_tmb	En
 effects_description_nag_effect_self_arkhan_chariot_speed	Speed: %+n% for Chariot units	true
 effects_description_nag_effect_self_arkhan_enable_mortarch_of_sacrements_summon	Ability: "Unholy Communion"	true
 effects_description_nag_effect_number_uses_mortarch_of_sacrements	Ability number of uses: %+n for "Unholy Communion"	true
-effects_description_nag_effect_self_enable_ability_mortarch_of_despair	Ability: "Repair Beyond Despair"	true
+effects_description_nag_effect_self_enable_ability_mortarch_of_despair	Ability: "Repair Through Despair"	true
 effects_description_nag_effect_self_enable_ability_armour_of_barrow	Ability: "Armour of the Barrow"	true
 effects_description_nag_effect_self_vlad_to_isabella_buff	Undying Love: %+n Melee Attack and Melee Defence to both Vlad and Isabella when they are in the same army	true
 effects_description_nag_effect_self_neferata_enable_ability_mortarch_of_blood	Ability: "Beautiful Death"	true
@@ -176,8 +176,8 @@ effects_description_nag_effect_self_neferata_melee_defence_vs_lybaras	Melee defe
 effects_description_nag_effect_self_isabella_to_vlad_buff	Undying Love: %+n Melee Attack and Melee Defence to both Isabella and Vlad when they are in the same army	true
 effects_description_nag_effect_self_vlad_enable_mortarch_of_shadows_aura	Ability: "Aura of Dark Grandeur"	true
 effects_description_nag_effect_self_vlad_ability_upgrade_mortarch_of_shadows	Improves "Aura of Dark Grandeur" with a penalty to enemy accuracy and a larger area of effect	true
-effects_description_nag_effect_item_neferata_ability_dagger_of_jet	Ability: "Dagger of Jet"	true
-effects_description_nag_effect_item_neferata_ability_enable_staff_of_pain	Ability: "Staff of Pain"	true
+effects_description_nag_effect_item_neferata_ability_dagger_of_jet	Passive Ability: "Dagger of Jet"	true
+effects_description_nag_effect_item_neferata_ability_enable_staff_of_pain	Passive Ability: "Staff of Pain"	true
 effects_description_nag_effect_double_spell_range_mortarch_of_night	Targeting range: %+n% for Lore of Vampires spells	true
 effects_description_nag_effect_upkeep_cost_reduction_crypt_ghouls	Upkeep: %+n% for Crypt Ghouls	true
 effects_description_nag_effect_enable_ability_blood_queen_dignitary_vmp	Passive ability: "Blood Queen" for all Female Vampires	true
@@ -194,10 +194,11 @@ effects_description_nag_effect_grant_immortality_lord	When normally killed in ba
 effects_description_nag_effect_ability_enable_eternal_danse_macabre	Passive ability: "Vanhel's Eternal Danse Macabre"	true
 effects_description_nag_effect_ability_enable_malediction_of_nagash	Passive ability: "Malediction of Nagash"	true
 effects_description_nag_effect_ability_enable_raise_the_dead	Passive ability: "Raise the Dead"	true
-effects_description_nag_effect_nagash_enable_death_magic_incarnate	Ability: "Death Magic Incarnate"	true
+effects_description_nag_effect_nagash_enable_death_magic_incarnate	Passive ability: "Death Magic Incarnate"	true
 effects_description_nag_effect_item_nagash_ability_enable_morikhane	Ability: "Black Armour of Nagash"	true
-effects_description_nag_effect_item_nagash_ability_enable_mortis_blade	Ability: "The Great Blade of Death"	true
-effects_description_nag_effect_item_nagash_ability_enable_staff_of_power	Ability: "Staff of Power"	true
+effects_description_nag_effect_item_nagash_ability_enable_mortis_blade	Passive ability: "The Great Blade of Death"	true
+effects_description_nag_effect_item_nagash_ability_enable_staff_of_power	Passive ability: "Staff of Power"	true
+effects_description_nag_effect_item_nagash_ability_enable_crown_of_nagash	Ability: "Crown of Nagash"	false
 effects_description_nag_effect_item_nagash_ability_enable_ashes_and_dust	Bound spell: "Ashes and Dust"	true
 effects_description_nag_ability_enable_loremaster_dummy	Passive abilites: "The Curse of Undeath, Exorcism, Life Leeching and The Restless Dead"	true
 effects_description_nag_effect_ability_enable_exorcism_hidden	[Hidden]	false
