@@ -65,7 +65,7 @@ unit_abilities_onscreen_name_nag_bound_spell_nehek_skullstorm	Sakhmet's Incantat
 unit_abilities_tooltip_text_nag_bound_spell_deep_krakens_pull	Few have the strength to break free once the Kraken has them within its horrid, betentacled grasp.	true
 unit_abilities_onscreen_name_nag_bound_spell_deep_krakens_pull	Kraken's Pull	true
 unit_abilities_tooltip_text_nag_krell_passive_mortarch_of_despair	The cries from Krell's victims reinvigorate his deathly corpse in a perpetual cycle of suffering and pain.	true
-unit_abilities_onscreen_name_nag_krell_passive_mortarch_of_despair	Repair Beyond Despair	true
+unit_abilities_onscreen_name_nag_krell_passive_mortarch_of_despair	Repair Through Despair	true
 unit_abilities_onscreen_name_nag_krell_armour_passive_armour_of_barrow	Armour of the Barrow	true
 unit_abilities_tooltip_text_nag_krell_armour_passive_armour_of_barrow	Such is the aura of entropy that surrounds the armour that it has the power to decay the magic of enemy weapons in an instant.	true
 unit_abilities_onscreen_name_nag_vlad_passive_mortarch_of_shadows_aura	Aura of Dark Grandeur	true
@@ -108,6 +108,8 @@ unit_abilities_onscreen_name_nag_nagash_abilities_mortis_blade	The Great Blade o
 unit_abilities_tooltip_text_nag_nagash_abilities_mortis_blade	Mortis is a huge magical sword that crackles with unearthly power. The blade was forged and enchanted by Nagash himself and no-one else may use it.	true
 unit_abilities_onscreen_name_nag_nagash_abilities_staff_of_power	Staff of Power	true
 unit_abilities_tooltip_text_nag_nagash_abilities_staff_of_power	Staff of Power, an ancient artifact crafted by Nagash himself which thrums with the raw power of Dark Magic.	true
+unit_abilities_onscreen_name_nag_nagash_abilities_crown_of_sorcery	The Crown of Nagash	false
+unit_abilities_tooltip_text_nag_nagash_abilities_crown_of_sorcery	Infused with part of Nagash's own malicious spirit, The Crown of Nagash reinvigorates his very essence.	false
 unit_abilities_onscreen_name_nag_nagash_abilities_ashes_and_dust	Ashes and Dust	true
 unit_abilities_tooltip_text_nag_nagash_abilities_ashes_and_dust	A choking dust cloud erupts from the wizard's fingertips, suffocating all in its path.	true
 unit_abilities_onscreen_name_nag_nagash_abilities_master_arcane_conduit	Master Arcane Conduit	true

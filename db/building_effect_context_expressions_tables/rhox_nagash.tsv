@@ -1,3 +1,5 @@
 key	expression	display_only_active_effects
 #building_effect_context_expressions_tables;1;db/building_effect_context_expressions_tables/rhox_nagash		
 IsNagash	Owner.RecordKeyIsOneOf("mixer_nag_nagash")	true
+TreasuryGreaterThan15000	Owner.Treasury >=15000	false
+GDPGreaterThan500	Region.GDP >= 500	false
