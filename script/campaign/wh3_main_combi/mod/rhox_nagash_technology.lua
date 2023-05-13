@@ -129,3 +129,17 @@ function rhox_nagash_remove_other_mod_mortarch_tech_listener()
         true
     )
 end
+
+
+
+core:add_listener(
+        "rhox_nagash_azhag_effect_bundle_giver", --this is to hide the Azhag's unit set from the players
+        "ResearchCompleted",
+        function(context)
+            return context:technology() == "nag_krell_battle_1"
+        end,
+        function(context)            
+            cm:apply_effect_bundle("nag_krell_battle_1_azhag_hidden", "mixer_nag_nagash", 0)
+        end,
+        true
+    )
