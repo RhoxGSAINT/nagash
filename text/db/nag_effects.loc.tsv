@@ -440,3 +440,4 @@ effects_description_nag_effect_building_restriction_exclusive_recruit	Only one b
 effects_description_nag_effect_raise_dead_max_cap	Raise Dead: %+n Max unit capacity	false
 effects_description_nag_dk_unlock	Summon [[col:yellow]]Dread King[[/col]] to your Legion, spawning in [[col:yellow]]Black Pyramid of Nagash[[/col]]	false
 effects_description_nag_archai_spawn_effect_dummy	Morghast Archai will spawn near the Mortarch or where the Mortarch has spawned	false
+effects_description_nag_effect_azhag_leadership_infantry	Leadership: %+n for Skeletal Greenskin infantry units	false

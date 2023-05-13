@@ -182,3 +182,4 @@ rhox_nagash_effect_campaign_enable_attrition	attrition.png	1	attrition.png	campa
 nag_effect_building_restriction_advanced	construction.png	99999	construction.png	campaign	false
 nag_effect_building_restriction_exclusive_recruit	construction.png	99999	construction.png	campaign	false
 nag_effect_raise_dead_max_cap	raise_dead	999	raise_dead	campaign	true
+nag_effect_azhag_leadership_infantry	morale.png	61	morale.png	battle	false
