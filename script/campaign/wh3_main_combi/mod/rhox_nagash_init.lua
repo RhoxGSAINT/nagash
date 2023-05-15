@@ -366,7 +366,7 @@ end
 
 local ror_units = {
     "nag_bone_colossus",
-    "nag_virion_plaguecart",
+    "gp_nag_virion_plague_cart",
     "nag_revenants",
     "nag_shade_haunts",
 };
