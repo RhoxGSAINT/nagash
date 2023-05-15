@@ -146,3 +146,7 @@ regeneration	vigpro_nagash_skeleton_troll_1h
 regeneration	vigpro_nagash_skeleton_troll_2h
 anti_infantry	nag_skeleton_reaper
 armour_piercing	nag_skeleton_reaper
+magical_aura	gp_nag_virion_plague_cart
+regeneration	gp_nag_virion_plague_cart
+ethereal	gp_nag_virion_plague_cart
+armour_piercing	gp_nag_virion_plague_cart

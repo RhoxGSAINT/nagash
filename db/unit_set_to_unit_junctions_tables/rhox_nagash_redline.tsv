@@ -187,3 +187,5 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_bone_golems	nag_army_warbeasts_monstrous_inf	false
 			nag_sand_crawlies	nag_army_warbeasts_monstrous_inf	false
 			nag_warp_ghouls	nag_army_warbeasts_monstrous_inf	false
+			gp_nag_virion_plague_cart	nag_army_cavalry_chariots	false
+			gp_nag_virion_plague_cart	nag_army_magical_spirit	false
