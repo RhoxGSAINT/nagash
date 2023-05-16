@@ -1,7 +1,7 @@
 key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
 #technologies_tables;7;db/technologies_tables/rhox_nagash_dk											
-nag_mortarch_dk_unlock	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1686766558	false	false	true	false
-nag_dk_archai	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1686766559	false	false	true	false
+nag_mortarch_dk_unlock	wh_main_chs_port_ruin	1	tech_nagash_dread_king_mortarch	false	false	"placeholder.tga"	1686766558	false	false	true	false
+nag_dk_archai	wh_main_chs_port_ruin	1	tech_nagash_bestow_the_archai	false	false	"placeholder.tga"	1686766559	false	false	true	false
 nag_dk_proclamation	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1686766560	false	false	true	false
 nag_mortarch_dk_event_1	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1686766561	false	false	true	false
 nag_mortarch_dk_event_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1686766562	false	false	true	false
