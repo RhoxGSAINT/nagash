@@ -274,10 +274,10 @@ core:add_listener(
 			
 			for i = 1, #enemy_LL do
 				local LL_details = nagash_defeat_LL[enemy_LL[i]]
-				
+				--out("Rhox Nagash: defeat traits ".. LL_details)
 				if LL_details ~= nil then
 					local trait = LL_details			
-					cm:force_add_trait(cm:char_lookup_str(character),trait, true)
+					cm:force_add_trait(cm:char_lookup_str(character), trait, true)
 				end
 			end
 		end
