@@ -341,7 +341,6 @@ function complete_bp_raise()
     cm:change_character_custom_name(new_character, forename, "","","")
 
     --later
-    local sentinels_key = "wh2_dlc09_tmb_the_sentinels"
     local bp_key = "wh3_main_combi_region_black_pyramid_of_nagash"
 
     cm:set_saved_value("nagash_intro_completed", true)
@@ -392,19 +391,6 @@ function complete_bp_raise()
     mm_1:trigger()
 
     
-    --[[
-    -- kill the Sentinels completely
-    local sentinels = cm:get_faction(sentinels_key)
-    do
-        local char_list = sentinels:character_list()
-        for i = 0, char_list:num_items() -1  do
-            local char = char_list:item_at(i)
-            local cqi = char:command_queue_index()
-
-            cm:kill_character_and_commanded_unit("character_cqi:"..cqi, true, false)
-        end
-    end
-    --]]
     -- ruin the BP and set it as untargetable 
     --cm:set_region_abandoned(bp_key)
     --cm:cai_disable_targeting_against_settlement("settlement:"..bp_key)

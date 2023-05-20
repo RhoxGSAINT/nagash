@@ -134,7 +134,7 @@ local mort_key_to_name ={
 local mort_key_to_region ={
     ["nag_mortarch_arkhan"]="wh3_main_combi_region_quatar",
     ["nag_mortarch_vlad"]="wh3_main_combi_region_castle_drakenhof",
-    ["nag_mortarch_mannfred"]="wh3_main_combi_region_castle_drakenhof",
+    ["nag_mortarch_mannfred"]="wh3_main_combi_region_ka_sabar",
     ["nag_mortarch_luthor"]="wh3_main_combi_region_the_awakening",
     ["nag_mortarch_neferata"]="wh3_main_combi_region_silver_pinnacle",
     ["nag_mortarch_krell"]="wh3_main_combi_region_morgheim",
@@ -699,6 +699,27 @@ function mortarch_unlock_listeners()
         true
     )
     
+    core:add_listener(
+        "NagashMortunlockMissions_cancelled",--failsafe
+        "MissionCancelled",
+        function(context)
+            local mission = context:mission()
+            return RHOX_NAGASH_UNLOCK_TECHS[mission:mission_record_key()] --mission and unlock has the same name
+        end,
+        function(context)
+            out("Rhox Nagash: Mission got cancelled, but you get the Mortarchs anyway!")
+            local mission = context:mission()
+            local unlock_tech_table = RHOX_NAGASH_UNLOCK_TECHS[mission:mission_record_key()]
+            for i, technology in pairs(unlock_tech_table) do
+                out("Rhox Nagash Current technology: "..technology)
+                cm:unlock_technology(nagash_faction, technology)
+            end
+        end,
+        true
+    )
+
+    
+    
     
     core:add_listener(
         "rhox_azhag_mission_success",
@@ -846,7 +867,14 @@ function trigger_mortarch_unlock_missions()
         -- Vlad's mission (spend time Channeling near Altdorf)
         do
             local mort = "nag_mortarch_vlad"
-            cm:trigger_mission(key, mort.."_unlock", true, false, true)
+            local mm = mission_manager:new(key, mort.."_unlock")
+            mm:add_new_objective("MOVE_TO_REGION");
+            mm:add_condition("region wh3_main_combi_region_castle_drakenhof");
+            mm:add_payload("text_display nag_mortarch_vlad_technology");
+            mm:add_payload("money 1000")
+
+            mm:trigger()
+
         end
         
         out("pre manny")
@@ -854,9 +882,8 @@ function trigger_mortarch_unlock_missions()
             local mort = "nag_mortarch_mannfred"
             
             local mm = mission_manager:new(key, mort.."_unlock")
-            mm:add_new_objective("OWN_N_REGIONS_INCLUDING");
-            mm:add_condition("region " .. "wh3_main_combi_region_castle_drakenhof");
-            mm:add_condition("total 1");
+            mm:add_new_objective("DESTROY_FACTION");
+            mm:add_condition("faction " .. "wh3_main_emp_cult_of_sigmar");
             mm:add_payload("text_display nag_mortarch_mannfred_technology");
             mm:add_payload("money 1000")
 
