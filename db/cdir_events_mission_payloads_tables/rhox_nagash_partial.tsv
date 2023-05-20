@@ -15,10 +15,8 @@ id	mission_key	payload_key	status_key	value	target_key
 7845127	nag_nagash_capture_settlement_lahmia	CHARACTER_EXPERIENCE	SUCCESS	AMOUNT[1500]	default
 7845128	nag_nagash_capture_settlement_quintex	TREASURY	SUCCESS	AMOUNT[5000]	default
 7845129	nag_nagash_capture_settlement_quintex	CHARACTER_EXPERIENCE	SUCCESS	AMOUNT[1500]	default
-7845130	nag_mortarch_vlad_unlock	TREASURY	SUCCESS	AMOUNT[1000]	default
 7845132	nag_mortarch_luthor_unlock	TREASURY	SUCCESS	AMOUNT[1000]	default
 7845133	nag_mortarch_neferata_unlock	TREASURY	SUCCESS	AMOUNT[7500]	default
 7845134	nag_mortarch_neferata_unlock	ADD_ANCILLARY	SUCCESS	ANCILLARY_KEY[nag_anc_enchanted_item_crown_of_nagash];SHOULD_REPLACE	default
 7845145	nagash_intro_5	TEXT_DISPLAY	SUCCESS	LOOKUP[nag_mortarch_arkhan_technology]	default
 7845146	nag_mortarch_luthor_unlock	TEXT_DISPLAY	SUCCESS	LOOKUP[nag_mortarch_luthor_technology]	default
-7845147	nag_mortarch_vlad_unlock	TEXT_DISPLAY	SUCCESS	LOOKUP[nag_mortarch_vlad_technology]	default

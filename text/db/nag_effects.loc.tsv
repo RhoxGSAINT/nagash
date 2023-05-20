@@ -335,7 +335,7 @@ effects_description_nag_vlad_unit_effect	Spell number of uses: %+n for "Raise De
 effects_description_nag_undead_corruption_world_dummy	Vampiric corruption: %+n (Whole World)	true
 effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Quatar[[/col]]	true
 effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to your Legion, spawning in [[col:yellow]]The Awakening[[/col]]	true
-effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
+effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Ka-Sabar[[/col]]	true
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
 effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Silver Pinnacle[[/col]]	true
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true

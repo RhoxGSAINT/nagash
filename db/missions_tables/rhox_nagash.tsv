@@ -15,7 +15,7 @@ nag_nagash_capture_settlement_quintex	CAPTURE_REGIONS			tmb/generic	rom_event_mi
 nag_mortarch_luthor_unlock	MOVE_TO_PROVINCE			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
 nag_mortarch_neferata_unlock	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
 nag_mortarch_krell_unlock	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
-nag_mortarch_vlad_unlock	HAVE_CHARACTER_WITHIN_RANGE_OF_POSITION			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
+nag_mortarch_vlad_unlock	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
 nag_mortarch_mannfred_unlock	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
 nag_mortarch_arkhan_event_1	SCRIPTED			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
 nag_mortarch_arkhan_event_2	RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_OF_SUBCULTURE			tmb/generic	rom_event_mission.png	false	true	Military		0	0	false	false	0.0000		false	Success! You have achieved one of your goals.	false
