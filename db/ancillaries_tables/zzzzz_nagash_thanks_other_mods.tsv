@@ -2,10 +2,13 @@ key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	s
 #ancillaries_tables;0;db/ancillaries_tables/zzzzz_nagash_thanks_other_mods																												
 mixu_vmp_dieter_helsnicht_mount_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true			1	0		false	false	false	all
 mixu_vmp_dieter_helsnicht_mount_manticore	wh_main_anc_mount_manticore	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true			1	0		false	false	false	all
-mixu_vmp_dieter_helsnicht_weapon_chaos_runesword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	1		false	false	true	all
-mixu_vmp_dieter_helsnicht_arcane_item_staff_of_flaming_death	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	1		false	false	true	all
+mixu_vmp_dieter_helsnicht_weapon_chaos_runesword	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	true	all
+mixu_vmp_dieter_helsnicht_arcane_item_staff_of_flaming_death	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	true	all
 dread_skeletal_steed	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	Dread_King_barded_steed		1	0		false	false	true	all
 dread_pegasus	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	Dread_King_pegasus		1	0		false	false	true	all
 dread_zombie_dragon	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	Dread_King_zombie_dragon		1	0		false	false	true	all
 mount_skeletal_steed_hand_of_nagash	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_hand_of_nagash_barded_steed		1	0		false	false	true	all
 mount_chariot_hand_of_nagash	wh2_dlc09_anc_mount_skeleton_steed_tmb	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	elo_hand_of_nagash_chariot		1	0		false	false	true	all
+mixu_cst_drekla_weapon_the_silver_hook_of_sartosa	wh_main_anc_weapon	.	false	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			200	0		false	false	false	all
+mixu_cst_drekla_talisman_king_kalhazzars_sun_blanched_skull	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
+mixu_cst_drekla_mount_promethean	wh2_dlc11_anc_mount_rotting_promethean	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true			1	0		false	false	false	all

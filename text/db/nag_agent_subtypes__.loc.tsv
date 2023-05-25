@@ -22,7 +22,7 @@ agent_recruitment_categories_onscreen_name_nag_traitor_king	Traitor King	true
 agent_subtypes_onscreen_name_override_nag_traitor_king	Traitor King	true
 agent_subtypes_description_text_override_nag_traitor_king		true
 agent_subtypes_onscreen_name_override_nag_tomb_prince	Tomb Prince	true
-agent_subtypes_description_text_override_nag_tomb_prince		true
+agent_subtypes_description_text_override_nag_tomb_prince	Tomb Princes are the sons of the Tomb Kings. Each of the kings of ancient Nehekhara had many heirs, but only one could succeed his father to the throne.	true
 agent_subtypes_onscreen_name_override_nag_liche_priest_shadow	Liche Priest (Shadows)	true
 agent_subtypes_description_text_override_nag_liche_priest_shadow	In the shadows of the great pyramids do the Liche Priests practice their dark arts. While some excel in Death Magic, or even Light, others have tamed Phantasmancy.	true
 agent_subtypes_onscreen_name_override_nag_liche_priest_nehekhara	Liche Priest (Nehekhara)	true
@@ -40,9 +40,9 @@ agent_subtypes_description_text_override_nag_vampire_shadow		true
 agent_subtypes_onscreen_name_override_nag_wight_king	Wight King	true
 agent_subtypes_description_text_override_nag_wight_king	Wight Kings are incredibly powerful Undead, almost as hard to destroy as Vampires. Suffused with Dark Magic, their weapons shimmer with baleful energy.	true
 agent_subtypes_onscreen_name_override_nag_gunnery_wight	Gunnery Wight	true
-agent_subtypes_description_text_override_nag_gunnery_wight		true
+agent_subtypes_description_text_override_nag_gunnery_wight	Masters of the ballistic arts, even in death Gunnery Wights maintain the lines and a steady flow of black powder.	true
 agent_subtypes_onscreen_name_override_nag_morghasts_archai	Morghast Archai	false
-agent_subtypes_description_text_override_nag_morghasts_archai		false
+agent_subtypes_description_text_override_nag_morghasts_archai	The most powerful Hammurai of Ptra are turned into willing emissaries of Nagash, spearheads of doom.	false
 agent_subtypes_onscreen_name_override_nag_mortarch_dieter	Mortarch	false
 agent_subtypes_description_text_override_nag_mortarch_dieter		false
 agent_recruitment_categories_onscreen_description_nag_traitor_king	Traitor King	false
@@ -55,8 +55,10 @@ agent_subtypes_description_text_override_nag_vampire_lord		false
 agent_subtypes_onscreen_name_override_nag_master_necromancer	Master Necromancer	false
 agent_subtypes_description_text_override_nag_master_necromancer		false
 agent_subtypes_onscreen_name_override_nag_tomb_banshee	Tomb Banshee	false
-agent_subtypes_description_text_override_nag_tomb_banshee		false
+agent_subtypes_description_text_override_nag_tomb_banshee	A single Banshee is a terrifying prospect, and even those warriors skilled enough to match blades with a Vampire have little defence against her unnatural screams.	false
 agent_subtypes_onscreen_name_override_nag_mortarch_dk	Dark Lord of Nagash	false
 agent_subtypes_description_text_override_nag_mortarch_dk		false
 agent_subtypes_onscreen_name_override_nag_mortarch_hand	Hand of Nagash	false
 agent_subtypes_description_text_override_nag_mortarch_hand		false
+agent_subtypes_onscreen_name_override_nag_mortarch_drekla	The Right Hand of Luthor Harkon	false
+agent_subtypes_description_text_override_nag_mortarch_drekla	The right hand of Luthor Harkon, which is somewhat ironic, since he lost his own left hand following the Vampire Admiral into battle.	false
