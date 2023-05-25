@@ -484,3 +484,7 @@ hero				nag_characters	false
 			wh_main_vmp_cha_vampire_lord_2	nag_vampiric	false
 			wh_main_vmp_cha_vampire_lord_3	nag_vampiric	false
 			wh_main_vmp_cha_vampire_lord_5	nag_vampiric	false
+			nag_mortarch_luthor	mixu_cst_luthor_harkon	false
+			nag_mortarch_luthor_terrorgheist	mixu_cst_luthor_harkon	false
+			mixu_cst_cha_drekla	nag_vampiric	false
+			mixu_cst_cha_drekla_promethean	nag_vampiric	false

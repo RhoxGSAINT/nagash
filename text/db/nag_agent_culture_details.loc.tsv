@@ -1,7 +1,7 @@
 key	text	tooltip
 #Loc;1;text/db/nag_agent_culture_details.loc		
-agent_culture_details_onscreen_name_9880176	Tomb Prince	false
-agent_culture_details_description_text_9880176	Tomb Princes are the sons of the Tomb Kings. Each of the kings of ancient Nehekhara had many heirs, but only one could succeed his father to the throne.	false
+agent_culture_details_onscreen_name_9880176	Tomb Prince/Wight King	false
+agent_culture_details_description_text_9880176	These agents are specialized in the melee combat	false
 agent_culture_details_onscreen_name_9880177		false
 agent_culture_details_description_text_9880177		false
 agent_culture_details_onscreen_name_9880178	Vampire	false
@@ -20,8 +20,8 @@ agent_culture_details_onscreen_name_9880184	Liche Priest	false
 agent_culture_details_description_text_9880184	Liche Priests are the undying members of the Nehekhara's Mortuary Cult, and they hold the secrets to Unlife.	false
 agent_subtypes_onscreen_name_override_nag_traitor_king_shambling_horde		false
 agent_subtypes_description_text_override_nag_traitor_king_shambling_horde		false
-agent_subtype_subculture_overrides_onscreen_name_nag_tomb_princemixer_nag_nagashchampion	Tomb Prince	false
-agent_subtype_subculture_overrides_description_nag_tomb_princemixer_nag_nagashchampion	Tomb Princes are the sons of the Tomb Kings. Each of the kings of ancient Nehekhara had many heirs, but only one could succeed his father to the throne.	false
+agent_subtype_subculture_overrides_onscreen_name_nag_tomb_princemixer_nag_nagashchampion	Tomb Prince/Wight King	false
+agent_subtype_subculture_overrides_description_nag_tomb_princemixer_nag_nagashchampion	These agents are specialized in the melee combat	false
 agent_subtype_subculture_overrides_onscreen_name_nag_vampiremixer_nag_nagashdignitary	Vampire	false
 agent_subtype_subculture_overrides_description_nag_vampiremixer_nag_nagashdignitary	Vampires are the true masters of Undeath. Despite their curse, Vampires retain all of their devious intelligence, and hence all of their ambition and desire.	false
 agent_subtype_subculture_overrides_onscreen_name_nag_gunnery_wightmixer_nag_nagashengineer	Gunnery Wight	false
