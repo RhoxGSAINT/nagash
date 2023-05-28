@@ -52,3 +52,6 @@ wh_main_vmp_cha_vampire_lord_3	nag_vampire_lord_3	officer		-1
 wh2_dlc11_cst_cha_luthor_harkon_1	nag_mortarch_luthor_terrorgheist	officer		-1
 nag_hero_melee_summon	nag_hero_team_summon	officer		-1
 nag_hero_mage_summon	nag_hero_team_summon	additional_officer		-1
+nag_blood_beasts_2	nag_blood_beasts	officer		-1
+nag_blood_beasts_3	nag_blood_beasts	additional_officer		-1
+nag_doomed_legion_officer	nag_doomed_legion	officer		-1

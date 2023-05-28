@@ -1,0 +1,27 @@
+key	type	applies_to	transferrable	unique_to_world	unique_to_faction	precedence	start_date	end_date	avatar_skill	avatar_special_ability	legendary_item	mp_exclusive	is_wife_ancillary	category	min_starting_age	max_starting_age	min_expiry_age	max_expiry_age	immortal	provided_bodyguard_unit	provided_banner	uniqueness_score	turns_before_swap_allowed	subcategory	randomly_dropped	can_be_stolen	can_be_destroyed	faction_set
+#ancillaries_tables;0;db/ancillaries_tables/rhox_nagash_followers																												
+nag_anc_follower_hat_makers_maker	nag_anc_follower_hat_makers_maker	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_death_doctor	nag_anc_follower_death_doctor	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_keeper_of_tomes	nag_anc_follower_keeper_of_tomes	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_warpstone_hunter	nag_anc_follower_warpstone_hunter	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_warlock	nag_anc_follower_warlock	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_corpse_caravan	nag_anc_follower_corpse_caravan	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_haunted_hostler	nag_anc_follower_haunted_hostler	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_carrion	nag_anc_follower_carrion	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_death_cultist	nag_anc_follower_death_cultist	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_ghoul_scavanger	nag_anc_follower_ghoul_scavanger	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_siren	nag_anc_follower_siren	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_poltergeist	nag_anc_follower_poltergeist	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_necromancers_apprentice	nag_anc_follower_necromancers_apprentice	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_lich	nag_anc_follower_lich	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_handmaiden	nag_anc_follower_handmaiden	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_fan	nag_anc_follower_fan	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_embalmer	nag_anc_follower_embalmer	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_blood_bag	nag_anc_follower_blood_bag	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_powder_monkey	nag_anc_follower_powder_monkey	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_captain_deceased	nag_anc_follower_captain_deceased	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_cursed_necrotect	nag_anc_follower_cursed_necrotect	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_ushabti_bodyguard	nag_anc_follower_ushabti_bodyguard	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_the_ravenous_dead	nag_anc_follower_the_ravenous_dead	.	false	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_undead_bard	nag_anc_follower_undead_bard	.	true	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	true	nag_anc_set_exclusive_nagash
+nag_anc_follower_black_cat	nag_anc_follower_black_cat	.	false	false	false	1	0	9999			false	false	false	general	1	1	50	75	true			1	0	follower	false	false	false	nag_anc_set_exclusive_nagash

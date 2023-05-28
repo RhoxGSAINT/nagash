@@ -215,3 +215,210 @@ ancillaries_explanation_text_nag_elo_hungering_blade		false
 ancillaries_onscreen_name_nag_Soulreaper	Soulreaper	false
 ancillaries_colour_text_nag_Soulreaper	Claiming the souls of the living, trapped inside the sword. once filled allows the summoning of great warriors	false
 ancillaries_explanation_text_nag_Soulreaper		false
+ancillaries_onscreen_name_wh2_dlc09_anc_arcane_item_enkhils_kanopi	Enkhil's Kanopi	false
+ancillaries_colour_text_wh2_dlc09_anc_arcane_item_enkhils_kanopi	The simple clay vessel may not look like much, but the High Priest's Undying essence within can thwart sorcery and strengthen incantations.	false
+ancillaries_explanation_text_wh2_dlc09_anc_arcane_item_enkhils_kanopi		false
+ancillaries_onscreen_name_nag_anc_arcane_item_neferras_scrolls_of_mighty_incantations	Neferra's Scrolls of Mighty Incantations	false
+ancillaries_colour_text_nag_anc_arcane_item_neferras_scrolls_of_mighty_incantations	These eight magical scrolls, containing the sum total of Neferra's lifetime of learning, can whip up an unstoppable hurricane of power to crush the foe.	false
+ancillaries_explanation_text_nag_anc_arcane_item_neferras_scrolls_of_mighty_incantations		false
+ancillaries_onscreen_name_nag_anc_armour_armour_of_eternity	Armour of Eternity	false
+ancillaries_colour_text_nag_anc_armour_armour_of_eternity	Forged from bronze, cooled in the blood of the giant Lybrasian scorpion, and gilded in red and Lahmian gold, this ancient breastplate will turn aside all but the strongest of blows.	false
+ancillaries_explanation_text_nag_anc_armour_armour_of_eternity		false
+ancillaries_onscreen_name_nag_anc_armour_scorpion_armour	Scorpion Armour	false
+ancillaries_colour_text_nag_anc_armour_scorpion_armour	These ornate armour plates are decorated with the likeness of the Scorpion-God; his protective energies pervade the very metal used, offering additional protection to the wearer.	false
+ancillaries_explanation_text_nag_anc_armour_scorpion_armour		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_brooch_of_the_great_desert	Brooch of the Great Desert	false
+ancillaries_colour_text_nag_anc_enchanted_item_brooch_of_the_great_desert	The elaborate piece of jewellery hampers the effectiveness of Dark Magic ranged against it.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_brooch_of_the_great_desert		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_cloak_of_the_dunes	Cloak of the Dunes	false
+ancillaries_colour_text_nag_anc_enchanted_item_cloak_of_the_dunes	The desert itself shall be your coat... and the foe's undoing.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_cloak_of_the_dunes		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_elixir_of_might	Elixir of Might	false
+ancillaries_colour_text_nag_anc_enchanted_item_elixir_of_might	One sip of the elixir fills the body of its drinker with the strength of many powerful, elite warriors.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_elixir_of_might		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_golden_deathmask_of_kharnut	Golden Death Mask of Kharnut	false
+ancillaries_colour_text_nag_anc_enchanted_item_golden_deathmask_of_kharnut	Death's foul taint hangs heavy from Prince Kharnut's elaborate deathmask, gripping the hearts of those who gaze upon it and freezing them in terror.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_golden_deathmask_of_kharnut		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_hieratic_jar	Hieratic Jar	false
+ancillaries_colour_text_nag_anc_enchanted_item_hieratic_jar	Sealed and bound with powerful glyphs, this jar contains the remains of a Liche Priest and all the magical energy at his command.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_hieratic_jar		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_vambraces_of_the_sun	Vambraces of the Sun	false
+ancillaries_colour_text_nag_anc_enchanted_item_vambraces_of_the_sun	Infused with the sun's dazzling intensity, the power harnessed within gleams brilliantly, blinding the wearer's opponents.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_vambraces_of_the_sun		false
+ancillaries_onscreen_name_nag_anc_magic_standard_banner_of_the_hidden_dead	Banner of the Hidden Dead	false
+ancillaries_colour_text_nag_anc_magic_standard_banner_of_the_hidden_dead	This banner is wrought with powerful incantations that draw the ancient dead to it and bind their souls to the remains of long-dead warriors.	false
+ancillaries_explanation_text_nag_anc_magic_standard_banner_of_the_hidden_dead		false
+ancillaries_onscreen_name_nag_anc_magic_standard_standard_of_the_undying_legion	Standard of the Undying Legion	false
+ancillaries_colour_text_nag_anc_magic_standard_standard_of_the_undying_legion	Containing the spirits of King Lahmizzar's Jackal Legion, this banner restores the fallen so they might fulfil their undying pledge.	false
+ancillaries_explanation_text_nag_anc_magic_standard_standard_of_the_undying_legion		false
+ancillaries_onscreen_name_nag_anc_talisman_amulet_of_pha_stah	Amulet of Pha-Stah	false
+ancillaries_colour_text_nag_anc_talisman_amulet_of_pha_stah	This moon-shaped amulet projects a disruptive magical energy onto the enemy's defences.	false
+ancillaries_explanation_text_nag_anc_talisman_amulet_of_pha_stah		false
+ancillaries_onscreen_name_nag_anc_weapon_blade_of_antarhak	Blade of Antarhak	false
+ancillaries_colour_text_nag_anc_weapon_blade_of_antarhak	This Tomb Prince's magical sword draws lifeforce from the slain to imbue the body of its wielder with stolen essence.	false
+ancillaries_explanation_text_nag_anc_weapon_blade_of_antarhak		false
+ancillaries_onscreen_name_nag_anc_weapon_blade_of_mourning_fire	Blade of Mourning Fire	false
+ancillaries_colour_text_nag_anc_weapon_blade_of_mourning_fire	Forged in the heart of Settra's pyramid, only sorrow and despair are left behind when this enchanted blade has done its deadly work.	false
+ancillaries_explanation_text_nag_anc_weapon_blade_of_mourning_fire		false
+ancillaries_onscreen_name_nag_anc_weapon_blade_of_setep	Blade of Setep	false
+ancillaries_colour_text_nag_anc_weapon_blade_of_setep	The very late King Setep's ornamented, curved sword shimmers with a blue hue that shatters the foe's armour.	false
+ancillaries_explanation_text_nag_anc_weapon_blade_of_setep		false
+ancillaries_onscreen_name_nag_anc_weapon_crook_and_flail_of_radiance	Crook & Flail of Radiance	false
+ancillaries_colour_text_nag_anc_weapon_crook_and_flail_of_radiance	All in the presence of these weapons' bearer are strangely humbled by the aura of majesty they convey.	false
+ancillaries_explanation_text_nag_anc_weapon_crook_and_flail_of_radiance		false
+ancillaries_onscreen_name_nag_anc_weapon_destroyer_of_eternities	Destroyer of Eternities	false
+ancillaries_colour_text_nag_anc_weapon_destroyer_of_eternities	This enchanted, impossibly-sharp blade can cleave through armour, flesh, bone and souls with equal ease, reducing victims to a lifeless husk.	false
+ancillaries_explanation_text_nag_anc_weapon_destroyer_of_eternities		false
+ancillaries_onscreen_name_nag_anc_arcane_item_scroll_of_arnizipals_black_horror	Scroll of Black Horror	false
+ancillaries_colour_text_nag_anc_arcane_item_scroll_of_arnizipals_black_horror		false
+ancillaries_explanation_text_nag_anc_arcane_item_scroll_of_arnizipals_black_horror		false
+ancillaries_onscreen_name_nag_anc_armour_armour_of_the_depth	Armour of the Deep	false
+ancillaries_colour_text_nag_anc_armour_armour_of_the_depth	Fashioned from interlocking tentacles and seashells and permanently dripping with slime, this armour clings to the wearer's body, allowing them to move freely.	false
+ancillaries_explanation_text_nag_anc_armour_armour_of_the_depth		false
+ancillaries_onscreen_name_nag_anc_armour_seadragon_buckler	Sea-Dragon Buckler	false
+ancillaries_colour_text_nag_anc_armour_seadragon_buckler	Every pirate's favourite, this buckler is layered with Sea-Dragon scales which provide reliable protection yet weigh virtually nothing.	false
+ancillaries_explanation_text_nag_anc_armour_seadragon_buckler		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_black_buckthorns_treasure_map	Black Buckthorn's Treasure Map	false
+ancillaries_colour_text_nag_anc_enchanted_item_black_buckthorns_treasure_map	A long-lost treasure map, leading to long-lost treasure. Due to its accuracy and level of detail, it can also double as a battle map.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_black_buckthorns_treasure_map		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_moonshine	Moonshine	false
+ancillaries_colour_text_nag_anc_enchanted_item_moonshine	The classic pirate brew. It makes one extremely fiery... in every way!	false
+ancillaries_explanation_text_nag_anc_enchanted_item_moonshine		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_pyrotechnic_compound	Pyrotechnic Compound	false
+ancillaries_colour_text_nag_anc_enchanted_item_pyrotechnic_compound	These incendiary chemicals give ordinary shot that special glow as it flies towards the target, turning them into a screaming, staggering torch on contact.	false
+ancillaries_explanation_text_nag_anc_enchanted_item_pyrotechnic_compound		false
+ancillaries_onscreen_name_nag_anc_magic_standard_bloodied_banner_of_slayers	Bloodied Banner of Slayers	false
+ancillaries_colour_text_nag_anc_magic_standard_bloodied_banner_of_slayers	The former owners of this banner have no further use for it themselves…	false
+ancillaries_explanation_text_nag_anc_magic_standard_bloodied_banner_of_slayers		false
+ancillaries_onscreen_name_nag_anc_magic_standard_burnt_banner_of_knights	Burnt Banner of Knights	false
+ancillaries_colour_text_nag_anc_magic_standard_burnt_banner_of_knights	"Ah, the cavalry's here! Yarrrr!!!"	false
+ancillaries_explanation_text_nag_anc_magic_standard_burnt_banner_of_knights		false
+ancillaries_onscreen_name_nag_anc_magic_standard_corpse_surgeon	War Standard o' the Corpse Surgeons	false
+ancillaries_colour_text_nag_anc_magic_standard_corpse_surgeon	You'd think there'd be no need for surgery on a ship crewed by the dead, but you'd be wrong - someone who can sew limbs back on double-quick is worth their weight in grog!	false
+ancillaries_explanation_text_nag_anc_magic_standard_corpse_surgeon		false
+ancillaries_onscreen_name_nag_anc_magic_standard_dead_mans_chest	Dead Man's Chest	false
+ancillaries_colour_text_nag_anc_magic_standard_dead_mans_chest	The owner of this chest refuses to let go of it even though they're dead.	false
+ancillaries_explanation_text_nag_anc_magic_standard_dead_mans_chest		false
+ancillaries_onscreen_name_nag_anc_magic_standard_holed_banner_of_militia	Holed Banner of Militia	false
+ancillaries_colour_text_nag_anc_magic_standard_holed_banner_of_militia	"Never give the zombies explosives, they'll blow the whole ship apart - you, me, the loot... everything!"	false
+ancillaries_explanation_text_nag_anc_magic_standard_holed_banner_of_militia		false
+ancillaries_onscreen_name_nag_anc_magic_standard_skull_and_crossbones	Skull & Crossbones	false
+ancillaries_colour_text_nag_anc_magic_standard_skull_and_crossbones	In these days of grand alliances and complex treaties, there is something to be said for making your intentions abundantly clear from the outset.	false
+ancillaries_explanation_text_nag_anc_magic_standard_skull_and_crossbones		false
+ancillaries_onscreen_name_nag_anc_magic_standard_spell_of_the_necromancers_apprentice	Spell of the Necromancer's Apprentice	false
+ancillaries_colour_text_nag_anc_magic_standard_spell_of_the_necromancers_apprentice	Practice makes perfect, in Dark Magic as in all things.	false
+ancillaries_explanation_text_nag_anc_magic_standard_spell_of_the_necromancers_apprentice		false
+ancillaries_onscreen_name_nag_anc_magic_standard_torn_banner_of_pilgrims	Torn Banner of Pilgrims	false
+ancillaries_colour_text_nag_anc_magic_standard_torn_banner_of_pilgrims	These lost souls follow only the tides and currents now.	false
+ancillaries_explanation_text_nag_anc_magic_standard_torn_banner_of_pilgrims		false
+ancillaries_onscreen_name_nag_anc_talisman_blackpearl_eye	Blackpearl False Eye	false
+ancillaries_colour_text_nag_anc_talisman_blackpearl_eye	Crafted from the highest-quality blackpearl, legends state that its wearer will be granted the ability to see through the black ocean waters all the way to the sea floor, where untold fortunes are buried.	false
+ancillaries_explanation_text_nag_anc_talisman_blackpearl_eye		false
+ancillaries_onscreen_name_nag_anc_talisman_jellyfish_in_a_jar	Jellyfish in a Jar	false
+ancillaries_colour_text_nag_anc_talisman_jellyfish_in_a_jar	"It won't kill yer - again - but the pain will make you wish it had."	false
+ancillaries_explanation_text_nag_anc_talisman_jellyfish_in_a_jar		false
+ancillaries_onscreen_name_nag_anc_talisman_kraken_fang	Kraken Tusk	false
+ancillaries_colour_text_nag_anc_talisman_kraken_fang	A small dagger made from the tusk of a ferocious sea monster, as cold as the ocean is deep.	false
+ancillaries_explanation_text_nag_anc_talisman_kraken_fang		false
+ancillaries_onscreen_name_nag_anc_weapon_lucky_levis_hookhand	Lucky Levi's Hookhand	false
+ancillaries_colour_text_nag_anc_weapon_lucky_levis_hookhand	From years of sword fighting, or maybe just a moment's rum luck when a pistol backfired, real hands are nevertheless in short supply among pirates.	false
+ancillaries_explanation_text_nag_anc_weapon_lucky_levis_hookhand		false
+ancillaries_onscreen_name_nag_anc_weapon_masamune	Massa-Moones' Pride	false
+ancillaries_colour_text_nag_anc_weapon_masamune	This eastern pirate blade, unmatched in its lethal sharpness, imbues its new owner with a portion of its previous wielder's power and skill.	false
+ancillaries_explanation_text_nag_anc_weapon_masamune		false
+ancillaries_onscreen_name_nag_anc_arcane_item_black_periapt	Black Periapt	false
+ancillaries_colour_text_nag_anc_arcane_item_black_periapt		false
+ancillaries_explanation_text_nag_anc_arcane_item_black_periapt		false
+ancillaries_onscreen_name_nag_anc_arcane_item_book_of_arkhan	Book of Arkhan	false
+ancillaries_colour_text_nag_anc_arcane_item_book_of_arkhan		false
+ancillaries_explanation_text_nag_anc_arcane_item_book_of_arkhan		false
+ancillaries_onscreen_name_nag_anc_arcane_item_staff_of_damnation	Staff of Damnation	false
+ancillaries_colour_text_nag_anc_arcane_item_staff_of_damnation		false
+ancillaries_explanation_text_nag_anc_arcane_item_staff_of_damnation		false
+ancillaries_onscreen_name_nag_anc_armour_nightshroud	Nightshroud	false
+ancillaries_colour_text_nag_anc_armour_nightshroud	Discovered in a vault deep inside Castle Drachenfels, the aura of gloom that clings to the Nightshroud is so strong it physically manifests as armour.	false
+ancillaries_explanation_text_nag_anc_armour_nightshroud		false
+ancillaries_onscreen_name_nag_anc_enchanted_item_rod_of_flaming_death	Rod of Flaming Death	false
+ancillaries_colour_text_nag_anc_enchanted_item_rod_of_flaming_death		false
+ancillaries_explanation_text_nag_anc_enchanted_item_rod_of_flaming_death		false
+ancillaries_onscreen_name_nag_anc_magic_standard_banner_of_the_barrows	Banner of the Barrows	false
+ancillaries_colour_text_nag_anc_magic_standard_banner_of_the_barrows	Woven from the wind and the cold, the chill of this banner touches the hearts of those who stand before it, sapping their will and ability to fight.	false
+ancillaries_explanation_text_nag_anc_magic_standard_banner_of_the_barrows		false
+ancillaries_onscreen_name_nag_anc_magic_standard_the_screaming_banner	The Screaming Banner	false
+ancillaries_colour_text_nag_anc_magic_standard_the_screaming_banner		false
+ancillaries_explanation_text_nag_anc_magic_standard_the_screaming_banner		false
+ancillaries_onscreen_name_nag_anc_follower_hat_makers_maker	Big Hatter	false
+ancillaries_colour_text_nag_anc_follower_hat_makers_maker	These magnificent hats are a visual proclamation of eternal dominion, reminding all who behold them of the indomitable force their wearers have become.	false
+ancillaries_explanation_text_nag_anc_follower_hat_makers_maker	Ranked-up above rank 20	false
+ancillaries_onscreen_name_nag_anc_follower_death_doctor	Death Doctor	false
+ancillaries_colour_text_nag_anc_follower_death_doctor	It wanders amidst the war-torn battlefield, its eyes fixed on those desperately clinging to the fading embers of life. Its purpose, is to liberate them from the torment of existence.	false
+ancillaries_explanation_text_nag_anc_follower_death_doctor	Razed a settlement	false
+ancillaries_onscreen_name_nag_anc_follower_keeper_of_tomes	Keeper of Tomes	false
+ancillaries_colour_text_nag_anc_follower_keeper_of_tomes	Entrusted with the solemn duty of preserving and safeguarding ancient tomes of forbidden knowledge and arcane secrets.	false
+ancillaries_explanation_text_nag_anc_follower_keeper_of_tomes	Ranked-up above rank 20	false
+ancillaries_onscreen_name_nag_anc_follower_warpstone_hunter	Warpstone Hunter	false
+ancillaries_colour_text_nag_anc_follower_warpstone_hunter	Warpstone is Dark Magic incarnate. Undead Lords, especially liches, will employ ghoulish hunters to find such precious ore.	false
+ancillaries_explanation_text_nag_anc_follower_warpstone_hunter	Sacked a settlement	false
+ancillaries_onscreen_name_nag_anc_follower_warlock	Warlock	false
+ancillaries_colour_text_nag_anc_follower_warlock	Warlocks are those that practise the dark arts away from prying eyes. Their novice skill often make them the prey of Witch Hunters and more...	false
+ancillaries_explanation_text_nag_anc_follower_warlock		false
+ancillaries_onscreen_name_nag_anc_follower_corpse_caravan	Corpse Caravan	false
+ancillaries_colour_text_nag_anc_follower_corpse_caravan	"Corpses my master, how many do you need? Yes."	false
+ancillaries_explanation_text_nag_anc_follower_corpse_caravan		false
+ancillaries_onscreen_name_nag_anc_follower_haunted_hostler	Haunted Hostler	false
+ancillaries_colour_text_nag_anc_follower_haunted_hostler	Even the steeds of the damned need a stable-hand to keep them fit and healthy... It's a difficult task trying to saddle a phantom horse though.	false
+ancillaries_explanation_text_nag_anc_follower_haunted_hostler	Won a battle with 4 or more cavalry units	false
+ancillaries_onscreen_name_nag_anc_follower_carrion	Carrion	false
+ancillaries_colour_text_nag_anc_follower_carrion	Carrion are large, Undead, vulture-like creatures that are drawn to battlefields and Unholy summonings.	false
+ancillaries_explanation_text_nag_anc_follower_carrion	Ranked-up in a province with low corruption	false
+ancillaries_onscreen_name_nag_anc_follower_death_cultist	Cultist of Nagash	false
+ancillaries_colour_text_nag_anc_follower_death_cultist	"Great Necromancer, I beseech you, my master, to look upon me with favor and grant me the power to serve you."	false
+ancillaries_explanation_text_nag_anc_follower_death_cultist		false
+ancillaries_onscreen_name_nag_anc_follower_ghoul_scavanger	Ghoul	false
+ancillaries_colour_text_nag_anc_follower_ghoul_scavanger	Ghouls, wretched little creatures, nothing more than prowlers of the dead.	false
+ancillaries_explanation_text_nag_anc_follower_ghoul_scavanger	Idle in a region with a Fields building	false
+ancillaries_onscreen_name_nag_anc_follower_siren	Siren	false
+ancillaries_colour_text_nag_anc_follower_siren	The ethereal voice of the siren calms the dead souls, allowing the Necromancer to bind them more easily.	false
+ancillaries_explanation_text_nag_anc_follower_siren		false
+ancillaries_onscreen_name_nag_anc_follower_poltergeist	Restless Spirit	false
+ancillaries_colour_text_nag_anc_follower_poltergeist	Those spirits who are no longer bound to the mortal plane, can be tethered to his service - for poltergeists have their uses...	false
+ancillaries_explanation_text_nag_anc_follower_poltergeist		false
+ancillaries_onscreen_name_nag_anc_follower_necromancers_apprentice	Necromancer's Apprentice	false
+ancillaries_colour_text_nag_anc_follower_necromancers_apprentice	All this one needs is a dark damp cell, a morbid curiosity and plenty of samples to work with.	false
+ancillaries_explanation_text_nag_anc_follower_necromancers_apprentice		false
+ancillaries_onscreen_name_nag_anc_follower_lich	Lich	false
+ancillaries_colour_text_nag_anc_follower_lich	Spells of decay, curses of suffering, and necrotic incantations flow effortlessly from its bone-chilling voice, resonating with an unholy resonance that can freeze even the bravest of hearts.	false
+ancillaries_explanation_text_nag_anc_follower_lich	Ranked-up in a province with high corruption	false
+ancillaries_onscreen_name_nag_anc_follower_handmaiden	Handmaiden	false
+ancillaries_colour_text_nag_anc_follower_handmaiden	Beware the allure of beauty that dazzles the eye, for it can mask a treacherous heart. Gilded masks and refined manners hide the true nature of those who walk these unhallowed halls.	false
+ancillaries_explanation_text_nag_anc_follower_handmaiden	Carried out a successful [[img:icon_hero]][[/img]]Hero action against a character	false
+ancillaries_onscreen_name_nag_anc_follower_embalmer	Mummy Embalmer	false
+ancillaries_colour_text_nag_anc_follower_embalmer	Skilled hands, weathered by time, expertly wield embalming tools, delicately preparing the deceased for their eternal journey.	false
+ancillaries_explanation_text_nag_anc_follower_embalmer		false
+ancillaries_onscreen_name_nag_anc_follower_blood_bag	Blood Bag	false
+ancillaries_colour_text_nag_anc_follower_blood_bag	A blood bag to sustain the insatiable hunger of an immortal creature, that feeds upon the essence of life itself.	false
+ancillaries_explanation_text_nag_anc_follower_blood_bag	Won a battle against a human army	false
+ancillaries_onscreen_name_nag_anc_follower_powder_monkey	Powder Monkey	false
+ancillaries_colour_text_nag_anc_follower_powder_monkey	It's an extremely dirty and dangerous job, but someone has to do it. After all, even the highest-rated admiral had to start somewhere.	false
+ancillaries_explanation_text_nag_anc_follower_powder_monkey		false
+ancillaries_onscreen_name_nag_anc_follower_captain_deceased	O Captain!	false
+ancillaries_colour_text_nag_anc_follower_captain_deceased	O heart! heart! heart! O the bleeding drops of red, where on the deck my Captain stands, cold and undead.	false
+ancillaries_explanation_text_nag_anc_follower_captain_deceased	Ranked-up on sea	false
+ancillaries_onscreen_name_nag_anc_follower_cursed_necrotect	Cursed Necrotect	false
+ancillaries_colour_text_nag_anc_follower_cursed_necrotect	These ancient architects have designed the most opulent, elaborate crypts and vaults. Too skilled to be allowed to rest.	false
+ancillaries_explanation_text_nag_anc_follower_cursed_necrotect		false
+ancillaries_onscreen_name_nag_anc_follower_ushabti_bodyguard	Ushabti Bodyguard	false
+ancillaries_colour_text_nag_anc_follower_ushabti_bodyguard	An imposing monument to Nehekhara's former power, now living once again in service of its new Master.	false
+ancillaries_explanation_text_nag_anc_follower_ushabti_bodyguard	Win a battle against a Tomb King army	false
+ancillaries_onscreen_name_nag_anc_follower_the_ravenous_dead	The Ravenous Dead	false
+ancillaries_colour_text_nag_anc_follower_the_ravenous_dead	As the Undead rip apart their victims they feast on the organs that spill forth – regaining strength in the process.	false
+ancillaries_explanation_text_nag_anc_follower_the_ravenous_dead		false
+ancillaries_onscreen_name_nag_anc_follower_undead_bard	Undead Bard	false
+ancillaries_colour_text_nag_anc_follower_undead_bard	Dance, dance and hear the sweet sound of death, loss, and the macabre, mourn as we delve into the depths of despair.	false
+ancillaries_explanation_text_nag_anc_follower_undead_bard	Ranked-up after winning 6 or more offensive battles	false
+ancillaries_onscreen_name_nag_anc_follower_black_cat	Black Cat	false
+ancillaries_colour_text_nag_anc_follower_black_cat	Cross their path and test fate as misfortune befalls you, these black cats are said to be the familiars of warlocks and witches, or perhaps they are just cats afterall.	false
+ancillaries_explanation_text_nag_anc_follower_black_cat		false
+ancillaries_onscreen_name_nag_anc_follower_fan	Immortal Fan	false
+ancillaries_colour_text_nag_anc_follower_fan	"You're the best! Can I... Can I follow you around? I won't get in the way! Can I carry your weapon? Shine your boots? Backrub, perhaps?"	false
+ancillaries_explanation_text_nag_anc_follower_fan	Won 20 or more battles	false

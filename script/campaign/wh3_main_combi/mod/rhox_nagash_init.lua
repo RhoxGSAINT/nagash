@@ -365,6 +365,8 @@ end
 
 
 local ror_units = {
+    "nag_blood_beasts",
+    "nag_doomed_legion",
     "nag_bone_colossus",
     "nag_virion_plaguecart",
     "nag_revenants",

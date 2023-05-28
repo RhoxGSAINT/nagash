@@ -31,6 +31,7 @@ nag_effect_landmark_vlad_buff_dags_fatigue_res	vigour.png	101	vigour.png	battle	
 nag_effect_landmark_vlad_buff_dags_melee	melee.png	69	melee.png	battle	true
 nag_effect_landmark_luthor_character_defence	defence_character.png	55	defence_character.png	battle	true
 nag_effect_landmark_luthor_magic_resistance	resistance_magic.png	704	resistance_magic.png	battle	true
+nag_effect_landmark_dieter_enable_horrible_regeneration_ghouls_horrors	general_ability.png	4	general_ability.png	battle	true
 nag_effect_force_army_battle_melee_attack_all_defending	melee.png	3	melee.png	battle	true
 nag_effect_force_army_battle_melee_defence_all_defending	defence.png	4	defence.png	battle	true
 nag_effect_agent_enable_recruitment_champion_tmb	tomb_prince.png	3	tomb_prince.png	campaign	true
@@ -78,6 +79,8 @@ nag_effect_agent_recruitment_xp_spy_archai	saurus_scar_veteran.png	3	saurus_scar
 nag_effect_agent_recruitment_xp_spy_archai_hidden		0		campaign	false
 nag_effect_agent_recruitment_xp_general_traitor_kings	army.png	118	army.png	campaign	true
 nag_effect_agent_recruitment_xp_general_traitor_kings_hidden		0		campaign	false
+nag_effect_agent_recruitment_xp_general_master_necromancer	army.png	118	army.png	campaign	true
+nag_effect_agent_recruitment_xp_general_master_necromancer_hidden		0		campaign	true
 nag_effect_agent_recruitment_xp_hero_all	agent.png	118	agent.png	campaign	true
 nag_effect_agent_recruitment_xp_hero_all_hidden		0		campaign	false
 nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince	tomb_prince.png	3	tomb_prince.png	campaign	true
@@ -149,9 +152,9 @@ nag_effect_grand_spell_03_recharge_instant	nag_army_abilities_pyramid_bombardmen
 nag_effect_spawns_army_dummy	army.png	118	army.png	campaign	true
 nag_effect_cannot_grow_disable	growth.png	500	growth.png	campaign	true
 nag_arkhan_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	true
-nag_luthor_harkon	resistance_magic.png	666	resistance_physical.png	campaign	true
-nag_mannfred_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	false
-nag_krell_unit_effect	melee.png	666	resistance_physical.png	campaign	true
+nag_luthor_harkon	resistance_magic.png	666	resistance_magic.png	campaign	true
+nag_mannfred_unit_effect	spell_ability.png	666	spell_ability.png	campaign	false
+nag_krell_unit_effect	weapon_damage.png	666	weapon_damage.png	campaign	true
 nag_neferata_unit_effect	attribute_stalk.png	666	resistance_physical.png	campaign	true
 nag_vlad_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	true
 nag_undead_corruption_world_dummy	corruption_vampiric.png	104	corruption_vampiric.png	campaign	true
@@ -182,3 +185,8 @@ rhox_nagash_effect_campaign_enable_attrition	attrition.png	1	attrition.png	campa
 nag_effect_building_restriction_advanced	construction.png	99999	construction.png	campaign	false
 nag_effect_building_restriction_exclusive_recruit	construction.png	99999	construction.png	campaign	false
 nag_effect_raise_dead_max_cap	raise_dead	999	raise_dead	campaign	true
+nag_effect_character_stat_upkeep	military_spending.png	105	military_spending.png	campaign	false
+nag_effect_disable_stance_tunnelling_hidden		0		campaign	true
+nag_effect_disable_stance_astromancy_hidden		0		campaign	true
+nag_effect_enable_stance_tunnelling	icon_effects_brains.png	15	icon_effects_brains.png	campaign	true
+nag_effect_enable_stance_astromancy	icon_effects_pyramid.png	15	icon_effects_pyramid.png	campaign	true

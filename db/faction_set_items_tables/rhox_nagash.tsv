@@ -15,3 +15,6 @@ id	culture	faction	remove	set	subculture
 7804202212		mixer_nag_nagash	false	rhox_nagash_faction_set	
 7804202213			false	rhox_nagash_undead_faction	wh_main_sc_vmp_jade_vampires
 7804202214	mixer_nag_nagash		false	nag_anc_set_exclusive_nagash	
+780420215		mixer_nag_nagash	false	anc_set_multi_kislev_norsca_bretonnia_chaos_dwarfs_empire_vampire_counts	
+780420216		mixer_nag_nagash	false	anc_set_multi_tomb_kings_vampire_coast	
+780420217		mixer_nag_nagash	false	all_except_khorne_dwarfs	

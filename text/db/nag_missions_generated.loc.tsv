@@ -99,7 +99,7 @@ missions_localised_description_nag_eliminate_character_in_battle_high_rank_dwf	T
 missions_localised_title_nag_eliminate_character_in_battle_high_rank_emp	Flesh-Coated Skull	true
 missions_localised_description_nag_eliminate_character_in_battle_high_rank_emp	The thralls to this child-emperor mock us. We should seek them out in battle and take their flesh-coated skulls.	true
 missions_localised_title_nag_eliminate_character_in_battle_high_rank_grn	Gone Green	true
-missions_localised_description_nag_eliminate_character_in_battle_high_rank_grn	Find this Orc filth that mocks us. Hunt down in the battle and end it.	true
+missions_localised_description_nag_eliminate_character_in_battle_high_rank_grn	Find this Orc filth that mocks us. Hunt it down in battle and end it.	true
 missions_localised_title_nag_eliminate_character_in_battle_high_rank_hef	Bring Low	true
 missions_localised_description_nag_eliminate_character_in_battle_high_rank_hef	Seek out the arrogant breather. Find the High Elf herald and slay it! Our honour demands it.	true
 missions_localised_title_nag_eliminate_character_in_battle_high_rank_lzd	Older Blood	true
@@ -193,7 +193,7 @@ missions_localised_description_nag_raze_sack_settlement_grn	The Orcs gather in o
 missions_localised_title_nag_raze_sack_settlement_hef	Glittering Cities	true
 missions_localised_description_nag_raze_sack_settlement_hef	The Gleaming towers of the High Elves attempt to rival the glory of the Black Pyramid. This cannot be allowed to stand - literally.	true
 missions_localised_title_nag_raze_sack_settlement_lzd	Do Not Temple Me	true
-missions_localised_description_nag_raze_sack_settlement_lzd	The temple-cities of the Lizardmen are a cache of lost lore that could bring aid in the Great Ritual, unseal their crypts and burn what is left.	true
+missions_localised_description_nag_raze_sack_settlement_lzd	The temple-cities of the Lizardmen are a cache of lost lore that could bring aid in The Great Ritual, unseal their crypts and burn what is left.	true
 missions_localised_title_nag_raze_sack_settlement_skv	Burrow and Destroy	true
 missions_localised_description_nag_raze_sack_settlement_skv	Seek out the Skaven nests and put an end to these vermin once and for all!	true
 missions_localised_title_nag_raze_sack_settlement_tmb	Pyramid Scheme	true
