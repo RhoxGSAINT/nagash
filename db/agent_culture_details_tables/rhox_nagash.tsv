@@ -6,6 +6,6 @@ key	agent	culture	associated_unit	season	level	agent_recruited_movie	gender	icon
 9880179	engineer	mixer_nag_nagash	wh2_dlc11_cst_cha_gunnery_wight_0		0		m		ui/campaign ui/agents/wh2_dlc11_cst_engineer.png	true
 9880180	general	mixer_nag_nagash	nag_cha_tomb_king_0		0		m		ui/campaign ui/agents/paladin.png	true
 9880181	minister	mixer_nag_nagash	nag_cha_tomb_king_0		0				ui/campaign ui/agents/paladin.png	true
-9880182	runesmith	mixer_nag_nagash	nag_tomb_banshee		0				ui/campaign ui/agents/paladin.png	true
+9880182	runesmith	mixer_nag_nagash	nag_tomb_banshee		0		f		ui/campaign ui/agents/paladin.png	true
 9880183	spy	mixer_nag_nagash	nag_morghasts_archai		0		m	UI/units/icons/wh2_dlc17_bst_wargor.png	ui/campaign ui/agents/wh2_dlc17_bst_wargor.png	true
 9880184	wizard	mixer_nag_nagash	nag_cha_liche_priest_death_0		0		m		ui/campaign ui/agents/wh_main_wizard.png	true

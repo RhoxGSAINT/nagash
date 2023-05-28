@@ -5,7 +5,7 @@ nag_thrall_crossbowmen	0.0000	3	nag_thrall_crossbowmen	false	0.0000
 nag_blood_beasts	100.0000	1	nag_blood_beasts	true	0.1000
 nag_doomed_legion	100.0000	1	nag_doomed_legion	true	0.1000
 nag_bone_colossus	100.0000	1	nag_bone_colossus	true	0.1000
-nag_virion_plaguecart	100.0000	1	nag_virion_plaguecart	true	0.1000
+gp_nag_virion_plague_cart	100.0000	1	gp_nag_virion_plague_cart	true	0.1000
 nag_revenants	100.0000	1	nag_revenants	true	0.1000
 nag_shade_haunts	100.0000	1	nag_shade_haunts	true	0.1000
 nag_vanilla_vmp_cav_blood_knights_0	0.0000	0	nag_vanilla_vmp_cav_blood_knights_0	false	1.0000

@@ -5,7 +5,7 @@ key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tec
 365884118	nag_blood_beasts	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884119	nag_doomed_legion	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884120	nag_bone_colossus	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
-365884121	nag_virion_plaguecart	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
+365884121	gp_nag_virion_plague_cart	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884122	nag_revenants	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884123	nag_shade_haunts	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884127	nag_vanilla_vmp_inf_skeleton_warriors_0	0	wh_main_vmp_province_pool		mixer_nag_nagash	

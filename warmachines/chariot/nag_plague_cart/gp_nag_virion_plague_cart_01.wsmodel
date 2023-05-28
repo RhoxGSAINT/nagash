@@ -1,0 +1,33 @@
+<model version="1">
+	<geometry>warmachines\chariot\nag_plague_cart\gp_nag_virion_plague_cart_01.rigid_model_v2</geometry>
+		<materials>
+			<material lod_index="0" part_index="0">warmachines\materials\vmp_corpse_cart_bell_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="1">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\coffin_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="2">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\bones_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="3">warmachines\chariot\nag_plague_cart\materials\bones_big_weighted2_alpha_on.xml.material</material>
+			<material lod_index="0" part_index="4">warmachines\materials\vmp_mortis_engine_nagash_weighted2.xml.material</material>
+			<material lod_index="0" part_index="5">warmachines\materials\grn_boar_chariot_01_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="1" part_index="0">warmachines\materials\vmp_corpse_cart_bell_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="1">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\coffin_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="2">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\bones_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="3">warmachines\chariot\nag_plague_cart\materials\bones_big_weighted2_alpha_on.xml.material</material>
+			<material lod_index="1" part_index="4">warmachines\materials\vmp_mortis_engine_nagash_weighted2.xml.material</material>
+			<material lod_index="1" part_index="5">warmachines\materials\grn_boar_chariot_01_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="2" part_index="0">warmachines\materials\vmp_corpse_cart_bell_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="2" part_index="1">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\coffin_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="2">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\bones_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="3">warmachines\chariot\nag_plague_cart\materials\bones_big_weighted2_alpha_off.xml.material</material>
+			<material lod_index="2" part_index="4">warmachines\materials\vmp_mortis_engine_nagash_weighted2.xml.material</material>
+			<material lod_index="2" part_index="5">warmachines\materials\grn_boar_chariot_01_weighted2_alpha_off.xml.material</material>
+
+			<material lod_index="3" part_index="0">warmachines\materials\vmp_corpse_cart_bell_01_weighted2_alpha_on.xml.material</material>
+			<material lod_index="3" part_index="1">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\coffin_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="2">variantmeshes\wh_variantmodels\hu4e\nag\nag_bone_colossus\materials\bones_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="3">warmachines\chariot\nag_plague_cart\materials\bones_big_weighted2_alpha_off.xml.material</material>
+			<material lod_index="3" part_index="4">warmachines\materials\vmp_mortis_engine_nagash_weighted2.xml.material</material>
+			<material lod_index="3" part_index="5">warmachines\materials\grn_boar_chariot_01_weighted2_alpha_off.xml.material</material>
+
+	</materials>
+</model>

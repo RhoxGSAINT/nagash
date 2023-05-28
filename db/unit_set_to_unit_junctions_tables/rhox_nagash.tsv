@@ -324,8 +324,6 @@ hero				nag_characters	false
 			nag_mortarch_vlad	nag_vlad_unit_set	false
 			nag_nagashi_guard	nag_nagashi_guard	false
 			nag_nagashi_guard_halb	nag_nagashi_guard	false
-			nag_vanilla_vmp_inf_grave_guard_0	vmp_graveguard	false
-			nag_vanilla_vmp_inf_grave_guard_1	vmp_graveguard	false
 			nag_vanilla_vmp_cav_blood_knights_0	nag_tech_blood_knights	false
 			nag_vanilla_vmp_inf_zombie	nag_vanilla_vmp_inf_zombie	false
 			nag_cha_liche_priest_death_0	nag_liche_priests	false
@@ -337,7 +335,6 @@ hero				nag_characters	false
 			nag_cha_liche_priest_shadow_0	nag_liche_priests	false
 			nag_cha_liche_priest_shadow_1	nag_liche_priests	false
 			wh2_dlc09_tmb_art_casket_of_souls_0	nag_tech_casket_of_souls	false
-			nag_vanilla_vmp_inf_zombie	vmp_zombies	false
 			nag_vanilla_vmp_inf_cairn_wraiths	nag_frost_spirits	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_frost_spirits	false
 			nag_spirit_hosts	nag_frost_spirits	false
@@ -385,13 +382,6 @@ hero				nag_characters	false
 			nag_vanilla_vmp_mon_dire_wolves	nag_tech_dire_wolves_fell_bats	false
 			nag_vanilla_vmp_mon_fell_bats	nag_tech_dire_wolves_fell_bats	false
 			nag_vanilla_cst_mon_terrorgheist	vmp_terrorgheist	false
-			nag_vanilla_vmp_mon_dire_wolves	vmp_beasts	false
-			nag_vanilla_vmp_mon_fell_bats	vmp_beasts	false
-			nag_vanilla_vmp_mon_vargheists	vmp_beasts	false
-			nag_vanilla_vmp_mon_varghulf	vmp_beasts	false
-			nag_vanilla_cst_inf_zombie_deckhands_mob_0	wh2_dlc11_cst_deckhands_depth_guard	false
-			nag_vanilla_cst_inf_zombie_deckhands_mob_1	wh2_dlc11_cst_deckhands_depth_guard	false
-			nag_vanilla_cst_inf_depth_guard_0	wh2_dlc11_cst_deckhands_depth_guard	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_sneaky_sand	false
 			nag_sand_crawlies	nag_army_speed_scorpion_crawler	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_speed_scorpion_crawler	false
@@ -530,3 +520,51 @@ hero				nag_characters	false
 			nag_thrall_handgunners	nag_thrall_units	false
 			nag_thrall_crossbowmen	nag_vampiric	false
 			nag_thrall_handgunners	nag_vampiric	false
+			gp_nag_virion_plague_cart	wh2_main_ror_units_all	false
+			wh_dlc02_vmp_cav_blood_knights_0	nag_vampiric	false
+			wh_main_vmp_mon_varghulf	nag_vampiric	false
+			wh_main_vmp_mon_vargheists	nag_vampiric	false
+			wh_dlc04_vmp_cha_vlad_von_carstein_0	nag_vampiric	false
+			wh_pro02_vmp_cha_isabella_von_carstein_0	nag_vampiric	false
+			wh_pro02_vmp_cha_isabella_von_carstein_2	nag_vampiric	false
+			wh_pro02_vmp_cha_isabella_von_carstein_4	nag_vampiric	false
+			wh_main_vmp_cha_mannfred_von_carstein_0	nag_vampiric	false
+			wh_main_vmp_cha_mannfred_von_carstein_2	nag_vampiric	false
+			wh_main_vmp_cha_mannfred_von_carstein_3	nag_vampiric	false
+			wh_main_vmp_cha_mannfred_von_carstein_4	nag_vampiric	false
+			wh_dlc05_vmp_cha_red_duke_0	nag_vampiric	false
+			wh_dlc05_vmp_cha_red_duke_1	nag_vampiric	false
+			wh_dlc05_vmp_cha_red_duke_2	nag_vampiric	false
+			wh_dlc05_vmp_cha_red_duke_3	nag_vampiric	false
+			nag_vampire_lord_0	nag_vampiric	false
+			nag_vampire_lord_2	nag_vampiric	false
+			nag_vampire_lord_3	nag_vampiric	false
+			nag_vampire_lord_5	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_blood_dragon_lord_0	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_blood_dragon_lord_1	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_blood_dragon_lord_2	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_blood_dragon_lord_3	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_lahmian_lord_0	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_lahmian_lord_1	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_lahmian_lord_2	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_lahmian_lord_3	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_necrarch_lord_0	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_necrarch_lord_1	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_necrarch_lord_2	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_necrarch_lord_3	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_strigoi_lord_0	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_strigoi_lord_1	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_von_carstein_lord_0	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_von_carstein_lord_1	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_von_carstein_lord_2	nag_vampiric	false
+			wh2_dlc11_vmp_cha_bloodline_von_carstein_lord_3	nag_vampiric	false
+			wh_dlc04_vmp_cha_strigoi_ghoul_king_0	nag_vampiric	false
+			wh_dlc04_vmp_cha_strigoi_ghoul_king_1	nag_vampiric	false
+			wh_main_vmp_cha_vampire_lord_0	nag_vampiric	false
+			wh_main_vmp_cha_vampire_lord_2	nag_vampiric	false
+			wh_main_vmp_cha_vampire_lord_3	nag_vampiric	false
+			wh_main_vmp_cha_vampire_lord_5	nag_vampiric	false
+			nag_mortarch_luthor	mixu_cst_luthor_harkon	false
+			nag_mortarch_luthor_terrorgheist	mixu_cst_luthor_harkon	false
+			mixu_cst_cha_drekla	nag_vampiric	false
+			mixu_cst_cha_drekla_promethean	nag_vampiric	false

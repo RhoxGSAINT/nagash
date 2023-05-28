@@ -60,3 +60,4 @@ rhox_nagash_ai_bonus	[HIDDEN]	HIDDEN	faction	0		false	false	true
 rhox_nagash_stance_brain_searching	Absorb magic and knowledge from nearby practitioners by consuming their cerebral matter.	Stance: Empower	force	1	icon_effects_brains.png	true	false	true
 rhox_nagash_stance_pyramid	Uses the Black Pyramid to traverse the world.	Stance: Black Pyramid	force	1	icon_effects_pyramid.png	true	false	true
 rhox_lahmia_neferata_lord_trait	ph	ph	faction	1	character.png	true	false	true
+nag_krell_battle_1_azhag_hidden	[HIDDEN]	HIDDEN	faction	0		false	false	true

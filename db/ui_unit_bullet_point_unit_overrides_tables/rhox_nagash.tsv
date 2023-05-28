@@ -157,3 +157,7 @@ good_range	nag_thrall_crossbowmen
 rampage	nag_thrall_crossbowmen
 armour_piercing_ranged	nag_thrall_handgunners
 rampage	nag_thrall_handgunners
+magical_aura	gp_nag_virion_plague_cart
+regeneration	gp_nag_virion_plague_cart
+ethereal	gp_nag_virion_plague_cart
+armour_piercing	gp_nag_virion_plague_cart
