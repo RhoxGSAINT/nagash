@@ -19,7 +19,7 @@ core:add_listener(
     function(context)
         local character = context:character()
         local faction = character:faction()
-        return character:character_subtype("nag_nagash_boss") and character:rank() >= 40 and faction:ancillary_exists("nag_anc_enchanted_item_crown_of_nagash") == false and cm:get_saved_value("rhox_nagash_azhag_mission_active") ~= true
+        return character:character_subtype("nag_nagash_boss") and character:rank() >= 20 and faction:ancillary_exists("nag_anc_enchanted_item_crown_of_nagash") == false and cm:get_saved_value("rhox_nagash_azhag_mission_active") ~= true
     end,
     function(context)
         out("Rhox Nagash: In the listener")
