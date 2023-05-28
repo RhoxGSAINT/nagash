@@ -3,7 +3,7 @@ agent_subtype	ancillary	rank	instant	is_quest_battle
 nag_nagash_boss	nag_anc_armour_morikhane_the_black_armour	13	true	false
 nag_nagash_boss	nag_anc_weapon_the_mortis_blade	17	true	false
 nag_nagash_boss	nag_anc_arcane_item_alakanash_staff_of_power	7	true	false
-nag_nagash_boss	nag_anc_enchanted_item_crown_of_nagash	40	false	false
+nag_nagash_boss	nag_anc_enchanted_item_crown_of_nagash	20	false	false
 nag_mortarch_mannfred	nag_anc_armour_armour_of_templehof	11	true	false
 nag_mortarch_mannfred	nag_anc_weapon_sword_of_unholy_power	6	true	false
 nag_mortarch_arkhan	nag_anc_arcane_item_staff_of_nagash	8	true	false
