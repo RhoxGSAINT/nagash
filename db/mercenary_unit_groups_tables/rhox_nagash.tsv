@@ -1,5 +1,9 @@
 key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn
 #mercenary_unit_groups_tables;2;db/mercenary_unit_groups_tables/rhox_nagash					
+nag_thrall_handgunners	0.0000	1	nag_thrall_handgunners	false	0.0000
+nag_thrall_crossbowmen	0.0000	3	nag_thrall_crossbowmen	false	0.0000
+nag_blood_beasts	100.0000	1	nag_blood_beasts	true	0.1000
+nag_doomed_legion	100.0000	1	nag_doomed_legion	true	0.1000
 nag_bone_colossus	100.0000	1	nag_bone_colossus	true	0.1000
 gp_nag_virion_plague_cart	100.0000	1	gp_nag_virion_plague_cart	true	0.1000
 nag_revenants	100.0000	1	nag_revenants	true	0.1000

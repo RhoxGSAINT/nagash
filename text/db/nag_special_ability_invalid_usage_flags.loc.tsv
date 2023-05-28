@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/nag_special_ability_invalid_usage_flags.loc		
+special_ability_invalid_usage_flags_flag_description_is_not_rampaging	Unit is rampaging	false
+special_ability_invalid_usage_flags_flag_description_is_rampaging	Unit is not rampaging	false

@@ -6,3 +6,4 @@ engaged_in_melee	nag_unit_passive_grim_aura
 out_of_melee	nag_unit_abilities_beyond_the_veil
 health_above_50%	nag_unit_abilities_malevolent_assault
 mana_above_50%	nag_nagash_abilities_crown_of_sorcery
+engaged_in_melee	nag_unit_passive_blood_frenzy

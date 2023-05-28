@@ -168,4 +168,8 @@ unit_abilities_tooltip_text_nag_bound_spell_raise_dead_fell_bats	Look up...	fals
 unit_abilities_onscreen_name_nag_bound_spell_raise_dead_corpse_cart_balefire	Infernal Braziers	false
 unit_abilities_tooltip_text_nag_bound_spell_raise_dead_corpse_cart_balefire	The green flames lick through the fog, empowering the dead around them.	false
 unit_abilities_onscreen_name_nag_bound_spell_raise_dead_corpse_cart_lodestone	For Whom the Bell Tolls	false
-unit_abilities_tooltip_text_nag_bound_spell_raise_dead_corpse_cart_lodestone	In the darkness the bell rings out, with the dead following in tow.	false
+unit_abilities_tooltip_text_nag_bound_spell_raise_dead_corpse_cart_lodestone	Ask not for whom the bell tolls, as it tolls for thee...	false
+unit_abilities_onscreen_name_nag_unit_passive_blood_frenzy	Blood Frenzy	false
+unit_abilities_tooltip_text_nag_unit_passive_blood_frenzy	The smell and taste of blood intensifies the rage of these most brutal creatures – driving them forward to rip, tear and devour.	false
+unit_abilities_onscreen_name_nag_unit_passive_fresh_hunger	Fresh Hunger	false
+unit_abilities_tooltip_text_nag_unit_passive_fresh_hunger	Recently turned to vampirism these thralls find it difficult to control their innate thirst and hunger for blood.	false

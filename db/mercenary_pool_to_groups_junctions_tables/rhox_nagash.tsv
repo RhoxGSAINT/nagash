@@ -1,5 +1,9 @@
 key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
 #mercenary_pool_to_groups_junctions_tables;1;db/mercenary_pool_to_groups_junctions_tables/rhox_nagash						
+365884116	nag_thrall_handgunners	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
+365884117	nag_thrall_crossbowmen	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
+365884118	nag_blood_beasts	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
+365884119	nag_doomed_legion	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884120	nag_bone_colossus	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884121	gp_nag_virion_plague_cart	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		
 365884122	nag_revenants	0	wh2_dlc09_tmb_units_of_renown_pool	mixer_nag_nagash		

@@ -198,7 +198,7 @@ effects_description_nag_effect_nagash_enable_death_magic_incarnate	Passive abili
 effects_description_nag_effect_item_nagash_ability_enable_morikhane	Ability: "Black Armour of Nagash"	true
 effects_description_nag_effect_item_nagash_ability_enable_mortis_blade	Passive ability: "The Great Blade of Death"	true
 effects_description_nag_effect_item_nagash_ability_enable_staff_of_power	Passive ability: "Staff of Power"	true
-effects_description_nag_effect_item_nagash_ability_enable_crown_of_nagash	Ability: "Crown of Nagash"	false
+effects_description_nag_effect_item_nagash_ability_enable_crown_of_nagash	Ability: "Crown of Nagash"	true
 effects_description_nag_effect_item_nagash_ability_enable_ashes_and_dust	Bound spell: "Ashes and Dust"	true
 effects_description_nag_ability_enable_loremaster_dummy	Passive abilites: "The Curse of Undeath, Exorcism, Life Leeching and The Restless Dead"	true
 effects_description_nag_effect_ability_enable_exorcism_hidden	[Hidden]	false
@@ -225,6 +225,7 @@ effects_description_nag_effect_resource_upkeep_reduction_construct	Upkeep: %+n% 
 effects_description_nag_effect_resource_upkeep_reduction_zombie	Upkeep: %+n% for all Ghoul and all Zombie units	true
 effects_description_nag_effect_resource_upkeep_reduction_coast	Upkeep: %+n% for Coast units	true
 effects_description_nag_effect_agent_recruitment_xp_general_traitor_kings	Lord recruit rank: %+n for Traitor Kings	true
+effects_description_nag_effect_agent_recruitment_xp_general_master_necromancer	Lord recruit rank: %+n for Master Necromancers	false
 effects_description_nag_effect_agent_recruitment_xp_hero_all	Hero recruit rank: %+n for all Heroes	true
 effects_description_nag_effect_agent_recruitment_xp_champion_wight_king	Hero recruit rank: %+n for Wight Kings	true
 effects_description_nag_effect_agent_recruitment_xp_champion_tomb_prince	Hero recruit rank: %+n for Tomb Princes	true
@@ -236,6 +237,7 @@ effects_description_nag_effect_agent_recruitment_xp_dignitary_vampires	Hero recr
 effects_description_nag_effect_agent_recruitment_xp_runesmith_tomb_banshee	Hero recruit rank: %+n for Tomb Banshee	false
 effects_description_nag_effect_agent_recruitment_xp_spy_archai_hidden	[Hidden]	true
 effects_description_nag_effect_agent_recruitment_xp_general_traitor_kings_hidden	[Hidden]	true
+effects_description_nag_effect_agent_recruitment_xp_general_master_necromancer_hidden	[Hidden]	false
 effects_description_nag_effect_agent_recruitment_xp_hero_all_hidden	[Hidden]	true
 effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_tomb_prince_hidden	[Hidden]	true
 effects_description_nag_effect_agent_recruitment_xp_champion_wight_king_hidden	[Hidden]	true
@@ -430,14 +432,52 @@ effects_description_nag_effect_enable_bound_raise_dead_cairn_wraiths	Bound spell
 effects_description_nag_effect_enable_bound_raise_dead_fell_bats	Bound spell: "As Above, So Below"	false
 effects_description_nag_effect_enable_bound_raise_dead_corpse_cart_balefire	Bound spell: "Infernal Braziers"	false
 effects_description_nag_effect_enable_bound_raise_dead_corpse_cart_lodestone	Bound spell: "For Whom the Bell Tolls"	false
+effects_description_nag_effect_ability_uses_raise_dead_zombie	Ability number of uses: %+n for "Raise Dead"	false
+effects_description_nag_effect_ability_uses_raise_dead_reapers	Ability number of uses: %+n for "Grim's Reaping"	false
+effects_description_nag_effect_ability_uses_raise_dead_crypt_ghoul	Ability number of uses: %+n for "Tales from the Crypt"	false
+effects_description_nag_effect_ability_uses_raise_dead_cairn_wraiths	Ability number of uses: %+n for "Fright Night"	false
+effects_description_nag_effect_ability_uses_raise_dead_fell_bats	Ability number of uses: %+n for "As Above, So Below"	false
+effects_description_nag_effect_ability_uses_raise_dead_corpse_cart_balefire	Ability number of uses: %+n for "Infernal Braziers"	false
+effects_description_nag_effect_ability_uses_raise_dead_corpse_cart_lodestone	Ability number of uses: %+n for "For Whom the Bell Tolls"	false
 effects_description_nag_effect_unit_speed_basic_skeleton	Speed: %+n% for Skeleton Warriors, Spearmen, Reaper and Archers units	false
 effects_description_nag_effect_unit_healing_cap_ghouls	Battle healing cap: %+n% for Ghoul units	false
 effects_description_nag_effect_unit_resistance_physical_ethereal	Physical resistance: %n% for Ethereal units	false
 effects_description_nag_effect_unit_leadership_ethereal	Leadership: %+n for Ethereal units	false
-effects_description_nag_effect_force_all_campaign_upkeep_hidden		false
+effects_description_nag_effect_force_all_campaign_upkeep_hidden	[HIDDEN] 	false
 effects_description_nag_effect_building_restriction_advanced	Only one building of this category can be built in each settlement	false
 effects_description_nag_effect_building_restriction_exclusive_recruit	Only one building of this category can be built in each settlement	false
 effects_description_nag_effect_raise_dead_max_cap	Raise Dead: %+n Max unit capacity	false
 effects_description_nag_dk_unlock	Summon [[col:yellow]]Dread King[[/col]] to your Legion, spawning in [[col:yellow]]Black Pyramid of Nagash[[/col]]	false
 effects_description_nag_archai_spawn_effect_dummy	Morghast Archai will spawn near the Mortarch or where the Mortarch has spawned	false
+effects_description_nag_effect_character_stat_upkeep	Upkeep: %+n%	false
+effects_description_nag_effect_battle_barrier_health_add_moghast	Barrier hit points: %+n for Morghasts units	false
+effects_description_nag_effect_landmark_dieter_enable_horrible_regeneration_ghouls_horrors	Passive ability: "Horrible Regeneration" for Crypt Ghouls and Crypt Horror units	false
+effects_description_nag_effect_healing_cap_zombies	Battle healing cap: %+n% for Zombies units	false
+effects_description_nag_effect_force_starting_health_zombies	Recruitment health: %+n% for Zombies units	false
+effects_description_nag_effect_phys_resistance_monstrous_infantry	Physical resistance: %n% for Monstrous Infantry units	false
+effects_description_nag_effect_phys_resistance_monstrous_infantry_hidden	[HIDDEN] 	false
+effects_description_nag_effect_fire_resistance_ghouls_horrors	Fire resistance: %n% for Crypt Ghouls and Crypt Horror units	false
+effects_description_nag_effect_ability_enable_frenzy_ghouls	Passive ability: "Frenzy" for Crypt Ghouls units	false
+effects_description_nag_effect_ability_enable_blood_frenzy_horrors	Passive ability: "Blood Frenzy" for Crypt Horrors units	false
+effects_description_nag_effect_force_stat_leadership_infantry	Leadership: %+n for Infantry & Monstrous Infantry units	false
+effects_description_nag_effect_character_stat_fire_resistance_dieter	Fire resistance: %n% for Dieter	false
+effects_description_nag_effect_character_stat_magic_resistance_dieter	Spell resistance: %n% for Dieter	false
+effects_description_nag_effect_character_stat_missile_resistance_dieter	Missile resistance: %n% for Dieter	false
+effects_description_nag_effect_character_stat_physical_resistance_dieter	Physical resistance: %n% for Dieter	false
+effects_description_nag_effect_character_stat_ward_save_dieter	Ward save: %+n% for Dieter	false
+effects_description_nag_effect_unit_enable_spell_mastery_nag_spell_caster_lords	Attribute: Mastery of Elemental Winds for Spellcaster Lords	false
+effects_description_nag_effect_unit_enable_spell_mastery_nag_vampire_heroes	Attribute: Mastery of Elemental Winds for Vampires	false
+effects_description_nag_effect_unit_enable_spell_mastery_nag_liche_priests	Attribute: Mastery of Elemental Winds for Liche Priests	false
+effects_description_nag_effect_ability_uses_staff_of_flaming_death	Ability number of uses: %+n for "Staff of Flaming Death"	false
+effects_description_nag_effect_enable_stance_tunnelling	Stance: Black Pyramid unlocked	false
+effects_description_nag_effect_enable_stance_astromancy	Stance: Empower unlocked	false
+effects_description_nag_effect_attribute_enable_stalk_beasts_crypt	Attribute: Stalk for Ghoul and Beast units	false
+effects_description_nag_effect_attribute_enable_vanguard_beasts_crypt	Attribute: Vanguard for Ghoul and Beast units	false
+effects_description_nag_effect_unit_enable_spell_mastery	Attribute: Mastery of Elemental Winds	false
+effects_description_nag_effect_ability_uses_bound_spell_hand_of_dust	Ability number of uses: %+n for "The Hand of Dust"	false
+effects_description_nag_effect_force_stat_missile_damage_thrall_units	Missile strength: %+n% for Thrall Crossbowmen and Thrall Handgunners units	false
+effects_description_nag_effect_force_stat_range_thrall_units	Range: %+n% for Thrall Crossbowmen and Thrall Handgunners units	false
+effects_description_nag_effect_recruitment_available_thrall_crossbow_dummy	Gain access to Thrall Crossbowmen	false
+effects_description_nag_effect_recruitment_available_thrall_handgunners_dummy	Gain access to Thrall Handgunners	false
+effects_description_nag_effect_recruitment_available_doom_dummy	Gain access to the Doomed Legion	false
 effects_description_nag_effect_azhag_leadership_infantry	Leadership: %+n for Skeletal Greenskin infantry units	false

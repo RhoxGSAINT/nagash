@@ -32,6 +32,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_zombie_deckhands_mob_1	nag_army_infantry_azhag	false
 			nag_vanilla_cst_inf_depth_guard_0	nag_army_infantry_azhag	false
 			nag_skeleton_reaper	nag_army_infantry_azhag	false
+			nag_doomed_legion	nag_army_infantry_azhag	false
 			nag_vanilla_tmb_mon_tomb_scorpion_0	nag_army_monsters_constructs_azhag	false
 			nag_vanilla_tmb_mon_khemrian_warsphinx_0	nag_army_monsters_constructs_azhag	false
 			nag_vanilla_tmb_mon_necrosphinx_0	nag_army_monsters_constructs_azhag	false
@@ -40,6 +41,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_mon_necrofex_colossus_0	nag_army_monsters_constructs_azhag	false
 			nag_vanilla_vmp_mon_varghulf	nag_army_monsters_constructs_azhag	false
 			nag_bone_colossus	nag_army_monsters_constructs_azhag	false
+			nag_blood_beasts	nag_army_monsters_constructs_azhag	false
 			nag_morghasts	nag_army_nagashizzar_units_azhag	false
 			nag_nagashi_guard	nag_army_nagashizzar_units_azhag	false
 			nag_nagashi_guard_halb	nag_army_nagashizzar_units_azhag	false
@@ -55,6 +57,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_warp_ghouls	nag_army_nagashizzar_units_azhag	false
 			nag_skeleton_reaper	nag_army_nagashizzar_units_azhag	false
 			nag_undead_chariot_unit	nag_army_nagashizzar_units_azhag	false
+			nag_doomed_legion	nag_army_nagashizzar_units_azhag	false
 			nag_morghasts	nag_army_nagashizzar_units_vet_azhag	false
 			nag_nagashi_guard	nag_army_nagashizzar_units_vet_azhag	false
 			nag_nagashi_guard_halb	nag_army_nagashizzar_units_vet_azhag	false
@@ -70,6 +73,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_warp_ghouls	nag_army_nagashizzar_units_vet_azhag	false
 			nag_skeleton_reaper	nag_army_nagashizzar_units_vet_azhag	false
 			nag_undead_chariot_unit	nag_army_nagashizzar_units_vet_azhag	false
+			nag_doomed_legion	nag_army_nagashizzar_units_vet_azhag	false
 			nag_vanilla_tmb_inf_skeleton_archers_0	nag_army_ranged_azhag	false
 			nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	nag_army_ranged_azhag	false
 			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	nag_army_ranged_azhag	false
@@ -84,6 +88,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_art_carronade	nag_army_ranged_azhag	false
 			nag_vanilla_cst_mon_necrofex_colossus_0	nag_army_ranged_azhag	false
 			nag_undead_chariot_unit	nag_army_ranged_azhag	false
+			nag_bone_colossus	nag_army_ranged_azhag	false
+			nag_thrall_crossbowmen	nag_army_ranged_azhag	false
+			nag_thrall_handgunners	nag_army_ranged_azhag	false
 			nag_vanilla_tmb_mon_ushabti_0	nag_army_warbeasts_monstrous_inf_azhag	false
 			nag_vanilla_tmb_mon_ushabti_1	nag_army_warbeasts_monstrous_inf_azhag	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_army_warbeasts_monstrous_inf_azhag	false
@@ -113,6 +120,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vigpro_nagash_skeleton_goblin_range	nag_army_nagashizzar_units_vet_azhag	false
 			vigpro_nagash_skeleton_troll_1h	nag_army_nagashizzar_units_vet_azhag	false
 			vigpro_nagash_skeleton_troll_2h	nag_army_nagashizzar_units_vet_azhag	false
+			nag_bone_colossus	nag_army_nagashizzar_units_vet_azhag	false
 			vigpro_nagash_skeleton_orcs	nag_tech_azhag_skeletal_infantry	false
 			vigpro_nagash_skeleton_goblin_melee	nag_tech_azhag_skeletal_infantry	false
 			vigpro_nagash_skeleton_goblin_range	nag_tech_azhag_skeletal_infantry	false

@@ -4,6 +4,7 @@ causes_fear	nag_nagash_husk
 encourages	nag_nagash_husk
 hide_forest	nag_nagash_husk
 undead	nag_nagash_husk
+spell_mastery	nag_nagash_husk
 causes_fear	nag_nagash_revenant
 causes_terror	nag_nagash_revenant
 encourages	nag_nagash_revenant
@@ -13,6 +14,7 @@ causes_fear	nag_nagash_boss
 causes_terror	nag_nagash_boss
 encourages	nag_nagash_boss
 undead	nag_nagash_boss
+spell_mastery	nag_nagash_boss
 causes_fear	nag_mortarch_neferata
 encourages	nag_mortarch_neferata
 hide_forest	nag_mortarch_neferata
