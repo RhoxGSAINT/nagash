@@ -161,3 +161,7 @@ magical_aura	gp_nag_virion_plague_cart
 regeneration	gp_nag_virion_plague_cart
 ethereal	gp_nag_virion_plague_cart
 armour_piercing	gp_nag_virion_plague_cart
+anti_infantry	burning_dead_ror
+armoured	burning_dead_ror
+damage_dealer	burning_dead_ror
+flaming_attacks	burning_dead_ror

@@ -21,3 +21,4 @@ key	faction	soldier_type	unit_variant	subculture	primary_colour_hex	secondary_co
 666301208	mixer_nag_nagash	soldier	wh_main_vmp_mon_crypt_horrors		000000	000000	000000
 666301209	mixer_nag_nagash	soldier	wh_main_vmp_mon_varghulf		000000	000000	000000
 666301210		soldier	nag_skeleton_reaper		000000	000000	000000
+666301211		soldier	burning_dead_ror		6E1414	000000	4D4D4D

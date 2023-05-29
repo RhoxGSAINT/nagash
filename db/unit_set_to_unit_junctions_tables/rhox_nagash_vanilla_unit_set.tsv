@@ -44,3 +44,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_zombie_gunnery_mob_1	wh2_dlc11_cst_gunnery_mobs	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_0	wh2_dlc11_cst_inf_all_zombie_deckhands_mobs	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_1	wh2_dlc11_cst_inf_all_zombie_deckhands_mobs	false
+			burning_dead_ror	vmp_graveguard	false

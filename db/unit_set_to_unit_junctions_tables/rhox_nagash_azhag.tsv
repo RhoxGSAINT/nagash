@@ -126,3 +126,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vigpro_nagash_skeleton_goblin_range	nag_tech_azhag_skeletal_infantry	false
 			vigpro_nagash_skeleton_troll_1h	nag_tech_azhag_skeletal_infantry	false
 			vigpro_nagash_skeleton_troll_2h	nag_tech_azhag_skeletal_infantry	false
+			burning_dead_ror	nag_army_infantry_azhag	false

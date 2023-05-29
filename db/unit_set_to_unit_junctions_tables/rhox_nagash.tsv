@@ -568,3 +568,8 @@ hero				nag_characters	false
 			nag_mortarch_luthor_terrorgheist	mixu_cst_luthor_harkon	false
 			mixu_cst_cha_drekla	nag_vampiric	false
 			mixu_cst_cha_drekla_promethean	nag_vampiric	false
+			burning_dead_ror	burning_dead_ror	false
+			burning_dead_ror	wh2_main_ror_units_all	false
+			burning_dead_ror	nag_grave_nagashi_guard_unit_set	false
+			burning_dead_ror	nag_tech_graveguard	false
+			nag_blood_beasts	nag_blood_beasts	false
