@@ -383,7 +383,7 @@ local trr = ""
 
 
 
-function rhox_nagash_check_pyramid_status() --this is to apply blink effect. But not now
+function rhox_nagash_check_pyramid_status() --this is to apply highlight effect when the player can perform the ritual
     ------to add highlight effect
     if cm:get_local_faction(true):has_effect_bundle("rhox_nagash_avail") then
         --local blink_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar", "rhox_nagash_black_pyramid_holder", "blink_animation");
@@ -569,6 +569,7 @@ cm:add_first_tick_callback(
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_dk_unlock")
                 cm:lock_technology(nagash_faction, "nag_nagash_ultimate")
+                cm:add_event_restricted_unit_record_for_faction("nag_doomed_legion", "mixer_nag_nagash", "rhox_nagash_doomed_legion_lock")--only for the human because I don't want to do research completed loop listener for the AI
             else --if they're not human. They're getting free grand spells
                 cm:apply_effect_bundle("nag_grand_spell_01_20", nagash_faction,0)
                 cm:apply_effect_bundle("nag_grand_spell_02_20", nagash_faction,0)
@@ -600,14 +601,8 @@ cm:add_first_tick_callback(
             end
             
 		end
-
-        if cm:get_local_faction_name(true) == nagash_faction then
-			add_nagash_listener()
-            rhox_nagash_add_black_pyramid_listener()
-            rhox_nagash_rites_listeners() --unlock rite with conditions, and rite complete script
-            rhox_nagash_add_teleport_listener() --add teleport network if quintex is controlled, and spawn Damon army when the player uses them.
-            rhox_nagash_trigger_rites_listeners()
-
+		
+		if cm:get_local_faction_name(true) == nagash_faction then --ui things should go here
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
             local result = core:get_or_create_component("rhox_nagash_black_pyramid_holder", "ui/campaign ui/black_pyramid_holder.twui.xml", parent_ui)
             if not result then
@@ -622,15 +617,26 @@ cm:add_first_tick_callback(
                 return false;
             end;
             
-            
-            rhox_nagash_grandspell_ui()
+            rhox_nagash_grandspell_ui() --this and below are all ui stuffs and should be local
             rhox_nagash_check_pyramid_status()
-            rhox_nag_add_harkon_listener()
-            mortarch_unlock_listeners() --AI doesn't trigger the research completed condition. So let's just leave it here
             if not (vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") and vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua")) then
                 out("Rhox Nagash: Calling Other tech remover listeners")
                 rhox_nagash_remove_other_mod_mortarch_tech_listener()
             end
+            rhox_nagash_hide_stance_listener_call()--ui and should be local
+		end
+
+        if cm:get_faction(nagash_faction):is_human() then
+			add_nagash_listener()
+            rhox_nagash_add_black_pyramid_listener()
+            rhox_nagash_rites_listeners() --unlock rite with conditions, and rite complete script
+            rhox_nagash_add_teleport_listener() --add teleport network if quintex is controlled, and spawn Damon army when the player uses them.
+            rhox_nagash_trigger_rites_listeners()
+
+            
+            rhox_nag_add_harkon_listener()
+            mortarch_unlock_listeners() --AI doesn't trigger the research completed condition. So let's just leave it here
+            rhox_nagash_start_tech_effect_listeners()
         else
             rhox_nagash_add_ai_mortarch_mission() --and AI listener for them
 		end

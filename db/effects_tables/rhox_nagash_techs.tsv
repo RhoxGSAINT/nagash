@@ -53,3 +53,5 @@ nag_effect_ability_uses_staff_of_flaming_death	item_ability.png	33	item_ability.
 nag_effect_recruitment_available_doom_dummy	army.png	280	army.png	campaign	true
 nag_effect_recruitment_available_thrall_crossbow_dummy	army.png	280	army.png	campaign	true
 nag_effect_recruitment_available_thrall_handgunners_dummy	army.png	280	army.png	campaign	true
+rhox_nagash_spawn_isabella_dummy	agent.png	118	agent.png	campaign	true
+rhox_nagash_spawn_hand_dummy	agent.png	118	agent.png	campaign	true

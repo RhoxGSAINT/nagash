@@ -131,15 +131,58 @@ function rhox_nagash_remove_other_mod_mortarch_tech_listener()
 end
 
 
+local nagash_tech_to_function={
+    ["nag_krell_battle_1"] = 
+        function() 
+            cm:apply_effect_bundle("nag_krell_battle_1_azhag_hidden", "mixer_nag_nagash", 0) 
+        end,
+    ["nag_mortarch_krell_event_1"] = 
+        function() 
+            cm:remove_event_restricted_unit_record_for_faction("nag_doomed_legion", "mixer_nag_nagash") 
+        end,
+    ["nag_mortarch_vlad_event_2"] = 
+        function()  
+            cm:add_unit_to_faction_mercenary_pool(cm:get_faction("mixer_nag_nagash"), "nag_thrall_crossbowmen", "renown", 4, 20, 4, 0.1, "", "", "", true, "nag_thrall_crossbowmen")
+            cm:add_unit_to_faction_mercenary_pool(cm:get_faction("mixer_nag_nagash"), "nag_thrall_handgunners", "renown", 1, 20, 1, 0.1, "", "", "", true, "nag_thrall_handgunners")
+        end
+}
 
-core:add_listener(
+
+function rhox_nagash_start_tech_effect_listeners()
+    core:add_listener(
         "rhox_nagash_azhag_effect_bundle_giver", --this is to hide the Azhag's unit set from the players
         "ResearchCompleted",
         function(context)
-            return context:technology() == "nag_krell_battle_1"
+            return nagash_tech_to_function[context:technology()]
         end,
         function(context)            
-            cm:apply_effect_bundle("nag_krell_battle_1_azhag_hidden", "mixer_nag_nagash", 0)
+            nagash_tech_to_function[context:technology()]()
         end,
         true
     )
+    --[[
+    --this is for zombie health
+    core:add_listener(
+		"rhox_nagash_UnitStartingHealth",
+		"UnitTrained",
+		function(context)
+			return context:unit():unit_key() == "nag_vanilla_vmp_inf_zombie" and cm:get_forces_bonus_value(context:unit():military_force(), "recruit_hp_nag_vanilla_vmp_inf_zombie") > 0
+		end,
+		function(context)
+			local unit = context:unit()
+			local force = unit:military_force()
+			
+			local unit_bonus = cm:get_forces_bonus_value(force, "recruit_hp_nag_vanilla_vmp_inf_zombie")/100
+
+			cm:set_unit_hp_to_unary_of_maximum(unit, math.clamp(unit_bonus, 0.01,1))
+		end,
+		true
+	)
+	--]]
+end
+
+
+
+
+        
+
