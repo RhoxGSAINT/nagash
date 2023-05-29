@@ -1,3 +1,3 @@
 diplomatic_stance	faction_set	faction_set_relation_with	campaign_effect_list
 #diplomatic_relationship_effects_tables;0;db/diplomatic_relationship_effects_tables/rhox_nagash			
-vassal	all	rhox_nagash_faction_set	rhox_nagash_diplomacy_effect_vlad_to_vassal
+vassal	all	rhox_nagash_faction_set	rhox_nagash_diplomacy_effect_nagash_to_vassal

@@ -60,3 +60,4 @@ faction	unit	name	variant	unit_card
 	nag_blood_beasts	nag_blood_beasts	nag_blood_beasts	nag_blood_beasts
 	nag_thrall_crossbowmen	nag_thrall_crossbowmen	wh_emp_state_troops_crossbowmen	wh2_dlc11_vmp_crossbowmen
 	nag_thrall_handgunners	nag_thrall_handgunners	wh_emp_state_troops_handgunners	wh2_dlc11_vmp_handgunners
+	burning_dead_ror	burning_dead_ror	burning_dead_ror_vmd	

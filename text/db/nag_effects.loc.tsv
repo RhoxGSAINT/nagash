@@ -483,3 +483,6 @@ effects_description_nag_effect_recruitment_available_doom_dummy	Gain access to t
 effects_description_nag_effect_azhag_leadership_infantry	Leadership: %+n for Skeletal Greenskin infantry units	false
 effects_description_rhox_nagash_spawn_isabella_dummy	Isabella von Carstein joins the faction	false
 effects_description_rhox_nagash_spawn_hand_dummy	Hand of Nagash joins the faction	false
+effects_description_nag_effect_disable_stance_tunnelling_hidden		false
+effects_description_nag_effect_disable_stance_astromancy_hidden		false
+effects_description_nag_effect_faction_political_diplomacy_mod_nagash	Diplomatic relations: %+n with Nagash	false

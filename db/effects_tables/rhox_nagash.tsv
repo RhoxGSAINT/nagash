@@ -191,3 +191,4 @@ nag_effect_disable_stance_astromancy_hidden		0		campaign	true
 nag_effect_enable_stance_tunnelling	icon_effects_brains.png	15	icon_effects_brains.png	campaign	true
 nag_effect_enable_stance_astromancy	icon_effects_pyramid.png	15	icon_effects_pyramid.png	campaign	true
 nag_effect_azhag_leadership_infantry	morale.png	61	morale.png	battle	false
+nag_effect_faction_political_diplomacy_mod_nagash	diplomacy.png	5	diplomacy.png	campaign	true

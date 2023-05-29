@@ -371,6 +371,7 @@ local ror_units = {
     "gp_nag_virion_plague_cart",
     "nag_revenants",
     "nag_shade_haunts",
+    "burning_dead_ror"
 };
 
 local unit_count = 1
@@ -646,7 +647,6 @@ cm:add_first_tick_callback(
         
 	end
 )
-
 
 
 
