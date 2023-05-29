@@ -21,3 +21,4 @@ rhox_nagash_long_victory_text	Perform The Great Ritual by researching the techno
 nag_nagash_name_dk	Dread King, Mortarch of Dread	false
 nag_nagash_name_hand	Hand of Nagash	false
 nag_nagash_name_drekla	Captain Drekla	false
+campaign_localised_strings_string_rhox_nagash_doomed_legion_lock	[[col:red]]This unit will unlock after researching technology [[img:icon_tech]][[/img]]Skull Collector[[/col]]	false

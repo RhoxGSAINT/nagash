@@ -94,8 +94,7 @@ RHOX_NAGASH_UNLOCK_TECHS = {
 
 }
 
-local archai_tech_key_to_mortarch
-={
+local archai_tech_key_to_mortarch={
     nag_arkhan_archai="nag_mortarch_arkhan",
     nag_vlad_archai="nag_mortarch_vlad",
     nag_mannfred_archai="nag_mortarch_mannfred",
@@ -280,6 +279,9 @@ RHOX_NAGASH_RAISE_DEAD_SEA_UNITS={
 }
 
 
+local rhox_nagash_saved_agent_info={
+}
+
 --pass the faction key(string)
 function rhox_kill_faction(faction_key)
 	--check the faction key is a string
@@ -314,31 +316,20 @@ function rhox_kill_faction(faction_key)
 end;
 
 
-
-local function spawn_follower_hero(mort_key, mort_type_key, region_key, faction, old_agent_subtype, is_upgrade)
-    
-    local new_character= nil
+local function rhox_nagash_save_agent_info(mort_key, faction, old_agent_subtype)
     local character = nil
-    local new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, region_key, false, true, 5)
-    cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, mort_type_key, mort_key)
-    new_character = cm:get_most_recently_created_character_of_type(nagash_faction, mort_type_key, mort_key)
-    
-    if is_upgrade then
-        local loop_char_list = faction:character_list()
-        
-        for i = 0, loop_char_list:num_items() - 1 do
-            local looping = loop_char_list:item_at(i)
-            --out("Rhox Nagash: Current character subtype: "..looping:character_subtype_key())
-            if looping:character_subtype_key() == old_agent_subtype then
-                character = looping
-                break
-            end
+    local loop_char_list = faction:character_list()
+    for i = 0, loop_char_list:num_items() - 1 do
+        local looping = loop_char_list:item_at(i)
+        --out("Rhox Nagash: Current character subtype: "..looping:character_subtype_key())
+        if looping:character_subtype_key() == old_agent_subtype then
+            out("Rhox Nagash: Found the ".. old_agent_subtype)
+            character = looping
+            break;
         end
     end
-
-    if character and new_character then
-        out("Rhox Nagash: Found old character")
-        old_char_details = {
+    if character then 
+        rhox_nagash_saved_agent_info[mort_key]={
             mf = character:military_force(),
             rank = character:rank(),
             fm_cqi = character:family_member():command_queue_index(),
@@ -351,6 +342,44 @@ local function spawn_follower_hero(mort_key, mort_type_key, region_key, faction,
             traits = character:all_traits(),
             ap = character:action_points_remaining_percent()
         }
+        out("Rhox Nagash: Saved the guy")
+    end
+    return
+end
+
+
+local function rhox_nagash_spawn_follower_hero(mort_key, mort_type_key, liege_key)
+    local mort_character = nil
+    
+    local loop_char_list = cm:get_faction(nagash_faction):character_list()
+    
+	for i = 0, loop_char_list:num_items() - 1 do
+		local looping = loop_char_list:item_at(i)
+		--out("Rhox Nagash: Current character subtype: "..looping:character_subtype_key())
+		if looping:character_subtype_key() == liege_key then
+            out("Rhox Nagash: Found the liege")
+			mort_character = looping
+			break
+		end
+	end
+	local new_x, new_y
+	if mort_character and mort_character:has_military_force() then 
+		new_x, new_y = cm:find_valid_spawn_location_for_character_from_character("mixer_nag_nagash", cm:char_lookup_str(mort_character), true, 10)
+	else
+		new_x, new_y = cm:find_valid_spawn_location_for_character_from_settlement("mixer_nag_nagash", mort_key_to_region[liege_key], false, true, 10)
+	end
+
+
+    local new_character= nil
+    
+    cm:spawn_agent_at_position(cm:get_faction(nagash_faction), new_x, new_y, mort_type_key, mort_key)
+    new_character = cm:get_most_recently_created_character_of_type(nagash_faction, mort_type_key, mort_key)
+
+    local old_char_details = rhox_nagash_saved_agent_info[mort_key]
+
+    if old_char_details and new_character then
+        out("Rhox Nagash: Found old character")
+        
         
         local new_char_lookup = cm:char_lookup_str(new_character)
         local traits_to_copy = old_char_details.traits
@@ -362,9 +391,8 @@ local function spawn_follower_hero(mort_key, mort_type_key, region_key, faction,
             end
         end
         cm:add_agent_experience(new_char_lookup,old_char_details.rank, true)
-        --CUS:update_new_character(old_char_details, new_character, 1) --don't do it as IDK why but it now wounds the character
-    else --there wasn't a isabella maybe a mod, recruit defeated or whatever
-        --out("Rhox Nagash: There wasn't an old character")
+    else --there wasn't an old character maybe a mod, recruit defeated or whatever
+        out("Rhox Nagash: There wasn't an old character")
         local nagash_character = cm:get_faction(nagash_faction):faction_leader()
         local nagash_rank = nagash_character:rank()
         cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
@@ -433,7 +461,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     "",
     "",
     true);     --dummy leader we're going to kill him after
-    out("Spawned dummy leader!")
+    out("Rhox Nagash: Spawned dummy leader!")
     local character_to_kill = faction:faction_leader() --fake leader to kill
     
     local old_char_details = {
@@ -489,29 +517,36 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     
     
     
-    out("Created a new character")
+    out("Rhox Nagash: Created a new character")
     if new_character then
 		CUS:update_new_character(old_char_details, new_character, 1)
 	end
-    out("Upgrading a new character")
+    out("Rhox Nagash: Upgrading a new character")
     local forename = common.get_localised_string(mort_key_to_name[mort_key])
     cm:change_character_custom_name(new_character, forename, "","","")
     
     
-    if mort_key == "nag_mortarch_vlad" then --spawn isabella too in case of Vlad
-        spawn_follower_hero("nag_mortarch_isabella","dignitary",region_key,faction,"wh_pro02_vmp_isabella_von_carstein_hero",true);
+    if mort_key == "nag_mortarch_vlad" then --save isabella info in case of Vlad
+		rhox_nagash_save_agent_info("nag_mortarch_isabella", faction, "wh_pro02_vmp_isabella_von_carstein_hero")
+		if cm:get_faction(nagash_faction):is_human()== false then
+        	rhox_nagash_spawn_follower_hero("nag_mortarch_isabella","dignitary",mort_key);
+		end
     end
     
-    if mort_key == "nag_mortarch_dk" then --spawn hand too in the case of DK
-        spawn_follower_hero("nag_mortarch_hand","champion",region_key,faction,"elo_hand_of_nagash",true);
+    if mort_key == "nag_mortarch_dk" then --save hand info in the case of DK
+		rhox_nagash_save_agent_info("nag_mortarch_hand", faction, "elo_hand_of_nagash")
+		if cm:get_faction(nagash_faction):is_human()== false then
+        	rhox_nagash_spawn_follower_hero("nag_mortarch_hand","champion",mort_key);
+		end
     end
     
     if mort_key == "nag_mortarch_luthor" and vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then --spawn drekla too in case of Luthor and player owns the Mixu LL 
-        spawn_follower_hero("nag_mortarch_drekla","dignitary",region_key,faction,"cst_drekla",true);
+		rhox_nagash_save_agent_info("nag_mortarch_drekla", faction, "cst_drekla")
+        rhox_nagash_spawn_follower_hero("nag_mortarch_drekla","dignitary",mort_key);
     end
 
 
-
+    out("Rhox Nagash: After follower check")
     cm:callback(--so the finding thing can happen earlier
         function()
             if cm:get_faction(nagash_faction):is_human() then
@@ -598,16 +633,16 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
     cm:add_agent_experience(cm:char_lookup_str(new_character:command_queue_index()), math.floor(nagash_rank), true)
     
     
-    if mort_key == "nag_mortarch_vlad" then --spawn isabella too in case of Vlad
-        spawn_follower_hero("nag_mortarch_isabella","dignitary",region_key,"","wh_pro02_vmp_isabella_von_carstein_hero",false);--you won't be using faction anyway so just give them a empty string
+    if mort_key == "nag_mortarch_vlad" and cm:get_faction(nagash_faction):is_human()==false then --spawn isabella too in case of Vlad and Nagash is AI
+        rhox_nagash_spawn_follower_hero("nag_mortarch_isabella","dignitary",mort_key);
     end
     
-    if mort_key == "nag_mortarch_dk" then --spawn hand too in the case of DK
-        spawn_follower_hero("nag_mortarch_hand","champion",region_key,"","elo_hand_of_nagash",false);
+    if mort_key == "nag_mortarch_dk" and cm:get_faction(nagash_faction):is_human()==false then --spawn hand too in the case of DK and Nagash is AI
+        rhox_nagash_spawn_follower_hero("nag_mortarch_hand","champion",mort_key);
     end
     
     if mort_key == "nag_mortarch_luthor" and vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then --spawn drekla too in case of Luthor and player owns the Mixu LL 
-        spawn_follower_hero("nag_mortarch_drekla","dignitary",region_key,"","cst_drekla",false);
+        rhox_nagash_spawn_follower_hero("nag_mortarch_drekla","dignitary",mort_key);
     end
 end
 
@@ -681,6 +716,27 @@ function mortarch_unlock_listeners()
             
             
                 
+        end,
+        true
+    )
+    
+    local mortarch_follower_hero_techs={
+        ["nag_mortarch_vlad_event_1"] = {"nag_mortarch_isabella", "dignitary", "nag_mortarch_vlad"}, --subtype key, type key, his liege subtype key
+        ["nag_mortarch_dk_event_1"] ={"nag_mortarch_hand", "champion", "nag_mortarch_dk"}
+        
+    }
+    
+    core:add_listener(
+        "Mortarch_follower_hero_Unlock",
+        "ResearchCompleted",
+        function(context)
+            return mortarch_follower_hero_techs[context:technology()]
+        end,
+        function(context)
+            local tech_key = context:technology()
+            local mort = mortarch_follower_hero_techs[tech_key]
+            --out("Rhox Nagash: Mort Keys: ".. mort[1] .."/" .. mort[2] .. "/" .. mort[3])
+			rhox_nagash_spawn_follower_hero(mort[1],mort[2],mort[3]);
         end,
         true
     )
@@ -785,9 +841,6 @@ function mortarch_unlock_listeners()
             if archai then
                 cm:replenish_action_points(cm:char_lookup_str(archai))
             end
-            
-
-            
             
         end,
         true
@@ -1091,3 +1144,22 @@ function rhox_nag_debug_summon_bone_daddy()
             cm:change_character_custom_name(new_character, forename, "","","")
         end); 
 end
+
+
+
+
+--------------------------------------------------------------
+----------------------- SAVING / LOADING ---------------------
+--------------------------------------------------------------
+cm:add_saving_game_callback(
+	function(context)
+		cm:save_named_value("rhox_nagash_saved_agent_info", rhox_nagash_saved_agent_info, context)
+	end
+)
+cm:add_loading_game_callback(
+	function(context)
+		if cm:is_new_game() == false then
+			rhox_nagash_saved_agent_info = cm:load_named_value("rhox_nagash_saved_agent_info", rhox_nagash_saved_agent_info, context)
+		end
+	end
+)
