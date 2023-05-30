@@ -1,0 +1,4 @@
+building	effect	context_requirement	effect_scope	value	value_damaged	value_ruined
+#building_effects_junction_tables;0;db/building_effects_junction_tables/rhox_nagash_lahmia						
+rhox_nagash_lahmia_cult	rhox_nagash_lahmia_effect_pooled_resource_coven_influence_cult		foreign_building_to_host_faction	4.0000	2.0000	0.0000
+rhox_nagash_lahmia_cult	wh3_main_effect_corruption_vampiric_buildings		foreign_building_to_region_own	4.0000	2.0000	0.0000

@@ -2,3 +2,5 @@ key	text	tooltip
 #Loc;1;text/db/nag_agent_actions.loc		
 agent_actions_localised_action_name_nag_main_agent_action_wizard_passive_spread_corruption_vmp	{{tr:agent_action_name_spread_corruption}}	true
 agent_actions_localised_action_description_nag_main_agent_action_wizard_passive_spread_corruption_vmp	[[col:yellow]]Increases the amount of [[img:icon_corruption_vmp]][[/img]]Vampiric corruption in the local province by %n.[[/col]]	true
+agent_actions_localised_action_name_rhox_nagash_lahmia_agent_action_dignitary_hinder_settlement_establish_pirate_cove	Establish Vampire Coven	false
+agent_actions_localised_action_description_rhox_nagash_lahmia_agent_action_dignitary_hinder_settlement_establish_pirate_cove	[[col:yellow]]Establishes a Vampire Coven in the target settlement.[[/col]]	false

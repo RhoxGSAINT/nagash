@@ -16,3 +16,5 @@ rhox_nagash_mortarch_notify_jv	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Jade
 rhox_nagash_declare_war_coast	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000
 rhox_nagash_declare_war_tk	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000
 rhox_nagash_declare_war_jv	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000
+rhox_nagash_lahmia_force_vassalised	false	messenger	false	Event		false		0.0000
+rhox_nagash_lahmia_faction_available_for_vassalisation	false	messenger	false	Event		false		0.0000
