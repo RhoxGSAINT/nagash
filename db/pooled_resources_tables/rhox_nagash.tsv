@@ -5,3 +5,4 @@ nag_grand_spell_01	20	0	false	nag_grand_spell_01_recharge	icon_oathgold.png	END_
 nag_grand_spell_02	20	0	false	nag_grand_spell_02_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true
 nag_grand_spell_03	20	0	false	nag_grand_spell_03_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true
 rhox_nagash_influence	100	0	false	other	icon_warpstone.png	END_OF_TURN	false	FACTION	false	0		false	true
+rhox_nagash_lahmia_coven_influence	100	0	false	other	icon_blood_kiss.png	END_OF_TURN	false	FACTION	false	0		false	true

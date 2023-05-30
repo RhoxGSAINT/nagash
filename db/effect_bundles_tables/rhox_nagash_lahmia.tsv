@@ -1,0 +1,9 @@
+key	localised_description	localised_title	bundle_target	priority	ui_icon	is_global_effect	show_in_3d_space	owner_only
+#effect_bundles_tables;4;db/effect_bundles_tables/rhox_nagash_lahmia								
+rhox_nagash_lahmia_bundle_agent_action_dignitary_hinder_settlement_success_actor			character	1	pirate_cove.png	true	true	true
+rhox_nagash_lahmia_pooled_resource_coven_influence_effects_1	"Stand firm - these creatures bring nothing but damnation."	Suspicious (0-24%)	faction	1	blood_kiss.png	true	false	true
+rhox_nagash_lahmia_pooled_resource_coven_influence_effects_2	"Surely we must know our enemy if we are to fight them?"	Curious (25%-49%)	faction	1	blood_kiss.png	true	false	true
+rhox_nagash_lahmia_pooled_resource_coven_influence_effects_3	"What harm can there be in but a single glance?"	Tempted (50%-74%)	faction	1	blood_kiss.png	true	false	true
+rhox_nagash_lahmia_pooled_resource_coven_influence_effects_4	"How can such marvels be a force for ill?"	Enthralled (74%-99%)	faction	1	blood_kiss.png	true	false	true
+rhox_nagash_lahmia_pooled_resource_coven_influence_effects_max	"Anything, Dark One, anything for but one more taste!"	Enraptured (100%)	faction	1	blood_kiss.png	true	false	true
+rhox_nagash_lahmia_bundle_pirate_cove_created			faction	1	pirate_cove.png	true	false	true

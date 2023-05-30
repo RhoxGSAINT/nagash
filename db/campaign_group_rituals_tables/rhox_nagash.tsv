@@ -5,3 +5,4 @@ rhox_nagash_feature_group	nag_divinity		0	false
 rhox_nagash_feature_group	nag_man		0	false
 rhox_nagash_feature_group	nag_winds		0	false
 rhox_nagash_feature_group	rhox_nagash_ritual_forced_vassalisation		0	true
+rhox_nagash_lahmia_feature	rhox_nagash_lahmia_ritual_forced_vassalisation		0	true

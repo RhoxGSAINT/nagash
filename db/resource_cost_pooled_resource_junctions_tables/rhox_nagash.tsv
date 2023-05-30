@@ -12,3 +12,4 @@ nag_warpstone_buildings	nag_building_3	-3	absolute	default
 nag_warpstone_buildings	nag_building_4	-4	absolute	default
 nag_warpstone_buildings	nag_building_5	-5	absolute	default
 nag_warpstone_rituals	nag_vassal_ritual	-10	absolute	default
+blood_kiss_bloodline_awoken	rhox_nagash_lahmia_ritual_forced_vassalisation	-1	absolute	default
