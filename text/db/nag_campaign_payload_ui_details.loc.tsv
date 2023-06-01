@@ -18,3 +18,5 @@ campaign_payload_ui_details_description_rhox_nagash_final_tech_unlock	Unlocks te
 campaign_payload_ui_details_description_dummy_rhox_nagash_boss_appear	Nagash will be restored to his true form	false
 campaign_payload_ui_details_description_dummy_rhox_nagash_end_of_world	Usher in the eternal night and bind all in servitude to him alone	false
 campaign_payload_ui_details_description_nag_mortarch_dk_technology	Unlocks technology [[col:orange]]Dread King[[/col]]	false
+campaign_payload_ui_details_description_rhox_nagash_lahmia_confederation	Integrates vassal	false
+campaign_payload_ui_details_description_rhox_nagash_lahmia_20turns	The same dilemma will be asked 20 turns later	false
