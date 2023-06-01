@@ -12,3 +12,9 @@ dilemmas_localised_title_wh2_dlc11_cst_dilemma_shyish_wanes2	A Fractured Mind	tr
 dilemmas_localised_description_wh2_dlc11_cst_dilemma_shyish_wanes2	“They say the definition of insanity is doing the same thing over and over and over and over and over and over and over and over and over and over, what was i doing again?"	true
 dilemmas_localised_title_wh2_dlc11_cst_dilemma_shyish_wanes3	A Fractured Mind	true
 dilemmas_localised_description_wh2_dlc11_cst_dilemma_shyish_wanes3	“They say the definition of... hmmm. What! What do you want, i'm not Insane!"	true
+dilemmas_localised_title_rhox_nagash_lahmia_confederate_generic	Integration?	false
+dilemmas_localised_description_rhox_nagash_lahmia_confederate_generic	As the queen of the Lahmians, Neferata, you must decide the fate of your mortal vassal {{CcoCampaignEventDilemma:FirstTargetFactionNameWithIcon}}. Integrating them into your inner circle will ensure your direct control over their settlements. However, maintaining their vassal status would secure loyalty and stability, thus gaining their levies and potentially more benefits. Will you integrate this mortal vassal, encouraging cooperation but risking power struggles, or maintain their servant status for stability at the cost of their full potential?	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_lahmia_confederate_genericFIRST	Integrate them	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_lahmia_confederate_genericFIRST	They'll prosper under our direct rule	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_lahmia_confederate_genericSECOND	Leave them be	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_lahmia_confederate_genericSECOND	And recieve some levies	false

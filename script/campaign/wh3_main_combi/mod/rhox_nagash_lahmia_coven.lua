@@ -192,7 +192,7 @@ function Rhox_Nagash_Lahmia_Coven_Influence:setup_vassalise_ritual_listener()
 
 			cm:force_make_vassal(performing_faction:name(), target_faction:name(), true)
 			
-			
+			--cm:force_diplomacy("faction:"..performing_faction:name(), "faction:"..target_faction:name(), "form confederation", true, true, false) --this does not works
 			
             local human_factions = cm:get_human_factions()
 			for i = 1, #human_factions do

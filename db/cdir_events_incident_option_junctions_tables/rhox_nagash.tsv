@@ -30,3 +30,5 @@ id	incident_key	option_key	value	target
 1450500436	rhox_nagash_force_vassalised_jv	GEN_TARGET_MODEL		default
 1450500437	rhox_nagash_lahmia_force_vassalised	GEN_TARGET_MODEL		default
 1450500438	rhox_nagash_lahmia_faction_available_for_vassalisation	GEN_TARGET_MODEL		default
+1450500439	rhox_nagash_lahmia_levy_provided	GEN_TARGET_MODEL		default
+1450500440	rhox_nagash_lahmia_enemy_deserted	GEN_TARGET_MODEL		default

@@ -1,5 +1,30 @@
 local lahmia_faction = "wh3_main_vmp_lahmian_sisterhood"
 
+local levies ={
+    "rhox_nagash_lahmia_emp_art_helstorm_rocket_battery",
+    "rhox_nagash_lahmia_emp_art_helblaster_volley_gun",
+    "rhox_nagash_lahmia_brt_cav_questing_knights_0",
+    "rhox_nagash_lahmia_brt_cav_knights_of_the_realm",
+    "rhox_nagash_lahmia_cth_inf_dragon_guard_0",
+    "rhox_nagash_lahmia_cth_inf_dragon_guard_crossbowmen_0",
+    "rhox_nagash_lahmia_ksl_veh_heavy_war_sled_0",
+    "rhox_nagash_lahmia_ksl_cav_war_bear_riders_1",
+    "rhox_nagash_lahmia_nor_mon_war_mammoth_1",
+    "rhox_nagash_lahmia_nor_inf_marauder_berserkers_0",
+    "rhox_nagash_lahmia_hef_inf_swordmasters_of_hoeth_0",
+    "rhox_nagash_lahmia_hef_inf_white_lions_of_chrace_0",
+    "rhox_nagash_lahmia_def_inf_shades_2",
+    "rhox_nagash_lahmia_def_cav_cold_one_knights_1",
+    "rhox_nagash_lahmia_wef_inf_waywatchers_0",
+    "rhox_nagash_lahmia_wef_inf_wardancers_0",
+    "rhox_nagash_lahmia_dwf_inf_dwarf_warrior_0",
+    "rhox_nagash_lahmia_dwf_art_flame_cannon",
+    "rhox_nagash_lahmia_chd_inf_chaos_dwarf_blunderbusses",
+    "rhox_nagash_lahmia_chd_veh_dreadquake_mortar",
+    "rhox_nagash_lahmia_ogr_inf_ironguts_0",
+    "rhox_nagash_lahmia_ogr_cav_crushers_0"
+}
+
 local function rhox_nagash_lahmia_init_setting()
     local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
         lahmia_faction,
@@ -40,7 +65,11 @@ local function rhox_nagash_lahmia_init_setting()
     cm:create_agent(lahmia_faction, "dignitary", "wh_dlc05_vmp_vampire_shadow", agent_x, agent_y);       
     
     
-    
+    for i=1,#levies do
+        local faction = cm:get_faction(lahmia_faction)
+        local unit = levies[i]
+        cm:add_unit_to_faction_mercenary_pool(faction, unit, "rhox_nagash_lahmia_levy", 0, 0, 20, 0, "", "", "", true, unit)
+    end
 
     
 end

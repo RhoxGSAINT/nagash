@@ -498,3 +498,8 @@ effects_description_rhox_nagash_lahmia_effect_pooled_resource_income_mod_resista
 effects_description_rhox_nagash_lahmia_effect_agent_action_enable_dignitary_hinder_settlement_establish_pirate_cove	Vampires can establish Vampire Coven	false
 effects_description_rhox_nagash_lahmia_effect_agent_action_success_chance_dignitary_establish_pirate_cove	Cannot establish further Vampire Covens	false
 effects_description_rhox_nagash_lahmia_effect_agent_action_hinder_settlement_establish_pirate_cove_cost_mod	[[col:yellow]]Establish Vampire Coven[[/col]] action: %+n% cost to perform	false
+effects_description_rhox_nagash_lahmia_effect_unit_desrtion	Has a chance of enemy units deserting and joining yours after the battle against Humans, Elves, Dwarfs, and Ogres	false
+effects_description_rhox_nagash_lahmia_effect_battle_seduction	Can seduce enemy units	false
+effects_description_rhox_nagash_lahmia_effect_vassal_making	Can make Human, Elf, Dwarf, and Ogre factions a vassal by increasing your influence, and has a chance of receiving levies from them. 	false
+effects_description_rhox_nagash_lahmia_effect_diplo_mod	Diplomatic relations: %+n with Humans, Elves, Dwarfs, and Ogres	false
+effects_description_rhox_nagash_lahmia_effect_diplo_bonus_dummy	Diplomatic relations: %+n with Humans, Elves, Dwarfs, and Ogres for each vassal you have	false
