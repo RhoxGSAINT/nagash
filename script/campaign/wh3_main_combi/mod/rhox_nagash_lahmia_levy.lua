@@ -38,7 +38,7 @@ core:add_listener(
     end,
     function(context)
         local faction = context:faction()
-        target_faction = faction; --apply it to the global value
+        
         local faction_key = faction:name()
         local lahmia_faction = cm:get_faction("wh3_main_vmp_lahmian_sisterhood")
         local culture = faction:culture()
@@ -61,7 +61,11 @@ core:add_listener(
                     cm:add_units_to_faction_mercenary_pool(lahmia_faction:command_queue_index(), unit_key[i], 1)
                 end
                 dilemma_table[faction_key] = dilemma_cooldown
+            elseif target_faction then
+                dilemma_table[faction_key] = 1; --there was already queued dilemma, postpone it to the next turn
             else
+                
+                target_faction = faction; --apply it to the global value
                 out("Rhox Nagash Lahmia: Triggering confederation dilemma")
                 --trigger dilemma
                 --Trigger dilemma to be handled by above function
@@ -124,6 +128,7 @@ core:add_listener(
             out("Rhox Nagash Lahmia: There is nothing in the target faction global value")
             return
         end
+        target_faction = nil --now reset the value
         local faction_key = faction:name()
         if choice == 0 then    
             out("Rhox Nagash Lahmia: Starting integration")
