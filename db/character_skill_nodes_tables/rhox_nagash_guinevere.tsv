@@ -1,0 +1,32 @@
+key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;5;db/character_skill_nodes_tables/rhox_nagash_guinevere										
+nag_guinevere_innate		nag_guinevere_innate	nag_skill_node_set_guinevere		7.0000	7.0000		0	0	false
+nag_skill_mentor_guinevere		wh3_main_skill_all_mentor_hero	nag_skill_node_set_guinevere		0.0000	12.0000		0	0	true
+nag_skill_agent_action_scaling_guinevere		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_guinevere		99.0000	0.0000		0	0	false
+nag_skill_node_guinevere_generic_01		wh_main_skill_vmp_all_unique_grave_ward	nag_skill_node_set_guinevere		0.0000	1.0000		0	0	true
+nag_skill_node_guinevere_generic_02		wh_main_skill_vmp_lord_self_the_hunger	nag_skill_node_set_guinevere		0.0000	2.0000		0	0	true
+nag_skill_node_guinevere_campaign_actions_dummy		wh2_main_skill_all_dummy_agent_actions_vmp_vampire	nag_skill_node_set_guinevere		8.0000	0.0000		1	0	false
+nag_skill_node_guinevere_campaign_01		wh2_main_skill_all_hero_assist_army_replenish_troops	nag_skill_node_set_guinevere		5.0000	0.0000		0	0	true
+nag_skill_node_guinevere_campaign_02		wh2_main_skill_all_hero_passive_spread_corruption_vmp	nag_skill_node_set_guinevere		5.0000	1.0000		0	0	true
+nag_skill_node_guinevere_campaign_03		wh2_main_skill_all_hero_hinder_settlement_damage_building	nag_skill_node_set_guinevere		5.0000	2.0000		0	0	true
+nag_skill_node_guinevere_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	nag_skill_node_set_guinevere		5.0000	3.0000		0	0	true
+nag_skill_node_guinevere_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment	nag_skill_node_set_guinevere		5.0000	4.0000		0	0	true
+nag_skill_node_guinevere_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	nag_skill_node_set_guinevere		5.0000	5.0000		0	0	true
+nag_skill_node_guinevere_generic_03		nag_guinevere_growth	nag_skill_node_set_guinevere		0.0000	3.0000		0	0	true
+nag_skill_node_guinevere_generic_04		nag_guinevere_income	nag_skill_node_set_guinevere		0.0000	4.0000		0	0	true
+nag_skill_node_guinevere_generic_05		nag_guinevere_xp	nag_skill_node_set_guinevere		0.0000	5.0000		0	0	true
+nag_skill_node_guinevere_generic_06		nag_guinevere_public_order	nag_skill_node_set_guinevere		0.0000	6.0000		0	0	true
+nag_skill_node_guinevere_battle_01		nag_skill_node_guinevere_battle_01	nag_skill_node_set_guinevere		1.0000	0.0000		0	0	true
+nag_skill_node_guinevere_battle_02		nag_skill_node_guinevere_battle_02	nag_skill_node_set_guinevere		1.0000	1.0000		0	1	true
+nag_skill_node_guinevere_battle_03		nag_skill_node_guinevere_battle_03	nag_skill_node_set_guinevere		1.0000	2.0000		0	1	true
+nag_skill_node_guinevere_battle_04		nag_skill_node_guinevere_battle_04	nag_skill_node_set_guinevere		1.0000	3.0000		0	1	true
+nag_skill_node_guinevere_battle_05		nag_skill_node_guinevere_battle_05	nag_skill_node_set_guinevere		1.0000	4.0000		0	1	true
+nag_skill_node_guinevere_battle_06		nag_skill_node_guinevere_battle_06	nag_skill_node_set_guinevere		1.0000	5.0000		0	1	true
+nag_skill_node_guinevere_battle_07		nag_skill_node_guinevere_battle_07	nag_skill_node_set_guinevere		1.0000	6.0000		0	5	true
+nag_skill_node_guinevere_diplo_01		nag_skill_node_guinevere_diplo_01	nag_skill_node_set_guinevere		2.0000	0.0000		0	0	true
+nag_skill_node_guinevere_diplo_02		nag_skill_node_guinevere_diplo_02	nag_skill_node_set_guinevere		2.0000	1.0000		0	1	true
+nag_skill_node_guinevere_diplo_03		nag_skill_node_guinevere_diplo_03	nag_skill_node_set_guinevere		2.0000	2.0000		0	1	true
+nag_skill_node_guinevere_diplo_04		nag_skill_node_guinevere_diplo_04	nag_skill_node_set_guinevere		2.0000	3.0000		0	1	true
+nag_skill_node_guinevere_diplo_05		nag_skill_node_guinevere_diplo_05	nag_skill_node_set_guinevere		2.0000	4.0000		0	1	true
+nag_skill_node_guinevere_diplo_06		nag_skill_node_guinevere_diplo_06	nag_skill_node_set_guinevere		2.0000	5.0000		0	1	true
+nag_skill_node_guinevere_diplo_07		nag_skill_node_guinevere_diplo_07	nag_skill_node_set_guinevere		2.0000	6.0000		0	5	true

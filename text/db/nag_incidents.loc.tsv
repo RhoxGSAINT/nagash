@@ -42,3 +42,7 @@ incidents_localised_title_rhox_nagash_lahmia_levy_provided	Levies from the vassa
 incidents_localised_description_rhox_nagash_lahmia_levy_provided	Our faithful vassal fulfilled their oath and has sent promised levy to us. 	false
 incidents_localised_title_rhox_nagash_lahmia_enemy_deserted	Enemy Desertion	false
 incidents_localised_description_rhox_nagash_lahmia_enemy_deserted	In a twist of fate, Neferata's vampiric seduction captivated the living enemies. Their hearts swayed by her unholy charisma, they willingly abandoned their cause, pledging their loyalty to the Queen of Lahmia, forever bound by her enchanting grasp.	false
+incidents_localised_title_rhox_nagash_lahmia_incident_cult_created	Cult Proliferates	false
+incidents_localised_description_rhox_nagash_lahmia_incident_cult_created	Your followers have created a [[img:lahmia_cult]][[/img]]cult in the settlement of {{CcoCampaignEventIncident:FirstTargetName}}, belonging to {{CcoCampaignEventIncident:FirstTargetFactionName}}. Now is the time to construct a building to reap the benefits!	false
+incidents_localised_title_rhox_nagash_lahmia_incident_cult_created2	Cult Proliferates	false
+incidents_localised_description_rhox_nagash_lahmia_incident_cult_created2	Your followers have created a [[img:lahmia_cult]][[/img]]cult in the settlement of {{CcoCampaignEventIncident:FirstTargetName}}, belonging to {{CcoCampaignEventIncident:FirstTargetFactionName}}. Now is the time to construct a building to reap the benefits!	false

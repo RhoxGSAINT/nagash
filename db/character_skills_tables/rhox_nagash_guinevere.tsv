@@ -1,0 +1,21 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/rhox_nagash_guinevere									
+nag_guinevere_innate	queen_mysteries.png			0	true	false	false	5.0000	0
+nag_guinevere_growth	campaign_growth.png			0	false	false	false	0.0000	0
+nag_guinevere_income	campaign_military_spending.png			0	false	false	false	0.0000	0
+nag_guinevere_xp	campaign_experience.png			0	false	false	false	0.0000	0
+nag_guinevere_public_order	campaign_public_order.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_battle_01	campaign_wound_time.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_battle_02	character_morale.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_battle_03	battle_attack.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_battle_04	wh2_skill_perfect_vigour.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_battle_05	immune_to_psychology.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_battle_06	wh2_skill_perfect_vigour.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_battle_07	trait_vampire_counts.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_diplo_01	character_influence.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_diplo_02	character_diplomacy.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_diplo_03	campaign_trade.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_diplo_04	campaign_siege_defence.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_diplo_05	character_replenishment.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_diplo_06	character_agent.png			0	false	false	false	0.0000	0
+nag_skill_node_guinevere_diplo_07	wh3_dlc23_character_abilities_by_our_blood.png			0	false	false	false	0.0000	0

@@ -31,3 +31,5 @@ ritual_categories_display_name_FORCE_VASSAL_NAGASH	Nagash's Omnipotence	false
 ritual_categories_display_name_FORCE_VASSAL_LAHMIA	Dominate	false
 rituals_description_rhox_nagash_lahmia_ritual_forced_vassalisation	Exert your influence to seize control of this faction, turning them into a loyal [[img:icon_vassal]][[/img]]vassal. The target faction must have reached 100% [[img:icon_blood_kiss]][[/img]]vampiric Influence. The total [[img:icon_blood_kiss]][[/img]]vampiric influence required to reach this threshold depends on the target’s race and number of settlements.	false
 rituals_display_name_rhox_nagash_lahmia_ritual_forced_vassalisation	Dominate	false
+rituals_display_name_rhox_nagash_lahmia_ritual_create_cults	Proliferate Cults	false
+rituals_description_rhox_nagash_lahmia_ritual_create_cults	Send your followers out into the mortal world. They will establish [[img:lahmia_cult]][[/img]]cults in up to 3 human, Elf, Dwarf, or Ogre-owned settlements.\\n\\n[[img:lahmia_cult]][[/img]]Cult buildings allow you to increase your [[img:icon_blood_kiss]][[/img]]Vampiric influence over certain factions.	false

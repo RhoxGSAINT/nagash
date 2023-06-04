@@ -78,8 +78,7 @@ RHOX_NAGASH_UNLOCK_TECHS = {
         "nag_mortarch_dieter_unlock",
         "nag_dieter_proclamation",
         "nag_dieter_archai"
-    }
-,
+    },
     nag_mortarch_dk_unlock = {
         "nag_dk_battle_1",
         "nag_dk_battle_2",
@@ -112,8 +111,7 @@ local mort_key_to_faction_key ={
     ["nag_mortarch_mannfred"]="wh_main_vmp_vampire_counts",
     ["nag_mortarch_luthor"]="wh2_dlc11_cst_vampire_coast",
     ["nag_mortarch_dieter"]="mixer_vmp_helsnicht",
-    ["nag_mortarch_azhag"]="wh2_dlc15_grn_bonerattlaz"
-,
+    ["nag_mortarch_azhag"]="wh2_dlc15_grn_bonerattlaz",
     ["nag_mortarch_neferata"]="wh3_main_vmp_lahmian_sisterhood",
     ["nag_mortarch_dk"]="ovn_tmb_dread_king",
 }
@@ -156,8 +154,7 @@ local mort_key_to_success_chance ={
     ["nag_mortarch_vlad"]=35,
     ["nag_mortarch_mannfred"]=35,
     ["nag_mortarch_luthor"]=35,
-    ["nag_mortarch_dieter"]=35
-,
+    ["nag_mortarch_dieter"]=35,
     ["nag_mortarch_neferata"] = 35,
     ["nag_mortarch_azhag"]=100, --AI won't use it this is for human to evade the script breaking
     ["nag_mortarch_dk"] = 10,
@@ -252,8 +249,7 @@ local mort_key_to_units={
         "vigpro_nagash_skeleton_troll_1h",
         "vigpro_nagash_skeleton_troll_2h",
         "vigpro_nagash_skeleton_giant",
-    }
-,
+    },
     ["nag_mortarch_dk"]={
         "ovn_dk_mon_skeleton_elephant",
         "ovn_dk_mon_skeletal_minotaurs",

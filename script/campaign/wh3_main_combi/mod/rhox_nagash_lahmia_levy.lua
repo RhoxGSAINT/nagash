@@ -96,8 +96,12 @@ core:add_listener(
         end
         
         ---------------------------------------------unit adding
+        local chance = vassal_levy_chance
         
-        if not cm:model():random_percent(vassal_levy_chance) then
+        if faction:bonus_values():scripted_value("rhox_nagash_lahmia_levy_chance", "value") > 0 then
+            chance= chance+faction:bonus_values():scripted_value("rhox_nagash_lahmia_levy_chance", "value")
+        end
+        if not cm:model():random_percent(chance) then
             return
         end
         
@@ -236,7 +240,80 @@ core:add_listener(
 )
 
 
+ 
+-- create cults after ritual is performed
+core:add_listener(
+    "rhox_nagash_lahmia_create_cults_ritual_performed",
+    "RitualCompletedEvent",
+    function(context)
+        local faction = context:performing_faction();
+        return context:ritual():ritual_key() == "rhox_nagash_lahmia_ritual_create_cults";
+    end,
+    function(context)
+        local faction = context:performing_faction();
+        local valid_region_list = {};
+        local cultures_to_check = {
+            "wh3_main_ksl_kislev",
+            "wh3_main_cth_cathay",
+            "wh_main_emp_empire",
+            "wh_main_brt_bretonnia",
+            "wh_dlc08_nor_norsca",
+            "wh2_main_def_dark_elves",
+            "wh2_main_hef_high_elves",
+            "wh_dlc05_wef_wood_elves",
+            "wh_main_dwf_dwarfs",
+            "wh3_dlc23_chd_chaos_dwarfs",
+            "wh3_main_ogr_ogre_kingdoms",
+            "mixer_teb_southern_realms",
+            "ovn_albion",
+            "ovn_araby"
+        };
+        
+        local region_list = cm:model():world():region_manager():region_list();
+        
+        for i = 0, region_list:num_items() - 1 do
+            local current_region = region_list:item_at(i);
+            
+            if current_region:foreign_slot_managers():is_empty() then
+                for j = 1, #cultures_to_check do
+                    if current_region:owning_faction():culture() == cultures_to_check[j] then
+                        table.insert(valid_region_list, current_region:cqi());
+                        break;
+                    end;
+                end;
+            end;
+        end;
+        
+        valid_region_list = cm:random_sort(valid_region_list);
+        local faction_cqi = faction:command_queue_index();
+        
+        for i = 1, math.min(3, #valid_region_list) do
+            local fs = cm:add_foreign_slot_set_to_region_for_faction(faction_cqi, valid_region_list[i], "rhox_nagash_lahmia_slot_set_vmp_cult");
+            local region = fs:region();
+            if(cm:model():random_percent(50)) then
+                cm:trigger_incident_with_targets(faction_cqi, "rhox_nagash_lahmia_incident_cult_created", 0, 0, 0, 0, region:cqi(), region:settlement():cqi());
+            else
+                cm:trigger_incident_with_targets(faction_cqi, "rhox_nagash_lahmia_incident_cult_created2", 0, 0, 0, 0, region:cqi(), region:settlement():cqi());
+            end
+        end;
+    end,
+    true
+);
 
+
+cm:add_first_tick_callback(
+	function()
+        if cm:get_local_faction_name(true) == "wh3_main_vmp_lahmian_sisterhood" then --ui thing and need to be local
+            local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+            local result = core:get_or_create_component("rhox_lahmia_cult_holder", "ui/campaign ui/rhox_nagash_lahmia_cult_holder.twui.xml", parent_ui)
+            if not result then
+                script_error("Rhox Nagash Lahmia: ".. "ERROR: could not create cult ui component? How can this be?");
+                return false;
+            end;
+            result:SetContextObject(cco("CcoCampaignFaction", "wh3_main_vmp_lahmian_sisterhood"))
+        end
+	end
+)
 
 --------------------------------------------------------------
 ----------------------- SAVING / LOADING ---------------------

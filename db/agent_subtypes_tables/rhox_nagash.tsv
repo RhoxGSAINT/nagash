@@ -30,3 +30,4 @@ nag_tomb_banshee	true	false	ui/campaign ui/agents/wh_main_vmp_spy.png	nag_tomb_b
 nag_mortarch_dk	false	true		Dread_King	wh2_dlc09_vo_actor_Tomb_Kings_Liche_Priest	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0
 nag_mortarch_hand	false	true		elo_hand_of_nagash	wh2_dlc09_vo_actor_Tomb_Kings_Tomb_Prince	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	0
 nag_mortarch_drekla	false	true		mixu_cst_cha_drekla	wh2_dlc11_vo_actor_VampireCoast_Fleet_Admiral_Male	false	-1	false	true	false	false				false	true	cannot_be_loaded_in_campaign		false	true	0
+nag_guinevere	false	false		wh_main_vmp_cha_vampire_0	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	true	false	false			names_vmp_vampire_counts	false	false	cannot_be_loaded_in_campaign		false	true	0

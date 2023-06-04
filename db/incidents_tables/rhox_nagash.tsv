@@ -20,3 +20,5 @@ rhox_nagash_lahmia_force_vassalised	false	messenger	false	Event		false		0.0000
 rhox_nagash_lahmia_faction_available_for_vassalisation	false	messenger	false	Event		false		0.0000
 rhox_nagash_lahmia_levy_provided	false	diplomacy	false	Event		false		0.0000
 rhox_nagash_lahmia_enemy_deserted	false	army_morale_up	false	Event		false		0.0000
+rhox_nagash_lahmia_incident_cult_created	false	Lesser_Bay_biting_a_peasant_in_1	false	Event	event_region_positive.png	false		0.0000
+rhox_nagash_lahmia_incident_cult_created2	false	Lesser_Bay_biting_a_peasant_in_2	false	Event	event_region_positive.png	false		0.0000
