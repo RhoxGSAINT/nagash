@@ -30,3 +30,4 @@ nag_skill_node_set_tomb_banshee	runesmith	false	false				nag_tomb_banshee
 nag_skill_node_set_mortarch_dk	general	false	false				nag_mortarch_dk
 nag_skill_node_set_mortarch_hand	champion	false	false				nag_mortarch_hand
 nag_skill_node_set_mortarch_drekla	dignitary	false	false				nag_mortarch_drekla
+nag_skill_node_set_guinevere	dignitary	false	false				nag_guinevere

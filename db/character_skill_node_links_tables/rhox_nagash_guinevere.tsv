@@ -1,0 +1,22 @@
+child_key	parent_key	initial_descent_tiers	parent_link_position	child_link_position	parent_link_position_offset	child_link_position_offset	link_type
+#character_skill_node_links_tables;3;db/character_skill_node_links_tables/rhox_nagash_guinevere							
+nag_skill_node_guinevere_battle_02	nag_skill_node_guinevere_battle_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_battle_03	nag_skill_node_guinevere_battle_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_battle_04	nag_skill_node_guinevere_battle_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_battle_05	nag_skill_node_guinevere_battle_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_battle_06	nag_skill_node_guinevere_battle_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_battle_07	nag_skill_node_guinevere_battle_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_battle_07	nag_skill_node_guinevere_battle_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_battle_07	nag_skill_node_guinevere_battle_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_battle_07	nag_skill_node_guinevere_battle_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_battle_07	nag_skill_node_guinevere_battle_06	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_diplo_02	nag_skill_node_guinevere_diplo_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_diplo_03	nag_skill_node_guinevere_diplo_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_diplo_04	nag_skill_node_guinevere_diplo_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_diplo_05	nag_skill_node_guinevere_diplo_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_diplo_06	nag_skill_node_guinevere_diplo_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_06	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

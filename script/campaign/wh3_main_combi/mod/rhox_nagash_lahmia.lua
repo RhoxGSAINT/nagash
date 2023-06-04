@@ -76,6 +76,9 @@ end
 
 
 
+
+
+
 cm:add_first_tick_callback(
 	function()
         if not vfs.exists("script/frontend/mod/lah1_start.lua")then --don't do this if Dust's one is already
