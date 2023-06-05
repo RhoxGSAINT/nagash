@@ -2,3 +2,4 @@ key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	buil
 #building_chains_tables;9;db/building_chains_tables/rhox_nagash_lahmia									
 rhox_nagash_lahmia_cult			money	false	rhox_nagash_lahmia_sch_cult		0		true
 rhox_nagash_lahmia_vassal			money	false	rhox_nagash_lahmia_sch_vassal		0		true
+rhox_nagash_lahmia_rebel			money	false	rhox_nagash_lahmia_sch_rebel		0		true

@@ -7,3 +7,6 @@ rhox_nagash_lahmia_pooled_resource_coven_influence_effects_3	"What harm can ther
 rhox_nagash_lahmia_pooled_resource_coven_influence_effects_4	"How can such marvels be a force for ill?"	Enthralled (74%-99%)	faction	1	blood_kiss.png	true	false	true
 rhox_nagash_lahmia_pooled_resource_coven_influence_effects_max	"Anything, Dark One, anything for but one more taste!"	Enraptured (100%)	faction	1	blood_kiss.png	true	false	true
 rhox_nagash_lahmia_bundle_pirate_cove_created			faction	1	pirate_cove.png	true	false	true
+rhox_nagash_guinevere_remaining_turn_dummy			faction	1	icon_effects_pyramid.png	true	false	true
+rhox_nagash_guinevere_relation_increased_hidden			faction	1	icon_effects_pyramid.png	false	false	true
+rhox_nagash_guinevere_high_corruption_bonus			military	1	icon_effects_pyramid.png	true	false	true

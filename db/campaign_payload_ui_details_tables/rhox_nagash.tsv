@@ -16,3 +16,5 @@ dummy_rhox_nagash_end_of_world	ui/campaign ui/effect_bundles/trait_mortarch.png	
 nag_mortarch_dk_technology	ui/skins/default/technology_positive.png	positive	0
 rhox_nagash_lahmia_confederation	ui/campaign ui/effect_bundles/confederation.png	positive	0
 rhox_nagash_lahmia_20turns	ui/campaign ui/effect_bundles/turns.png	default	0
+rhox_nagash_guinevere_joins	ui/campaign ui/effect_bundles/agent.png	default	0
+rhox_nagash_guinevere_departs	ui/campaign ui/effect_bundles/agent.png	default	0

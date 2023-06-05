@@ -36,3 +36,7 @@ id	incident_key	option_key	value	target
 1450500442	rhox_nagash_lahmia_incident_cult_created	GEN_TARGET_MODEL		default
 1450500443	rhox_nagash_lahmia_incident_cult_created2	VAR_CHANCE	100	default
 1450500444	rhox_nagash_lahmia_incident_cult_created2	GEN_TARGET_MODEL		default
+1450500445	rhox_nagash_guin_arrive	VAR_CHANCE	100	default
+1450500446	rhox_nagash_guin_arrive	GEN_TARGET_MODEL		default
+1450500447	rhox_nagash_guin_leave	VAR_CHANCE	100	default
+1450500448	rhox_nagash_guin_leave	GEN_TARGET_MODEL		default
