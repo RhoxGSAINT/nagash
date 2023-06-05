@@ -30,6 +30,6 @@ unit_description_historical_texts_text_nag_skeleton_giant	A bellowing, cursing d
 unit_description_historical_texts_text_nag_skeleton_reaper	These risen dead carry sharp scythes, curved blades with long handles that make them an ideal weapon for reaping souls and severing the ties between the living and the dead.	false
 unit_description_historical_texts_text_nag_doomed_legion	The deathless warriors of the Doomed Legion have fought at Krell's side since their mortal days. When they were alive, they fought for the glory of Khorne, but in death the Doomed Legion serve Nagash no less faithfully than their chieftain.	false
 unit_description_historical_texts_text_nag_blood_beasts	Wild, feral things; heavily manacled and chained, so that only when the time was right would they be unbound and set forth to unleash their infinite rage against their foes.	false
-unit_description_historical_texts_text_nag_thrall_crossbowmen	PLACEHOLDER	false
-unit_description_historical_texts_text_nag_thrall_handgunners	PLACEHOLDER	false
-unit_description_historical_texts_text_burning_dead_ror	PLACEHOLDER	false
+unit_description_historical_texts_text_nag_thrall_crossbowmen		false
+unit_description_historical_texts_text_nag_thrall_handgunners		false
+unit_description_historical_texts_text_burning_dead_ror		false
