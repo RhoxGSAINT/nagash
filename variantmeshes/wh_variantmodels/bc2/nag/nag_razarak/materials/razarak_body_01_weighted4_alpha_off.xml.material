@@ -5,7 +5,7 @@
  <textures>
   <texture>
    <slot version="2">t_xml_base_colour</slot>
-   <source>variantmeshes\wh_variantmodels\bc2\nag\nag_razarak\tex\dread_abyssal_razarak_diffuse.dds</source>
+   <source>variantmeshes\wh_variantmodels\bc2\nag\nag_razarak\tex\nag_dread_abyssal_razarak_base_colour.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_blood_map</slot>
@@ -17,15 +17,15 @@
   </texture>
   <texture>
    <slot version="2">t_xml_mask</slot>
-   <source>MASK_PATH</source>
+   <source>variantmeshes\wh_variantmodels\bc2\nag\nag_ashigaroth\tex\dread_abyssal_ashigaroth_mask.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_material_map</slot>
-   <source>MATERIAL_MAP</source>
+   <source>variantmeshes\wh_variantmodels\bc2\nag\nag_razarak\tex\nag_dread_abyssal_razarak_material_map.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_normal</slot>
-   <source>variantmeshes\wh_variantmodels\bc2\nag\nag_razarak\tex\dread_abyssal_razarak_normal.dds</source>
+   <source>variantmeshes\wh_variantmodels\bc2\nag\nag_razarak\tex\nag_dread_abyssal_razarak_normal.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_distortion_noise</slot>
