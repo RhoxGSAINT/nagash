@@ -131,3 +131,4 @@ mixer_nag_nagash	false	nag_blood_beasts	true	true				false		false
 mixer_nag_nagash	false	nag_thrall_crossbowmen	true	true				false		false
 mixer_nag_nagash	false	nag_thrall_handgunners	true	true				false		false
 mixer_nag_nagash	false	burning_dead_ror	true	true				false		false
+mixer_nag_nagash	false	nag_guinevere	true	true	ui/portraits/portholes/no_culture/vmp_vampire_female_campaign_02_0.png	nag_guinevere		false		false

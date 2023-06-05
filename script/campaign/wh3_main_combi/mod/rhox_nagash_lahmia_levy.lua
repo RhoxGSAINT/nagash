@@ -301,6 +301,25 @@ core:add_listener(
 );
 
 
+core:add_listener(
+	"rhox_nagash_lahmia_spawn_rebel",
+	"ForeignSlotBuildingCompleteEvent",
+	function(context)
+		local sm = context:slot_manager();
+		local faction = sm:faction();
+		return cm:get_regions_bonus_value(sm:region(), "rhox_nagash_lahmia_rebel_spawn") ~= 0
+	end,
+	function(context)
+		local sm = context:slot_manager()
+		local faction = sm:faction()
+		
+		cm:force_rebellion_with_faction(sm:region(), "wh_main_vmp_vampire_rebels", 10, true, false)
+	end,
+	true
+);
+
+
+
 cm:add_first_tick_callback(
 	function()
         if cm:get_local_faction_name(true) == "wh3_main_vmp_lahmian_sisterhood" then --ui thing and need to be local

@@ -510,3 +510,4 @@ effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_prostitute_dummy	
 effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_settlement_action_dummy	Geneviève's successful agent actions against the settlement of Empire, Bretonnia, Kislev, or Vampire Count's territory give %+n diplomatic bonus with the region owner. (Once per 5 turns)	false
 effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_replenish_xp_dummy	If Geneviève starts a turn in a province with 80% or more Vampiric corruption, embedded force gains %+n% exp and replenishment	false
 effects_description_rhox_nagash_guinevere_effect_longer_stay_dummy	Duration of Geneviève's stay %+n	false
+effects_description_rhox_nagash_effect_rebel_spawn	Rebel will be spawned in the region upon building completion	false

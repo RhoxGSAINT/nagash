@@ -11,3 +11,5 @@ id	incident_key	payload_key	value	target_key
 1402080417	rhox_nagash_declare_war_tk	TEXT_DISPLAY	LOOKUP[nag_mortarch_war]	default
 1402080418	rhox_nagash_mortarch_notify_jv	TEXT_DISPLAY	LOOKUP[nag_mortarch_confederation]	default
 1402080419	rhox_nagash_declare_war_jv	TEXT_DISPLAY	LOOKUP[nag_mortarch_war]	default
+1402080420	rhox_nagash_guin_arrive	TEXT_DISPLAY	LOOKUP[rhox_nagash_guinevere_joins]	default
+1402080421	rhox_nagash_guin_leave	TEXT_DISPLAY	LOOKUP[rhox_nagash_guinevere_departs]	default

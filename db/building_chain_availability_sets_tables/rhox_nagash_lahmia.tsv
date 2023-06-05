@@ -2,3 +2,4 @@ building_chain	id
 #building_chain_availability_sets_tables;0;db/building_chain_availability_sets_tables/rhox_nagash_lahmia	
 rhox_nagash_lahmia_cult	wh_main_bas_vmp
 rhox_nagash_lahmia_vassal	wh_main_bas_vmp
+rhox_nagash_lahmia_rebel	wh_main_bas_vmp

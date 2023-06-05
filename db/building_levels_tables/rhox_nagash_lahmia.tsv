@@ -2,3 +2,4 @@ level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_cap
 #building_levels_tables;0;db/building_levels_tables/rhox_nagash_lahmia																						
 rhox_nagash_lahmia_cult	rhox_nagash_lahmia_cult	0	1	0	0		false	false		false	rhox_nagash_lahmia_cult	false	0.0000	0	true	1		true	0	0		0
 rhox_nagash_lahmia_vassal	rhox_nagash_lahmia_vassal	0	1	0	0		false	false		false	rhox_nagash_lahmia_cult	false	0.0000	0	true	1		true	0	0		0
+rhox_nagash_lahmia_rebel	rhox_nagash_lahmia_rebel	0	1	0	0		false	false		false	rhox_nagash_lahmia_cult	false	0.0000	0	true	1		true	0	0		0
