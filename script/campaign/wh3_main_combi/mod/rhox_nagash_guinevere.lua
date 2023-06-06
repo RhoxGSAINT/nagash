@@ -224,6 +224,74 @@ local function rhox_nagash_guinevere_apply_bonus_duration(character, faction)
     
 end
 
+local function rhox_nagash_guinevere_check_peace_broker(character, faction)
+    if character:has_skill("nag_skill_node_guinevere_diplo_08") == false then
+        return
+    end
+    if(cm:model():random_percent(90)) then --10% so return with 90% chance
+        return
+    end
+    
+    local war_list = faction:factions_at_war_with()
+    local target_enemy_candidate = {}
+    for j = 0, war_list:num_items() - 1 do
+        local current_enemy = war_list:item_at(j);
+        if guin_culture[current_enemy:culture()] then
+            table.insert(target_enemy_candidate, current_enemy)
+        end
+    end
+    
+    if #target_enemy_candidate == 0 then
+        return
+    end
+    
+    target_enemy_candidate = cm:random_sort(target_enemy_candidate)
+    
+    local target_enemy = target_enemy_candidate[1]
+    
+    core:remove_listener("rhox_nagash_guinvere_peace_DilemmaChoiceMadeEvent")
+    core:add_listener(
+        "rhox_nagash_guinvere_peace_DilemmaChoiceMadeEvent", 
+        "DilemmaChoiceMadeEvent",
+        function(context)
+            return context:dilemma() == "rhox_nagash_guinevere_peace_broker"
+        end,
+        function(context)
+            local choice = context:choice();
+
+            
+            if choice == 0 then    
+                out("Rhox Nagash Guin: Let's make peace!")
+                cm:force_make_peace(faction:name(), target_enemy:name())
+            end
+        end,
+        false
+    )
+    
+    
+    --trigger dilemma
+    local dilemma_builder = cm:create_dilemma_builder("rhox_nagash_guinevere_peace_broker");
+    local payload_builder = cm:create_payload();
+    
+    
+    
+    payload_builder:text_display("rhox_nagash_guinevere_peace")
+    payload_builder:treasury_adjustment(-5000)
+    dilemma_builder:add_choice_payload("FIRST", payload_builder);
+    payload_builder:clear();
+    
+    dilemma_builder:add_choice_payload("SECOND", payload_builder);
+    
+    --dilemma_builder:add_target("default", lahmia_faction);
+    dilemma_builder:add_target("default", target_enemy);
+    dilemma_builder:add_target("target_faction_1", target_enemy);
+    --dilemma_builder:add_target("target_military_1", character:military_force());
+    
+    
+    cm:launch_custom_dilemma_from_builder(dilemma_builder, faction);
+    
+end
+
 core:add_listener(
     "rhox_nagash_guin_remaining_turn_check",
     "CharacterTurnStart",
@@ -239,10 +307,12 @@ core:add_listener(
         rhox_nagash_guinevere_apply_trespass_immune(character)
         
         rhox_nagash_guinevere_apply_prostitute(character, faction)
-        
         rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character, faction)
-        
         rhox_nagash_guinevere_apply_bonus_duration(character, faction)
+        rhox_nagash_guinevere_check_peace_broker(character, faction)
+        
+        
+        
         cm:callback(function()
             rhox_nagash_guinevere_check_depart(character, faction)--do it last
             end,

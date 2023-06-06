@@ -511,3 +511,4 @@ effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_settlement_action
 effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_replenish_xp_dummy	If Geneviève starts a turn in a province with 80% or more Vampiric corruption, embedded force gains %+n% exp and replenishment	false
 effects_description_rhox_nagash_guinevere_effect_longer_stay_dummy	Duration of Geneviève's stay %+n	false
 effects_description_rhox_nagash_effect_rebel_spawn	Rebel will be spawned in the region upon building completion	false
+effects_description_rhox_nagash_guinevere_effect_peace_broker_dummy	Chance of making peace with another Vampire Count, Kislev, Empire, or Bretonnia faction you're at war with at the start of the turn: %+n%	false

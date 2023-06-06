@@ -23,3 +23,4 @@ campaign_payload_ui_details_description_rhox_nagash_lahmia_20turns	The same dile
 campaign_payload_ui_details_description_rhox_nagash_guinevere_joins	Geneviève Dieudonné has joined you for a limited time.	false
 campaign_payload_ui_details_description_rhox_nagash_guinevere_departs	Geneviève Dieudonné has left your faction, leaving you a fabulous present.	false
 campaign_payload_ui_details_description_rhox_nagash_guinevere_presents	[[col:yellow]]The value of present increases as you have used Geneviève Dieudonné more and more.[[/col]]	false
+campaign_payload_ui_details_description_rhox_nagash_guinevere_peace	Peace will be made with target faction	false

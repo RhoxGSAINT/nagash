@@ -20,3 +20,4 @@ nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_03	0	1	1	0.0000
 nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_node_guinevere_diplo_07	nag_skill_node_guinevere_diplo_06	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_node_guinevere_diplo_08	nag_skill_node_guinevere_diplo_07	0	1	1	0.0000	0.0000	REQUIRED
