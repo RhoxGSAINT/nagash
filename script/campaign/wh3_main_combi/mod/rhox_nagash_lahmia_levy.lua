@@ -68,7 +68,6 @@ core:add_listener(
                 target_faction = faction; --apply it to the global value
                 out("Rhox Nagash Lahmia: Triggering confederation dilemma")
                 --trigger dilemma
-                --Trigger dilemma to be handled by above function
                 local dilemma_builder = cm:create_dilemma_builder("rhox_nagash_lahmia_confederate_generic");
                 local payload_builder = cm:create_payload();
                 

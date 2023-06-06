@@ -2,3 +2,5 @@ choice_key	dilemma_key	associated_audio_trigger
 #cdir_events_dilemma_choice_details_tables;3;db/cdir_events_dilemma_choice_details_tables/rhox_nagash		
 FIRST	rhox_nagash_lahmia_confederate_generic	
 SECOND	rhox_nagash_lahmia_confederate_generic	
+FIRST	rhox_nagash_guinevere_peace_broker	
+SECOND	rhox_nagash_guinevere_peace_broker	
