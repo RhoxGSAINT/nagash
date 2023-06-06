@@ -12,8 +12,8 @@ campaign_payload_ui_details_description_nag_mortarch_mannfred_technology	Unlocks
 campaign_payload_ui_details_description_nag_mortarch_luthor_technology	Unlocks technology [[col:orange]]Luthor, Mortarch of the Abyss[[/col]]	false
 campaign_payload_ui_details_description_nag_mortarch_arkhan_technology	Unlocks technology [[col:orange]]Arkhan, Mortarch of Sacrament[[/col]]	false
 campaign_payload_ui_details_description_nag_mortarch_dieter_technology	Unlocks technology [[col:orange]]Dieter Helsnicht[[/col]]	false
-campaign_payload_ui_details_description_nag_mortarch_confederation	Leginos of Nagash has absorbed the faction	false
-campaign_payload_ui_details_description_nag_mortarch_war	Leginos of Nagash has declared war on the faction	false
+campaign_payload_ui_details_description_nag_mortarch_confederation	Legions of Nagash has absorbed the faction	false
+campaign_payload_ui_details_description_nag_mortarch_war	Legions of Nagash has declared war on the faction	false
 campaign_payload_ui_details_description_rhox_nagash_final_tech_unlock	Unlocks technology [[col:orange]]The Final Step[[/col]] which is required for your campaign victory	false
 campaign_payload_ui_details_description_dummy_rhox_nagash_boss_appear	Nagash will be restored to his true form	false
 campaign_payload_ui_details_description_dummy_rhox_nagash_end_of_world	Usher in the eternal night and bind all in servitude to him alone	false
@@ -21,4 +21,5 @@ campaign_payload_ui_details_description_nag_mortarch_dk_technology	Unlocks techn
 campaign_payload_ui_details_description_rhox_nagash_lahmia_confederation	Integrates vassal	false
 campaign_payload_ui_details_description_rhox_nagash_lahmia_20turns	The same dilemma will be asked 20 turns later	false
 campaign_payload_ui_details_description_rhox_nagash_guinevere_joins	Geneviève Dieudonné has joined you for a limited time.	false
-campaign_payload_ui_details_description_rhox_nagash_guinevere_departs	Geneviève Dieudonné has left your faction, leaving you a fabulous present.\\n[[col:yellow]]The value of present increases as you have used Geneviève Dieudonné more and more.[[/col]]	false
+campaign_payload_ui_details_description_rhox_nagash_guinevere_departs	Geneviève Dieudonné has left your faction, leaving you a fabulous present.	false
+campaign_payload_ui_details_description_rhox_nagash_guinevere_presents	[[col:yellow]]The value of present increases as you have used Geneviève Dieudonné more and more.[[/col]]	false

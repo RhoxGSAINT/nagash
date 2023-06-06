@@ -504,7 +504,7 @@ effects_description_rhox_nagash_lahmia_effect_vassal_making	Can make Human, Elf,
 effects_description_rhox_nagash_lahmia_effect_diplo_mod	Diplomatic relations: %+n with Humans, Elves, Dwarfs, and Ogres	false
 effects_description_rhox_nagash_lahmia_effect_diplo_bonus_dummy	Diplomatic relations: %+n with Humans, Elves, Dwarfs, and Ogres for each vassal you have	false
 effects_description_rhox_nagash_lahmia_effect_levy_chance_up	Chance of vassal providing levy if the region owner is vassal of Lahmia: %+n%	false
-effects_description_rhox_nagash_guinevere_effect_trespass_immunity_for_army_dummy	Embedded army us Immune to diplomatic penalties from trespassing 	false
+effects_description_rhox_nagash_guinevere_effect_trespass_immunity_for_army_dummy	Embedded army is Immune to diplomatic penalties from trespassing 	false
 effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_human	Diplomatic relations: %+n with Humans	false
 effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_prostitute_dummy	If Geneviève starts a turn in Empire, Bretonnia, Kislev, or Vampire Count's territory, %+n diplomatic bonus with the region owner. (Once per 5 turns)	false
 effects_description_rhox_nagash_guinevere_effect_diplomacy_mod_settlement_action_dummy	Geneviève's successful agent actions against the settlement of Empire, Bretonnia, Kislev, or Vampire Count's territory give %+n diplomatic bonus with the region owner. (Once per 5 turns)	false

@@ -62,5 +62,5 @@ agent_subtypes_onscreen_name_override_nag_mortarch_hand	Hand of Nagash	false
 agent_subtypes_description_text_override_nag_mortarch_hand		false
 agent_subtypes_onscreen_name_override_nag_mortarch_drekla	The Right Hand of Luthor Harkon	false
 agent_subtypes_description_text_override_nag_mortarch_drekla	The right hand of Luthor Harkon, which is somewhat ironic, since he lost his own left hand following the Vampire Admiral into battle.	false
-agent_subtypes_onscreen_name_override_nag_guinevere	Geneviève Dieudonné	false
-agent_subtypes_description_text_override_nag_guinevere	Geneviève Dieudonné	false
+agent_subtypes_onscreen_name_override_nag_guinevere	Legendary Wandering Vampire	false
+agent_subtypes_description_text_override_nag_guinevere	Legendary Wandering Vampire	false
