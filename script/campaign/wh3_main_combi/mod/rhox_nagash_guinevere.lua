@@ -5,7 +5,8 @@ rhox_nagash_guinevere_info={ --global so others can approach this too
     current_faction=nil, --to check whether this faction has been annihilated or not
     remaining_turn=-1,
     trespass_immune_character_cqi =-1,
-    bonus_turns =0
+    bonus_turns =0,
+    num_uses=0
 }  
 
 
@@ -18,6 +19,18 @@ local guin_culture={
     wh_main_vmp_vampire_counts = true
 }
 
+local function get_character_by_subtype(subtype, faction)
+    local character_list = faction:character_list()
+    
+    for i = 0, character_list:num_items() - 1 do
+        local character = character_list:item_at(i)
+        
+        if character:character_subtype(subtype) then
+            return character
+        end
+    end
+    return false
+end
 
 core:add_listener(
     "rhox_nagash_guin_giving_turn_start",
@@ -30,6 +43,7 @@ core:add_listener(
         return rhox_nagash_guinevere_info.remaining_turn == -1 --character turn start would reduce this value
     end,
     function(context)
+        out("Rhox Nagash Guin: Sending Guin to somewhere")
         local all_factions = cm:model():world():faction_list();
         local visit_candidate ={}
         for i = 0, all_factions:num_items()-1 do
@@ -66,8 +80,18 @@ core:add_listener(
         if new_character then
             local forename = common:get_localised_string("names_name_1937224343")
             cm:change_character_custom_name(new_character, forename, "","","")
+            ---aplying the previous bonuses
+            local new_char_lookup = cm:char_lookup_str(new_character)
+            local traits_to_copy = rhox_nagash_guinevere_info.traits
+            if traits_to_copy then
+                for i =1, #traits_to_copy do
+                    local trait_to_copy = traits_to_copy[i]
+                    cm:force_add_trait(new_char_lookup, trait_to_copy)
+                end
+            end
+            cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
         end
-        rhox_nagash_guinevere_info.remaining_turn = 20
+        rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
         cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
         rhox_nagash_guinevere_info.current_faction = target_faction
         if guin_faction:is_human() then --trigger incident
@@ -85,17 +109,41 @@ local function rhox_nagash_guinevere_check_depart(character, faction)
         rhox_nagash_guinevere_info.previous_faction = faction:name()
         rhox_nagash_guinevere_info.remaining_turn = -1;
         
+        local value = 500+ 1000*rhox_nagash_guinevere_info.num_uses
+        
         if faction:is_human() then
-            cm:trigger_incident_with_targets(faction:command_queue_index(), "rhox_nagash_guin_leave", 0, 0, character:command_queue_index(), 0, 0, 0)--TODO add treasury
+            local incident_builder = cm:create_incident_builder("rhox_nagash_guin_leave")
+            incident_builder:add_target("default", character)
+            local payload_builder = cm:create_payload()
+            payload_builder:treasury_adjustment(value)
+            payload_builder:text_display("rhox_nagash_guinevere_departs")
+            payload_builder:text_display("rhox_nagash_guinevere_presents")
+            incident_builder:set_payload(payload_builder)
+            cm:launch_custom_incident_from_builder(incident_builder, faction)
+            --cm:trigger_incident_with_targets(faction:command_queue_index(), "rhox_nagash_guin_leave", 0, 0, character:command_queue_index(), 0, 0, 0)
+        else
+            cm:treasury_mod(faction:name(), value)--just add gold for the ai
         end
+        --out("Rhox Nagash Guin: Triggered incident")
+        
+        rhox_nagash_guinevere_info.traits=character:all_traits()
+        rhox_nagash_guinevere_info.rank=character:rank()
+        
+        --out("Rhox Nagash Guin: Stored information")
         
         cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
+        --cm:set_character_immortality(cm:char_lookup_str(character), false)
         cm:suppress_immortality(character:family_member():command_queue_index(), true) 
-        cm:kill_character(cm:char_lookup_str(character))
+		cm:kill_character(cm:char_lookup_str(character), false)
+
+        
+        --out("Rhox Nagash Guin: Killed her")
+        
         
         cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
         rhox_nagash_guinevere_info.current_faction = nil
         rhox_nagash_guinevere_info.bonus_turns =0
+        rhox_nagash_guinevere_info.num_uses =0
     end
 end
 
@@ -104,6 +152,7 @@ local function rhox_nagash_guinevere_remove_trespass_immune()
         local character = cm:get_character_by_cqi(rhox_nagash_guinevere_info.trespass_immune_character_cqi)
         cm:set_character_excluded_from_trespassing(character, false)
         rhox_nagash_guinevere_info.trespass_immune_character_cqi = -1
+        out("Rhox Nagash Guin: Removing tresspass immune from guy with cqi: ".. rhox_nagash_guinevere_info.trespass_immune_character_cqi)
     end
 end
 
@@ -119,7 +168,7 @@ local function rhox_nagash_guinevere_apply_trespass_immune(character)
         end
         rhox_nagash_guinevere_info.trespass_immune_character_cqi = general:cqi()
         out("Rhox Nagash Guin: Applying tresspass immune to guy with cqi: ".. general:cqi())
-        cm:set_character_excluded_from_trespassing(general, false)
+        cm:set_character_excluded_from_trespassing(general, true)
     end
 end
 
@@ -140,17 +189,19 @@ local function rhox_nagash_guinevere_apply_prostitute(character, faction)
     if guin_culture[owning_faction:culture()] then
         cm:apply_effect_bundle("rhox_nagash_guinevere_relation_increased_hidden", owning_faction:name(), 5)
         local value = math.floor((character:bonus_values():scripted_value("rhox_nagash_guine_prostitute", "value")/5)  +0.2)  --doing this just in case
+        out("Rhox Nagash Guin: Applying Prostitute bonus ".. value .. " to faction ".. owning_faction:name())
         cm:apply_dilemma_diplomatic_bonus(faction:name(), owning_faction:name(), value)
     end
     
 end
 
 local function rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character, faction)
-    if character:has_skill(nag_skill_node_guinevere_diplo_05) == false then
+    if character:has_skill("nag_skill_node_guinevere_diplo_05") == false then
         return--don't do it if she don't have skill
     end
     if cm:get_corruption_value_in_region(character:region(), "wh3_main_corruption_vampiric") > 80 and character:is_embedded_in_military_force() then
         local mf = character:embedded_in_military_force()
+        out("Rhox Nagash Guin: Applying high vamp corruption bonus to military force cqi: ".. mf:command_queue_index())
         cm:apply_effect_bundle_to_force("rhox_nagash_guinevere_high_corruption_bonus", mf:command_queue_index(), 2) --turn is 2 so players could see it
     end
 end
@@ -163,6 +214,8 @@ local function rhox_nagash_guinevere_apply_bonus_duration(character, faction)
     end
     
     local bonus_value = value - rhox_nagash_guinevere_info.bonus_turns
+    
+    out("Rhox Nagash Guin: Applying bonus remaining turn: ".. bonus_value)
     
     rhox_nagash_guinevere_info.bonus_turns= value
     rhox_nagash_guinevere_info.remaining_turn = rhox_nagash_guinevere_info.remaining_turn+ bonus_value
@@ -185,13 +238,15 @@ core:add_listener(
         rhox_nagash_guinevere_remove_trespass_immune()
         rhox_nagash_guinevere_apply_trespass_immune(character)
         
-        rhox_nagash_guinevere_apply_prostitute(character)
+        rhox_nagash_guinevere_apply_prostitute(character, faction)
         
         rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character, faction)
         
         rhox_nagash_guinevere_apply_bonus_duration(character, faction)
-        
-        rhox_nagash_guinevere_check_depart(character, faction)--do it last
+        cm:callback(function()
+            rhox_nagash_guinevere_check_depart(character, faction)--do it last
+            end,
+        5)
     end,
     true
 )
@@ -218,6 +273,7 @@ core:add_listener(
         return context:character():character_subtype_key() == "nag_guinevere" and context:character():bonus_values():scripted_value("rhox_nagash_guine_settlement", "value") ~= 0 and (context:mission_result_critial_success() or context:mission_result_success())
     end,
     function(context)
+        out("Rhox Nagash Guin: Garrison action Success!")
         local character = context:character()
         local faction = character:faction()
         local region = context:garrison_residence():region();
@@ -233,11 +289,61 @@ core:add_listener(
         if guin_culture[owning_faction:culture()] then
             cm:apply_effect_bundle("rhox_nagash_guinevere_relation_increased_hidden", owning_faction:name(), 5)
             local value = math.floor((character:bonus_values():scripted_value("rhox_nagash_guine_settlement", "value")/5)  +0.2)  --doing this just in case
+            out("Rhox Nagash Guin: Applying settlement action diplo bonus ".. value .. " to faction ".. owning_faction:name())
             cm:apply_dilemma_diplomatic_bonus(faction:name(), owning_faction:name(), value)
         end
     end,
     true
 )
+
+
+---------------------------guin increase number of uses
+
+core:add_listener(
+    "rhox_nagash_guin_increase_num_character_action",
+    "CharacterCharacterTargetAction",
+    function(context)
+        return context:character():character_subtype_key() == "nag_guinevere" and (context:mission_result_critial_success() or context:mission_result_success())
+    end,
+    function(context)
+        rhox_nagash_guinevere_info.num_uses = rhox_nagash_guinevere_info.num_uses+1
+    end,
+    true
+)
+
+core:add_listener(
+    "rhox_nagash_guin_increase_num_settlement_action",
+    "CharacterGarrisonTargetAction",
+    function(context)
+        return context:character():character_subtype_key() == "nag_guinevere" and (context:mission_result_critial_success() or context:mission_result_success())
+    end,
+    function(context)
+        rhox_nagash_guinevere_info.num_uses = rhox_nagash_guinevere_info.num_uses+1
+    end,
+    true
+)
+core:add_listener(
+    "rhox_nagash_guin_increase_num_battle",
+    "CharacterCompletedBattle",
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        local guin = get_character_by_subtype("nag_guinevere", faction)
+        
+        local pb = context:pending_battle();
+
+        return pb:has_been_fought() and character:won_battle() and character:has_military_force() and guin and guin:is_embedded_in_military_force() and guin:embedded_in_military_force():command_queue_index() == character:military_force():command_queue_index()
+    end,
+    function(context)
+        rhox_nagash_guinevere_info.num_uses = rhox_nagash_guinevere_info.num_uses+1        
+        out("Rhox Nagash Guin: Guin embedded army wins the battle, increasing the num to ".. rhox_nagash_guinevere_info.num_uses)
+    
+    
+        
+    end,
+    true
+)
+
 
 
 

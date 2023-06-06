@@ -104,7 +104,7 @@ effect_bundles_localised_title_rhox_nagash_stance_brain_searching	Stance: Empowe
 effect_bundles_localised_description_rhox_nagash_stance_brain_searching	Absorb magic and knowledge from nearby practitioners by consuming their cerebral matter.	false
 effect_bundles_localised_title_rhox_nagash_stance_pyramid	Stance: Black Pyramid	false
 effect_bundles_localised_description_rhox_nagash_stance_pyramid	Uses the Black Pyramid to traverse the world.	false
-effect_bundles_localised_title_rhox_lahmia_neferata_lord_trait	Absorb magic from nearby practitioners by consuming magical sources.	false
+effect_bundles_localised_title_rhox_lahmia_neferata_lord_trait	Queen of the Lahmians	false
 effect_bundles_localised_description_rhox_lahmia_neferata_lord_trait		false
 effect_bundles_localised_title_nag_krell_battle_1_azhag_hidden	[HIDDEN]	false
 effect_bundles_localised_description_nag_krell_battle_1_azhag_hidden	[HIDDEN] This is a hidden effect bundle that only affects the Skeletal Azhag units	false
@@ -126,3 +126,5 @@ effect_bundles_localised_title_rhox_nagash_guinevere_remaining_turn_dummy	Genevi
 effect_bundles_localised_description_rhox_nagash_guinevere_remaining_turn_dummy	Geneviève Dieudonné have joined your cause! They will only remain for a limited time, however.	false
 effect_bundles_localised_title_rhox_nagash_guinevere_relation_increased_hidden	This is hidden	false
 effect_bundles_localised_description_rhox_nagash_guinevere_relation_increased_hidden	This is hidden effect bundle to check whether the relation has been improved already or not	false
+effect_bundles_localised_title_rhox_nagash_guinevere_high_corruption_bonus	Beloved of the Sorority	false
+effect_bundles_localised_description_rhox_nagash_guinevere_high_corruption_bonus	Neither Chandagnac, who gave her the Blood Kiss, nor Melissa d'Acques, who did the same with him, were allowed to do so by Neferata. Even tho, the Lahmians feel an unexplaignable sense of duty to protect her	false

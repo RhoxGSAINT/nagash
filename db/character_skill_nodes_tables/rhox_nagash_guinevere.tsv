@@ -12,10 +12,10 @@ nag_skill_node_guinevere_campaign_03		wh2_main_skill_all_hero_hinder_settlement_
 nag_skill_node_guinevere_campaign_04		wh2_main_skill_all_hero_hinder_agent_wound	nag_skill_node_set_guinevere		5.0000	3.0000		0	0	true
 nag_skill_node_guinevere_campaign_05		wh2_main_skill_all_hero_hinder_army_hinder_replenishment	nag_skill_node_set_guinevere		5.0000	4.0000		0	0	true
 nag_skill_node_guinevere_campaign_06		wh2_main_skill_all_hero_reduce_action_cost	nag_skill_node_set_guinevere		5.0000	5.0000		0	0	true
-nag_skill_node_guinevere_generic_03		nag_guinevere_growth	nag_skill_node_set_guinevere		0.0000	3.0000		0	0	true
-nag_skill_node_guinevere_generic_04		nag_guinevere_income	nag_skill_node_set_guinevere		0.0000	4.0000		0	0	true
-nag_skill_node_guinevere_generic_05		nag_guinevere_xp	nag_skill_node_set_guinevere		0.0000	5.0000		0	0	true
-nag_skill_node_guinevere_generic_06		nag_guinevere_public_order	nag_skill_node_set_guinevere		0.0000	6.0000		0	0	true
+nag_skill_node_guinevere_generic_03		nag_guinevere_growth	nag_skill_node_set_guinevere		4.0000	0.0000		0	0	true
+nag_skill_node_guinevere_generic_04		nag_guinevere_income	nag_skill_node_set_guinevere		4.0000	1.0000		0	0	true
+nag_skill_node_guinevere_generic_05		nag_guinevere_xp	nag_skill_node_set_guinevere		4.0000	2.0000		0	0	true
+nag_skill_node_guinevere_generic_06		nag_guinevere_public_order	nag_skill_node_set_guinevere		4.0000	3.0000		0	0	true
 nag_skill_node_guinevere_battle_01		nag_skill_node_guinevere_battle_01	nag_skill_node_set_guinevere		1.0000	0.0000		0	0	true
 nag_skill_node_guinevere_battle_02		nag_skill_node_guinevere_battle_02	nag_skill_node_set_guinevere		1.0000	1.0000		0	1	true
 nag_skill_node_guinevere_battle_03		nag_skill_node_guinevere_battle_03	nag_skill_node_set_guinevere		1.0000	2.0000		0	1	true
