@@ -2,11 +2,12 @@ rhox_nagash_guinevere_info={ --global so others can approach this too
     traits=nil, --trait, it will transfer to the next faction also
     rank=1, --rank, it will transfer to the next faction also
     previous_faction=nil, --she never visits two factions in a row
-    current_faction=nil, --to check whether this faction has been annihilated or not
     remaining_turn=-1,
     trespass_immune_character_cqi =-1,
     bonus_turns =0,
-    num_uses=0
+    num_uses=0,
+    world_turn=5,--updated by world start round
+    character_turn=5--updated by character start round
 }  
 
 
@@ -16,7 +17,8 @@ local guin_culture={
     wh3_main_ksl_kislev = true,
     wh_main_brt_bretonnia = true,
     wh_main_emp_empire = true,
-    wh_main_vmp_vampire_counts = true
+    wh_main_vmp_vampire_counts = true,
+    mixer_teb_southern_realms = true
 }
 
 local function get_character_by_subtype(subtype, faction)
@@ -39,8 +41,10 @@ core:add_listener(
         if cm:model():turn_number() < 5 then --don't trigger it until the turn 5
             return false
         end
+        
+        rhox_nagash_guinevere_info.world_turn = cm:model():turn_number()
     
-        return rhox_nagash_guinevere_info.remaining_turn == -1 --character turn start would reduce this value
+        return rhox_nagash_guinevere_info.remaining_turn == -1 or (rhox_nagash_guinevere_info.world_turn -rhox_nagash_guinevere_info.character_turn) > guin_base_turn  --character turn start would reduce the remaining turn value. It will also set the character_turn value to the current turn. If the value is bigger than the base turn, it's likely the faction has been annihilated
     end,
     function(context)
         out("Rhox Nagash Guin: Sending Guin to somewhere")
@@ -93,7 +97,6 @@ core:add_listener(
         end
         rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
         cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
-        rhox_nagash_guinevere_info.current_faction = target_faction
         if guin_faction:is_human() then --trigger incident
             cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
         end
@@ -141,7 +144,6 @@ local function rhox_nagash_guinevere_check_depart(character, faction)
         
         
         cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
-        rhox_nagash_guinevere_info.current_faction = nil
         rhox_nagash_guinevere_info.bonus_turns =0
         rhox_nagash_guinevere_info.num_uses =0
     end
@@ -303,6 +305,8 @@ core:add_listener(
         local character = context:character()
         local faction = character:faction()
         
+        rhox_nagash_guinevere_info.character_turn = cm:model():turn_number()
+        
         rhox_nagash_guinevere_remove_trespass_immune()
         rhox_nagash_guinevere_apply_trespass_immune(character)
         
@@ -373,7 +377,7 @@ core:add_listener(
     "rhox_nagash_guin_increase_num_character_action",
     "CharacterCharacterTargetAction",
     function(context)
-        return context:character():character_subtype_key() == "nag_guinevere" and (context:mission_result_critial_success() or context:mission_result_success())
+        return context:character():character_subtype_key() == "nag_guinevere" and (context:mission_result_critial_success() or context:mission_result_success()) and context:agent_action_key() ~= "wh2_main_agent_action_dignitary_assist_army_replenish_troops" --shouldn't count the embedding one
     end,
     function(context)
         rhox_nagash_guinevere_info.num_uses = rhox_nagash_guinevere_info.num_uses+1
