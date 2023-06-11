@@ -6,11 +6,11 @@ rhox_nagash_guinevere_info={ --global so others can approach this too
     trespass_immune_character_cqi =-1,
     bonus_turns =0,
     num_uses=0,
-    world_turn=5,--updated by world start round
+    cqi = -1
 }  
 
 
-local guin_base_turn = 2
+local guin_base_turn = 20
 
 local guin_culture={
     wh3_main_ksl_kislev = true,
@@ -31,6 +31,33 @@ local function get_character_by_subtype(subtype, faction)
         end
     end
     return false
+end
+
+local function rhox_nagash_kill_guin()
+	if rhox_nagash_guinevere_info.cqi == -1 then
+		return --it means she is not created
+	end
+	local character = cm:get_character_by_cqi(rhox_nagash_guinevere_info.cqi)
+
+	if character and not character:is_null_interface() and character:character_subtype("nag_guinevere") then
+		rhox_nagash_guinevere_info.traits=character:all_traits()
+        rhox_nagash_guinevere_info.rank=character:rank()
+        
+        --out("Rhox Nagash Guin: Stored information")
+
+		cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
+		--cm:set_character_immortality(cm:char_lookup_str(character), false)
+		cm:suppress_immortality(character:family_member():command_queue_index(), true) 
+		cm:kill_character(cm:char_lookup_str(character), false)
+		rhox_nagash_guinevere_info.bonus_turns =0
+		rhox_nagash_guinevere_info.num_uses =0
+		
+		--out("Rhox Nagash Guin: Killed her")
+		
+		
+		cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
+		rhox_nagash_guinevere_info.cqi = -1
+	end
 end
 
 core:add_listener(
@@ -82,7 +109,7 @@ core:add_listener(
         end
         local guin_faction = cm:get_faction(target_faction)
         
-        
+        rhox_nagash_kill_guin() --kill her before summoning her
         out("Rhox Nagash Guin: Guin going to ".. target_faction)
         local x, y = cm:find_valid_spawn_location_for_character_from_character(target_faction, cm:char_lookup_str(guin_faction:faction_leader()), true, 10)
         cm:spawn_agent_at_position(guin_faction, x, y, "dignitary", "nag_guinevere")
@@ -100,6 +127,7 @@ core:add_listener(
                 end
             end
             cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
+			rhox_nagash_guinevere_info.cqi = new_character:cqi()
         end
         rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
         cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
@@ -110,6 +138,36 @@ core:add_listener(
     end,
     true
 )
+
+
+
+local function rhox_nagash_guinevere_remove_trespass_immune()
+    if rhox_nagash_guinevere_info.trespass_immune_character_cqi ~= -1 then
+        local character = cm:get_character_by_cqi(rhox_nagash_guinevere_info.trespass_immune_character_cqi)
+        cm:set_character_excluded_from_trespassing(character, false)
+        out("Rhox Nagash Guin: Removing tresspass immune from guy with cqi: ".. rhox_nagash_guinevere_info.trespass_immune_character_cqi)
+        rhox_nagash_guinevere_info.trespass_immune_character_cqi = -1
+        
+    end
+end
+
+local function rhox_nagash_guinevere_apply_trespass_immune(character)
+    if character:has_skill("nag_skill_node_guinevere_diplo_01") == false then
+        return --need skill
+    end
+
+    
+    if character:is_embedded_in_military_force() then
+        local mf = character:embedded_in_military_force()
+        local general = mf:general_character()
+        if not general then
+            return
+        end
+        rhox_nagash_guinevere_info.trespass_immune_character_cqi = general:cqi()
+        out("Rhox Nagash Guin: Applying tresspass immune to guy with cqi: ".. general:cqi())
+        cm:set_character_excluded_from_trespassing(general, true)
+    end
+end
 
 local function rhox_nagash_guinevere_check_depart(character, faction)
     
@@ -133,49 +191,10 @@ local function rhox_nagash_guinevere_check_depart(character, faction)
             cm:treasury_mod(faction:name(), value)--just add gold for the ai
         end
         --out("Rhox Nagash Guin: Triggered incident")
+        rhox_nagash_guinevere_remove_trespass_immune()--this is last turn remove the trespass immune
         
-        rhox_nagash_guinevere_info.traits=character:all_traits()
-        rhox_nagash_guinevere_info.rank=character:rank()
-        
-        --out("Rhox Nagash Guin: Stored information")
-        
-        cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
-        --cm:set_character_immortality(cm:char_lookup_str(character), false)
-        cm:suppress_immortality(character:family_member():command_queue_index(), true) 
-		cm:kill_character(cm:char_lookup_str(character), false)
+        rhox_nagash_kill_guin()
 
-        
-        --out("Rhox Nagash Guin: Killed her")
-        
-        
-        cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
-        rhox_nagash_guinevere_info.bonus_turns =0
-        rhox_nagash_guinevere_info.num_uses =0
-    end
-end
-
-local function rhox_nagash_guinevere_remove_trespass_immune()
-    if rhox_nagash_guinevere_info.trespass_immune_character_cqi ~= -1 then
-        local character = cm:get_character_by_cqi(rhox_nagash_guinevere_info.trespass_immune_character_cqi)
-        cm:set_character_excluded_from_trespassing(character, false)
-        rhox_nagash_guinevere_info.trespass_immune_character_cqi = -1
-        out("Rhox Nagash Guin: Removing tresspass immune from guy with cqi: ".. rhox_nagash_guinevere_info.trespass_immune_character_cqi)
-    end
-end
-
-local function rhox_nagash_guinevere_apply_trespass_immune(character)
-    if character:has_skill("nag_skill_node_guinevere_diplo_01") == false then
-        return --need skill
-    end
-    if character:is_embedded_in_military_force() then
-        local mf = character:embedded_in_military_force()
-        local general = mf:general_character()
-        if not general then
-            return
-        end
-        rhox_nagash_guinevere_info.trespass_immune_character_cqi = general:cqi()
-        out("Rhox Nagash Guin: Applying tresspass immune to guy with cqi: ".. general:cqi())
-        cm:set_character_excluded_from_trespassing(general, true)
     end
 end
 
