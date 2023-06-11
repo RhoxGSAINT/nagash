@@ -2,16 +2,15 @@ rhox_nagash_guinevere_info={ --global so others can approach this too
     traits=nil, --trait, it will transfer to the next faction also
     rank=1, --rank, it will transfer to the next faction also
     previous_faction=nil, --she never visits two factions in a row
-    remaining_turn=-1,
+    remaining_turn=-100,
     trespass_immune_character_cqi =-1,
     bonus_turns =0,
     num_uses=0,
     world_turn=5,--updated by world start round
-    character_turn=5--updated by character start round
 }  
 
 
-local guin_base_turn = 20
+local guin_base_turn = 2
 
 local guin_culture={
     wh3_main_ksl_kislev = true,
@@ -41,10 +40,17 @@ core:add_listener(
         if cm:model():turn_number() < 5 then --don't trigger it until the turn 5
             return false
         end
-        
-        rhox_nagash_guinevere_info.world_turn = cm:model():turn_number()
-    
-        return rhox_nagash_guinevere_info.remaining_turn == -1 or (rhox_nagash_guinevere_info.world_turn -rhox_nagash_guinevere_info.character_turn) > guin_base_turn  --character turn start would reduce the remaining turn value. It will also set the character_turn value to the current turn. If the value is bigger than the base turn, it's likely the faction has been annihilated
+		
+		if rhox_nagash_guinevere_info.remaining_turn ~= -100 then
+			rhox_nagash_guinevere_info.remaining_turn = rhox_nagash_guinevere_info.remaining_turn -1
+			out("Rhox Nagash Guin: Checking depart: Remaining turn ".. rhox_nagash_guinevere_info.remaining_turn)
+		end
+
+		if rhox_nagash_guinevere_info.remaining_turn < -1 then --it means Geinever faction is killed. If the player is using recruit defeated lords, Guin is executed or something like that
+			rhox_nagash_guinevere_info.remaining_turn = -100
+		end
+
+        return rhox_nagash_guinevere_info.remaining_turn <= -100
     end,
     function(context)
         out("Rhox Nagash Guin: Sending Guin to somewhere")
@@ -106,11 +112,10 @@ core:add_listener(
 )
 
 local function rhox_nagash_guinevere_check_depart(character, faction)
-    rhox_nagash_guinevere_info.remaining_turn = rhox_nagash_guinevere_info.remaining_turn -1
-    out("Rhox Nagash Guin: Checking depart: Remaining turn ".. rhox_nagash_guinevere_info.remaining_turn)
+    
     if rhox_nagash_guinevere_info.remaining_turn <= 0 then
         rhox_nagash_guinevere_info.previous_faction = faction:name()
-        rhox_nagash_guinevere_info.remaining_turn = -1;
+        rhox_nagash_guinevere_info.remaining_turn = -100;
         
         local value = 500+ 1000*rhox_nagash_guinevere_info.num_uses
         
@@ -304,8 +309,6 @@ core:add_listener(
     function(context)
         local character = context:character()
         local faction = character:faction()
-        
-        rhox_nagash_guinevere_info.character_turn = cm:model():turn_number()
         
         rhox_nagash_guinevere_remove_trespass_immune()
         rhox_nagash_guinevere_apply_trespass_immune(character)
