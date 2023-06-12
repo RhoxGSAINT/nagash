@@ -540,6 +540,34 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
 		rhox_nagash_save_agent_info("nag_mortarch_drekla", faction, "cst_drekla")
         rhox_nagash_spawn_follower_hero("nag_mortarch_drekla","dignitary",mort_key);
     end
+    
+    if mort_key == "nag_mortarch_neferata" and cm:get_faction(nagash_faction):is_human() then --only when Nagash is human
+        cm:callback(--they might have just give Guin a new home
+            function()
+                rhox_nagash_kill_guin()
+                local x, y = cm:find_valid_spawn_location_for_character_from_character(nagash_faction, cm:char_lookup_str(cm:get_faction(nagash_faction):faction_leader()), true, 10)
+                cm:spawn_agent_at_position(cm:get_faction(nagash_faction), x, y, "dignitary", "nag_guinevere")
+                local new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "dignitary", "nag_guinevere")
+                if new_character then
+                    local forename = common:get_localised_string("names_name_1937224343")
+                    cm:change_character_custom_name(new_character, forename, "","","")
+                    ---aplying the previous bonuses
+                    local new_char_lookup = cm:char_lookup_str(new_character)
+                    local traits_to_copy = rhox_nagash_guinevere_info.traits
+                    if traits_to_copy then
+                        for i =1, #traits_to_copy do
+                            local trait_to_copy = traits_to_copy[i]
+                            cm:force_add_trait(new_char_lookup, trait_to_copy)
+                        end
+                    end
+                    cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
+                    rhox_nagash_guinevere_info.cqi = new_character:cqi()
+                end
+                rhox_nagash_guinevere_info.remaining_turn = 5000--she'll never leave Nagash.
+            end,
+        5)
+        
+    end
 
 
     out("Rhox Nagash: After follower check")
@@ -639,6 +667,34 @@ local function spawn_mortarch(mort_key) --ones without a faction, or faction alr
     
     if mort_key == "nag_mortarch_luthor" and vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then --spawn drekla too in case of Luthor and player owns the Mixu LL 
         rhox_nagash_spawn_follower_hero("nag_mortarch_drekla","dignitary",mort_key);
+    end
+    
+    if mort_key == "nag_mortarch_neferata" and cm:get_faction(nagash_faction):is_human() then --only when Nagash is human
+        cm:callback(--they might have just give Guin a new home
+            function()
+                rhox_nagash_kill_guin()
+                local x, y = cm:find_valid_spawn_location_for_character_from_character(nagash_faction, cm:char_lookup_str(cm:get_faction(nagash_faction):faction_leader()), true, 10)
+                cm:spawn_agent_at_position(cm:get_faction(nagash_faction), x, y, "dignitary", "nag_guinevere")
+                local new_character = cm:get_most_recently_created_character_of_type(nagash_faction, "dignitary", "nag_guinevere")
+                if new_character then
+                    local forename = common:get_localised_string("names_name_1937224343")
+                    cm:change_character_custom_name(new_character, forename, "","","")
+                    ---aplying the previous bonuses
+                    local new_char_lookup = cm:char_lookup_str(new_character)
+                    local traits_to_copy = rhox_nagash_guinevere_info.traits
+                    if traits_to_copy then
+                        for i =1, #traits_to_copy do
+                            local trait_to_copy = traits_to_copy[i]
+                            cm:force_add_trait(new_char_lookup, trait_to_copy)
+                        end
+                    end
+                    cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
+                    rhox_nagash_guinevere_info.cqi = new_character:cqi()
+                end
+                rhox_nagash_guinevere_info.remaining_turn = 5000--she'll never leave Nagash.
+            end,
+        5)
+        
     end
 end
 

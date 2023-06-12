@@ -33,7 +33,7 @@ local function get_character_by_subtype(subtype, faction)
     return false
 end
 
-local function rhox_nagash_kill_guin()
+function rhox_nagash_kill_guin()
 	if rhox_nagash_guinevere_info.cqi == -1 then
 		return --it means she is not created
 	end
