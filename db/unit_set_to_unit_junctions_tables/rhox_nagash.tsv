@@ -399,6 +399,7 @@ hero				nag_characters	false
 			mixu_vmp_cha_dieter_helsnicht_manticore	nag_mortarch_unit_set	false
 			wh_main_vmp_inf_crypt_ghouls	nag_crypt_ghouls	false
 			wh2_dlc09_tmb_inf_crypt_ghouls	nag_crypt_ghouls	false
+			wh_dlc04_vmp_inf_feasters_in_the_dusk_0	nag_crypt_ghouls	false
 			nag_mortis_engine	nag_tech_blood_knights_mortis	false
 			nag_vanilla_vmp_cav_blood_knights_0	nag_tech_blood_knights_mortis	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_tech_stalker_necropolis_knight	false
