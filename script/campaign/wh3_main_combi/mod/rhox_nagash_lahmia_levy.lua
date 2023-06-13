@@ -18,7 +18,7 @@ local culture_to_unit={
 }
 
 local vassal_levy_chance = 5;--it's percent
-local neferata_chance_per_card = 0.5;
+local neferata_chance_per_card = 0.25;
 
 local dilemma_cooldown = 20;
 local dilemma_table ={}

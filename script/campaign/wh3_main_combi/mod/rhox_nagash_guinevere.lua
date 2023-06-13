@@ -99,7 +99,8 @@ core:add_listener(
             end
         end
         
-        if cm:model():turn_number() ==5 then
+        local lahmia_faction = cm:get_faction("wh3_main_vmp_lahmian_sisterhood")
+        if cm:model():turn_number() ==5 and lahmia_faction and lahmia_faction:is_dead() ==false then
             target_faction = "wh3_main_vmp_lahmian_sisterhood"
         end
         
@@ -308,10 +309,8 @@ local function rhox_nagash_guinevere_check_peace_broker(character, faction)
     
     dilemma_builder:add_choice_payload("SECOND", payload_builder);
     
-    --dilemma_builder:add_target("default", lahmia_faction);
     dilemma_builder:add_target("default", target_enemy);
     dilemma_builder:add_target("target_faction_1", target_enemy);
-    --dilemma_builder:add_target("target_military_1", character:military_force());
     
     
     cm:launch_custom_dilemma_from_builder(dilemma_builder, faction);
