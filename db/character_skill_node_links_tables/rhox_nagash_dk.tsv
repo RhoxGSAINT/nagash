@@ -53,10 +53,6 @@ nag_skill_tmb_tomb_king_dread_personal_10	nag_skill_tmb_tomb_king_dread_personal
 nag_skill_tmb_tomb_king_dread_personal_10	nag_skill_tmb_tomb_king_dread_personal_7	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_tmb_tomb_king_dread_personal_10	nag_skill_tmb_tomb_king_dread_personal_8	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_tmb_tomb_king_dread_personal_10	nag_skill_tmb_tomb_king_dread_personal_9	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
-nag_dread_kings_unique_skills_02	nag_dread_kings_unique_skills_01	0	1	1	0.0000	0.0000	REQUIRED
-nag_dread_kings_unique_skills_03	nag_dread_kings_unique_skills_02	0	1	1	0.0000	0.0000	REQUIRED
-nag_dread_kings_unique_skills_04	nag_dread_kings_unique_skills_03	0	1	1	0.0000	0.0000	REQUIRED
-nag_dread_kings_unique_skills_05	nag_dread_kings_unique_skills_04	0	1	1	0.0000	0.0000	REQUIRED
 nag_skill_node_tmb_dread_king_death_magic_02	nag_skill_node_tmb_dread_king_death_magic_01	0	1	1	0.0000	0.0000	REQUIRED
 nag_skill_node_tmb_dread_king_death_magic_03	nag_skill_node_tmb_dread_king_death_magic_01	0	1	1	0.0000	0.0000	REQUIRED
 nag_skill_node_tmb_dread_king_death_magic_04	nag_skill_node_tmb_dread_king_death_magic_01	0	1	1	0.0000	0.0000	REQUIRED
@@ -73,3 +69,11 @@ nag_skill_node_tmb_dread_king_death_magic_11	nag_skill_node_tmb_dread_king_death
 nag_skill_node_tmb_dread_king_death_magic_11	nag_skill_node_tmb_dread_king_death_magic_08	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_node_tmb_dread_king_death_magic_11	nag_skill_node_tmb_dread_king_death_magic_09	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_node_tmb_dread_king_death_magic_11	nag_skill_node_tmb_dread_king_death_magic_10	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_dread_kings_unique_skills_02	nag_dread_kings_unique_skills_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_dread_kings_unique_skills_03	nag_dread_kings_unique_skills_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_dread_kings_unique_skills_04	nag_dread_kings_unique_skills_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_dread_kings_unique_skills_05	nag_dread_kings_unique_skills_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_dread_kings_unique_skills_06	nag_dread_kings_unique_skills_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_dread_kings_unique_skills_06	nag_dread_kings_unique_skills_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_dread_kings_unique_skills_06	nag_dread_kings_unique_skills_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_dread_kings_unique_skills_06	nag_dread_kings_unique_skills_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED

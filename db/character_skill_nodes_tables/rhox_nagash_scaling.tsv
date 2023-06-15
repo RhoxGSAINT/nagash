@@ -26,6 +26,8 @@ nag_skill_agent_action_scaling_wight_king		wh3_main_skill_agent_action_success_s
 nag_skill_agent_action_scaling_gunnery_wight		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_cst_gunnery_wight		99.0000	0.0000		0	0	false
 nag_skill_agent_action_scaling_morghast_archai		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_morghast_archai		99.0000	0.0000		0	0	false
 nag_skill_agent_action_scaling_tomb_banshee		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_tomb_banshee		99.0000	0.0000		0	0	false
+nag_skill_agent_action_scaling_dread_king		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_mortarch_dk		99.0000	0.0000		0	0	false
+nag_skill_agent_action_scaling_hand_of_nagash		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_mortarch_hand		99.0000	0.0000		0	0	false
 nag_skill_mentor_nagash_husk		wh3_main_skill_all_mentor_lord	nag_skill_node_set_nagash_husk		0.0000	11.0000		0	0	true
 nag_skill_mentor_nagash_boss		wh3_main_skill_all_mentor_lord	nag_skill_node_set_nagash_boss		0.0000	11.0000		0	0	true
 nag_skill_mentor_mortarch_arkhan		wh3_main_skill_all_mentor_lord	nag_skill_node_set_mortarch_arkhan		0.0000	11.0000		0	0	true
