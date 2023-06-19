@@ -138,9 +138,9 @@ nag_skill_mount_isabella_barded_nightmare	mount_barded_nightmare.png		Barded Nig
 nag_skill_mount_isabella_hellsteed	mount_hellsteed.png		Hellsteed	0	false	false	false	0.0000	0
 nag_skill_mount_arkhan_skeletal_steed	mount_skeletal_steed_tmb.png		Skeletal Steed	0	false	false	false	0.0000	0
 nag_skill_mount_arkhan_skeleton_chariot	mount_skeleton_chariot.png		Skeleton Chariot	0	false	false	false	0.0000	0
-nag_skill_mount_arkhan_abyssal	mount_skullmuncha.png		Razarak, The Doom of Traitors	0	false	false	false	0.0000	0
+nag_skill_mount_arkhan_abyssal	mount_skullmuncha.png		Razarak, the Doom of Traitors	0	false	false	false	0.0000	0
 nag_skill_mount_mannfred_barded_nightmare	mount_barded_nightmare.png		Barded Nightmare	0	false	false	false	0.0000	0
-nag_skill_mount_mannfred_abyssal	mount_skullmuncha.png		Ashigaroth, Gourger Upon the Meek	0	false	false	false	0.0000	0
+nag_skill_mount_mannfred_abyssal	mount_skullmuncha.png		Ashigaroth, Gorger Upon the Meek	0	false	false	false	0.0000	0
 nag_skill_mount_neferata_warhorse	mount_barded_nightmare.png		Barded Nightmare	0	false	false	false	0.0000	0
 nag_skill_mount_neferata_abyssal	mount_skullmuncha.png		Nagadron, The Adevore	0	false	false	false	0.0000	0
 nag_skill_mount_luthor_harkon_terrorgheist	mount_terrorgheist.png		Death Shriek Terrorgheist	0	false	false	false	0.0000	0
