@@ -17,3 +17,5 @@ mct_nag_nagsh_nag_mortarch_neferata_text	Neferata obedience chance	false
 mct_nag_nagsh_nag_mortarch_neferata_tooltip	When AI Nagash researches technology, Neferata will obey and become confederated with the following chance. When they disobey, Nagash will declare war on them	false
 mct_nag_nagsh_nag_mortarch_dk_text	Dread King obedience chance	false
 mct_nag_nagsh_nag_mortarch_dk_tooltip	When AI Nagash researches technology, Dread King will obey and become confederated with the following chance. When they disobey, Nagash will declare war on them	false
+mct_nag_nagsh_nag_ai_bonus_text	AI Nagash Bonus	false
+mct_nag_nagsh_nag_ai_bonus_tooltip	AI Nagash will recieve this amount of additional upkeep reduction for all his armies. 	false

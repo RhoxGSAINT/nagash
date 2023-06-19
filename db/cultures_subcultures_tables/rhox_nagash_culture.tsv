@@ -2,3 +2,4 @@ subculture	culture	index	audio_state_override	audio_corruption_state_override	au
 #cultures_subcultures_tables;6;db/cultures_subcultures_tables/rhox_nagash_culture						
 mixer_nag_nagash	mixer_nag_nagash	1524878509	Tomb_Kings			
 wh_main_sc_vmp_jade_vampires	mixer_vmp_jade_vampires	954291746	Cathay			Vampire_Counts
+jiangshi_subculture	wh_main_vmp_vampire_counts	1911443795				Vampire_Counts

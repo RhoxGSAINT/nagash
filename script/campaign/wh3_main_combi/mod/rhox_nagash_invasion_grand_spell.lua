@@ -36,7 +36,8 @@ local undead_subculture = {
     wh2_dlc11_sc_cst_vampire_coast =true,
     wh_main_sc_vmp_vampire_counts =true,
     mixer_vmp_jade_vampires =true,
-    wh_main_sc_vmp_jade_vampires = true --poljanan's one
+    wh_main_sc_vmp_jade_vampires = true, --poljanan's one
+    jiangshi_subculture=true --damned dynasty
 }
 
 
