@@ -1,6 +1,6 @@
 local nagash_faction = "mixer_nag_nagash"
 
-
+local nagash_ai_bonus =100
 
 
 local function rhox_nagash_init_setting()
@@ -576,7 +576,10 @@ cm:add_first_tick_callback(
                 cm:apply_effect_bundle("nag_grand_spell_02_20", nagash_faction,0)
                 cm:apply_effect_bundle("nag_grand_spell_03_20", nagash_faction,0)
                 cm:treasury_mod(nagash_faction, 50000)
-                cm:apply_effect_bundle("rhox_nagash_ai_bonus", nagash_faction,0) --TODO this is to make sure AI Nagash is super strong. Remove this before the Launch
+                local nagash_ai_effect_bundle = cm:create_new_custom_effect_bundle("rhox_nagash_ai_bonus")
+                nagash_ai_effect_bundle:set_duration(0)
+                nagash_ai_effect_bundle:add_effect("wh_main_effect_force_all_campaign_upkeep", "faction_to_force_own", -1*nagash_ai_bonus)
+                cm:apply_custom_effect_bundle_to_faction(nagash_ai_effect_bundle, cm:get_faction(nagash_faction))
             end
             if not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock") --this needs to be done for the AI also if mixu lords aren't there
@@ -649,6 +652,24 @@ cm:add_first_tick_callback(
 )
 
 
+core:add_listener(
+    "rhox_nagash_AI_bonus_mct_initialize",
+    "MctInitialized",
+    true,
+    function(context)
+        -- get the mct object
+        local mct = context:mct()
+
+        local my_mod = mct:get_mod_by_key("nag_nagash")
+
+        -- get the mct_option object with the key "do_thing_one", and its finalized setting - reading from the mct_settings.lua file if it's a new game, or the save game file if it isn't
+        local nag_ai_bonus = my_mod:get_option_by_key("nag_ai_bonus")
+        nagash_ai_bonus = nag_ai_bonus:get_finalized_setting()
+        
+
+    end,
+    true
+)
 
 
 
