@@ -1,6 +1,6 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/bc1/lon/nag_lon_mortis_sphinx/lon_mortis_sphinx_01.wsmodel" >
+		<VARIANT_MESH model="variantmeshes\wh_variantmodels\bc1\nag\nag_lon_mortis_sphinx\nag_lon_mortis_sphinx_01.wsmodel" >
 			<META_DATA>audio_entity_type:wh2_tmb_warsphinx</META_DATA>
 			<META_DATA>audio_armour_type:stone</META_DATA>
 		</VARIANT_MESH>
