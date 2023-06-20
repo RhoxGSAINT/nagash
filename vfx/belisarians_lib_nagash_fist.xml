@@ -2,6 +2,38 @@
 <shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="1" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
 	<!-- EMITTERS-->
 	<emitters>
+		<emitter type="continuous_rigid" id="SPAWN_hand_centre_1">
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="900.00" w="900.00"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8405056,1;0.0,0.1,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,0.1,linear,linear,-0.05,0.0,0.05,0.0,0:x,1;0,1</property>
+			<property name="EmitterPosition" quality="0">x_min,8405056,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0|y_min,4227136,1;0.0,-0.15,linear,linear,-0.05,0.0,0.05,0.0,0|y_max,4259648,1;0.0,-0.15,linear,linear,-0.05,0.0,0.05,0.0,0|z_min,4210816,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0|z_max,4210943,1;0.0,0.0,linear,linear,-0.05,0.0,0.05,0.0,0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="EventEnable" quality="0" value="true"/>
+			<ranged_property name="LifeTime" quality="0" min="0.10" max="0.10"/>
+			<property name="MaximumParticles" quality="0" value="1"/>
+			<!-- <property_event name="OnParticleDeath" quality="0" vfx_name="wh3_main_cataclysm_ashes_and_dust_hand_impact" death_event_time_offset="-0.50"/> -->
+			<!-- <property_event name="OnParticleSpawn" quality="0" vfx_name="wh3_main_cataclysm_ashes_and_dust_hand_impact" track_position="true" track_scale="true" track_colour="true" track_alpha="true" track_lifetime="true" spawn_event_time_offset="0.00" track_orientation_mode="orientation_by_velocity"/> -->
+			<property name="ParticleCullDistances" quality="0" x="2.00" y="4.00" z="500.00" w="800.00"/>
+			<property name="ParticleDeceleration" quality="0">x_min,8405056,1;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,0:x,1;0,1</property>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8405056,1;0.0,10.0,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,10.0,linear,linear,-0.05,0.0,0.05,0.0,0:x,0;0,1</property>
+			<property name="ParticleInitialSpeedLoopAnim" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8405056,1;0.0,2.0,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,2.0,linear,linear,-0.05,0.0,0.05,0.0,0:x,1;0,1</property>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="0.00"/>
+			<property name="ParticleRelativeSpawnOrientation" quality="0" value="RELATIVE_TO_VFX_UP_AXIS"/>
+			<property name="ParticleScale" quality="0">x_min,8405056,1;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,0|y_min,4227136,1;-0.001815,1.0,linear,linear,-0.05,0.0,0.05,0.0,0|y_max,4259648,1;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,0|z_min,4210816,1;-0.001815,1.0,linear,linear,-0.05,0.0,0.05,0.0,0|z_max,4210943,1;0.0,1.0,linear,linear,-0.05,0.0,0.05,0.0,0:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="ParticleSimulationSpace" quality="0" value="LOCAL_SPACE_POSITION_ROTATION"/>
+			<property_rigid_data name="RigidData" quality="0">
+				<rigid_entry>
+					<ModelFile value="vfx/models/wh3_main_cataclysm_ashes_and_dust_hand_01.wsmodel"/>
+					<PivotPoint x="0.50" y="0.50" z="0.50"/>
+					<AnimFile value="animations/battle/usirianshand01/usirianshand01_action1.anim"/>
+					<AnimSpeed value="1.00"/>
+				</rigid_entry>
+			</property_rigid_data>
+			<ranged_property name="StartTime" quality="0" min="0.00" max="0.40"/>
+			<property name="CullDistances" quality="1" x="0.00" y="0.00" z="700.00" w="700.00"/>
+			<property name="ParticleCullDistances" quality="1" x="2.00" y="4.00" z="400.00" w="600.00"/>
+			<property name="CullDistances" quality="2" x="0.00" y="0.00" z="500.00" w="500.00"/>
+			<property name="ParticleCullDistances" quality="2" x="2.00" y="4.00" z="200.00" w="400.00"/>
+		</emitter>
 		<emitter type="continuous_mesh" id="omni">
 			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="500.00" w="500.00"/>
@@ -222,6 +254,7 @@
 	</emitters>
 	<!-- BEHAVIOUR_CHAINS-->
 	<behaviour_chains>
+		<behaviour_chain id="SPAWN_hand_centre_1"/>
 		<behaviour_chain id="omni">
 			<modifier fragment="vs_translation">
 				<property name="pivot_x" type="float" value="0.5"/>
@@ -449,6 +482,7 @@
 	</behaviour_chains>
 	<!-- EFFECT RENDER STACKS-->
 	<effect_render_stacks>
+		<effect_render_stack id="SPAWN_hand_centre_1"/>
 		<effect_render_stack id="omni">
 			<emitters_selected>
 				<emitter id="omni"/>
