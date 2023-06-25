@@ -572,8 +572,8 @@ cm:add_first_tick_callback(
                 cm:lock_technology(nagash_faction, "nag_nagash_ultimate")
                 cm:add_event_restricted_unit_record_for_faction("nag_doomed_legion", "mixer_nag_nagash", "rhox_nagash_doomed_legion_lock")--only for the human because I don't want to do research completed loop listener for the AI
             else --if they're not human. They're getting free grand spells
-                cm:apply_effect_bundle("nag_grand_spell_01_20", nagash_faction,0)
-                cm:apply_effect_bundle("nag_grand_spell_02_20", nagash_faction,0)
+                cm:apply_effect_bundle("nag_grand_spell_01_20_ai", nagash_faction,0)--so AI shouldn't use it every battle
+                cm:apply_effect_bundle("nag_grand_spell_02_20_ai", nagash_faction,0)--so AI shouldn't use it every battle
                 cm:apply_effect_bundle("nag_grand_spell_03_20", nagash_faction,0)
                 cm:treasury_mod(nagash_faction, 50000)
                 local nagash_ai_effect_bundle = cm:create_new_custom_effect_bundle("rhox_nagash_ai_bonus")
