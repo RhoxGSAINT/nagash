@@ -55,3 +55,4 @@ nag_effect_recruitment_available_thrall_crossbow_dummy	army.png	280	army.png	cam
 nag_effect_recruitment_available_thrall_handgunners_dummy	army.png	280	army.png	campaign	true
 rhox_nagash_spawn_isabella_dummy	agent.png	118	agent.png	campaign	true
 rhox_nagash_spawn_hand_dummy	agent.png	118	agent.png	campaign	true
+rhox_nagash_spawn_genevieve_dummy	agent.png	118	agent.png	campaign	true
