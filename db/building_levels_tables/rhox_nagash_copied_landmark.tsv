@@ -4,9 +4,9 @@ rhox_nagash_special_black_tower_of_arkhan	rhox_nagash_special_black_tower_of_ark
 rhox_nagash_special_pyramid_alcadizaar	rhox_nagash_special_pyramid_alcadizaar	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_alcadizaar	false	0.0000	1	true	1		true	0	0		0
 rhox_nagash_special_pyramid_amenemhetum	rhox_nagash_special_pyramid_amenemhetum	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_amenemhetum	false	0.0000	1	true	3		true	0	0		0
 rhox_nagash_special_pyramid_khatep	rhox_nagash_special_pyramid_khatep	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_khatep	false	0.0000	1	true	3		true	0	0		0
-rhox_nagash_special_pyramid_phar	rhox_nagash_special_pyramid_phar	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_phar	false	0.0000	1	true	3		true	0	0		0
-rhox_nagash_special_pyramid_settra	rhox_nagash_special_pyramid_settra	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_settra	false	0.0000	1	true	1		true	0	0		0
-rhox_nagash_special_pyramid_tutankhanut	rhox_nagash_special_pyramid_tutankhanut	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_tutankhanut	false	0.0000	1	true	1		true	0	0		0
+rhox_nagash_special_pyramid_phar	rhox_nagash_special_pyramid_phar	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_phar	false	0.0000	1	true	1		true	0	0		0
+rhox_nagash_special_pyramid_settra	rhox_nagash_special_pyramid_settra	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_settra	false	0.0000	1	true	3		true	0	0		0
+rhox_nagash_special_pyramid_tutankhanut	rhox_nagash_special_pyramid_tutankhanut	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_tutankhanut	false	0.0000	1	true	3		true	0	0		0
 rhox_nagash_special_college_of_magic_vampires	rhox_nagash_special_college_of_magic_vampires	0	6	10000	0		false	false		true	wh_main_special_college_of_magic	false	0.0000	0	true	3		true	0	0		0
 rhox_nagash_special_blood_keep	rhox_nagash_special_blood_keep	0	5	10000	0		false	false		true	wh2_main_special_blood_keep	false	0.0000	0	true	3	wh_cam_settlement_capital_vampire	true	0	0		0
 rhox_nagash_special_castle_drachenfels	rhox_nagash_special_castle_drachenfels	0	4	8000	0		false	false		true		false	0.0000	0	true	3		true	0	0		0
