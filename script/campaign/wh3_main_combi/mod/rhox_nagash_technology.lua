@@ -23,6 +23,58 @@ local dk_tech_list={
 }
 
 
+local function rhox_nagash_remove_the_techs_visibility()
+    local parent_ui = find_uicomponent(core:get_ui_root(), "technology_panel", "technology_list", "list_clip", "list_box", "tech_template");
+    if not parent_ui then
+        return --to prevent script break
+    end
+    --local group_ui = find_uicomponent(parent_ui, "building_group_parent");
+    --group_ui:SetVisible(false) 
+    
+    local technology_parent = find_uicomponent(parent_ui, "tree_parent", "slot_parent");
+    local arrow_parent = find_uicomponent(parent_ui, "tree_parent", "branch_parent");
+    cm:callback(
+        function()
+            local total_nodes = technology_parent:ChildCount()
+            for i=0,total_nodes-1 do
+                local node = find_child_uicomponent_by_index(technology_parent, i)
+                local node_key = node:Id()
+                --out("Rhox Nagash: Node Id: "..node_key)
+                if dieter_tech_list[node_key] and not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then
+                    --out("Rhox Nagash: Setting this node invisible")
+                    node:SetVisible(false)
+                end
+                
+                if dk_tech_list[node_key] and not vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua") then
+                    --out("Rhox Nagash: Setting this node invisible")
+                    node:SetVisible(false)
+                end
+            end
+            
+            local total_arrows = arrow_parent:ChildCount()
+            for i=0,total_arrows-1 do
+                local arrow = find_child_uicomponent_by_index(arrow_parent, i)
+                local parent_node = arrow:GetContextObject("CcoTreeLink")
+                local parent_node_key = parent_node:Call("ParentContext.NodeKey")
+                if dieter_tech_list[parent_node_key] and not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then
+                    arrow:SetVisible(false)
+                end
+                
+                if dk_tech_list[parent_node_key] and not vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua") then
+                    arrow:SetVisible(false)
+                end
+                --out("Rhox Nagash: "..tostring(i).."th value: "..tostring(parent_node_key))
+            end
+            
+        end,
+        0.1
+    )
+end
+
+
+
+
+
 function rhox_nagash_remove_other_mod_mortarch_tech_listener()
     core:add_listener(
         "rhox_nagash_dieter_technology_mortarch_button_click",
@@ -31,52 +83,7 @@ function rhox_nagash_remove_other_mod_mortarch_tech_listener()
             return context.string == "CcoTechnologyUiTabRecordnagash_mortarch" 
         end,
         function()
-            local parent_ui = find_uicomponent(core:get_ui_root(), "technology_panel", "technology_list", "list_clip", "list_box", "tech_template");
-            if not parent_ui then
-                return --to prevent script break
-            end
-            --local group_ui = find_uicomponent(parent_ui, "building_group_parent");
-            --group_ui:SetVisible(false) 
-            
-            local technology_parent = find_uicomponent(parent_ui, "tree_parent", "slot_parent");
-            local arrow_parent = find_uicomponent(parent_ui, "tree_parent", "branch_parent");
-            cm:callback(
-                function()
-    --remove all the nodes and arrows and links that are not in the Marienburg one
-                    local total_nodes = technology_parent:ChildCount()
-                    for i=0,total_nodes-1 do
-                        local node = find_child_uicomponent_by_index(technology_parent, i)
-                        local node_key = node:Id()
-                        --out("Rhox Nagash: Node Id: "..node_key)
-                        if dieter_tech_list[node_key] and not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then
-                            --out("Rhox Nagash: Setting this node invisible")
-                            node:SetVisible(false)
-                        end
-                        
-                        if dk_tech_list[node_key] and not vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua") then
-                            --out("Rhox Nagash: Setting this node invisible")
-                            node:SetVisible(false)
-                        end
-                    end
-                    
-                    local total_arrows = arrow_parent:ChildCount()
-                    for i=0,total_arrows-1 do
-                        local arrow = find_child_uicomponent_by_index(arrow_parent, i)
-                        local parent_node = arrow:GetContextObject("CcoTreeLink")
-                        local parent_node_key = parent_node:Call("ParentContext.NodeKey")
-                        if dieter_tech_list[parent_node_key] and not vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua") then
-                            arrow:SetVisible(false)
-                        end
-                        
-                        if dk_tech_list[parent_node_key] and not vfs.exists("script/frontend/mod/ovn_dread_king_frontend.lua") then
-                            arrow:SetVisible(false)
-                        end
-                        --out("Rhox Nagash: "..tostring(i).."th value: "..tostring(parent_node_key))
-                    end
-                    
-                end,
-                0.1
-            )
+            rhox_nagash_remove_the_techs_visibility()
         end,
         true
     )
@@ -88,43 +95,7 @@ function rhox_nagash_remove_other_mod_mortarch_tech_listener()
             return context.string == "technology_panel"
         end,
         function()
-            local parent_ui = find_uicomponent(core:get_ui_root(), "technology_panel", "technology_list", "list_clip", "list_box", "tech_template");
-            if not parent_ui then
-                return --to prevent script break
-            end
-            local group_ui = find_uicomponent(parent_ui, "building_group_parent");
-            group_ui:SetVisible(false) --It's UI We don't want to see this
-            
-            local technology_parent = find_uicomponent(parent_ui, "tree_parent", "slot_parent");
-            local arrow_parent = find_uicomponent(parent_ui, "tree_parent", "branch_parent");
-            cm:callback(
-                function()
-    --remove all the nodes and arrows and links that are not in the Marienburg one
-                    local total_nodes = technology_parent:ChildCount()
-                    for i=0,total_nodes-1 do
-                        local node = find_child_uicomponent_by_index(technology_parent, i)
-                        local node_key = node:Id()
-                        --out("Rhox Nagash: Node Id: "..node_key)
-                        if dieter_tech_list[node_key] then
-                            --out("Rhox Nagash: Setting this node invisible")
-                            node:SetVisible(false)
-                        end
-                    end
-                    
-                    local total_arrows = arrow_parent:ChildCount()
-                    for i=0,total_arrows-1 do
-                        local arrow = find_child_uicomponent_by_index(arrow_parent, i)
-                        local parent_node = arrow:GetContextObject("CcoTreeLink")
-                        local parent_node_key = parent_node:Call("ParentContext.NodeKey")
-                        if dieter_tech_list[parent_node_key] then
-                            arrow:SetVisible(false)
-                        end
-                        --out("Rhox Nagash: "..tostring(i).."th value: "..tostring(parent_node_key))
-                    end
-                    
-                end,
-                0.1
-            )
+            rhox_nagash_remove_the_techs_visibility()
         end,
         true
     )
@@ -160,25 +131,6 @@ function rhox_nagash_start_tech_effect_listeners()
         end,
         true
     )
-    --[[
-    --this is for zombie health
-    core:add_listener(
-		"rhox_nagash_UnitStartingHealth",
-		"UnitTrained",
-		function(context)
-			return context:unit():unit_key() == "nag_vanilla_vmp_inf_zombie" and cm:get_forces_bonus_value(context:unit():military_force(), "recruit_hp_nag_vanilla_vmp_inf_zombie") > 0
-		end,
-		function(context)
-			local unit = context:unit()
-			local force = unit:military_force()
-			
-			local unit_bonus = cm:get_forces_bonus_value(force, "recruit_hp_nag_vanilla_vmp_inf_zombie")/100
-
-			cm:set_unit_hp_to_unary_of_maximum(unit, math.clamp(unit_bonus, 0.01,1))
-		end,
-		true
-	)
-	--]]
 end
 
 
