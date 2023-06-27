@@ -379,6 +379,7 @@ hero				nag_characters	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_wolves_hex	false
 			nag_vanilla_vmp_mon_fell_bats	nag_wolves_hex	false
 			nag_vanilla_tmb_art_casket_of_souls_0	nag_tech_casket_of_souls	false
+			nag_vanilla_tmb_art_casket_of_souls_0	wh2_dlc09_tmb_casket_of_souls	false
 			nag_vanilla_vmp_mon_dire_wolves	nag_tech_dire_wolves_fell_bats	false
 			nag_vanilla_vmp_mon_fell_bats	nag_tech_dire_wolves_fell_bats	false
 			nag_vanilla_cst_mon_terrorgheist	vmp_terrorgheist	false
