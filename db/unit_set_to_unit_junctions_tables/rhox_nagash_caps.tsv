@@ -60,3 +60,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_dk_mon_skeleton_elephant	nag_effect_unit_cap_ovn_dk_mon_skeleton_elephant	false
 			nag_thrall_crossbowmen	nag_effect_unit_cap_nag_thrall_crossbowmen	false
 			nag_thrall_handgunners	nag_effect_unit_cap_nag_thrall_handgunners	false
+			vigpro_nagash_skeleton_orcs	nag_effect_unit_cap_skeleton_orcs	false
+			vigpro_nagash_skeleton_giant	nag_effect_unit_cap_skeleton_giant	false
+			vigpro_nagash_skeleton_goblin_melee	nag_effect_unit_cap_skeleton_goblin_range	false
+			vigpro_nagash_skeleton_goblin_range	nag_effect_unit_cap_skeleton_goblin_melee	false
+			vigpro_nagash_skeleton_troll_1h	nag_effect_unit_cap_skeleton_troll_1h	false
+			vigpro_nagash_skeleton_troll_2h	nag_effect_unit_cap_skeleton_troll_2h	false
