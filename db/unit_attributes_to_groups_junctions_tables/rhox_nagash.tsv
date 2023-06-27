@@ -55,6 +55,8 @@ undead	nag_nagashi_guard
 causes_fear	nag_nagashi_guard_halb
 hide_forest	nag_nagashi_guard_halb
 undead	nag_nagashi_guard_halb
+charge_defense_vs_large	nag_nagashi_guard_halb
+charge_reflection	nag_nagashi_guard_halb
 causes_fear	nag_mortis_engine
 causes_terror	nag_mortis_engine
 strider	nag_mortis_engine
