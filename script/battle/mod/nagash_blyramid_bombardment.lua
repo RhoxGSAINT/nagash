@@ -67,7 +67,7 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 						current_unit_uc = su.uc
 
 						current_unit_uc:take_control();
-						current_unit_uc:attack_unit(closest_unit, nil, true);
+						current_unit_uc:attack_unit(closest_unit, true, true);
 						-- current_unit_uc:attack_line(endless_tomb_warrior_pos, closest_unit_pos, true)
 
 						-- testing ping

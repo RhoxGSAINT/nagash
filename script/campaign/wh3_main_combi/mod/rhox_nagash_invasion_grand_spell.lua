@@ -16,7 +16,7 @@ local function throw_enemies_at_settlement(setttlement_key, tech_key, invasion_f
         local x,y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, setttlement_key, false, true, cm:random_number(24, 12))
         -- marker:spawn(tech_key..i, x, y)
         local region_key = setttlement_key
-        local invasion_key = region_key.."_invasion_"..x.."_"..y.."_"..tech_key
+        local invasion_key = region_key.."_invasion_"..x.."_"..y.."_"..tech_key.."_"..i
 
         local unit_list = WH_Random_Army_Generator:generate_random_army(invasion_key, faction_type, 19, 7, true, false)
 
@@ -138,25 +138,25 @@ function rhox_nagash_trigger_rites_listeners()
             tech_key = context:technology()
 
             if tech_key == "nag_location_nagashizzar" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_nagashizzar", "nag_location_nagashizzar", "wh2_dlc13_skv_skaven_invasion", "wh2_main_sc_skv_skaven")
+                throw_enemies_at_settlement("wh3_main_combi_region_nagashizzar", tech_key, "wh2_dlc13_skv_skaven_invasion", "wh2_main_sc_skv_skaven")
             end
             if tech_key == "nag_location_mourkain" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_morgheim", "nag_location_mourkain", "wh2_dlc13_grn_greenskins_invasion", "wh_main_sc_grn_greenskins")
+                throw_enemies_at_settlement("wh3_main_combi_region_morgheim", tech_key, "wh2_dlc13_grn_greenskins_invasion", "wh_main_sc_grn_greenskins")
             end
             if tech_key == "nag_location_lahmia" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_lahmia", "nag_location_lahmia", "wh2_dlc13_bst_beastmen_invasion", "wh_dlc03_sc_bst_beastmen")
+                throw_enemies_at_settlement("wh3_main_combi_region_lahmia", tech_key, "wh2_dlc13_bst_beastmen_invasion", "wh_dlc03_sc_bst_beastmen")
             end
             if tech_key == "nag_location_khemri" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_khemri", "nag_location_khemri", "wh2_dlc16_grn_savage_invasion", "wh_main_sc_grn_savage_orcs")
+                throw_enemies_at_settlement("wh3_main_combi_region_khemri", tech_key, "wh2_dlc16_grn_savage_invasion", "wh_main_sc_grn_savage_orcs")
             end
             if tech_key == "nag_location_awakening" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_the_awakening", "nag_location_awakening", "wh2_dlc16_emp_colonist_invasion", "wh_main_sc_emp_empire")
+                throw_enemies_at_settlement("wh3_main_combi_region_the_awakening", tech_key, "wh2_dlc16_emp_colonist_invasion", "wh_main_sc_emp_empire")
             end
             if tech_key == "nag_location_drakenhof" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_castle_drakenhof", "nag_location_drakenhof", "wh2_dlc16_emp_empire_invasion", "wh_main_sc_emp_empire")
+                throw_enemies_at_settlement("wh3_main_combi_region_castle_drakenhof", tech_key, "wh2_dlc16_emp_empire_invasion", "wh_main_sc_emp_empire")
             end
             if tech_key == "nag_location_quintex" or tech_key == "nag_nagash_ultimate_preprartion" then
-                throw_enemies_at_settlement("wh3_main_combi_region_ancient_city_of_quintex", "nag_location_quintex", "wh2_dlc13_nor_norsca_invasion", "wh_dlc08_sc_nor_norsca")
+                throw_enemies_at_settlement("wh3_main_combi_region_ancient_city_of_quintex", tech_key, "wh2_dlc13_nor_norsca_invasion", "wh_dlc08_sc_nor_norsca")
             end
             
             if tech_key == "nag_nagash_ultimate_preprartion" then
