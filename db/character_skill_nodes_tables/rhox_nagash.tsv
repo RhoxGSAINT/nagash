@@ -145,7 +145,7 @@ nag_skill_arkhan_lore_6		wh2_main_skill_all_magic_death_09_the_fate_of_bjuna_lor
 nag_skill_arkhan_lore_7		wh2_main_skill_all_magic_death_10_the_purple_sun_of_xereus_lord	nag_skill_node_set_mortarch_arkhan		3.0000	7.0000		0	0	true
 nag_skill_arkhan_lore_8		wh_main_skill_all_magic_all_07_earthing	nag_skill_node_set_mortarch_arkhan		3.0000	8.0000		0	0	true
 nag_skill_arkhan_lore_9		wh_main_skill_all_magic_all_08_power_drain	nag_skill_node_set_mortarch_arkhan		3.0000	9.0000		0	0	true
-nag_skill_arkhan_lore_10		wh_main_skill_all_magic_all_11_arcane_conduit	nag_skill_node_set_mortarch_arkhan		3.0000	10.0000		0	4	true
+nag_skill_arkhan_lore_10		wh2_dlc14_skilll_all_magic_all_greater_arcane_conduit	nag_skill_node_set_mortarch_arkhan		3.0000	10.0000		0	4	true
 nag_skill_tmb_arkhan_lore_dummy		wh2_main_skill_all_magic_death_dummy_spirit_leech_aspect_of_the_dreadknight	nag_skill_node_set_mortarch_arkhan		3.0000	11.0000		1	0	false
 nag_skill_arkhan_army_0		wh2_dlc09_skill_tmb_lord_army_base	nag_skill_node_set_mortarch_arkhan		4.0000	0.0000		0	0	true
 nag_skill_arkhan_army_1		nag_skill_army_buff_ranged	nag_skill_node_set_mortarch_arkhan		4.0000	1.0000		0	0	true
