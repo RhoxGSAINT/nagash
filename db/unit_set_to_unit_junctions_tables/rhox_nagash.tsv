@@ -375,6 +375,11 @@ hero				nag_characters	false
 			nag_mortarch_arkhan_chariot	nag_mortarch_unit_set	false
 			nag_mortarch_arkhan_abyssal	nag_mortarch_unit_set	false
 			nag_vanilla_vmp_inf_zombie	nag_zombie	false
+			nag_vanilla_vmp_inf_zombie	nag_zombies	false
+			nag_vanilla_cst_inf_zombie_deckhands_mob_0	nag_zombies	false
+			nag_vanilla_cst_inf_zombie_deckhands_mob_1	nag_zombies	false
+			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_zombies	false
+			nag_vanilla_cst_inf_zombie_gunnery_mob_1	nag_zombies	false
 			nag_vanilla_vmp_mon_dire_wolves	nag_wolves_hex	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_wolves_hex	false
 			nag_vanilla_vmp_mon_fell_bats	nag_wolves_hex	false

@@ -62,6 +62,7 @@ nag_frost_spirits	false	-1	-1
 nag_skeletons_plus	false	-1	-1	
 nag_mortarch_unit_set	false	-1	-1	
 nag_zombie	false	-1	-1	
+nag_zombies	false	-1	-1	
 nag_wolves_hex	false	-1	-1	
 nag_effect_unit_cap_nag_undead_chariot_unit	false	-1	-1	
 nag_army_ranged_azhag	false	-1	-1	

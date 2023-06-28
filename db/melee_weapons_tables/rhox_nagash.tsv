@@ -10,8 +10,8 @@ nag_warp_ghouls	0	0	40	13	3.0000	axe	claw	small	1	1.0000	1.0000	0.0000	true	nag_
 nag_revenants_magical_wightblade	0	0	16	36	1.0000	sword	sword		1	1.0000	1.0000	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	4.0000		false
 nag_virion_magical_scythe	0	15	18	60	1.0000	axe	unarmed	very_large	4	1.0000	1.0000	0.0000	true		3	2	4.0000		false
 nag_nagash_boss	15	0	180	320	5.0000	sword	sword	large	7	1.0000	1.0000	0.0000	true		0	10	4.0000		false
-nag_spirit_hosts	0	0	0	18	1.0000	sword	claw		1	1.0000	1.0000	0.0000	true		0	10	4.3000		false
-nag_spectre_swarm	0	0	20	8	3.0000	sword	claw	medium	3	1.0000	1.0000	0.0000	true	nag_contact_slownado	0	10	4.3000		false
+nag_spirit_hosts	0	0	0	16	1.0000	sword	claw		1	1.0000	1.0000	0.0000	true		0	10	4.3000		false
+nag_spectre_swarm	0	0	0	28	3.0000	sword	claw	medium	3	1.0000	1.0000	0.0000	true	nag_contact_slownado	0	10	4.3000		false
 vigpro_grn_choppa_dual_big_uns	0	8	29	13	1.0000	sword	sword		1	1.0000	1.0000	0.0000	false		0	10	3.9000		false
 nag_skeleton_reaper_scythe	0	8	12	16	1.0000	axe	halberd	small	1	1.0000	1.0000	0.0000	false		0	10	4.3000		false
 nag_doomed_legion_axe	0	10	34	14	1.0000	axe	axe		1	1.0000	1.2500	0.0000	true	wh2_pro08_unit_contact_dampen	0	10	3.8000		false

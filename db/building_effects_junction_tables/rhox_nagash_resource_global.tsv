@@ -36,11 +36,11 @@ nag_resource_pottery_3	wh_main_effect_economy_gdp_culture		building_to_building_
 nag_resource_pottery_3	wh_main_effect_economy_gdp_mod_all		province_to_region_own_factionwide	5.0000	2.0000	0.0000
 nag_resource_pottery_3	nag_effect_agent_recruitment_xp_wizard_liche_priests		province_to_province_own_factionwide	1.0000	1.0000	0.0000
 nag_resource_pottery_3	nag_effect_agent_recruitment_xp_wizard_liche_priests_hidden		faction_to_force_own	1.0000	1.0000	0.0000
-nag_resource_salt_1	nag_effect_horde_growth		building_to_force_own_factionwide	5.0000	5.0000	0.0000
+nag_resource_salt_1	nag_effect_horde_growth		building_to_force_own_factionwide	1.0000	1.0000	0.0000
 nag_resource_salt_1	nag_effect_resource_xp_rank_zombie		building_to_force_own_provincewide_unseen	1.0000	1.0000	0.0000
-nag_resource_salt_2	nag_effect_horde_growth		building_to_force_own_factionwide	10.0000	5.0000	0.0000
+nag_resource_salt_2	nag_effect_horde_growth		building_to_force_own_factionwide	2.0000	1.0000	0.0000
 nag_resource_salt_2	nag_effect_resource_xp_rank_zombie		building_to_force_own_provincewide_unseen	2.0000	1.0000	0.0000
-nag_resource_salt_3	nag_effect_horde_growth		building_to_force_own_factionwide	15.0000	5.0000	0.0000
+nag_resource_salt_3	nag_effect_horde_growth		building_to_force_own_factionwide	3.0000	1.0000	0.0000
 nag_resource_salt_3	nag_effect_resource_xp_rank_zombie		building_to_force_own_provincewide_unseen	3.0000	1.0000	0.0000
 nag_resource_timber_1	wh_main_effect_economy_gdp_culture		building_to_building_own	85.0000	25.0000	0.0000
 nag_resource_timber_1	nag_effect_resource_xp_rank_coast		building_to_force_own_provincewide_unseen	1.0000	1.0000	0.0000
