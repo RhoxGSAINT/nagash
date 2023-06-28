@@ -100,7 +100,7 @@ effects_description_nag_spell_nagash_ability_uses_grave_call_master	Ability numb
 effects_description_nag_spell_nagash_ability_uses_grave_call_master_hidden	HIDDEN, this needs to add 2 per 1 added to main spell	true
 effects_description_nag_spell_nagash_enable_hand_of_dust	Spell: "The Hand of Dust"	true
 effects_description_nag_spell_nagash_cooldown_hand_of_dust	Cooldown: %+n% to "The Hand of Dust"	true
-effects_description_nag_spell_nagash_reduce_wom_cost_hand_of_dust	Miscast base chance: %+n% for "The Hand of Dust"	true
+effects_description_nag_spell_nagash_reduce_wom_cost_hand_of_dust	Winds of Magic cost: %n for "The Hand of Dust"	true
 effects_description_nag_spell_nagash_ability_uses_hand_of_dust	Ability number of uses: %+n for "The Hand of Dust"	true
 effects_description_nag_spell_nagash_enable_harbinger	Spell: "The Harbinger"	true
 effects_description_nag_spell_nagash_cooldown_harbinger	Cooldown: %+n% to "The Harbinger"	true
@@ -513,3 +513,4 @@ effects_description_rhox_nagash_guinevere_effect_longer_stay_dummy	Duration of G
 effects_description_rhox_nagash_effect_rebel_spawn	Rebel will be spawned in the region upon building completion	false
 effects_description_rhox_nagash_guinevere_effect_peace_broker_dummy	Chance of making peace with another Vampire Count, Kislev, Empire, or Bretonnia faction you're at war with at the start of the turn: %+n%	false
 effects_description_rhox_nagash_spawn_genevieve_dummy	Geneviève joins the faction	false
+effects_description_nag_spell_nagash_enable_hand_of_dust_upgrade	Overcast spell: "The Hand of Dust Upgraded"	false
