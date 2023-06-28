@@ -46,4 +46,4 @@ nag_anc_weapon_crook_and_flail_of_radiance	wh_main_anc_weapon	.	true	false	false
 nag_anc_weapon_destroyer_of_eternities	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			80	0		false	true	true	nag_anc_set_exclusive_nagash
 nag_anc_weapon_lucky_levis_hookhand	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			75	0		true	true	true	nag_anc_set_exclusive_nagash
 nag_anc_weapon_masamune	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			90	0		true	true	true	nag_anc_set_exclusive_nagash
-nag_anc_weapon_skabscrath	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			40	0		true	true	true	nag_anc_set_exclusive_nagash
+nag_anc_weapon_skabscrath	wh_main_anc_weapon	.	true	false	false	1	0	9999			false	false	false	weapon	16	30	30	50	true			40	0		false	true	true	nag_anc_set_exclusive_nagash
