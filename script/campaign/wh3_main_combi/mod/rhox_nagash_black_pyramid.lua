@@ -386,7 +386,13 @@ function complete_bp_raise()
     mm_1:add_condition("region wh3_main_combi_region_kraka_drak");
     mm_1:add_condition("region wh3_main_combi_region_the_frozen_city");
     mm_1:add_condition("region wh3_main_combi_region_ancient_city_of_quintex");
-    mm_1:add_condition("total 11");
+    mm_1:add_condition("region wh3_main_combi_region_hoteks_column");
+    mm_1:add_condition("region wh3_main_combi_region_karaz_a_karak");
+    mm_1:add_condition("region wh3_main_combi_region_mordheim");
+    mm_1:add_condition("region wh3_main_combi_region_altar_of_ultimate_darkness");
+    mm_1:add_condition("region wh3_main_combi_region_shang_yang");
+    
+    mm_1:add_condition("total 16");
     mm_1:add_payload("money 1000");
     mm_1:trigger()
 
