@@ -984,7 +984,8 @@ function trigger_mortarch_unlock_missions()
         end
         
         out("pre manny")
-        do 
+        local volkmar_faction= cm:get_faction("wh3_main_emp_cult_of_sigmar")
+        if volkmar_faction and volkmar_faction:is_dead() ==false then
             local mort = "nag_mortarch_mannfred"
             
             local mm = mission_manager:new(key, mort.."_unlock")
@@ -994,6 +995,12 @@ function trigger_mortarch_unlock_missions()
             mm:add_payload("money 1000")
 
             mm:trigger()
+        else
+            local unlock_tech_table = RHOX_NAGASH_UNLOCK_TECHS["nag_mortarch_mannfred_unlock"]
+            for i, technology in pairs(unlock_tech_table) do
+                out("Rhox Nagash Current technology: "..technology)
+                cm:unlock_technology(nagash_faction, technology)
+            end
         end
         
         out("pre neffy")
