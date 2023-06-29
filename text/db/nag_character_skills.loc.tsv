@@ -516,7 +516,7 @@ character_skills_localised_name_nag_guinevere_innate	Geneviève Dieudonné	false
 character_skills_localised_description_nag_guinevere_innate	What a mysterious Woman	false
 character_skills_localised_name_nag_guinevere_growth	Immortal Aristocrat	false
 character_skills_localised_description_nag_guinevere_growth	She has never ruled, but those who do always do well in hearing her	false
-character_skills_localised_name_nag_guinevere_income	Thrusted Counsels	false
+character_skills_localised_name_nag_guinevere_income	Trusted Counsels	false
 character_skills_localised_description_nag_guinevere_income	She's seen more than you. She knows more than you. She's done more than you. It might be wise to listen to her.	false
 character_skills_localised_name_nag_guinevere_xp	Wise beyond her years	false
 character_skills_localised_description_nag_guinevere_xp	Geneviève is over six centuries old. She's a well of wisdom	false
@@ -526,7 +526,7 @@ character_skills_localised_name_nag_skill_node_guinevere_battle_01	Death Cheater
 character_skills_localised_description_nag_skill_node_guinevere_battle_01	She cheats death	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_02	Lovely	false
 character_skills_localised_description_nag_skill_node_guinevere_battle_02	Geneviève is a sight for sore eyes. There are many sore eyes on a battlefield	false
-character_skills_localised_name_nag_skill_node_guinevere_battle_03	Inspirationnal	false
+character_skills_localised_name_nag_skill_node_guinevere_battle_03	Inspirational	false
 character_skills_localised_description_nag_skill_node_guinevere_battle_03	What makes a man fight harder	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_04	Unwavering	false
 character_skills_localised_description_nag_skill_node_guinevere_battle_04	Watching Geneviève stand proud and elegant in any situation will bolster anybody	false
@@ -535,9 +535,9 @@ character_skills_localised_description_nag_skill_node_guinevere_battle_05	Very f
 character_skills_localised_name_nag_skill_node_guinevere_battle_06	Forever Young	false
 character_skills_localised_description_nag_skill_node_guinevere_battle_06	Geneviève was sixteen when she received the Dark Kiss. It had its drawbacks, but also some boons	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_07	Third generation	false
-character_skills_localised_description_nag_skill_node_guinevere_battle_07	Geneviève is a third generation vampire. She's not as strong as older bloodlines, nor can she wirld magic. She has, however, honeyed her wits to match	false
+character_skills_localised_description_nag_skill_node_guinevere_battle_07	Geneviève is a third generation vampire. She's not as strong as older bloodlines, nor can she wield magic. She has, however, honeyed her wits to match	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_01	Friend of the Emperor, Born from Bretonnia, Courtesan of the Ice Lands	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_01	The Empire owes Geneviève Dieudonné a great deal of gratitude for saving young Emperor Karl Franz from the clutches of the Great Enchanter.\\Geneviève Sandrine du Pointe du Lac Dieudonné hails from the noble halls of Bretonnia, and if no love is lost for the Undead in these holy lands, she has earned for herself, at least, a modicum of respect with her acts.\\nOft are the women in Kislev cold of complexion and demeanor. Lhamians found long ago that they mingle well there, as long as they behave.	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_01	The Empire owes Geneviève Dieudonné a great deal of gratitude for saving young Emperor Karl Franz from the clutches of the Great Enchanter.\\nGeneviève Sandrine du Pointe du Lac Dieudonné hails from the noble halls of Bretonnia, and if no love is lost for the Undead in these holy lands, she has earned for herself, at least, a modicum of respect with her acts.\\nOft are the women in Kislev cold of complexion and demeanor. Lahmians found long ago that they mingle well there, as long as they behave.	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_02	Courtesan	false
 character_skills_localised_description_nag_skill_node_guinevere_diplo_02	Geneniève is a very popular guests in many countries, despite, or maybe, because of her exotic nature	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_03	High class prostitute	false
@@ -548,7 +548,7 @@ character_skills_localised_name_nag_skill_node_guinevere_diplo_05	Beloved of the
 character_skills_localised_description_nag_skill_node_guinevere_diplo_05	Neither Chandagnac, who gave her the Blood Kiss, nor Melissa d'Acques, who did the same with him, were allowed to do so by Neferata. Even tho, the Lahmians feel an unexplaignable sense of duty to protect her	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_06	No, I mean, really lovely	false
 character_skills_localised_description_nag_skill_node_guinevere_diplo_06		false
-character_skills_localised_name_nag_skill_node_guinevere_diplo_07	Reluctant Renegate	false
+character_skills_localised_name_nag_skill_node_guinevere_diplo_07	Reluctant Renegade	false
 character_skills_localised_description_nag_skill_node_guinevere_diplo_07	Geneviève feels no longing obligation towards the Sorority, or any other country or organisation. It doesn't follow that she won't seek recognition, even unknowingly	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_08	Peace Broker	false
 character_skills_localised_description_nag_skill_node_guinevere_diplo_08	She who redraws the borders	false
