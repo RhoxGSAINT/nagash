@@ -89,6 +89,18 @@ function rhox_nagash_remove_other_mod_mortarch_tech_listener()
     )
     
     core:add_listener(
+        "rhox_nagash_dieter_technology_mortarch_button_click2",
+        "ComponentLClickUp",
+        function(context)	
+            return context.string == "CcoTechnologyUiTabRecordnagash_ritual" 
+        end,
+        function()
+            rhox_nagash_remove_the_techs_visibility()
+        end,
+        true
+    )
+    
+    core:add_listener(
         "rhox_nagash_dieter_technology_mortarch_panel_open",
         "PanelOpenedCampaign",
         function(context)	
