@@ -334,6 +334,8 @@ hero				nag_characters	false
 			nag_cha_liche_priest_nehekhara_1	nag_liche_priests	false
 			nag_cha_liche_priest_shadow_0	nag_liche_priests	false
 			nag_cha_liche_priest_shadow_1	nag_liche_priests	false
+			nag_cha_liche_priest_undeath_0	nag_liche_priests	false
+			nag_cha_liche_priest_undeath_1	nag_liche_priests	false
 			wh2_dlc09_tmb_art_casket_of_souls_0	nag_tech_casket_of_souls	false
 			nag_vanilla_vmp_inf_cairn_wraiths	nag_frost_spirits	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_frost_spirits	false
