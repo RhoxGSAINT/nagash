@@ -52,7 +52,7 @@ function rhox_nagash_kill_guin()
 		rhox_nagash_guinevere_info.bonus_turns =0
 		rhox_nagash_guinevere_info.num_uses =0
 		
-		--out("Rhox Nagash Guin: Killed her")
+		out("Rhox Nagash Guin: Killed her")
 		
 		
 		cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
@@ -113,6 +113,10 @@ core:add_listener(
         rhox_nagash_kill_guin() --kill her before summoning her
         out("Rhox Nagash Guin: Guin going to ".. target_faction)
         local x, y = cm:find_valid_spawn_location_for_character_from_character(target_faction, cm:char_lookup_str(guin_faction:faction_leader()), true, 10)
+        if x == -1 then
+            out("Rhox Nagash Guin: This faction had no leader terminating the sending sequence")
+            return
+        end
         cm:spawn_agent_at_position(guin_faction, x, y, "dignitary", "nag_guinevere")
         local new_character = cm:get_most_recently_created_character_of_type(target_faction, "dignitary", "nag_guinevere")
         if new_character then
@@ -341,7 +345,7 @@ core:add_listener(
         cm:callback(function()
             rhox_nagash_guinevere_check_depart(character, faction)--do it last
             end,
-        5)
+        2)
     end,
     true
 )
