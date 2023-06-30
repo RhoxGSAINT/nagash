@@ -542,6 +542,7 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
     end
     
     if mort_key == "nag_mortarch_neferata" and cm:get_faction(nagash_faction):is_human() then --only when Nagash is human
+        rhox_nagash_guinevere_info.remaining_turn = 5000--she'll never leave Nagash. Also stop the killing function at once.
         cm:callback(--they might have just give Guin a new home
             function()
                 rhox_nagash_kill_guin()
@@ -563,9 +564,9 @@ local function upgrade_into_mortarch(faction, faction_key, mort_key)
                     cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
                     rhox_nagash_guinevere_info.cqi = new_character:cqi()
                 end
-                rhox_nagash_guinevere_info.remaining_turn = 5000--she'll never leave Nagash.
+                rhox_nagash_guinevere_info.remaining_turn = 5000--she'll never leave Nagash. Also stop the killing function at once.
             end,
-        5)
+        4)
         
     end
 
