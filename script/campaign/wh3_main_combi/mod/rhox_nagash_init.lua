@@ -111,7 +111,7 @@ local function rhox_nagash_init_setting()
     cm:force_declare_war(nagash_faction, "wh3_main_skv_clan_carrion", false, false)
     
     
-    rhox_nagash_disable_mortarch_factions_seduction()------------make LL Tombkings and mortarch factions unseducible
+    RHOX_NAGASH_MORTARCH:rhox_nagash_disable_mortarch_factions_seduction()------------make LL Tombkings and mortarch factions unseducible
     
     cm:callback(
         function() 
@@ -180,7 +180,7 @@ local function add_nagash_listener()
                 --cm:teleportation_network_close_node("rhox_nagash_combi_province_the_desolation_of_nagash");
                 --cm:teleportation_network_close_node("rhox_nagash_combi_province_barrier_idols"); --don't close it. It's just a mountain pass
                 
-                local unlock_tech_table = RHOX_NAGASH_UNLOCK_TECHS["nag_mortarch_arkhan_unlock"]
+                local unlock_tech_table = RHOX_NAGASH_MORTARCH.rhox_nagash_unlock_techs["nag_mortarch_arkhan_unlock"]
                 for i, technology in pairs(unlock_tech_table) do
                     cm:unlock_technology(nagash_faction, technology)
                 end
@@ -639,10 +639,10 @@ cm:add_first_tick_callback(
 
             
             rhox_nag_add_harkon_listener()
-            mortarch_unlock_listeners() --AI doesn't trigger the research completed condition. So let's just leave it here
+            RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --AI doesn't trigger the research completed condition. So let's just leave it here
             rhox_nagash_start_tech_effect_listeners()
         else
-            rhox_nagash_add_ai_mortarch_mission() --and AI listener for them
+            RHOX_NAGASH_MORTARCH:rhox_nagash_add_ai_mortarch_mission() --and AI listener for them
 		end
 		
         ------------this is the part for every first tick regardless of AI or human
@@ -670,6 +670,5 @@ core:add_listener(
     end,
     true
 )
-
 
 

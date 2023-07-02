@@ -21,7 +21,7 @@ nag_abyssal_nagadron	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon
 nag_abyssal_ashigaroth	VariantMeshes\wh_variantmodels\bc2\emp\emp_imperial_griffon\tech	nag_abyssal_ashigaroth		1.0000	1.6670	0.0000	
 nag_bone_colossus		nag_bone_colossus		1.0000	1.4000	0.0000	
 nag_endless_tomb		nag_endless_tomb		1.0000	1.0000	0.0000	
-nag_bombardment_targeting		nag_bombardment_targeting		1.0000	1.0000	0.0000	
+nag_bombardment_targeting		nag_empty		1.0000	1.0000	0.0000	
 nag_empty		nag_empty		1.0000	1.0000	0.0500	
 nag_spirit_host_ghost		nag_spirit_host_ghost		1.0000	1.0000	0.0500	
 nag_skeletal_cart_horse		nag_skeletal_cart_horse		1.0000	1.0000	0.0500	

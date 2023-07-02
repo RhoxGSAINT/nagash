@@ -451,7 +451,7 @@ function complete_bp_raise()
     cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
     cm:apply_dilemma_diplomatic_bonus(nagash_faction, "wh2_dlc09_tmb_khemri", -6)
     cm:apply_dilemma_diplomatic_bonus(nagash_faction, "wh2_dlc09_tmb_khemri", -6)
-    trigger_mortarch_unlock_missions()
+    RHOX_NAGASH_MORTARCH:trigger_mortarch_unlock_missions()
 end
 
 
