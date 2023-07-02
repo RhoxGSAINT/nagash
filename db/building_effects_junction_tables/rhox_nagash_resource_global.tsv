@@ -165,3 +165,7 @@ nag_resource_pasture_1	wh_main_effect_economy_gdp_agriculture_farming		building_
 nag_resource_pasture_1	wh_main_effect_public_order_base		province_to_province_own_unseen	4.0000	2.0000	0.0000
 nag_resource_spices_1	wh_main_effect_region_resource_spices_production		building_to_building_own	10.0000	5.0000	0.0000
 nag_resource_ivory_1	wh3_main_effect_region_resource_ivory_production		building_to_building_own	10.0000	5.0000	0.0000
+nag_resource_pasture_2	wh_main_effect_economy_gdp_agriculture_farming		building_to_building_own	100.0000	50.0000	0.0000
+nag_resource_pasture_2	wh_main_effect_public_order_base		province_to_province_own_unseen	4.0000	2.0000	0.0000
+nag_resource_pasture_3	wh_main_effect_economy_gdp_agriculture_farming		building_to_building_own	100.0000	50.0000	0.0000
+nag_resource_pasture_3	wh_main_effect_public_order_base		province_to_province_own_unseen	4.0000	2.0000	0.0000
