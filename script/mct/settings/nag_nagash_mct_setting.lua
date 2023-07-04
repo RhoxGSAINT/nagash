@@ -8,7 +8,7 @@ mct_mod:set_description("mct_nag_nagsh_description", true)
 local nag_ai_bonus = mct_mod:add_new_option("nag_ai_bonus", "slider")
 nag_ai_bonus:slider_set_min_max(0, 100)
 nag_ai_bonus:slider_set_step_size(1)
-nag_ai_bonus:set_default_value(100)
+nag_ai_bonus:set_default_value(1)
 nag_ai_bonus:set_text("mct_nag_nagsh_nag_ai_bonus_text", true)
 nag_ai_bonus:set_tooltip_text("mct_nag_nagsh_nag_ai_bonus_tooltip", true)
 
