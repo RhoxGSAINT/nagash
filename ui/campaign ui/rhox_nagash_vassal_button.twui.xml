@@ -633,7 +633,7 @@
 				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoCampaignPooledResource"
-					context_function_id="IsValidContext &amp;&amp; PlayersFaction.ModelFactionContext.IsInFactionSet(&quot;rhox_nagash_faction_set&quot;)"/>
+					context_function_id="IsValidContext &amp;&amp; PlayersFaction.ModelFactionContext.IsInFactionSet(&quot;rhox_nagash_faction_set&quot;) &amp;&amp; PercentageOfCapacity &gt; 0.9"/>
 			</callbackwithcontextlist>
 			<states>
 				<default
