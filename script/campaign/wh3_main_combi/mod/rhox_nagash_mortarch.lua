@@ -563,6 +563,7 @@ function RHOX_NAGASH_MORTARCH:upgrade_into_mortarch(faction, faction_key, mort_k
                         end
                     end
                     cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
+                    rhox_nagash_guinevere_info.current_faction = "mixer_nag_nagash"
                     rhox_nagash_guinevere_info.cqi = new_character:cqi()
                 end
                 rhox_nagash_guinevere_info.remaining_turn = 5000--she'll never leave Nagash. Also stop the killing function at once.

@@ -6,7 +6,8 @@ rhox_nagash_guinevere_info={ --global so others can approach this too
     trespass_immune_character_cqi =-1,
     bonus_turns =0,
     num_uses=0,
-    cqi = -1
+    cqi = -1,
+    current_faction=nil
 }  
 
 
@@ -132,7 +133,8 @@ core:add_listener(
                 end
             end
             cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
-			rhox_nagash_guinevere_info.cqi = new_character:cqi()
+            rhox_nagash_guinevere_info.cqi = new_character:cqi()
+            rhox_nagash_guinevere_info.current_faction =target_faction;
         end
         rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
         cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
@@ -331,6 +333,15 @@ core:add_listener(
     function(context)
         local character = context:character()
         local faction = character:faction()
+
+        if faction:name() ~= rhox_nagash_guinevere_info.current_faction and faction:is_human() == false then --this is for killing duplicant ones. TODO remove the human case after the few days
+            cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
+            cm:suppress_immortality(character:family_member():command_queue_index(), true) 
+            cm:kill_character(cm:char_lookup_str(character), false)
+            out("Rhox Nagash Guin: Killed her")
+            cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
+            return
+        end
         
         rhox_nagash_guinevere_remove_trespass_immune()
         rhox_nagash_guinevere_apply_trespass_immune(character)
