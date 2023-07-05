@@ -5,6 +5,13 @@ mct_mod:set_title("mct_nag_nagsh_title", true)
 mct_mod:set_author("Team Nagash")
 mct_mod:set_description("mct_nag_nagsh_description", true)
 
+local enable_ai_nagash = mct_mod:add_new_option("enable_ai_nagash", "checkbox")
+enable_ai_nagash:set_default_value(true)
+enable_ai_nagash:set_text("mct_nag_nagsh_enable_ai_nagash_text", true)
+enable_ai_nagash:set_tooltip_text("mct_nag_nagsh_enable_ai_nagash_tooltip", true)
+
+
+
 local nag_ai_bonus = mct_mod:add_new_option("nag_ai_bonus", "slider")
 nag_ai_bonus:slider_set_min_max(0, 100)
 nag_ai_bonus:slider_set_step_size(1)

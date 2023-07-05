@@ -19,3 +19,5 @@ mct_nag_nagsh_nag_mortarch_dk_text	Dread King obedience chance	false
 mct_nag_nagsh_nag_mortarch_dk_tooltip	When AI Nagash researches technology, Dread King will obey and become confederated with the following chance. When they disobey, Nagash will declare war on them	false
 mct_nag_nagsh_nag_ai_bonus_text	AI Nagash Bonus	false
 mct_nag_nagsh_nag_ai_bonus_tooltip	AI Nagash will recieve this amount of additional upkeep reduction for all his armies. 	false
+mct_nag_nagsh_enable_ai_nagash_text	Enable AI Nagash	false
+mct_nag_nagsh_enable_ai_nagash_tooltip	Enable AI Nagash, disabling it will invalidate all Nagash summoning script, and Clan Carrion will take its place like vanilla, and below options have no meaning	false

@@ -1,9 +1,16 @@
 local nagash_faction = "mixer_nag_nagash"
 
 local nagash_ai_bonus =100
+local enable_ai_nagash=true
 
 
 local function rhox_nagash_init_setting()
+
+    if not enable_ai_nagash and cm:get_faction(nagash_faction):is_human()==false then
+        rhox_kill_faction(nagash_faction)
+        return; --kill AI Nagash and return
+    end
+
     cm:transfer_region_to_faction("wh3_main_combi_region_nagashizzar", nagash_faction)
     cm:transfer_region_to_faction("wh3_main_combi_region_desolation_of_nagash", "wh3_main_skv_clan_carrion")
     
@@ -665,6 +672,9 @@ core:add_listener(
         -- get the mct_option object with the key "do_thing_one", and its finalized setting - reading from the mct_settings.lua file if it's a new game, or the save game file if it isn't
         local nag_ai_bonus = my_mod:get_option_by_key("nag_ai_bonus")
         nagash_ai_bonus = nag_ai_bonus:get_finalized_setting()
+        
+        local nag_enable_ai = my_mod:get_option_by_key("enable_ai_nagash")
+        enable_ai_nagash = nag_enable_ai:get_finalized_setting()
         
 
     end,
