@@ -11,6 +11,8 @@ rhox_nagash_guinevere_info={ --global so others can approach this too
 }  
 
 
+local guin_to_kill={}
+
 local guin_base_turn = 20
 
 local guin_culture={
@@ -68,6 +70,19 @@ core:add_listener(
         if cm:model():turn_number() < 5 then --don't trigger it until the turn 5
             return false
         end
+        
+        for j = 1, #guin_to_kill do
+            local character = cm:get_character_by_cqi(guin_to_kill[j])
+            if character and not character:is_null_interface() and character:character_subtype("nag_guinevere") then
+                cm:disable_event_feed_events(true, "", "", "wh_event_category_character");	
+                cm:suppress_immortality(character:family_member():command_queue_index(), true) 
+                cm:kill_character("character_cqi:"..guin_to_kill[j], true)
+                cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
+                out("Rhox Nagash GUIN: Killed duplicant GUIN: ".. guin_to_kill[j]);
+            end
+        end
+        guin_to_kill = {}--reset it
+        
 		
 		if rhox_nagash_guinevere_info.remaining_turn ~= -100 then
 			rhox_nagash_guinevere_info.remaining_turn = rhox_nagash_guinevere_info.remaining_turn -1
@@ -178,6 +193,8 @@ end
 
 local function rhox_nagash_guinevere_check_depart(character, faction)
     
+    rhox_nagash_guinevere_remove_trespass_immune()--this is last turn remove the trespass immune
+    
     if rhox_nagash_guinevere_info.remaining_turn <= 0 then
         rhox_nagash_guinevere_info.previous_faction = faction:name()
         rhox_nagash_guinevere_info.remaining_turn = -100;
@@ -194,13 +211,15 @@ local function rhox_nagash_guinevere_check_depart(character, faction)
             incident_builder:set_payload(payload_builder)
             cm:launch_custom_incident_from_builder(incident_builder, faction)
             --cm:trigger_incident_with_targets(faction:command_queue_index(), "rhox_nagash_guin_leave", 0, 0, character:command_queue_index(), 0, 0, 0)
+            --out("Rhox Nagash Guin: Triggered incident")
+            
+            
+            rhox_nagash_kill_guin()
         else
             cm:treasury_mod(faction:name(), value)--just add gold for the ai
+            table.insert(guin_to_kill,character:cqi()) --this will make world start kill it
         end
-        --out("Rhox Nagash Guin: Triggered incident")
-        rhox_nagash_guinevere_remove_trespass_immune()--this is last turn remove the trespass immune
         
-        rhox_nagash_kill_guin()
 
     end
 end
@@ -333,30 +352,28 @@ core:add_listener(
     function(context)
         local character = context:character()
         local faction = character:faction()
-
-        if faction:name() ~= rhox_nagash_guinevere_info.current_faction and faction:is_human() == false then --this is for killing duplicant ones. TODO remove the human case after the few days
-            cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
-            cm:suppress_immortality(character:family_member():command_queue_index(), true) 
-            cm:kill_character(cm:char_lookup_str(character), false)
-            out("Rhox Nagash Guin: Killed her")
-            cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
-            return
+        out("Rhox Nagash Guin: Check before if")
+        if faction:name() ~= rhox_nagash_guinevere_info.current_faction and faction:is_human() == false then --this is for killing duplicant ones.
+            out("Rhox Nagash Guin: This one should be killed current faction: "..faction:name())
+            table.insert(guin_to_kill,character:cqi())
+        else
+            out("Rhox Nagash Guin: Check GUIN abilities")
+            rhox_nagash_guinevere_remove_trespass_immune()
+            rhox_nagash_guinevere_apply_trespass_immune(character)
+            
+            rhox_nagash_guinevere_apply_prostitute(character, faction)
+            rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character, faction)
+            rhox_nagash_guinevere_apply_bonus_duration(character, faction)
+            rhox_nagash_guinevere_check_peace_broker(character, faction)
+            
+            
+            
+            cm:callback(function()
+                rhox_nagash_guinevere_check_depart(character, faction)--do it last
+                end,
+            2)
+            --out("Rhox Nagash Guin: Check 3")
         end
-        
-        rhox_nagash_guinevere_remove_trespass_immune()
-        rhox_nagash_guinevere_apply_trespass_immune(character)
-        
-        rhox_nagash_guinevere_apply_prostitute(character, faction)
-        rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character, faction)
-        rhox_nagash_guinevere_apply_bonus_duration(character, faction)
-        rhox_nagash_guinevere_check_peace_broker(character, faction)
-        
-        
-        
-        cm:callback(function()
-            rhox_nagash_guinevere_check_depart(character, faction)--do it last
-            end,
-        2)
     end,
     true
 )
@@ -464,12 +481,14 @@ core:add_listener(
 cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("rhox_nagash_guinevere_info", rhox_nagash_guinevere_info, context)
+		cm:save_named_value("rhox_nagash_guin_to_kill", guin_to_kill, context)
 	end
 )
 cm:add_loading_game_callback(
 	function(context)
 		if cm:is_new_game() == false then
 			rhox_nagash_guinevere_info = cm:load_named_value("rhox_nagash_guinevere_info", rhox_nagash_guinevere_info, context)
+			guin_to_kill = cm:load_named_value("rhox_nagash_guin_to_kill", guin_to_kill, context)
 		end
 	end
 )

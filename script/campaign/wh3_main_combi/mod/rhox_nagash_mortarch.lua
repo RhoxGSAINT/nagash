@@ -1103,71 +1103,75 @@ core:add_listener(
 )
 
 
-core:add_listener(
-    "rhox_nagash_mct_setting_change",
-    "MctOptionSettingFinalized",
-    true,
-    function(context)
-        -- get the mct object
-        local mct = context:mct()
+cm:add_first_tick_callback(
+	function()
+        core:add_listener(
+            "rhox_nagash_mct_setting_change",
+            "MctOptionSettingFinalized",
+            true,
+            function(context)
+                -- get the mct object
+                local mct = context:mct()
 
-        local my_mod = mct:get_mod_by_key("nag_nagash")
+                local my_mod = mct:get_mod_by_key("nag_nagash")
 
-        -- get the mct_option object with the key "do_thing_one", and its finalized setting - reading from the mct_settings.lua file if it's a new game, or the save game file if it isn't
-        local nag_mortarch_arkhan = my_mod:get_option_by_key("nag_mortarch_arkhan")
-        local nag_mortarch_arkhan_setting = nag_mortarch_arkhan:get_finalized_setting()
-        
-        local nag_mortarch_vlad = my_mod:get_option_by_key("nag_mortarch_vlad")
-        local nag_mortarch_vlad_setting = nag_mortarch_vlad:get_finalized_setting()
-        
-        local nag_mortarch_mannfred = my_mod:get_option_by_key("nag_mortarch_mannfred")
-        local nag_mortarch_mannfred_setting = nag_mortarch_mannfred:get_finalized_setting()
-        
-        local nag_mortarch_luthor = my_mod:get_option_by_key("nag_mortarch_luthor")
-        local nag_mortarch_luthor_setting = nag_mortarch_luthor:get_finalized_setting()
-        
-        
-        local nag_mortarch_neferata = my_mod:get_option_by_key("nag_mortarch_neferata")
-        local nag_mortarch_neferata_setting = nag_mortarch_neferata:get_finalized_setting()
-        
-        local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
-        local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
-        
-        local nag_mortarch_dk = my_mod:get_option_by_key("nag_mortarch_dk")
-        local nag_mortarch_dk_setting = nag_mortarch_dk:get_finalized_setting()
+                -- get the mct_option object with the key "do_thing_one", and its finalized setting - reading from the mct_settings.lua file if it's a new game, or the save game file if it isn't
+                local nag_mortarch_arkhan = my_mod:get_option_by_key("nag_mortarch_arkhan")
+                local nag_mortarch_arkhan_setting = nag_mortarch_arkhan:get_finalized_setting()
+                
+                local nag_mortarch_vlad = my_mod:get_option_by_key("nag_mortarch_vlad")
+                local nag_mortarch_vlad_setting = nag_mortarch_vlad:get_finalized_setting()
+                
+                local nag_mortarch_mannfred = my_mod:get_option_by_key("nag_mortarch_mannfred")
+                local nag_mortarch_mannfred_setting = nag_mortarch_mannfred:get_finalized_setting()
+                
+                local nag_mortarch_luthor = my_mod:get_option_by_key("nag_mortarch_luthor")
+                local nag_mortarch_luthor_setting = nag_mortarch_luthor:get_finalized_setting()
+                
+                
+                local nag_mortarch_neferata = my_mod:get_option_by_key("nag_mortarch_neferata")
+                local nag_mortarch_neferata_setting = nag_mortarch_neferata:get_finalized_setting()
+                
+                local nag_mortarch_dieter = my_mod:get_option_by_key("nag_mortarch_dieter")
+                local nag_mortarch_dieter_setting = nag_mortarch_dieter:get_finalized_setting()
+                
+                local nag_mortarch_dk = my_mod:get_option_by_key("nag_mortarch_dk")
+                local nag_mortarch_dk_setting = nag_mortarch_dk:get_finalized_setting()
 
 
-        
-        RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_arkhan"]=nag_mortarch_arkhan_setting
-        RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_vlad"]=nag_mortarch_vlad_setting
-        RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_mannfred"]=nag_mortarch_mannfred_setting
-        RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
-        RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_neferata"]=nag_mortarch_neferata_setting
-        RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
-        RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dk"]=nag_mortarch_dk_setting
-        
-        out("Rhox Nagash: Mortarch percentages")
-        out("Arkhan: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_arkhan"])
-        out("Vlad: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_vlad"])
-        out("Mannfred: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_mannfred"])
-        out("Luthor: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_luthor"])
-        out("Neferata: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_neferata"])
-        out("Dieter: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dieter"])
-        out("Dread King: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dk"])
+                
+                RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_arkhan"]=nag_mortarch_arkhan_setting
+                RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_vlad"]=nag_mortarch_vlad_setting
+                RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_mannfred"]=nag_mortarch_mannfred_setting
+                RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_luthor"]=nag_mortarch_luthor_setting
+                RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_neferata"]=nag_mortarch_neferata_setting
+                RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dieter"]=nag_mortarch_dieter_setting
+                RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dk"]=nag_mortarch_dk_setting
+                
+                out("Rhox Nagash: Mortarch percentages")
+                out("Arkhan: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_arkhan"])
+                out("Vlad: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_vlad"])
+                out("Mannfred: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_mannfred"])
+                out("Luthor: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_luthor"])
+                out("Neferata: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_neferata"])
+                out("Dieter: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dieter"])
+                out("Dread King: ".. RHOX_NAGASH_MORTARCH.mort_key_to_success_chance["nag_mortarch_dk"])
 
-        
-        
-        if nag_mortarch_arkhan_setting == 105 then --for debug
-            RHOX_NAGASH_MORTARCH:rhox_nag_debug_function()
-        end
-        
-        if nag_mortarch_arkhan_setting == 106 then --for debug
-            RHOX_NAGASH_MORTARCH:rhox_nag_debug_summon_bone_daddy()
-        end
-
-    end,
-    true
+                
+                
+                if nag_mortarch_arkhan_setting == 105 then --for debug
+                    RHOX_NAGASH_MORTARCH:rhox_nag_debug_function()
+                end
+                
+                if nag_mortarch_arkhan_setting == 106 then --for debug
+                    RHOX_NAGASH_MORTARCH:rhox_nag_debug_summon_bone_daddy()
+                end
+            end,
+            true
+        )
+	end
 )
+
 
 
 
