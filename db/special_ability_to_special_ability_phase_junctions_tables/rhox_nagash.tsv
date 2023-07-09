@@ -66,3 +66,5 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 2	nag_unit_passive_blood_frenzy	true	false	false	wh2_dlc10_lord_passive_blood_frenzy_2
 3	nag_unit_passive_blood_frenzy	true	false	false	wh2_dlc10_lord_passive_blood_frenzy_3
 1	nag_unit_passive_fresh_hunger	true	false	false	nag_unit_passive_fresh_hunger
+1	nag_bound_spell_nagash_hand_of_dust	false	false	true	nag_nagash_hand_of_dust_01
+2	nag_bound_spell_nagash_hand_of_dust	false	false	true	nag_nagash_hand_of_dust_02
