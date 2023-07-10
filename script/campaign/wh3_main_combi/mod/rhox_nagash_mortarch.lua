@@ -884,7 +884,7 @@ function RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --used in other script
             local character = context:character()    
             local region_object = context:garrison_residence():region()
             local region_name = region_object:name()
-            return character:character_subtype_key() == "nag_nagash_boss" and character:rank() >= 40 and region_name == "wh3_main_combi_region_khazid_irkulaz" and cm:get_saved_value("rhox_nagash_mortarch_azhag_check") ~= true
+            return character:character_subtype_key() == "nag_nagash_boss" and character:rank() >= 40 and region_name == "wh3_main_combi_region_khazid_irkulaz" and cm:get_saved_value("rhox_nagash_mortarch_azhag_check") ~= true and character:faction():is_human()
         end,
         function(context)
             cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--set it true regardless of result
