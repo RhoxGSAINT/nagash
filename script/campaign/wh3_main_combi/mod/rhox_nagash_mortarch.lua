@@ -858,8 +858,80 @@ function RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --used in other script
                 faction:faction_leader():cqi(), 0,0,0)
                 self:upgrade_into_mortarch(faction, faction_key, mort_key)
             end
+            cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--for failsafe mission thing
         end,
         true
+    )
+
+    core:add_listener(--TODO remove it after the patch. This is to prevent players from getting two Azhag
+        "rhox_azhag_failsafe_todo",
+        "CharacterTurnStart",
+        function(context)
+            local character = context:character()
+            return character:character_subtype_key() == "nag_mortarch_azhag"
+        end,
+        function(context)
+            cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--for failsafe mission thing
+        end,
+        true
+    )
+
+
+    core:add_listener(
+        "rhox_nagash_enter_garrison",
+        "CharacterEntersGarrison",
+        function(context)
+            local character = context:character()    
+            local region_object = context:garrison_residence():region()
+            local region_name = region_object:name()
+            return character:character_subtype_key() == "nag_nagash_boss" and character:rank() >= 40 and region_name == "wh3_main_combi_region_khazid_irkulaz" and cm:get_saved_value("rhox_nagash_mortarch_azhag_check") ~= true
+        end,
+        function(context)
+            cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--set it true regardless of result
+            local dilemma_builder = cm:create_dilemma_builder("rhox_nagash_azhag_recruit");
+            local payload_builder = cm:create_payload();
+            
+            
+    
+            payload_builder:text_display("nag_azhag_will_join")
+            payload_builder:faction_pooled_resource_transaction("nag_warpstone", "nag_nagash_rituals", -40, true)
+            dilemma_builder:add_choice_payload("FIRST", payload_builder);
+            payload_builder:clear();
+            
+            dilemma_builder:add_choice_payload("SECOND", payload_builder);
+            
+            dilemma_builder:add_target("default", context:character());
+            
+            
+            
+            cm:launch_custom_dilemma_from_builder(dilemma_builder, context:character():faction());
+        end,
+        true
+    )
+    core:add_listener(
+        "rhox_nagash_azhag_DilemmaChoiceMadeEvent", 
+        "DilemmaChoiceMadeEvent",
+        function(context)
+            return context:dilemma() == "rhox_nagash_azhag_recruit"
+        end,
+        function(context)
+            local choice = context:choice();
+
+            
+            if choice == 0 then    
+                local mort_key = "nag_mortarch_azhag"
+            
+                local faction_key = self.mort_key_to_faction_key[mort_key]
+                local faction = cm:get_faction(faction_key)
+                if not faction:is_dead() then
+                    --fire incident
+                    self:upgrade_into_mortarch(faction, faction_key, mort_key)
+                else
+                    self:spawn_mortarch(mort_key)
+                end    
+            end
+        end,
+        false
     )
     
     

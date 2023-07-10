@@ -20,3 +20,4 @@ rhox_nagash_guinevere_joins	ui/campaign ui/effect_bundles/agent.png	default	0
 rhox_nagash_guinevere_departs	ui/campaign ui/effect_bundles/agent.png	default	0
 rhox_nagash_guinevere_presents	ui/campaign ui/effect_bundles/treasury.png	default	1
 rhox_nagash_guinevere_peace	ui/campaign ui/diplomacy_icons/diplomatic_option_peace.png	positive	0
+nag_azhag_will_join	ui/battle ui/ability_icons/wh2_dlc15_army_abilities_azhags_waaagh.png	positive	0

@@ -24,3 +24,9 @@ cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_guinevere_
 cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_guinevere_peace_brokerSECOND		false
 dilemmas_localised_title_rhox_nagash_guinevere_peace_broker	Peace broker	false
 dilemmas_localised_description_rhox_nagash_guinevere_peace_broker	In her discreet, subtle way, Genevieve has managed to make {{CcoCampaignEventDilemma:FirstTargetFactionNameWithIcon}}'s leader reconsider the war waged on you. It only took a word here, a suggestion there, underlining costs and losses, stressing possible gains, the merest touch to sway their blood-thirsty drive. Blood spilled on the battlefield is wasted blood, after all.	false
+dilemmas_localised_title_rhox_nagash_azhag_recruit	Another Mortarch?	false
+dilemmas_localised_description_rhox_nagash_azhag_recruit	As the warboss lays broken at your feet, you cannot help but marvel at this unlikely combination of Dhar and what the greenkins call Waaagh magic that Azhag wielded, and the potential it offered.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_azhag_recruitFIRST	Make Azhag a Mortarch	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_azhag_recruitFIRST	Make Azhag a Mortarch	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_azhag_recruitSECOND	Ignore the primitive creature's body	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_azhag_recruitSECOND	Ignore the primitive creature's body	false

@@ -7,6 +7,7 @@ local rite_status = {
     nag_man = false
 }
 
+local current_effect_bundle_army = 1
 
 
 --- unlock rite + show event message
@@ -284,6 +285,30 @@ function rhox_nagash_rites_listeners()
         true
     )
 
+    core:add_listener(
+        "nag_army_listener",
+        "RitualCompletedEvent",
+        function(context)
+            return context:ritual():ritual_key() == "nag_army"
+        end,
+        function(context)
+
+            local faction = context:performing_faction()
+            local faction_key = faction:name()
+            cm:remove_effect_bundle("nag_army_capacity_bundle", faction_key)
+            
+            out("Rhox Nagash: Nag Army Current cap is:" ..current_effect_bundle_army)
+            local effect_bundle = cm:create_new_custom_effect_bundle("nag_army_capacity_bundle")
+            effect_bundle:add_effect("wh2_dlc09_effect_increase_army_capacity", "faction_to_faction_own_unseen", current_effect_bundle_army)
+            effect_bundle:set_duration(0)
+            cm:apply_custom_effect_bundle_to_faction(effect_bundle, faction)
+            current_effect_bundle_army = current_effect_bundle_army+1
+
+
+        end,
+        true
+    )
+
     
     local function get_random_mortarch(faction)
         local morts = {}
@@ -377,6 +402,40 @@ function rhox_nagash_rites_listeners()
 end
 
 
+core:add_listener(
+	"rhox_nagash_rite_scrollbar_panel_open",
+	"PanelOpenedCampaign",
+	function(context)	
+        return context.string == "rituals_panel" and cm:get_local_faction_name(true) == nagash_faction
+	end,
+	function()
+        
+        local rituals_list = find_uicomponent(core:get_ui_root(), "rituals_panel", "panel_frame", "context_rituals_list")
+        local result = core:get_or_create_component("rhox_horizontal_view", "ui/campaign ui/rhox_nagash_rite_scrollbar.twui.xml", rituals_list)
+        if not result then
+            script_error("Rhox all rite: ".. "ERROR: could not create horizontal view ui component? How can this be?");
+            return false;
+        end;
+        
+        
+        local addresses = {}
+        for i = 0, rituals_list:ChildCount() -2 do -- -2 because the lost one is rhox_horizontal_view
+            local child_uic = find_child_uicomponent_by_index(rituals_list, i)
+            --out("Rhox all rite: Currently looking at: "..child_uic:Id())
+            table.insert(addresses, child_uic:Address())
+        end
+        --out("Rhox all rite got the addresses, number of addresses are: "..#addresses)
+        
+        local new_parent = find_uicomponent(result, "list_clip", "list_box")
+        --move them to horizontal view
+        for i = 1, #addresses do
+            rituals_list:Divorce(addresses[i])
+            new_parent:Adopt(addresses[i])
+        end
+	end,
+	true
+)
+
 
 
 --------------------------------------------------------------
@@ -385,12 +444,14 @@ end
 cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("rhox_nagash_rite_status", rite_status, context)
+		cm:save_named_value("rhox_nagash_current_effect_bundle_army", current_effect_bundle_army, context)
 	end
 )
 cm:add_loading_game_callback(
 	function(context)
 		if cm:is_new_game() == false then
 			rite_status = cm:load_named_value("rhox_nagash_rite_status", rite_status, context)
+			current_effect_bundle_army = cm:load_named_value("rhox_nagash_current_effect_bundle_army", current_effect_bundle_army, context)
 		end
 	end
 )

@@ -7,3 +7,4 @@ nag_winds	0	nag_winds	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_gehe
 rhox_nagash_ritual_forced_vassalisation	0	wh3_main_ritual_sla_forced_vassalise	10	FORCE_VASSAL_NAGASH	0	0			0		nag_vassal_ritual	rhox_nagash_undead_faction			0	0				default	
 rhox_nagash_lahmia_ritual_forced_vassalisation	0	wh3_main_ritual_sla_forced_vassalise	10	FORCE_VASSAL_LAHMIA	0	0			0		rhox_nagash_lahmia_ritual_forced_vassalisation	rhox_nagash_lahmia_vassal_faction			0	0				default	
 rhox_nagash_lahmia_ritual_create_cults	0	empty	10	CULT_RITUAL	0	0			0		rhox_nagash_lahmia_ritual_forced_vassalisation				0	0				default	
+nag_army	0	nag_army	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_ptra.png	0	nag_army	nag_army				0	0				default	

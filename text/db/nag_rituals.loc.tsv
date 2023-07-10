@@ -33,3 +33,6 @@ rituals_description_rhox_nagash_lahmia_ritual_forced_vassalisation	Exert your in
 rituals_display_name_rhox_nagash_lahmia_ritual_forced_vassalisation	Dominate	false
 rituals_display_name_rhox_nagash_lahmia_ritual_create_cults	Proliferate Cults	false
 rituals_description_rhox_nagash_lahmia_ritual_create_cults	Send your followers out into the mortal world. They will establish [[img:lahmia_cult]][[/img]]cults in up to 3 human, Elf, Dwarf, or Ogre-owned settlements.\\n\\n[[img:lahmia_cult]][[/img]]Cult buildings allow you to increase your [[img:icon_blood_kiss]][[/img]]Vampiric influence over certain factions.	false
+rituals_display_name_nag_army	Dominion of Nagash	false
+rituals_description_nag_army	More will arise	false
+ritual_additional_ui_explanation_texts_onscreen_text_nag_army	[[img:ui/campaign ui/effect_bundles/military.png]][[/img]][[col:green]]Army capacity: +1[[/col]]	false
