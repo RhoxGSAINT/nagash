@@ -842,7 +842,7 @@ function RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --used in other script
         "MissionSucceeded",
         function(context)
             local mission = context:mission()
-            return mission:mission_record_key() == "rhox_nagash_get_azhag_mission"
+            return mission:mission_record_key() == "rhox_nagash_get_azhag_mission" and cm:get_saved_value("rhox_nagash_mortarch_azhag_check") ~= true --don't call it if player already saw the garrison event
         end,
         function(context)
             out("Rhox Nagash: You finished the Azhag mission!")

@@ -9,6 +9,9 @@ local function rhox_check_azhag_status()
         return false
     end
     
+    if cm:get_saved_value("rhox_nagash_mortarch_azhag_check") == true then
+        return false
+    end
     return true
 end
 
