@@ -2,6 +2,8 @@ local nagash_faction = "mixer_nag_nagash"
 
 local nagash_ai_bonus =100
 local enable_ai_nagash=true
+local nagash_ai_level_bonus =30
+local nagash_ai_building_tier =5
 
 
 local function rhox_nagash_init_setting()
@@ -122,7 +124,7 @@ local function rhox_nagash_init_setting()
     
     cm:callback(
         function() 
-            if cm:get_local_faction_name(true) == nagash_faction then
+            if cm:get_faction(nagash_faction):is_human() then
 
             
             
@@ -130,7 +132,7 @@ local function rhox_nagash_init_setting()
                 local title = "event_feed_strings_text_wh2_scripted_event_how_they_play_title";
                 local primary_detail = "factions_screen_name_" .. faction_name;
                 local secondary_detail = "event_feed_strings_text_nag_scripted_event_how_they_play_nagasha";
-                local pic = 594;
+                local pic = 905;--campaign_group_member_criteria_values
                 
                 cm:show_message_event(
                     faction_name,
@@ -153,7 +155,8 @@ local function rhox_nagash_init_setting()
                 mm:set_should_whitelist(true)
                 mm:trigger()
             else
-                cm:add_agent_experience(cm:char_lookup_str(nagash_character), 30, true) --add level for ai nagash
+                cm:add_agent_experience(cm:char_lookup_str(nagash_character), nagash_ai_level_bonus, true) --add level for ai nagash
+                cm:instantly_set_settlement_primary_slot_level(capital_region:settlement() , nagash_ai_building_tier)--for human only
             end
         end, 
     3);
@@ -676,6 +679,11 @@ core:add_listener(
         local nag_enable_ai = my_mod:get_option_by_key("enable_ai_nagash")
         enable_ai_nagash = nag_enable_ai:get_finalized_setting()
         
+        local nag_ai_level_bonus = my_mod:get_option_by_key("nag_ai_level_bonus")
+        nagash_ai_level_bonus = nag_ai_level_bonus:get_finalized_setting()
+        
+        local nag_ai_building_tier = my_mod:get_option_by_key("nag_ai_building_tier")
+        nagash_ai_building_tier = nag_ai_building_tier:get_finalized_setting()
 
     end,
     true

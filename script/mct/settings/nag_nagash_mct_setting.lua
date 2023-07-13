@@ -19,6 +19,19 @@ nag_ai_bonus:set_default_value(1)
 nag_ai_bonus:set_text("mct_nag_nagsh_nag_ai_bonus_text", true)
 nag_ai_bonus:set_tooltip_text("mct_nag_nagsh_nag_ai_bonus_tooltip", true)
 
+local nag_ai_level_bonus = mct_mod:add_new_option("nag_ai_level_bonus", "slider")
+nag_ai_level_bonus:slider_set_min_max(0, 50)
+nag_ai_level_bonus:slider_set_step_size(1)
+nag_ai_level_bonus:set_default_value(30)
+nag_ai_level_bonus:set_text("mct_nag_nagsh_nag_ai_level_bonus_text", true)
+nag_ai_level_bonus:set_tooltip_text("mct_nag_nagsh_nag_ai_level_bonus_tooltip", true)
+
+local nag_ai_building_tier = mct_mod:add_new_option("nag_ai_building_tier", "slider")
+nag_ai_building_tier:slider_set_min_max(1, 5)
+nag_ai_building_tier:slider_set_step_size(1)
+nag_ai_building_tier:set_default_value(5)
+nag_ai_building_tier:set_text("mct_nag_nagsh_nag_ai_building_tier_text", true)
+nag_ai_building_tier:set_tooltip_text("mct_nag_nagsh_nag_ai_building_tier_tooltip", true)
 
 
 local nag_mortarch_arkhan = mct_mod:add_new_option("nag_mortarch_arkhan", "slider")
