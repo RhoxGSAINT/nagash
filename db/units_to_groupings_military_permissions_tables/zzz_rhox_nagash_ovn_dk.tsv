@@ -1,0 +1,4 @@
+unit	military_group
+#units_to_groupings_military_permissions_tables;0;db/units_to_groupings_military_permissions_tables/zzz_rhox_nagash_ovn_dk	
+nag_morghasts	ovn_dread_king
+nag_morghasts_archai	ovn_dread_king

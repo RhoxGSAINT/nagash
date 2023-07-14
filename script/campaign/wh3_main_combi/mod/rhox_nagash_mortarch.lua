@@ -252,17 +252,17 @@ RHOX_NAGASH_MORTARCH.mort_key_to_units={
         "vigpro_nagash_skeleton_giant",
     },
     ["nag_mortarch_dk"]={
+        "ovn_dk_inf_skeleton_javelinmen_no_caps",
+        "ovn_dk_inf_skeleton_javelinmen_no_caps",
         "ovn_dk_mon_skeleton_elephant",
-        "ovn_dk_mon_skeletal_minotaurs",
-        "ovn_dk_mon_bone_hydra",
-        "ovn_dk_inf_skeleton_hoplites",
-        "ovn_dk_inf_skeleton_hoplites",
-        "ovn_dk_cav_royal_guard_cavalry",
-        "ovn_dk_cav_royal_guard_lancers"
+        "ovn_dk_inf_skeleton_hoplites_no_caps",
+        "ovn_dk_inf_skeleton_hoplites_no_caps",
+        "ovn_dk_cav_royal_guard_lancers",
+        "ovn_dk_inf_skeleton_pikemen",
+        "ovn_dk_inf_tomb_guardian",
+        "ovn_dk_inf_tomb_guardian_peltasts"
     }
 }
-
-
 
 
 
@@ -995,6 +995,11 @@ function RHOX_NAGASH_MORTARCH:rhox_nagash_add_ai_mortarch_mission()  --used in o
                         if faction_key ~= nil then --do something more if that Mortarch has faction
                             out("faction key: "..faction_key)
                             local faction = cm:get_faction(faction_key)
+                            
+                            if faction_key == "ovn_tmb_dread_king" and faction:is_human() then
+                                return--OvN dread King has their plans. So don't declare war on them if they're human
+                            end
+                            
                             if not faction:is_dead() then
                                 self:upgrade_into_mortarch(faction, faction_key, mort_key)
                             else
