@@ -24,7 +24,7 @@ nag_skill_dieter_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_mor
 nag_skill_dieter_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_dieter		5.0000	8.0000		0	0	true
 nag_skill_dieter_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_dieter		5.0000	9.0000		0	0	true
 nag_skill_dieter_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_dieter		5.0000	10.0000		0	4	true
-nag_skill_dieter_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_dieter		5.0000	11.0000		0	4	true
+nag_skill_dieter_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_dieter		5.0000	11.0000		0	1	true
 nag_skill_node_vmp_dieter_helsnicht_innate_01		nag_skill_innate_vmp_dieter_helsnicht	nag_skill_node_set_mortarch_dieter		6.0000	0.0000		1	0	false
 nag_skill_node_vmp_dieter_helsnicht_magic_0		wh_main_skill_vmp_magic_vampires_01_invocation_of_nehek	nag_skill_node_set_mortarch_dieter		2.0000	0.0000		0	0	true
 nag_skill_node_vmp_dieter_helsnicht_magic_1_1		wh_main_skill_vmp_magic_vampires_03_the_curse_of_undeath	nag_skill_node_set_mortarch_dieter		2.0000	1.0000		0	0	true

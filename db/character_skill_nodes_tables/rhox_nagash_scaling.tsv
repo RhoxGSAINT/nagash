@@ -54,3 +54,5 @@ nag_skill_mentor_wight_king		wh3_main_skill_all_mentor_hero	nag_skill_node_set_v
 nag_skill_mentor_gunnery_wight		wh3_main_skill_all_mentor_hero	nag_skill_node_set_cst_gunnery_wight		0.0000	12.0000		0	0	true
 nag_skill_mentor_morghast_archai		wh3_main_skill_all_mentor_hero	nag_skill_node_set_morghast_archai		0.0000	12.0000		0	0	true
 nag_skill_mentor_tomb_banshee		wh3_main_skill_all_mentor_hero	nag_skill_node_set_tomb_banshee		0.0000	12.0000		0	0	true
+nag_skill_cst_drekla_agent_action_scaling		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_mortarch_drekla		99.0000	0.0000		0	0	false
+nag_skill_agent_action_scaling_guinevere		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_guinevere		99.0000	0.0000		0	0	false

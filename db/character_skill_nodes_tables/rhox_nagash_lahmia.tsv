@@ -60,4 +60,4 @@ nag_lahmia_skill_neferata_campaign_7		wh_main_skill_vmp_lord_campaign_guile_and_
 nag_lahmia_skill_neferata_campaign_8		wh_main_skill_vmp_lord_campaign_necrarch	nag_skill_node_set_lahmia_neferata		5.0000	8.0000		0	0	true
 nag_lahmia_skill_neferata_campaign_9		wh_main_skill_vmp_lord_campaign_eternal_warden	nag_skill_node_set_lahmia_neferata		5.0000	9.0000		0	0	true
 nag_lahmia_skill_neferata_campaign_10		wh_main_skill_vmp_lord_campaign_uncanny_prescience	nag_skill_node_set_lahmia_neferata		5.0000	10.0000		0	4	true
-nag_lahmia_skill_neferata_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_lahmia_neferata		5.0000	11.0000		0	4	true
+nag_lahmia_skill_neferata_campaign_11		wh2_main_skill_ll_self_defense	nag_skill_node_set_lahmia_neferata		5.0000	11.0000		0	1	true

@@ -57,7 +57,7 @@ nag_skill_supreme_nagash_campaign_7		nag_skill_campaign_nagash_big_attrition	nag
 nag_skill_supreme_nagash_campaign_8		nag_skill_campaign_nagash_big_loot	nag_skill_node_set_nagash_boss		5.0000	8.0000		0	0	true
 nag_skill_supreme_nagash_campaign_9		nag_skill_campaign_nagash_big_ambush	nag_skill_node_set_nagash_boss		5.0000	9.0000		0	0	true
 nag_skill_supreme_nagash_campaign_10		nag_skill_campaign_nagash_big_self_defense	nag_skill_node_set_nagash_boss		5.0000	10.0000		0	4	true
-nag_skill_supreme_nagash_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_nagash_boss		5.0000	11.0000		0	4	true
+nag_skill_supreme_nagash_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_nagash_boss		5.0000	11.0000		0	1	true
 nag_skill_husk_innate_nagash		nag_skill_husk_innate_nagash	nag_skill_node_set_nagash_husk		6.0000	0.0000		1	0	false
 nag_skill_husk_nagash_unique_2		nag_skill_unique_nagash_alakanash	nag_skill_node_set_nagash_husk		0.0000	1.0000		0	0	true
 nag_skill_husk_nagash_unique_3		nag_skill_unique_nagash_hate_skaven	nag_skill_node_set_nagash_husk		1.0000	1.0000		0	0	true
@@ -105,7 +105,7 @@ nag_skill_husk_nagash_campaign_7		nag_skill_campaign_nagash_small_attrition	nag_
 nag_skill_husk_nagash_campaign_8		nag_skill_campaign_nagash_small_loot	nag_skill_node_set_nagash_husk		5.0000	8.0000		0	0	true
 nag_skill_husk_nagash_campaign_9		nag_skill_campaign_nagash_small_ambush	nag_skill_node_set_nagash_husk		5.0000	9.0000		0	0	true
 nag_skill_husk_nagash_campaign_10		nag_skill_campaign_nagash_small_self_defense	nag_skill_node_set_nagash_husk		5.0000	10.0000		0	4	true
-nag_skill_husk_nagash_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_nagash_husk		5.0000	11.0000		0	4	true
+nag_skill_husk_nagash_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_nagash_husk		5.0000	11.0000		0	1	true
 nag_skill_mortarch_innate_arkhan		nag_skill_mortarch_innate_arkhan	nag_skill_node_set_mortarch_arkhan		6.0000	0.0000		1	0	false
 nag_skill_mortarch_arkhan_misc_0		wh2_dlc09_skill_tmb_tomb_king_returned_in_madness	nag_skill_node_set_mortarch_arkhan		0.0000	5.0000		0	0	true
 nag_skill_mortarch_arkhan_misc_1		wh2_dlc09_skill_tmb_tomb_king_ancient_tyrant	nag_skill_node_set_mortarch_arkhan		0.0000	6.0000		0	0	true
@@ -171,7 +171,7 @@ nag_skill_arkhan_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_mor
 nag_skill_arkhan_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_arkhan		5.0000	8.0000		0	0	true
 nag_skill_arkhan_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_arkhan		5.0000	9.0000		0	0	true
 nag_skill_arkhan_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_arkhan		5.0000	10.0000		0	4	true
-nag_skill_arkhan_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_arkhan		5.0000	11.0000		0	4	true
+nag_skill_arkhan_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_arkhan		5.0000	11.0000		0	1	true
 nag_skill_mortarch_innate_vlad		nag_skill_mortarch_innate_vlad	nag_skill_node_set_mortarch_vlad		6.0000	0.0000		1	0	false
 nag_skill_mortarch_vlad_self_01		wh_main_skill_vmp_lord_self_the_hunger	nag_skill_node_set_mortarch_vlad		2.0000	0.0000		0	0	true
 nag_skill_mortarch_vlad_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge	nag_skill_node_set_mortarch_vlad		2.0000	1.0000		0	0	true
@@ -227,7 +227,7 @@ nag_skill_vlad_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_morta
 nag_skill_vlad_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_vlad		5.0000	8.0000		0	0	true
 nag_skill_vlad_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_vlad		5.0000	9.0000		0	0	true
 nag_skill_vlad_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_vlad		5.0000	10.0000		0	4	true
-nag_skill_vlad_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_vlad		5.0000	11.0000		0	4	true
+nag_skill_vlad_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_vlad		5.0000	11.0000		0	1	true
 nag_skill_mortarch_innate_mannfred		nag_skill_mortarch_innate_mannfred	nag_skill_node_set_mortarch_mannfred		6.0000	0.0000		1	0	false
 nag_skill_mortarch_mannfred_self_01		wh_main_skill_vmp_lord_self_the_hunger	nag_skill_node_set_mortarch_mannfred		1.0000	0.0000		0	0	true
 nag_skill_mortarch_mannfred_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge	nag_skill_node_set_mortarch_mannfred		1.0000	1.0000		0	0	true
@@ -293,7 +293,7 @@ nag_skill_mannfred_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_m
 nag_skill_mannfred_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_mannfred		5.0000	8.0000		0	0	true
 nag_skill_mannfred_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_mannfred		5.0000	9.0000		0	0	true
 nag_skill_mannfred_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_mannfred		5.0000	10.0000		0	4	true
-nag_skill_mannfred_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_mannfred		5.0000	11.0000		0	4	true
+nag_skill_mannfred_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_mannfred		5.0000	11.0000		0	1	true
 nag_skill_mortarch_innate_luthor		nag_skill_mortarch_innate_luthor	nag_skill_node_set_mortarch_luthor		6.0000	0.0000		1	0	false
 nag_skill_mortarch_luthor_personal_00		wh2_dlc11_skill_cst_personal_0_monkey_jacket	nag_skill_node_set_mortarch_luthor		3.0000	0.0000		0	0	true
 nag_skill_mortarch_luthor_personal_01		wh2_dlc11_skill_all_lord_self_swashbuckler	nag_skill_node_set_mortarch_luthor		3.0000	1.0000		0	0	true
@@ -346,7 +346,7 @@ nag_skill_luthor_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_mor
 nag_skill_luthor_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_luthor		5.0000	8.0000		0	0	true
 nag_skill_luthor_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_luthor		5.0000	9.0000		0	0	true
 nag_skill_luthor_campaign_10		nag_skill_campaign_jolly_roger	nag_skill_node_set_mortarch_luthor		5.0000	10.0000		0	4	true
-nag_skill_luthor_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_luthor		5.0000	11.0000		0	4	true
+nag_skill_luthor_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_luthor		5.0000	11.0000		0	1	true
 nag_skill_mortarch_innate_neferata		nag_skill_mortarch_innate_neferata	nag_skill_node_set_mortarch_neferata		6.0000	0.0000		1	0	false
 nag_skill_mortarch_neferata_unique_01		nag_skill_unique_neferatal_dagger_of_jet	nag_skill_node_set_mortarch_neferata		0.0000	1.0000		0	0	true
 nag_skill_mortarch_neferata_unique_02		nag_skill_unique_neferatal_staff_of_pain	nag_skill_node_set_mortarch_neferata		0.0000	2.0000		0	0	true
@@ -408,7 +408,7 @@ nag_skill_neferata_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_m
 nag_skill_neferata_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_neferata		5.0000	8.0000		0	0	true
 nag_skill_neferata_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_neferata		5.0000	9.0000		0	0	true
 nag_skill_neferata_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_neferata		5.0000	10.0000		0	4	true
-nag_skill_neferata_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_neferata		5.0000	11.0000		0	4	true
+nag_skill_neferata_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_neferata		5.0000	11.0000		0	1	true
 nag_skill_mortarch_innate_krell		nag_skill_mortarch_innate_krell	nag_skill_node_set_mortarch_krell		6.0000	0.0000		1	0	false
 nag_skill_mortarch_krell_unique_01		nag_skill_unique_krell_chaos_tomb_blade	nag_skill_node_set_mortarch_krell		0.0000	0.0000		0	0	true
 nag_skill_mortarch_krell_unique_02		nag_skill_unique_krell_armour_of_the_barrows	nag_skill_node_set_mortarch_krell		0.0000	1.0000		0	0	true
@@ -459,7 +459,7 @@ nag_skill_krell_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_mort
 nag_skill_krell_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_krell		5.0000	8.0000		0	0	true
 nag_skill_krell_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_krell		5.0000	9.0000		0	0	true
 nag_skill_krell_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_krell		5.0000	10.0000		0	4	true
-nag_skill_krell_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_krell		5.0000	11.0000		0	4	true
+nag_skill_krell_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_krell		5.0000	11.0000		0	1	true
 nag_skill_mortarch_innate_isabella		nag_skill_mortarch_innate_isabella	nag_skill_node_set_isabella		6.0000	0.0000		1	0	false
 nag_skill_node_isabella_self_01		wh_main_skill_vmp_lord_self_the_hunger	nag_skill_node_set_isabella		2.0000	0.0000		0	0	true
 nag_skill_node_isabella_self_02		wh2_dlc11_skill_all_lord_self_devastating_charge	nag_skill_node_set_isabella		2.0000	1.0000		0	0	true

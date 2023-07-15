@@ -41,7 +41,6 @@ nag_skill_node_tmb_dread_king_death_magic_11		wh2_dlc14_skilll_all_magic_all_gre
 nag_skill_node_tmb_dread_king_death_magic_dummy		wh2_main_skill_vmp_magic_vampires_dummy_invocation_of_nehek_danse_macabre	nag_skill_node_set_mortarch_dk		3.0000	11.0000		1	0	false
 nag_dread_king_trait		dread_king_trait	nag_skill_node_set_mortarch_dk		6.0000	0.0000		1	0	false
 nag_dread_king_immortal_01		wh2_main_skill_all_immortality_lord	nag_skill_node_set_mortarch_dk		8.0000	0.0000		1	0	false
-nag_agent_action_scaling_dread_king		wh3_main_skill_agent_action_success_scaling	nag_skill_node_set_mortarch_dk		99.0000	0.0000		0	0	false
 nag_skill_dk_army_0		wh_main_skill_vmp_lord_battle_aura_of_supremacy	nag_skill_node_set_mortarch_dk		4.0000	0.0000		0	0	true
 nag_skill_dk_army_1		nag_skill_army_buff_ranged	nag_skill_node_set_mortarch_dk		4.0000	1.0000		0	0	true
 nag_skill_dk_army_2		nag_skill_army_buff_infantry	nag_skill_node_set_mortarch_dk		4.0000	2.0000		0	0	true
@@ -66,4 +65,4 @@ nag_skill_dk_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_mortarc
 nag_skill_dk_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_dk		5.0000	8.0000		0	0	true
 nag_skill_dk_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_dk		5.0000	9.0000		0	0	true
 nag_skill_dk_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_dk		5.0000	10.0000		0	4	true
-nag_skill_dk_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_dk		5.0000	11.0000		0	4	true
+nag_skill_dk_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_dk		5.0000	11.0000		0	1	true

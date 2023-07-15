@@ -24,7 +24,7 @@ nag_skill_azhag_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_mort
 nag_skill_azhag_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_azhag		5.0000	8.0000		0	0	true
 nag_skill_azhag_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_azhag		5.0000	9.0000		0	0	true
 nag_skill_azhag_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_azhag		5.0000	10.0000		0	4	true
-nag_skill_azhag_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_azhag		5.0000	11.0000		0	4	true
+nag_skill_azhag_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_azhag		5.0000	11.0000		0	1	true
 nag_skill_grn_azhag_unique_0		nag_skill_grn_azhag_unique_0	nag_skill_node_set_mortarch_azhag		1.0000	0.0000		0	0	true
 nag_skill_grn_azhag_unique_1		nag_skill_grn_azhag_unique_1	nag_skill_node_set_mortarch_azhag		1.0000	1.0000		0	0	true
 nag_skill_grn_azhag_unique_2		nag_skill_grn_azhag_unique_2	nag_skill_node_set_mortarch_azhag		1.0000	2.0000		0	0	true
