@@ -635,9 +635,9 @@ key	building	unit	xp	conditions	faction	enabled
 8427467	nag_dk_horde_special_5	nag_vanilla_tmb_inf_skeleton_spearmen_0	0	0		false
 8427468	nag_dk_horde_special_5	ovn_dk_inf_skeleton_javelinmen_no_caps	0	0		false
 8427469	nag_dk_horde_special_5	nag_vanilla_tmb_inf_skeleton_archers_0	0	0		false
-8427470	nag_dk_horde_landmark_0	ovn_dk_inf_skeleton_hoplites_no_caps	0	0		false
+8427470	nag_dk_horde_landmark_0	ovn_dk_inf_skeleton_hoplites	0	0		false
 8427471	nag_dk_horde_landmark_0	ovn_dk_inf_skeleton_pikemen	0	0		false
-8427472	nag_dk_horde_landmark_1	ovn_dk_inf_skeleton_hoplites_no_caps	0	0		false
+8427472	nag_dk_horde_landmark_1	ovn_dk_inf_skeleton_hoplites	0	0		false
 8427473	nag_dk_horde_landmark_1	ovn_dk_inf_skeleton_pikemen	0	0		false
 8427474	nag_dk_horde_landmark_1	ovn_dk_inf_tomb_guardian	0	0		false
 8427475	nag_dk_horde_landmark_1	ovn_dk_inf_tomb_guardian_peltasts	0	0		false

@@ -206,14 +206,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			burning_dead_ror	nag_army_count_units	false
 			burning_dead_ror	nag_army_count_units_vet	false
 			burning_dead_ror	nag_army_infantry	false
-			ovn_dk_inf_skeleton_hoplites_no_caps	nag_army_nehek_units	false
+			ovn_dk_inf_skeleton_hoplites	nag_army_nehek_units	false
 			ovn_dk_inf_skeleton_javelinmen_no_caps	nag_army_nehek_units	false
 			ovn_dk_inf_skeleton_pikemen	nag_army_nehek_units	false
 			ovn_dk_inf_tomb_guardian	nag_army_nehek_units	false
 			ovn_dk_inf_tomb_guardian_peltasts	nag_army_nehek_units	false
 			ovn_dk_cav_royal_guard_lancers	nag_army_nehek_units	false
 			ovn_dk_mon_skeleton_elephant	nag_army_nehek_units	false
-			ovn_dk_inf_skeleton_hoplites_no_caps	nag_army_nehek_units_vet	false
+			ovn_dk_inf_skeleton_hoplites	nag_army_nehek_units_vet	false
 			ovn_dk_inf_skeleton_javelinmen_no_caps	nag_army_nehek_units_vet	false
 			ovn_dk_inf_skeleton_pikemen	nag_army_nehek_units_vet	false
 			ovn_dk_inf_tomb_guardian	nag_army_nehek_units_vet	false
@@ -223,7 +223,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			ovn_dk_mon_skeleton_elephant	nag_army_warbeasts_monstrous_inf	false
 			ovn_dk_inf_skeleton_javelinmen_no_caps	nag_army_ranged	false
 			ovn_dk_inf_tomb_guardian_peltasts	nag_army_ranged	false
-			ovn_dk_inf_skeleton_hoplites_no_caps	nag_army_infantry	false
+			ovn_dk_inf_skeleton_hoplites	nag_army_infantry	false
 			ovn_dk_inf_skeleton_pikemen	nag_army_infantry	false
 			ovn_dk_inf_tomb_guardian	nag_army_infantry	false
 			ovn_dk_cav_royal_guard_lancers	nag_army_cavalry_chariots	false

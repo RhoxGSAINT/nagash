@@ -242,3 +242,7 @@ nag_effect_ability_uses_bound_spell_hand_of_dust	general_ability.png	8	general_a
 nag_effect_force_stat_missile_damage_thrall_units	ranged_damage.png	541	ranged_damage.png	battle	true
 nag_effect_force_stat_range_thrall_units	accuracy.png	531	accuracy.png	battle	true
 nag_spell_nagash_enable_hand_of_dust_upgrade	spell_ability.png	2	spell_ability.png	battle	true
+nag_dk_hand_effect_force_stat_weapon_strength_nag_dk	weapon_damage.png	461	weapon_damage.png	battle	true
+nag_dk_hand_effect_force_stat_missile_damage_nag_dk	ranged_damage.png	541	ranged_damage.png	battle	true
+nag_dk_hand_effect_force_stat_leadership_nag_dk	morale.png	411	morale.png	battle	true
+nag_dk_hand_effect_force_stat_melee_attack_nag_dk	melee.png	431	melee.png	battle	true

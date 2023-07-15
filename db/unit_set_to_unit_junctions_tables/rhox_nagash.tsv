@@ -582,3 +582,17 @@ hero				nag_characters	false
 			burning_dead_ror	nag_grave_nagashi_guard_unit_set	false
 			burning_dead_ror	nag_tech_graveguard	false
 			nag_blood_beasts	nag_blood_beasts	false
+			Dread_King	nag_mortarch_unit_set	false
+			Dread_King_barded_steed	nag_mortarch_unit_set	false
+			Dread_King_pegasus	nag_mortarch_unit_set	false
+			Dread_King_zombie_dragon	nag_mortarch_unit_set	false
+			elo_hand_of_nagash	nag_mortarch_unit_set	false
+			elo_hand_of_nagash_barded_steed	nag_mortarch_unit_set	false
+			elo_hand_of_nagash_chariot	nag_mortarch_unit_set	false
+			ovn_dk_inf_skeleton_javelinmen_no_caps	nag_dk_units	false
+			ovn_dk_inf_skeleton_hoplites	nag_dk_units	false
+			ovn_dk_inf_skeleton_pikemen	nag_dk_units	false
+			ovn_dk_inf_tomb_guardian	nag_dk_units	false
+			ovn_dk_inf_tomb_guardian_peltasts	nag_dk_units	false
+			ovn_dk_cav_royal_guard_lancers	nag_dk_units	false
+			ovn_dk_mon_skeleton_elephant	nag_dk_units	false

@@ -515,3 +515,7 @@ effects_description_rhox_nagash_guinevere_effect_peace_broker_dummy	Chance of ma
 effects_description_rhox_nagash_spawn_genevieve_dummy	Geneviève joins the faction	false
 effects_description_nag_spell_nagash_enable_hand_of_dust_upgrade	Overcast spell: "The Hand of Dust Upgraded"	false
 effects_description_rhox_nagash_hidden_disable_dk_realm	[HIDDEN] Disable DK's Realm of Souls ability	false
+effects_description_nag_dk_hand_effect_force_stat_weapon_strength_nag_dk	Weapon strengh: %+n% for Dread King units	false
+effects_description_nag_dk_hand_effect_force_stat_missile_damage_nag_dk	Missile strength: %+n% for Dread King units	false
+effects_description_nag_dk_hand_effect_force_stat_leadership_nag_dk	Leadership: %+n for Dread King units	false
+effects_description_nag_dk_hand_effect_force_stat_melee_attack_nag_dk	Melee attack: %+n for Dread King units	false
