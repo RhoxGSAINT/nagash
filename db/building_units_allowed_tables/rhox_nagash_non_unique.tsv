@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/rhox_nagash_non_unique						
 10427387	nag_non_unique_settlement_cavalry_1	nag_vanilla_tmb_cav_skeleton_horsemen_0	0	0		false
 10427388	nag_non_unique_settlement_cavalry_1	nag_vanilla_tmb_cav_skeleton_horsemen_archers_0	0	0		false

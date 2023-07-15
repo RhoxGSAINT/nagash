@@ -1,17 +1,17 @@
-level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
-#building_levels_tables;0;db/building_levels_tables/rhox_nagash_copied_landmark																						
-rhox_nagash_special_black_tower_of_arkhan	rhox_nagash_special_black_tower_of_arkhan	0	5	8000	0		false	false		true	wh2_dlc09_special_black_tower_of_arkhan	false	0.0000	0	true	3		true	0	0		0
-rhox_nagash_special_pyramid_alcadizaar	rhox_nagash_special_pyramid_alcadizaar	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_alcadizaar	false	0.0000	1	true	1		true	0	0		0
-rhox_nagash_special_pyramid_amenemhetum	rhox_nagash_special_pyramid_amenemhetum	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_amenemhetum	false	0.0000	1	true	3		true	0	0		0
-rhox_nagash_special_pyramid_khatep	rhox_nagash_special_pyramid_khatep	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_khatep	false	0.0000	1	true	3		true	0	0		0
-rhox_nagash_special_pyramid_phar	rhox_nagash_special_pyramid_phar	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_phar	false	0.0000	1	true	1		true	0	0		0
-rhox_nagash_special_pyramid_settra	rhox_nagash_special_pyramid_settra	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_settra	false	0.0000	1	true	3		true	0	0		0
-rhox_nagash_special_pyramid_tutankhanut	rhox_nagash_special_pyramid_tutankhanut	0	10	6000	0		false	false		true	wh2_dlc09_special_pyramid_tutankhanut	false	0.0000	1	true	3		true	0	0		0
-rhox_nagash_special_college_of_magic_vampires	rhox_nagash_special_college_of_magic_vampires	0	6	10000	0		false	false		true	wh_main_special_college_of_magic	false	0.0000	0	true	3		true	0	0		0
-rhox_nagash_special_blood_keep	rhox_nagash_special_blood_keep	0	5	10000	0		false	false		true	wh2_main_special_blood_keep	false	0.0000	0	true	3	wh_cam_settlement_capital_vampire	true	0	0		0
-rhox_nagash_special_castle_drachenfels	rhox_nagash_special_castle_drachenfels	0	4	8000	0		false	false		true	rhox_nagash_drachenfels	false	0.0000	0	true	3		true	0	0		0
-rhox_nagash_special_mousillon_merovech	rhox_nagash_special_mousillon_merovech	0	4	6000	0		false	false		true	wh2_main_special_mousillon_merovech	false	0.0000	0	true	1		true	0	0		0
-rhox_nagash_special_ghrond_convent_of_sorcery_vmp	rhox_nagash_special_ghrond_convent_of_sorcery_vmp	0	6	10000	0		false	false		true	wh2_main_special_ghond_convent_of_sorcery	false	0.0000	0	true	3	wh_cam_settlement_major_vampire	true	0	0		0
-rhox_nagash_special_ogham_stones_1	rhox_nagash_special_ogham_stones	0	3	2000	0		false	false		true	wh2_twa03_special_ogham_stones	false	0.0000	0	true	1		true	0	0		0
-rhox_nagash_special_ogham_stones_2	rhox_nagash_special_ogham_stones	1	4	6000	0		false	false		true	wh2_twa03_special_ogham_stones	false	0.0000	0	true	3		true	0	0		0
-rhox_nagash_special_standing_stones_others	rhox_nagash_special_standing_stones_others	0	6	6000	0		false	false		true	wh3_main_special_standing_stones	false	0.0000	0	true	1		true	0	0		0
+level_name	chain	level	create_time	create_cost	upkeep_cost	commodity	only_in_capital	faction_unique	first_in_world_bundle	resource_requirement	can_convert	building_instance_key	should_show_building_level_in_ui_for_technology	health_override	development_point_cost	can_be_damaged	primary_slot_building_building_level_requirement	audio_building_type	visible_in_ui	food_cost	slave_cap_contribution	resource_cost	additional_loot_value
+#building_levels_tables;0;db/building_levels_tables/rhox_nagash_copied_landmark																							
+rhox_nagash_special_black_tower_of_arkhan	rhox_nagash_special_black_tower_of_arkhan	0	5	8000	0		false	false			true	wh2_dlc09_special_black_tower_of_arkhan	false	0.0000	0	true	3		true	0	0		0
+rhox_nagash_special_pyramid_alcadizaar	rhox_nagash_special_pyramid_alcadizaar	0	10	6000	0		false	false			true	wh2_dlc09_special_pyramid_alcadizaar	false	0.0000	1	true	1		true	0	0		0
+rhox_nagash_special_pyramid_amenemhetum	rhox_nagash_special_pyramid_amenemhetum	0	10	6000	0		false	false			true	wh2_dlc09_special_pyramid_amenemhetum	false	0.0000	1	true	3		true	0	0		0
+rhox_nagash_special_pyramid_khatep	rhox_nagash_special_pyramid_khatep	0	10	6000	0		false	false			true	wh2_dlc09_special_pyramid_khatep	false	0.0000	1	true	3		true	0	0		0
+rhox_nagash_special_pyramid_phar	rhox_nagash_special_pyramid_phar	0	10	6000	0		false	false			true	wh2_dlc09_special_pyramid_phar	false	0.0000	1	true	1		true	0	0		0
+rhox_nagash_special_pyramid_settra	rhox_nagash_special_pyramid_settra	0	10	6000	0		false	false			true	wh2_dlc09_special_pyramid_settra	false	0.0000	1	true	3		true	0	0		0
+rhox_nagash_special_pyramid_tutankhanut	rhox_nagash_special_pyramid_tutankhanut	0	10	6000	0		false	false			true	wh2_dlc09_special_pyramid_tutankhanut	false	0.0000	1	true	3		true	0	0		0
+rhox_nagash_special_college_of_magic_vampires	rhox_nagash_special_college_of_magic_vampires	0	6	10000	0		false	false			true	wh_main_special_college_of_magic	false	0.0000	0	true	3		true	0	0		0
+rhox_nagash_special_blood_keep	rhox_nagash_special_blood_keep	0	5	10000	0		false	false			true	wh2_main_special_blood_keep	false	0.0000	0	true	3	wh_cam_settlement_capital_vampire	true	0	0		0
+rhox_nagash_special_castle_drachenfels	rhox_nagash_special_castle_drachenfels	0	4	8000	0		false	false			true	rhox_nagash_drachenfels	false	0.0000	0	true	3		true	0	0		0
+rhox_nagash_special_mousillon_merovech	rhox_nagash_special_mousillon_merovech	0	4	6000	0		false	false			true	wh2_main_special_mousillon_merovech	false	0.0000	0	true	1		true	0	0		0
+rhox_nagash_special_ghrond_convent_of_sorcery_vmp	rhox_nagash_special_ghrond_convent_of_sorcery_vmp	0	6	10000	0		false	false			true	wh2_main_special_ghond_convent_of_sorcery	false	0.0000	0	true	3	wh_cam_settlement_major_vampire	true	0	0		0
+rhox_nagash_special_ogham_stones_1	rhox_nagash_special_ogham_stones	0	3	2000	0		false	false			true	wh2_twa03_special_ogham_stones	false	0.0000	0	true	1		true	0	0		0
+rhox_nagash_special_ogham_stones_2	rhox_nagash_special_ogham_stones	1	4	6000	0		false	false			true	wh2_twa03_special_ogham_stones	false	0.0000	0	true	3		true	0	0		0
+rhox_nagash_special_standing_stones_others	rhox_nagash_special_standing_stones_others	0	6	6000	0		false	false			true	wh3_main_special_standing_stones	false	0.0000	0	true	1		true	0	0		0

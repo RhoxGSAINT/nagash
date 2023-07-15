@@ -1,4 +1,4 @@
-key	building	unit	xp	conditions	faction	enabled
+key	building	unit	XP	conditions	faction	enabled
 #building_units_allowed_tables;4;db/building_units_allowed_tables/jvj_nagash						
 8426830	nag_bpyramid_main_1	nag_vanilla_vmp_inf_zombie	0	0		false
 8426831	nag_bpyramid_main_1	nag_vanilla_tmb_inf_skeleton_spearmen_0	0	0		false
