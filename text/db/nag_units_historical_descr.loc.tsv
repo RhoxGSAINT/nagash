@@ -1,7 +1,6 @@
 key	text	tooltip
 #Loc;1;text/db/nag_units_historical_descr.loc		
 unit_description_historical_texts_text_nag_nagash_husk	I AM BACK!	false
-unit_description_historical_texts_text_nag_nagash_revenant	nag_nagash_revenant	false
 unit_description_historical_texts_text_nag_nagash_boss	The supreme evil is back, rather unsubtle with his huge pyramid and huge hat. 	false
 unit_description_historical_texts_text_nag_neferata	The First of the Vampires is an ancient and wicked soul, a beguiling and terrifying foe.	false
 unit_description_historical_texts_text_nag_morghasts	Ancient angels of Ptra, Nagash's pettiness in victory. The Morghasts are intelligent and powerful servants of the Great Necromancer.	false
