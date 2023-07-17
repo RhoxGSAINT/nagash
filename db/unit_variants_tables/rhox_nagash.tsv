@@ -1,7 +1,6 @@
 faction	unit	name	variant	unit_card
 #unit_variants_tables;5;db/unit_variants_tables/rhox_nagash				
 	nag_nagash_husk	nag_nagash_husk	nag_nagash_husk	nag_nagash_husk
-	nag_nagash_revenant	nag_nagash_revenant	nag_nagash_revenant	nag_nagash_revenant
 	nag_nagash_boss	nag_nagash_boss	nag_nagash_boss	nag_nagash_boss
 	nag_mortarch_neferata	nag_mortarch_neferata	nag_neferata	nag_mortarch_neferata
 	nag_mortarch_neferata_warhorse	nag_mortarch_neferata	nag_neferata_abyssal	nag_mortarch_neferata

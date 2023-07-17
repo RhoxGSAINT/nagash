@@ -5,11 +5,6 @@ encourages	nag_nagash_husk
 hide_forest	nag_nagash_husk
 undead	nag_nagash_husk
 spell_mastery	nag_nagash_husk
-causes_fear	nag_nagash_revenant
-causes_terror	nag_nagash_revenant
-encourages	nag_nagash_revenant
-hide_forest	nag_nagash_revenant
-undead	nag_nagash_revenant
 causes_fear	nag_nagash_boss
 causes_terror	nag_nagash_boss
 encourages	nag_nagash_boss
