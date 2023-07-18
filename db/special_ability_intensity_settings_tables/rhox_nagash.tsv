@@ -1,3 +1,22 @@
 ability	default_amount	max_amount	inverse	intensity_source	intensity_type
 #special_ability_intensity_settings_tables;2;db/special_ability_intensity_settings_tables/rhox_nagash					
 nag_nagash_abilities_mortis_blade	0.0000	500.0000	false	combined_time_in_melee_and_ability_wind_up	linear_multiplier
+wh_main_spell_nagash_dark_riders	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_dark_riders_upgraded	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_lore_nagash_raise_the_dead	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_hand_of_dust	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_hand_of_dust_upgraded	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_breath_of_darkness	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_breath_of_darkness_upgraded	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_harbinger	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_harbinger_upgraded	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_grave_call_hidden_dummy	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_grave_call_secondary_hidden_01	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_grave_call_secondary_hidden_02	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_soul_stealer	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_become_construct	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_grave_call_master	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_grave_call_master_upgraded	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_abyssal_swarm	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_abyssal_swarm_upgrade	1.0000	1.0000	false	mastery_of_elemental_winds	set
+wh_main_spell_nagash_floating_vandus_catus	1.0000	1.0000	false	mastery_of_elemental_winds	set
