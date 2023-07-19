@@ -857,8 +857,8 @@ function RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --used in other script
                 cm:trigger_incident_with_targets(cm:get_faction(nagash_faction):command_queue_index(), "rhox_nagash_azhag_mortarch", 0,0,
                 faction:faction_leader():cqi(), 0,0,0)
                 self:upgrade_into_mortarch(faction, faction_key, mort_key)
+                cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--for failsafe mission thing
             end
-            cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--for failsafe mission thing
         end,
         true
     )
@@ -887,24 +887,33 @@ function RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --used in other script
             return character:character_subtype_key() == "nag_nagash_boss" and character:rank() >= 40 and region_name == "wh3_main_combi_region_khazid_irkulaz" and cm:get_saved_value("rhox_nagash_mortarch_azhag_check") ~= true and character:faction():is_human()
         end,
         function(context)
-            cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--set it true regardless of result
-            local dilemma_builder = cm:create_dilemma_builder("rhox_nagash_azhag_recruit");
-            local payload_builder = cm:create_payload();
+            local character = context:character()
+            cm:callback( --above mission complete and this enter can happen in the same time
+                function()
+                    if cm:get_saved_value("rhox_nagash_mortarch_azhag_check") == true then
+                        return --above mission complete and this enter can happen in the same time
+                    end
+                    cm:set_saved_value("rhox_nagash_mortarch_azhag_check", true)--set it true regardless of result
+                    local dilemma_builder = cm:create_dilemma_builder("rhox_nagash_azhag_recruit");
+                    local payload_builder = cm:create_payload();
+                    
+                    
             
-            
-    
-            payload_builder:text_display("nag_azhag_will_join")
-            payload_builder:faction_pooled_resource_transaction("nag_warpstone", "nag_nagash_rituals", -40, true)
-            dilemma_builder:add_choice_payload("FIRST", payload_builder);
-            payload_builder:clear();
-            
-            dilemma_builder:add_choice_payload("SECOND", payload_builder);
-            
-            dilemma_builder:add_target("default", context:character());
-            
-            
-            
-            cm:launch_custom_dilemma_from_builder(dilemma_builder, context:character():faction());
+                    payload_builder:text_display("nag_azhag_will_join")
+                    payload_builder:faction_pooled_resource_transaction("nag_warpstone", "nag_nagash_rituals", -40, true)
+                    dilemma_builder:add_choice_payload("FIRST", payload_builder);
+                    payload_builder:clear();
+                    
+                    dilemma_builder:add_choice_payload("SECOND", payload_builder);
+                    
+                    dilemma_builder:add_target("default", character);
+                    
+                    
+                    
+                    cm:launch_custom_dilemma_from_builder(dilemma_builder, character:faction());
+                end,
+                1
+            )
         end,
         true
     )
