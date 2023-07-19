@@ -32,6 +32,7 @@ faction_key	campaign_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_unique_mannfred_armour_of_templehof		x	10
 		1	nag_skill_unique_mannfred_sword_of_unholy_power		x	5
 		1	nag_skill_mount_neferata_warhorse		x	6
+		1	nag_skill_mount_neferata_hellsteed		x	9
 		1	nag_skill_mount_neferata_abyssal		x	16
 		1	nag_skill_unique_neferatal_dagger_of_jet		x	7
 		1	nag_skill_unique_neferatal_staff_of_pain		x	11

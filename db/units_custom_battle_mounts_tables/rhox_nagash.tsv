@@ -29,3 +29,5 @@ nag_master_necromancer_0	nag_master_necromancer_2	UI/Campaign UI/mounts/mount_co
 nag_master_necromancer_0	nag_master_necromancer_3	UI/Campaign UI/mounts/mount_corpse_cart_with_lodestone.png
 nag_master_necromancer_0	nag_master_necromancer_4	ui/campaign ui/mounts/mount_hellsteed.png
 nag_master_necromancer_0	nag_master_necromancer_5	ui/campaign ui/mounts/mount_nightmare.png
+nag_lahmia_neferata	nag_lahmia_neferata_warhorse	ui/campaign ui/mounts/mount_barded_nightmare.png
+nag_lahmia_neferata	nag_lahmia_neferata_hellsteed	ui/campaign ui/mounts/mount_hellsteed.png

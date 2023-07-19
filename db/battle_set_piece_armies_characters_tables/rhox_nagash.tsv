@@ -18,3 +18,6 @@ nag_mortarch_neferata_abyssal	1	1937224334		100	1777692420	nag_mortarch_neferata
 nag_mortarch_isabella	1	1937224336		100	1777692421	nag_mortarch_isabella	dignitary	nag_mortarch_isabella	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	90909106		false
 nag_mortarch_isabella_warhorse	1	1937224336		100	1777692421	nag_mortarch_isabella_warhorse	dignitary	nag_mortarch_isabella	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	90909106		false
 nag_mortarch_isabella_hellsteed	1	1937224336		100	1777692421	nag_mortarch_isabella_hellsteed	dignitary	nag_mortarch_isabella	ui/portraits/portholes/no_culture/nag_mortarch_isabella.png	90909106		false
+nag_lahmia_neferata	1	1937224339		100	1777692420	nag_lahmia_neferata	general	nag_lahmia_neferata	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png	90909105		true
+nag_lahmia_neferata_warhorse	1	1937224339		100	1777692420	nag_lahmia_neferata_warhorse	general	nag_lahmia_neferata	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png	90909105		true
+nag_lahmia_neferata_hellsteed	1	1937224339		100	1777692420	nag_lahmia_neferata_hellsteed	general	nag_lahmia_neferata	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png	90909105		true

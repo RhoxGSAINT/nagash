@@ -227,6 +227,7 @@ hero				nag_characters	false
 			nag_cha_tomb_prince_2	nag_chariots	false
 			nag_mortarch_neferata	nag_vampiric	false
 			nag_mortarch_neferata_warhorse	nag_vampiric	false
+			nag_lahmia_neferata_hellsteed	nag_vampiric	false
 			nag_mortarch_neferata_abyssal	nag_vampiric	false
 			nag_mortarch_vlad	nag_vampiric	false
 			nag_mortarch_mannfred	nag_vampiric	false
@@ -255,6 +256,7 @@ hero				nag_characters	false
 			nag_mortarch_isabella_warhorse	nag_female_vampires	false
 			nag_mortarch_neferata	nag_female_vampires	false
 			nag_mortarch_neferata_warhorse	nag_female_vampires	false
+			nag_lahmia_neferata_hellsteed	nag_female_vampires	false
 			nag_mortarch_neferata_abyssal	nag_female_vampires	false
 			nag_mortarch_isabella	nag_vlad_to_isabella	false
 			nag_mortarch_isabella_hellsteed	nag_vlad_to_isabella	false
@@ -321,6 +323,7 @@ hero				nag_characters	false
 			nag_mortarch_neferata	nag_neferata_unit_set	false
 			nag_mortarch_neferata_abyssal	nag_neferata_unit_set	false
 			nag_mortarch_neferata_warhorse	nag_neferata_unit_set	false
+			nag_lahmia_neferata_hellsteed	nag_neferata_unit_set	false
 			nag_mortarch_vlad	nag_vlad_unit_set	false
 			nag_nagashi_guard	nag_nagashi_guard	false
 			nag_nagashi_guard_halb	nag_nagashi_guard	false
@@ -364,6 +367,7 @@ hero				nag_characters	false
 			nag_skeleton_reaper	nag_skeletons_plus	false
 			nag_mortarch_neferata	nag_mortarch_unit_set	false
 			nag_mortarch_neferata_warhorse	nag_mortarch_unit_set	false
+			nag_lahmia_neferata_hellsteed	nag_mortarch_unit_set	false
 			nag_mortarch_neferata_abyssal	nag_mortarch_unit_set	false
 			nag_mortarch_krell	nag_mortarch_unit_set	false
 			nag_mortarch_vlad	nag_mortarch_unit_set	false
@@ -495,6 +499,7 @@ hero				nag_characters	false
 			nag_doomed_legion	nag_infantry	false
 			nag_mortarch_neferata	nag_tech_spellcaster_lords	false
 			nag_mortarch_neferata_warhorse	nag_tech_spellcaster_lords	false
+			nag_lahmia_neferata_hellsteed	nag_tech_spellcaster_lords	false
 			nag_mortarch_neferata_abyssal	nag_tech_spellcaster_lords	false
 			nag_mortarch_vlad	nag_tech_spellcaster_lords	false
 			nag_mortarch_mannfred	nag_tech_spellcaster_lords	false

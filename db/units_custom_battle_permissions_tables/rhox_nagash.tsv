@@ -124,8 +124,9 @@ mixer_nag_nagash	false	nag_spectre_swarm	true	true				false		false
 mixer_nag_nagash	false	gp_nag_virion_plague_cart	true	true				false		false
 mixer_nag_nagash	false	nag_revenants	true	true				false		false
 mixer_nag_nagash	false	nag_undead_chariot_unit	true	true				false		false
-wh3_main_vmp_lahmian_sisterhood	true	nag_mortarch_neferata	true	true	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png			false		false
-wh3_main_vmp_lahmian_sisterhood	true	nag_mortarch_neferata_warhorse	true	true	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png			false		false
+wh3_main_vmp_lahmian_sisterhood	true	nag_lahmia_neferata	true	true	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png		nag_lahmia_neferata	false		false
+wh3_main_vmp_lahmian_sisterhood	true	nag_lahmia_neferata_warhorse	true	true	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png		nag_lahmia_neferata_warhorse	false		false
+wh3_main_vmp_lahmian_sisterhood	true	nag_lahmia_neferata_hellsteed	true	true	ui/portraits/portholes/no_culture/nag_lahmia_neferata.png		nag_lahmia_neferata_hellsteed	false		false
 mixer_nag_nagash	false	nag_doomed_legion	true	true				false		false
 mixer_nag_nagash	false	nag_blood_beasts	true	true				false		false
 mixer_nag_nagash	false	nag_thrall_crossbowmen	true	true				false		false
