@@ -11,11 +11,11 @@ nag_dread_kings_unique_mount_01		dread_skeletal_steed	nag_skill_node_set_mortarc
 nag_dread_kings_unique_mount_02		dread_pegasus	nag_skill_node_set_mortarch_dk		0.0000	3.0000		0	0	true
 nag_dread_kings_unique_mount_03		dread_zombie_dragon	nag_skill_node_set_mortarch_dk		0.0000	4.0000		0	0	true
 nag_dread_kings_unique_skills_01		Mighty_Warrior_tmb	nag_skill_node_set_mortarch_dk		1.0000	1.0000		0	0	true
-nag_dread_kings_unique_skills_02		Ancient_Necromancer	nag_skill_node_set_mortarch_dk		1.0000	2.0000		0	0	true
-nag_dread_kings_unique_skills_03		Lord_Of_The_Undead_tmb	nag_skill_node_set_mortarch_dk		1.0000	3.0000		0	0	true
-nag_dread_kings_unique_skills_04		Dark_Lord_Of_Nagash	nag_skill_node_set_mortarch_dk		1.0000	4.0000		0	0	true
-nag_dread_kings_unique_skills_05		Great_Summoner	nag_skill_node_set_mortarch_dk		1.0000	5.0000		0	0	true
-nag_dread_kings_unique_skills_06		Dread_Aura	nag_skill_node_set_mortarch_dk		1.0000	6.0000		0	0	true
+nag_dread_kings_unique_skills_02		Ancient_Necromancer	nag_skill_node_set_mortarch_dk		1.0000	2.0000		0	1	true
+nag_dread_kings_unique_skills_03		Lord_Of_The_Undead_tmb	nag_skill_node_set_mortarch_dk		1.0000	3.0000		0	1	true
+nag_dread_kings_unique_skills_04		Dark_Lord_Of_Nagash	nag_skill_node_set_mortarch_dk		1.0000	4.0000		0	1	true
+nag_dread_kings_unique_skills_05		Great_Summoner	nag_skill_node_set_mortarch_dk		1.0000	5.0000		0	1	true
+nag_dread_kings_unique_skills_06		Dread_Aura	nag_skill_node_set_mortarch_dk		1.0000	6.0000		0	4	true
 nag_skill_tmb_tomb_king_dread_personal_0		wh2_dlc09_skill_tmb_personal_base	nag_skill_node_set_mortarch_dk		2.0000	0.0000		0	0	true
 nag_skill_tmb_tomb_king_dread_personal_1		wh2_dlc09_skill_tmb_personal_conqueror	nag_skill_node_set_mortarch_dk		2.0000	1.0000		0	0	true
 nag_skill_tmb_tomb_king_dread_personal_10		wh2_dlc09_skill_tmb_personal_10	nag_skill_node_set_mortarch_dk		2.0000	10.0000		0	4	true
