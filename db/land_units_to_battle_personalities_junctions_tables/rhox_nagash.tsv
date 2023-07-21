@@ -61,3 +61,6 @@ nag_hero_warsphinx_rider_0	nag_hero_warsphinx_summon	autonomous_rider	ap_crewpos
 nag_hero_warsphinx_rider_1	nag_hero_warsphinx_summon	autonomous_rider	ap_crewposition_1	-1
 nag_hero_warsphinx_rider_2	nag_hero_warsphinx_summon	autonomous_rider	ap_crewposition_2	-1
 nag_hero_warsphinx_rider_3	nag_hero_warsphinx_summon	autonomous_rider	ap_crewposition_3	-1
+nag_neferata_abyssal	nag_mortarch_neferata_abyssal	officer		-1
+nag_mannfred_abyssal	nag_mortarch_mannfred_abyssal	officer		-1
+nag_arkhan_abyssal	nag_mortarch_arkhan_abyssal	officer		-1
