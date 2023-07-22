@@ -160,7 +160,7 @@ function rhox_nagash_add_black_pyramid_listener()
             return context.string == "icon_effect" and cm:get_faction(nagash_faction):has_effect_bundle("rhox_nagash_avail")
         end,
         function ()
-            cm:treasury_mod(nagash_faction, 1)
+            --cm:treasury_mod(nagash_faction, 1)
             rhox_nagash_begin_bp_raise()
         end,
         true

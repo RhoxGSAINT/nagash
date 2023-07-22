@@ -976,6 +976,9 @@ function RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --used in other script
             local archai = cm:create_agent(faction:name(), "spy", "nag_morghasts_archai",x,y,false,nil)
             if archai then
                 cm:replenish_action_points(cm:char_lookup_str(archai))
+                if mort_character then
+                    cm:add_agent_experience(cm:char_lookup_str(archai), math.floor(mort_character:rank()), true)
+                end
             end
             
         end,
