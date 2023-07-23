@@ -6,7 +6,9 @@ local choice_string ={
     "FIRST",
     "SECOND",
     "THIRD",
-    "FOURTH"
+    "FOURTH",
+    "FIFTH",
+    "CANCEL"
 }
 
 
@@ -41,8 +43,8 @@ local function rhox_nagash_find_closest_settlements_and_trigger_dilemma(characte
         local dilemma_builder = cm:create_dilemma_builder("rhox_nagash_bp_fly");
         local payload_builder = cm:create_payload();
         payload_builder:faction_pooled_resource_transaction("nag_warpstone", "nag_nagash_rituals", -1, true)
-        local count =3 
-        if #rhox_settlement_candidate_table < 3 then
+        local count =5 
+        if #rhox_settlement_candidate_table < 5 then
             count = #rhox_settlement_candidate_table
         end
 
@@ -50,7 +52,7 @@ local function rhox_nagash_find_closest_settlements_and_trigger_dilemma(characte
             dilemma_builder:add_choice_payload(choice_string[i], payload_builder);
         end
         payload_builder:clear();
-        dilemma_builder:add_choice_payload(choice_string[4], payload_builder);
+        dilemma_builder:add_choice_payload(choice_string[6], payload_builder);
         cm:launch_custom_dilemma_from_builder(dilemma_builder, cm:get_faction("mixer_nag_nagash"));
     end
 end
@@ -83,7 +85,7 @@ cm:add_first_tick_callback(
             function(context)
                 local dilemma = context:dilemma();
                 local choice = context:choice();
-                return dilemma == "rhox_nagash_bp_fly" and choice ~=3 and choice < #rhox_settlement_candidate_table; --choice starts from 0 --second is to prevent giving the trait in the case of Chaos wastes
+                return dilemma == "rhox_nagash_bp_fly" and choice ~=5 and choice < #rhox_settlement_candidate_table; --choice starts from 0 --second is to prevent giving the trait in the case of Chaos wastes
             end,
             function(context)
                 rhox_nagash_used_teleport = true
@@ -116,8 +118,8 @@ cm:add_first_tick_callback(
                 function(context)
 
                     cm:callback(function()
-                        local dilemma_choice_count=3
-                        if #rhox_settlement_candidate_table < 3 then
+                        local dilemma_choice_count=5
+                        if #rhox_settlement_candidate_table < 5 then
                             dilemma_choice_count= #rhox_settlement_candidate_table
                         end
                     
