@@ -519,3 +519,8 @@ effects_description_nag_dk_hand_effect_force_stat_weapon_strength_nag_dk	Weapon 
 effects_description_nag_dk_hand_effect_force_stat_missile_damage_nag_dk	Missile strength: %+n% for Dread King units	false
 effects_description_nag_dk_hand_effect_force_stat_leadership_nag_dk	Leadership: %+n for Dread King units	false
 effects_description_nag_dk_hand_effect_force_stat_melee_attack_nag_dk	Melee attack: %+n for Dread King units	false
+effects_description_nag_effect_force_stat_bonus_vs_large_dk_elephant	Bonus vs Large: %+n for Skeletal Elephant units	false
+effects_description_nag_effect_force_stat_speed_dk_missile	Speed: %+n% for Skeleton Javelinmen and Royal Peltasts units.	false
+effects_description_nag_effect_force_stat_armour_dk	Armour: %+n for all Dread King units	false
+effects_description_nag_effect_enable_attribute_devastating_flanker_dk_cavalry	Attribute: Devastating Flanker for Royal Guard Lancer units	false
+effects_description_nag_effect_force_stat_ward_save_dk_infantry	Ward save: %+n% for Skeleton Hoplites, Skeleton Pikeman, and Royal Guards units	false

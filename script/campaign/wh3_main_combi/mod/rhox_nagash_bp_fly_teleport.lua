@@ -108,7 +108,7 @@ cm:add_first_tick_callback(
                 return context:dilemma() == "rhox_nagash_bp_fly"
             end,
             function(context)
-                
+                out("Rhox Nagash: Dilemma issued calling changing the choice listener")
                 core:add_listener(
                 "rhox_nagash_dilemma_panel_listener",
                 "PanelOpenedCampaign",
