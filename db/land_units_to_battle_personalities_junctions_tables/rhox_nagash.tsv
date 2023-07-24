@@ -64,3 +64,6 @@ nag_hero_warsphinx_rider_3	nag_hero_warsphinx_summon	autonomous_rider	ap_crewpos
 nag_neferata_abyssal	nag_mortarch_neferata_abyssal	officer		-1
 nag_mannfred_abyssal	nag_mortarch_mannfred_abyssal	officer		-1
 nag_arkhan_abyssal	nag_mortarch_arkhan_abyssal	officer		-1
+wh2_dlc09_tmb_chariot_rider_0	nag_cha_tomb_king_2	autonomous_rider	ap_crewposition_0	-1
+wh2_dlc09_tmb_chariot_rider_1_king	nag_cha_tomb_king_2	autonomous_rider	ap_crewposition_1	-1
+wh2_dlc09_tmb_warsphinx_rider_tomb_king	nag_cha_tomb_king_3	officer	ap_crewposition_0	-1
