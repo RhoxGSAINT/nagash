@@ -34,24 +34,36 @@ function rhox_nagash_add_teleport_listener()
         "rhox_nagash_teleport_check",
         "FactionTurnStart",
         function (context)
-            return context:faction():name() == nagash_faction
+            return context:faction():name() == nagash_faction and cm:get_saved_value("rhox_nagash_teleport_made") ~=true
         end,
         function (context)
             local region = cm:get_region("wh3_main_combi_region_ancient_city_of_quintex")
             local owner = region:owning_faction()
 
 
-            if owner:name() == nagash_faction then--and region:building_exists("wh2_main_special_tower_of_hoeth_2") then --not doing building now as we don't have a building
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_broken_teeth");
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_marshes_of_madness");
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_southern_sylvania");
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_land_of_the_dead");
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_vampire_coast");
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_titan_peaks");
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_crater_of_the_waking_dead");
+            if owner and owner:name() == nagash_faction then
+                cm:set_saved_value("rhox_nagash_teleport_made", true)
+                if cm:model():campaign_name_key() == "cr_combi_expanded" then
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_broken_teeth_iee");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_marshes_of_madness_iee");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_southern_sylvania_iee");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_land_of_the_dead_iee");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_vampire_coast_iee");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_titan_peaks_iee");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_crater_of_the_waking_dead_iee");
+                else
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_broken_teeth");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_marshes_of_madness");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_southern_sylvania");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_land_of_the_dead");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_vampire_coast");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_titan_peaks");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_crater_of_the_waking_dead");
+                end
+                
             end
         end,
-        false
+        true
     );
         
         
@@ -60,7 +72,7 @@ function rhox_nagash_add_teleport_listener()
 		"TeleportationNetworkMoveCompleted",
 		function(context)
 			local character = context:character():character();
-			if not character:is_null_interface() and context:success() and character:has_military_force() and context:from_record():network_key() == "rhox_nagash_teleportation_network" and not cm:get_faction(nagash_faction):has_effect_bundle("rhox_nagash_disabled") then --rhox_nagash_disabled means it's using the tunnel. Don't call this invasion thing.
+			if not character:is_null_interface() and context:success() and character:has_military_force() and (context:from_record():network_key() == "rhox_nagash_teleportation_network" or context:from_record():network_key() == "rhox_nagash_teleportation_network_iee") then
 				local faction = character:faction();
 				
 				return faction:is_human();

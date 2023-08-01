@@ -2,3 +2,5 @@ key	campaign	traveller_requirements	permitted_agents	travel_time
 #teleportation_networks_tables;0;db/teleportation_networks_tables/rhox_nagash				
 rhox_nagash_teleportation_network	wh3_main_combi	any	all_agents	0
 rhox_nagash_mountain_pass	wh3_main_combi	any	all_agents	0
+rhox_nagash_teleportation_network_iee	cr_combi_expanded	any	all_agents	0
+rhox_nagash_mountain_pass_iee	cr_combi_expanded	any	all_agents	0

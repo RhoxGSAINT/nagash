@@ -187,8 +187,6 @@ local function add_nagash_listener()
             if num == 5 then
                 out("Rhox Nagash number 5")
                 --- last mission, TP through
-                --cm:teleportation_network_close_node("rhox_nagash_combi_province_the_desolation_of_nagash");
-                --cm:teleportation_network_close_node("rhox_nagash_combi_province_barrier_idols"); --don't close it. It's just a mountain pass
                 
                 local unlock_tech_table = RHOX_NAGASH_MORTARCH.rhox_nagash_unlock_techs["nag_mortarch_arkhan_unlock"]
                 for i, technology in pairs(unlock_tech_table) do
@@ -232,8 +230,13 @@ local function add_nagash_listener()
             elseif num == 4 then 
                 out("Rhox Nagash number 4")
                 cm:trigger_mission(nag_fact, "nagash_intro_5", true, false)
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_the_desolation_of_nagash");
-                cm:teleportation_network_open_node("rhox_nagash_combi_province_barrier_idols");
+                if cm:model():campaign_name_key() == "cr_combi_expanded" then
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_the_desolation_of_nagash_iee");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_barrier_idols_iee");
+                else
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_the_desolation_of_nagash");
+                    cm:teleportation_network_open_node("rhox_nagash_combi_province_barrier_idols");
+                end
 
 
             elseif num == 3 then
@@ -270,12 +273,18 @@ local function add_nagash_listener()
         end,
         true
     )
+    local rhox_nagash_teleportation_networks={
+        rhox_nagash_teleportation_network=true,
+        rhox_nagash_mountain_pass=true,
+        rhox_nagash_teleportation_network_iee=true,
+        rhox_nagash_mountain_pass_iee=true
+    }
     core:add_listener(
 		"nagash_character_uses_nagash_rift",
 		"TeleportationNetworkMoveCompleted",
 		function(context)
 			local character = context:character():character();
-			if not character:is_null_interface() and context:success() and context:from_record():network_key() == "rhox_nagash_teleportation_network" then
+			if not character:is_null_interface() and context:success() and rhox_nagash_teleportation_networks[context:from_record():network_key()] then
 				local faction = character:faction();
 				
 				return faction:is_human();
@@ -425,15 +434,20 @@ end
 -----------------this is to remove the black pyramid and vampire rise endgame
 cm:add_post_first_tick_callback(
     function()
-        if #endgame.scenarios > 0 then --there is something in the end game scenarios
-            for i=1, #endgame.scenarios do
-                local value = endgame.scenarios[i]
-                if value == "endgame_pyramid_of_nagash" or value == "endgame_vampires_rise" then
-                    table.remove(endgame.scenarios, i) --remove black pryramid or vampire rise
-                    break
+        cm:callback(
+			function()
+                if #endgame.scenarios > 0 then --there is something in the end game scenarios
+                    for i=1, #endgame.scenarios do
+                        local value = endgame.scenarios[i]
+                        if value == "endgame_pyramid_of_nagash" or value == "endgame_vampires_rise" then
+                            table.remove(endgame.scenarios, i) --remove black pryramid or vampire rise
+                            break
+                        end
+                    end
                 end
-            end
-        end
+            end,
+			2
+		)
     end
 )
 
