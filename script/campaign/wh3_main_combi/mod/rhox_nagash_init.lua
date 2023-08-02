@@ -22,6 +22,8 @@ local function rhox_nagash_init_setting()
     cm:heal_garrison(cm:get_region("wh3_main_combi_region_desolation_of_nagash"):cqi());
     local nagash_character_type = "nag_nagash_boss"
     
+    cm:override_building_chain_display("wh_main_VAMPIRES_settlement_major", "cr_nag_special_settlement_nagashizzar", "wh3_main_combi_region_nagashizzar")
+    
     if cm:get_faction(nagash_faction):is_human() then
         local nagashizzar_settlement = capital_region:settlement()
         cm:instantly_set_settlement_primary_slot_level(nagashizzar_settlement , 1)--for human only

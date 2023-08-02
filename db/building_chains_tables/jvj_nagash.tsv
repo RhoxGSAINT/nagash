@@ -64,3 +64,4 @@ nag_resource_spices			money	false	wh2_main_sch_resource_spices		10		true
 nag_resource_ivory			money	false	wh3_main_sch_human_resource_ivory		10		true
 nag_outpost_special_blackpyramid			money	false	wh_main_sch_main_settlement		0		true
 nag_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false
+cr_nag_special_settlement_nagashizzar			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_vampire_city.png	0		true
