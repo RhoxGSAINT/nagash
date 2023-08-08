@@ -6,3 +6,5 @@ undead_unit_saving_postbattle	rhox_nagash_feature_group	true
 vampiric_mercenary_recruitment	rhox_nagash_feature_group	true
 bribery	rhox_nagash_lahmia_feature	true
 character_tagging	rhox_nagash_lahmia_feature	true
+master_faithful_vassals	rhox_nagash_feature_group	true
+master_faithful_vassals	rhox_nagash_lahmia_feature	true

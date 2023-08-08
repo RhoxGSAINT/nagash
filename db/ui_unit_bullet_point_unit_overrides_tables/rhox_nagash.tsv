@@ -174,3 +174,6 @@ armoured	nag_lahmia_neferata_hellsteed
 melee_expert	nag_lahmia_neferata_hellsteed
 spellcaster	nag_lahmia_neferata_hellsteed
 very_fast	nag_lahmia_neferata_hellsteed
+anti_infantry	nag_hero_team_summon
+armoured_and_shielded	nag_hero_team_summon
+spellcaster	nag_hero_team_summon
