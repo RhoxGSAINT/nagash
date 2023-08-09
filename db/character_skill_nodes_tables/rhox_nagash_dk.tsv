@@ -1,15 +1,16 @@
 key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;5;db/character_skill_nodes_tables/rhox_nagash_dk										
 nag_dread_king_mentor		wh3_main_skill_all_mentor_lord	nag_skill_node_set_mortarch_dk		0.0000	11.0000		0	0	true
-nag_skill_tmb_tomb_king_dread_misc_0		wh2_dlc09_skill_tmb_tomb_king_returned_in_madness	nag_skill_node_set_mortarch_dk		0.0000	5.0000		0	0	true
-nag_skill_tmb_tomb_king_dread_misc_1		wh2_dlc09_skill_tmb_tomb_king_ancient_tyrant	nag_skill_node_set_mortarch_dk		0.0000	6.0000		0	0	true
-nag_skill_tmb_tomb_king_dread_misc_2		wh2_dlc09_skill_tmb_tomb_king_embalmed_in_elixir	nag_skill_node_set_mortarch_dk		0.0000	7.0000		0	0	true
-nag_skill_tmb_tomb_king_dread_misc_3		wh2_dlc09_skill_tmb_tomb_king_ceremonial_bandages	nag_skill_node_set_mortarch_dk		0.0000	8.0000		0	0	true
-nag_skill_tmb_tomb_king_dread_misc_4		wh_main_skill_vmp_lord_unique_loremaster_lore_of_vampires	nag_skill_node_set_mortarch_dk		0.0000	9.0000		0	0	true
+nag_skill_tmb_tomb_king_dread_misc_0		wh2_dlc09_skill_tmb_tomb_king_returned_in_madness	nag_skill_node_set_mortarch_dk		0.0000	6.0000		0	0	true
+nag_skill_tmb_tomb_king_dread_misc_1		wh2_dlc09_skill_tmb_tomb_king_ancient_tyrant	nag_skill_node_set_mortarch_dk		0.0000	7.0000		0	0	true
+nag_skill_tmb_tomb_king_dread_misc_2		wh2_dlc09_skill_tmb_tomb_king_embalmed_in_elixir	nag_skill_node_set_mortarch_dk		0.0000	8.0000		0	0	true
+nag_skill_tmb_tomb_king_dread_misc_3		wh2_dlc09_skill_tmb_tomb_king_ceremonial_bandages	nag_skill_node_set_mortarch_dk		0.0000	9.0000		0	0	true
+nag_skill_tmb_tomb_king_dread_misc_4		wh_main_skill_vmp_lord_unique_loremaster_lore_of_vampires	nag_skill_node_set_mortarch_dk		0.0000	10.0000		0	0	true
 nag_dread_kings_unique_weapon_01		nag_Soulreaper	nag_skill_node_set_mortarch_dk		0.0000	1.0000		0	0	true
-nag_dread_kings_unique_mount_01		dread_skeletal_steed	nag_skill_node_set_mortarch_dk		0.0000	2.0000		0	0	true
-nag_dread_kings_unique_mount_02		dread_pegasus	nag_skill_node_set_mortarch_dk		0.0000	3.0000		0	0	true
-nag_dread_kings_unique_mount_03		dread_zombie_dragon	nag_skill_node_set_mortarch_dk		0.0000	4.0000		0	0	true
+nag_dread_kings_unique_weapon_02		nag_dread_black_jewel	nag_skill_node_set_mortarch_dk		0.0000	2.0000		0	0	true
+nag_dread_kings_unique_mount_01		dread_skeletal_steed	nag_skill_node_set_mortarch_dk		0.0000	3.0000		0	0	true
+nag_dread_kings_unique_mount_02		dread_pegasus	nag_skill_node_set_mortarch_dk		0.0000	4.0000		0	0	true
+nag_dread_kings_unique_mount_03		dread_zombie_dragon	nag_skill_node_set_mortarch_dk		0.0000	5.0000		0	0	true
 nag_dread_kings_unique_skills_01		Mighty_Warrior_tmb	nag_skill_node_set_mortarch_dk		1.0000	1.0000		0	0	true
 nag_dread_kings_unique_skills_02		Ancient_Necromancer	nag_skill_node_set_mortarch_dk		1.0000	2.0000		0	1	true
 nag_dread_kings_unique_skills_03		Lord_Of_The_Undead_tmb	nag_skill_node_set_mortarch_dk		1.0000	3.0000		0	1	true

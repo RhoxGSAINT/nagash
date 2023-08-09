@@ -556,3 +556,5 @@ character_skills_localised_name_nag_skill_grn_lord_unique_azhag_skullmuncha	Skul
 character_skills_localised_description_nag_skill_grn_lord_unique_azhag_skullmuncha	Skullmuncha is Azhag’s wyvern - an incredibly vicious and temperamental beast that will only tolerate the Slaughterer on its back.	false
 character_skills_localised_description_nag_skill_mount_neferata_hellsteed	Hellsteeds are vicious. Vampires that dabble in the binding of beasts delight in breaking these wild creatures to their will.	false
 character_skills_localised_name_nag_skill_mount_neferata_hellsteed	Hellsteed	false
+character_skills_localised_name_nag_dread_black_jewel	Heart of Blackness	true
+character_skills_localised_description_nag_dread_black_jewel	The Black Jewel of the Dread King contains his very soul. Embedded in his rib cage, it beats like an obscene, black and glistening heart.	true

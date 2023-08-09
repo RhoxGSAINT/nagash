@@ -440,3 +440,5 @@ ancillaries_explanation_text_nag_anc_mount_grn_azhag_skullmuncha		false
 ancillaries_colour_text_nag_anc_mount_neferata_hellsteed	Hellsteeds are the unholy fusion of horse and giant bat, bound by Dark Magic - a fitting steed for a Vampire noble.	false
 ancillaries_explanation_text_nag_anc_mount_neferata_hellsteed		false
 ancillaries_onscreen_name_nag_anc_mount_neferata_hellsteed	Hellsteed	false
+ancillaries_colour_text_nag_dread_black_jewel	The Black Jewel of the Dread King contains his very soul. Embedded in his rib cage, it beats like an obscene, black and glistening heart.	false
+ancillaries_onscreen_name_nag_dread_black_jewel	Heart of Blackness	false

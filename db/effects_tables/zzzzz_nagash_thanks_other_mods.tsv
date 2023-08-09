@@ -2,3 +2,4 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/zzzzz_nagash_thanks_other_mods					
 elo_hand_punished_one	general_ability.png	6	general_ability.png	battle	true
 elo_hungering_blade	general_ability.png	6	general_ability.png	battle	true
+dread_black_jewel	general_ability.png	300	general_ability.png	battle	true
