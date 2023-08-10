@@ -282,7 +282,6 @@ hero				nag_characters	false
 			nag_vanilla_tmb_mon_sepulchral_stalkers_0	nag_tech_sepulchral_stalkers	false
 			nag_vanilla_cst_mon_necrofex_colossus_0	nag_constructs_unit_set	false
 			nag_bone_colossus	wh2_main_ror_units_all	false
-			nag_virion_plaguecart	wh2_main_ror_units_all	false
 			nag_revenants	wh2_main_ror_units_all	false
 			nag_warp_ghouls	nag_beasts_unit_set	false
 			nag_vanilla_tmb_inf_tomb_guard_0	nag_tomb_guard	false
@@ -534,7 +533,7 @@ hero				nag_characters	false
 			nag_thrall_handgunners	nag_thrall_units	false
 			nag_thrall_crossbowmen	nag_vampiric	false
 			nag_thrall_handgunners	nag_vampiric	false
-			gp_nag_virion_plague_cart	wh2_main_ror_units_all	false
+			nag_virion_plaguecart	wh2_main_ror_units_all	false
 			wh_dlc02_vmp_cav_blood_knights_0	nag_vampiric	false
 			wh_main_vmp_mon_varghulf	nag_vampiric	false
 			wh_main_vmp_mon_vargheists	nag_vampiric	false

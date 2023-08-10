@@ -21,7 +21,6 @@ local modded_units_nagash_compatch = {
     {"nag_bone_golems", "special", 2},
     {"nag_thrall_crossbowmen", "special", 2},    
     {"nag_virion_plaguecart", "special", 3},
-    {"gp_nag_virion_plague_cart", "special", 3},    
 
     --Rare
     {"nag_bone_thrower", "rare", 1},

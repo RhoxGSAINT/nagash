@@ -112,10 +112,6 @@ nag_spirit_host_aoe	nag_spirit_hosts
 terror	nag_spectre_swarm
 ethereal	nag_spectre_swarm
 nag_spirit_host_aoe	nag_spectre_swarm
-magical_aura	nag_virion_plaguecart
-regeneration	nag_virion_plaguecart
-ethereal	nag_virion_plaguecart
-armour_piercing	nag_virion_plaguecart
 armour_piercing	nag_revenants
 armoured	nag_revenants
 wraithlike	nag_revenants
@@ -157,10 +153,10 @@ good_range	nag_thrall_crossbowmen
 rampage	nag_thrall_crossbowmen
 armour_piercing_ranged	nag_thrall_handgunners
 rampage	nag_thrall_handgunners
-magical_aura	gp_nag_virion_plague_cart
-regeneration	gp_nag_virion_plague_cart
-ethereal	gp_nag_virion_plague_cart
-armour_piercing	gp_nag_virion_plague_cart
+magical_aura	nag_virion_plaguecart
+regeneration	nag_virion_plaguecart
+ethereal	nag_virion_plaguecart
+armour_piercing	nag_virion_plaguecart
 anti_infantry	burning_dead_ror
 armoured	burning_dead_ror
 damage_dealer	burning_dead_ror
