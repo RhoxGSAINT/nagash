@@ -252,15 +252,15 @@ RHOX_NAGASH_MORTARCH.mort_key_to_units={
         "vigpro_nagash_skeleton_giant",
     },
     ["nag_mortarch_dk"]={
-        "ovn_dk_inf_skeleton_javelinmen_no_caps",
-        "ovn_dk_inf_skeleton_javelinmen_no_caps",
-        "ovn_dk_mon_skeleton_elephant",
-        "ovn_dk_inf_skeleton_hoplites",
-        "ovn_dk_inf_skeleton_hoplites",
-        "ovn_dk_cav_royal_guard_lancers",
-        "ovn_dk_inf_skeleton_pikemen",
-        "ovn_dk_inf_tomb_guardian",
-        "ovn_dk_inf_tomb_guardian_peltasts"
+        "nagash_ovn_dk_inf_skeleton_javelinmen_no_caps",
+        "nagash_ovn_dk_inf_skeleton_javelinmen_no_caps",
+        "nagash_ovn_dk_mon_skeleton_elephant",
+        "nagash_ovn_dk_inf_skeleton_hoplites",
+        "nagash_ovn_dk_inf_skeleton_hoplites",
+        "nagash_ovn_dk_cav_royal_guard_lancers",
+        "nagash_ovn_dk_inf_skeleton_pikemen",
+        "nagash_ovn_dk_inf_tomb_guardian",
+        "nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts"
     }
 }
 
