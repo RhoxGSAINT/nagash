@@ -673,7 +673,7 @@ cm:add_first_tick_callback(
 		
         ------------this is the part for every first tick regardless of AI or human
         table.insert(campaign_traits.trait_exclusions["culture"]["wh2_main_trait_corrupted_vampire"],"mixer_nag_nagash") --so they shouldn't get it
-        
+        waaagh.rewards["undead"].culture["mixer_nag_nagash"]=true --waaagh thing
 	end
 )
 
