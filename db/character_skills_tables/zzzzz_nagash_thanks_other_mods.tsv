@@ -13,7 +13,8 @@ nag_vmp_dieter_helsnicht_special_in_the_shadows	mixu_character_bst_another_hand.
 nag_vmp_dieter_helsnicht_special_secrets_of_nagashizzar 	mixu_character_blood_book.png			0	false	false	false	0.0000	0
 nag_skill_vmp_dieter_helsnicht_item_01	item_weapon.png			0	false	false	false	0.0000	0
 nag_skill_vmp_dieter_helsnicht_item_02	item_arcane_item.png			0	false	false	false	0.0000	0
-nag_skill_innate_vmp_dieter_helsnicht	trait_mortarch.png			0	true	false	false	5.0000	0
+nag_skill_mortarch_innate_dieter	trait_mortarch.png			0	true	false	false	5.0000	0
+nag_skill_mortarch_innate_dread	trait_mortarch.png			0	true	false	false	5.0000	0
 dread_skeletal_steed				0	false	false	false	0.0000	0
 dread_pegasus				0	false	false	false	0.0000	0
 dread_zombie_dragon				0	false	false	false	0.0000	0

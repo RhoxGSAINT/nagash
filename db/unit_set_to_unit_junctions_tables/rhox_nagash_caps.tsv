@@ -66,3 +66,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			vigpro_nagash_skeleton_goblin_range	nag_effect_unit_cap_skeleton_goblin_melee	false
 			vigpro_nagash_skeleton_troll_1h	nag_effect_unit_cap_skeleton_troll_1h	false
 			vigpro_nagash_skeleton_troll_2h	nag_effect_unit_cap_skeleton_troll_2h	false
+			nag_bone_colossus	nag_effect_unit_cap_nag_bone_colossus	false

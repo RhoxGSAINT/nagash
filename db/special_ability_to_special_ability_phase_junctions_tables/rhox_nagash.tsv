@@ -68,3 +68,4 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 1	nag_unit_passive_fresh_hunger	true	false	false	nag_unit_passive_fresh_hunger
 1	nag_bound_spell_nagash_hand_of_dust	false	false	true	nag_nagash_hand_of_dust_01
 2	nag_bound_spell_nagash_hand_of_dust	false	false	true	nag_nagash_hand_of_dust_02
+1	nag_unit_passive_dread_prowess	true	false	false	nag_unit_passive_dread_prowess

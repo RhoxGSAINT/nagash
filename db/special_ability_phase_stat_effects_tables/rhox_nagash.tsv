@@ -69,3 +69,5 @@ nag_azhag_abilities_reckless_whispers_iii	stat_charge_bonus	24.0000	add
 nag_azhag_abilities_reckless_whispers_iv	scalar_spell_mastery	1.5000	mult
 nag_nagash_abilities_master_arcane_conduit	scalar_spell_mastery	1.2000	mult
 nag_nagash_abilities_crown_of_sorcery	scalar_spell_mastery	1.3000	mult
+nag_unit_passive_dread_prowess	stat_morale	12.0000	add
+nag_unit_passive_dread_prowess	stat_melee_defence	4.0000	add

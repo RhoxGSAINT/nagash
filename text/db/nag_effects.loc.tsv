@@ -401,7 +401,7 @@ effects_description_nag_effect_arkhan_devastating_flanker_chariots	Attribute: De
 effects_description_rhox_nagash_all_vassal_dummy	All Undead factions will become your vassal	false
 effects_description_rhox_nagash_zombie_apocalypse_dummy	Endless ranks of Undead armies will rise from the dead	false
 effects_description_rhox_nagash_rift_dummy	Creats a rift that connects all the important places of Nagash	false
-effects_description_rhox_nagash_brain_searching_dummy	Has access to 'Searching for Brain' stance	false
+effects_description_rhox_nagash_brain_searching_dummy	Has access to the 'Empower' stance which replaces the 	false
 effects_description_nag_effect_force_stat_melee_attack_vs_daemons	Melee attack: %+n when fighting against Daemons of Chaos	false
 effects_description_nag_effect_force_stat_ward_save_vs_daemons	Ward save: %n% when fighting against Daemons of Chaos	false
 effects_description_rhox_nagash_effect_campaign_enable_attrition	Enables [[img:icon_attrition]][[/img]]attrition	false
@@ -523,3 +523,5 @@ effects_description_nag_effect_force_stat_speed_dk_missile	Speed: %+n% for Skele
 effects_description_nag_effect_force_stat_armour_dk	Armour: %+n for all Dread King units	false
 effects_description_nag_effect_enable_attribute_devastating_flanker_dk_cavalry	Attribute: Devastating Flanker for Royal Guard Lancer units	false
 effects_description_nag_effect_force_stat_ward_save_dk_infantry	Ward save: %+n% for Skeleton Hoplites, Skeleton Pikeman, and Royal Guards units	false
+effects_description_nag_effect_force_stat_defence_skele_inf_defending	Melee defence: %+n when defending for all Skeletal Infantry units	false
+effects_description_nag_effect_force_stat_attack_skele_cav_attacking	Charge bonus: %+n when attacking for all Skeletal Cavalry units	false

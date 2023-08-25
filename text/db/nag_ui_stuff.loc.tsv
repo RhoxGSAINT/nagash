@@ -13,12 +13,12 @@ nag_nagash_name_krell	Krell, Mortarch of Despair	false
 nag_nagash_name_isabella	Isabella von Carstein	false
 campaign_effect_scopes_localised_text_rhox_nagash_building_to_region		false
 nag_nagash_name_dieter	Dieter, Mortarch of Doom	false
-nag_nagash_name_azhag	Azhag, "Mortarch" of Destruction	false
+nag_nagash_name_azhag	Azhag, "Mortarch of Destruction"	false
 campaign_effect_scopes_localised_text_nagash_building_to_force_own_provincewide	\\n(provincewide)	false
 uied_component_texts_localised_string_rhox_nagash_place_of_death_tooltip	Places of Death||These sites of power are of outmost importance to complete The Great Ritual.	false
 rhox_nagash_short_victory_text	Perform The Ritual of Ascension in the Black Pyramid and restore Nagash to his true self!	false
 rhox_nagash_long_victory_text	Perform The Great Ritual by researching the technology [[img:icon_tech]][[/img]][[col:yellow]]The Final Step[[/col]]	false
-nag_nagash_name_dk	Dread King, Mortarch of Dread	false
+nag_nagash_name_dk	Dread King, Mortarch of Omens	false
 nag_nagash_name_hand	Hand of Nagash	false
 nag_nagash_name_drekla	Captain Drekla	false
 campaign_localised_strings_string_rhox_nagash_doomed_legion_lock	[[col:red]]This unit will unlock after researching technology [[img:icon_tech]][[/img]]Skull Collector[[/col]]	false

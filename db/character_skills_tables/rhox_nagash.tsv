@@ -236,3 +236,4 @@ nag_elo_dark_charioteer	battle_attack.png		elo_dark_charioteer	0	false	false	fal
 nag_skill_vmp_vlad_unique_immortal_levies	campaign_army.png	The living have no place alongside the dead, which leaves an interesting dilema for those that call themselves "living"...	Immortal Levies	0	false	false	false	0.0000	0
 nag_mixu_cst_drekla_weapon_the_silver_hook_of_sartosa	item_weapon.png			0	false	false	false	0.0000	0
 nag_mixu_cst_drekla_talisman_king_kalhazzars_sun_blanched_skull	item_enchanted_item.png			0	false	false	false	0.0000	0
+nag_skill_personal_dk_dread_aura	wh2_dlc09_character_passive_befalling_curse.png		Dread Aura	0	false	false	false	0.0000	0

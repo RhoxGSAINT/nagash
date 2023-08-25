@@ -298,7 +298,12 @@ character_skills_localised_name_nag_skill_mortarch_innate_luthor	Mortarch of the
 character_skills_localised_description_nag_skill_mortarch_innate_luthor	"Truth be told, one of us thought he had a really fancy hat."	true
 character_skills_localised_name_nag_skill_mortarch_innate_neferata	Mortarch of Blood	true
 character_skills_localised_description_nag_skill_mortarch_innate_neferata	A spider queen, amidst her web of thralls, handmaidens and lies.	true
-character_skills_localised_name_nag_skill_mortarch_innate_isabella	The Countess of Sylvania	true
+character_skills_localised_name_nag_skill_mortarch_innate_dieter	Mortarch of Doom	false
+character_skills_localised_description_nag_skill_mortarch_innate_dieter	Master of rituals and agent of madness, not only doom in name, but in heart, body and soul.	false
+character_skills_localised_name_nag_skill_mortarch_innate_dread	Mortarch of Omens	false
+character_skills_localised_description_nag_skill_mortarch_innate_dread	A Dark Omen, prophecies of twin moons uniting in darkness, the dead walking the earth once more.	false
+character_skills_localised_name_nag_skill_mortarch_innate_azhag	"Mortarch of Destruction"	true
+character_skills_localised_description_nag_skill_mortarch_innate_azhag	A warlord, a pawn, nothing more than a puppet, dancing to his will.	true
 character_skills_localised_description_nag_skill_mortarch_innate_isabella	A vain, immoral, selfish, intelligent and stunning, cold beauty. Vlad's one true love and most valued confidante, and the only person, living or dead, whose advice he trusts.	true
 character_skills_localised_name_nag_skill_traitor_kings_innate_first_book	Knowledge of the First Book	true
 character_skills_localised_description_nag_skill_traitor_kings_innate_first_book	A gift of knowledge from a single page of one of the nine books of nagash, a taste of power to sate their greed and ensure eternal loyalty.	true
@@ -426,8 +431,6 @@ character_skills_localised_name_nag_skill_vmp_isabella_unique_court_of_blood	Cou
 character_skills_localised_description_nag_skill_vmp_isabella_unique_court_of_blood	Even in Undeath, every queen needs loyal retainers and handmaidens.	false
 character_skills_localised_name_rhox_nagash_grn_dump		false
 character_skills_localised_description_rhox_nagash_grn_dump		false
-character_skills_localised_name_nag_skill_innate_vmp_dieter_helsnicht	Mortarch of Doom	false
-character_skills_localised_description_nag_skill_innate_vmp_dieter_helsnicht	[PH]Mortarch of Doom	false
 character_skills_localised_name_nag_skill_unique_nagash_hate_skaven	A Personal Vendetta	false
 character_skills_localised_description_nag_skill_unique_nagash_hate_skaven	THE RATMEN HAVE INTERLOPED TOO OFTEN. THEY DIE.	false
 character_skills_localised_name_nag_skill_unique_nagash_hate_daemons	Anathema Chaotica	false
@@ -438,8 +441,6 @@ character_skills_localised_name_nag_skill_unique_nagash_hate_equal	Inevitable De
 character_skills_localised_description_nag_skill_unique_nagash_hate_equal	Death comes to those who wait. And to those who don't. So either way…	false
 character_skills_localised_name_nag_skill_lahmia_innate_neferata	Queen of the Lahmians	false
 character_skills_localised_description_nag_skill_lahmia_innate_neferata	A spider queen, amidst her web of thralls, handmaidens and lies.	false
-character_skills_localised_name_nag_skill_mortarch_innate_azhag	Mortarch of "Destruction"	true
-character_skills_localised_description_nag_skill_mortarch_innate_azhag	A warlord, a pawn, nothing more than a puppet, dancing to his will.	true
 character_skills_localised_name_nag_lord_unique_vampire_lord_barded_nightmare	Barded Nightmare	false
 character_skills_localised_description_nag_lord_unique_vampire_lord_barded_nightmare	The most impressive Nightmares are those reared on fresh blood. Such noble monstrosities are worthy mounts.	false
 character_skills_localised_name_nag_lord_unique_vampire_lord_hellsteed	Hellsteed	false
@@ -513,48 +514,50 @@ character_skills_localised_description_nag_mixu_cst_drekla_weapon_the_silver_hoo
 character_skills_localised_name_nag_mixu_cst_drekla_talisman_king_kalhazzars_sun_blanched_skull	King Kalhazzar's Sun-Blanched Skull	false
 character_skills_localised_description_nag_mixu_cst_drekla_talisman_king_kalhazzars_sun_blanched_skull	This skull was gifted to Captain Drekla as a token of his appreciation for his excellent work as Harkon's second-in-command by the Pirate King himself.	false
 character_skills_localised_name_nag_guinevere_innate	Geneviève Dieudonné	false
-character_skills_localised_description_nag_guinevere_innate	What a mysterious Woman	false
+character_skills_localised_description_nag_guinevere_innate	A deathly beauty shrouded in mystique, the amore of all who've laid eyes upon her and a fevered dream for those who haven't.	false
 character_skills_localised_name_nag_guinevere_growth	Immortal Aristocrat	false
-character_skills_localised_description_nag_guinevere_growth	She has never ruled, but those who do always do well in hearing her	false
+character_skills_localised_description_nag_guinevere_growth	She has never ruled, but those who do always do well in hearing her.	false
 character_skills_localised_name_nag_guinevere_income	Trusted Counsels	false
 character_skills_localised_description_nag_guinevere_income	She's seen more than you. She knows more than you. She's done more than you. It might be wise to listen to her.	false
-character_skills_localised_name_nag_guinevere_xp	Wise beyond her years	false
-character_skills_localised_description_nag_guinevere_xp	Geneviève is over six centuries old. She's a well of wisdom	false
-character_skills_localised_name_nag_guinevere_public_order	Play actress	false
-character_skills_localised_description_nag_guinevere_public_order	For a time	false
+character_skills_localised_name_nag_guinevere_xp	Wise Beyond Her Years	false
+character_skills_localised_description_nag_guinevere_xp	Geneviève is over six centuries old, a well of wisdom and with the knowledge to wield it.	false
+character_skills_localised_name_nag_guinevere_public_order	Play Actress	false
+character_skills_localised_description_nag_guinevere_public_order	A woman who knows how to play her part, you don't even know you're being manipulated.	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_01	Death Cheater	false
-character_skills_localised_description_nag_skill_node_guinevere_battle_01	She cheats death	false
+character_skills_localised_description_nag_skill_node_guinevere_battle_01	They say cat's have nine lives, Geneviève has more.	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_02	Lovely	false
-character_skills_localised_description_nag_skill_node_guinevere_battle_02	Geneviève is a sight for sore eyes. There are many sore eyes on a battlefield	false
+character_skills_localised_description_nag_skill_node_guinevere_battle_02	Geneviève is a sight for sore eyes. There are many sore eyes on a battlefield.	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_03	Inspirational	false
-character_skills_localised_description_nag_skill_node_guinevere_battle_03	What makes a man fight harder	false
+character_skills_localised_description_nag_skill_node_guinevere_battle_03	What makes a man fight harder?	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_04	Unwavering	false
-character_skills_localised_description_nag_skill_node_guinevere_battle_04	Watching Geneviève stand proud and elegant in any situation will bolster anybody	false
+character_skills_localised_description_nag_skill_node_guinevere_battle_04	Watching Geneviève stand proud and elegant in any situation will bolster anybody.	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_05	Doom of the Enchanter	false
 character_skills_localised_description_nag_skill_node_guinevere_battle_05	Very few are those who confronted Constant Drachenfels, survived, and did not lose it. She might be the only one.	false
 character_skills_localised_name_nag_skill_node_guinevere_battle_06	Forever Young	false
-character_skills_localised_description_nag_skill_node_guinevere_battle_06	Geneviève was sixteen when she received the Dark Kiss. It had its drawbacks, but also some boons	false
-character_skills_localised_name_nag_skill_node_guinevere_battle_07	Third generation	false
-character_skills_localised_description_nag_skill_node_guinevere_battle_07	Geneviève is a third generation vampire. She's not as strong as older bloodlines, nor can she wield magic. She has, however, honeyed her wits to match	false
-character_skills_localised_name_nag_skill_node_guinevere_diplo_01	Friend of the Emperor, Born from Bretonnia, Courtesan of the Ice Lands	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_01	The Empire owes Geneviève Dieudonné a great deal of gratitude for saving young Emperor Karl Franz from the clutches of the Great Enchanter.\\nGeneviève Sandrine du Pointe du Lac Dieudonné hails from the noble halls of Bretonnia, and if no love is lost for the Undead in these holy lands, she has earned for herself, at least, a modicum of respect with her acts.\\nOft are the women in Kislev cold of complexion and demeanor. Lahmians found long ago that they mingle well there, as long as they behave.	false
-character_skills_localised_name_nag_skill_node_guinevere_diplo_02	Courtesan	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_02	Geneniève is a very popular guests in many countries, despite, or maybe, because of her exotic nature	false
-character_skills_localised_name_nag_skill_node_guinevere_diplo_03	High class prostitute	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_03	Geneviève has lived a long (un)life. Not all of it is savory. In your opinion at least	false
+character_skills_localised_description_nag_skill_node_guinevere_battle_06	Geneviève was sixteen when she received the Dark Kiss. It had its drawbacks, but also some boons.	false
+character_skills_localised_name_nag_skill_node_guinevere_battle_07	Third Generation	false
+character_skills_localised_description_nag_skill_node_guinevere_battle_07	Geneviève is a third generation vampire. She's not as strong as older bloodlines, nor can she wield magic. She has, however, honeyed her wits to match.	false
+character_skills_localised_name_nag_skill_node_guinevere_diplo_01	Distinguished Lady	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_01	Friend of the Emperor, Born from Bretonnia, Courtesan of the Ice Lands\\nGeneviève Sandrine du Pointe du Lac Dieudonné is a name on everyone's lips.	false
+character_skills_localised_name_nag_skill_node_guinevere_diplo_02	Débutante	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_02	Geneniève is a very popular guests in many countries, despite, or maybe, because of her exotic nature.	false
+character_skills_localised_name_nag_skill_node_guinevere_diplo_03	High Class Courtesan	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_03	Geneviève has lived a long (un)life. Not all of it is savory. In your opinion at least.	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_04	Honeyed Words	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_04	Geneviève is well known for softening the views of the local on the much hated Aristocracy of the Night. It only takes exchanging a few words with her	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_04	Geneviève is well known for softening the views of the locals on the much hated Aristocracy of the Night. It only takes exchanging a few words with her.	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_05	Beloved of the Sorority	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_05	Neither Chandagnac, who gave her the Blood Kiss, nor Melissa d'Acques, who did the same with him, were allowed to do so by Neferata. Even tho, the Lahmians feel an unexplaignable sense of duty to protect her	false
-character_skills_localised_name_nag_skill_node_guinevere_diplo_06	No, I mean, really lovely	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_06		false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_05	Neither Chandagnac, who gave her the Blood Kiss, nor Melissa d'Acques, who did the same with him, were allowed to do so by Neferata. Even tho, the Lahmians feel an unexplaignable sense of duty to protect her.	false
+character_skills_localised_name_nag_skill_node_guinevere_diplo_06	No, I Mean, Really Lovely	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_06	Just a glance, to stop and stare, you think you're moving but you are going nowhere.	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_07	Reluctant Renegade	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_07	Geneviève feels no longing obligation towards the Sorority, or any other country or organisation. It doesn't follow that she won't seek recognition, even unknowingly	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_07	Geneviève feels no longing obligation towards the Sorority, or any other country or organisation. It doesn't follow that she won't seek recognition, even unknowingly.	false
 character_skills_localised_name_nag_skill_node_guinevere_diplo_08	Peace Broker	false
-character_skills_localised_description_nag_skill_node_guinevere_diplo_08	She who redraws the borders	false
+character_skills_localised_description_nag_skill_node_guinevere_diplo_08	Delicate situations, they sometimes, require a women's touch.	false
 character_skills_localised_name_nag_skill_grn_lord_unique_azhag_skullmuncha	Skullmuncha	false
 character_skills_localised_description_nag_skill_grn_lord_unique_azhag_skullmuncha	Skullmuncha is Azhag’s wyvern - an incredibly vicious and temperamental beast that will only tolerate the Slaughterer on its back.	false
 character_skills_localised_description_nag_skill_mount_neferata_hellsteed	Hellsteeds are vicious. Vampires that dabble in the binding of beasts delight in breaking these wild creatures to their will.	false
 character_skills_localised_name_nag_skill_mount_neferata_hellsteed	Hellsteed	false
 character_skills_localised_name_nag_dread_black_jewel	Heart of Blackness	true
 character_skills_localised_description_nag_dread_black_jewel	The Black Jewel of the Dread King contains his very soul. Embedded in his rib cage, it beats like an obscene, black and glistening heart.	true
+character_skills_localised_name_nag_skill_personal_dk_dread_aura	Dread Aura	false
+character_skills_localised_description_nag_skill_personal_dk_dread_aura	The Dread King's name was derived from a powerful aura that surrounded him at all times, only the mightiest of beings could face him without physically shaking or panicking, most would be frozen in fear or outright flee	false

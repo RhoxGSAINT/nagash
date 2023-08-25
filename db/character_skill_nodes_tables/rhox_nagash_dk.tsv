@@ -16,7 +16,7 @@ nag_dread_kings_unique_skills_02		Ancient_Necromancer	nag_skill_node_set_mortarc
 nag_dread_kings_unique_skills_03		Lord_Of_The_Undead_tmb	nag_skill_node_set_mortarch_dk		1.0000	3.0000		0	1	true
 nag_dread_kings_unique_skills_04		Dark_Lord_Of_Nagash	nag_skill_node_set_mortarch_dk		1.0000	4.0000		0	1	true
 nag_dread_kings_unique_skills_05		Great_Summoner	nag_skill_node_set_mortarch_dk		1.0000	5.0000		0	1	true
-nag_dread_kings_unique_skills_06		Dread_Aura	nag_skill_node_set_mortarch_dk		1.0000	6.0000		0	4	true
+nag_dread_kings_unique_skills_06		nag_skill_personal_dk_dread_aura	nag_skill_node_set_mortarch_dk		1.0000	6.0000		0	4	true
 nag_skill_tmb_tomb_king_dread_personal_0		wh2_dlc09_skill_tmb_personal_base	nag_skill_node_set_mortarch_dk		2.0000	0.0000		0	0	true
 nag_skill_tmb_tomb_king_dread_personal_1		wh2_dlc09_skill_tmb_personal_conqueror	nag_skill_node_set_mortarch_dk		2.0000	1.0000		0	0	true
 nag_skill_tmb_tomb_king_dread_personal_10		wh2_dlc09_skill_tmb_personal_10	nag_skill_node_set_mortarch_dk		2.0000	10.0000		0	4	true
@@ -40,7 +40,7 @@ nag_skill_node_tmb_dread_king_death_magic_09		wh2_main_skill_vmp_magic_vampires_
 nag_skill_node_tmb_dread_king_death_magic_10		wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord	nag_skill_node_set_mortarch_dk		3.0000	8.0000		0	0	true
 nag_skill_node_tmb_dread_king_death_magic_11		wh2_dlc14_skilll_all_magic_all_greater_arcane_conduit	nag_skill_node_set_mortarch_dk		3.0000	9.0000		0	4	true
 nag_skill_node_tmb_dread_king_death_magic_dummy		wh2_main_skill_vmp_magic_vampires_dummy_invocation_of_nehek_danse_macabre	nag_skill_node_set_mortarch_dk		3.0000	11.0000		1	0	false
-nag_dread_king_trait		dread_king_trait	nag_skill_node_set_mortarch_dk		6.0000	0.0000		1	0	false
+nag_dread_king_trait		nag_skill_mortarch_innate_dread	nag_skill_node_set_mortarch_dk		6.0000	0.0000		1	0	false
 nag_dread_king_immortal_01		wh2_main_skill_all_immortality_lord	nag_skill_node_set_mortarch_dk		8.0000	0.0000		1	0	false
 nag_skill_dk_army_0		wh_main_skill_vmp_lord_battle_aura_of_supremacy	nag_skill_node_set_mortarch_dk		4.0000	0.0000		0	0	true
 nag_skill_dk_army_1		nag_skill_army_buff_ranged	nag_skill_node_set_mortarch_dk		4.0000	1.0000		0	0	true

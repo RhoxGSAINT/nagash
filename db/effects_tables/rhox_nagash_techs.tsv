@@ -61,3 +61,5 @@ nag_effect_force_stat_speed_dk_missile	battle_movement.png	421	battle_movement.p
 nag_effect_force_stat_armour_dk	armour.png	401	armour.png	battle	true
 nag_effect_enable_attribute_devastating_flanker_dk_cavalry	devastating_flanker.png	320	devastating_flanker.png	both	true
 nag_effect_force_stat_ward_save_dk_infantry	resistance_ward_save.png	581	resistance_ward_save.png	battle	true
+nag_effect_force_stat_defence_skele_inf_defending	defence.png	451	defence.png	battle	true
+nag_effect_force_stat_attack_skele_cav_attacking	charge.png	501	charge.png	battle	true

@@ -528,3 +528,7 @@ nag_dk_horde_landmark_1	nag_effect_unit_cap_nagash_ovn_dk_inf_tomb_guardian		fac
 nag_dk_horde_landmark_1	nag_effect_unit_cap_nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts		faction_to_faction_own_unseen	4.0000	4.0000	0.0000
 nag_dk_horde_landmark_1	nag_effect_unit_cap_nagash_ovn_dk_cav_royal_guard_lancers		faction_to_faction_own_unseen	3.0000	3.0000	0.0000
 nag_dk_horde_landmark_1	nag_effect_unit_cap_nagash_ovn_dk_mon_skeleton_elephant		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
+nag_dk_horde_landmark_0	dread_legion_all_phyres		force_to_force_own	5.0000	0.0000	0.0000
+nag_dk_horde_landmark_0	dread_legion_all_leadership		force_to_force_own	10.0000	0.0000	0.0000
+nag_dk_horde_landmark_1	dread_legion_all_phyres		force_to_force_own	5.0000	0.0000	0.0000
+nag_dk_horde_landmark_1	dread_legion_all_leadership		force_to_force_own	10.0000	0.0000	0.0000

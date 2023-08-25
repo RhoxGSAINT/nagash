@@ -3,3 +3,7 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 elo_hand_punished_one	general_ability.png	6	general_ability.png	battle	true
 elo_hungering_blade	general_ability.png	6	general_ability.png	battle	true
 dread_black_jewel	general_ability.png	300	general_ability.png	battle	true
+dread_legion_all_phyres	resistance_physical.png	581	resistance_physical.png	battle	true
+dread_legion_all_leadership	morale.png	411	morale.png	battle	true
+Dread_Aura		0		campaign	true
+dread_effect_discouraged_attacks_royal_guard		0		campaign	true
