@@ -18,9 +18,9 @@ ui_text_replacements_localised_text_technology_header_nag_nagash	Mortarchs	true
 ui_text_replacements_localised_text_rites_button_nag_nagash_nag_nagash	Great Rituals	true
 ui_text_replacements_localised_text_rites_button_tooltip_nag_nagash_nag_nagash	Perform Great Rituals to empower your legions with temporary benefits	true
 ui_text_replacements_localised_text_rites_header_nag_nagash_nag_nagash	Great Rituals	true
-ui_text_replacements_localised_text_tooltip_nag_grand_spell_01	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
-ui_text_replacements_localised_text_tooltip_nag_grand_spell_02	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
-ui_text_replacements_localised_text_tooltip_nag_grand_spell_03	Grand spells take 20 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_01	Endless Tomb Grand spell take 5 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_02	Apocalyptic Swarm Grand spell take 5 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
+ui_text_replacements_localised_text_tooltip_nag_grand_spell_03	Wrath of the Dead Grand spell take 10 turns to recharge. They are unlocked by Black Pyramid buildings. (When counter reaches 20 spell is recharged)	true
 ui_text_replacements_localised_text_rite_pooled_resource_cost_nag_nagash	Cost||Use [[img:nag_warpstone]][[/img]]Warpstone to power Nagash's rituals.	true
 ui_text_replacements_localised_text_tech_pooled_resource_cost_tooltip_nag_nagash	In order to research this technology, this amount of [[img:nag_warpstone]][[/img]]Warpstone will be deducted from your total.	true
 ui_text_replacements_localised_text_icon_pooled_resource_mission_nag_nagash	[[img:nag_warpstone]][[/img]]	true
