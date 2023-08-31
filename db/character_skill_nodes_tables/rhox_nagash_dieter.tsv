@@ -1,57 +1,57 @@
-key	campaign_key	character_skill_key	character_skill_node_set_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
-#character_skill_nodes_tables;5;db/character_skill_nodes_tables/rhox_nagash_dieter										
-nag_skill_dieter_army_0		wh_main_skill_vmp_lord_battle_aura_of_supremacy	nag_skill_node_set_mortarch_dieter		4.0000	0.0000		0	0	true
-nag_skill_dieter_army_1		nag_skill_army_buff_ranged	nag_skill_node_set_mortarch_dieter		4.0000	1.0000		0	0	true
-nag_skill_dieter_army_2		nag_skill_army_buff_infantry	nag_skill_node_set_mortarch_dieter		4.0000	2.0000		0	0	true
-nag_skill_dieter_army_3		nag_skill_army_buff_cav	nag_skill_node_set_mortarch_dieter		4.0000	3.0000		0	0	true
-nag_skill_dieter_army_4		nag_skill_army_buff_beasts	nag_skill_node_set_mortarch_dieter		4.0000	4.0000		0	0	true
-nag_skill_dieter_army_5		nag_skill_army_buff_spirit	nag_skill_node_set_mortarch_dieter		4.0000	5.0000		0	0	true
-nag_skill_dieter_army_6		nag_skill_army_buff_construct	nag_skill_node_set_mortarch_dieter		4.0000	6.0000		0	0	true
-nag_skill_dieter_army_7		wh_main_skill_vmp_lord_battle_magical_animus	nag_skill_node_set_mortarch_dieter		4.0000	7.0000		0	6	true
-nag_skill_dieter_army_8		nag_skill_army_buff_vet_vamp	nag_skill_node_set_mortarch_dieter		4.0000	8.0000		0	0	true
-nag_skill_dieter_army_9		nag_skill_army_buff_vet_nehek	nag_skill_node_set_mortarch_dieter		4.0000	9.0000		0	0	true
-nag_skill_dieter_army_10		nag_skill_army_buff_vet_coast	nag_skill_node_set_mortarch_dieter		4.0000	10.0000		0	0	true
-nag_skill_dieter_army_11		nag_skill_army_buff_vet_nagash	nag_skill_node_set_mortarch_dieter		4.0000	11.0000		0	0	true
-nag_skill_dieter_army_12		wh_main_skill_vmp_lord_battle_undeath_resurgent	nag_skill_node_set_mortarch_dieter		4.0000	12.0000		0	1	true
-nag_skill_dieter_campaign_0		nag_skill_campaign_movement	nag_skill_node_set_mortarch_dieter		5.0000	0.0000		0	0	true
-nag_skill_dieter_campaign_1		nag_skill_campaign_corruption	nag_skill_node_set_mortarch_dieter		5.0000	1.0000		0	0	true
-nag_skill_dieter_campaign_2		nag_skill_campaign_raiding	nag_skill_node_set_mortarch_dieter		5.0000	2.0000		0	0	true
-nag_skill_dieter_campaign_3		nag_skill_campaign_replenishment	nag_skill_node_set_mortarch_dieter		5.0000	3.0000		0	0	true
-nag_skill_dieter_campaign_4		nag_skill_campaign_growth	nag_skill_node_set_mortarch_dieter		5.0000	4.0000		0	0	true
-nag_skill_dieter_campaign_5		nag_skill_campaign_recruit	nag_skill_node_set_mortarch_dieter		5.0000	5.0000		0	4	true
-nag_skill_dieter_campaign_6		wh_main_skill_all_lord_campaign_lightning_strike	nag_skill_node_set_mortarch_dieter		5.0000	6.0000		0	0	true
-nag_skill_dieter_campaign_7		nag_skill_campaign_attrition	nag_skill_node_set_mortarch_dieter		5.0000	7.0000		0	0	true
-nag_skill_dieter_campaign_8		nag_skill_campaign_loot	nag_skill_node_set_mortarch_dieter		5.0000	8.0000		0	0	true
-nag_skill_dieter_campaign_9		nag_skill_campaign_ambush	nag_skill_node_set_mortarch_dieter		5.0000	9.0000		0	0	true
-nag_skill_dieter_campaign_10		nag_skill_campaign_self_defense	nag_skill_node_set_mortarch_dieter		5.0000	10.0000		0	4	true
-nag_skill_dieter_campaign_11		nag_skill_campaign_immortal_horror	nag_skill_node_set_mortarch_dieter		5.0000	11.0000		0	1	true
-nag_skill_node_vmp_dieter_helsnicht_innate_01		nag_skill_mortarch_innate_dieter	nag_skill_node_set_mortarch_dieter		6.0000	0.0000		1	0	false
-nag_skill_node_vmp_dieter_helsnicht_magic_0		wh_main_skill_vmp_magic_vampires_01_invocation_of_nehek	nag_skill_node_set_mortarch_dieter		2.0000	0.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_1_1		wh_main_skill_vmp_magic_vampires_03_the_curse_of_undeath	nag_skill_node_set_mortarch_dieter		2.0000	1.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_1_2		wh_dlc03_skill_magic_beasts_wild_heart	nag_skill_node_set_mortarch_dieter		2.0000	2.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_1_3		wh2_main_skill_magic_beasts_flock_of_doom_lord	nag_skill_node_set_mortarch_dieter		2.0000	3.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_1_4		wh2_main_skill_magic_beasts_panns_impenetrable_pelt_lord	nag_skill_node_set_mortarch_dieter		2.0000	4.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_1_5		wh2_main_skill_vmp_magic_vampires_05_raise_dead_lord	nag_skill_node_set_mortarch_dieter		2.0000	5.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_2		wh_main_skill_all_magic_all_06_evasion	nag_skill_node_set_mortarch_dieter		2.0000	6.0000		0	4	true
-nag_skill_node_vmp_dieter_helsnicht_magic_3_1		wh_main_skill_all_magic_all_07_earthing	nag_skill_node_set_mortarch_dieter		2.0000	7.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_3_2		wh_main_skill_all_magic_all_08_power_drain	nag_skill_node_set_mortarch_dieter		2.0000	8.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_3_3		wh2_main_skill_magic_beasts_the_curse_of_anraheir_lord	nag_skill_node_set_mortarch_dieter		2.0000	9.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_3_4		wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord	nag_skill_node_set_mortarch_dieter		2.0000	10.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_magic_4		wh_main_skill_all_magic_all_11_arcane_conduit	nag_skill_node_set_mortarch_dieter		2.0000	11.0000		0	4	true
-nag_skill_node_vmp_dieter_helsnicht_magic_dummy		mixu_magic_dummy_vmp_dieter_helsnicht	nag_skill_node_set_mortarch_dieter		2.0000	12.0000		1	0	false
-nag_skill_node_vmp_dieter_helsnicht_mount_01		mixu_vmp_dieter_helsnicht_mount_barded_nightmare	nag_skill_node_set_mortarch_dieter		0.0000	0.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_mount_02		mixu_vmp_dieter_helsnicht_mount_manticore	nag_skill_node_set_mortarch_dieter		0.0000	1.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_generic_01		nag_lord_unique_necromancer_leading_dead	nag_skill_node_set_mortarch_dieter		0.0000	4.0000		1	0	true
-nag_skill_node_vmp_dieter_helsnicht_generic_02		nag_lord_unique_necromancer_raising_dead	nag_skill_node_set_mortarch_dieter		0.0000	5.0000		1	0	true
-nag_skill_node_vmp_dieter_helsnicht_generic_03		wh_main_skill_vmp_all_unique_master_of_the_dead	nag_skill_node_set_mortarch_dieter		0.0000	6.0000		1	0	true
-nag_skill_node_vmp_dieter_helsnicht_generic_04		wh_main_skill_vmp_all_unique_grave_ward	nag_skill_node_set_mortarch_dieter		0.0000	7.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_generic_05		wh_main_skill_vmp_lord_battle_aura_of_dark_majesty	nag_skill_node_set_mortarch_dieter		0.0000	8.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_generic_06		wh_main_skill_vmp_lord_battle_dark_pact	nag_skill_node_set_mortarch_dieter		0.0000	9.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_special_0		mixu_vmp_dieter_helsnicht_special_doom_lord_of_the_undead	nag_skill_node_set_mortarch_dieter		1.0000	0.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_special_1_1		mixu_vmp_dieter_helsnicht_special_twisted_intelligence	nag_skill_node_set_mortarch_dieter		1.0000	1.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_special_1_2		nag_vmp_dieter_helsnicht_special_in_the_shadows	nag_skill_node_set_mortarch_dieter		1.0000	2.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_special_1_3		mixu_vmp_dieter_helsnicht_special_revenge_served_cold	nag_skill_node_set_mortarch_dieter		1.0000	3.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_special_1_4		nag_vmp_dieter_helsnicht_special_secrets_of_nagashizzar 	nag_skill_node_set_mortarch_dieter		1.0000	4.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_special_2		mixu_vmp_dieter_helsnicht_special_swooping_doom	nag_skill_node_set_mortarch_dieter		1.0000	5.0000		0	4	true
-nag_skill_node_vmp_dieter_helsnicht_item_01		nag_skill_vmp_dieter_helsnicht_item_01	nag_skill_node_set_mortarch_dieter		0.0000	2.0000		0	0	true
-nag_skill_node_vmp_dieter_helsnicht_item_02		nag_skill_vmp_dieter_helsnicht_item_02	nag_skill_node_set_mortarch_dieter		0.0000	3.0000		0	0	true
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/rhox_nagash_dieter									
+nag_skill_dieter_army_0		wh_main_skill_vmp_lord_battle_aura_of_supremacy		4	0		0	0	true
+nag_skill_dieter_army_1		nag_skill_army_buff_ranged		4	1		0	0	true
+nag_skill_dieter_army_2		nag_skill_army_buff_infantry		4	2		0	0	true
+nag_skill_dieter_army_3		nag_skill_army_buff_cav		4	3		0	0	true
+nag_skill_dieter_army_4		nag_skill_army_buff_beasts		4	4		0	0	true
+nag_skill_dieter_army_5		nag_skill_army_buff_spirit		4	5		0	0	true
+nag_skill_dieter_army_6		nag_skill_army_buff_construct		4	6		0	0	true
+nag_skill_dieter_army_7		wh_main_skill_vmp_lord_battle_magical_animus		4	7		0	6	true
+nag_skill_dieter_army_8		nag_skill_army_buff_vet_vamp		4	8		0	0	true
+nag_skill_dieter_army_9		nag_skill_army_buff_vet_nehek		4	9		0	0	true
+nag_skill_dieter_army_10		nag_skill_army_buff_vet_coast		4	10		0	0	true
+nag_skill_dieter_army_11		nag_skill_army_buff_vet_nagash		4	11		0	0	true
+nag_skill_dieter_army_12		wh_main_skill_vmp_lord_battle_undeath_resurgent		4	12		0	1	true
+nag_skill_dieter_campaign_0		nag_skill_campaign_movement		5	0		0	0	true
+nag_skill_dieter_campaign_1		nag_skill_campaign_corruption		5	1		0	0	true
+nag_skill_dieter_campaign_2		nag_skill_campaign_raiding		5	2		0	0	true
+nag_skill_dieter_campaign_3		nag_skill_campaign_replenishment		5	3		0	0	true
+nag_skill_dieter_campaign_4		nag_skill_campaign_growth		5	4		0	0	true
+nag_skill_dieter_campaign_5		nag_skill_campaign_recruit		5	5		0	4	true
+nag_skill_dieter_campaign_6		wh_main_skill_all_lord_campaign_lightning_strike		5	6		0	0	true
+nag_skill_dieter_campaign_7		nag_skill_campaign_attrition		5	7		0	0	true
+nag_skill_dieter_campaign_8		nag_skill_campaign_loot		5	8		0	0	true
+nag_skill_dieter_campaign_9		nag_skill_campaign_ambush		5	9		0	0	true
+nag_skill_dieter_campaign_10		nag_skill_campaign_self_defense		5	10		0	4	true
+nag_skill_dieter_campaign_11		nag_skill_campaign_immortal_horror		5	11		0	1	true
+nag_skill_node_vmp_dieter_helsnicht_innate_01		nag_skill_mortarch_innate_dieter		6	0		1	0	false
+nag_skill_node_vmp_dieter_helsnicht_magic_0		wh_main_skill_vmp_magic_vampires_01_invocation_of_nehek		2	0		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_1_1		wh_main_skill_vmp_magic_vampires_03_the_curse_of_undeath		2	1		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_1_2		wh_dlc03_skill_magic_beasts_wild_heart		2	2		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_1_3		wh2_main_skill_magic_beasts_flock_of_doom_lord		2	3		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_1_4		wh2_main_skill_magic_beasts_panns_impenetrable_pelt_lord		2	4		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_1_5		wh2_main_skill_vmp_magic_vampires_05_raise_dead_lord		2	5		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_2		wh_main_skill_all_magic_all_06_evasion		2	6		0	4	true
+nag_skill_node_vmp_dieter_helsnicht_magic_3_1		wh_main_skill_all_magic_all_07_earthing		2	7		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_3_2		wh_main_skill_all_magic_all_08_power_drain		2	8		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_3_3		wh2_main_skill_magic_beasts_the_curse_of_anraheir_lord		2	9		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_3_4		wh2_main_skill_vmp_magic_vampires_10_wind_of_death_lord		2	10		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_magic_4		wh_main_skill_all_magic_all_11_arcane_conduit		2	11		0	4	true
+nag_skill_node_vmp_dieter_helsnicht_magic_dummy		mixu_magic_dummy_vmp_dieter_helsnicht		2	12		1	0	false
+nag_skill_node_vmp_dieter_helsnicht_mount_01		mixu_vmp_dieter_helsnicht_mount_barded_nightmare		0	0		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_mount_02		mixu_vmp_dieter_helsnicht_mount_manticore		0	1		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_generic_01		nag_lord_unique_necromancer_leading_dead		0	4		1	0	true
+nag_skill_node_vmp_dieter_helsnicht_generic_02		nag_lord_unique_necromancer_raising_dead		0	5		1	0	true
+nag_skill_node_vmp_dieter_helsnicht_generic_03		wh_main_skill_vmp_all_unique_master_of_the_dead		0	6		1	0	true
+nag_skill_node_vmp_dieter_helsnicht_generic_04		wh_main_skill_vmp_all_unique_grave_ward		0	7		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_generic_05		wh_main_skill_vmp_lord_battle_aura_of_dark_majesty		0	8		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_generic_06		wh_main_skill_vmp_lord_battle_dark_pact		0	9		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_special_0		mixu_vmp_dieter_helsnicht_special_doom_lord_of_the_undead		1	0		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_special_1_1		mixu_vmp_dieter_helsnicht_special_twisted_intelligence		1	1		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_special_1_2		nag_vmp_dieter_helsnicht_special_in_the_shadows		1	2		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_special_1_3		mixu_vmp_dieter_helsnicht_special_revenge_served_cold		1	3		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_special_1_4		nag_vmp_dieter_helsnicht_special_secrets_of_nagashizzar 		1	4		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_special_2		mixu_vmp_dieter_helsnicht_special_swooping_doom		1	5		0	4	true
+nag_skill_node_vmp_dieter_helsnicht_item_01		nag_skill_vmp_dieter_helsnicht_item_01		0	2		0	0	true
+nag_skill_node_vmp_dieter_helsnicht_item_02		nag_skill_vmp_dieter_helsnicht_item_02		0	3		0	0	true
