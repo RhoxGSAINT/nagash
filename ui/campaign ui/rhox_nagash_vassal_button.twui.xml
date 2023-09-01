@@ -93,16 +93,22 @@
 					context_object_id="CcoCampaignFaction"
 					context_function_id="PlayersFaction.RitualContextForKey(GetIfElse(PlayersFaction.RitualContextForKey(&quot;rhox_nagash_ritual_forced_vassalisation&quot;).IsValidContext, &quot;rhox_nagash_ritual_forced_vassalisation&quot;, &quot;wh3_dlc20_ritual_sla_forced_vassalisation_non_devotee&quot;)).Perform(this)"/>
 				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
-					context_object_id="CcoCampaignFaction"
-					context_function_id="CcoRTRitualFactionPair(FactionContext:self.TooltipParent.StoredContext(&quot;CcoCampaignFaction&quot;), RitualContext:PlayersFaction.RitualContextForKey(GetIfElse(PlayersFaction.RitualContextForKey(&quot;rhox_nagash_ritual_forced_vassalisation&quot;).IsValidContext, &quot;rhox_nagash_ritual_forced_vassalisation&quot;, &quot;wh3_dlc20_ritual_sla_forced_vassalisation_non_devotee&quot;)))"/>
-				<callback_with_context
 					callback_id="ContextVisibilitySetter"
 					context_object_id="CcoStaticObject"
 					context_function_id="PlayersFaction.RitualContextForKey(GetIfElse(PlayersFaction.RitualContextForKey(&quot;rhox_nagash_ritual_forced_vassalisation&quot;).IsValidContext, &quot;rhox_nagash_ritual_forced_vassalisation&quot;, &quot;wh3_dlc20_ritual_sla_forced_vassalisation_non_devotee&quot;)).IsValidContext&amp;&amp; InPendingBattle == false &amp;&amp; InPostBattle == false"/>
 				<callback_with_context
 					callback_id="ContextObjectStore"
 					context_object_id="CcoCampaignFaction"/>
+                <callback_with_context
+					callback_id="ContextLayoutTooltip"
+					context_object_id="CcoCampaignFaction"
+					context_function_id="CcoRTRitualFactionPair(FactionContext:self.StoredContextFromParent(&quot;CcoCampaignFaction&quot;), RitualContext:PlayersFaction.RitualContextForKey(GetIfElse(PlayersFaction.RitualContextForKey(&quot;rhox_nagash_ritual_forced_vassalisation&quot;).IsValidContext, &quot;rhox_nagash_ritual_forced_vassalisation&quot;, &quot;wh3_dlc20_ritual_sla_forced_vassalisation_non_devotee&quot;)))">
+					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/campaign ui/tooltip_ritual"/>
+					</child_m_user_properties>
+				</callback_with_context>
 			</callbacks_with_context>
 			<user_properties>
 				<property
@@ -119,9 +125,6 @@
 					value=""/>
 			</user_properties>
 			<localised_texts>
-				<localised_text
-					tooltip_label="button_force_vassal_Tooltip_54d8bcf6"
-					tooltip_text="{{tt:ui/campaign ui/tooltip_ritual}}"/>
 				<localised_text
 					state="active"
 					is_text_localised="false"/>

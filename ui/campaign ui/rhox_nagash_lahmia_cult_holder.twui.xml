@@ -133,7 +133,6 @@
 			docking="Center"
 			dock_offset="0.00,-10.00"
 			component_anchor_point="0.50,0.50"
-			componentleveltooltip="{{tt:ui/campaign ui/tooltip_ritual}}"
 			tooltiplabel="cult_button_Tooltip_b0274850"
 			soundcategory="UI_CAM_Click_Slaansh_Proliferate_Cults"
 			uniqueguid="71BD81EA-80A6-927A-26BE13BE6928BEC8"
@@ -180,6 +179,15 @@
 						<property
 							name="inactive"
 							value="CanPerformRitual == false &amp;&amp; IsActive == false"/>
+					</child_m_user_properties>
+				</callback_with_context>
+                <callback_with_context
+					callback_id="ContextLayoutTooltip"
+					context_object_id="CcoCampaignRitual">
+					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/campaign ui/tooltip_ritual"/>
 					</child_m_user_properties>
 				</callback_with_context>
 			</callbackwithcontextlist>

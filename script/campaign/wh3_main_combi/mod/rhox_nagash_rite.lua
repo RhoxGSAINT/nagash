@@ -172,7 +172,7 @@ function rhox_nagash_rites_listeners()
         "ScriptEventPlayerOpensDiplomacyPanel",
         true,
         function()
-            out("Rhox Vlad: I'm here?")
+            --out("Rhox Nagash: I'm here?")
             local parent_ui = find_uicomponent(core:get_ui_root(), "diplomacy_dropdown", "faction_right_status_panel", "header", "porthole", "porthole_frame");
             local result = core:get_or_create_component("rhox_nagash_vassal_button", "ui/campaign ui/rhox_nagash_vassal_button.twui.xml", parent_ui)
             if not result then
@@ -196,7 +196,7 @@ function rhox_nagash_rites_listeners()
         "ScriptEventDiplomacyPanelOpened",
         true,
         function()
-            out("Rhox Vlad: I'm here?")
+            --out("Rhox Nagash: I'm here?")
             local parent_ui = find_uicomponent(core:get_ui_root(), "diplomacy_dropdown", "faction_right_status_panel", "header", "porthole", "porthole_frame");
             local result = core:get_or_create_component("rhox_nagash_vassal_button", "ui/campaign ui/rhox_nagash_vassal_button.twui.xml", parent_ui)
             if not result then
