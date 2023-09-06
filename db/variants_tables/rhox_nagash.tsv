@@ -43,3 +43,10 @@ nag_blood_beasts		nag_blood_beasts		1.0000	1.4000	0.1000
 burning_dead_ror_vmd		burning_dead_dual_axes_ror		1.0000	1.0000	0.0000	
 vmp_genevieve		vmp_genevieve		1.0000	1.1500	0.0500	
 nag_nagash_boss_bp_ship		nag_nagash_boss_bp_ship		1.0000	0.7500	0.0000	
+nag_throne_guard		nag_throne_guard		1.0000	1.0000	0.0500	
+nag_nagashi_knights		nag_nagashi_knights		1.0000	1.0000	0.0500	
+nag_doom_knights		nag_doom_knights		1.0000	1.0000	0.0500	
+nag_druthor		nag_druthor		1.0000	1.1500	0.0000	
+nag_nagashi_knights_steed		nag_nagashi_knights_steed		1.0000	1.0000	0.0000	
+nag_doom_knights_steed		nag_doom_knights_steed		1.0000	1.0000	0.0000	
+nag_druthor_terrorgheist	VariantMeshes\wh_variantmodels\bi2\vmp\vmp_terrorgheist\tech	nag_druthor_terrorgheist		1.0000	1.0000	0.0000	

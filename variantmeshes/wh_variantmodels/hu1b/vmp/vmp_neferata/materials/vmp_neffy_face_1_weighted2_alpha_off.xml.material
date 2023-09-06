@@ -5,7 +5,7 @@
  <textures>
   <texture>
    <slot version="2">t_xml_base_colour</slot>
-   <source>variantmeshes\wh_variantmodels\hu1b\vmp\vmp_neferata\tex\gp_neferata_head_base_colour.dds</source>
+   <source>variantmeshes/wh_variantmodels/hu1b/vmp/vmp_neferata/tex/neffy_head_base_colour.dds</source>
   </texture>
   <texture>
    <slot version="2">t_xml_blood_map</slot>

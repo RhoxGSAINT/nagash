@@ -246,3 +246,4 @@ nag_dk_hand_effect_force_stat_weapon_strength_nag_dk	weapon_damage.png	461	weapo
 nag_dk_hand_effect_force_stat_missile_damage_nag_dk	ranged_damage.png	541	ranged_damage.png	battle	true
 nag_dk_hand_effect_force_stat_leadership_nag_dk	morale.png	411	morale.png	battle	true
 nag_dk_hand_effect_force_stat_melee_attack_nag_dk	melee.png	431	melee.png	battle	true
+nag_effect_ability_enable_dread_prowess	general_ability.png	8	general_ability.png	battle	true

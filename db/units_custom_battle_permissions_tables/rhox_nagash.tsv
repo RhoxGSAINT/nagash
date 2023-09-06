@@ -134,3 +134,7 @@ mixer_nag_nagash	false	nag_thrall_crossbowmen	true	true				false		false
 mixer_nag_nagash	false	nag_thrall_handgunners	true	true				false		false
 mixer_nag_nagash	false	burning_dead_ror	true	true				false		false
 mixer_nag_nagash	false	nag_guinevere	true	true	UI/Portraits/Portholes/no_culture/vmp_vampire_genevieve.png	nag_guinevere		false		false
+mixer_nag_nagash	false	nag_throne_guard	true	true				false		false
+mixer_nag_nagash	false	nag_nagashi_knights	true	true				false		false
+mixer_nag_nagash	false	nag_doom_knights	true	true				false		false
+mixer_nag_nagash	false	nag_druthor	true	true				false		false
