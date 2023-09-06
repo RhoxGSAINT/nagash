@@ -17,6 +17,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_carrion_riders	nag_army_cavalry_chariots	false
 			nag_virion_plaguecart	nag_army_cavalry_chariots	false
 			nag_undead_chariot_unit	nag_army_cavalry_chariots	false
+			nag_nagashi_knights	nag_army_cavalry_chariots	false
+			nag_doom_knights	nag_army_cavalry_chariots	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_0	nag_army_coast_units	false
 			nag_vanilla_cst_inf_zombie_deckhands_mob_1	nag_army_coast_units	false
 			nag_vanilla_cst_inf_zombie_gunnery_mob_0	nag_army_coast_units	false
@@ -114,6 +116,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_vmp_mon_varghulf	nag_army_monsters_constructs	false
 			nag_bone_colossus	nag_army_monsters_constructs	false
 			nag_blood_beasts	nag_army_monsters_constructs	false
+			nag_druthor	nag_army_monsters_constructs	false
 			nag_morghasts	nag_army_nagashizzar_units	false
 			nag_nagashi_guard	nag_army_nagashizzar_units	false
 			nag_nagashi_guard_halb	nag_army_nagashizzar_units	false
@@ -130,6 +133,14 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_undead_chariot_unit	nag_army_nagashizzar_units	false
 			nag_skeleton_reaper	nag_army_nagashizzar_units	false
 			nag_doomed_legion	nag_army_nagashizzar_units	false
+			nag_throne_guard	nag_army_nagashizzar_units	false
+			nag_nagashi_knights	nag_army_nagashizzar_units	false
+			nag_doom_knights	nag_army_nagashizzar_units	false
+			nag_druthor	nag_army_nagashizzar_units	false
+			nag_throne_guard	nag_army_nagashizzar_units_vet	false
+			nag_nagashi_knights	nag_army_nagashizzar_units_vet	false
+			nag_doom_knights	nag_army_nagashizzar_units_vet	false
+			nag_druthor	nag_army_nagashizzar_units_vet	false
 			nag_morghasts	nag_army_nagashizzar_units_vet	false
 			nag_nagashi_guard	nag_army_nagashizzar_units_vet	false
 			nag_nagashi_guard_halb	nag_army_nagashizzar_units_vet	false
@@ -225,10 +236,12 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nagash_ovn_dk_inf_tomb_guardian	nag_army_infantry	false
 			nagash_ovn_dk_cav_royal_guard_lancers	nag_army_cavalry_chariots	false
 			nag_throne_guard	nag_army_infantry	false
-			nag_throne_guard	nag_army_nagashizzar_units	false
-			nag_throne_guard	nag_army_nagashizzar_units_vet	false
 			nag_blood_beasts	nag_army_count_units_vet_ror	false
 			nag_doomed_legion	nag_army_nagashizzar_units_vet_ror	false
 			nag_bone_colossus	nag_army_nagashizzar_units_vet_ror	false
 			burning_dead_ror	nag_army_count_units_vet_ror	false
 			nag_throne_guard	nag_army_nagashizzar_units_vet_ror	false
+			nag_doom_knights	nag_army_nagashizzar_units_vet_ror	false
+			nag_druthor	nag_army_nagashizzar_units_vet_ror	false
+			nag_virion_plaguecart	nag_army_nagashizzar_units_vet	false
+			nag_virion_plaguecart	nag_army_nagashizzar_units_vet_ror	false
