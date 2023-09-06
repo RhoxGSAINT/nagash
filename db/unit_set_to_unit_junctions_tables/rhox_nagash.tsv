@@ -613,3 +613,11 @@ hero				nag_characters	false
 			nagash_ovn_dk_inf_tomb_guardian	nag_dk_inf_cav	false
 			nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_dk_inf_cav	false
 			nagash_ovn_dk_cav_royal_guard_lancers	nag_dk_inf_cav	false
+			nag_throne_guard	nag_grave_nagashi_guard_unit_set	false
+			nag_throne_guard	nag_skeletons	false
+			nag_throne_guard	nag_nagashi_guard	false
+			nag_throne_guard	nag_skeletons_plus	false
+			nag_throne_guard	nag_tech_nagashi_guard	false
+			nag_throne_guard	nag_infantry	false
+			nag_guinevere	nag_vampiric	false
+			nag_guinevere_warhorse	nag_vampiric	false

@@ -30,3 +30,4 @@ nag_skill_node_guinevere_diplo_05		nag_skill_node_guinevere_diplo_05		2	4		0	1	t
 nag_skill_node_guinevere_diplo_06		nag_skill_node_guinevere_diplo_06		2	5		0	1	true
 nag_skill_node_guinevere_diplo_07		nag_skill_node_guinevere_diplo_07		2	6		0	5	true
 nag_skill_node_guinevere_diplo_08		nag_skill_node_guinevere_diplo_08		2	7		0	1	true
+nag_anc_mount_guinevere_warhorse		nag_anc_mount_guinevere_warhorse		0	0		0	0	true

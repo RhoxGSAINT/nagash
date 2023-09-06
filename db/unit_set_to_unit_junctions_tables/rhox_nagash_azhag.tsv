@@ -129,3 +129,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			burning_dead_ror	nag_army_infantry_azhag	false
 			wh_main_grn_cha_azhag_the_slaughterer_0	nag_mortarch_unit_set	false
 			wh_main_grn_cha_azhag_the_slaughterer_1	nag_mortarch_unit_set	false
+			nag_throne_guard	nag_army_infantry_azhag	false
+			nag_throne_guard	nag_army_nagashizzar_units_azhag	false
+			nag_throne_guard	nag_army_nagashizzar_units_vet_azhag	false
+			nag_doomed_legion	nag_army_nagashizzar_units_vet_azhag_ror	false
+			nag_bone_colossus	nag_army_nagashizzar_units_vet_azhag_ror	false
+			nag_throne_guard	nag_army_nagashizzar_units_vet_azhag_ror	false

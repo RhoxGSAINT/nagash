@@ -224,3 +224,11 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nagash_ovn_dk_inf_skeleton_pikemen	nag_army_infantry	false
 			nagash_ovn_dk_inf_tomb_guardian	nag_army_infantry	false
 			nagash_ovn_dk_cav_royal_guard_lancers	nag_army_cavalry_chariots	false
+			nag_throne_guard	nag_army_infantry	false
+			nag_throne_guard	nag_army_nagashizzar_units	false
+			nag_throne_guard	nag_army_nagashizzar_units_vet	false
+			nag_blood_beasts	nag_army_count_units_vet_ror	false
+			nag_doomed_legion	nag_army_nagashizzar_units_vet_ror	false
+			nag_bone_colossus	nag_army_nagashizzar_units_vet_ror	false
+			burning_dead_ror	nag_army_count_units_vet_ror	false
+			nag_throne_guard	nag_army_nagashizzar_units_vet_ror	false

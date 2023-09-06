@@ -442,3 +442,5 @@ ancillaries_explanation_text_nag_anc_mount_neferata_hellsteed		false
 ancillaries_onscreen_name_nag_anc_mount_neferata_hellsteed	Hellsteed	false
 ancillaries_colour_text_nag_dread_black_jewel	The Black Jewel of the Dread King contains his very soul. Embedded in his rib cage, it beats like an obscene, black and glistening heart.	false
 ancillaries_onscreen_name_nag_dread_black_jewel	Heart of Blackness	false
+ancillaries_colour_text_nag_anc_mount_guinevere_warhorse	The finest horses in the Old World, bred for their endurance and fiery temperament, barded for further protection.	false
+ancillaries_onscreen_name_nag_anc_mount_guinevere_warhorse	Barded Warhorse	false
