@@ -200,6 +200,8 @@ hero				nag_characters	false
 			nag_vanilla_tmb_cav_necropolis_knights_1	nag_cavalry	false
 			nag_vanilla_vmp_cav_black_knights_0	nag_cavalry	false
 			nag_vanilla_vmp_cav_black_knights_3	nag_cavalry	false
+			nag_nagashi_knights	nag_cavalry	false
+			nag_doom_knights	nag_cavalry	false
 			nag_nagashi_guard	nag_skeletons	false
 			nag_nagashi_guard_halb	nag_skeletons	false
 			nag_vanilla_tmb_inf_skeleton_archers_0	nag_skeletons	false
@@ -213,6 +215,7 @@ hero				nag_characters	false
 			nag_vanilla_vmp_inf_grave_guard_0	nag_skeletons	false
 			nag_vanilla_vmp_inf_grave_guard_1	nag_skeletons	false
 			nag_skeleton_reaper	nag_skeletons	false
+			nag_revenants	nag_skeletons	false
 			nag_vanilla_vmp_inf_zombie	nag_ghouls_zombies	false
 			nag_vanilla_vmp_inf_crypt_ghouls	nag_ghouls_zombies	false
 			nag_warp_ghouls	nag_ghouls_zombies	false
@@ -399,7 +402,6 @@ hero				nag_characters	false
 			nag_undead_chariot_unit	mp_cap_group_chariots_warmachines	false
 			nag_undead_chariot_unit	mp_cap_group_360_degree_fire	false
 			nag_undead_chariot_unit	mp_cap_group_ranged_units	false
-			nag_undead_chariot_unit	nag_skeletons	false
 			nag_undead_chariot_unit	nag_skeletons_plus	false
 			nag_undead_chariot_unit	nag_chariots	false
 			nag_undead_chariot_unit	nag_tech_chariots	false
