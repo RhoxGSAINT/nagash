@@ -20,5 +20,4 @@ wh_main_spell_nagash_grave_call_master_upgraded	1.0000	1.0000	false	mastery_of_e
 wh_main_spell_nagash_abyssal_swarm	1.0000	1.0000	false	mastery_of_elemental_winds	set
 wh_main_spell_nagash_abyssal_swarm_upgrade	1.0000	1.0000	false	mastery_of_elemental_winds	set
 wh_main_spell_nagash_floating_vandus_catus	1.0000	1.0000	false	mastery_of_elemental_winds	set
-nag_unit_passive_doom_of_nagashizzar	1.0000	50.0000	false	kills_made	linear_multiplier
-nag_unit_passive_doom_of_nagashizzar_hidden	0.0000	50.0000	false	kills_made	add
+nag_unit_passive_doom_of_nagashizzar	1.0000	120.0000	false	kills_made	linear_multiplier

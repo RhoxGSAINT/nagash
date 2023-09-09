@@ -179,7 +179,7 @@ unit_abilities_onscreen_name_nag_unit_passive_dread_prowess	Dreaded Dead	false
 unit_abilities_tooltip_text_nag_unit_passive_dread_prowess	As the necromantic energies that bind them start to wain, these ancient warriors steel themselves, gripping to every moment of unlife they have remaining.	false
 unit_abilities_onscreen_name_nag_unit_passive_doom_of_nagashizzar	Doom of Nagashizzar	false
 unit_abilities_tooltip_text_nag_unit_passive_doom_of_nagashizzar	Cursed energy from dark magic thousands of years old, flares in green flame and frozen fire, immolating the very souls of those it touches.	false
-unit_abilities_onscreen_name_nag_unit_passive_doom_of_nagashizzar_hidden	Doom of Nagashizzar - Hidden	false
+unit_abilities_onscreen_name_nag_unit_passive_doom_of_nagashizzar_hidden	Doom of Nagashizzar [HIDDEN]	false
 unit_abilities_tooltip_text_nag_unit_passive_doom_of_nagashizzar_hidden	Hidden - Executor generator	false
 unit_abilities_onscreen_name_nag_druthor_raise_dead_crypt_ghouls	The King of Grimbarrow	false
 unit_abilities_tooltip_text_nag_druthor_raise_dead_crypt_ghouls	Lord over a foetid field of bones, his kingdom a dismal graveyard of a populace that died in infamy in a forgotten age of the world.	false

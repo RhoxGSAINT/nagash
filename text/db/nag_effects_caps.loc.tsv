@@ -66,6 +66,7 @@ effects_description_nag_effect_unit_cap_nagash_ovn_dk_inf_tomb_guardian	Unit cap
 effects_description_nag_effect_unit_cap_nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts	Unit capacity: %+n\\nRoyal Peltasts	true
 effects_description_nag_effect_unit_cap_nagash_ovn_dk_cav_royal_guard_lancers	Unit capacity: %+n\\nRoyal Guard Lancers	true
 effects_description_nag_effect_unit_cap_nagash_ovn_dk_mon_skeleton_elephant	Unit capacity: %+n\\nSkeletal Elephant	true
-effects_description_nag_effect_unit_cap_nag_thrall_crossbowmen	Unit capacity: %+n\\nThrall Crossbowmen	false
-effects_description_nag_effect_unit_cap_nag_thrall_handgunners	Unit capacity: %+n\\nThrall Handgunners	false
-effects_description_nag_effect_unit_cap_nag_bone_colossus	Unit capacity: %+n\\nBone Colossus	false
+effects_description_nag_effect_unit_cap_nag_thrall_crossbowmen	Unit capacity: %+n\\nThrall Crossbowmen	true
+effects_description_nag_effect_unit_cap_nag_thrall_handgunners	Unit capacity: %+n\\nThrall Handgunners	true
+effects_description_nag_effect_unit_cap_nag_bone_colossus	Unit capacity: %+n\\nBone Colossus	true
+effects_description_nag_effect_unit_cap_nag_nagashi_knights	Unit capacity: %+n\\nNagashizzar Knights	true

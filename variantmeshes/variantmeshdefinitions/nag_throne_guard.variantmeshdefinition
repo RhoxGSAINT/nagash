@@ -19,10 +19,10 @@
     <SLOT name="skeleton" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hu1/nag/nagashi_knights/nag_kay_nagashi_guard_skeleton_blue_01.wsmodel"  />
 	</SLOT>
-   	<SLOT name="weapon_1" attach_point="be_prop_0" >
-		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/vmp_grave_guards_sword_set1.VariantMeshDefinition" />
+   	<SLOT name="weapon_1" attach_point="be_prop_0" />
+	<SLOT name="weapon_2" attach_point="be_prop_1" >
+        		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/vmp_grave_guards_sword_set1.VariantMeshDefinition" />
 	</SLOT>
-	<SLOT name="weapon_2" attach_point="be_prop_1" />
 	<SLOT name="shield" attach_point="be_prop_2" >
 		<VARIANT_MESH_REFERENCE definition="VariantMeshes/VariantMeshDefinitions/vmp_grave_guards_shield_set1.VariantMeshDefinition" />
 	</SLOT>

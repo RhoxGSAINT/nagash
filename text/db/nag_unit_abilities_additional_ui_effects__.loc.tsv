@@ -15,15 +15,16 @@ unit_abilities_additional_ui_effects_localised_text_nag_all_increased_max_power_
 unit_abilities_additional_ui_effects_localised_text_nag_decreased_reserves	[[col:red]]Decrease to [[img:icon_wom_power]][[/img]]power reserves[[/col]]	true
 unit_abilities_additional_ui_effects_localised_text_nag_drain_essence	[[col:red]]Drains life-essence health and fatigue damage[[/col]]	true
 unit_abilities_additional_ui_effects_localised_text_nag_aoe_damage_and_heal	[[col:green]]Deals [[img:icon_dmg_magical]][[/img]]damage to foes and heals allies in the same area[[/col]]	true
-unit_abilities_additional_ui_effects_localised_text_nag_no_binding	Summoned units do not degrade	false
-unit_abilities_additional_ui_effects_localised_text_nag_defend_frontline	Good at defending frontline infantry	false
-unit_abilities_additional_ui_effects_localised_text_nag_attack_enemy_missile	Good at versus enemy missile infantry	false
-unit_abilities_additional_ui_effects_localised_text_nag_summon_zombies	[[col:green]]Summons a unit of Zombies[[/col]]	false
-unit_abilities_additional_ui_effects_localised_text_nag_summon_reapers	[[col:green]]Summons a unit of Skeleton Reapers[[/col]]	false
-unit_abilities_additional_ui_effects_localised_text_nag_summon_crypt_ghouls	[[col:green]]Summons a unit of Crypt Ghouls[[/col]]	false
-unit_abilities_additional_ui_effects_localised_text_nag_summon_cairn_wraiths	[[col:green]]Summons a unit of Cairn Wraiths[[/col]]	false
-unit_abilities_additional_ui_effects_localised_text_nag_summon_fell_bats	[[col:green]]Summons a unit of Fell Bats[[/col]]	false
-unit_abilities_additional_ui_effects_localised_text_nag_summon_corpse_cart_balefire	[[col:green]]Summons a Corpse Cart (Balefire)[[/col]]	false
-unit_abilities_additional_ui_effects_localised_text_nag_summon_corpse_cart_lodestone	[[col:green]]Summons a Corpse Cart (Unholy Lodestone)[[/col]]	false
-unit_abilities_additional_ui_effects_localised_text_nag_damage_enemy_wavering_commander	Causes severe damage to wavering enemy unit	false
-unit_abilities_additional_ui_effects_localised_text_nag_all_reduced_recharge_rate_high_enemy	Greatly reduces enemy [[img:icon_wom_recharge]][[/img]]power recharge rate	false
+unit_abilities_additional_ui_effects_localised_text_nag_no_binding	Summoned units do not degrade	true
+unit_abilities_additional_ui_effects_localised_text_nag_defend_frontline	Good at defending frontline infantry	true
+unit_abilities_additional_ui_effects_localised_text_nag_attack_enemy_missile	Good at versus enemy missile infantry	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_zombies	[[col:green]]Summons a unit of Zombies[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_reapers	[[col:green]]Summons a unit of Skeleton Reapers[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_crypt_ghouls	[[col:green]]Summons a unit of Crypt Ghouls[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_cairn_wraiths	[[col:green]]Summons a unit of Cairn Wraiths[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_fell_bats	[[col:green]]Summons a unit of Fell Bats[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_corpse_cart_balefire	[[col:green]]Summons a Corpse Cart (Balefire)[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_summon_corpse_cart_lodestone	[[col:green]]Summons a Corpse Cart (Unholy Lodestone)[[/col]]	true
+unit_abilities_additional_ui_effects_localised_text_nag_damage_enemy_wavering_commander	Causes severe damage to wavering enemy unit	true
+unit_abilities_additional_ui_effects_localised_text_nag_all_reduced_recharge_rate_high_enemy	Greatly reduces enemy [[img:icon_wom_recharge]][[/img]]power recharge rate	true
+unit_abilities_additional_ui_effects_localised_text_nag_doom	At max effect intensity, grants the [[img:ui/battle ui/ability_icons/executor.png]][[/img]] Executor attribute	true
