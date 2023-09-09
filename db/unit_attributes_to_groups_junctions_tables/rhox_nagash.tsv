@@ -163,6 +163,7 @@ hide_forest	nag_throne_guard
 undead	nag_throne_guard
 fatigue_immune	nag_throne_guard
 charge_reflection	nag_throne_guard
+unbreakable	nag_throne_guard
 causes_fear	nag_nagashi_knights
 hide_forest	nag_nagashi_knights
 strider	nag_nagashi_knights

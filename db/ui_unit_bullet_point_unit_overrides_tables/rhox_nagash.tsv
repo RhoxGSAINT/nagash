@@ -114,7 +114,7 @@ ethereal	nag_spectre_swarm
 nag_spirit_host_aoe	nag_spectre_swarm
 armour_piercing	nag_revenants
 armoured	nag_revenants
-wraithlike	nag_revenants
+nag_wraithlike	nag_revenants
 terror	nag_revenants
 magical_aura	nag_warp_ghouls
 vanguard_deployment	nag_warp_ghouls
@@ -176,3 +176,17 @@ armoured_and_shielded	nag_hero_team_summon
 spellcaster	nag_hero_team_summon
 anti_infantry	nag_throne_guard
 armoured_and_shielded	nag_throne_guard
+nag_wraithlike	nag_throne_guard
+armour_piercing	nag_throne_guard
+scaling_damage	nag_throne_guard
+nag_wraithlike	nag_nagashi_knights
+armoured_and_shielded	nag_nagashi_knights
+armour_piercing	nag_nagashi_knights
+nag_wraithlike	nag_doom_knights
+armoured_and_shielded	nag_doom_knights
+armour_piercing	nag_doom_knights
+nag_doom	nag_doom_knights
+anti_large	nag_druthor
+armour_piercing	nag_druthor
+poison	nag_druthor
+terror	nag_druthor

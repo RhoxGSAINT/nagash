@@ -2,5 +2,6 @@ key	state	sort_order	icon_path
 #ui_unit_bullet_point_enums_tables;4;db/ui_unit_bullet_point_enums_tables/rhox_nagash			
 nag_morghasts	positive	1	
 nag_spirit_host_aoe	positive	0	
-wraithlike	positive	1	
+nag_wraithlike	positive	1	
 nag_nagash_husk	negative	99	
+nag_doom	positive	99	
