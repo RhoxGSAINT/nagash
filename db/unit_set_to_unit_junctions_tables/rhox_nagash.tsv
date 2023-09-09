@@ -621,3 +621,6 @@ hero				nag_characters	false
 			nag_throne_guard	nag_infantry	false
 			nag_guinevere	nag_vampiric	false
 			nag_guinevere_warhorse	nag_vampiric	false
+			nag_throne_guard	wh2_main_ror_units_all	false
+			nag_doom_knights	wh2_main_ror_units_all	false
+			nag_druthor	wh2_main_ror_units_all	false
