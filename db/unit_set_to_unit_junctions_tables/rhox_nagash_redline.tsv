@@ -212,9 +212,9 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_bone_golems	nag_army_warbeasts_monstrous_inf	false
 			nag_sand_crawlies	nag_army_warbeasts_monstrous_inf	false
 			nag_warp_ghouls	nag_army_warbeasts_monstrous_inf	false
-			burning_dead_ror	nag_army_count_units	false
-			burning_dead_ror	nag_army_count_units_vet	false
-			burning_dead_ror	nag_army_infantry	false
+			nag_burning_dead	nag_army_count_units	false
+			nag_burning_dead	nag_army_count_units_vet	false
+			nag_burning_dead	nag_army_infantry	false
 			nagash_ovn_dk_inf_skeleton_hoplites	nag_army_nehek_units	false
 			nagash_ovn_dk_inf_skeleton_javelinmen_no_caps	nag_army_nehek_units	false
 			nagash_ovn_dk_inf_skeleton_pikemen	nag_army_nehek_units	false
@@ -239,7 +239,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_blood_beasts	nag_army_count_units_vet_ror	false
 			nag_doomed_legion	nag_army_nagashizzar_units_vet_ror	false
 			nag_bone_colossus	nag_army_nagashizzar_units_vet_ror	false
-			burning_dead_ror	nag_army_count_units_vet_ror	false
+			nag_burning_dead	nag_army_count_units_vet_ror	false
 			nag_throne_guard	nag_army_nagashizzar_units_vet_ror	false
 			nag_doom_knights	nag_army_nagashizzar_units_vet_ror	false
 			nag_druthor	nag_army_nagashizzar_units_vet_ror	false

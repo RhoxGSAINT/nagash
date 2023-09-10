@@ -10,13 +10,13 @@ local modded_units_nagash_compatch = {
     {"nag_undead_chariot_unit", "core"},
     {"nag_skeleton_reaper", "core"},
     {"burning_dead_ror", "core"},
+    {"nag_burning_dead", "core",
 
     --Special
     {"nag_nagashi_guard", "special", 1},
     {"nag_nagashi_guard_halb", "special", 1},
     {"nag_warp_ghouls", "special", 1},
     {"nag_spirit_hosts", "special", 1},
-    {"burning_dead_ror", "special", 1},
     {"nag_spectre_swarm", "special", 2},
     {"nag_shade_haunts", "special", 2},
     {"nag_bone_golems", "special", 2},

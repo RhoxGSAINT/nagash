@@ -132,7 +132,7 @@ mixer_nag_nagash	false	nag_doomed_legion	true	true				false		false
 mixer_nag_nagash	false	nag_blood_beasts	true	true				false		false
 mixer_nag_nagash	false	nag_thrall_crossbowmen	true	true				false		false
 mixer_nag_nagash	false	nag_thrall_handgunners	true	true				false		false
-mixer_nag_nagash	false	burning_dead_ror	true	true				false		false
+mixer_nag_nagash	false	nag_burning_dead	true	true				false		false
 mixer_nag_nagash	false	nag_guinevere	true	true	UI/Portraits/Portholes/no_culture/vmp_vampire_genevieve.png	nag_guinevere	nag_guinevere	false		false
 mixer_nag_nagash	false	nag_guinevere_warhorse	true	true	UI/Portraits/Portholes/no_culture/vmp_vampire_genevieve.png	nag_guinevere	nag_guinevere_warhorse	false		false
 mixer_nag_nagash	false	nag_throne_guard	true	true				false		false

@@ -157,10 +157,10 @@ magical_aura	nag_virion_plaguecart
 regeneration	nag_virion_plaguecart
 ethereal	nag_virion_plaguecart
 armour_piercing	nag_virion_plaguecart
-anti_infantry	burning_dead_ror
-armoured	burning_dead_ror
-damage_dealer	burning_dead_ror
-flaming_attacks	burning_dead_ror
+anti_infantry	nag_burning_dead
+armoured	nag_burning_dead
+damage_dealer	nag_burning_dead
+flaming_attacks	nag_burning_dead
 armoured	nag_lahmia_neferata
 melee_expert	nag_lahmia_neferata
 spellcaster	nag_lahmia_neferata

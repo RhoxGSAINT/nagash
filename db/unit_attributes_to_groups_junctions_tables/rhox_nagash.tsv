@@ -154,9 +154,9 @@ undead	nag_thrall_handgunners
 causes_fear	nag_thrall_handgunners
 hide_forest	nag_thrall_handgunners
 rampage	nag_thrall_handgunners
-causes_fear	burning_dead_ror
-hide_forest	burning_dead_ror
-undead	burning_dead_ror
+causes_fear	nag_burning_dead
+hide_forest	nag_burning_dead
+undead	nag_burning_dead
 causes_fear	nag_throne_guard
 hide_forest	nag_throne_guard
 undead	nag_throne_guard

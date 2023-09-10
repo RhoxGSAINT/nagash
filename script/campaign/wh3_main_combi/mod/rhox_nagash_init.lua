@@ -392,7 +392,7 @@ local ror_units = {
     "nag_virion_plaguecart",
     "nag_revenants",
     "nag_shade_haunts",
-    "burning_dead_ror",
+    "nag_burning_dead",
     "nag_throne_guard",
     "nag_doom_knights",
     "nag_druthor"
