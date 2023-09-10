@@ -9,6 +9,7 @@ local modded_units_nagash_compatch = {
     {"nag_sand_crawlies", "core"},
     {"nag_undead_chariot_unit", "core"},
     {"nag_skeleton_reaper", "core"},
+    {"burning_dead_ror", "core"},
 
     --Special
     {"nag_nagashi_guard", "special", 1},
@@ -21,6 +22,7 @@ local modded_units_nagash_compatch = {
     {"nag_bone_golems", "special", 2},
     {"nag_thrall_crossbowmen", "special", 2},    
     {"nag_virion_plaguecart", "special", 3},
+    {"nag_throne_guard", "special", 2},
 
     --Rare
     {"nag_bone_thrower", "rare", 1},
@@ -32,6 +34,9 @@ local modded_units_nagash_compatch = {
     {"nag_carrion_riders", "rare", 2},
     {"nag_bone_colossus", "rare", 2},
     {"nag_mortis_engine", "rare", 3},
+    {"nag_nagashi_knights", "rare", 1},  
+    {"nag_doom_knights", "rare", 2},  
+    {"nag_druthor", "rare", 3},
 
     
     ----Tomb Kings units
