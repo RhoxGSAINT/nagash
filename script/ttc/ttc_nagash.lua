@@ -9,7 +9,7 @@ local modded_units_nagash_compatch = {
     {"nag_sand_crawlies", "core"},
     {"nag_undead_chariot_unit", "core"},
     {"nag_skeleton_reaper", "core"},
-    {"nag_burning_dead", "core",
+    {"nag_burning_dead", "core"},
 
     --Special
     {"nag_nagashi_guard", "special", 1},
