@@ -22,7 +22,7 @@ mct_nag_nagsh_nag_ai_bonus_tooltip	AI Nagash will recieve this amount of additio
 mct_nag_nagsh_enable_ai_nagash_text	Enable AI Nagash	false
 mct_nag_nagsh_enable_ai_nagash_tooltip	Enable AI Nagash, disabling it will invalidate all Nagash summoning script, and Clan Carrion will take its place like vanilla, and below options have no meaning	false
 mct_nag_nagsh_nag_ai_level_bonus_text	AI Nagash bonus level	false
-mct_nag_nagsh_nag_ai_level_bonus_tooltip	AI Nagash gets this amount of bonus level	false
+mct_nag_nagsh_nag_ai_level_bonus_tooltip	AI Nagash gets this amount of bonus level. If it's equal or above 20, AI Nagash will start in the ascended form	false
 mct_nag_nagsh_nag_ai_building_tier_text	AI Nagash building tier	false
 mct_nag_nagsh_nag_ai_building_tier_tooltip	AI Nagash's Nagashizzar starts with this building tier	false
 mct_nag_nagash_block_ai_research_text	Block AI Nagash research for initial X turns	false

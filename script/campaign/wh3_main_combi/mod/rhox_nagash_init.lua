@@ -30,7 +30,10 @@ local function rhox_nagash_init_setting()
         cm:instant_set_building_health_percent("wh3_main_combi_region_nagashizzar", "nag_outpost_special_nagashizzar", 50)
         cm:add_development_points_to_region("wh3_main_combi_region_nagashizzar", 1)
         nagash_character_type = "nag_nagash_husk"
+    elseif nagash_ai_level_bonus < 20 then
+        nagash_character_type = "nag_nagash_husk" --he starts as a husk if his bonus level is below 20
     end
+    
     
     
     cm:kill_character(cm:char_lookup_str(cm:get_faction("wh3_main_skv_clan_carrion"):faction_leader()), true) --remove this stupid full stack army

@@ -160,11 +160,24 @@ function rhox_nagash_add_black_pyramid_listener()
             return context.string == "icon_effect" and cm:get_faction(nagash_faction):has_effect_bundle("rhox_nagash_avail")
         end,
         function ()
+            CampaignUI.TriggerCampaignScriptEvent(0, "rhox_nagash_begin_bp_raise")
             --cm:treasury_mod(nagash_faction, 1)
-            rhox_nagash_begin_bp_raise()
+            
         end,
         true
      )
+     core:add_listener(
+        "UI_trigger_for_bp_raise",
+        "UITrigger",
+        function(context)
+            return context:trigger()=="rhox_nagash_begin_bp_raise"
+        end,
+        function(context)
+            rhox_nagash_begin_bp_raise()
+        end,
+        true
+    )
+     
     
     core:add_listener(
 		"RegionFactionChangeEventBlyramidLostRitual",

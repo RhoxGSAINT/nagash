@@ -74,3 +74,112 @@ core:add_listener(
     end,
     false
 );
+
+
+
+-------------------AI Nagash Ascend
+
+local units = {
+    "nag_vanilla_vmp_inf_skeleton_warriors_0",
+    "nag_vanilla_vmp_inf_skeleton_warriors_0",
+    "nag_vanilla_tmb_cav_nehekhara_horsemen_0",
+    "nag_carrion_riders",
+    "nag_nagashi_guard",
+    "nag_nagashi_guard",
+    "nag_nagashi_guard",
+    "nag_nagashi_guard",
+    "nag_nagashi_guard_halb",
+    "nag_nagashi_guard_halb",
+    "nag_nagashi_guard_halb",
+    "nag_nagashi_guard_halb",
+    "nag_morghasts",
+    "nag_morghasts",
+}
+    
+    
+core:add_listener(
+    "rhox_nagash_ai_nagash",
+    "CharacterRankUp",
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        return character:character_subtype("nag_nagash_husk") and character:rank() >= 20 and faction:is_human() ==false
+    end,
+    function(context)
+        local character = context:character()
+        local faction = character:faction()
+        local faction_leader_cqi= character:command_queue_index()
+
+        local old_char_details={
+            mf = character:military_force(),
+            rank = character:rank(),
+            traits = character:all_traits()
+        }
+
+        local x,y
+
+        if old_char_details.mf then
+            x, y = cm:find_valid_spawn_location_for_character_from_character(faction:name(), cm:char_lookup_str(faction_leader_cqi), true, 5)
+        else
+            x, y = cm:find_valid_spawn_location_for_character_from_settlement(faction:name(), "wh3_main_combi_region_nagashizzar", false, true, 5)
+        end
+            
+        if x== -1 or y== -1 then
+            out("Rhox Nagash failed to find the summonable position, stopping the ascending")
+            return
+        end
+
+        local nagash_character
+        cm:create_force_with_general(
+        -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
+        faction:name(),
+        table.concat(units, ","),
+        "wh3_main_combi_region_nagashizzar",
+        x,
+        y,
+        "general",
+        "nag_nagash_boss",
+        "names_name_1937224328",
+        "",
+        "",
+        "",
+        true,
+        function(cqi)
+            nagash_character = cm:get_character_by_cqi(cqi)
+            cm:callback(
+                function()
+                    local forename = common:get_localised_string("names_name_1937224328")
+                    cm:change_character_custom_name(nagash_character, forename, "","","") --damn it's not working on faction leaders
+                end,
+                0.5
+            )
+        end);
+
+            
+        local new_char_lookup = cm:char_lookup_str(nagash_character)
+        local traits_to_copy = old_char_details.traits
+        if traits_to_copy then
+            for i =1, #traits_to_copy do
+                
+                local trait_to_copy = traits_to_copy[i]
+                cm:force_add_trait(new_char_lookup, trait_to_copy)
+            end
+        end
+        cm:add_agent_experience(new_char_lookup,old_char_details.rank, true)
+        
+        cm:callback(
+            function()
+                cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);  
+                cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
+            end,
+            2
+        )
+        
+        --cm:kill_character(cm:char_lookup_str(character))
+        
+
+
+
+    end,
+    true --might fail in summoning
+)
