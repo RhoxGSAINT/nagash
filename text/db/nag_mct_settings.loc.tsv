@@ -25,3 +25,5 @@ mct_nag_nagsh_nag_ai_level_bonus_text	AI Nagash bonus level	false
 mct_nag_nagsh_nag_ai_level_bonus_tooltip	AI Nagash gets this amount of bonus level	false
 mct_nag_nagsh_nag_ai_building_tier_text	AI Nagash building tier	false
 mct_nag_nagsh_nag_ai_building_tier_tooltip	AI Nagash's Nagashizzar starts with this building tier	false
+mct_nag_nagash_block_ai_research_text	Block AI Nagash research for initial X turns	false
+mct_nag_nagash_block_ai_research_tooltip	AI Nagash won't conduct research for the given initial turns. Thus not confederating vassals.	false

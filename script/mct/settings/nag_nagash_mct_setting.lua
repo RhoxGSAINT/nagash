@@ -34,6 +34,16 @@ nag_ai_building_tier:set_text("mct_nag_nagsh_nag_ai_building_tier_text", true)
 nag_ai_building_tier:set_tooltip_text("mct_nag_nagsh_nag_ai_building_tier_tooltip", true)
 
 
+local nag_block_ai_research = mct_mod:add_new_option("nag_block_ai_research", "slider")
+nag_block_ai_research:slider_set_min_max(1, 100)
+nag_block_ai_research:slider_set_step_size(1)
+nag_block_ai_research:set_default_value(15)
+nag_block_ai_research:set_text("mct_nag_nagash_block_ai_research_text", true)
+nag_block_ai_research:set_tooltip_text("mct_nag_nagash_block_ai_research_tooltip", true)
+
+
+
+
 local nag_mortarch_arkhan = mct_mod:add_new_option("nag_mortarch_arkhan", "slider")
 nag_mortarch_arkhan:slider_set_min_max(0, 200)
 nag_mortarch_arkhan:slider_set_step_size(1)

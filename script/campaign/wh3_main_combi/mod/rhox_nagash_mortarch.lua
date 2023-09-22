@@ -578,6 +578,11 @@ function RHOX_NAGASH_MORTARCH:upgrade_into_mortarch(faction, faction_key, mort_k
         function()
             if cm:get_faction(nagash_faction):is_human() then
                 rhox_kill_faction(faction_key) -- if nagash is a human, destroy the faction
+                cm:disable_event_feed_events(true, "wh_event_category_diplomacy", "", "")
+                cm:force_confederation("wh_main_vmp_vampire_counts_qb3", faction_key) --to block them rising again
+                cm:callback(function() 
+                    cm:disable_event_feed_events(false, "wh_event_category_diplomacy", "", "")
+                end, 0.5)
             else
                 local human_factions = cm:get_human_factions()
                 for i = 1, #human_factions do
@@ -946,7 +951,7 @@ function RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --used in other script
     
     
     core:add_listener(
-    --- When an "unlock" tech is researched, spawn the related Morty.
+    --- When an "unlock" tech is researched, spawn the related Archai to the related Morty
         "MorghastArchai",
         "ResearchCompleted",
         function(context)

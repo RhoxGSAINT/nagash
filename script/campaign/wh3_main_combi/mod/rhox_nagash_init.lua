@@ -4,7 +4,7 @@ local nagash_ai_bonus =100
 local enable_ai_nagash=true
 local nagash_ai_level_bonus =30
 local nagash_ai_building_tier =5
-
+local nagash_block_ai_research = 15;
 
 local function rhox_nagash_init_setting()
 
@@ -158,7 +158,11 @@ local function rhox_nagash_init_setting()
                 mm:trigger()
             else
                 cm:add_agent_experience(cm:char_lookup_str(nagash_character), nagash_ai_level_bonus, true) --add level for ai nagash
-                cm:instantly_set_settlement_primary_slot_level(capital_region:settlement() , nagash_ai_building_tier)--for human only
+                cm:instantly_set_settlement_primary_slot_level(capital_region:settlement() , nagash_ai_building_tier)--AI bonus for the tier
+                --research minus
+                local duration = cm:create_new_custom_effect_bundle("nag_ai_research_minus_bundle");
+                duration:set_duration(nagash_block_ai_research+cm:random_number(10));
+                cm:apply_custom_effect_bundle_to_faction(duration, cm:get_faction(nagash_faction))
             end
         end, 
     3);
@@ -703,7 +707,11 @@ core:add_listener(
         
         local nag_ai_building_tier = my_mod:get_option_by_key("nag_ai_building_tier")
         nagash_ai_building_tier = nag_ai_building_tier:get_finalized_setting()
+    
+        local nag_block_ai_research = my_mod:get_option_by_key("nag_block_ai_research")
+        nagash_block_ai_research = nag_block_ai_research:get_finalized_setting()
 
+        
     end,
     true
 )
