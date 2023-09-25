@@ -260,7 +260,7 @@ RHOX_NAGASH_MORTARCH.mort_key_to_units={
         "nagash_ovn_dk_cav_royal_guard_lancers",
         "nagash_ovn_dk_inf_skeleton_pikemen",
         "nagash_ovn_dk_inf_tomb_guardian",
-        "nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts"
+        "nagash_ovn_dk_inf_tomb_guardian_peltasts"
     }
 }
 

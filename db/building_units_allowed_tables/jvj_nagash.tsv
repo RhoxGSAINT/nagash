@@ -646,6 +646,6 @@ key	building	unit	XP	conditions	faction	enabled
 8427473	nag_dk_horde_landmark_1	nagash_ovn_dk_inf_skeleton_hoplites	0	0		false
 8427474	nag_dk_horde_landmark_1	nagash_ovn_dk_inf_skeleton_pikemen	0	0		false
 8427475	nag_dk_horde_landmark_1	nagash_ovn_dk_inf_tomb_guardian	0	0		false
-8427476	nag_dk_horde_landmark_1	nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts	0	0		false
+8427476	nag_dk_horde_landmark_1	nagash_ovn_dk_inf_tomb_guardian_peltasts	0	0		false
 8427477	nag_dk_horde_landmark_1	nagash_ovn_dk_cav_royal_guard_lancers	0	0		false
 8427478	nag_dk_horde_landmark_1	nagash_ovn_dk_mon_skeleton_elephant	0	0		false

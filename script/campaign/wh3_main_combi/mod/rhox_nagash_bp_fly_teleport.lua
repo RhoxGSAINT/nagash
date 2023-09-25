@@ -74,6 +74,18 @@ cm:add_first_tick_callback(
                 return context.string == "icon_effect" and cm:get_faction("mixer_nag_nagash"):has_effect_bundle("rhox_nagash_woke") and cm:get_faction("mixer_nag_nagash"):faction_leader():has_military_force() and rhox_nagash_used_teleport == false
             end,
             function ()
+                CampaignUI.TriggerCampaignScriptEvent(0, "rhox_nagash_bp_teleport")
+            end,
+            true
+        )
+        
+        core:add_listener(
+            "UI_trigger_for_bp_teleport",
+            "UITrigger",
+            function(context)
+                return context:trigger()=="rhox_nagash_bp_teleport"
+            end,
+            function(context)
                 rhox_nagash_find_closest_settlements_and_trigger_dilemma(cm:get_faction("mixer_nag_nagash"):faction_leader())
             end,
             true

@@ -91,18 +91,18 @@ hero				nag_characters	false
 			nagash_ovn_dk_inf_skeleton_hoplites	nag_dk_inf_cav	false
 			nagash_ovn_dk_inf_skeleton_pikemen	nag_dk_inf_cav	false
 			nagash_ovn_dk_inf_tomb_guardian	nag_dk_inf_cav	false
-			nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_dk_inf_cav	false
+			nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_dk_inf_cav	false
 			nagash_ovn_dk_cav_royal_guard_lancers	nag_dk_inf_cav	false
 			nagash_ovn_dk_inf_skeleton_hoplites	nag_dk_infatry	false
 			nagash_ovn_dk_inf_skeleton_pikemen	nag_dk_infatry	false
 			nagash_ovn_dk_inf_tomb_guardian	nag_dk_infatry	false
 			nagash_ovn_dk_inf_skeleton_javelinmen_no_caps	nag_dk_missile	false
-			nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_dk_missile	false
+			nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_dk_missile	false
 			nagash_ovn_dk_inf_skeleton_javelinmen_no_caps	nag_dk_units	false
 			nagash_ovn_dk_inf_skeleton_hoplites	nag_dk_units	false
 			nagash_ovn_dk_inf_skeleton_pikemen	nag_dk_units	false
 			nagash_ovn_dk_inf_tomb_guardian	nag_dk_units	false
-			nagash_nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_dk_units	false
+			nagash_ovn_dk_inf_tomb_guardian_peltasts	nag_dk_units	false
 			nagash_ovn_dk_cav_royal_guard_lancers	nag_dk_units	false
 			nagash_ovn_dk_mon_skeleton_elephant	nag_dk_units	false
 			wh2_dlc09_tmb_cha_arkhan_0	nag_enemy_undead_unit_set	false

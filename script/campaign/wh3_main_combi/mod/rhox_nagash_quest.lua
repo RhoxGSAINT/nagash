@@ -103,7 +103,7 @@ core:add_listener(
     function(context)
         local character = context:character()
         local faction = character:faction()
-        return character:character_subtype("nag_nagash_husk") and character:rank() >= 20 and faction:is_human() ==false
+        return character:character_subtype("nag_nagash_husk") and character:rank() >= 20 and faction:is_human() ==false and faction:name() == "mixer_nag_nagash"
     end,
     function(context)
         local character = context:character()

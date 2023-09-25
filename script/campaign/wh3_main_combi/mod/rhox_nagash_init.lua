@@ -644,6 +644,7 @@ cm:add_first_tick_callback(
 		
 		if cm:get_local_faction_name(true) == nagash_faction then --ui things should go here
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
+            
             local result = core:get_or_create_component("rhox_nagash_black_pyramid_holder", "ui/campaign ui/black_pyramid_holder.twui.xml", parent_ui)
             if not result then
                 script_error("Rhox Nagash: ".. "ERROR: could not create black pyramid ui component? How can this be?");
