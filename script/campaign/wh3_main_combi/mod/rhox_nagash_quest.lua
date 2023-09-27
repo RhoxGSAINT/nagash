@@ -103,6 +103,10 @@ core:add_listener(
     function(context)
         local character = context:character()
         local faction = character:faction()
+        local region = cm:get_region("wh3_main_combi_region_black_pyramid_of_nagash")
+        if region and region:owning_faction() and region:owning_faction():is_human() then
+            return false
+        end
         return character:character_subtype("nag_nagash_husk") and character:rank() >= 20 and faction:is_human() ==false and faction:name() == "mixer_nag_nagash"
     end,
     function(context)
