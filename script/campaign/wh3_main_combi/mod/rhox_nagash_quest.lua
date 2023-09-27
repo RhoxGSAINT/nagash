@@ -180,8 +180,8 @@ core:add_listener(
         )
         
         --cm:kill_character(cm:char_lookup_str(character))
-        
-
+        cm:override_building_chain_display("wh2_dlc09_tmb_settlement_major", "wh2_dlc09_special_settlement_pyramid_of_nagash_tmb")--Now BP will look like a normal settlement
+        cm:change_custom_settlement_name(cm:get_region("wh3_main_combi_region_black_pyramid_of_nagash"):settlement(),common:get_localised_string("rhox_nagash_this_is_urgat_idea_settlement_name"))
 
 
     end,

@@ -90,9 +90,10 @@ local function rhox_nagash_begin_bp_raise()
     local garrison_residence_CQI = garrison_residence:command_queue_index();
     --cm:add_garrison_residence_vfx(garrison_residence_CQI, "scripted_effect5", true);
     -- Make the Black Pyramid fly!
-	cm:override_building_chain_display("wh2_dlc09_special_settlement_pyramid_of_nagash_tmb", "wh2_dlc09_special_settlement_pyramid_of_nagash_floating")
-	cm:override_building_chain_display("nag_outpost_special_blackpyramid", "wh2_dlc09_special_settlement_pyramid_of_nagash_floating")
-    out("Rhox Nagash: Added flying scene to the settlement")
+	
+	cm:override_building_chain_display("wh2_dlc09_special_settlement_pyramid_of_nagash_floating", "wh2_dlc09_special_settlement_pyramid_of_nagash_tmb")
+    cm:override_building_chain_display("wh2_dlc09_special_settlement_pyramid_of_nagash_floating", "nag_outpost_special_blackpyramid")
+    --out("Rhox Nagash: Added flying scene to the settlement")
         
     --cm:add_garrison_residence_vfx(cm:get_region("wh3_main_combi_region_black_pyramid_of_nagash"):garrison_residence():command_queue_index(), "scripted_effect3", true);
     cm:add_scripted_composite_scene_to_settlement("nag_bp_raise", "wh2_dlc16_wef_healing_ritual", region, 0, 0, false, true, false)
@@ -414,9 +415,11 @@ function complete_bp_raise()
     --cm:set_region_abandoned(bp_key)
     --cm:cai_disable_targeting_against_settlement("settlement:"..bp_key)
     
-    cm:override_building_chain_display("wh2_dlc09_special_settlement_pyramid_of_nagash_tmb", "wh2_dlc09_tmb_settlement_major")
-    cm:override_building_chain_display("nag_outpost_special_blackpyramid", "wh2_dlc09_tmb_settlement_major")
-
+    cm:override_building_chain_display("wh2_dlc09_tmb_settlement_major", "wh2_dlc09_special_settlement_pyramid_of_nagash_tmb")
+    cm:override_building_chain_display("wh2_dlc09_tmb_settlement_major", "nag_outpost_special_blackpyramid")
+    cm:change_custom_settlement_name(cm:get_region("wh3_main_combi_region_black_pyramid_of_nagash"):settlement(),common:get_localised_string("rhox_nagash_this_is_urgat_idea_settlement_name"))
+    
+    
     --cm:force_religion_factors(bp_key, "wh_main_religion_undeath", 1)
 
     local faction_key = nagash_faction
