@@ -32,9 +32,11 @@ local function rhox_nagash_init_setting()
         nagash_character_type = "nag_nagash_husk"
     elseif nagash_ai_level_bonus < 20 then
         nagash_character_type = "nag_nagash_husk" --he starts as a husk if his bonus level is below 20
+        cm:force_change_cai_faction_personality("mixer_nag_nagash", "wh3_combi_chaos_settled_belakor")
     else --is not human and level bonus is above 20 so let's change the skin look
         cm:override_building_chain_display("wh2_dlc09_tmb_settlement_major", "wh2_dlc09_special_settlement_pyramid_of_nagash_tmb")
         cm:change_custom_settlement_name(cm:get_region("wh3_main_combi_region_black_pyramid_of_nagash"):settlement(),common:get_localised_string("rhox_nagash_this_is_urgat_idea_settlement_name"))
+        cm:force_change_cai_faction_personality("mixer_nag_nagash", "wh3_combi_chaos_settled_belakor")
     end
     
     
