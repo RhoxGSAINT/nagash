@@ -340,7 +340,18 @@ function RHOX_NAGASH_MORTARCH:rhox_nagash_save_agent_info(mort_key, faction, old
             ap = character:action_points_remaining_percent()
         }
         out("Rhox Nagash: Saved the guy")
+		if cm:get_faction(nagash_faction):is_human() == false then--in case of AI, they'll give this info to the agent info to the new one directly, 
+			cm:callback(
+				function()
+					cm:suppress_immortality(character:family_member():command_queue_index(), true)
+					cm:kill_character_and_commanded_unit(cm:char_lookup_str(character), true)
+				end,
+			1)
+			
+		end
     end
+
+
     return
 end
 
@@ -399,6 +410,7 @@ function RHOX_NAGASH_MORTARCH:rhox_nagash_spawn_follower_hero(mort_key, mort_typ
     cm:change_character_custom_name(new_character, forename, "","","")
     
     cm:replenish_action_points(cm:char_lookup_str(new_character))
+
 end
 
 
