@@ -26,6 +26,12 @@ causes_fear	nag_mortarch_neferata_abyssal
 causes_terror	nag_mortarch_neferata_abyssal
 encourages	nag_mortarch_neferata_abyssal
 undead	nag_mortarch_neferata_abyssal
+causes_fear	nag_mortarch_kalledria
+causes_terror	nag_mortarch_kalledria
+encourages	nag_mortarch_kalledria
+hide_forest	nag_mortarch_kalledria
+undead	nag_mortarch_kalledria
+strider	nag_mortarch_kalledria
 causes_fear	nag_mortarch_krell
 causes_terror	nag_mortarch_krell
 encourages	nag_mortarch_krell

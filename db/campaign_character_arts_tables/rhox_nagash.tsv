@@ -80,3 +80,4 @@ id	art_set_id	level	age	portrait	season	uniform	card	info	sea_uniform	navy_unifo
 90909172	nag_mortarch_drekla	0	0		none	mixu_uniform_cst_drekla			wh2_dlc11_campaign_cst_ship_agent	wh2_dlc11_campaign_cst_ship_agent	cam_hu1_empire_sword_and_shield	cam_cst_transport_ship_01	cam_cst_transport_ship_01	0	0	0
 90909173	nag_guinevere	0	0		none	nag_guinevere			wh_main_campaign_vmp_ship_light	wh_main_campaign_vmp_ship_heavy	cam_hu1b_vampire_sword	cam_light_ship_01	cam_heavy_ship_01	0	0	0
 90909174	nag_guinevere_male	0	0		none	nag_guinevere			wh_main_campaign_vmp_ship_light	wh_main_campaign_vmp_ship_heavy	cam_hu1b_vampire_sword	cam_light_ship_01	cam_heavy_ship_01	0	0	0
+90909175	nag_mortarch_kalledria	0	0		none	nag_mortarch_kalledria			wh_main_campaign_vmp_ship_heavy	wh_main_campaign_vmp_ship_heavy	cam_gh1_ghost	cam_heavy_ship_01	cam_heavy_ship_01	0	0	0

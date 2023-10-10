@@ -15,8 +15,9 @@ id	names_group	type	gender	frequency
 1937224339	666	forename	m	0
 1937224340	666	forename	m	0
 1937224341	666	forename	m	0
-1937224342	666	forename	m	0
+1937224342	666	forename	f	0
 1937224343	666	forename	f	0
+1937224344	666	forename	f	0
 1777692413	666	family_name	b	0
 1777692414	666	family_name	b	0
 1777692415	666	family_name	b	0
@@ -26,3 +27,4 @@ id	names_group	type	gender	frequency
 1777692419	666	family_name	b	0
 1777692420	666	family_name	b	0
 1777692421	666	family_name	b	0
+1777692422	666	family_name	b	0

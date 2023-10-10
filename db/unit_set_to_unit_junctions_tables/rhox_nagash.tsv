@@ -268,7 +268,7 @@ hero				nag_characters	false
 			nag_vanilla_vmp_inf_cairn_wraiths	nag_frost_spirits	false
 			nag_vanilla_vmp_cav_hexwraiths	nag_frost_spirits	false
 			nag_spirit_hosts	nag_frost_spirits	false
-			nag_mortis_engine	nag_frost_spirits	false
+			nag_carrion_riders	nag_frost_spirits	false
 			nag_vanilla_vmp_inf_crypt_ghouls	nag_ghouls_horrros	false
 			nag_vanilla_vmp_mon_crypt_horrors	nag_ghouls_horrros	false
 			nag_vanilla_vmp_inf_zombie	nag_ghouls_zombies	false

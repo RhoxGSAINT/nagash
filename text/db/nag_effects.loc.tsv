@@ -41,7 +41,7 @@ effects_description_nag_effect_army_cav_speed_skill	Speed: %+n% for all Cavalry 
 effects_description_nag_effect_army_cav_charge_bonus_skill	Charge bonus: %+n for all Cavalry and Chariot units	true
 effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all War Beast and Monstrous Infantry units	true
-effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
+effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Spirit Hosts, Fell Spectres, Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_magic_resistance_skill	Spell resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
@@ -350,7 +350,7 @@ effects_description_nag_effect_character_physical_resist_lord_hero_all	Physical 
 effects_description_nag_effect_unit_enable_flaming_attacks_constructs	Enables flaming attacks for all Construct units	true
 effects_description_nag_effect_unit_speed_all_skeleton	Speed: %+n% for Skeletal Infantry, Cavalry and Chariot units.	true
 effects_description_nag_effect_unit_vigour_loss_reduction_all_skeleton	Vigour loss reduction: %+n% for Skeletal Infantry, Cavalry and Chariot units.	true
-effects_description_nag_effect_unit_frostbite_attacks_spirits	Enables frostbite attacks for 	true
+effects_description_nag_effect_unit_frostbite_attacks_spirits	Enables frostbite attacks for Spirit Hosts and Wraith units.	true
 effects_description_nag_effect_unit_magic_attacks_morghasts	Enables magical attacks in battles: For Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes 	true
 effects_description_nag_effect_unit_magic_resistance_morghasts	Spell resistance: %n% for Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes	true
 effects_description_nag_effect_enable_ability_chilling_aura_zombies	Passive ability: "The Chilling Aura" for Zombie units	true
