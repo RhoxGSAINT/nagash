@@ -326,7 +326,7 @@ local followers = {
 		["condition"] =
 			function(context)
                 local character = context:character();
-				return character:faction():name() =="mixer_nag_nagash" and character:military_force():contains_mercenaries();
+				return character:faction():name() =="mixer_nag_nagash" and character:has_military_force() and character:military_force() and character:military_force():contains_mercenaries();
 			end,
 		["chance"] = 15
 	},
