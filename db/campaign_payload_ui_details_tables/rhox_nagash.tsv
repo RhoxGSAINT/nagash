@@ -7,6 +7,7 @@ nag_mortarch_mannfred_technology	ui/skins/default/technology_positive.png	positi
 nag_mortarch_luthor_technology	ui/skins/default/technology_positive.png	positive	0
 nag_mortarch_arkhan_technology	ui/skins/default/technology_positive.png	positive	0
 nag_mortarch_dieter_technology	ui/skins/default/technology_positive.png	positive	0
+nag_mortarch_kalledria_technology	ui/skins/default/technology_positive.png	positive	0
 nag_azhag_recruit	ui/battle ui/ability_icons/wh2_dlc15_army_abilities_azhags_waaagh.png	positive	0
 nag_mortarch_confederation	ui/campaign ui/effect_bundles/confederation.png	negative	0
 nag_mortarch_war	ui/campaign ui/diplomacy_icons/diplomatic_option_declare_war.png	negative	0

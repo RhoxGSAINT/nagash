@@ -52,3 +52,5 @@ nag_azhag_horde_landmark			military	false	nag_azhag_horde_landmark		2	nag_mortar
 nag_azhag_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
 nag_dk_horde_landmark			military	false	nag_dk_horde_landmark		2	nag_mortarch_dk	true
 nag_dk_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true
+nag_kalledria_horde_landmark			military	false	nag_kalledria_horde_landmark		2	nag_mortarch_kalledria	true
+nag_kalledria_horde_special			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_coast_ship.png	1		true

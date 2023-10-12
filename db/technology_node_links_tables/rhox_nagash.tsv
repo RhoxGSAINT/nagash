@@ -48,6 +48,14 @@ nag_mortarch_vlad_event_1	nag_mortarch_vlad_unlock	0	1	4	0.0000	0.0000	true
 nag_mortarch_vlad_event_2	nag_mortarch_vlad_unlock	0	1	4	0.0000	0.0000	true
 nag_vlad_archai	nag_mortarch_vlad_unlock	0	1	3	0.0000	0.0000	true
 nag_mortarch_vlad_event_3	nag_mortarch_vlad_unlock	0	1	4	0.0000	0.0000	true
+nag_kalledria_battle_1	nag_mortarch_kalledria_unlock	0	3	4	0.0000	0.0000	true
+nag_kalledria_battle_2	nag_mortarch_kalledria_unlock	0	3	4	0.0000	0.0000	true
+nag_kalledria_battle_3	nag_mortarch_kalledria_unlock	0	3	4	0.0000	0.0000	true
+nag_kalledria_proclamation	nag_mortarch_kalledria_unlock	0	3	1	0.0000	0.0000	true
+nag_mortarch_kalledria_event_1	nag_mortarch_kalledria_unlock	0	1	4	0.0000	0.0000	true
+nag_mortarch_kalledria_event_2	nag_mortarch_kalledria_unlock	0	1	4	0.0000	0.0000	true
+nag_kalledria_archai	nag_mortarch_kalledria_unlock	0	1	3	0.0000	0.0000	true
+nag_mortarch_kalledria_event_3	nag_mortarch_kalledria_unlock	0	1	4	0.0000	0.0000	true
 nag_nagash_ultimate_preprartion	nag_location_nagashizzar	0	2	4	0.0000	0.0000	true
 nag_nagash_ultimate_preprartion	nag_location_mourkain	0	2	4	0.0000	0.0000	true
 nag_nagash_ultimate_preprartion	nag_location_lahmia	0	2	4	0.0000	0.0000	true

@@ -3,6 +3,7 @@ key	agent_key	for_army	for_navy	faction_key	campaign_key	subculture	agent_subtyp
 nag_skill_node_set_nagash_husk	general	false	false				nag_nagash_husk
 nag_skill_node_set_nagash_boss	general	false	false				nag_nagash_boss
 nag_skill_node_set_mortarch_arkhan	general	false	false				nag_mortarch_arkhan
+nag_skill_node_set_mortarch_kalledria	general	false	false				nag_mortarch_kalledria
 nag_skill_node_set_mortarch_krell	general	false	false				nag_mortarch_krell
 nag_skill_node_set_mortarch_luthor	general	false	false				nag_mortarch_luthor
 nag_skill_node_set_mortarch_neferata	general	false	false				nag_mortarch_neferata

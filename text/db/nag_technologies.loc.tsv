@@ -128,7 +128,7 @@ technologies_short_description_nag_vlad_proclamation	The skilled vampire serves 
 technologies_short_description_nag_vlad_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technology_ui_groups_optional_display_name_nag_mortarchs	The Mortarchs	false
 technology_ui_groups_optional_display_description_nag_mortarchs	Dost this worketh?	false
-technologies_onscreen_name_nag_mortarch_dieter_unlock	Dieter Helsnicht	false
+technologies_onscreen_name_nag_mortarch_dieter_unlock	Dieter, Mortarch of Doom	false
 technologies_short_description_nag_mortarch_dieter_unlock	Revel in the madness and savour this most delightful taste, revenge.	false
 technologies_onscreen_name_nag_dieter_archai	Bestow the Archai	false
 technologies_short_description_nag_dieter_archai	For all their pledges, Mortarchs may need unfailingly-loyal eyes watching over them...	false
@@ -146,7 +146,7 @@ technologies_onscreen_name_nag_dieter_battle_2	Mortal Mask	false
 technologies_short_description_nag_dieter_battle_2	"I was you once, Dieter. Strive to become me now."	false
 technologies_onscreen_name_nag_dieter_battle_3	Doom's Own	false
 technologies_short_description_nag_dieter_battle_3	When the Doomlord was forsaken by Middenheim, he lost friends and family. Luckily he could literally raise new ones from the ground.	false
-technologies_onscreen_name_nag_mortarch_dk_unlock	Dread King	false
+technologies_onscreen_name_nag_mortarch_dk_unlock	Dread King, Mortarch of Omens	false
 technologies_short_description_nag_mortarch_dk_unlock	A mighty undead liche and an army of darkness to serve his will.	false
 technologies_onscreen_name_nag_dk_archai	Bestow the Archai	false
 technologies_short_description_nag_dk_archai	For all their pledges, Mortarchs may need unfailingly-loyal eyes watching over them...	false
@@ -164,3 +164,21 @@ technologies_onscreen_name_nag_dk_battle_2	The First Anvil	false
 technologies_short_description_nag_dk_battle_2	And your front too.	false
 technologies_onscreen_name_nag_dk_battle_3	Omen's Own	false
 technologies_short_description_nag_dk_battle_3	Timeless warriors buried by the sands of time, dragged through the ages for one last conquest.	false
+technologies_onscreen_name_nag_kalledria_battle_1	Battle 1	false
+technologies_short_description_nag_kalledria_battle_1	PLACEHOLDER	false
+technologies_onscreen_name_nag_kalledria_battle_2	Battle 2	false
+technologies_short_description_nag_kalledria_battle_2	PLACEHOLDER	false
+technologies_onscreen_name_nag_kalledria_battle_3	Sorrow's Own	false
+technologies_short_description_nag_kalledria_battle_3	PLACEHOLDER	false
+technologies_onscreen_name_nag_mortarch_kalledria_event_1	Event 1	false
+technologies_short_description_nag_mortarch_kalledria_event_1	PLACEHOLDER	false
+technologies_onscreen_name_nag_mortarch_kalledria_event_2	Event 2	false
+technologies_short_description_nag_mortarch_kalledria_event_2	PLACEHOLDER	false
+technologies_onscreen_name_nag_mortarch_kalledria_event_3	Event 3	false
+technologies_short_description_nag_mortarch_kalledria_event_3	PLACEHOLDER	false
+technologies_onscreen_name_nag_mortarch_kalledria_unlock	Kalledria, Mortarch of Sorrow	false
+technologies_short_description_nag_mortarch_kalledria_unlock	PLACEHOLDER	false
+technologies_onscreen_name_nag_kalledria_proclamation	Proclamation	false
+technologies_short_description_nag_kalledria_proclamation	PLACEHOLDER	false
+technologies_onscreen_name_nag_kalledria_archai	Bestow the Archai	false
+technologies_short_description_nag_kalledria_archai	For all their pledges, Mortarchs may need unfailingly-loyal eyes watching over them...	false

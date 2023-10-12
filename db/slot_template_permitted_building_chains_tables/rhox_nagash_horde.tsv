@@ -5,6 +5,7 @@ chain	chain_set	slot_template	super_chain	remove
 	rhox_nagash_special_horde_vlad	nag_vlad_horde_primary		false
 	rhox_nagash_special_horde_neffy	nag_neferata_horde_primary		false
 	rhox_nagash_special_horde_manny	nag_mannfred_horde_primary		false
+	rhox_nagash_special_horde_kalledria	nag_kalledria_horde_primary		false
 	rhox_nagash_special_horde_krell	nag_krell_horde_primary		false
 	rhox_nagash_special_horde_luthor	nag_harkon_horde_primary		false
 	rhox_nagash_special_horde_husk	nag_husk_horde_primary		false
