@@ -64,3 +64,5 @@ agent_subtypes_onscreen_name_override_nag_mortarch_drekla	The Right Hand of Luth
 agent_subtypes_description_text_override_nag_mortarch_drekla	The right hand of Luthor Harkon, which is somewhat ironic, since he lost his own left hand following the Vampire Admiral into battle.	false
 agent_subtypes_onscreen_name_override_nag_guinevere	Legendary Wandering Vampire	false
 agent_subtypes_description_text_override_nag_guinevere	Legendary Wandering Vampire	false
+agent_subtypes_description_text_override_nag_mortarch_kalledria	Kalledria	false
+agent_subtypes_onscreen_name_override_nag_mortarch_kalledria	Kalledria	false

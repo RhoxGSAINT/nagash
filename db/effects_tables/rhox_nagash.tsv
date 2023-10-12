@@ -158,6 +158,7 @@ nag_krell_unit_effect	weapon_damage.png	666	weapon_damage.png	campaign	true
 nag_neferata_unit_effect	attribute_stalk.png	666	resistance_physical.png	campaign	true
 nag_vlad_unit_effect	resistance_physical.png	666	resistance_physical.png	campaign	true
 nag_undead_corruption_world_dummy	corruption_vampiric.png	104	corruption_vampiric.png	campaign	true
+nag_undead_corruption_own_enemy_dummy	corruption_vampiric.png	104	corruption_vampiric.png	campaign	true
 nag_effect_force_enemy_campaign_movement_range_province	campaign_movement.png	14	campaign_movement.png	campaign	false
 nag_effect_force_enemy_begin_fatigued_3_winded	vigour.png	101	vigour.png	battle	true
 nag_effect_character_physical_resist_lord_hero_all	resistance_physical.png	55	resistance_ward_save.png	battle	true
