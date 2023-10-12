@@ -69,6 +69,17 @@ RHOX_NAGASH_MORTARCH.rhox_nagash_unlock_techs = {
         "nag_vlad_proclamation",
         "nag_vlad_archai"
     },
+    nag_mortarch_kalledria_unlock = {
+        "nag_kalledria_battle_1",
+        "nag_kalledria_battle_2",
+        "nag_kalledria_battle_3",
+        "nag_mortarch_kalledria_event_1",
+        "nag_mortarch_kalledria_event_2",
+        "nag_mortarch_kalledria_event_3",
+        "nag_mortarch_kalledria_unlock",
+        "nag_kalledria_proclamation",
+        "nag_kalledria_archai"
+    },
     nag_mortarch_dieter_unlock = {
         "nag_dieter_battle_1",
         "nag_dieter_battle_2",
@@ -102,7 +113,8 @@ RHOX_NAGASH_MORTARCH.archai_tech_key_to_mortarch={
     nag_krell_archai="nag_mortarch_krell",
     nag_dieter_archai="nag_mortarch_dieter",
     nag_neferata_archai="nag_mortarch_neferata",
-    nag_dk_archai="nag_mortarch_dk"
+    nag_dk_archai="nag_mortarch_dk",
+    nag_kalledria_archai ="nag_mortarch_kalledria"
 }
 
 
@@ -127,7 +139,8 @@ RHOX_NAGASH_MORTARCH.mort_key_to_name ={
     ["nag_mortarch_krell"]="nag_nagash_name_krell",
     ["nag_mortarch_dieter"]="nag_nagash_name_dieter",
     ["nag_mortarch_azhag"]="nag_nagash_name_azhag",
-    ["nag_mortarch_dk"]="nag_nagash_name_dk"
+    ["nag_mortarch_dk"]="nag_nagash_name_dk",
+    ["nag_mortarch_kalledria"]="nag_nagash_name_kalledria"
     
 }
 
@@ -146,7 +159,8 @@ RHOX_NAGASH_MORTARCH.mort_key_to_region ={
     ["nag_mortarch_krell"]="wh3_main_combi_region_morgheim",
     ["nag_mortarch_dieter"]="wh3_main_combi_region_aarnau",
     ["nag_mortarch_azhag"]="wh3_main_combi_region_nagashizzar",
-    ["nag_mortarch_dk"]="wh3_main_combi_region_black_pyramid_of_nagash"
+    ["nag_mortarch_dk"]="wh3_main_combi_region_black_pyramid_of_nagash",
+    ["nag_mortarch_kalledria"]="wh3_main_combi_region_waili_village"
 }
 
 
@@ -261,7 +275,17 @@ RHOX_NAGASH_MORTARCH.mort_key_to_units={
         "nagash_ovn_dk_inf_skeleton_pikemen",
         "nagash_ovn_dk_inf_tomb_guardian",
         "nagash_ovn_dk_inf_tomb_guardian_peltasts"
-    }
+    },
+	["nag_mortarch_kalledria"]={
+		"nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_vanilla_vmp_inf_crypt_ghouls",
+        "nag_spirit_hosts",
+        "nag_spirit_hosts",
+        "nag_vanilla_vmp_inf_cairn_wraiths",
+        "nag_vanilla_vmp_inf_cairn_wraiths",
+        "nag_nagashi_knights"
+	}
 }
 
 
@@ -1128,6 +1152,20 @@ function RHOX_NAGASH_MORTARCH:trigger_mortarch_unlock_missions()   --used in oth
         end
         
         
+        --
+        
+        do
+            local mort = "nag_mortarch_kalledria"
+            
+            local mm = mission_manager:new(key, mort.."_unlock")
+            mm:add_new_objective("SCRIPTED")
+            mm:add_condition("script_key nag_conquer_one_magical_forest")
+            mm:add_condition("override_text mission_text_text_nag_conquer_one_magical_forest")
+            mm:add_payload("text_display nag_mortarch_kalledria_technology");
+            mm:add_payload("money 1000")
+            mm:trigger()
+        end
+        
         --dieter missions. Only if Mixu lords exist
         if vfs.exists("script/frontend/mod/mixu_frontend_le_darkhand.lua")then --mixer lords exist
             local mort = "nag_mortarch_dieter"
@@ -1145,6 +1183,25 @@ function RHOX_NAGASH_MORTARCH:trigger_mortarch_unlock_missions()   --used in oth
     else
     end
 end
+
+
+
+core:add_listener(
+    "rhox_nagash_magical_forest_complete",
+    "RegionTurnStart",
+    function(context)
+        local region= context:region()
+        local settlement= region:settlement()
+        if not settlement then
+            return
+        end
+        return region:owning_faction() and region:owning_faction():name()==nagash_faction and settlement:get_climate() == "climate_magicforest"
+    end,
+    function(context)
+        cm:complete_scripted_mission_objective(nagash_faction, "nag_mortarch_kalledria_unlock", "nag_conquer_one_magical_forest", true)
+    end,
+    false
+)
 
 
 core:add_listener(

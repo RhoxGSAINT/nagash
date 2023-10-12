@@ -610,6 +610,7 @@ cm:add_first_tick_callback(
                 cm:lock_technology(nagash_faction, "nag_mortarch_vlad_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_dieter_unlock")
                 cm:lock_technology(nagash_faction, "nag_mortarch_dk_unlock")
+                cm:lock_technology(nagash_faction, "nag_mortarch_kalledria_unlock")
                 cm:lock_technology(nagash_faction, "nag_nagash_ultimate")
                 cm:add_event_restricted_unit_record_for_faction("nag_doomed_legion", "mixer_nag_nagash", "rhox_nagash_doomed_legion_lock")--only for the human because I don't want to do research completed loop listener for the AI
             else --if they're not human. They're getting free grand spells

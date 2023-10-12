@@ -342,6 +342,7 @@ effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carste
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
 effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Silver Pinnacle[[/col]]	true
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
+effects_description_nag_kalledria_unlock	Summon [[col:yellow]]Kalledria[[/col]] to your Legion, spawning in [[col:yellow]]Wai-Li Village[[/col]]	false
 effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
 effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true
 effects_description_wh2_dlc09_title_king	[HIDDEN] Adds the name "King"	true
