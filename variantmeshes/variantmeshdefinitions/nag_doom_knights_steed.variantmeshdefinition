@@ -1,6 +1,6 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hr1/vmp/vmp_skeletal_horse/vmp_skeletal_horse_01.wsmodel"  />
+		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hr1/vmp/vmp_skeletal_horse/nag_skeletal_horse_01.wsmodel"  />
 	</SLOT>
 	<SLOT name="armour" >
 		<VARIANT_MESH model="VariantMeshes/wh_variantmodels/hr1/vmp/vmp_barded_nightmare/vmp_barded_nightmare_01.wsmodel"  >
