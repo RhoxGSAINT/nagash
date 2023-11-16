@@ -20,7 +20,9 @@ local guin_culture={
     wh_main_brt_bretonnia = true,
     wh_main_emp_empire = true,
     wh_main_vmp_vampire_counts = true,
-    mixer_teb_southern_realms = true
+    mixer_teb_southern_realms = true,
+    wh3_main_cth_cathay = true,
+    mixer_nip_nippon = true
 }
 
 local function get_character_by_subtype(subtype, faction)
