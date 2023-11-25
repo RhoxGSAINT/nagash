@@ -349,7 +349,7 @@ end
 
 cm:add_first_tick_callback(
     function() 
-        if cm:get_faction(Rhox_Nagash_Lahmia_Coven_Influence.player_faction):is_human() then
+        if cm:get_faction(Rhox_Nagash_Lahmia_Coven_Influence.player_faction) and cm:get_faction(Rhox_Nagash_Lahmia_Coven_Influence.player_faction):is_human() then
             Rhox_Nagash_Lahmia_Coven_Influence:initialise() 
         end
     end

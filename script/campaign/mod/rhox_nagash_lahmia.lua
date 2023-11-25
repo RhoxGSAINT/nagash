@@ -26,9 +26,15 @@ local levies ={
 }
 
 local function rhox_nagash_lahmia_init_setting()
+    local region_name = "wh3_main_combi_region_silver_pinnacle"
+
+    if cm:get_campaign_name() == "cr_oldworld" then 
+        region_name = "cr_oldworld_region_silver_pinnacle"
+    end
+    
     local x,y = cm:find_valid_spawn_location_for_character_from_settlement(
         lahmia_faction,
-        "wh3_main_combi_region_silver_pinnacle",
+        region_name,
         false,
         true,
         5
@@ -40,7 +46,7 @@ local function rhox_nagash_lahmia_init_setting()
     -- faction_key, unit_list, region_key, x, y, agent_type, agent_subtype, forename, clan_name, family_name, other_name, id, make_faction_leader, success_callback
     lahmia_faction,
     "wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_inf_skeleton_warriors_0,wh_main_vmp_veh_black_coach,wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_inf_zombie,wh_main_vmp_cav_black_knights_3,wh_main_vmp_mon_dire_wolves",
-    "wh3_main_combi_region_silver_pinnacle",
+    region_name,
     x,
     y,
     "general",
@@ -81,6 +87,9 @@ end
 
 cm:add_first_tick_callback(
 	function()
+        if cm:get_campaign_name() ~= "main_warhammer" and cm:get_campaign_name() ~= "cr_oldworld" then 
+            return--only for IE, IEE, and ToW
+        end
         if not vfs.exists("script/frontend/mod/lah1_start.lua")then --don't do this if Dust's one is already
             pcall(function()
                 mixer_set_faction_trait(lahmia_faction, "rhox_lahmia_neferata_lord_trait", true)

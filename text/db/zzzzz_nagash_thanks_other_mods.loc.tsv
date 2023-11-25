@@ -127,3 +127,9 @@ effects_description_Dread_Aura		false
 effects_description_dread_effect_discouraged_attacks_royal_guard		false
 land_units_onscreen_name_nag_nagash_dummy_for_other_mods	You need other mod in order to play this character/unit	false
 unit_description_short_texts_text_nag_nagash_dummy_for_other_mods	You need other mod in order to play this character/unit.\\nDieter& Drekla: Mixu's LL\\nDread King & Hand: OvN Dread King Legions	false
+campaigns_bullet_list_cr_oldworld		false
+campaigns_description_cr_oldworld		false
+campaigns_onscreen_name_cr_oldworld		false
+frontend_faction_leaders_loading_screen_text_cr_oldworld_political_party_vmp_lahmian_sisterhood		false
+frontend_faction_leaders_localised_action_points_cr_oldworld_political_party_vmp_lahmian_sisterhood		false
+frontend_faction_leaders_localised_description_cr_oldworld_political_party_vmp_lahmian_sisterhood		false
