@@ -127,6 +127,8 @@ RHOX_NAGASH_MORTARCH.mort_key_to_faction_key ={
     ["nag_mortarch_azhag"]="wh2_dlc15_grn_bonerattlaz",
     ["nag_mortarch_neferata"]="wh3_main_vmp_lahmian_sisterhood",
     ["nag_mortarch_dk"]="ovn_tmb_dread_king",
+    ["nag_mortarch_kalledria"]="mixer_vmp_wailing_conclave",
+
 }
 
 
@@ -173,6 +175,8 @@ RHOX_NAGASH_MORTARCH.mort_key_to_success_chance ={
     ["nag_mortarch_neferata"] = 35,
     ["nag_mortarch_azhag"]=100, --AI won't use it this is for human to evade the script breaking
     ["nag_mortarch_dk"] = 10,
+    ["nag_mortarch_kalledria"] = 35,
+
 }
 
 RHOX_NAGASH_MORTARCH.mort_key_to_units={
