@@ -50,3 +50,39 @@ incidents_localised_title_rhox_nagash_guin_arrive	Geneviève Dieudonné Arrives	
 incidents_localised_description_rhox_nagash_guin_arrive	Geneviève Dieudonné, the immortal vampire of legendary repute, sought solace among a faction in need. With her arrival, a ripple of intrigue spread, as the faction's warriors found themselves invigorated by her wisdom and otherworldly presence. 	false
 incidents_localised_title_rhox_nagash_guin_leave	Geneviève Dieudonné Departs	false
 incidents_localised_description_rhox_nagash_guin_leave	Amidst bittersweet farewells, Geneviève Dieudonné bid her faction adieu. Yet, she left behind a parting gift that would forever be cherished. With gratitude for her service, Geneviève bestowed upon the nation a generous sum of wealth earned during her tenure, ensuring their prosperity and continued resilience in the face of future trials. 	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_1	Coven's Cursemark!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_1_received	Army Hexed!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_2	Jinxed Land!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_2_received	Army Hexed!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_3	Recreant Spirit!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_3_received	Settlement Hexed!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_4	Bewitching Lure!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_4_received	Settlement Hexed!	false
+incidents_localised_title_rhox_nagash_kalledria_performed_hex_5	Tainted Chant!	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_1	Within your lands, one rule holds true: trespassers deserve no mercy! The Hex of the [[col:yellow]]Coven's Cursemark[[/col]] has already found its target, sapping them of energy until every movement is a struggle. They will not run far, should you decide to hunt them down…	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_1_received	A dark curse has befallen your army, afflicting your soldiers with a paralyzing lethargy. Trespassing in foreign lands is never without risk, but none could have anticipated the threat of such a dark and twisted Hex!	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_2	There one moment and gone the next, a whole army has disappeared into the ether, swept up in the [[col:yellow]]Jinxed Land[[/col]] Hex and deposited into the dark. The Magical Forest shall be there to greet them, once their eyes have adjusted to the gloom.	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_2_received	A sudden wave of magic has swept over your army, whisking them into a dark and forbidding forest, where curious eyes seem to peer out from every shadow. Such a Hex could only be the work of a powerful soul indeed…	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_3	An army of darkness descends on your enemies! With their settlement under constant assault by the bloodthirsty spirits summoned by your [[col:yellow]]Recreant Spirit[[/col]] Hex, it is only a matter of time before they crumble.	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_3_received	Dark spirits haunt your every step, eager to have you join their ranks and drag you into death beside them. Driven by some kind of wicked curse, they march ceaselessly on your settlement, hungering for blood. One can only hope this Dark Magic will soon wane!	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_4	The weak are so easily broken! Like puppets, your enemies fall to the [[col:yellow]]Bewitching Lure[[/col]], dancing to whatever tune you command of them. With your new thralls siphoning gold from their own settlements, your riches will soon know no bounds! 	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_4_received	A treacherous Spirit has beguiled your people, bewitching those of weak mind to her will. As gold leeches from your coffers at an alarming rate, it would seem that her newfound thralls are quietly offering her your income!	false
+incidents_localised_description_rhox_nagash_kalledria_performed_hex_5	The words of the [[col:yellow]]Tainted Chant[[/col]] echo across the land, corrupting everyting in the soil. Wickedness taint the earth here.	false
+incidents_localised_title_rhox_nagash_kalledria_story_panel_hex_1	Coven's Cursemark	false
+incidents_localised_title_rhox_nagash_kalledria_story_panel_hex_2	Jinxed Land	false
+incidents_localised_title_rhox_nagash_kalledria_story_panel_hex_3	Recreant Spirit	false
+incidents_localised_title_rhox_nagash_kalledria_story_panel_hex_4	Bewitching Lure	false
+incidents_localised_title_rhox_nagash_kalledria_story_panel_hex_5	Tainted Chant	false
+incidents_localised_title_rhox_nagash_kalledria_story_panel_hex_6	Malediction of Ruin	false
+incidents_button_text_rhox_nagash_kalledria_story_panel_hex_1	Continue	false
+incidents_button_text_rhox_nagash_kalledria_story_panel_hex_2	Continue	false
+incidents_button_text_rhox_nagash_kalledria_story_panel_hex_3	Continue	false
+incidents_button_text_rhox_nagash_kalledria_story_panel_hex_4	Continue	false
+incidents_button_text_rhox_nagash_kalledria_story_panel_hex_5	Continue	false
+incidents_button_text_rhox_nagash_kalledria_story_panel_hex_6	Continue	false
+incidents_localised_description_rhox_nagash_kalledria_story_panel_hex_1	Trespassing upon a Undead's land is a dangerous game. When the Kalledria wail in unison, they sear onto the flesh of interlopers a sinister mark that turns the very magic of the world against them. The Coven's Cursemark ensures one thing for its target: despair.	false
+incidents_localised_description_rhox_nagash_kalledria_story_panel_hex_2	The world’s Magical Forests call to the Kalledria, revealing gateways long since hidden. No matter the distance or what lies between, the Coven can traverse their secret ingresses in the blink of an eye.	false
+incidents_localised_description_rhox_nagash_kalledria_story_panel_hex_3	Those foolish enough to strike a deal with a Spirit find that death is merely the beginning of an unending serfdom. The power to call upon these restless spirits has been found; a Hex to haunt unknowing foes now in the Coven’s hands.	false
+incidents_localised_description_rhox_nagash_kalledria_story_panel_hex_4	Fickle minds are always susceptible to the whims of an alluring charm from a befouling Spirit. A Bewitching Lure will exploit those weak of will.	false
+incidents_localised_description_rhox_nagash_kalledria_story_panel_hex_5	There are places where the Coven’s magic seeps from the land, befouled by the blight of corruption.	false
+incidents_localised_description_rhox_nagash_kalledria_story_panel_hex_6	The five forbidden Hexes have been assembled, each piece a scattered fragment of a grand and sinister whole. Together they reveal a most baleful Hex, capable of bringing calamity to an entire race. They call it the "Malediction of Ruin".	false

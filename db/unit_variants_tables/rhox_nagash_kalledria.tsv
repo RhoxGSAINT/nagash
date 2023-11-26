@@ -1,0 +1,6 @@
+faction	unit	name	variant	unit_card
+#unit_variants_tables;5;db/unit_variants_tables/rhox_nagash_kalledria				
+	nag_syreen_kalledria_1	wh2_dlc11_cst_inf_syreens	nag_syreen_kalledria_1	wh2_dlc11_cst_syreens
+	nag_syreen_kalledria_2	wh2_dlc11_cst_inf_syreens	nag_syreen_kalledria_2	wh2_dlc11_cst_syreens
+	nag_syreen_kalledria_3	wh2_dlc11_cst_inf_syreens	nag_syreen_kalledria_3	wh2_dlc11_cst_syreens
+	nag_syreen_kalledria_4	wh2_dlc11_cst_inf_syreens	nag_syreen_kalledria_4	wh2_dlc11_cst_syreens

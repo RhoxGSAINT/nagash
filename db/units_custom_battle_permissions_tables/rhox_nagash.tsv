@@ -140,3 +140,8 @@ mixer_nag_nagash	false	nag_throne_guard	true	true				false		false
 mixer_nag_nagash	false	nag_nagashi_knights	true	true				false		false
 mixer_nag_nagash	false	nag_doom_knights	true	true				false		false
 mixer_nag_nagash	false	nag_druthor	true	true				false		false
+mixer_vmp_wailing_conclave	true	nag_vmp_kalledria	true	true			nag_mortarch_kalledria	false		false
+mixer_vmp_wailing_conclave	false	nag_syreen_kalledria_1	true	true				false		false
+mixer_vmp_wailing_conclave	false	nag_syreen_kalledria_2	true	true				false		false
+mixer_vmp_wailing_conclave	false	nag_syreen_kalledria_3	true	true				false		false
+mixer_vmp_wailing_conclave	false	nag_syreen_kalledria_4	true	true				false		false

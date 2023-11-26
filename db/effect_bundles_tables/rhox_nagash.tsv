@@ -65,3 +65,4 @@ nag_grand_spell_01_20_ai	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_grand_spell_02_20_ai	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_army_capacity_bundle	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_ai_research_minus_bundle	[HIDDEN]	HIDDEN	faction	0		true	false	true
+rhox_vmp_kalledria_lord_trait	ph	ph	faction	1	character.png	true	false	true

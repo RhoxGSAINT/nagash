@@ -1,0 +1,5 @@
+key	text	tooltip
+#Loc;1;text/db/!nag_vanilla_override.loc		
+pooled_resources_description_wh3_dlc24_ksl_spirit_essence	{{tr:mod_pooled_resources_description_wh3_dlc24_ksl_spirit_essence}}	false
+ui_text_replacements_localised_text_mod_pooled_resources_description_wh3_dlc24_ksl_spirit_essence	As Kislev’s guardian, Mother Ostankya can harness the raw magic of the beyond to cajole souls into enabling her Curses, Blessings and Hexes.\\n\\n[[img:icon_spirit_essence]][[/img]] [[col:yellow]]Spirit Essence is primarily gained from fighting battles and maintaining low levels of corruption.\\n\\n[[img:icon_spirit_essence]][[/img]]Spirit Essence is used to perform Hexes and create Incantations in the Witch’s Hut.[[/col]]	false
+ui_text_replacements_localised_text_mod_pooled_resources_description_wh3_dlc24_ksl_spirit_essence_nagash_kalledria	Kalledria can harness the raw magic of the beyond to cajole souls into enabling her Curses, Blessings, and Hexes.\\n\\n[[img:icon_spirit_essence]][[/img]] [[col:yellow]]Spirit Essence is primarily gained from fighting battles and maintaining high levels of vampire corruption.\\n\\n	false

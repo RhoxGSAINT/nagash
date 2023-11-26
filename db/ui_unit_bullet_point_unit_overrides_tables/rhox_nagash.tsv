@@ -194,3 +194,7 @@ anti_large	nag_druthor
 armour_piercing	nag_druthor
 poison	nag_druthor
 terror	nag_druthor
+anti_infantry	nag_vmp_kalledria
+terror	nag_vmp_kalledria
+ethereal	nag_vmp_kalledria
+magical_aura	nag_vmp_kalledria

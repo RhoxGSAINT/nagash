@@ -1,0 +1,7 @@
+effect	icon_path
+#effects_additional_tooltip_details_tables;0;db/effects_additional_tooltip_details_tables/rhox_nagash	
+rhox_nagash_kelledria_hex_upgrade_1	ui/campaign ui/effect_bundles/hex_1.png
+rhox_nagash_kelledria_hex_upgrade_2	ui/campaign ui/effect_bundles/hex_2.png
+rhox_nagash_kelledria_hex_upgrade_3	ui/campaign ui/effect_bundles/hex_3.png
+rhox_nagash_kelledria_hex_upgrade_4	ui/campaign ui/effect_bundles/hex_4.png
+rhox_nagash_kelledria_hex_upgrade_5	ui/campaign ui/effect_bundles/hex_5.png

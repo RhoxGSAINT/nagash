@@ -2,3 +2,4 @@ agent_subtype	effect_bundle
 #faction_starting_general_effects_tables;0;db/faction_starting_general_effects_tables/rhox_nagash	
 nag_nagash_husk	wh2_main_lord_trait_vmp_nagash
 nag_lahmia_neferata	rhox_lahmia_neferata_lord_trait
+nag_vmp_kalledria	rhox_vmp_kalledria_lord_trait

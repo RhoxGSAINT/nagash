@@ -32,3 +32,4 @@ nag_skill_node_set_mortarch_dk	general	false	false				nag_mortarch_dk
 nag_skill_node_set_mortarch_hand	champion	false	false				nag_mortarch_hand
 nag_skill_node_set_mortarch_drekla	dignitary	false	false				nag_mortarch_drekla
 nag_skill_node_set_guinevere	dignitary	false	false				nag_guinevere
+nag_skill_node_set_vmp_kalledria	general	false	false				nag_vmp_kalledria

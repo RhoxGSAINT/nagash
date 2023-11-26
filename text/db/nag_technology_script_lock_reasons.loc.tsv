@@ -10,3 +10,8 @@ technology_script_lock_reasons_lock_reason_nag_mortarch_dieter_unlock	[[col:red]
 technology_script_lock_reasons_lock_reason_nag_nagash_ultimate	[[col:red]]Finish the final ritual![[/col]]	false
 technology_script_lock_reasons_lock_reason_nag_mortarch_dk_unlock	[[col:red]]Complete the Mission "Mortarch Omens"[[/col]]	true
 technology_script_lock_reasons_lock_reason_nag_mortarch_kalledria_unlock	[[col:red]]Complete the Mission "Mortarch of Sorrow"[[/col]]	true
+technology_script_lock_reasons_lock_reason_rhox_nagash_kelledria_hex_upgrade_1	[[col:red]]Learn the "Coven's Cursemark" Hex.[[/col]]	false
+technology_script_lock_reasons_lock_reason_rhox_nagash_kelledria_hex_upgrade_2	[[col:red]]Learn the "Jinxed Land" Hex.[[/col]]	false
+technology_script_lock_reasons_lock_reason_rhox_nagash_kelledria_hex_upgrade_3	[[col:red]]Learn the "Recreant Spirit" Hex.[[/col]]	false
+technology_script_lock_reasons_lock_reason_rhox_nagash_kelledria_hex_upgrade_4	[[col:red]]Learn the "Bewitching Lure" Hex.[[/col]]	false
+technology_script_lock_reasons_lock_reason_rhox_nagash_kelledria_hex_upgrade_5	[[col:red]]Learn the "Tainted Chant" Hex.[[/col]]	false

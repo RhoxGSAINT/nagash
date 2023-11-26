@@ -2,3 +2,4 @@ id	trigger_events	needs_tracking	refund_on_cancel	active_cooldown_can_be_increas
 #ritual_categories_tables;1;db/ritual_categories_tables/rhox_nagash					
 FORCE_VASSAL_NAGASH	false	false	true	true	
 FORCE_VASSAL_LAHMIA	true	false	true	true	
+KALLEDRIA_HEX_RITUAL	false	false	true	false	
