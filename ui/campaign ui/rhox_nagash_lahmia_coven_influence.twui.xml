@@ -175,16 +175,20 @@
 			dock_offset="0.00,-10.00"
 			component_anchor_point="0.50,1.00"
 			priority="56"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle_list}}"
 			tooltiplabel="tooltip_handler_effect_bottom_Tooltip_ed05a419"
 			uniqueguid="21FE7C43-7B7D-07E1-26DB9EF618DC5516"
 			currentstate="80807DA4-6E10-52F9-1B5DCBDD0C58D4BC"
 			defaultstate="80807DA4-6E10-52F9-1B5DCBDD0C58D4BC">
 			<callbackwithcontextlist>
 				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
+					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
 					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.5) )"/>
+   					<child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle_list"/>
+					</child_m_user_properties>
 			</callbackwithcontextlist>
 			<states>
 				<default
@@ -208,16 +212,20 @@
 			dock_offset="10.00,0.00"
 			component_anchor_point="0.00,0.50"
 			priority="56"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle_list}}"
 			tooltiplabel="tooltip_handler_effect_left_Tooltip_ed05a419"
 			uniqueguid="1C32CD7A-3A0A-8607-A9D594B6D9A8FC49"
 			currentstate="E5825F56-8F3C-3414-3DCB51F0E55536CC"
 			defaultstate="E5825F56-8F3C-3414-3DCB51F0E55536CC">
 			<callbackwithcontextlist>
 				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
+					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
 					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.75) )"/>
+                    <child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle_list"/>
+					</child_m_user_properties>
 			</callbackwithcontextlist>
 			<states>
 				<default
@@ -241,16 +249,20 @@
 			dock_offset="-10.00,0.00"
 			component_anchor_point="1.00,0.50"
 			priority="56"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle_list}}"
 			tooltiplabel="tooltip_handler_effect_right_Tooltip_ed05a419"
 			uniqueguid="1DEFAF0C-322C-47CA-F5EB38A21FB5FD1F"
 			currentstate="7308DA94-B577-499F-81A7EB0AB77643E4"
 			defaultstate="7308DA94-B577-499F-81A7EB0AB77643E4">
 			<callbackwithcontextlist>
 				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
+					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
 					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.25) )"/>
+                    <child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle_list"/>
+					</child_m_user_properties>
 			</callbackwithcontextlist>
 			<states>
 				<default
@@ -274,16 +286,20 @@
 			dock_offset="0.00,11.00"
 			component_anchor_point="0.50,0.00"
 			priority="56"
-			componentleveltooltip="{{tt:ui/common ui/tooltip_effect_bundle_list}}"
 			tooltiplabel="tooltip_handler_effect_top_Tooltip_ed05a419"
 			uniqueguid="2732291E-117F-A43E-3260F5935238ACE1"
 			currentstate="7EA57B69-F611-8777-86594FF77594111A"
 			defaultstate="7EA57B69-F611-8777-86594FF77594111A">
 			<callbackwithcontextlist>
 				<callback_with_context
-					callback_id="ContextCustomTooltipStore"
+					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
 					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(1) )"/>
+                    <child_m_user_properties>
+						<property
+							name="layout_path"
+							value="ui/common ui/tooltip_effect_bundle_list"/>
+					</child_m_user_properties>
 			</callbackwithcontextlist>
 			<states>
 				<default
