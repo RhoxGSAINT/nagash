@@ -183,12 +183,13 @@
 				<callback_with_context
 					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
-					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.5) )"/>
+					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.5) )">
    					<child_m_user_properties>
 						<property
 							name="layout_path"
 							value="ui/common ui/tooltip_effect_bundle_list"/>
 					</child_m_user_properties>
+                </callback_with_context>
 			</callbackwithcontextlist>
 			<states>
 				<default
@@ -220,12 +221,13 @@
 				<callback_with_context
 					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
-					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.75) )"/>
+					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.75) )">
                     <child_m_user_properties>
 						<property
 							name="layout_path"
 							value="ui/common ui/tooltip_effect_bundle_list"/>
 					</child_m_user_properties>
+                </callback_with_context>
 			</callbackwithcontextlist>
 			<states>
 				<default
@@ -257,12 +259,13 @@
 				<callback_with_context
 					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
-					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.25) )"/>
+					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(0.25) )">
                     <child_m_user_properties>
 						<property
 							name="layout_path"
 							value="ui/common ui/tooltip_effect_bundle_list"/>
 					</child_m_user_properties>
+                </callback_with_context>
 			</callbackwithcontextlist>
 			<states>
 				<default
@@ -294,12 +297,13 @@
 				<callback_with_context
 					callback_id="ContextLayoutTooltip"
 					context_object_id="CcoCampaignPooledResource"
-					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(1) )"/>
+					context_function_id="CcoRTEffectBundleList( EffectBundleList : EffectBundleForPercentList(1) )">
                     <child_m_user_properties>
 						<property
 							name="layout_path"
 							value="ui/common ui/tooltip_effect_bundle_list"/>
 					</child_m_user_properties>
+                </callback_with_context>
 			</callbackwithcontextlist>
 			<states>
 				<default
