@@ -12,7 +12,7 @@ rhox_nagash_kalledria = {
 			spirit_essence_requirement = false,
 			hex = "rhox_nagash_kalledria_ritual_hex_5",
 			story_panel = "rhox_nagash_kalledria_story_panel_hex_5",
-			tech = "rhox_nagash_kelledria_hex_upgrade_5",
+			tech = "rhox_nagash_kalledria_hex_upgrade_5",
 			incident = "rhox_nagash_kalledria_story_panel_hex_5",
 			incident_received = false,
 			remove_bundle = "rhox_nagash_kalledria_ritual_hex_5",
@@ -21,7 +21,7 @@ rhox_nagash_kalledria = {
 			hex = "rhox_nagash_kalledria_ritual_hex_1",
 			spirit_essence_requirement = 100,
 			story_panel = "rhox_nagash_kalledria_story_panel_hex_1",
-			tech = "rhox_nagash_kelledria_hex_upgrade_1",
+			tech = "rhox_nagash_kalledria_hex_upgrade_1",
 			incident = "rhox_nagash_kalledria_performed_hex_1",
 			incident_received = "rhox_nagash_kalledria_performed_hex_1_received",
 			persistent_vfx_duration = 5,
@@ -41,7 +41,7 @@ rhox_nagash_kalledria = {
 			},
 			spirit_essence_requirement = 200,
 			story_panel = "rhox_nagash_kalledria_story_panel_hex_2",
-			tech = "rhox_nagash_kelledria_hex_upgrade_2",
+			tech = "rhox_nagash_kalledria_hex_upgrade_2",
 			incident = "rhox_nagash_kalledria_performed_hex_2",
 			incident_received = "rhox_nagash_kalledria_performed_hex_2_received",
 			remove_bundle = "rhox_nagash_kalledria_ritual_hex_2",
@@ -50,7 +50,7 @@ rhox_nagash_kalledria = {
 			hex = "rhox_nagash_kalledria_ritual_hex_4",
 			spirit_essence_requirement = 400,
 			story_panel = "rhox_nagash_kalledria_story_panel_hex_4",
-			tech = "rhox_nagash_kelledria_hex_upgrade_4",
+			tech = "rhox_nagash_kalledria_hex_upgrade_4",
 			incident = "rhox_nagash_kalledria_story_panel_hex_4",
 			incident_received = "rhox_nagash_kalledria_performed_hex_4_received",
 			persistent_vfx_duration = 5,
@@ -59,7 +59,7 @@ rhox_nagash_kalledria = {
 			hex = "rhox_nagash_kalledria_ritual_hex_3",
 			spirit_essence_requirement = 1000,
 			story_panel = "rhox_nagash_kalledria_story_panel_hex_3",
-			tech = "rhox_nagash_kelledria_hex_upgrade_3",
+			tech = "rhox_nagash_kalledria_hex_upgrade_3",
 			incident = "rhox_nagash_kalledria_performed_hex_3",
 			incident_received = "rhox_nagash_kalledria_performed_hex_3_received",
 		}
@@ -87,7 +87,7 @@ function rhox_nagash_kalledria:initialise()
 	if kalledria_faction_obj:is_human() then
 		-- unlock hex when mission completes
 		core:add_listener(
-			"rhox_nagash_kelledria_hex_unlock_mission",
+			"rhox_nagash_kalledria_hex_unlock_mission",
 			"MissionSucceeded",
 			function(context)
 				return context:faction():name() == self.kalledria_faction
@@ -129,7 +129,7 @@ function rhox_nagash_kalledria:initialise()
 	end
 	
 	core:add_listener(
-		"rhox_nagash_kelledria_turn_start",
+		"rhox_nagash_kalledria_turn_start",
 		"FactionTurnStart",
 		function(context)
 			return context:faction():name() == self.kalledria_faction
@@ -160,7 +160,7 @@ function rhox_nagash_kalledria:initialise()
 	
 	-- tracks the pooled resource spent
 	core:add_listener(
-		"rhox_nagash_kelledria_spirit_essence_spent",
+		"rhox_nagash_kalledria_spirit_essence_spent",
 		"PooledResourceChanged",
 		function(context)
 			return context:resource():key() == self.spirit_essence
@@ -186,7 +186,7 @@ function rhox_nagash_kalledria:initialise()
 	)
 	
 	core:add_listener(
-		"rhox_nagash_kelledria_hex_performed",
+		"rhox_nagash_kalledria_hex_performed",
 		"RitualCompletedEvent",
 		function(context)
 			return context:ritual():ritual_category() == self.hex_ritual_category
@@ -343,7 +343,7 @@ function rhox_nagash_kalledria:initialise()
 	
 	-- remove persistent vfx when it expires
 	core:add_listener(
-		"rhox_nagash_kelledria_remove_vfx",
+		"rhox_nagash_kalledria_remove_vfx",
 		"ScriptEventOstankyaCharacterVFXExpires",
 		true,
 		function(context)
@@ -352,7 +352,7 @@ function rhox_nagash_kalledria:initialise()
 		true
 	)
 	core:add_listener(
-		"rhox_nagash_kelledria_remove_vfx",
+		"rhox_nagash_kalledria_remove_vfx",
 		"ScriptEventOstankyaRegionVFXExpires",
 		true,
 		function(context)
@@ -360,6 +360,63 @@ function rhox_nagash_kalledria:initialise()
 		end,
 		true
 	)
+
+    -- spawn disciple armies for mother ostankya
+	core:add_listener(
+		"rhox_nagash_kalledria_create_disciple_army",
+		"FactionTurnStart",
+		function(context)
+			return context:faction():name() == self.kalledria_faction
+		end,
+		function()
+			for _, faction in model_pairs(cm:model():world():faction_list()) do
+				local bv = cm:get_factions_bonus_value(faction, "rhox_nagash_kalledria_disciple_army")
+				
+				if bv > 0 then
+					local save_value = faction:name() .. "_create_disciple_army_kalledria"
+					
+					if cm:get_saved_value(save_value) then
+						cm:set_saved_value(save_value, false)
+					else
+						local region_list = faction:region_list()
+						local region_to_spawn_in = region_list:item_at(cm:random_number(region_list:num_items()) - 1):name()
+						local x, y = cm:find_valid_spawn_location_for_character_from_settlement(self.kalledria_faction, region_to_spawn_in, false, true, 12)
+						
+						if x > 0 then
+							local units = "wh2_dlc11_cst_inf_syreens,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_cav_hexwraiths,wh_main_vmp_inf_cairn_wraiths"
+							
+							if bv > 1 then
+								units = "wh2_dlc11_cst_inf_syreens,wh2_dlc11_cst_inf_syreens,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_cav_hexwraiths,wh_main_vmp_cav_hexwraiths,wh_main_vmp_inf_cairn_wraiths,wh_main_vmp_inf_cairn_wraiths"
+							end
+							
+							cm:create_force_with_general(
+								self.kalledria_faction,
+								units,
+								region_to_spawn_in,
+								x,
+								y,
+								"general",
+								"rhox_nagash_banshee_summoned",
+								"",
+								"",
+								"",
+								"",
+								false,
+								function(cqi)
+									cm:apply_effect_bundle_to_characters_force("wh3_dlc24_bundle_ksl_mother_ostankya_disciple_army", cqi, 0)
+									cm:replenish_action_points(cm:char_lookup_str(cqi))
+								end
+							)
+						end
+						
+						cm:set_saved_value(save_value, true)
+					end
+				end
+			end
+		end,
+		true
+	)
+
 
 end
 

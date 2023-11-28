@@ -2,8 +2,9 @@ effect	icon	priority	icon_negative	category	is_positive_value_good
 #effects_tables;0;db/effects_tables/rhox_nagash_kalledria					
 rhox_nagash_kalledria_effect_non_vampirice_corruption_disabled	corruption_vampiric.png	104	corruption_vampiric.png	campaign	false
 rhox_nagash_kalledria_effect_ritual_hex_5_dummy	corruption_vampiric.png	1	corruption_vampiric.png	campaign	true
-rhox_nagash_kelledria_hex_upgrade_1	hex_1.png	105	hex_1.png	campaign	true
-rhox_nagash_kelledria_hex_upgrade_2	hex_2.png	105	hex_2.png	campaign	true
-rhox_nagash_kelledria_hex_upgrade_3	hex_3.png	105	hex_3.png	campaign	true
-rhox_nagash_kelledria_hex_upgrade_4	hex_4.png	105	hex_4.png	campaign	true
-rhox_nagash_kelledria_hex_upgrade_5	hex_5.png	105	hex_5.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_1	hex_1.png	105	hex_1.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_2	hex_2.png	105	hex_2.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_3	hex_3.png	105	hex_3.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_4	hex_4.png	105	hex_4.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_5	hex_5.png	105	hex_5.png	campaign	true
+rhox_nagash_kalledria_create_disciple_army	hex_3.png	1	hex_3.png	campaign	true
