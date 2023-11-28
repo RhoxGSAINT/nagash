@@ -206,7 +206,9 @@ local nagash_defeat_LL = {
 	["nag_mortarch_dieter"] = "mixu_defeated_trait_vmp_dieter_helsnicht",
     ["nag_mortarch_azhag"] = "wh2_main_trait_defeated_azhag_the_slaughterer",
     ["nag_lahmia_neferata"] = "rhox_nagash_neferata_defeat_trait",
-    ["nag_mortarch_dk"] = "ovn_Dread_King_defeat_trait"
+    ["nag_mortarch_dk"] = "ovn_Dread_King_defeat_trait",
+    ["nag_mortarch_kalledria"]="rhox_nagash_kalledria_defeat_trait",
+    ["nag_vmp_kalledria"]="rhox_nagash_kalledria_defeat_trait",
 }
 
 
