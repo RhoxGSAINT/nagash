@@ -668,3 +668,6 @@ key	building	unit	XP	conditions	faction	enabled
 8427495	nag_kalledria_horde_landmark_1	nag_vanilla_vmp_inf_crypt_ghouls	0	0		false
 8427496	nag_kalledria_horde_landmark_1	nag_vanilla_vmp_inf_cairn_wraiths	0	0		false
 8427497	nag_kalledria_horde_landmark_1	nag_vanilla_vmp_cav_hexwraiths	0	0		false
+8427498	wh_main_vmp_bindingcircle_1	rhox_nagash_kalledria_syreen	0	0		false
+8427499	wh_main_vmp_bindingcircle_2	rhox_nagash_kalledria_syreen	1	0		false
+8427500	wh_main_vmp_bindingcircle_3	rhox_nagash_kalledria_syreen	2	0		false

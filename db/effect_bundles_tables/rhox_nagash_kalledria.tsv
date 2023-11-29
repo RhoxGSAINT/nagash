@@ -6,3 +6,5 @@ rhox_nagash_kalledria_ritual_hex_5	Corruption must be cleansed, wherever its inf
 rhox_nagash_kalledria_ritual_hex_5_empowered	Where the land is purified by blinding light, corruption can no longer hold sway.	Tainted Chant (Empowered)	region	1	hex_5.png	true	true	false
 rhox_nagash_kalledria_ritual_hex_6	The armies of corruption crumble, burdened by the darkest of magic.	Malediction of Ruin	faction	1	hex_6.png	true	false	true
 rhox_nagash_kalledria_high_vampiric_corruption			province	1	spirit_essence_bundle.png	true	false	true
+rhox_nagash_kalledria_physical_resistance	Enhances the ghostly essence, providing increased physical resistance, allowing the specter to withstand the rigors of the mortal realm with spectral fortitude.	Spectral Shroud	none	1		true	false	true
+rhox_nagash_kalledria_magical_resistance	Description: Bestows a mystical barrier upon the ghost, augmenting magical resistance and deflecting the arcane energies that seek to disrupt the ethereal equilibrium.	Ethereal Ward	none	1		true	false	true

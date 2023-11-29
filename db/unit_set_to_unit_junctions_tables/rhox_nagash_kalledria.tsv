@@ -1,0 +1,23 @@
+unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
+#unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_nagash_kalledria					
+			rhox_nagash_kalledria_syreen	mp_cap_unit_cst_inf_deckhands_syreens	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_all_monster_ultility	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_all_monsters	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_army_chain_set_monster	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_inf_syreens	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_infantry_melee	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_rite_vanguard_monsters	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_syreen_mournguls	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_cst_terrorgheist_scurvy_dogs_syreen	false
+			rhox_nagash_kalledria_syreen	all_units_excluding_terror	false
+			rhox_nagash_kalledria_syreen	ethereal	false
+			rhox_nagash_kalledria_syreen	mp_cap_unit_vmp_inf_cairn_wraiths	false
+			rhox_nagash_kalledria_syreen	vmp_all	false
+			rhox_nagash_kalledria_syreen	vmp_bound_spirits	false
+			rhox_nagash_kalledria_syreen	vmp_unit_cairn_wraiths	false
+			rhox_nagash_kalledria_syreen	vmp_wraiths_mournguls	false
+			rhox_nagash_kalledria_syreen	vmp_wraiths	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_vmp_cairn_wraith_hex_wraith_mourngul	false
+			rhox_nagash_kalledria_syreen	wh2_dlc11_vmp_vets_zombies_skeletons_grave_guard_cairn_wraiths	false
+			rhox_nagash_kalledria_syreen	wh2_dlc17_cairnwraith_hexwraith_rank7	false
+			rhox_nagash_kalledria_syreen	wh_pro02_isabella_extra_upkeep	false

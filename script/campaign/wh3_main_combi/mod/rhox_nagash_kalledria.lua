@@ -383,10 +383,10 @@ function rhox_nagash_kalledria:initialise()
 						local x, y = cm:find_valid_spawn_location_for_character_from_settlement(self.kalledria_faction, region_to_spawn_in, false, true, 12)
 						
 						if x > 0 then
-							local units = "wh2_dlc11_cst_inf_syreens,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_cav_hexwraiths,wh_main_vmp_inf_cairn_wraiths"
+							local units = "rhox_nagash_kalledria_syreen,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_cav_hexwraiths,wh_main_vmp_inf_cairn_wraiths"
 							
 							if bv > 1 then
-								units = "wh2_dlc11_cst_inf_syreens,wh2_dlc11_cst_inf_syreens,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_cav_hexwraiths,wh_main_vmp_cav_hexwraiths,wh_main_vmp_inf_cairn_wraiths,wh_main_vmp_inf_cairn_wraiths"
+								units = "rhox_nagash_kalledria_syreen,rhox_nagash_kalledria_syreen,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_inf_crypt_ghouls,wh_main_vmp_cav_hexwraiths,wh_main_vmp_cav_hexwraiths,wh_main_vmp_inf_cairn_wraiths,wh_main_vmp_inf_cairn_wraiths"
 							end
 							
 							cm:create_force_with_general(
