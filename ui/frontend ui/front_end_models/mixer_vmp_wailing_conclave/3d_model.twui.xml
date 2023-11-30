@@ -97,7 +97,7 @@
                         num_anims="1"
                         skeleton_type="ghost01">
                         <animation_paths>
-                            <path value="animations\battle\ghost01\hands\gh1_hand_pose_half_open_01.anim"/>
+                            <path value="animations\battle\ghost01\hands\gh1_hand_pose_threaten_01.anim"/>
                         </animation_paths>
                     </ComponentModel>
                 </model_list>

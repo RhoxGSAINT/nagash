@@ -542,3 +542,6 @@ effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_h
 effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_hex_upgrade_4	The target settlement's entire province income will be provided	false
 effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_hex_upgrade_5	The target settlement's province will not gain any additional corruption except for the vampiric corruption for the duration	false
 effects_description_rhox_nagash_kalledria_create_disciple_army	An army consisting of Hexwraith, Cairn Wraith, Crypt Ghouls, and Syreen will be summoned in the target settlement's owner's territory every other turn	false
+effects_description_rhox_nagash_kalledria_effect_ability_enable_the_screaming_banner	Passive ability: "The Screaming Banner" for Banshees	false
+effects_description_rhox_nagash_kalledria_effect_ability_enable_horrible_regeneration_ghouls	Ability: Horrible Regeneration for Ghoul units	false
+effects_description_rhox_nagash_kalledria_effect_upkeep_cost_reduction_ethereal	Upkeep: %+n% for ethereal units	false

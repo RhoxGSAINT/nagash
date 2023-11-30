@@ -24,5 +24,5 @@ nag_nagash_name_drekla	Captain Drekla	false
 campaign_localised_strings_string_rhox_nagash_doomed_legion_lock	[[col:red]]This unit will unlock after researching technology [[img:icon_tech]][[/img]]Skull Collector[[/col]]	false
 rhox_nagash_this_is_urgat_idea_settlement_name	Former site of the Black Pyramid	false
 nag_nagash_name_kalledria	Kalledria, Mortarch of Sorrows	false
-event_feed_strings_text_rhox_nagash_how_they_play_kalledria	Kalledria, Mortarch of Sorrows	false
+event_feed_strings_text_rhox_nagash_how_they_play_kalledria	[[col:green]]Kalledria can obtain six forbidden[[/col]] [[sl_link:campaign_hexes]]Hexes[[/sl_link]] [[col:green]]to unleash upon the world[[/col]]\\n\\n[[col:green]]Claiming the first five Hexes uncovers the sixth and most terrible Hex, the ultimate punishment for her enemies: [[i]]The Malediction of Ruin[[/i]].\\n\\n[[col:green]]Hexes reveal themselves as Kalledira uses [[img:icon_spirit_essence]][[/img]]Spirit Essence gathered from winning battles, spreading vampiric corruption and occupying Magical Forests, in turn powering her units via upgrades and technologies and the Hexes themselves.[[/col]]	false
 campaign_localised_strings_string_tooltip_ritual_kalledria_hex_spirit_essence_requirement	Consume [[img:icon_spirit_essence]][[/img]]%d more Spirit Essence by using learned Hexes and unit upgrades to access this Hex.	false

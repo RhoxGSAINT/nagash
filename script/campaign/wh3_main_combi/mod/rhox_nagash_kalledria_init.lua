@@ -161,3 +161,16 @@ cm:add_first_tick_callback_new(
 		end
     end
 )
+cm:add_first_tick_callback(
+	function()
+        for faction_key, faction_info in pairs(rhox_list) do
+            pcall(function()
+                mixer_set_faction_trait(faction_key, faction_info.faction_trait, true)
+            end)
+            faction_info.first_tick(cm:get_faction(faction_key), faction_key)
+        end
+	end
+)
+
+
+

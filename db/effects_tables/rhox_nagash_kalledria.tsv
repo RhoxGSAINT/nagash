@@ -8,3 +8,6 @@ rhox_nagash_kalledria_hex_upgrade_3	hex_3.png	105	hex_3.png	campaign	true
 rhox_nagash_kalledria_hex_upgrade_4	hex_4.png	105	hex_4.png	campaign	true
 rhox_nagash_kalledria_hex_upgrade_5	hex_5.png	105	hex_5.png	campaign	true
 rhox_nagash_kalledria_create_disciple_army	hex_3.png	1	hex_3.png	campaign	true
+rhox_nagash_kalledria_effect_ability_enable_the_screaming_banner	general_ability.png	310	general_ability.png	battle	true
+rhox_nagash_kalledria_effect_ability_enable_horrible_regeneration_ghouls	general_ability.png	4	general_ability.png	battle	true
+rhox_nagash_kalledria_effect_upkeep_cost_reduction_ethereal	military_spending.png	105	military_spending.png	campaign	false

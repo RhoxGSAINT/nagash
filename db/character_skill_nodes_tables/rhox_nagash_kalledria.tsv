@@ -1,3 +1,16 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/rhox_nagash_kalledria									
 nag_vmp_skill_innate_kalledria		nag_vmp_skill_innate_kalledria		6	0		1	0	false
+nag_kalledria_self_01		wh_main_skill_all_spy_self_bloody_blade		2	0		0	0	true
+nag_kalledria_self_02		wh_main_skill_all_spy_self_gutter_fighter_2		2	1		0	0	true
+nag_kalledria_self_03		wh_main_skill_all_spy_self_elusive		2	2		0	0	true
+nag_kalledria_self_04		wh_main_skill_all_spy_self_precise_2		2	3		0	0	true
+nag_kalledria_self_05		wh_main_skill_all_spy_self_fleet-footed		2	4		0	0	true
+nag_kalledria_self_06		wh_main_skill_all_spy_self_slippery		2	5		0	4	true
+nag_kalledria_self_07		wh_main_skill_all_spy_self_opportunist		2	6		0	0	true
+nag_kalledria_self_08		wh_main_skill_all_spy_self_counter-striker_2		2	7		0	0	true
+nag_kalledria_self_09		wh_main_skill_all_spy_self_survivalist_2		2	8		0	0	true
+nag_kalledria_self_10		wh_main_skill_all_spy_self_cornered_rat		2	9		0	0	true
+nag_kalledria_self_11		wh_main_skill_vmp_lord_self_red_fury		2	10		0	4	true
+nag_kalledria_unique_01		wh_main_skill_vmp_spy_unique_tomb_banshee_ghostly_howl		0	0		0	0	true
+nag_kalledria_unique_02		wh_main_skill_vmp_all_unique_grave_ward		0	1		0	0	true
