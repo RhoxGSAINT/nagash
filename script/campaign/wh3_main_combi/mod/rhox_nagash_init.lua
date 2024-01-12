@@ -682,7 +682,7 @@ cm:add_first_tick_callback(
             
             rhox_nag_add_harkon_listener()
             RHOX_NAGASH_MORTARCH:mortarch_unlock_listeners() --AI doesn't trigger the research completed condition. So let's just leave it here
-            rhox_nagash_start_tech_effect_listeners()
+            rhox_nagash_start_tech_effect_listeners()--Hidden buff for Azhag's units coming from Krell's tech // Krell RoR unlock // Vlad mercenary giver
         else
             RHOX_NAGASH_MORTARCH:rhox_nagash_add_ai_mortarch_mission() --and AI listener for them
 		end
