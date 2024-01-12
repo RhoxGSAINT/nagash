@@ -91,6 +91,24 @@ local function rhox_nagash_init_setting()
     --local new_faction_leader = faction:faction_leader()
     --cm:change_character_custom_name(new_faction_leader, common:get_localised_string("cultures_name_nag_nagash"), "", "", "")
     
+  
+
+    
+    
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_followers_of_nagash", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh_main_vmp_schwartzhafen", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh_main_vmp_vampire_counts", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh2_dlc11_cst_vampire_coast", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("mixer_vmp_helsnicht", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh3_main_vmp_lahmian_sisterhood", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("ovn_tmb_dread_king", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("mixer_vmp_wailing_conclave", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_the_sentinels", "rhox_nagash_influence", "other", -100) --you have to defeat them
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_exiles_of_nehek", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_khemri", "rhox_nagash_influence", "other", -100)
+    cm:faction_add_pooled_resource("wh2_dlc09_tmb_lybaras", "rhox_nagash_influence", "other", -100)
+
+    
     cm:callback(
         function() 
             if cm:get_faction(nagash_faction):is_human() then

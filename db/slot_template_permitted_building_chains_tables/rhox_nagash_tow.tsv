@@ -1,0 +1,5 @@
+chain	chain_set	slot_template	super_chain	remove
+#slot_template_permitted_building_chains_tables;0;db/slot_template_permitted_building_chains_tables/rhox_nagash_tow				
+	nag_primary_core_special_major_nagashizzar	cr_major_primary_nagashizzar		false
+nag_outpost_primary_main		cr_major_primary_nagashizzar		true
+	nag_major_settlements	cr_major_secondary_nagashizzar		false
