@@ -43,8 +43,10 @@ local function rhox_nagash_begin_bp_raise()
     old_char_details.rank = character:rank()
     old_char_details.traits = character:all_traits()
     
-    local backup_general = cm:get_most_recently_created_character_of_type(nagash_faction, "general")
-    if backup_general then
+    
+local backup_general = cm:get_most_recently_created_character_of_type(nagash_faction, "general")
+    
+if backup_general then
         cm:reassign_ancillaries_to_character_of_same_faction(character:character_details(), backup_general:character_details()) --this is to prevent player losing all the ancillaries
     end
     

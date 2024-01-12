@@ -41,7 +41,7 @@ core:add_listener(
     "CharacterRankUp",
     function(context)
         local character = context:character()
-        return character:character_subtype("nag_nagash_husk") and character:rank() >= 30 and cm:get_saved_value("rhox_nag_uber_husk") ~=true
+        return character:character_subtype("nag_nagash_husk") and character:rank() >= 30 and cm:get_saved_value("rhox_nag_uber_husk") ~=true and cm:get_campaign_name() == "main_warhammer" --this event is only for IE and IEE
     end,
     function(context)
         local character = context:character()
