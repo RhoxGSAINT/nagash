@@ -33,3 +33,5 @@ nag_blyramid_itself	false	wh2_dlc11_lord_passive_magical_void		wh_type_hex		wh_m
 nag_army_abilities_blyramid_bombardment_targeting	true	nag_army_abilities_pyramid_bombardment		wh_type_bombardment		wh_main_anc_group_unique	true	false	army		false
 nag_spectre_swarm_dummy_vortex	false	wh2_dlc11_lord_passive_magical_void		wh_type_vortex		wh_main_anc_group_uncommon	false	true	unit		false
 nag_endless_tomb_skeleton_unbinding	false	unbinding		wh_type_direct_damage		wh_main_anc_group_common	false	false	unit		false
+nag_kalledria_solo_performance	false	nag_kalledria_solo_performance		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	active		false
+nag_kalledria_sonic_boom	false	wh3_main_daemon_head_abilities_sonic_boom		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false

@@ -33,6 +33,37 @@
 			<property name="CullDistances" quality="2" x="0.00" y="0.00" z="150.00" w="150.00"/>
 			<property name="ParticleCullDistances" quality="2" x="4.00" y="8.00" z="60.00" w="150.00"/>
 		</emitter>
+		<emitter type="continuous_mesh" id="casket_fire_base_kalledria">
+			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="250.00" w="250.00"/>
+			<property name="ParticleCullDistances" quality="0" x="1.50" y="3.00" z="80.00" w="250.00"/>
+			<ranged_property name="GravityAmount" quality="0" min="-15.00" max="-6.00"/>
+			<property name="VectorFieldStrengthStart" quality="0" value="-0.10"/>
+			<property name="VectorFieldStrId" quality="0" value="vfx/vectorfields/11_inwards_spiral_16_zx.dds"/>
+			<property name="ParticleDeceleration" quality="0">x_min,8388608;0.202532,0.019839;0.407984,8.714122|x_max,16711680;0.202532,0.019839;0.407984,8.714122:x,1;0,1</property>
+			<property name="VectorFieldStrengthEnd" quality="0" value="-0.20"/>
+			<property name="VectorFieldSize" quality="0" value="18.00"/>
+			<property name="VectorFieldOrientation" quality="0" x="90.00" y="0.00" z="0.00"/>
+			<ranged_property name="SpawnSpread" quality="0" min="0.00" max="0.00"/>
+			<property name="ParticleOrientationMax" quality="0" x="0.00" y="0.00" z="360.00"/>
+			<property name="ParticleScale" quality="0">x_min,8388608;-0.000583,0.226205;0.998444,2.229648|x_max,16711680;-0.000583,0.226205;0.998444,2.229648|y_min,32768;-0.000583,0.226205;0.998444,2.229648|y_max,65280;-0.000583,0.226205;0.998444,2.229648|z_min,128;-0.000583,0.221003|z_max,255;-0.000583,0.221003:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="SpawnAreaCurve" quality="0">inner_radius_min,8388608;0.0,1.0|inner_radius_max,16711680;0.0,1.0|outer_radius_min,32768;0.0,3.4|outer_radius_max,65280;0.0,3.4:inner_radius,0;0,1|outer_radius,0;2,3</property>
+			<property name="SpawnAreaBox" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,0.1|y_max,65280;0.0,0.1|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<ranged_property name="LifeTime" quality="0" min="0.10" max="0.10"/>
+			<property name="InfiniteLife" quality="0" value="true"/>
+			<ranged_property name="StartTime" quality="0" min="-3.00" max="-3.00"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,3.0:x,1;0,1</property>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="false"/>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,80.0|x_max,16711680;0.0,100.0:x,1;0,1</property>
+			<property name="EmissionLoopAnim" quality="0" value="false"/>
+			<property name="CullDistances" quality="1" x="0.00" y="0.00" z="200.00" w="200.00"/>
+			<property name="ParticleCullDistances" quality="1" x="2.50" y="5.00" z="70.00" w="200.00"/>
+			<property name="CullDistances" quality="2" x="0.00" y="0.00" z="150.00" w="150.00"/>
+			<property name="ParticleCullDistances" quality="2" x="4.00" y="8.00" z="60.00" w="150.00"/>
+		</emitter>
 		<emitter type="continuous_mesh" id="casket_soul_wisps">
 			<property name="ParticlesFollowEmitter" quality="0" value="true"/>
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="250.00" w="250.00"/>
@@ -563,6 +594,53 @@
 				<ranged_property name="start_colour" type="colour" min="float4(0.75,3.0,1.8,1.0)" max="float4(0.7,2.0,1.4,1.0)"/>
 				<ranged_property name="mid_colour" type="colour" min="float4(0.9,1.4,1.6,1.0)" max="float4(1.0,1.4,1.6,1.0)"/>
 				<ranged_property name="end_colour" type="colour" min="float4(0.215686,0.388235,0.494118,1.0)" max="float4(0.203922,0.32549,0.407843,1.0)"/>
+				<ranged_property name="lerp_time" type="float" min="0.40" max="1.00"/>
+			</modifier>
+			<modifier fragment="vs_animated_texture">
+				<property name="atlas_number_of_cells_x" type="int" value="1"/>
+				<property name="atlas_number_of_cells_y" type="int" value="1"/>
+				<property name="atlas_cell" type="int" value="0"/>
+				<property name="cell_blend" type="bool" value="true"/>
+				<property name="no_cells_xy" type="float2" value="float2(8.0,8.0)"/>
+				<property name="randomize_cell" type="bool" value="false"/>
+				<property name="loop" type="bool" value="false"/>
+				<property name="no_loops" type="float2" value="float2(1.0,1.0)"/>
+				<property name="row_restricted" type="bool" value="false"/>
+				<property name="row_restriction" type="int" value="0"/>
+				<property name="randomize_row" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="vs_vertex_alpha">
+				<property name="curve_alpha" type="curve">alpha_min,8388608;0.223817,0.488918;0.614414,0.0;0.425226,0.059041;0.317117,0.208794;0.781982,0.001279;-0.001802,0.03446;0.131532,0.175609|alpha_max,16711680;0.223817,0.631433;0.618017,0.027146;0.437838,0.104284;0.317117,0.301541;0.781982,0.001279;-0.001802,0.03446;0.113514,0.20574:alpha,1;0,1</property>
+			</modifier>
+			<modifier fragment="ps_texture">
+				<texture_property name="diffuse" type="file" path="vfx/Textures/wh_fire_loop_white_a_diffuse.dds"/>
+				<texture_property name="normal" type="file" path=""/>
+				<property name="overlay_colour" type="bool" value="false"/>
+			</modifier>
+			<modifier fragment="ps_lighting">
+				<property name="additive_blend_mul" type="float" value="4.0"/>
+				<property name="small_particles" type="float" value="0.01"/>
+				<property name="large_particles" type="float" value="0.0"/>
+				<property name="directionality" type="float" value="0.0"/>
+				<property name="emissive" type="float" value="1.0"/>
+				<property name="average_size" type="float" value="0.0"/>
+			</modifier>
+			<modifier fragment="ps_soft_edge">
+				<property name="soft_factor" type="float" value="0.8"/>
+				<property name="depth_bias" type="float" value="0.0"/>
+			</modifier>
+		</behaviour_chain>
+		<behaviour_chain id="casket_fire_base_kalledria">
+			<modifier fragment="vs_translation_velocity_v2">
+				<property name="pivot_x" type="float" value="0.5"/>
+				<property name="pivot_y" type="float" value="0.5"/>
+				<property name="velocity_stretch_mul" type="curve">x_min,8388608;0.0,0.7|x_max,16711680;0.0,0.7:x,0;0,1</property>
+				<property name="orientation_mode" type="int" value="5"/>
+			</modifier>
+			<modifier fragment="vs_colour">
+				<ranged_property name="start_colour" type="colour" min="float4(2.40,3.0,0.9,1.0)" max="float4(1.6,2.0,0.6,1.0)"/>
+				<ranged_property name="mid_colour" type="colour" min="float4(1.2,1.5,0.4,1.0)" max="float4(1.2,1.5,0.4,1.0)"/>
+				<ranged_property name="end_colour" type="colour" min="float4(0.4,0.5,0.1,1.0)" max="float4(0.4,0.5,0.1,1.0)"/>
 				<ranged_property name="lerp_time" type="float" min="0.40" max="1.00"/>
 			</modifier>
 			<modifier fragment="vs_animated_texture">
@@ -1324,6 +1402,15 @@
 			</emitters_selected>
 			<behaviour_chains_selected>
 				<behaviour_chain id="casket_fire_base"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="true"/>
+		</effect_render_stack>
+		<effect_render_stack id="casket_fire_base_kalledria">
+			<emitters_selected>
+				<emitter id="casket_fire_base_kalledria"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="casket_fire_base_kalledria"/>
 			</behaviour_chains_selected>
 			<render_params scene_view_type="0" cast_shadows="false" receive_fog="false" enable_trail_mode="false" enable_simple_lighting="true"/>
 		</effect_render_stack>
