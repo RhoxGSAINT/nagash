@@ -146,7 +146,6 @@ undead	nag_blood_beasts
 causes_fear	nag_blood_beasts
 causes_terror	nag_blood_beasts
 unbreakable	nag_blood_beasts
-rampage	nag_blood_beasts
 undead	nag_thrall_crossbowmen
 causes_fear	nag_thrall_crossbowmen
 hide_forest	nag_thrall_crossbowmen
