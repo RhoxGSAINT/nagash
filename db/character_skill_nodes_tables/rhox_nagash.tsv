@@ -591,7 +591,7 @@ nag_skill_node_archai_champion_self_07		wh_main_skill_all_all_self_wound-maker_2
 nag_skill_node_archai_champion_self_08		wh_main_skill_all_all_self_scarred_veteran_2		1	7		0	0	true
 nag_skill_node_archai_champion_self_09		wh_main_skill_all_all_self_indomitable		1	8		0	0	true
 nag_skill_node_archai_champion_self_10		wh_main_skill_all_all_self_blade_shield_2		1	9		0	0	true
-nag_skill_node_archai_champion_self_11		wh_main_skill_all_all_self_deadly_onslaught		1	10		0	4	true
+nag_skill_node_archai_champion_self_11		wh3_dlc24_skill_all_all_self_colossal_strike		1	10		0	4	true
 nag_skill_node_archai_champion_unique_01		nag_skill_archai_heralds_of_the_accursed_one		0	0		0	0	true
 nag_skill_node_archai_champion_unique_02		nag_skill_archai_ebon_wrought_armour		0	1		0	0	true
 nag_skill_node_archai_champion_unique_03		nag_skill_archai_undying_servitude		0	2		0	0	true
