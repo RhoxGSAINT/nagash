@@ -1,0 +1,6 @@
+<model version="1">
+  <geometry>vfx/models/wh3_dlc20_medium_tapered_melee_slash.rigid_model_v2</geometry>
+  <materials>
+    <material lod_index="0" part_index="0">materials/vfx/vfx_nagash_kalledria_sound_wave.xml.material</material>
+  </materials>
+</model>

@@ -128,6 +128,8 @@
 		</emitter>
 		
 		<emitter type="continuous_mesh" id="swirl_decal_inverse">
+            <property name="ParticlesFollowEmitter" quality="0" value="true"/>
+            <property name="ParticleSimulationSpace" quality="0" value="LOCAL_SPACE_POSITION_ONLY"/>
 			<property name="AllowEmitFromMesh" quality="0" value="false"/>
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="750.00" w="750.00"/>
 			<property name="EmissionLoopAnim" quality="0" value="false"/>
