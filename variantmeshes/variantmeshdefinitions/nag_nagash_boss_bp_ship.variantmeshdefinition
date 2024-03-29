@@ -1,5 +1,5 @@
 <VARIANT_MESH>
 	<SLOT name="body" >
-		<VARIANT_MESH model="rigidmodels\campaign\settlements\tombkings\building_blackpyramid_floating_anim.rigid_model_v2"  />
+		<VARIANT_MESH model="art/campaign/ships/transportship04/nag/nag_black_pyramid_ship_01.rigid_model_v2"  imposter_model="art/campaign/ships/agentship03/nor/nor_agent_ship/nor_agent_ship_01.rigid_model_v2" />
 	</SLOT>
 </VARIANT_MESH>
