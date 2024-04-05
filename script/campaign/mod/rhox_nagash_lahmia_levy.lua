@@ -58,7 +58,7 @@ core:add_listener(
         if dilemma_table[faction_key] == 0 then 
             if lahmia_faction:is_human() == false then --just give them units
                 for i=1,#unit_list do
-                    cm:add_units_to_faction_mercenary_pool(lahmia_faction:command_queue_index(), unit_key[i], 1)
+                    cm:add_units_to_faction_mercenary_pool(lahmia_faction:command_queue_index(), unit_list[i], 1)
                 end
                 dilemma_table[faction_key] = dilemma_cooldown
             elseif target_faction then
@@ -127,7 +127,7 @@ core:add_listener(
         local choice = context:choice();
 
         local faction = target_faction;
-        if not target_faction then
+        if not faction then
             out("Rhox Nagash Lahmia: There is nothing in the target faction global value")
             return
         end
@@ -158,9 +158,10 @@ core:add_listener(
     "CharacterCompletedBattle",
     function(context)
         local character = context:character()
+        local faction = character:faction()
         local pb = context:pending_battle();
 
-        return character:character_subtype_key() == "nag_lahmia_neferata" and pb:has_been_fought() and character:won_battle()
+        return character:character_subtype_key() == "nag_lahmia_neferata" and faction:name() == "wh3_main_vmp_lahmian_sisterhood" and pb:has_been_fought() and character:won_battle()
     end,
     function(context)
         local character = context:character()        
@@ -220,18 +221,24 @@ core:add_listener(
         out("Rhox Nagash Lahmia: Number of rewards: ".. #rewards)
         if #rewards >0 then
             local lahmia_faction = cm:get_faction("wh3_main_vmp_lahmian_sisterhood")
-            local incident_builder = cm:create_incident_builder("rhox_nagash_lahmia_enemy_deserted")
-            --incident_builder:add_target(lahmia_faction)
-            incident_builder:add_target("default", character)
-            local payload_builder = cm:create_payload()
-            for i=1, #rewards do
-                out("Rhox Nagash Lahmia: unit key: ".. rewards[i])
-                payload_builder:add_mercenary_to_faction_pool(rewards[i], 1)  
+            if lahmia_faction:is_human() then
+                local incident_builder = cm:create_incident_builder("rhox_nagash_lahmia_enemy_deserted")
+                --incident_builder:add_target(lahmia_faction)
+                incident_builder:add_target("default", character)
+                local payload_builder = cm:create_payload()
+                for i=1, #rewards do
+                    out("Rhox Nagash Lahmia: unit key: ".. rewards[i])
+                    payload_builder:add_mercenary_to_faction_pool(rewards[i], 1)  
+                end
+                
+                
+                incident_builder:set_payload(payload_builder)
+                cm:launch_custom_incident_from_builder(incident_builder, lahmia_faction)
+            else
+                for i=1,#rewards do
+                    cm:add_units_to_faction_mercenary_pool(lahmia_faction:command_queue_index(), rewards[i], 1)
+                end
             end
-            
-            
-            incident_builder:set_payload(payload_builder)
-            cm:launch_custom_incident_from_builder(incident_builder, lahmia_faction)
         end
         
     end,
