@@ -1,5 +1,5 @@
-id	trigger_events	needs_tracking	refund_on_cancel	active_cooldown_can_be_increased	group
-#ritual_categories_tables;1;db/ritual_categories_tables/rhox_nagash					
-FORCE_VASSAL_NAGASH	false	false	true	true	
-FORCE_VASSAL_LAHMIA	true	false	true	true	
-KALLEDRIA_HEX_RITUAL	false	false	true	false	
+id	trigger_events	needs_tracking	refund_on_cancel	active_cooldown_can_be_increased	group	sort_order	ui_icon
+#ritual_categories_tables;3;db/ritual_categories_tables/rhox_nagash							
+FORCE_VASSAL_NAGASH	false	false	true	true		0	UI\skins\default\0_placeholder.png
+FORCE_VASSAL_LAHMIA	true	false	true	true		0	UI\skins\default\0_placeholder.png
+KALLEDRIA_HEX_RITUAL	false	false	true	false		0	UI\skins\default\0_placeholder.png
