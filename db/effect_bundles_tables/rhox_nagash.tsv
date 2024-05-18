@@ -67,3 +67,5 @@ nag_grand_spell_03_20_ai	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_army_capacity_bundle	[HIDDEN]	HIDDEN	faction	0		true	false	true
 nag_ai_research_minus_bundle	[HIDDEN]	HIDDEN	faction	0		true	false	true
 rhox_vmp_kalledria_lord_trait	ph	ph	faction	1	character.png	true	false	true
+wh2_dlc15_hef_dungeon_mistwalker_upgrade_nagash		Interrogation: Nagash	faction	1	res_nag_ritual_site.png	true	false	true
+wh2_dlc15_hef_eltharion_dungeon_reward_nagash		Nagash Prisoner	faction	1	res_nag_ritual_site.png	true	false	true

@@ -194,3 +194,4 @@ nag_effect_enable_stance_astromancy	icon_effects_pyramid.png	15	icon_effects_pyr
 nag_effect_azhag_leadership_infantry	morale.png	61	morale.png	battle	false
 nag_effect_faction_political_diplomacy_mod_nagash	diplomacy.png	5	diplomacy.png	campaign	true
 rhox_nagash_hidden_disable_dk_realm		0		battle	true
+wh2_dlc15_hef_dungeon_mistwalker_upgrade_nagash	general_ability.png	605	general_ability.png	battle	true

@@ -11,6 +11,17 @@ grudge_cycle.cultural_modifiers["mixer_nag_nagash"] = grudge_modifiers.high
 grudge_cycle.cultures.moc_cultures["mixer_nag_nagash"]=true
 
 
+---------mistwalker
+if (type(lair_action_effects) == "table") then
+    table.insert(lair_action_effects, "wh2_dlc15_hef_dungeon_mistwalker_upgrade_nagash")
+end
+
+if (type(lair_culture_to_effects) == "table") then
+    lair_culture_to_effects["mixer_nag_nagash"]= "wh2_dlc15_hef_eltharion_dungeon_reward_nagash"
+end
+
+
+
 cm:add_first_tick_callback(
 	function()
 		campaign_traits.legendary_lord_defeated_traits["nag_nagash_boss"] ="rhox_nagash_nagash_defeat_trait"
