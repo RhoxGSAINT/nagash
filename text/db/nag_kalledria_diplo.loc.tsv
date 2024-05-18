@@ -1,81 +1,81 @@
 key	text	tooltip
 #Loc;1;text/db/nag_kalledria_diplo.loc		
-diplomacy_strings_string_Kalledria_Dip_Acceptance_Negative_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Acceptance_Negative_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Acceptance_Negative_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Demand_Payments_Negative_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Negative_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Negative_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Negative_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Negative_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Negative_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Negative_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Neg_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Neg_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Neg_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Acceptance_Positive_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Acceptance_Positive_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Demand_Payments_Positive_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Positive_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Positive_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Positive_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Positive_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Positive_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Positive_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Pos_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Pos_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Pos_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Acceptance_Neutral_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Acceptance_Neutral_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Accept_State_Gift_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Accept_State_Gift_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Accept_State_Gift_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Accept_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Accept_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Accept_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Cancel_Treaty_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Cancel_Treaty_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Cancel_Treaty_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Reject_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Reject_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_Reject_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_War_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_War_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Cancel_Treaty_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Cancel_Treaty_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Cancel_Treaty_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Demand_Join_War_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Demand_Join_War_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Demand_Join_War_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Demand_Payments_Neutral_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Neutral_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Neutral_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Neutral_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Neutral_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Neutral_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Rejection_Neutral_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Cooperation_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Cooperation_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Cooperation_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Peace_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Peace_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Join_War_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Join_War_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Join_War_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Gift_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Gift_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Gift_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Neu_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Neu_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Greet_Neu_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Reject_Peace_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Reject_Peace_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Reject_Peace_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Reject_Join_Confederation_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Reject_Join_Confederation_02	...	false
-diplomacy_strings_string_Kalledria_Dip_Reject_Join_Confederation_03	...	false
-diplomacy_strings_string_Kalledria_Dip_War_01	...	false
-diplomacy_strings_string_Kalledria_Dip_War_02	...	false
-diplomacy_strings_string_Kalledria_Dip_War_03	...	false
-diplomacy_strings_string_Kalledria_Dip_Offer_Peace_01	...	false
-diplomacy_strings_string_Kalledria_Dip_Acknowledge_War_01	...	false
+diplomacy_strings_string_Kalledria_Dip_Acceptance_Negative_01	Please, have mercy.	false
+diplomacy_strings_string_Kalledria_Dip_Acceptance_Negative_02	Just... don't hurt my children.	false
+diplomacy_strings_string_Kalledria_Dip_Acceptance_Negative_03	Very well...	false
+diplomacy_strings_string_Kalledria_Dip_Demand_Payments_Negative_01	Payment for your crimes!	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Negative_01	What suffering will you make us bear?	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Negative_02	Can you find it in your heart to listen to my plea?	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Negative_03	I come to you against my better judgement.	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Negative_01	You won't break me!	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Negative_02	I refuse to submit, monster.	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Negative_03	Leave us alone!	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Neg_01	Do your worst, fiend.	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Neg_02	Haven't we been tormented enough?	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Neg_03	Don't overstay your welcome.	false
+diplomacy_strings_string_Kalledria_Dip_Acceptance_Positive_01	My pleasure, child.	false
+diplomacy_strings_string_Kalledria_Dip_Acceptance_Positive_03	My deepest thanks.	false
+diplomacy_strings_string_Kalledria_Dip_Demand_Payments_Positive_01	Will you help me ease the suffering of my people?	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Positive_01	Would you listen to me, friend?	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Positive_02	What do you think, child?	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Positive_03	I have but an humble request.	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Positive_01	I'm sorry, it is not possible for us.	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Positive_02	Tho it pains me I must decline, my dearest friend.	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Positive_03	This is beyond my abilities I'm afraid.	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Pos_01	Hello child.	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Pos_02	Greetings, dearest friend.	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Pos_03	What a find day to be ali-... to... to... sorry... (sobs)	false
+diplomacy_strings_string_Kalledria_Dip_Acceptance_Neutral_01	Anything for my children.	false
+diplomacy_strings_string_Kalledria_Dip_Acceptance_Neutral_02	Alright then.	false
+diplomacy_strings_string_Kalledria_Dip_Accept_State_Gift_01	"sobs" Thank you...	false
+diplomacy_strings_string_Kalledria_Dip_Accept_State_Gift_02	I do not know what to say.	false
+diplomacy_strings_string_Kalledria_Dip_Accept_State_Gift_03	From the bottom of my heart... my... Thank you.	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Accept_01	Very well.	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Accept_02	This is good.	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Accept_03	I trust you will remain reasonable.	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Cancel_Treaty_01	How could you?!?	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Cancel_Treaty_02	This cannot stand any longer!	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Cancel_Treaty_03	My children deserve better.	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Reject_01	But, why?	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Reject_02	Was I not... a good girl?	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_Reject_03	Did I do something wrong?	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_War_02	Then it is war.	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_War_03	May the gods preserve us.	false
+diplomacy_strings_string_Kalledria_Dip_Cancel_Treaty_01	No, no, no, no, no, no...	false
+diplomacy_strings_string_Kalledria_Dip_Cancel_Treaty_02	"hums a sad song"	false
+diplomacy_strings_string_Kalledria_Dip_Cancel_Treaty_03	Let us not be strangled by those painful bonds any further.	false
+diplomacy_strings_string_Kalledria_Dip_Demand_Join_War_01	Help us, child, I bed of you.	false
+diplomacy_strings_string_Kalledria_Dip_Demand_Join_War_02	Please, they've come for us "sobs"	false
+diplomacy_strings_string_Kalledria_Dip_Demand_Join_War_03	Don't abandon us in our time of greatest need!	false
+diplomacy_strings_string_Kalledria_Dip_Demand_Payments_Neutral_01	A gesture of good will maybe?	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Neutral_01	Would you care to listen to my offer?	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Neutral_02	I have an offer that you may find agreeable.	false
+diplomacy_strings_string_Kalledria_Dip_Generic_Offer_Neutral_03	Once upon a time one of my smiles would have been enough. Now...	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Neutral_01	This cannot pass I'm afraid.	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Neutral_02	I cannot accept this.	false
+diplomacy_strings_string_Kalledria_Dip_Rejection_Neutral_03	Please, I cannot.	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Cooperation_01	Our needs converge.	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Cooperation_02	Let's work together to end the suffering.	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Cooperation_03	The world would be a better place if we could all set aside our... ressentment... (inaudible mumbling)	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Peace_02	Don't hurt us anymore (sobs)	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Peace_03	No... I can't... I can't stand this anymore...	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Join_War_01	They must suffer too (maniac cackling)	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Join_War_02	If it will end this faster, I will help.	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Join_War_03	A quick resolution will lower the suffering.	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Gift_01	A token of my gratitude.	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Gift_02	I wish I could offer more...	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Gift_03	Would you like this?	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Neu_01	How may I serve you?	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Neu_02	To what do I owe the honour?	false
+diplomacy_strings_string_Kalledria_Dip_Greet_Neu_03	Welcome to my humble abode.	false
+diplomacy_strings_string_Kalledria_Dip_Reject_Peace_01	No, you've inflicted too much pain on us.	false
+diplomacy_strings_string_Kalledria_Dip_Reject_Peace_02	DIEDIEDIEDIEDIEDIEDIEDIE!	false
+diplomacy_strings_string_Kalledria_Dip_Reject_Peace_03	"crazy laughter" your torments will be endless, as were mine!	false
+diplomacy_strings_string_Kalledria_Dip_Reject_Join_Confederation_01	I do not feel this would benefit us.	false
+diplomacy_strings_string_Kalledria_Dip_Reject_Join_Confederation_02	I'd rather we kept our freedom.	false
+diplomacy_strings_string_Kalledria_Dip_Reject_Join_Confederation_03	Me and my children are more happy this way.	false
+diplomacy_strings_string_Kalledria_Dip_War_01	See how ugly I am! This is the face of your fate!	false
+diplomacy_strings_string_Kalledria_Dip_War_02	Wouldn't the great Nagash say: "Death comes for all"?	false
+diplomacy_strings_string_Kalledria_Dip_War_03	My children are hungry...	false
+diplomacy_strings_string_Kalledria_Dip_Offer_Peace_01	I beg of you, stop! (in a crying tone)	false
+diplomacy_strings_string_Kalledria_Dip_Acknowledge_War_01	I won't wait for you to strike us down.	false
