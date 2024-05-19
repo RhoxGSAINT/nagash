@@ -73,5 +73,3 @@ nag_unit_passive_dread_prowess	stat_morale	12.0000	add
 nag_unit_passive_dread_prowess	stat_melee_defence	4.0000	add
 nag_unit_passive_doom_of_nagashizzar	stat_melee_damage_ap	1.3500	mult
 nag_unit_passive_doom_of_nagashizzar	stat_melee_damage_base	1.3500	mult
-nag_kalledria_solo_performance	stat_melee_defence	24.0000	add
-nag_kalledria_solo_performance	stat_morale	16.0000	add
