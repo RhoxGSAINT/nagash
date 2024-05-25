@@ -1102,7 +1102,7 @@ function RHOX_NAGASH_MORTARCH:trigger_mortarch_unlock_missions()   --used in oth
             mm:add_condition("faction " .. "wh3_main_emp_cult_of_sigmar");
             mm:add_payload("text_display nag_mortarch_mannfred_technology");
             mm:add_payload("money 1000")
-
+            mm:add_condition("confederation_valid")
             mm:trigger()
         end--still trigger it even Volkmar is dead
         if not volkmar_faction or volkmar_faction:is_dead() then --fail safe unlock

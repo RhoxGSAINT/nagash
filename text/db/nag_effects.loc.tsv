@@ -527,3 +527,4 @@ effects_description_nag_effect_force_stat_defence_skele_inf_defending	Melee defe
 effects_description_nag_effect_force_stat_attack_skele_cav_attacking	Charge bonus: %+n when attacking for all Skeletal Cavalry units	false
 effects_description_nag_effect_ability_enable_dread_prowess	Ability: "Dread Prowess" for Skeleton Javelinmen, Skeleton Hoplites, Skeleton Pikeman, and Royal Guards units	false
 effects_description_nag_effect_tech_unit_xp_levels	Recruit rank: %+n for all units	false
+effects_description_wh2_dlc15_hef_dungeon_mistwalker_upgrade_nagash	Passive ability: "Tormented Execution" for Mistwalker units	false

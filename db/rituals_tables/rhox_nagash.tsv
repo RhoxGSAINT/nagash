@@ -1,10 +1,10 @@
-key	cast_time	completion_payload	cooldown_time	category	slave_cost	global_cooldown_time	start_payload	icon	failure_cooldown_time	required_resources	expended_resources	target	target_expended_resources	target_required_resources	target_cooldown	target_category_cooldown	effects_while_performing	custom_cost_id	on_trigger_vo_event	flags	self_payload
-#rituals_tables;0;db/rituals_tables/rhox_nagash																					
-nag_man	0	nag_man	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_man	nag_man				0	0				default	
-nag_divinity	0	nag_divinity	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_divinity	nag_divinity				0	0				default	
-nag_death	0	nag_death	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_death	nag_death				0	0				default	
-nag_winds	0	nag_winds	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_winds	nag_winds				0	0				default	
-rhox_nagash_ritual_forced_vassalisation	0	wh3_main_ritual_sla_forced_vassalise	10	FORCE_VASSAL_NAGASH	0	0			0		nag_vassal_ritual	rhox_nagash_undead_faction			0	0				default	
-rhox_nagash_lahmia_ritual_forced_vassalisation	0	wh3_main_ritual_sla_forced_vassalise	10	FORCE_VASSAL_LAHMIA	0	0			0		rhox_nagash_lahmia_ritual_forced_vassalisation	rhox_nagash_lahmia_vassal_faction			0	0				default	
-rhox_nagash_lahmia_ritual_create_cults	0	empty	10	CULT_RITUAL	0	0			0		rhox_nagash_lahmia_ritual_forced_vassalisation				0	0				default	
-nag_army	0	nag_army	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_ptra.png	0	nag_army	nag_army				0	0				default	
+key	cast_time	completion_payload	cooldown_time	category	slave_cost	global_cooldown_time	start_payload	icon	failure_cooldown_time	required_resources	expended_resources	target	target_expended_resources	target_required_resources	target_cooldown	target_category_cooldown	effects_while_performing	custom_cost_id	on_trigger_vo_event	flags	self_payload	percentage_cost_increase_per_use	sort_order
+#rituals_tables;2;db/rituals_tables/rhox_nagash																							
+nag_man	0	nag_man	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_man	nag_man				0	0				default		0.0000	0
+nag_divinity	0	nag_divinity	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_divinity	nag_divinity				0	0				default		0.0000	0
+nag_death	0	nag_death	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_death	nag_death				0	0				default		0.0000	0
+nag_winds	0	nag_winds	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_geheb.png	0	nag_winds	nag_winds				0	0				default		0.0000	0
+rhox_nagash_ritual_forced_vassalisation	0	wh3_main_ritual_sla_forced_vassalise	10	FORCE_VASSAL_NAGASH	0	0			0		nag_vassal_ritual	rhox_nagash_undead_faction			0	0				default		0.0000	0
+rhox_nagash_lahmia_ritual_forced_vassalisation	0	wh3_main_ritual_sla_forced_vassalise	10	FORCE_VASSAL_LAHMIA	0	0			0		rhox_nagash_lahmia_ritual_forced_vassalisation	rhox_nagash_lahmia_vassal_faction			0	0				default		0.0000	0
+rhox_nagash_lahmia_ritual_create_cults	0	empty	10	CULT_RITUAL	0	0			0		rhox_nagash_lahmia_ritual_forced_vassalisation				0	0				default		0.0000	0
+nag_army	0	nag_army	20	STANDARD_RITUAL	0	5		UI\skins\warhammer2\rites_tmb_ptra.png	0	nag_army	nag_army				0	0				default		0.0000	0
