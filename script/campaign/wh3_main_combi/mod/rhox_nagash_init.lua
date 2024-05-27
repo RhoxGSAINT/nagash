@@ -673,7 +673,6 @@ cm:add_first_tick_callback(
                 out("Rhox Nagash: Calling Other tech remover listeners")
                 rhox_nagash_remove_other_mod_mortarch_tech_listener()
             end
-            rhox_nagash_hide_stance_listener_call()--ui and should be local
 		end
 
         if cm:get_faction(nagash_faction):is_human() then

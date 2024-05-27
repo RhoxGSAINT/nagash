@@ -143,7 +143,28 @@ function rhox_nagash_start_tech_effect_listeners()
         end,
         true
     )
+    --[[
+    core:add_listener(
+		"rhox_nagash_zombie_health",
+		"UnitTrained",
+		function(context)
+            local bonus_value = cm:get_forces_bonus_value(context:unit():military_force(), "recruit_hp_nag_vanilla_vmp_inf_zombie")
+			local unit_key = context:unit():unit_key() 
+			return unit_key == "nag_vanilla_vmp_inf_zombie" and bonus_value > 0
+		end,
+		function(context)
+            out("Rhox Nagash: Triggered!")
+			local bonus_value = cm:get_forces_bonus_value(context:unit():military_force(), "recruit_hp_nag_vanilla_vmp_inf_zombie")
+			local unit = context:unit()
+			local faction = unit:faction()
+			cm:faction_purchase_unit_effect(faction, unit, unit:get_unit_purchasable_effects():item_at(0))
+		end,
+		true
+	)
+	--]]--does not work
+
 end
+
 
 
 

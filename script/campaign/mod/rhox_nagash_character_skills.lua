@@ -261,57 +261,23 @@ core:add_listener(
 	end,
 	true
 )
------------------------------------------------------------hiding stances
 
-local current_selected_subtype_key = nil
+--------------------------Dieter Brain stance
+core:add_listener(
+    "rhox_nagash_dieter_stance",
+    "CharacterTurnStart",
+    function(context)
+        local character = context:character()
+        
+        return character:character_subtype_key() == "nag_mortarch_dieter" and character:has_military_force()
+    end,
+    function(context)
+        local character = context:character()
+        cm:military_force_add_temporary_stance(character:military_force():command_queue_index(), "MILITARY_FORCE_ACTIVE_STANCE_TYPE_ASTROMANCY", 0)
+    end,
+    true
+)
 
-
-local function rhox_nagash_hide_stance_icon()
-    local brain_button = find_uicomponent(core:get_ui_root(), "hud_campaign", "BL_parent", "land_stance_button_stack", "clip_parent", "stack_background", "button_MILITARY_FORCE_ACTIVE_STANCE_TYPE_CHANNELING"); 
-    if brain_button then
-        if current_selected_subtype_key == "nag_mortarch_dieter" then
-            brain_button:SetImagePath("ui/campaign ui/stance_icons/mixer_nag_nagash/dieter_brain_stance.png")
-        else
-            brain_button:SetImagePath("ui/campaign ui/stance_icons/military_force_active_stance_type_channeling.png")
-        end
-    end
-    
-    local active_brain_button_parent = find_uicomponent(core:get_ui_root(), "hud_campaign", "BL_parent", "land_stance_button_stack"); 
-    
-    if active_brain_button_parent then
-        local active_brain_button= find_child_uicomponent(active_brain_button_parent, "button_MILITARY_FORCE_ACTIVE_STANCE_TYPE_CHANNELING")
-        if active_brain_button then
-            if current_selected_subtype_key == "nag_mortarch_dieter" then
-                active_brain_button:SetImagePath("ui/campaign ui/stance_icons/mixer_nag_nagash/dieter_brain_stance.png")
-            else
-                active_brain_button:SetImagePath("ui/campaign ui/stance_icons/military_force_active_stance_type_channeling.png")
-            end
-        end
-    end
-    
-    
-    
-            
-end
-
-function rhox_nagash_hide_stance_listener_call()
-    core:add_listener(
-        "rhox_nagash_character_selected_for_hiding_stance",
-        "CharacterSelected",
-        function(context)
-            local character = context:character()
-            local faction_key = character:faction():name()
-            return faction_key == "mixer_nag_nagash"
-        end,
-        function(context)
-            local character = context:character()
-            current_selected_subtype_key= character:character_subtype_key()
-            cm:callback(function() rhox_nagash_hide_stance_icon() end, 0.1)
-        end,
-        true
-    )
-
-end
 
 
 --------------------------------------------------------------
