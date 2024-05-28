@@ -277,6 +277,19 @@ core:add_listener(
     end,
     true
 )
+core:add_listener(
+	"rhox_dieter_military_created_stance_give",
+	"MilitaryForceCreated",
+	function(context)
+		local mf=context:military_force_created()
+        return mf:has_general() and mf:general_character():character_subtype_key() == "nag_mortarch_dieter"
+	end,
+	function(context)
+		local mf=context:military_force_created()
+        cm:military_force_add_temporary_stance(mf:command_queue_index(), "MILITARY_FORCE_ACTIVE_STANCE_TYPE_ASTROMANCY", 0)
+	end,
+	true
+)
 
 
 
