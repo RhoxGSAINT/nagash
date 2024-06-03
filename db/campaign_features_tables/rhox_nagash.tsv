@@ -8,3 +8,4 @@ bribery	rhox_nagash_lahmia_feature	true
 character_tagging	rhox_nagash_lahmia_feature	true
 master_faithful_vassals	rhox_nagash_feature_group	true
 master_faithful_vassals	rhox_nagash_lahmia_feature	true
+use_cpvalue_for_postbattle_income_calculation	rhox_nagash_feature_group	true

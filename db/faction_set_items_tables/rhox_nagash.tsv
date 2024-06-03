@@ -16,6 +16,7 @@ id	culture	faction	remove	set	subculture
 7804202213			false	rhox_nagash_undead_faction	wh_main_sc_vmp_jade_vampires
 7804202214	mixer_nag_nagash		false	nag_anc_set_exclusive_nagash	
 7804202215			false	rhox_nagash_undead_faction	jiangshi_subculture
+7804202216		mixer_vmp_wailing_conclave	true	rhox_nagash_undead_faction	
 780420215		mixer_nag_nagash	false	anc_set_multi_kislev_norsca_bretonnia_chaos_dwarfs_empire_vampire_counts	
 780420216		mixer_nag_nagash	false	anc_set_multi_tomb_kings_vampire_coast	
 780420218			false	rhox_nagash_lahmia_target	wh2_main_sc_def_dark_elves
@@ -35,3 +36,5 @@ id	culture	faction	remove	set	subculture
 780420232			false	rhox_nagash_lahmia_target	mixer_teb_southern_realms
 780420234			false	rhox_nagash_lahmia_target	mixer_sc_hng_hung
 780420236		wh3_main_vmp_lahmian_sisterhood	false	rhox_nagash_lahmia_faction_set	
+780420237			true	FavouredCorruptionNone	mixer_nag_nagash
+780420238			false	FavouredCorruptionVampiric	mixer_nag_nagash
