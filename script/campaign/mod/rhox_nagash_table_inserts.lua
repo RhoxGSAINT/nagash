@@ -41,3 +41,57 @@ cm:add_first_tick_callback(
 	end
 )
 
+local nagash_mortarch_without_transformation={ --because it's tied to main character and custom battle. Ugh
+    nag_mortarch_dk=true,
+    nag_mortarch_dieter=true,
+}
+core:add_listener(
+	"rhox_nagash_character_completed_battle_grail_vow",
+	"BattleCompleted",
+	true,
+	function()
+		if cm:pending_battle_cache_attacker_victory() then
+			for i = 1, cm:pending_battle_cache_num_attackers() do
+				local attacker_fm = cm:get_family_member_by_cqi(cm:pending_battle_cache_get_attacker_fm_cqi(i))
+				
+				if attacker_fm then
+					-- Check the family member has a character interface, as a non-legendary reinforcing character can both win and die
+					local attacker_character = attacker_fm:character()
+					if not attacker_character:is_null_interface() and attacker_character:faction():culture() == "wh_main_brt_bretonnia" then
+						for j = 1, cm:pending_battle_cache_num_defenders() do
+							local defender_character = cm:get_family_member_by_cqi(cm:pending_battle_cache_get_defender_fm_cqi(j)):character()
+							
+                            if not defender_character:is_null_interface() and defender_character:faction():culture() == "mixer_nag_nagash" and 
+                            (cm:is_agent_transformation_available(defender_character:character_subtype_key()) or nagash_mortarch_without_transformation[defender_character:character_subtype_key()]) then
+                                add_vow_progress(attacker_character, "wh_dlc07_trait_brt_grail_vow_untaint_pledge", false, true)
+                            end
+                            
+							
+						end
+					end
+				end
+			end
+		elseif cm:pending_battle_cache_defender_victory() then
+			for i = 1, cm:pending_battle_cache_num_defenders() do
+				local defender_fm = cm:get_family_member_by_cqi(cm:pending_battle_cache_get_defender_fm_cqi(i))
+				
+				if defender_fm then
+					-- Check the family member has a character interface, as a non-legendary reinforcing character can both win and die
+					local defender_character = defender_fm:character()
+					if not defender_character:is_null_interface() and defender_character:faction():culture() == "wh_main_brt_bretonnia" then
+
+						for j = 1, cm:pending_battle_cache_num_attackers() do
+							local attacker_character = cm:get_family_member_by_cqi(cm:pending_battle_cache_get_attacker_fm_cqi(j)):character()
+							
+							if not attacker_character:is_null_interface() and attacker_character:faction():culture() == "mixer_nag_nagash" and 
+                            (cm:is_agent_transformation_available(attacker_character:character_subtype_key()) or nagash_mortarch_without_transformation[attacker_character:character_subtype_key()]) then
+                                add_vow_progress(defender_character, "wh_dlc07_trait_brt_grail_vow_untaint_pledge", false, true)
+                            end
+						end
+					end
+				end
+			end
+		end
+	end,
+	true
+)
