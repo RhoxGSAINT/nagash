@@ -86,8 +86,8 @@
 				ambient_light_m_ambient_cube_right="0.00,0.00,0.00"
 				directional_light_m_light_direction="11.35,-0.44,0.00"
 				directional_light_m_light_colour="0.98,0.95,0.86"
-				camera_target="0.00,0.85,0.00"
-				camera_dist="5.31400013"
+				camera_target="0.00,2.85,3.00"
+				camera_dist="10.31400013"
 				camera_fov="0.52359879"
 				num_models="1">
                 <model_list>
@@ -95,9 +95,9 @@
                         filepath="VariantMeshes/VariantMeshDefinitions/nag_kalledria.VariantMeshDefinition"
                         id="model_0"
                         num_anims="1"
-                        skeleton_type="ghost01">
+                        skeleton_type="humanoid01f">
                         <animation_paths>
-                            <path value="animations\battle\ghost01\hands\gh1_hand_pose_threaten_01.anim"/>
+                            <path value="animations/battle/humanoid01f/stand/hu1f_ariel_stand_01.anim"/>
                         </animation_paths>
                     </ComponentModel>
                 </model_list>

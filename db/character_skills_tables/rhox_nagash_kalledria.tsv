@@ -1,3 +1,22 @@
 key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
 #character_skills_tables;5;db/character_skills_tables/rhox_nagash_kalledria									
 nag_vmp_skill_innate_kalledria	trait_dlc13_kalara_jungle_spirit.png			0	true	false	false	5.0000	0
+rhox_nagash_banshee_lord_bloody_blade	character_damage.png	A drawn blade should not be put away until slaked in blood.	Bloody Blade	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_cornered_rat	character_morale.png	Never trap this one, when cornered they have nothing left to lose.	Cornered Rat	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_counter-striker	character_attack.png	The harder they hit, the more they commit, the easier it is to strike back.	Counter-Striker	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_counter-striker_2	character_attack.png	The harder they hit, the more they commit, the easier it is to strike back.	Counter-Striker	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_elusive	character_defence.png	"Stay in one place, gods-damn you!"	Elusive	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_fleet-footed	character_speed.png	Those who are fleet of foot can reach the enemy faster.	Fleet-Footed	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_gutter_fighter	character_attack.png	This being fights dirty, no honour system applies here!	Gutter Fighter	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_gutter_fighter_2	character_attack.png	This being fights dirty, no honour system applies here!	Gutter Fighter	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_opportunist	character_charge.png	Always on the lookout for an opening or advantage in battle - somewhere to put the knife in…	Opportunist	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_precise_2	character_damage.png	Whether a targeted slice to the throat, or a precision stab to the heart, this one knows how to kill!	Precise	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_survivalist	character_health.png	"The enemy's fear; their blood spilt in the mud – these are the things that sustain me."	Survivalist	0	false	false	false	0.0000	0
+rhox_nagash_banshee_lord_survivalist_2	character_health.png	"The enemy's fear; their blood spilt in the mud – these are the things that sustain me."	Survivalist	0	false	false	false	0.0000	0
+nag_mortarch_skill_innate_kalledria	trait_dlc13_kalara_jungle_spirit.png			0	true	false	false	5.0000	0
+nag_skill_unique_kalledria_unique_1	character_defence.png			0	false	false	false	0.0000	0
+nag_skill_unique_kalledria_unique_2	character_defence.png			0	false	false	false	0.0000	0
+nag_skill_unique_kalledria_unique_3	character_defence.png			0	false	false	false	0.0000	0
+nag_skill_unique_kalledria_unique_4	character_defence.png			0	false	false	false	0.0000	0
+nag_skill_unique_kalledria_unique_5	character_defence.png			0	false	false	false	0.0000	0
+nag_skill_unique_kalledria_unique_6	character_defence.png			0	false	false	false	0.0000	0
