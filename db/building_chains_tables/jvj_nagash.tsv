@@ -1,67 +1,67 @@
-key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled
-#building_chains_tables;9;db/building_chains_tables/jvj_nagash									
-nag_outpost_primary_main			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_secondary_main			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_main_port			money	false	wh_main_sch_port		0		true
-nag_outpost_special_nagashizzar			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_special_mourkain			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_special_lahmia			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_special_khemri			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_special_awakening			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_special_drakenhof			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_special_quintex			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true
-nag_outpost_primary_research			money	false	nag_outpost_primary_research		6		true
-nag_outpost_primary_arcane			money	false	nag_outpost_primary_arcane		7		true
-nag_outpost_primary_support			money	false	nag_outpost_primary_support		8		true
-nag_outpost_primary_nehek			money	false	nag_outpost_primary_nehek		1		true
-nag_outpost_primary_nagashizzar			money	false	nag_outpost_primary_nagashizzar		2		true
-nag_outpost_primary_coast			money	false	nag_outpost_primary_coast		3		true
-nag_outpost_primary_count			money	false	nag_outpost_primary_count		4		true
-nag_outpost_primary_warpstone			money	false	nag_outpost_primary_warpstone		0		true
-nag_outpost_secondary_fields			money	false	nag_outpost_secondary_fields		1		true
-nag_outpost_secondary_corruption			money	false	nag_outpost_secondary_corruption		2		true
-nag_outpost_secondary_syphon			money	false	nag_outpost_secondary_syphon		3		true
-nag_outpost_secondary_energy			money	false	nag_outpost_secondary_energy		4		true
-nag_settlement_cavalry			military	false	nag_sch_settlement_cavalry		2		true
-nag_settlement_chariots			military	false	nag_sch_settlement_chariots		3		true
-nag_settlement_citadel			military	false	nag_sch_settlement_citadel		14		true
-nag_settlement_defence_major			military	false	nag_sch_settlement_defence_major		10		true
-nag_settlement_estate			money	false	nag_sch_settlement_estate		13		true
-nag_settlement_growth			money	false	nag_sch_settlement_growth		11		true
-nag_settlement_hierotitan			military	false	nag_sch_settlement_hierotitan		99		true
-nag_settlement_income			money	false	nag_sch_settlement_income		12		true
-nag_settlement_infantry			military	false	nag_sch_settlement_infantry		1		true
-nag_settlement_necrosphinx			military	false	nag_sch_settlement_necrosphinx		9		true
-nag_settlement_scorpions			military	false	nag_sch_settlement_scorpions		7		true
-nag_settlement_ushabti			military	false	nag_sch_settlement_ushabti		5		true
-nag_settlement_warsphinx			military	false	nag_sch_settlement_warsphinx		8		true
-nag_settlement_priest			military	false	nag_sch_settlement_priest		4		true
-nag_settlement_spirit			military	false	nag_sch_settlement_spirit		6		true
-nag_resource_gemstones			money	false	wh2_main_sch_human_resource_gems		10		true
-nag_resource_obsidian			money	false	wh2_main_sch_resource_obsidian		10		true
-nag_resource_dyes			money	false	wh_main_sch_human_resource_dyes		10		true
-nag_resource_furs			money	false	wh_main_sch_human_resource_furs		10		true
-nag_resource_gold			money	false	wh_main_sch_human_resource_gold		10		true
-nag_resource_iron			money	false	wh_main_sch_human_resource_iron		10		true
-nag_resource_marble			money	false	wh_main_sch_human_resource_marble		10		true
-nag_resource_pottery			money	false	wh_main_sch_human_resource_pottery		10		true
-nag_resource_salt			money	false	wh_main_sch_human_resource_salt		10		true
-nag_resource_timber			money	false	wh_main_sch_human_resource_timber		10		true
-nag_resource_wine			money	false	wh_main_sch_human_resource_wine		10		true
-nag_non_unique_settlement_cavalry			military	false	nag_sch_settlement_cavalry		2		true
-nag_non_unique_settlement_chariots			military	false	nag_sch_settlement_chariots		3		true
-nag_non_unique_settlement_defence_major			military	false	nag_sch_settlement_defence_major		10		true
-nag_non_unique_settlement_growth			money	false	nag_sch_settlement_growth		11		true
-nag_non_unique_settlement_income			money	false	nag_sch_settlement_income		12		true
-nag_non_unique_settlement_infantry			military	false	nag_sch_settlement_infantry		1		true
-nag_non_unique_settlement_ushabti			military	false	nag_sch_settlement_ushabti		5		true
-nag_non_unique_settlement_priest			military	false	nag_sch_settlement_priest		4		true
-nag_non_unique_settlement_spirit			military	false	nag_sch_settlement_spirit		6		true
-nag_resource_animals			money	false	wh2_main_sch_resource_animals		10		true
-nag_resource_medical			money	false	wh2_main_sch_resource_medicine		10		true
-nag_resource_pastures			money	false	wh_main_sch_human_resource_pastures		10		true
-nag_resource_spices			money	false	wh2_main_sch_resource_spices		10		true
-nag_resource_ivory			money	false	wh3_main_sch_human_resource_ivory		10		true
-nag_outpost_special_blackpyramid			money	false	wh_main_sch_main_settlement		0		true
-nag_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false
-cr_nag_special_settlement_nagashizzar			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_vampire_city.png	0		true
+key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	building_superchain	optional_tier_icon	optional_sort_order	optional_required_horde_commander	can_be_dismantled	is_foreign_slot_chain
+#building_chains_tables;10;db/building_chains_tables/jvj_nagash										
+nag_outpost_primary_main			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_secondary_main			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_main_port			money	false	wh_main_sch_port		0		true	false
+nag_outpost_special_nagashizzar			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_special_mourkain			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_special_lahmia			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_special_khemri			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_special_awakening			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_special_drakenhof			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_special_quintex			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_primary_research			money	false	nag_outpost_primary_research		6		true	false
+nag_outpost_primary_arcane			money	false	nag_outpost_primary_arcane		7		true	false
+nag_outpost_primary_support			money	false	nag_outpost_primary_support		8		true	false
+nag_outpost_primary_nehek			money	false	nag_outpost_primary_nehek		1		true	false
+nag_outpost_primary_nagashizzar			money	false	nag_outpost_primary_nagashizzar		2		true	false
+nag_outpost_primary_coast			money	false	nag_outpost_primary_coast		3		true	false
+nag_outpost_primary_count			money	false	nag_outpost_primary_count		4		true	false
+nag_outpost_primary_warpstone			money	false	nag_outpost_primary_warpstone		0		true	false
+nag_outpost_secondary_fields			money	false	nag_outpost_secondary_fields		1		true	false
+nag_outpost_secondary_corruption			money	false	nag_outpost_secondary_corruption		2		true	false
+nag_outpost_secondary_syphon			money	false	nag_outpost_secondary_syphon		3		true	false
+nag_outpost_secondary_energy			money	false	nag_outpost_secondary_energy		4		true	false
+nag_settlement_cavalry			military	false	nag_sch_settlement_cavalry		2		true	false
+nag_settlement_chariots			military	false	nag_sch_settlement_chariots		3		true	false
+nag_settlement_citadel			military	false	nag_sch_settlement_citadel		14		true	false
+nag_settlement_defence_major			military	false	nag_sch_settlement_defence_major		10		true	false
+nag_settlement_estate			money	false	nag_sch_settlement_estate		13		true	false
+nag_settlement_growth			money	false	nag_sch_settlement_growth		11		true	false
+nag_settlement_hierotitan			military	false	nag_sch_settlement_hierotitan		99		true	false
+nag_settlement_income			money	false	nag_sch_settlement_income		12		true	false
+nag_settlement_infantry			military	false	nag_sch_settlement_infantry		1		true	false
+nag_settlement_necrosphinx			military	false	nag_sch_settlement_necrosphinx		9		true	false
+nag_settlement_scorpions			military	false	nag_sch_settlement_scorpions		7		true	false
+nag_settlement_ushabti			military	false	nag_sch_settlement_ushabti		5		true	false
+nag_settlement_warsphinx			military	false	nag_sch_settlement_warsphinx		8		true	false
+nag_settlement_priest			military	false	nag_sch_settlement_priest		4		true	false
+nag_settlement_spirit			military	false	nag_sch_settlement_spirit		6		true	false
+nag_resource_gemstones			money	false	wh2_main_sch_human_resource_gems		10		true	false
+nag_resource_obsidian			money	false	wh2_main_sch_resource_obsidian		10		true	false
+nag_resource_dyes			money	false	wh_main_sch_human_resource_dyes		10		true	false
+nag_resource_furs			money	false	wh_main_sch_human_resource_furs		10		true	false
+nag_resource_gold			money	false	wh_main_sch_human_resource_gold		10		true	false
+nag_resource_iron			money	false	wh_main_sch_human_resource_iron		10		true	false
+nag_resource_marble			money	false	wh_main_sch_human_resource_marble		10		true	false
+nag_resource_pottery			money	false	wh_main_sch_human_resource_pottery		10		true	false
+nag_resource_salt			money	false	wh_main_sch_human_resource_salt		10		true	false
+nag_resource_timber			money	false	wh_main_sch_human_resource_timber		10		true	false
+nag_resource_wine			money	false	wh_main_sch_human_resource_wine		10		true	false
+nag_non_unique_settlement_cavalry			military	false	nag_sch_settlement_cavalry		2		true	false
+nag_non_unique_settlement_chariots			military	false	nag_sch_settlement_chariots		3		true	false
+nag_non_unique_settlement_defence_major			military	false	nag_sch_settlement_defence_major		10		true	false
+nag_non_unique_settlement_growth			money	false	nag_sch_settlement_growth		11		true	false
+nag_non_unique_settlement_income			money	false	nag_sch_settlement_income		12		true	false
+nag_non_unique_settlement_infantry			military	false	nag_sch_settlement_infantry		1		true	false
+nag_non_unique_settlement_ushabti			military	false	nag_sch_settlement_ushabti		5		true	false
+nag_non_unique_settlement_priest			military	false	nag_sch_settlement_priest		4		true	false
+nag_non_unique_settlement_spirit			military	false	nag_sch_settlement_spirit		6		true	false
+nag_resource_animals			money	false	wh2_main_sch_resource_animals		10		true	false
+nag_resource_medical			money	false	wh2_main_sch_resource_medicine		10		true	false
+nag_resource_pastures			money	false	wh_main_sch_human_resource_pastures		10		true	false
+nag_resource_spices			money	false	wh2_main_sch_resource_spices		10		true	false
+nag_resource_ivory			money	false	wh3_main_sch_human_resource_ivory		10		true	false
+nag_outpost_special_blackpyramid			money	false	wh_main_sch_main_settlement		0		true	false
+nag_allied_outpost			military	false	wh3_main_sch_allied_outpost		0		false	false
+cr_nag_special_settlement_nagashizzar			money	true	wh_main_sch_main_settlement	UI\Buildings\tier_icons\tier_vampire_city.png	0		true	false
