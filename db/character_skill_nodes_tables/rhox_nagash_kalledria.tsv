@@ -1,7 +1,7 @@
 key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
 #character_skill_nodes_tables;6;db/character_skill_nodes_tables/rhox_nagash_kalledria									
 nag_vmp_skill_innate_kalledria		nag_vmp_skill_innate_kalledria		6	0		1	0	false
-nag_kalledria_self_01		rhox_nagash_banshee_lord_bloody_blade		2	0		0	0	true
+nag_kalledria_self_01		wh_main_skill_all_spy_self_bloody_blade		2	0		0	0	true
 nag_kalledria_self_02		rhox_nagash_banshee_lord_gutter_fighter_2		2	1		0	0	true
 nag_kalledria_self_03		rhox_nagash_banshee_lord_elusive		2	2		0	0	true
 nag_kalledria_self_04		rhox_nagash_banshee_lord_precise_2		2	3		0	0	true

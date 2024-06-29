@@ -21,3 +21,4 @@ wh_main_spell_nagash_abyssal_swarm	1.0000	1.0000	mastery_of_elemental_winds	set	
 wh_main_spell_nagash_abyssal_swarm_upgrade	1.0000	1.0000	mastery_of_elemental_winds	set	-1.0000	0.0000	false
 wh_main_spell_nagash_floating_vandus_catus	1.0000	1.0000	mastery_of_elemental_winds	set	-1.0000	0.0000	false
 nag_unit_passive_doom_of_nagashizzar	1.0000	120.0000	kills_made	linear_multiplier	-1.0000	0.0000	false
+nag_lord_passive_dreads_embrace	0.0000	100.0000	time_in_melee	linear_multiplier	-1.0000	0.0000	true

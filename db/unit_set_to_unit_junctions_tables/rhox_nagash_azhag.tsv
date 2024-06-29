@@ -135,3 +135,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_doomed_legion	nag_army_nagashizzar_units_vet_azhag_ror	false
 			nag_bone_colossus	nag_army_nagashizzar_units_vet_azhag_ror	false
 			nag_throne_guard	nag_army_nagashizzar_units_vet_azhag_ror	false
+			nag_vanilla_cst_inf_syreen	nag_army_infantry_azhag	false
+			nag_vanilla_cst_inf_syreen	nag_army_nagashizzar_units_azhag	false
+			nag_vanilla_cst_inf_syreen	nag_army_nagashizzar_units_vet_azhag	false

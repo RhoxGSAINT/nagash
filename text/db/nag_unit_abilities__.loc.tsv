@@ -187,3 +187,7 @@ unit_abilities_onscreen_name_nag_kalledria_sonic_boom	Piercing Anguish	false
 unit_abilities_tooltip_text_nag_kalledria_sonic_boom	Kalledria strikes all the notes on her cursed harp, causing listeners to feel 100 years of anguish all at once.	false
 unit_abilities_onscreen_name_nag_kalledria_solo_performance	Harp of Echoes	false
 unit_abilities_tooltip_text_nag_kalledria_solo_performance	Long melodic tune is being played, filled with pain and sorrow of Kalledria, causing all listeners to lose their minds.	false
+unit_abilities_tooltip_text_nag_unit_passive_kalledria_abyssal_howl	Spirits lets out a spine-chilling howl, terrifying those who would dare to stand in its path.	false
+unit_abilities_onscreen_name_nag_unit_passive_kalledria_abyssal_howl	Abyssal Howl	false
+unit_abilities_tooltip_text_nag_lord_passive_dreads_embrace	With every passing second in the fray, Kalledria's aura of despair tightens its grip, crushing the resolve of all who dare stand against her.	false
+unit_abilities_onscreen_name_nag_lord_passive_dreads_embrace	Dread's Embrace	false

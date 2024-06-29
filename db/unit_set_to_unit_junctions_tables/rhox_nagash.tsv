@@ -625,3 +625,6 @@ hero				nag_characters	false
 			nag_druthor	wh2_main_ror_units_all	false
 			nag_mortarch_vlad	wh_pro02_isabella_extra_upkeep	false
 			nag_tomb_banshee	wh_pro02_isabella_extra_upkeep	false
+			nag_vanilla_cst_inf_syreen	nag_ethereal_unit_set	false
+			nag_vanilla_cst_inf_syreen	nag_frost_spirits	false
+			nag_vanilla_cst_inf_syreen	nag_infantry	false

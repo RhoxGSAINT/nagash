@@ -67,3 +67,5 @@ nag_effect_unit_cap_nag_thrall_crossbowmen	unit_capacity.png	1	unit_capacity.png
 nag_effect_unit_cap_nag_thrall_handgunners	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_nag_bone_colossus	unit_capacity.png	1	unit_capacity.png	campaign	true
 nag_effect_unit_cap_nag_nagashi_knights	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_syreen	unit_capacity.png	1	unit_capacity.png	campaign	true
+nag_effect_unit_cap_ethereal	unit_capacity.png	1	unit_capacity.png	campaign	true

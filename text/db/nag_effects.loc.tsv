@@ -546,3 +546,15 @@ effects_description_rhox_nagash_kalledria_effect_ability_enable_the_screaming_ba
 effects_description_rhox_nagash_kalledria_effect_ability_enable_horrible_regeneration_ghouls	Ability: Horrible Regeneration for Ghoul units	false
 effects_description_rhox_nagash_kalledria_effect_upkeep_cost_reduction_ethereal	Upkeep: %+n% for ethereal units	false
 effects_description_wh2_dlc15_hef_dungeon_mistwalker_upgrade_nagash	Passive ability: "Tormented Execution" for Mistwalker units	false
+effects_description_nag_effect_enable_unit_passive_kalledria_abyssal_howl	Passive ability: "Abyssal Howl" for Syreen units	false
+effects_description_nag_effect_num_usage_sonic_boom	Ability number of uses: %+n for "Piercing Anguish"	false
+effects_description_nag_effect_force_stat_weapon_strength_ghoul	Weapon strength: %+n% for Ghoul units	false
+effects_description_nag_effect_force_stat_speed_ghoul	Speed: %+n% for Ghoul units	false
+effects_description_nag_effect_physical_resist_ghoul	Physical resistance: %n% for Ghoul units	false
+effects_description_nag_effect_force_stat_charge_bonus_add_syreen	Charge bonus: %+n for Ethereal units	false
+effects_description_nag_effect_force_stat_speed_add_syreen	Speed: %+n% for Ethereal units	false
+effects_description_nag_effect_enable_lord_passive_dreads_embrace	Passive ability: "Dread's Embrace"	false
+effects_description_nag_effect_upkeep_ethereal	Upkeep: %+n% for Ethereal units	false
+effects_description_nag_effect_skill_rank_increase_ethereal	Recruit rank: %+n for Ethereal units	false
+effects_description_nag_effect_force_replenishment_rate_ethereal	Casualty replenishment rate: %+n% for Ethbereal units	false
+effects_description_nag_effect_force_stat_melee_defence_ethereal	Melee defence: %+n for Ethereal units	false

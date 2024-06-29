@@ -288,7 +288,7 @@ RHOX_NAGASH_MORTARCH.mort_key_to_units={
         "nag_spirit_hosts",
         "nag_vanilla_vmp_inf_cairn_wraiths",
         "nag_vanilla_vmp_inf_cairn_wraiths",
-        "nag_nagashi_knights"
+        "nag_vanilla_cst_inf_syreen"
 	}
 }
 

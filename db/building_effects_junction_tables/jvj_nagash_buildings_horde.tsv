@@ -553,3 +553,10 @@ nag_kalledria_horde_special_5	nag_effect_horde_growth		force_to_force_own	10.000
 nag_kalledria_horde_special_5	wh_main_effect_force_all_recruitment_points		force_to_force_own	7.0000	3.0000	0.0000
 nag_kalledria_horde_special_5	wh3_main_effect_corruption_vampiric_buildings		force_to_character_own_provincetext	5.0000	2.0000	0.0000
 nag_kalledria_horde_special_5	wh_main_effect_economy_gdp_culture		force_to_force_building	700.0000	700.0000	0.0000
+nag_kalledria_horde_landmark_0	nag_effect_unit_cap_crypt_ghouls		faction_to_faction_own_unseen	4.0000	4.0000	0.0000
+nag_kalledria_horde_landmark_0	nag_effect_unit_cap_syreen		faction_to_faction_own_unseen	2.0000	2.0000	0.0000
+nag_kalledria_horde_landmark_1	nag_effect_unit_cap_crypt_ghouls		faction_to_faction_own_unseen	8.0000	8.0000	0.0000
+nag_kalledria_horde_landmark_1	nag_effect_unit_cap_syreen		faction_to_faction_own_unseen	4.0000	4.0000	0.0000
+nag_kalledria_horde_landmark_1	nag_effect_unit_cap_ethereal		faction_to_faction_own_unseen	1.0000	1.0000	0.0000
+nag_kalledria_horde_landmark_1	nag_effect_upkeep_ethereal		force_to_force_own	-20.0000	-20.0000	0.0000
+nag_kalledria_horde_landmark_1	nag_effect_skill_rank_increase_ethereal		force_to_force_own	2.0000	2.0000	0.0000
