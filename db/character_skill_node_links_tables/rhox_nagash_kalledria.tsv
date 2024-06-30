@@ -24,3 +24,11 @@ nag_skill_unique_kalledria_unique_6	nag_skill_unique_kalledria_unique_2	0	1	1	0.
 nag_skill_unique_kalledria_unique_6	nag_skill_unique_kalledria_unique_3	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_unique_kalledria_unique_6	nag_skill_unique_kalledria_unique_4	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_unique_kalledria_unique_6	nag_skill_unique_kalledria_unique_5	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_kalledria_self_ranged_02	nag_kalledria_self_ranged_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_kalledria_self_ranged_03	nag_kalledria_self_ranged_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_kalledria_self_ranged_04	nag_kalledria_self_ranged_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_kalledria_self_ranged_05	nag_kalledria_self_ranged_01	0	1	1	0.0000	0.0000	REQUIRED
+nag_kalledria_self_ranged_06	nag_kalledria_self_ranged_02	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_kalledria_self_ranged_06	nag_kalledria_self_ranged_03	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_kalledria_self_ranged_06	nag_kalledria_self_ranged_04	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_kalledria_self_ranged_06	nag_kalledria_self_ranged_05	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
