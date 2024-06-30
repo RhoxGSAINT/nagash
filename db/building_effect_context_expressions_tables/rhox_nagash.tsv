@@ -3,3 +3,4 @@ key	expression	display_only_active_effects
 IsNagash	Owner.RecordKeyIsOneOf("mixer_nag_nagash")	true
 TreasuryGreaterThan25000	Owner.Treasury >=25000	false
 GDPGreaterThan500	Region.GDP >= 500	false
+IsKalledria	Owner.RecordKeyIsOneOf("mixer_vmp_wailing_conclave")	true

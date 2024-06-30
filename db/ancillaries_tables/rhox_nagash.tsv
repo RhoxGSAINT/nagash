@@ -67,3 +67,4 @@ nag_Soulreaper	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	fals
 nag_dread_black_jewel	wh_main_anc_talisman	.	false	false	false	1	0	9999			true	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_mount_grn_azhag_skullmuncha	wh_main_anc_mount_skullmuncha	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_grn_cha_azhag_the_slaughterer_1		1	0		false	false	true	all
 nag_anc_mount_guinevere_warhorse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_guinevere_warhorse		1	0		false	false	true	all
+nag_anc_enchanted_item_lament_of_the_lost	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all

@@ -163,9 +163,10 @@ function rhox_nagash_kalledria:initialise()
 		"rhox_nagash_kalledria_spirit_essence_spent",
 		"PooledResourceChanged",
 		function(context)
-			return context:resource():key() == self.spirit_essence
+			return context:resource():key() == self.spirit_essence and context:faction():name() == self.kalledria_faction
 		end,
 		function(context)
+            local faction = context:faction()
 			self:update_hex_spirit_essence_requirements()
 			
 			local spirit_essence_value = self:get_total_spirit_essence_consumed()
@@ -173,12 +174,20 @@ function rhox_nagash_kalledria:initialise()
 			for hex, data in pairs(self.hex_data) do
 				local save_value = cm:get_saved_value(hex .. "_mission_triggered") or 0
 				
-				if save_value == true then save_value = 2 end -- old saves were set to true instead of a number
-				
 				if data.spirit_essence_requirement and spirit_essence_value >= data.spirit_essence_requirement and save_value < 1 then
 					self:unlock_hex(data.hex)
-                    cm:unlock_technology(context:faction():name(), data.tech)
+                    cm:unlock_technology(faction:name(), data.tech)
 					cm:set_saved_value(hex .. "_mission_triggered", 2)
+					
+					local count = cm:get_saved_value("rhox_kalledria_hexes_unlocked_count") or 0
+					count = count + 1
+					cm:set_saved_value("rhox_kalledria_hexes_unlocked_count", count)
+					
+					if count == 5 then
+                        local incident_builder = cm:create_incident_builder(self.hex_6_story_panel_key)
+						cm:callback(function() cm:launch_custom_incident_from_builder(incident_builder, faction) end, 0.2)
+						cm:unlock_ritual(faction, self.hex_6_key)
+					end
 				end
 			end
 		end,
@@ -307,7 +316,7 @@ function rhox_nagash_kalledria:initialise()
 			end
 			
 			-- remove corruption from province when hex 5 is performed
-			if ritual_key:starts_with(self.hex_data.purification_chant.hex) then
+			if ritual_key:starts_with(self.hex_data.rhox_kalledria_purification_chant.hex) then
 				local corruption_types = {
 					"chaos",
 					"skaven",
@@ -469,7 +478,8 @@ cm:add_first_tick_callback(
             table.insert(rhox_nagash_kalledria.hex_data.rhox_kalledria_jinxed_land.hex, "wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_far_place")
         end
         rhox_nagash_kalledria:initialise()
-        if cm:get_local_faction_name(true) == rhox_nagash_kalledria.kalledria_faction then
+        if cm:get_local_faction_name(true) == rhox_nagash_kalledria.kalledria_faction then           
+        
             local parent_ui = find_uicomponent(core:get_ui_root(), "hud_campaign", "resources_bar_holder", "resources_bar");
             local result1 = core:get_or_create_component("rhox_nagash_nagash_kalledria_resource_holder", "ui/campaign ui/rhox_nagash_kalledria_pooled_resource.twui.xml", parent_ui)
             local result2 = core:get_or_create_component("rhox_nagash_nagash_kalledria_hex_holder", "ui/campaign ui/rhox_nagash_kalledria_hex_holder.twui.xml", parent_ui)

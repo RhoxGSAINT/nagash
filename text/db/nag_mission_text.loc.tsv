@@ -34,4 +34,4 @@ mission_text_text_nag_bp_survive_3	Survive for 5 Rounds and Defeat the Skaven In
 mission_text_text_nag_bp_survive_2	Survive for 5 Rounds and Defeat the Skaven Invasion\\n\\n2 Rounds Remaining	true
 mission_text_text_nag_bp_survive_1	Survive for 5 Rounds and Defeat the Skaven Invasion\\n\\n1 Rounds Remaining	true
 mission_text_text_nag_bp_survive_0	Survive for 5 Rounds and Defeat the Skaven Invasion\\n\\n0 Rounds Remaining	true
-mission_text_text_nag_conquer_one_magical_forest	Conquer at least one settlement with magical forest climate	false
+mission_text_text_nag_conquer_one_magical_forest	Conquer at least one settlement with magical forest climate and start a turn with it	false
