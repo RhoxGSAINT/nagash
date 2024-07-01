@@ -1,26 +1,14 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_nagash_kalledria					
-			nag_vmp_kalledria_syreen	mp_cap_unit_cst_inf_deckhands_syreens	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_all_monster_ultility	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_all_monsters	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_army_chain_set_monster	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_inf_syreens	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_infantry_melee	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_rite_vanguard_monsters	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_syreen_mournguls	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_cst_terrorgheist_scurvy_dogs_syreen	false
-			nag_vmp_kalledria_syreen	all_units_excluding_terror	false
-			nag_vmp_kalledria_syreen	ethereal	false
-			nag_vmp_kalledria_syreen	mp_cap_unit_vmp_inf_cairn_wraiths	false
-			nag_vmp_kalledria_syreen	vmp_all	false
-			nag_vmp_kalledria_syreen	vmp_bound_spirits	false
-			nag_vmp_kalledria_syreen	vmp_unit_cairn_wraiths	false
-			nag_vmp_kalledria_syreen	vmp_wraiths_mournguls	false
-			nag_vmp_kalledria_syreen	vmp_wraiths	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_vmp_cairn_wraith_hex_wraith_mourngul	false
-			nag_vmp_kalledria_syreen	wh2_dlc11_vmp_vets_zombies_skeletons_grave_guard_cairn_wraiths	false
-			nag_vmp_kalledria_syreen	wh2_dlc17_cairnwraith_hexwraith_rank7	false
-			nag_vmp_kalledria_syreen	wh_pro02_isabella_extra_upkeep	false
+			wh2_dlc11_cst_inf_syreens	vmp_all	false
+			wh2_dlc11_cst_inf_syreens	vmp_bound_spirits	false
+			wh2_dlc11_cst_inf_syreens	vmp_unit_cairn_wraiths	false
+			wh2_dlc11_cst_inf_syreens	vmp_wraiths_mournguls	false
+			wh2_dlc11_cst_inf_syreens	vmp_wraiths	false
+			wh2_dlc11_cst_inf_syreens	wh2_dlc11_vmp_cairn_wraith_hex_wraith_mourngul	false
+			wh2_dlc11_cst_inf_syreens	wh2_dlc11_vmp_vets_zombies_skeletons_grave_guard_cairn_wraiths	false
+			wh2_dlc11_cst_inf_syreens	wh2_dlc17_cairnwraith_hexwraith_rank7	false
+			wh2_dlc11_cst_inf_syreens	wh_pro02_isabella_extra_upkeep	false
 			nag_tomb_banshee	nag_banshee_unit_set	false
 			wh_main_vmp_cha_banshee	nag_banshee_unit_set	false
 			wh_main_vmp_inf_crypt_ghouls	nag_kalledria_ghoul_unit_set	false

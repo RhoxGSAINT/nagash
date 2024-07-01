@@ -670,6 +670,6 @@ key	building	unit	XP	conditions	faction	enabled
 8427497	nag_kalledria_horde_landmark_1	nag_vanilla_vmp_inf_cairn_wraiths	0	0		false
 8427498	nag_kalledria_horde_landmark_1	nag_vanilla_vmp_cav_hexwraiths	0	0		false
 8427499	nag_kalledria_horde_landmark_1	nag_vanilla_cst_inf_syreen	0	0		false
-8427500	wh_main_vmp_bindingcircle_1	nag_vmp_kalledria_syreen	0	0	mixer_vmp_wailing_conclave	true
-8427501	wh_main_vmp_bindingcircle_2	nag_vmp_kalledria_syreen	1	0	mixer_vmp_wailing_conclave	true
-8427502	wh_main_vmp_bindingcircle_3	nag_vmp_kalledria_syreen	2	0	mixer_vmp_wailing_conclave	true
+8427500	wh_main_vmp_bindingcircle_1	wh2_dlc11_cst_inf_syreens	0	0	mixer_vmp_wailing_conclave	true
+8427501	wh_main_vmp_bindingcircle_2	wh2_dlc11_cst_inf_syreens	1	0	mixer_vmp_wailing_conclave	true
+8427502	wh_main_vmp_bindingcircle_3	wh2_dlc11_cst_inf_syreens	2	0	mixer_vmp_wailing_conclave	true

@@ -49,7 +49,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_vmp_inf_cairn_wraiths	ethereal	false
 			nag_vanilla_vmp_cav_hexwraiths	ethereal	false
 			nag_tomb_banshee	ethereal	false
-			nag_vmp_kalledria_syreen	ethereal	false
 			nag_vanilla_cst_inf_syreen	ethereal	false
 			nag_cav_hexwraiths_0_summon	ethereal	false
 			nag_mortarch_kalledria	ethereal	false
