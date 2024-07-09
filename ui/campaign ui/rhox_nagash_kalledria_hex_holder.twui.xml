@@ -512,9 +512,9 @@
 							this="51ABBADC-7D9A-9660-FF3616C19FA18A34"
 							uniqueguid="51ABBADC-7D9A-9660-FF3616C19FA18A34"
 							componentimage="4721661D-AF2F-BC24-22A4085A1CC0E7CD"
-							offset="-9.00,-11.00"
-							width="71"
-							height="74"
+							offset="0.00,0.00"
+							width="52"
+							height="52"
 							dockpoint="Center"/>
 					</imagemetrics>
 				</default>

@@ -9,6 +9,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc11_cst_inf_syreens	wh2_dlc11_vmp_vets_zombies_skeletons_grave_guard_cairn_wraiths	false
 			wh2_dlc11_cst_inf_syreens	wh2_dlc17_cairnwraith_hexwraith_rank7	false
 			wh2_dlc11_cst_inf_syreens	wh_pro02_isabella_extra_upkeep	false
+			wh2_dlc11_cst_inf_syreens	ethereal	false
 			nag_tomb_banshee	nag_banshee_unit_set	false
 			wh_main_vmp_cha_banshee	nag_banshee_unit_set	false
 			wh_main_vmp_inf_crypt_ghouls	nag_kalledria_ghoul_unit_set	false
