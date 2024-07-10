@@ -20,7 +20,7 @@ local guin_culture={
     wh_main_brt_bretonnia = true,
     wh_main_emp_empire = true,
     wh_main_vmp_vampire_counts = true,
-    mixer_teb_southern_realms = true,
+    mixer_teb_southern_realms = true,
     wh3_main_cth_cathay = true,
     mixer_nip_nippon = true
 }
@@ -111,7 +111,7 @@ core:add_listener(
         visit_candidate = cm:random_sort(visit_candidate);
         local target_faction = nil
         for i=1,#visit_candidate do
-            if visit_candidate[i] ~= previous_faction then
+            if visit_candidate[i] ~= rhox_nagash_guinevere_info.previous_faction then
                 target_faction = visit_candidate[i]
                 break
             end
@@ -152,12 +152,14 @@ core:add_listener(
             cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
             rhox_nagash_guinevere_info.cqi = new_character:cqi()
             rhox_nagash_guinevere_info.current_faction =target_faction;
+            
+            if guin_faction:is_human() then --trigger incident
+                cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
+            end
         end
         rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
         cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
-        if guin_faction:is_human() then --trigger incident
-            cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
-        end
+        
         
     end,
     true

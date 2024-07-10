@@ -1,6 +1,5 @@
 set	item	mod_disabled
 #character_skill_node_set_items_tables;0;db/character_skill_node_set_items_tables/rhox_nagash_hand		
-nag_skill_node_set_mortarch_hand	nag_hand_of_nagash_mentor	false
 nag_skill_node_set_mortarch_hand	nag_hand_of_nagash_magic_1	false
 nag_skill_node_set_mortarch_hand	nag_hand_of_nagash_magic_2	false
 nag_skill_node_set_mortarch_hand	nag_hand_of_nagash_magic_3	false
