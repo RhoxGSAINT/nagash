@@ -76,6 +76,8 @@ core:add_listener(
         for j = 1, #guin_to_kill do
             local character = cm:get_character_by_cqi(guin_to_kill[j])
             if character and not character:is_null_interface() and character:character_subtype("nag_guinevere") then
+                rhox_nagash_guinevere_info.traits=character:all_traits()
+                rhox_nagash_guinevere_info.rank=character:rank()
                 cm:disable_event_feed_events(true, "", "", "wh_event_category_character");	
                 cm:suppress_immortality(character:family_member():command_queue_index(), true) 
                 cm:kill_character("character_cqi:"..guin_to_kill[j], true)
@@ -152,7 +154,7 @@ core:add_listener(
             cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
             rhox_nagash_guinevere_info.cqi = new_character:cqi()
             rhox_nagash_guinevere_info.current_faction =target_faction;
-            
+
             if guin_faction:is_human() then --trigger incident
                 cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
             end
