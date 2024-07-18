@@ -85,6 +85,10 @@ terror	nag_carrion_riders
 armoured_and_shielded	nag_bone_golems
 defender	nag_bone_golems
 charge_reflector	nag_bone_golems
+anti_infantry	nag_mortarch_kalledria
+terror	nag_mortarch_kalledria
+ethereal	nag_mortarch_kalledria
+magical_aura	nag_mortarch_kalledria
 melee_expert	nag_mortarch_krell
 armour_piercing	nag_mortarch_krell
 armoured	nag_mortarch_krell
@@ -189,3 +193,7 @@ anti_large	nag_druthor
 armour_piercing	nag_druthor
 poison	nag_druthor
 terror	nag_druthor
+anti_infantry	nag_vmp_kalledria
+terror	nag_vmp_kalledria
+ethereal	nag_vmp_kalledria
+magical_aura	nag_vmp_kalledria

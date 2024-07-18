@@ -2,6 +2,7 @@
 *.tsv text eol=lf
 *.material text eol=lf
 *.variantmeshdefinition text eol=crlf
+*.lua text eol=lf
 
 ## Don't edit this files' whitespace at all, ever
 *.dds binary

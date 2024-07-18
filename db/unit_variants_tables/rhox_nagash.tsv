@@ -5,6 +5,7 @@ faction	unit	name	variant	unit_card
 	nag_mortarch_neferata	nag_mortarch_neferata	nag_neferata	nag_mortarch_neferata
 	nag_mortarch_neferata_warhorse	nag_mortarch_neferata	nag_neferata_abyssal	nag_mortarch_neferata
 	nag_mortarch_neferata_abyssal	nag_mortarch_neferata	nag_neferata_abyssal	nag_mortarch_neferata
+	nag_mortarch_kalledria	nag_mortarch_kalledria	nag_kalledria	nag_placeholder
 	nag_mortarch_krell	nag_mortarch_krell	wh_pro03_vmp_ch_krell	wh_pro03_vmp_cha_krell
 	nag_mortarch_vlad	nag_mortarch_vlad	wh_dlc04_vmp_ch_vlad	nag_mortarch_vlad
 	nag_mortarch_mannfred	nag_mortarch_mannfred	wh_vmp_ch_mannfred	nag_mortarch_mannfred
@@ -68,3 +69,4 @@ faction	unit	name	variant	unit_card
 	nag_nagashi_knights	nag_nagashi_knights	nag_nagashi_knights	nag_nagashi_knights
 	nag_doom_knights	nag_doom_knights	nag_doom_knights	nag_doom_knights
 	nag_druthor	nag_druthor	nag_druthor	nag_druthor
+	nag_vmp_kalledria	nag_mortarch_kalledria	nag_kalledria	nag_placeholder

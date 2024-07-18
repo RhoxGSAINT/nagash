@@ -29,6 +29,7 @@ rituals_description_rhox_nagash_ritual_forced_vassalisation	It'll make target un
 campaign_group_rituals_unlock_text_rhox_nagash_feature_grouprhox_nagash_ritual_forced_vassalisation	Nagash's Omnipotence	false
 ritual_categories_display_name_FORCE_VASSAL_NAGASH	Nagash's Omnipotence	false
 ritual_categories_display_name_FORCE_VASSAL_LAHMIA	Dominate	false
+ritual_categories_display_name_KALLEDRIA_HEX_RITUAL	Hex	false
 rituals_description_rhox_nagash_lahmia_ritual_forced_vassalisation	Exert your influence to seize control of this faction, turning them into a loyal [[img:icon_vassal]][[/img]]vassal. The target faction must have reached 100% [[img:icon_blood_kiss]][[/img]]vampiric Influence. The total [[img:icon_blood_kiss]][[/img]]vampiric influence required to reach this threshold depends on the target’s race and number of settlements.	false
 rituals_display_name_rhox_nagash_lahmia_ritual_forced_vassalisation	Dominate	false
 rituals_display_name_rhox_nagash_lahmia_ritual_create_cults	Proliferate Cults	false
@@ -36,3 +37,65 @@ rituals_description_rhox_nagash_lahmia_ritual_create_cults	Send your followers o
 rituals_display_name_nag_army	Dominion of Nagash	false
 rituals_description_nag_army	More will arise	false
 ritual_additional_ui_explanation_texts_onscreen_text_nag_army	[[img:ui/campaign ui/effect_bundles/military.png]][[/img]][[col:green]]Army capacity: +1[[/col]]	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_forest_of_gloom	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_forest_of_gloom_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gaean_vale	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gaean_vale_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gryphon_wood	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gryphon_wood_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_heart_of_the_jungle	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_heart_of_the_jungle_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_jungles_of_chian	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_jungles_of_chian_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_laurelorn_forest	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_laurelorn_forest_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_oak_of_ages	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_oak_of_ages_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_haunted_forest	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_haunted_forest_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_sacred_pools	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_sacred_pools_empowered	Jinxed Land (Empowered)	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_witchwood	Jinxed Land	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_witchwood_empowered	Jinxed Land (Empowered)	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_forest_of_gloom	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_forest_of_gloom_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gaean_vale	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gaean_vale_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gryphon_wood	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_gryphon_wood_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_heart_of_the_jungle	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_heart_of_the_jungle_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_jungles_of_chian	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_jungles_of_chian_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_laurelorn_forest	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_laurelorn_forest_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_oak_of_ages	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_oak_of_ages_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_haunted_forest	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_haunted_forest_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_sacred_pools	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_sacred_pools_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_witchwood	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_witchwood_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_1	Sometimes the land itself is a prison, refusing to set its victims free.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_1_empowered	Being perpetually haunted by the dead is no way to live.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_3	Angry spirits descend on the unwary, desperate to be joined in death.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_3_empowered	Some spells do little more than to inspire generosity among one's enemies.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_4	Enthralled minds are often the most giving, impoverishing themselves to pay tribute to their master.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_4_empowered	Corruption must be cleansed, wherever its infection spreads.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_5	Where the land is purified by blinding light, corruption can no longer hold sway.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_5_empowered	The armies of Kislev's enemies crumble, burdened by the darkest of magics.	false
+rituals_description_rhox_nagash_kalledria_ritual_hex_6	Malediction of Ruin	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_1	Coven's Cursemark	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_1_empowered	Coven's Cursemark (Empowered)	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_3	Recreant Spirit	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_3_empowered	Recreant Spirit (Empowered)	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_4	Bewitching Lure	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_4_empowered	Bewitching Lure (Empowered)	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_5	Tainted Chant	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_5_empowered	Tainted Chant (Empowered)	false
+rituals_display_name_rhox_nagash_kalledria_ritual_hex_6	Malediction of Ruin	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_far_place	The Magical Forest is a gateway by which all manner of spirits travel.	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_far_place	Jinxed Land	false
+rituals_description_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_far_place_empowered	The spirits of the forest have been known to kidnap whole armies, whisking them away into the dark.	false
+rituals_display_name_wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_far_place_empowered	Jinxed Land (Empowered)	false

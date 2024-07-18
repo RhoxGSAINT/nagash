@@ -128,7 +128,7 @@ technologies_short_description_nag_vlad_proclamation	The skilled vampire serves 
 technologies_short_description_nag_vlad_archai	For all their pledges, Mortarchs may need unfailingly loyal eyes watching over them...	false
 technology_ui_groups_optional_display_name_nag_mortarchs	The Mortarchs	false
 technology_ui_groups_optional_display_description_nag_mortarchs	Dost this worketh?	false
-technologies_onscreen_name_nag_mortarch_dieter_unlock	Dieter Helsnicht	false
+technologies_onscreen_name_nag_mortarch_dieter_unlock	Dieter, Mortarch of Doom	false
 technologies_short_description_nag_mortarch_dieter_unlock	Revel in the madness and savour this most delightful taste, revenge.	false
 technologies_onscreen_name_nag_dieter_archai	Bestow the Archai	false
 technologies_short_description_nag_dieter_archai	For all their pledges, Mortarchs may need unfailingly-loyal eyes watching over them...	false
@@ -146,11 +146,11 @@ technologies_onscreen_name_nag_dieter_battle_2	Mortal Mask	false
 technologies_short_description_nag_dieter_battle_2	"I was you once, Dieter. Strive to become me now."	false
 technologies_onscreen_name_nag_dieter_battle_3	Doom's Own	false
 technologies_short_description_nag_dieter_battle_3	When the Doomlord was forsaken by Middenheim, he lost friends and family. Luckily he could literally raise new ones from the ground.	false
-technologies_onscreen_name_nag_mortarch_dk_unlock	Dread King	false
+technologies_onscreen_name_nag_mortarch_dk_unlock	Dread King, Mortarch of Omens	false
 technologies_short_description_nag_mortarch_dk_unlock	A mighty undead liche and an army of darkness to serve his will.	false
 technologies_onscreen_name_nag_dk_archai	Bestow the Archai	false
 technologies_short_description_nag_dk_archai	For all their pledges, Mortarchs may need unfailingly-loyal eyes watching over them...	false
-technologies_onscreen_name_nag_dk_proclamation	Orignal Dark Lord	false
+technologies_onscreen_name_nag_dk_proclamation	Original Dark Lord	false
 technologies_short_description_nag_dk_proclamation	Not just some sorcerer's apprentice.	false
 technologies_onscreen_name_nag_mortarch_dk_event_1	Hand of Nagash	false
 technologies_short_description_nag_mortarch_dk_event_1	One of Nagash's most powerful arch servants, and also one of his original Dark Lords. In time, the nameless one was given a name by those who feared his coming, the ‘Hand of Nagash’.	false
@@ -164,3 +164,31 @@ technologies_onscreen_name_nag_dk_battle_2	The First Anvil	false
 technologies_short_description_nag_dk_battle_2	And your front too.	false
 technologies_onscreen_name_nag_dk_battle_3	Omen's Own	false
 technologies_short_description_nag_dk_battle_3	Timeless warriors buried by the sands of time, dragged through the ages for one last conquest.	false
+technologies_onscreen_name_nag_kalledria_battle_1	Dreadful Dominion	false
+technologies_short_description_nag_kalledria_battle_1	The pervasive dread emanating from Kalledria quickens the recovery of the minions	false
+technologies_onscreen_name_nag_kalledria_battle_2	Aura of Sorrow	false
+technologies_short_description_nag_kalledria_battle_2	Inspired by Kalledria, lords project a more powerful and demoralizing aura on the battlefield.	false
+technologies_onscreen_name_nag_kalledria_battle_3	Ethereal Fortification	false
+technologies_short_description_nag_kalledria_battle_3	Their ghostly forms are now even harder to strike	false
+technologies_onscreen_name_nag_mortarch_kalledria_event_1	Spectral Reinforcement	false
+technologies_short_description_nag_mortarch_kalledria_event_1	Kalledria's spectral energies musters more ghostly forces.	false
+technologies_onscreen_name_nag_mortarch_kalledria_event_2	Sorrowful Dominion	false
+technologies_short_description_nag_mortarch_kalledria_event_2	She spreads despair wherever she go	false
+technologies_onscreen_name_nag_mortarch_kalledria_event_3	Mastery of Nightmares	false
+technologies_short_description_nag_mortarch_kalledria_event_3	Harnessing the power of nightmares increases the magical capabilities	false
+technologies_onscreen_name_nag_mortarch_kalledria_unlock	Kalledria, Mortarch of Sorrow	false
+technologies_short_description_nag_mortarch_kalledria_unlock	Her presence alone drains the joy and hope from all who encounter her, leaving only despair in her wake.	false
+technologies_onscreen_name_nag_kalledria_proclamation	Unholy Resonance	false
+technologies_short_description_nag_kalledria_proclamation	The sorrowful power of Kalledria's presence permeates the land, subtly enhancing the productivity and wealth of all regions under her control.	false
+technologies_onscreen_name_nag_kalledria_archai	Bestow the Archai	false
+technologies_short_description_nag_kalledria_archai	For all their pledges, Mortarchs may need unfailingly-loyal eyes watching over them...	false
+technologies_onscreen_name_rhox_nagash_kalledria_hex_upgrade_1	Coven's Cursemark	false
+technologies_short_description_rhox_nagash_kalledria_hex_upgrade_1	Like the gnarled roots of a tree breaking free from the earth, the curse twists itself from the ground, ensnaring each body in its path.	false
+technologies_onscreen_name_rhox_nagash_kalledria_hex_upgrade_2	Jinxed Land	false
+technologies_short_description_rhox_nagash_kalledria_hex_upgrade_2	The Magical Forest is a dark winding labyrinth; so easy to stumble into... and near impossible to escape.	false
+technologies_onscreen_name_rhox_nagash_kalledria_hex_upgrade_3	Recreant Spirit	false
+technologies_short_description_rhox_nagash_kalledria_hex_upgrade_3	Spirits dance at their summoners command, harnessing a deadly strength that mortal bodies could only envy.	false
+technologies_onscreen_name_rhox_nagash_kalledria_hex_upgrade_4	Bewitching Lure	false
+technologies_short_description_rhox_nagash_kalledria_hex_upgrade_4	Weak minds are so easy to break – with the right words, whole towns blink in delusion, drawn under their new master's hypnotic sway.	false
+technologies_onscreen_name_rhox_nagash_kalledria_hex_upgrade_5	Tainted Chant	false
+technologies_short_description_rhox_nagash_kalledria_hex_upgrade_5	Tendrils of wickedness will take this place forever	false

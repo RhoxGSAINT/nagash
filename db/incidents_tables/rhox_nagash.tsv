@@ -24,3 +24,18 @@ rhox_nagash_lahmia_incident_cult_created	false	Lesser_Bay_biting_a_peasant_in_1	
 rhox_nagash_lahmia_incident_cult_created2	false	Lesser_Bay_biting_a_peasant_in_2	false	Event	event_region_positive.png	false		0.0000	false
 rhox_nagash_guin_arrive	false	messenger	false	Event		false		0.0000	false
 rhox_nagash_guin_leave	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_story_panel_hex_1	false	messenger	false	Event		true		0.0000	false
+rhox_nagash_kalledria_story_panel_hex_2	false	messenger	false	Event		true		0.0000	false
+rhox_nagash_kalledria_story_panel_hex_3	false	messenger	false	Event		true		0.0000	false
+rhox_nagash_kalledria_story_panel_hex_4	false	messenger	false	Event		true		0.0000	false
+rhox_nagash_kalledria_story_panel_hex_5	false	messenger	false	Event		true		0.0000	false
+rhox_nagash_kalledria_story_panel_hex_6	false	messenger	false	Event		true		0.0000	false
+rhox_nagash_kalledria_performed_hex_1	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_1_received	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_2	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_2_received	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_3	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_3_received	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_4	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_4_received	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_kalledria_performed_hex_5	false	messenger	false	Event		false		0.0000	false

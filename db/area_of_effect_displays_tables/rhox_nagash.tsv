@@ -6,3 +6,4 @@ belisarians_nagash_spirit_host_attack		belisarians_nagash_spirit_host_attack		50
 belisarians_nagash_spirit_host_attack_small		belisarians_nagash_spirit_host_attack		50.0000	24		true	-1	true		000255	000255
 belisarians_nagash_spirit_host_attack_green		belisarians_nagash_spirit_host_attack_green		50.0000	24		false	2	true		000255	000255
 belisarians_nagash_hand_of_dust_basic		belisarians_nagash_hand_of_dust_basic		50.0000	64		false	5	true		000255	000255
+belisarians_nag_kalledia_solo_performance		belisarians_nag_kalledia_solo_performance		50.0000	64		false	-1	true		000255	000255

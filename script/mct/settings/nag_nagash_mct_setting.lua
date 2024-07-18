@@ -97,4 +97,12 @@ nag_mortarch_dk:set_default_value(35)
 nag_mortarch_dk:set_text("mct_nag_nagsh_nag_mortarch_dk_text", true)
 nag_mortarch_dk:set_tooltip_text("mct_nag_nagsh_nag_mortarch_dk_tooltip", true)
 
+local nag_mortarch_kalledria = mct_mod:add_new_option("nag_mortarch_kalledria", "slider")
+nag_mortarch_kalledria:slider_set_min_max(0, 100)
+nag_mortarch_kalledria:slider_set_step_size(1)
+nag_mortarch_kalledria:set_default_value(35)
+nag_mortarch_kalledria:set_text("mct_nag_nagsh_nag_mortarch_kalledria_text", true)
+nag_mortarch_kalledria:set_tooltip_text("mct_nag_nagsh_nag_mortarch_kalledria_text", true)
+
+
 

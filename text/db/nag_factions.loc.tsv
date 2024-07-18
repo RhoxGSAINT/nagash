@@ -12,3 +12,8 @@ cultures_subcultures_name_mixer_nag_nagash	Undead Legions	false
 cultures_name_mixer_nag_nagash	Undead Legions	true
 cultures_frontend_description_mixer_nag_nagash	Upon his dark throne within the impregnable fortress Nagashizzar, the Great Necromancer did bide his time. But as the Dark Gods stir far away in the twisted lands of the North, a broken, desiccated husk is finally pulled from its deep slumber.\\n\\nProdded into motion by the impending doom threatening the world, the Supreme Lord of Death rises. Even whilst not yet returned to his full strength, his might cannot be denied. And his power will only grow.\\n\\nGathering his minions, from humble zombies to formidable Mortarch, an unstoppable tide of rotten flesh, dried bones, and unbound spirits threaten to engulf mortals and immortals alike.\\n\\nIt is not Chaos that shall inherit the world. It is Death.\\n\\nNagash is coming.	false
 cultures_subcultures_battle_playstyle_description_mixer_nag_nagash	[[img:bullet_vmp_units]][[/img]]Varied unit roster of the undead, strong selection of infantry, monster and cavalry units whilst bringing a decent force of flying and ranged units, Mixed roster with units coming from the Nagashizzar, Nehekhara, Vampire Counts and Vampire Coast forces.	false
+factions_attack_desc_mixer_vmp_wailing_conclave	You are attacking Wailing Conclave! 	false
+factions_defend_desc_mixer_vmp_wailing_conclave	You are defending against Wailing Conclave! 	false
+factions_screen_adjective_mixer_vmp_wailing_conclave	Wailing Conclave	false
+factions_screen_name_mixer_vmp_wailing_conclave	Wailing Conclave	false
+factions_screen_name_when_rebels_mixer_vmp_wailing_conclave	Wailing Conclave Rebels	false

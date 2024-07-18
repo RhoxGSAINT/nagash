@@ -1,3 +1,4 @@
 faction_key	faction_group_key
 #faction_to_faction_groups_junctions_tables;0;db/faction_to_faction_groups_junctions_tables/rhox_nagash	
 mixer_nag_nagash	mixer_nag_nagash
+mixer_vmp_wailing_conclave	wh_main_fact_group_vampire_counts

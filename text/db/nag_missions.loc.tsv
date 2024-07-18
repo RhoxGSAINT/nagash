@@ -76,11 +76,13 @@ missions_localised_title_nag_waprstone_mines	Warpstone Mines	true
 missions_localised_description_nag_waprstone_mines	You need more warpstone and warpstone mines can be found in these settlements.	true
 missions_localised_title_nag_endgame_capture	Nagash Rising IX - Ascend to Godhood	true
 missions_localised_description_nag_endgame_capture	With the Grand Resurrection completed, the Black Pyramid propelled into the skies, and the Legions of Nagash spreading across the sands of Nehekhara, there is but one task left to pursue: Godhood. What better source of divinity than to sap its strength from places of worship and power? Knock the false gods off their thrones, reclaim ancient sites of dark magic, and establish yourself as the God of Death.	true
-missions_localised_title_rhox_nagash_get_azhag_mission	The Crown of Sorcery	false
-missions_localised_description_rhox_nagash_get_azhag_mission	The long-lost Crown of Nagash is currently being held by some greenskin brute hailing from the mountains in the north. It is time to retrieve it.	false
-missions_localised_title_nag_mortarch_dieter_unlock	Mortarch Dieter Helsnicht	false
-missions_localised_description_nag_mortarch_dieter_unlock	The Doomlord answers the call.	false
-missions_localised_title_rhox_nagash_final_step_mission	Completing The Great Ritual	false
-missions_localised_description_rhox_nagash_final_step_mission	Across the world, the pitiful armies of the mortals have assembled to delay their inevitable fate. They will precipitate it instead.	false
-missions_localised_title_nag_mortarch_dk_unlock	Mortarch Dread King	false
-missions_localised_description_nag_mortarch_dk_unlock	Old followers are waiting for you. Go and rendezvous with them	false
+missions_localised_title_rhox_nagash_get_azhag_mission	The Crown of Sorcery	true
+missions_localised_description_rhox_nagash_get_azhag_mission	The long-lost Crown of Nagash is currently being held by some greenskin brute hailing from the mountains in the north. It is time to retrieve it.	true
+missions_localised_title_nag_mortarch_dieter_unlock	Mortarch of Doom	true
+missions_localised_description_nag_mortarch_dieter_unlock	The Doomlord answers the call.	true
+missions_localised_title_rhox_nagash_final_step_mission	Completing The Great Ritual	true
+missions_localised_description_rhox_nagash_final_step_mission	Across the world, the pitiful armies of the mortals have assembled to delay their inevitable fate. They will precipitate it instead.	true
+missions_localised_title_nag_mortarch_dk_unlock	Mortarch of Omens	true
+missions_localised_description_nag_mortarch_dk_unlock	Old followers are waiting for you. Go and rendezvous with them	true
+missions_localised_title_nag_mortarch_kalledria_unlock	Mortarch of Sorrow	true
+missions_localised_description_nag_mortarch_kalledria_unlock	Only by mastering eerie forest can he command the allegiance of Kalledria and her spectral legions.	true

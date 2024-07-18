@@ -245,3 +245,7 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_druthor	nag_army_nagashizzar_units_vet_ror	false
 			nag_virion_plaguecart	nag_army_nagashizzar_units_vet	false
 			nag_virion_plaguecart	nag_army_nagashizzar_units_vet_ror	false
+			nag_vanilla_cst_inf_syreen	nag_army_infantry	false
+			nag_vanilla_cst_inf_syreen	nag_army_magical_spirit	false
+			nag_vanilla_cst_inf_syreen	nag_army_nagashizzar_units	false
+			nag_vanilla_cst_inf_syreen	nag_army_nagashizzar_units_vet	false

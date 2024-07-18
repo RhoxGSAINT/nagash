@@ -5,15 +5,6 @@ nag_anc_weapon_the_mortis_blade	wh_main_anc_weapon	.	false	false	false	1	0	9999	
 nag_anc_arcane_item_alakanash_staff_of_power	wh_main_anc_arcane_item	.	false	false	false	1	0	9999			false	false	false	arcane_item	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_enchanted_item_crown_of_nagash	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_enchanted_item_crown_of_nagash_customs_only	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_one	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_two	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_three	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_four	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_five	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_six	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_seven	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_eight	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
-nag_anc_talisman_books_of_nagash_book_nine	wh_main_anc_talisman	.	false	false	false	1	0	9999			false	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_mount_mannfred_barded_nightmare	wh_main_anc_mount_barded_nightmare	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_mannfred_warhorse		1	0		false	false	true	all
 nag_anc_mount_mannfred_abyssal	nag_anc_mount_mannfred_abyssal	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_mortarch_mannfred_abyssal		200	0		false	false	true	all
 nag_anc_armour_armour_of_templehof	wh_main_anc_armour	.	false	false	false	1	0	9999			false	false	false	armour	16	30	30	50	true			200	0		false	false	false	all
@@ -76,3 +67,4 @@ nag_Soulreaper	wh_main_anc_weapon	.	false	false	false	1	0	9999			true	false	fals
 nag_dread_black_jewel	wh_main_anc_talisman	.	false	false	false	1	0	9999			true	false	false	talisman	16	30	30	50	true			200	0		false	false	false	all
 nag_anc_mount_grn_azhag_skullmuncha	wh_main_anc_mount_skullmuncha	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	wh_main_grn_cha_azhag_the_slaughterer_1		1	0		false	false	true	all
 nag_anc_mount_guinevere_warhorse	wh_main_anc_mount_warhorse	.	false	false	false	1	0	9999			false	false	false	mount	16	30	30	50	true	nag_guinevere_warhorse		1	0		false	false	true	all
+nag_anc_enchanted_item_lament_of_the_lost	wh_main_anc_enchanted_item	.	false	false	false	1	0	9999			false	false	false	enchanted_item	16	30	30	50	true			200	0		false	false	false	all

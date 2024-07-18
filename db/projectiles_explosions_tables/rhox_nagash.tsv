@@ -4,3 +4,4 @@ nag_krell_mortarch_of_despair	percussive	shockwave	10.0000	1.0000	12.0000	0.0000
 nag_army_abilities_blyramid_bombardment	percussive	shockwave	13.0000	1.0000	10.0000	0.0000		belisarians_nagash_pyramid_bomb_explosion	0.0000		wh2_main_ability_vauls_hammer		1.0000	false	200.0000	wh2_vauls_hammer	400.0000	-1.0000	true	false
 nag_spirit_host_small	percussive	shockwave	4.0000	0.0000	11.0000	0.0000			0.0000				0.0000	true	4.0000		0.0000	-1.0000	false	false
 nag_bone_colossus_tombstone_explosion	percussive	shockwave	6.0000	0.0000	10.0000	55.0000		nag_undead_tombstone_trail_explosion	0.0000		wh2_dlc15_rogue_idol_projectile_explosion		0.0000	false	85.0000	wh_main_unit_explosion_heavy	200.0000	-1.0000	true	false
+nag_kalledria_missiles_explosion	percussive	shockwave	4.0000	1.0000	12.0000	28.0000		belisarians_nagash_kalledria_missiles_explosion	0.0000		wh2_casket_of_souls		0.0000	true	64.0000	wh_main_unit_explosion_light	250.0000	-1.0000	true	false

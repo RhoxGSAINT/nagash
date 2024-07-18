@@ -271,13 +271,13 @@ function rhox_nagash_rites_listeners()
             return context:ritual():ritual_key() == "nag_divinity"
         end,
         function(context)
-
+            local faction = context:performing_faction()
             local region_list = cm:model():world():region_manager():region_list();
             
             for i = 0, region_list:num_items() - 1 do
                 local current_region = region_list:item_at(i);
                 
-                if current_region:is_province_capital() then
+                if current_region:is_province_capital() and current_region:owning_faction() and (current_region:owning_faction():name() == nagash_faction or current_region:owning_faction():at_war_with(faction)) then
                     cm:apply_effect_bundle_to_region("nag_divinity_rite_bundle_region_undead_rises", current_region:name(), 10);
                 end;
             end;

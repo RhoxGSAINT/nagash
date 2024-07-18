@@ -202,3 +202,7 @@ armour_piercing	nag_tomb_banshee
 duellist	nag_tomb_banshee
 ethereal	nag_tomb_banshee
 terror	nag_tomb_banshee
+armour_piercing	nag_vanilla_cst_inf_syreen
+charmed_attacks	nag_vanilla_cst_inf_syreen
+ethereal	nag_vanilla_cst_inf_syreen
+terror	nag_vanilla_cst_inf_syreen

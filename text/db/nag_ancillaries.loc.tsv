@@ -361,10 +361,10 @@ ancillaries_colour_text_nag_anc_follower_warpstone_hunter	Warpstone is Dark Magi
 ancillaries_explanation_text_nag_anc_follower_warpstone_hunter	Sacked a settlement	false
 ancillaries_onscreen_name_nag_anc_follower_warlock	Warlock	false
 ancillaries_colour_text_nag_anc_follower_warlock	Warlocks are those that practise the dark arts away from prying eyes. Their novice skill often make them the prey of Witch Hunters and more...	false
-ancillaries_explanation_text_nag_anc_follower_warlock		false
+ancillaries_explanation_text_nag_anc_follower_warlock	Won an ambush battle	false
 ancillaries_onscreen_name_nag_anc_follower_corpse_caravan	Corpse Caravan	false
 ancillaries_colour_text_nag_anc_follower_corpse_caravan	"Corpses my master, how many do you need? Yes."	false
-ancillaries_explanation_text_nag_anc_follower_corpse_caravan		false
+ancillaries_explanation_text_nag_anc_follower_corpse_caravan	Won a battle	false
 ancillaries_onscreen_name_nag_anc_follower_haunted_hostler	Haunted Hostler	false
 ancillaries_colour_text_nag_anc_follower_haunted_hostler	Even the steeds of the damned need a stable-hand to keep them fit and healthy... It's a difficult task trying to saddle a phantom horse though.	false
 ancillaries_explanation_text_nag_anc_follower_haunted_hostler	Won a battle with 4 or more cavalry units	false
@@ -373,19 +373,19 @@ ancillaries_colour_text_nag_anc_follower_carrion	Carrion are large, Undead, vult
 ancillaries_explanation_text_nag_anc_follower_carrion	Ranked-up in a province with low corruption	false
 ancillaries_onscreen_name_nag_anc_follower_death_cultist	Cultist of Nagash	false
 ancillaries_colour_text_nag_anc_follower_death_cultist	"Great Necromancer, I beseech you, my master, to look upon me with favor and grant me the power to serve you."	false
-ancillaries_explanation_text_nag_anc_follower_death_cultist		false
+ancillaries_explanation_text_nag_anc_follower_death_cultist	Use the Dominate Captives post-battle captive option	false
 ancillaries_onscreen_name_nag_anc_follower_ghoul_scavanger	Ghoul	false
 ancillaries_colour_text_nag_anc_follower_ghoul_scavanger	Ghouls, wretched little creatures, nothing more than prowlers of the dead.	false
 ancillaries_explanation_text_nag_anc_follower_ghoul_scavanger	Idle in a region with a Fields building	false
 ancillaries_onscreen_name_nag_anc_follower_siren	Siren	false
 ancillaries_colour_text_nag_anc_follower_siren	The ethereal voice of the siren calms the dead souls, allowing the Necromancer to bind them more easily.	false
-ancillaries_explanation_text_nag_anc_follower_siren		false
+ancillaries_explanation_text_nag_anc_follower_siren	Idle in a region with a port building	false
 ancillaries_onscreen_name_nag_anc_follower_poltergeist	Restless Spirit	false
 ancillaries_colour_text_nag_anc_follower_poltergeist	Those spirits who are no longer bound to the mortal plane, can be tethered to his service - for poltergeists have their uses...	false
-ancillaries_explanation_text_nag_anc_follower_poltergeist		false
+ancillaries_explanation_text_nag_anc_follower_poltergeist	Use the Return Captives post-battle captive option	false
 ancillaries_onscreen_name_nag_anc_follower_necromancers_apprentice	Necromancer's Apprentice	false
 ancillaries_colour_text_nag_anc_follower_necromancers_apprentice	All this one needs is a dark damp cell, a morbid curiosity and plenty of samples to work with.	false
-ancillaries_explanation_text_nag_anc_follower_necromancers_apprentice		false
+ancillaries_explanation_text_nag_anc_follower_necromancers_apprentice	Ranked-up in own territory	false
 ancillaries_onscreen_name_nag_anc_follower_lich	Lich	false
 ancillaries_colour_text_nag_anc_follower_lich	Spells of decay, curses of suffering, and necrotic incantations flow effortlessly from its bone-chilling voice, resonating with an unholy resonance that can freeze even the bravest of hearts.	false
 ancillaries_explanation_text_nag_anc_follower_lich	Ranked-up in a province with high corruption	false
@@ -394,31 +394,31 @@ ancillaries_colour_text_nag_anc_follower_handmaiden	Beware the allure of beauty 
 ancillaries_explanation_text_nag_anc_follower_handmaiden	Carried out a successful [[img:icon_hero]][[/img]]Hero action against a character	false
 ancillaries_onscreen_name_nag_anc_follower_embalmer	Mummy Embalmer	false
 ancillaries_colour_text_nag_anc_follower_embalmer	Skilled hands, weathered by time, expertly wield embalming tools, delicately preparing the deceased for their eternal journey.	false
-ancillaries_explanation_text_nag_anc_follower_embalmer		false
+ancillaries_explanation_text_nag_anc_follower_embalmer	Ranked-up in enemy territory	false
 ancillaries_onscreen_name_nag_anc_follower_blood_bag	Blood Bag	false
 ancillaries_colour_text_nag_anc_follower_blood_bag	A blood bag to sustain the insatiable hunger of an immortal creature, that feeds upon the essence of life itself.	false
 ancillaries_explanation_text_nag_anc_follower_blood_bag	Won a battle against a human army	false
 ancillaries_onscreen_name_nag_anc_follower_powder_monkey	Powder Monkey	false
 ancillaries_colour_text_nag_anc_follower_powder_monkey	It's an extremely dirty and dangerous job, but someone has to do it. After all, even the highest-rated admiral had to start somewhere.	false
-ancillaries_explanation_text_nag_anc_follower_powder_monkey		false
+ancillaries_explanation_text_nag_anc_follower_powder_monkey	Won a battle with a Deck Gunners unit	false
 ancillaries_onscreen_name_nag_anc_follower_captain_deceased	O Captain!	false
 ancillaries_colour_text_nag_anc_follower_captain_deceased	O heart! heart! heart! O the bleeding drops of red, where on the deck my Captain stands, cold and undead.	false
 ancillaries_explanation_text_nag_anc_follower_captain_deceased	Ranked-up on sea	false
 ancillaries_onscreen_name_nag_anc_follower_cursed_necrotect	Cursed Necrotect	false
 ancillaries_colour_text_nag_anc_follower_cursed_necrotect	These ancient architects have designed the most opulent, elaborate crypts and vaults. Too skilled to be allowed to rest.	false
-ancillaries_explanation_text_nag_anc_follower_cursed_necrotect		false
+ancillaries_explanation_text_nag_anc_follower_cursed_necrotect	Won a battle against an Undead army	false
 ancillaries_onscreen_name_nag_anc_follower_ushabti_bodyguard	Ushabti Bodyguard	false
 ancillaries_colour_text_nag_anc_follower_ushabti_bodyguard	An imposing monument to Nehekhara's former power, now living once again in service of its new Master.	false
 ancillaries_explanation_text_nag_anc_follower_ushabti_bodyguard	Win a battle against a Tomb King army	false
 ancillaries_onscreen_name_nag_anc_follower_the_ravenous_dead	The Ravenous Dead	false
 ancillaries_colour_text_nag_anc_follower_the_ravenous_dead	As the Undead rip apart their victims they feast on the organs that spill forth – regaining strength in the process.	false
-ancillaries_explanation_text_nag_anc_follower_the_ravenous_dead		false
+ancillaries_explanation_text_nag_anc_follower_the_ravenous_dead	Ranked-up with units that have been raised from the dead	false
 ancillaries_onscreen_name_nag_anc_follower_undead_bard	Undead Bard	false
 ancillaries_colour_text_nag_anc_follower_undead_bard	Dance, dance and hear the sweet sound of death, loss, and the macabre, mourn as we delve into the depths of despair.	false
 ancillaries_explanation_text_nag_anc_follower_undead_bard	Ranked-up after winning 6 or more offensive battles	false
 ancillaries_onscreen_name_nag_anc_follower_black_cat	Black Cat	false
 ancillaries_colour_text_nag_anc_follower_black_cat	Cross their path and test fate as misfortune befalls you, these black cats are said to be the familiars of warlocks and witches, or perhaps they are just cats afterall.	false
-ancillaries_explanation_text_nag_anc_follower_black_cat		false
+ancillaries_explanation_text_nag_anc_follower_black_cat	Recruit any female Vampire character	false
 ancillaries_onscreen_name_nag_anc_follower_fan	Immortal Fan	false
 ancillaries_colour_text_nag_anc_follower_fan	"You're the best! Can I... Can I follow you around? I won't get in the way! Can I carry your weapon? Shine your boots? Backrub, perhaps?"	false
 ancillaries_explanation_text_nag_anc_follower_fan	Won 20 or more battles	false
@@ -444,3 +444,23 @@ ancillaries_colour_text_nag_dread_black_jewel	The Black Jewel of the Dread King 
 ancillaries_onscreen_name_nag_dread_black_jewel	Heart of Blackness	false
 ancillaries_colour_text_nag_anc_mount_guinevere_warhorse	The finest horses in the Old World, bred for their endurance and fiery temperament, barded for further protection.	false
 ancillaries_onscreen_name_nag_anc_mount_guinevere_warhorse	Barded Warhorse	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_one	First Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_one	The first book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_two	Second Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_two	The second book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_three	Third Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_three	The third book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_four	Fourth Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_four	The fourth book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_five	Fifth Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_five	The fifth book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_six	Sixth Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_six	The sixth book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_seven	Seventh Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_seven	The seventh book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_eight	Eighth Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_eight	The eighth book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_follower_books_of_nagash_book_nine	Ninth Book of Nagash	false
+ancillaries_colour_text_nag_anc_follower_books_of_nagash_book_nine	The ninth and final book of Nagash's greatest spell tomes known as the Nine Books of Nagash.	false
+ancillaries_onscreen_name_nag_anc_enchanted_item_lament_of_the_lost	Lament of the Lost	false
+ancillaries_colour_text_nag_anc_enchanted_item_lament_of_the_lost	Crafted from the sorrow of countless lost elven souls, the Lament of the Lost resonates with Kalledria's mournful power	false

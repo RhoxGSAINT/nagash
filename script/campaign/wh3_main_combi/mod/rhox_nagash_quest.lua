@@ -113,6 +113,7 @@ core:add_listener(
         local character = context:character()
         local faction = character:faction()
         local faction_leader_cqi= character:command_queue_index()
+        local leader_fm_cqi = character:family_member():command_queue_index()
 
         local old_char_details={
             mf = character:military_force(),
@@ -173,7 +174,8 @@ core:add_listener(
         
         cm:callback(
             function()
-                cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);  
+                --cm:set_character_immortality(cm:char_lookup_str(faction_leader_cqi), false);  
+                cm:suppress_immortality(leader_fm_cqi, true)
                 cm:kill_character_and_commanded_unit(cm:char_lookup_str(faction_leader_cqi), true)
             end,
             2

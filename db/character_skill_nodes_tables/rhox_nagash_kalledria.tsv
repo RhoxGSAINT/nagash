@@ -1,0 +1,30 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/rhox_nagash_kalledria									
+nag_vmp_skill_innate_kalledria		nag_vmp_skill_innate_kalledria		6	0		1	0	false
+nag_kalledria_self_01		wh_main_skill_all_spy_self_bloody_blade		2	0		0	0	true
+nag_kalledria_self_02		rhox_nagash_banshee_lord_gutter_fighter_2		2	1		0	0	true
+nag_kalledria_self_03		rhox_nagash_banshee_lord_elusive		2	2		0	0	true
+nag_kalledria_self_04		rhox_nagash_banshee_lord_precise_2		2	3		0	0	true
+nag_kalledria_self_05		rhox_nagash_banshee_lord_fleet-footed		2	4		0	0	true
+nag_kalledria_self_06		wh_main_skill_all_spy_self_slippery		2	5		0	4	true
+nag_kalledria_self_07		rhox_nagash_banshee_lord_opportunist		2	6		0	0	true
+nag_kalledria_self_08		rhox_nagash_banshee_lord_counter-striker_2		2	7		0	0	true
+nag_kalledria_self_09		rhox_nagash_banshee_lord_survivalist_2		2	8		0	0	true
+nag_kalledria_self_10		rhox_nagash_banshee_lord_cornered_rat		2	9		0	0	true
+nag_kalledria_self_11		wh_main_skill_vmp_lord_self_red_fury		2	10		0	4	true
+nag_kalledria_unique_01		wh_main_skill_vmp_spy_unique_tomb_banshee_ghostly_howl		0	0		0	0	true
+nag_kalledria_unique_02		wh_main_skill_vmp_all_unique_grave_ward		0	1		0	0	true
+nag_mortarch_skill_innate_kalledria		nag_mortarch_skill_innate_kalledria		6	0		1	0	false
+nag_skill_unique_kalledria_unique_1		nag_skill_unique_kalledria_unique_1		1	0		0	0	true
+nag_skill_unique_kalledria_unique_2		nag_skill_unique_kalledria_unique_2		1	1		0	0	true
+nag_skill_unique_kalledria_unique_3		nag_skill_unique_kalledria_unique_3		1	2		0	0	true
+nag_skill_unique_kalledria_unique_4		nag_skill_unique_kalledria_unique_4		1	3		0	0	true
+nag_skill_unique_kalledria_unique_5		nag_skill_unique_kalledria_unique_5		1	4		0	0	true
+nag_skill_unique_kalledria_unique_6		nag_skill_unique_kalledria_unique_6		1	5		0	4	true
+nag_anc_enchanted_item_lament_of_the_lost		nag_anc_enchanted_item_lament_of_the_lost		6	20		0	0	false
+nag_kalledria_self_ranged_01		wh2_dlc11_skill_cst_ranged_0		3	0		0	0	true
+nag_kalledria_self_ranged_02		wh2_dlc11_skill_all_lord_self_deadeye		3	1		0	0	true
+nag_kalledria_self_ranged_03		wh2_dlc11_skill_wef_lord_self_piercing_shots		3	2		0	0	true
+nag_kalledria_self_ranged_04		wh2_dlc11_skill_wef_lord_self_expeditious_endeavour		3	3		0	0	true
+nag_kalledria_self_ranged_05		wh2_dlc11_skill_wef_lord_self_fleetfinger		3	4		0	0	true
+nag_kalledria_self_ranged_06		wh3_dlc24_skill_ksl_druzhina_self_cursed_frontier		3	5		0	4	true

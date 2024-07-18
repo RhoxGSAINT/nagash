@@ -1,0 +1,42 @@
+<shader_library file="fx/particle_vfx_library.hlsl"/><vfx revision="2" construction_type="2" enable_in_ted="false" camera_following="false" ref_spawn_speed="-1.00">
+	<!-- EMITTERS-->
+	<emitters></emitters>
+	<!-- BEHAVIOUR_CHAINS-->
+	<behaviour_chains></behaviour_chains>
+	<!-- EFFECT RENDER STACKS-->
+	<effect_render_stacks></effect_render_stacks>
+</vfx><vfx_references>
+
+	<vfx inst_name="main" vfx_ref="belisarians_lib_nagash_kalledria_trails" notes="" scale_min="1.00" scale_max="1.00" pos_x="0.00" pos_y="0.00" pos_z="-3.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true" simulation_speed_multiplier="1.00">
+
+		<!-- <emitter name="TRAIL_glow_front" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/> -->
+		<emitter name="TRAIL_soul_part_wisps" enable="true" tint_min_r="0.11" tint_min_g="0.92" tint_min_b="0.61" tint_min_a="1.50" tint_max_r="0.11" tint_max_g="0.92" tint_max_b="0.61" tint_max_a="1.50" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="TRAIL_gas_start" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_nagash_kalledria_trails" notes="" scale_min="0.50" scale_max="0.50" pos_x="-1.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true" simulation_speed_multiplier="1.00">		
+		<emitter name="TRAIL_glow_front" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.50" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.50" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+	</vfx>
+	<vfx inst_name="main" vfx_ref="belisarians_lib_nagash_kalledria_trails" notes="" scale_min="0.50" scale_max="0.50" pos_x="1.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true" simulation_speed_multiplier="1.00">		
+		<emitter name="TRAIL_glow_front" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="0.50" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="0.50" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+	</vfx>
+
+	
+	<vfx inst_name="main" vfx_ref="belisarians_lib_nagash_fist" notes="" scale_min="1.50" scale_max="1.50" pos_x="0.00" pos_y="-1.50" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true" simulation_speed_multiplier="0.10">
+		<emitter name="sound_wave" enable="true" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="10.00" particle_lifetime_bias_max="10.00" emitter_lifetime_bias_min="10.00" emitter_lifetime_bias_max="10.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+	</vfx>	
+
+
+
+	<vfx inst_name="omni" vfx_ref="wh_main_lib_fireball" notes="" scale_min="0.40" scale_max="0.50" pos_x="0.00" pos_y="0.00" pos_z="0.00" rot_x="0.00" rot_y="0.00" rot_z="0.00" start_time_min="0.00" start_time_max="0.00" infinite_life="true" simulation_speed_multiplier="1.00">
+		<emitter name="smoke_trail" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="fire_trail" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="embers_small" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="flame_parts" enable="false" tint_min_r="1.00" tint_min_g="1.00" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="1.00" tint_max_g="1.00" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+		<emitter name="omni_looped" enable="true" tint_min_r="0.58" tint_min_g="0.93" tint_min_b="1.00" tint_min_a="1.00" tint_max_r="0.56" tint_max_g="0.85" tint_max_b="1.00" tint_max_a="1.00" particle_lifetime_bias_min="0.00" particle_lifetime_bias_max="0.00" emitter_lifetime_bias_min="0.00" emitter_lifetime_bias_max="0.00" spawn_rate_scale_factor_min="1.00" spawn_rate_scale_factor_max="1.00" sound_record=""/>
+	</vfx>
+</vfx_references><!-- EDITOR DATA--><editor_data>
+	<effect_components>
+		<component id="main"/>
+		<component id="omni"/>
+	</effect_components>
+</editor_data>

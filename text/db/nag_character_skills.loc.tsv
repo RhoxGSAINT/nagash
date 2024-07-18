@@ -564,3 +564,45 @@ character_skills_localised_name_nag_skill_personal_dk_dread_aura	Dread Aura	fals
 character_skills_localised_description_nag_skill_personal_dk_dread_aura	The Dread King's name was derived from a powerful aura that surrounded him at all times, only the mightiest of beings could face him without physically shaking or panicking, most would be frozen in fear or outright flee	false
 character_skills_localised_description_nag_anc_mount_guinevere_warhorse	The finest horses in the Old World, bred for their endurance and fiery temperament, barded for further protection.	false
 character_skills_localised_name_nag_anc_mount_guinevere_warhorse	Barded Warhorse	false
+character_skills_localised_description_nag_vmp_skill_innate_kalledria	Her presence alone drains the joy and hope from all who encounter her, leaving only despair in her wake.	false
+character_skills_localised_name_nag_vmp_skill_innate_kalledria	Kalledria, Queen of Sorrows	false
+character_skills_localised_name_nag_mortarch_skill_innate_kalledria	Kalledria, Mortarch of Sorrows	false
+character_skills_localised_description_nag_mortarch_skill_innate_kalledria	Her presence alone drains the joy and hope from all who encounter her, leaving only despair in her wake.	false
+character_skills_localised_description_rhox_nagash_banshee_lord_cornered_rat	Never trap this one, when cornered they have nothing left to lose.	false
+character_skills_localised_description_rhox_nagash_banshee_lord_counter-striker	The harder they hit, the more they commit, the easier it is to strike back.	false
+character_skills_localised_description_rhox_nagash_banshee_lord_counter-striker_2	The harder they hit, the more they commit, the easier it is to strike back.	false
+character_skills_localised_description_rhox_nagash_banshee_lord_elusive	"Stay in one place, gods-damn you!"	false
+character_skills_localised_description_rhox_nagash_banshee_lord_fleet-footed	Those who are fleet of foot can reach the enemy faster.	false
+character_skills_localised_description_rhox_nagash_banshee_lord_gutter_fighter	This being fights dirty, no honour system applies here!	false
+character_skills_localised_description_rhox_nagash_banshee_lord_gutter_fighter_2	This being fights dirty, no honour system applies here!	false
+character_skills_localised_description_rhox_nagash_banshee_lord_opportunist	Always on the lookout for an opening or advantage in battle - somewhere to put the knife in…	false
+character_skills_localised_description_rhox_nagash_banshee_lord_precise_2	Whether a targeted slice to the throat, or a precision stab to the heart, this one knows how to kill!	false
+character_skills_localised_description_rhox_nagash_banshee_lord_slippery		false
+character_skills_localised_description_rhox_nagash_banshee_lord_stalker	"I spy with my beady eye… something that needs to be killed."	false
+character_skills_localised_description_rhox_nagash_banshee_lord_survivalist	"The enemy's fear; their blood spilt in the mud – these are the things that sustain me."	false
+character_skills_localised_description_rhox_nagash_banshee_lord_survivalist_2	"The enemy's fear; their blood spilt in the mud – these are the things that sustain me."	false
+character_skills_localised_name_rhox_nagash_banshee_lord_cornered_rat	Cornered Rat	false
+character_skills_localised_name_rhox_nagash_banshee_lord_counter-striker	Counter-Striker	false
+character_skills_localised_name_rhox_nagash_banshee_lord_counter-striker_2	Counter-Striker	false
+character_skills_localised_name_rhox_nagash_banshee_lord_elusive	Elusive	false
+character_skills_localised_name_rhox_nagash_banshee_lord_fleet-footed	Fleet-Footed	false
+character_skills_localised_name_rhox_nagash_banshee_lord_gutter_fighter	Gutter Fighter	false
+character_skills_localised_name_rhox_nagash_banshee_lord_gutter_fighter_2	Gutter Fighter	false
+character_skills_localised_name_rhox_nagash_banshee_lord_opportunist	Opportunist	false
+character_skills_localised_name_rhox_nagash_banshee_lord_precise_2	Precise	false
+character_skills_localised_name_rhox_nagash_banshee_lord_slippery	Slippery	false
+character_skills_localised_name_rhox_nagash_banshee_lord_stalker	Stalker	false
+character_skills_localised_name_rhox_nagash_banshee_lord_survivalist	Survivalist	false
+character_skills_localised_name_rhox_nagash_banshee_lord_survivalist_2	Survivalist	false
+character_skills_localised_name_nag_skill_unique_kalledria_unique_1	Wail of Despair	false
+character_skills_localised_description_nag_skill_unique_kalledria_unique_1	Kalledria's banshee wail strikes fear into the hearts of even the bravest warriors, sending them into a panic-stricken retreat.	false
+character_skills_localised_name_nag_skill_unique_kalledria_unique_2	Nightmare Weaving	false
+character_skills_localised_description_nag_skill_unique_kalledria_unique_2	As the Mistress of Dreams and Nightmares, Kalledria manipulates the minds of her foes, distracting and weakening them in battle.	false
+character_skills_localised_name_nag_skill_unique_kalledria_unique_3	Echoes of Eternity	false
+character_skills_localised_description_nag_skill_unique_kalledria_unique_3	The haunting strains of the Harp strikes fear into the hearts of all who hear them.	false
+character_skills_localised_name_nag_skill_unique_kalledria_unique_4	Ghoulwood's Wrath	false
+character_skills_localised_description_nag_skill_unique_kalledria_unique_4	Drawing upon the dark power of Ghoul Wood, Kalledria calls forth a ravenous pack of ghouls to ravage her enemies.	false
+character_skills_localised_name_nag_skill_unique_kalledria_unique_5	Ethereal Grace	false
+character_skills_localised_description_nag_skill_unique_kalledria_unique_5	As an ethereal being, Kalledria moves with otherworldly grace, her form barely touched by mundane weapons.	false
+character_skills_localised_name_nag_skill_unique_kalledria_unique_6	Dread's Embrace	false
+character_skills_localised_description_nag_skill_unique_kalledria_unique_6	With every passing second in the fray, Kalledria's aura of despair tightens its grip, crushing the resolve of all who dare stand against her.	false

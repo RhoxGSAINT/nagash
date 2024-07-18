@@ -20,7 +20,7 @@ local guin_culture={
     wh_main_brt_bretonnia = true,
     wh_main_emp_empire = true,
     wh_main_vmp_vampire_counts = true,
-    mixer_teb_southern_realms = true,
+    mixer_teb_southern_realms = true,
     wh3_main_cth_cathay = true,
     mixer_nip_nippon = true
 }
@@ -76,6 +76,8 @@ core:add_listener(
         for j = 1, #guin_to_kill do
             local character = cm:get_character_by_cqi(guin_to_kill[j])
             if character and not character:is_null_interface() and character:character_subtype("nag_guinevere") then
+                rhox_nagash_guinevere_info.traits=character:all_traits()
+                rhox_nagash_guinevere_info.rank=character:rank()
                 cm:disable_event_feed_events(true, "", "", "wh_event_category_character");	
                 cm:suppress_immortality(character:family_member():command_queue_index(), true) 
                 cm:kill_character("character_cqi:"..guin_to_kill[j], true)
@@ -111,7 +113,7 @@ core:add_listener(
         visit_candidate = cm:random_sort(visit_candidate);
         local target_faction = nil
         for i=1,#visit_candidate do
-            if visit_candidate[i] ~= previous_faction then
+            if visit_candidate[i] ~= rhox_nagash_guinevere_info.previous_faction then
                 target_faction = visit_candidate[i]
                 break
             end
@@ -152,12 +154,14 @@ core:add_listener(
             cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
             rhox_nagash_guinevere_info.cqi = new_character:cqi()
             rhox_nagash_guinevere_info.current_faction =target_faction;
+
+            if guin_faction:is_human() then --trigger incident
+                cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
+            end
         end
         rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
         cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
-        if guin_faction:is_human() then --trigger incident
-            cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
-        end
+        
         
     end,
     true

@@ -15,27 +15,15 @@ local rhox_placeofdeath_region_group={
 
 local function rhox_nagash_setup_settlement_label()
     local parent_ui = find_uicomponent(core:get_ui_root(), "3d_ui_parent");
-    local child_num = parent_ui:ChildCount()
-    
+    if not parent_ui then 
+        return
+    end
     --out("Rhox Nagash: Child count is: ".. child_num)
     
-    for i=0,child_num-1 do 
-        local child = find_child_uicomponent_by_index(parent_ui, i)
-        --out("Rhox wonka: Id is: " .. child:Id())
-        if child:Id():starts_with("label_settlement:") then
-            local icon_holder = find_uicomponent(child, "list_parent", "icon_holder");
-            local region_key= string.gsub(child:Id(), "label_settlement:", "")
-            --out("Rhox Nagash: Region key is: " .. region_key)
-            if rhox_placeofdeath_region_group[region_key] then
-                --out("Rhox Nagash: It's a hit!")
-                local result = core:get_or_create_component("rhox_place_of_death_holder", "ui/campaign ui/rhox_nagash_place_of_death.twui.xml", icon_holder)
-                if not result then
-                    script_error("Rhox Nagash: ".. "ERROR: could not create place of death ui component? How can this be?");
-                    return false;
-                end;
-                
-            end
-            
+    for region_key, _ in pairs(rhox_placeofdeath_region_group) do
+        local child = find_uicomponent(parent_ui, "label_settlement:"..region_key, "list_parent", "icon_holder");
+        if child then
+            core:get_or_create_component("rhox_place_of_death_holder", "ui/campaign ui/rhox_nagash_place_of_death.twui.xml", child)
         end
     end
 end

@@ -24,6 +24,10 @@ nag_harkon_horde	HORDE	false
 nag_harkon_horde	ARMY	true
 HORDE	nag_harkon_horde	false
 ARMY	nag_harkon_horde	false
+nag_kalledria_horde	HORDE	false
+nag_kalledria_horde	ARMY	true
+HORDE	nag_kalledria_horde	false
+ARMY	nag_kalledria_horde	false
 nag_krell_horde	HORDE	false
 nag_krell_horde	ARMY	true
 HORDE	nag_krell_horde	false

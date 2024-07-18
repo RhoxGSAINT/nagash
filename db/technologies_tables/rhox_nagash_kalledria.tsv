@@ -1,0 +1,16 @@
+key	building_level	position_index	icon_name	mp_available_early	mp_available_late	info_pic	unique_index	is_civil	is_engineering	is_military	is_hidden
+#technologies_tables;7;db/technologies_tables/rhox_nagash_kalledria											
+rhox_nagash_kalledria_hex_upgrade_1	wh_main_chs_port_ruin	1	wh3_dlc24_tech_ksl_ostankya_witches_hut_hex_upgrade_1	false	false	"placeholder.tga"	719077057	false	false	true	false
+rhox_nagash_kalledria_hex_upgrade_2	wh_main_chs_port_ruin	1	wh3_dlc24_tech_ksl_ostankya_witches_hut_hex_upgrade_2	false	false	"placeholder.tga"	1471828446	false	false	true	false
+rhox_nagash_kalledria_hex_upgrade_3	wh_main_chs_port_ruin	1	wh3_dlc24_tech_ksl_ostankya_witches_hut_hex_upgrade_3	false	false	"placeholder.tga"	1815621114	false	false	true	false
+rhox_nagash_kalledria_hex_upgrade_4	wh_main_chs_port_ruin	1	wh3_dlc24_tech_ksl_ostankya_witches_hut_hex_upgrade_4	false	false	"placeholder.tga"	1964300266	false	false	true	false
+rhox_nagash_kalledria_hex_upgrade_5	wh_main_chs_port_ruin	1	wh3_dlc24_tech_ksl_ostankya_witches_hut_hex_upgrade_5	false	false	"placeholder.tga"	1122850860	false	false	true	false
+nag_mortarch_kalledria_unlock	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766593	false	false	true	false
+nag_kalledria_archai	wh_main_chs_port_ruin	1	tech_nagash_bestow_the_archai	false	false	"placeholder.tga"	1486766594	false	false	true	false
+nag_kalledria_proclamation	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766595	false	false	true	false
+nag_mortarch_kalledria_event_1	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766596	false	false	true	false
+nag_mortarch_kalledria_event_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766597	false	false	true	false
+nag_mortarch_kalledria_event_3	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766598	false	false	true	false
+nag_kalledria_battle_1	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766599	false	false	true	false
+nag_kalledria_battle_2	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766600	false	false	true	false
+nag_kalledria_battle_3	wh_main_chs_port_ruin	1	wh_main_chs_skulls_for_the_skull_throne	false	false	"placeholder.tga"	1486766601	false	false	true	false

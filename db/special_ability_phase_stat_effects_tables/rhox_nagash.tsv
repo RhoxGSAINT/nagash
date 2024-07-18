@@ -73,3 +73,7 @@ nag_unit_passive_dread_prowess	stat_morale	12.0000	add
 nag_unit_passive_dread_prowess	stat_melee_defence	4.0000	add
 nag_unit_passive_doom_of_nagashizzar	stat_melee_damage_ap	1.3500	mult
 nag_unit_passive_doom_of_nagashizzar	stat_melee_damage_base	1.3500	mult
+nag_unit_passive_kalledria_abyssal_howl	stat_melee_attack	-4.0000	add
+nag_lord_passive_dreads_embrace	stat_melee_attack	-15.0000	add
+nag_lord_passive_dreads_embrace	stat_melee_defence	-15.0000	add
+nag_lord_passive_dreads_embrace	stat_morale	-15.0000	add

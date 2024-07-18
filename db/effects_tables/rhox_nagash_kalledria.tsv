@@ -1,0 +1,24 @@
+effect	icon	priority	icon_negative	category	is_positive_value_good
+#effects_tables;0;db/effects_tables/rhox_nagash_kalledria					
+rhox_nagash_kalledria_effect_non_vampirice_corruption_disabled	corruption_vampiric.png	104	corruption_vampiric.png	campaign	false
+rhox_nagash_kalledria_effect_ritual_hex_5_dummy	corruption_vampiric.png	1	corruption_vampiric.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_1	hex_1.png	105	hex_1.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_2	hex_2.png	105	hex_2.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_3	hex_3.png	105	hex_3.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_4	hex_4.png	105	hex_4.png	campaign	true
+rhox_nagash_kalledria_hex_upgrade_5	hex_5.png	105	hex_5.png	campaign	true
+rhox_nagash_kalledria_create_disciple_army	hex_3.png	1	hex_3.png	campaign	true
+rhox_nagash_kalledria_effect_ability_enable_the_screaming_banner	general_ability.png	310	general_ability.png	battle	true
+rhox_nagash_kalledria_effect_ability_enable_horrible_regeneration_ghouls	general_ability.png	4	general_ability.png	battle	true
+rhox_nagash_kalledria_effect_upkeep_cost_reduction_ethereal	military_spending.png	105	military_spending.png	campaign	false
+nag_effect_enable_unit_passive_kalledria_abyssal_howl	general_ability.png	600	general_ability.png	battle	true
+nag_effect_num_usage_sonic_boom	general_ability.png	600	general_ability.png	battle	true
+nag_effect_force_stat_weapon_strength_ghoul	weapon_damage.png	461	weapon_damage.png	battle	true
+nag_effect_force_stat_speed_ghoul	battle_movement.png	421	battle_movement.png	battle	true
+nag_effect_physical_resist_ghoul	resistance_physical.png	20	resistance_physical.png	battle	true
+nag_effect_force_stat_charge_bonus_add_syreen	charge.png	501	charge.png	battle	true
+nag_effect_force_stat_speed_add_syreen	battle_movement.png	421	battle_movement.png	battle	true
+nag_effect_enable_lord_passive_dreads_embrace	general_ability.png	600	general_ability.png	battle	true
+nag_effect_upkeep_ethereal	military_spending.png	105	military_spending.png	campaign	false
+nag_effect_skill_rank_increase_ethereal	experience.png	120	experience.png	campaign	true
+nag_effect_force_replenishment_rate_ethereal	replenishment.png	101	replenishment.png	battle	true

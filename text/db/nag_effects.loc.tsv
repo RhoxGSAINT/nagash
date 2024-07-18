@@ -41,7 +41,7 @@ effects_description_nag_effect_army_cav_speed_skill	Speed: %+n% for all Cavalry 
 effects_description_nag_effect_army_cav_charge_bonus_skill	Charge bonus: %+n for all Cavalry and Chariot units	true
 effects_description_nag_effect_army_beasts_melee_attack_skill	Melee attack: %+n for all War Beast and Monstrous Infantry units	true
 effects_description_nag_effect_army_beasts_charge_bonus_skill	Charge bonus: %+n for all War Beast and Monstrous Infantry units	true
-effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
+effects_description_nag_effect_army_spirit_melee_attack_skill	Melee attack: %+n for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_melee_defence_skill	Melee defence: %+n for Spirit Hosts, Fell Spectres, Cairn Wraiths, Hexwraits, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_spirit_magic_resistance_skill	Spell resistance: %n% for Cairn Wraiths, Hexwraiths, Carrion Riders, Morghasts, Caskets of Souls and Mortis Engine units	true
 effects_description_nag_effect_army_construct_melee_defence_skill	Melee defence: %+n for all Monster and Large Construct units	true
@@ -335,12 +335,14 @@ effects_description_nag_krell_unit_effect	Weapon strength: %+n% for Krell	true
 effects_description_nag_neferata_unit_effect	Grants Stalk to Neferata	true
 effects_description_nag_vlad_unit_effect	Spell number of uses: %+n for "Raise Dead" and "Raise Dead Upgraded" for Vlad	true
 effects_description_nag_undead_corruption_world_dummy	Vampiric corruption: %+n (Whole World)	true
+effects_description_nag_undead_corruption_own_enemy_dummy	Vampiric corruption: %+n (Province Capital belongs to Nagash and Nagash's Enemies)	false
 effects_description_nag_arkhan_unlock	Summon [[col:yellow]]Arkhan the Black[[/col]] to your Legion, spawning in [[col:yellow]]Quatar[[/col]]	true
 effects_description_nag_luthor_unlock	Summon [[col:yellow]]Luthor Harkon[[/col]] to your Legion, spawning in [[col:yellow]]The Awakening[[/col]]	true
 effects_description_nag_mannfred_unlock	Summon [[col:yellow]]Mannfred von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Ka-Sabar[[/col]]	true
 effects_description_nag_krell_unlock	Summon [[col:yellow]]Krell[[/col]] to your Legion, spawning in [[col:yellow]]Morgheim[[/col]]	true
 effects_description_nag_neferata_unlock	Summon [[col:yellow]]Neferata[[/col]] to your Legion, spawning in [[col:yellow]]Silver Pinnacle[[/col]]	true
 effects_description_nag_vlad_unlock	Summon [[col:yellow]]Vlad von Carstein[[/col]] to your Legion, spawning in [[col:yellow]]Castle Drakenhof[[/col]]	true
+effects_description_nag_kalledria_unlock	Summon [[col:yellow]]Kalledria[[/col]] to your Legion, spawning in [[col:yellow]]Wai-Li Village[[/col]]	false
 effects_description_nag_effect_force_enemy_campaign_movement_range_province	Campaign movement range: %+n% for enemy armies starting their turn in this province	true
 effects_description_nag_effect_force_enemy_begin_fatigued_3_winded	Vigour in battle: Winded for enemy armies starting their turn in this province	true
 effects_description_wh2_dlc09_title_king	[HIDDEN] Adds the name "King"	true
@@ -350,7 +352,7 @@ effects_description_nag_effect_character_physical_resist_lord_hero_all	Physical 
 effects_description_nag_effect_unit_enable_flaming_attacks_constructs	Enables flaming attacks for all Construct units	true
 effects_description_nag_effect_unit_speed_all_skeleton	Speed: %+n% for Skeletal Infantry, Cavalry and Chariot units.	true
 effects_description_nag_effect_unit_vigour_loss_reduction_all_skeleton	Vigour loss reduction: %+n% for Skeletal Infantry, Cavalry and Chariot units.	true
-effects_description_nag_effect_unit_frostbite_attacks_spirits	Enables frostbite attacks for 	true
+effects_description_nag_effect_unit_frostbite_attacks_spirits	Enables frostbite attacks for Spirit Hosts and Wraith units.	true
 effects_description_nag_effect_unit_magic_attacks_morghasts	Enables magical attacks in battles: For Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes 	true
 effects_description_nag_effect_unit_magic_resistance_morghasts	Spell resistance: %n% for Morghast units & embedded [[img:icon_hero]][[/img]]Morghast Archai Heroes	true
 effects_description_nag_effect_enable_ability_chilling_aura_zombies	Passive ability: "The Chilling Aura" for Zombie units	true
@@ -527,4 +529,32 @@ effects_description_nag_effect_force_stat_defence_skele_inf_defending	Melee defe
 effects_description_nag_effect_force_stat_attack_skele_cav_attacking	Charge bonus: %+n when attacking for all Skeletal Cavalry units	false
 effects_description_nag_effect_ability_enable_dread_prowess	Ability: "Dread Prowess" for Skeleton Javelinmen, Skeleton Hoplites, Skeleton Pikeman, and Royal Guards units	false
 effects_description_nag_effect_tech_unit_xp_levels	Recruit rank: %+n for all units	false
+effects_description_rhox_nagash_kalledria_effect_non_vampirice_corruption_disabled	Non-Vampiric corruptions will not increase	false
+effects_description_rhox_nagash_kalledria_effect_ritual_hex_5_dummy	Remove all other corruptions, and make the region's vampiric corruption to full	false
+effects_description_rhox_nagash_kalledria_hex_upgrade_1	Unlocks the empowered "Coven's Cursemark" Hex	false
+effects_description_rhox_nagash_kalledria_hex_upgrade_2	Unlocks the empowered "Jinxed Land" Hex	false
+effects_description_rhox_nagash_kalledria_hex_upgrade_3	Unlocks the empowered "Recreant Spirit" Hex	false
+effects_description_rhox_nagash_kalledria_hex_upgrade_4	Unlocks the empowered "Bewitching Lure" Hex	false
+effects_description_rhox_nagash_kalledria_hex_upgrade_5	Unlocks the empowered "Tainted Chant" Hex	false
+effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_hex_upgrade_1	Stops the target army from moving entirely	false
+effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_hex_upgrade_2	Teleports any target army to the chosen Magical Forest	false
+effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_hex_upgrade_3	Armies summoned every other turn will be stronger	false
+effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_hex_upgrade_4	The target settlement's entire province income will be provided	false
+effects_additional_tooltip_details_localised_description_rhox_nagash_kalledria_hex_upgrade_5	The target settlement's province will not gain any additional corruption except for the vampiric corruption for the duration	false
+effects_description_rhox_nagash_kalledria_create_disciple_army	An army consisting of Hexwraith, Cairn Wraith, Crypt Ghouls, and Syreen will be summoned in the target settlement's owner's territory every other turn	false
+effects_description_rhox_nagash_kalledria_effect_ability_enable_the_screaming_banner	Passive ability: "The Screaming Banner" for Banshees	false
+effects_description_rhox_nagash_kalledria_effect_ability_enable_horrible_regeneration_ghouls	Ability: Horrible Regeneration for Ghoul units	false
+effects_description_rhox_nagash_kalledria_effect_upkeep_cost_reduction_ethereal	Upkeep: %+n% for ethereal units	false
 effects_description_wh2_dlc15_hef_dungeon_mistwalker_upgrade_nagash	Passive ability: "Tormented Execution" for Mistwalker units	false
+effects_description_nag_effect_enable_unit_passive_kalledria_abyssal_howl	Passive ability: "Abyssal Howl" for Syreen units	false
+effects_description_nag_effect_num_usage_sonic_boom	Ability number of uses: %+n for "Piercing Anguish"	false
+effects_description_nag_effect_force_stat_weapon_strength_ghoul	Weapon strength: %+n% for Ghoul units	false
+effects_description_nag_effect_force_stat_speed_ghoul	Speed: %+n% for Ghoul units	false
+effects_description_nag_effect_physical_resist_ghoul	Physical resistance: %n% for Ghoul units	false
+effects_description_nag_effect_force_stat_charge_bonus_add_syreen	Charge bonus: %+n for Ethereal units	false
+effects_description_nag_effect_force_stat_speed_add_syreen	Speed: %+n% for Ethereal units	false
+effects_description_nag_effect_enable_lord_passive_dreads_embrace	Passive ability: "Dread's Embrace"	false
+effects_description_nag_effect_upkeep_ethereal	Upkeep: %+n% for Ethereal units	false
+effects_description_nag_effect_skill_rank_increase_ethereal	Recruit rank: %+n for Ethereal units	false
+effects_description_nag_effect_force_replenishment_rate_ethereal	Casualty replenishment rate: %+n% for Ethbereal units	false
+effects_description_nag_effect_force_stat_melee_defence_ethereal	Melee defence: %+n for Ethereal units	false

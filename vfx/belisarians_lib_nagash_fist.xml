@@ -2,6 +2,72 @@
 <shader_library file="fx/particle_vfx_library.hlsl"/><vfx construction_type="1" enable_in_ted="false" camera_following="false" affected_by_wind="false" spawn_on_terrain="false" ref_spawn_speed="-1.00">
 	<!-- EMITTERS-->
 	<emitters>
+		<emitter type="continuous_rigid" id="sound_wave">
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property_rigid_data name="RigidData" quality="0">
+				<rigid_entry>
+					<ModelFile value="vfx/models/vfx_nagash_kalledria_sound_wave.wsmodel"/>
+					<PivotPoint x="0.50" y="0.50" z="0.50"/>
+					<AnimFile value=""/>
+					<AnimSpeed value="1.00"/>
+				</rigid_entry>
+			</property_rigid_data>
+			<property name="RelativeParticleOrientation" quality="0" value="true"/>
+			<property name="ParticlesLocalSpace" quality="0" value="true"/>
+			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="200.00" w="200.00"/>
+			<property name="ParticleCullDistances" quality="0" x="0.00" y="0.00" z="200.00" w="200.00"/>
+			<ranged_property name="LifeTime" quality="0" min="5.00" max="5.00"/>
+			<ranged_property name="Mass" quality="0" min="0.00" max="0.00"/>
+			<property name="ParticleSpinMin" quality="0" x="0.00" y="00.00" z="0.00"/>
+			<property name="ParticleOrientationMin" quality="0" x="180.00" y="0.00" z="0.00"/>
+			<property name="ParticleOrientationMax" quality="0" x="180.00" y="0.00" z="0.00"/>
+			<property name="ParticleInitialSpeedLoopAnim" quality="0" value="false"/>
+			<property name="EmitterPosition" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0|y_min,32768;0.0,1.0|y_max,65280;0.0,1.0|z_min,128;0.0,0.0|z_max,255;0.0,0.0:x,0;0,1|y,0;2,3|z,0;4,5</property>
+			<property name="ParticleScale" quality="0">x_min,8388608;0.0,0.05,linear,linear;1.0,0.1,linear,linear|x_max,16711680;0.0,0.05,linear,linear;1.0,0.1,linear,linear|y_min,32768;0.0,0.05,linear,linear;1.0,0.1,linear,linear|y_max,65280;0.0,0.05,linear,linear;1.0,0.1,linear,linear|z_min,128;0.0,0.05,linear,linear;1.0,0.1,linear,linear|z_max,255;0.0,0.05,linear,linear;1.0,0.1,linear,linear:x,1;0,1|y,1;2,3|z,1;4,5</property>
+			<property name="ParticleInitialSpeed" quality="0">x_min,8388608;0.0,0.0|x_max,16711680;0.0,0.0:x,1;0,1</property>
+			<property name="ParticleSpinMax" quality="0" x="0.00" y="0.00" z="0.00"/>
+			<property name="SpawnAreaLoopAnim" quality="0" value="false"/>
+			<property name="InfiniteLife" quality="0" value="true"/>
+			<property name="UseSurfaceNormal" quality="0" value="false"/>
+			<property name="AllowEmitFromMesh" quality="0" value="false"/>
+			<property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialAlpha" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="EmissionRateCurve" quality="0">x_min,8388608;0.0,1.0|x_max,16711680;0.0,1.0:x,0;0,1</property>
+			<property name="ParticleInitialParamLoopAnim" quality="0" value="false"/>
+			<property name="RigidsMax" quality="0" value="1"/>
+			<property name="ParticleLoopParams" quality="0" x="0.40" y="0.50"/>
+			<property name="ParticleLifeTimeLoopAnim" quality="0" value="true"/>
+			<property name="EmissionLoopAnim" quality="0" value="false"/>
+		</emitter>
+		
+		<!-- <emitter type="continuous_rigid" id="sound_wave"> -->
+			<!-- <property name="InfiniteLife" quality="0" value="true"/> -->
+			<!-- <property name="BoundingBoxMax" quality="0" x="3.00" y="1.00" z="3.00"/> -->
+			<!-- <property name="BoundingBoxMin" quality="0" x="-3.00" y="0.00" z="-3.00"/> -->
+			<!-- <property name="EmitterOrientation" quality="0">x_min,8405056,0;0.0,0.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|x_max,16728128,0;0.0,0.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|y_min,4227136,0;0.0,0.0,linear,linear,-0.05,0.0,0.333333,0.0,1;1.0,112.267555,linear,linear,-0.333333,0.0,0.05,0.0,1|y_max,4259648,0;0.0,0.0,linear,linear,-0.05,0.0,0.333333,0.0,1;1.0,118.358009,linear,linear,-0.333333,0.0,0.05,0.0,1|z_min,4210816,0;0.0,0.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|z_max,4210943,0;0.0,0.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1:x,0;0,1|y,1;2,3|z,0;4,5</property> -->
+			<!-- <ranged_property name="LifeTime" quality="0" min="5.10" max="5.10"/> -->
+			<!-- <property name="MaximumParticles" quality="0" value="1"/> -->
+			<!-- <property name="ParticleInitialScale" quality="0">x_min,8405056,0;0.0,1.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|x_max,16728128,0;0.0,1.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|y_min,4227136,0;0.0,0.5,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|y_max,4259648,0;0.0,0.5,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|z_min,4210816,0;0.0,1.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|z_max,4210943,0;0.0,1.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1:x,0;0,1|y,0;2,3|z,0;4,5</property> -->
+			<!-- <property name="ParticleInitialSpeed" quality="0">x_min,8405056,0;0.0,0.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1|x_max,16728128,0;0.0,0.0,bezier_c,bezier_c,-0.05,0.0,0.05,0.0,1:x,0;0,1</property> -->
+			<!-- <property name="ParticleLifeTime" quality="0">x_min,8388608;0.0,10.0|x_max,16711680;0.0,10.0:x,0;0,1</property> -->
+			<!-- <property name="ParticleOrientationMax" quality="0" x="180.00" y="0.00" z="0.00"/> -->
+			<!-- <property name="ParticleOrientationMin" quality="0" x="180.00" y="0.00" z="0.00"/> -->
+			<!-- <property name="ParticleRelativeSpawnOrientation" quality="0" value="RELATIVE_TO_VFX_UP_AXIS"/> -->
+			<!-- <property name="ParticleScale" quality="0">x_min,8405056,0;0.0,0.2,sine,sine_recip,-0.05,0.0,0.31275,0.0,1;0.938251,0.196653,sine,sine_recip,-0.31275,0.0,0.020583,0.0,1|x_max,16728128,0;0.0,0.2,sine,sine_recip,-0.05,0.0,0.31275,0.0,1;0.938251,0.196653,sine,sine_recip,-0.31275,0.0,0.020583,0.0,1|y_min,4227136,0;0.0,0.157748,sine,sine_recip,-0.05,0.0,0.314233,0.0,1;0.9427,0.162863,sine,sine_recip,-0.314233,0.0,0.0191,0.0,1|y_max,4259648,0;0.0,0.157748,sine,sine_recip,-0.05,0.0,0.314233,0.0,1;0.9427,0.162863,sine,sine_recip,-0.314233,0.0,0.0191,0.0,1|z_min,4210816,0;0.0,0.2,sine,sine_recip,-0.05,0.0,0.31275,0.0,1;0.938251,0.196653,sine,sine_recip,-0.31275,0.0,0.020583,0.0,1|z_max,4210943,0;0.0,0.2,sine,sine_recip,-0.05,0.0,0.31275,0.0,1;0.938251,0.196653,sine,sine_recip,-0.31275,0.0,0.020583,0.0,1:x,0;0,1|y,0;2,3|z,0;4,5</property> -->
+			<!-- <property name="ParticleSimulationSpace" quality="0" value="LOCAL_SPACE_POSITION_ROTATION"/> -->
+			<!-- <property_rigid_data name="RigidData" quality="0"> -->
+				<!-- <rigid_entry> -->
+					<!-- <ModelFile value="vfx/models/wh3_dlc20_medium_tapered_melee_slash.wsmodel"/> -->
+					<!-- <PivotPoint x="0.50" y="0.50" z="0.50"/> -->
+					<!-- <AnimFile value=""/> -->
+					<!-- <AnimSpeed value="1.00"/> -->
+				<!-- </rigid_entry> -->
+			<!-- </property_rigid_data> -->
+			<!-- <property name="SpawnArc" quality="0" x="0.00" y="0.00"/> -->
+			<!-- <ranged_property name="SpawnSpread" quality="0" min="0.00" max="0.00"/> -->
+			<!-- <ranged_property name="SpreadArc" quality="0" min="0.00" max="0.00"/> -->
+		<!-- </emitter> -->
+
 		<emitter type="continuous_rigid" id="SPAWN_hand_centre_1">
 			<property name="CullDistances" quality="0" x="0.00" y="0.00" z="900.00" w="900.00"/>
 			<property name="EmissionRateCurve" quality="0">x_min,8405056,1;0.0,0.1,linear,linear,-0.05,0.0,0.05,0.0,0|x_max,16728128,1;0.0,0.1,linear,linear,-0.05,0.0,0.05,0.0,0:x,1;0,1</property>
@@ -254,6 +320,7 @@
 	</emitters>
 	<!-- BEHAVIOUR_CHAINS-->
 	<behaviour_chains>
+		<behaviour_chain id="sound_wave"/>
 		<behaviour_chain id="SPAWN_hand_centre_1"/>
 		<behaviour_chain id="omni">
 			<modifier fragment="vs_translation">
@@ -482,6 +549,15 @@
 	</behaviour_chains>
 	<!-- EFFECT RENDER STACKS-->
 	<effect_render_stacks>
+		<effect_render_stack id="sound_wave">
+			<emitters_selected>
+				<emitter id="sound_wave"/>
+			</emitters_selected>
+			<behaviour_chains_selected>
+				<behaviour_chain id="sound_wave"/>
+			</behaviour_chains_selected>
+			<render_params scene_view_type="0" cast_shadows="false" receive_fog="true" enable_trail_mode="false" enable_simple_lighting="false"/>
+		</effect_render_stack>
 		<effect_render_stack id="SPAWN_hand_centre_1"/>
 		<effect_render_stack id="omni">
 			<emitters_selected>

@@ -178,46 +178,6 @@ function rhox_nagash_trigger_rites_listeners()
         true
     )
     
-    core:add_listener(
-		"rhox_nagash_battle_completed",
-		"CharacterCompletedBattle",
-        function(context)
-            return context:character():faction():name() == nagash_faction
-        end,
-		function(context)
-			local pending_battle = cm:model():pending_battle()
-            local total_card_number;
-            local card_table;
-			if pending_battle:has_been_fought() == true then
-                local faction = cm:get_faction(nagash_faction);
-                
-            
-                local grand1_used = 0
-                grand1_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_endless_tomb")					
-
-                if grand1_used > 0 then
-                    cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_01", "nag_grand_spell_01_recharge", -20);
-                end
-                
-                local grand2_used = 0
-                grand2_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_batocalypse")					
-
-                if grand2_used > 0 then
-                    cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_02", "nag_grand_spell_02_recharge", -20);
-                end
-                
-                local grand3_used = 0
-                grand3_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_targeting") --other bombardments are called by this
-
-                if grand3_used > 0 then
-                    cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_03", "nag_grand_spell_03_recharge", -20);
-                end
-                rhox_nagash_grandspell_ui()
-            end
-		end,
-		true
-	);
-    
     
     -- build the BP main 3
     core:add_listener(
@@ -322,3 +282,45 @@ function rhox_nagash_trigger_rites_listeners()
         true
     )
 end
+
+
+--AI also has access to this, so out
+core:add_listener(
+    "rhox_nagash_battle_completed",
+    "CharacterCompletedBattle",
+    function(context)
+        return context:character():faction():name() == nagash_faction
+    end,
+    function(context)
+        local pending_battle = cm:model():pending_battle()
+        local total_card_number;
+        local card_table;
+        if pending_battle:has_been_fought() == true then
+            local faction = cm:get_faction(nagash_faction);
+            
+        
+            local grand1_used = 0
+            grand1_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_endless_tomb")					
+
+            if grand1_used > 0 then
+                cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_01", "nag_grand_spell_01_recharge", -20);
+            end
+            
+            local grand2_used = 0
+            grand2_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_batocalypse")					
+
+            if grand2_used > 0 then
+                cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_02", "nag_grand_spell_02_recharge", -20);
+            end
+            
+            local grand3_used = 0
+            grand3_used = pending_battle:get_how_many_times_ability_has_been_used_in_battle(faction:command_queue_index(), "nag_army_abilities_blyramid_bombardment_targeting") --other bombardments are called by this
+
+            if grand3_used > 0 then
+                cm:faction_add_pooled_resource(nagash_faction, "nag_grand_spell_03", "nag_grand_spell_03_recharge", -20);
+            end
+            rhox_nagash_grandspell_ui()
+        end
+    end,
+    true
+);
