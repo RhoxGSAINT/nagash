@@ -556,5 +556,5 @@ effects_description_nag_effect_force_stat_speed_add_syreen	Speed: %+n% for Ether
 effects_description_nag_effect_enable_lord_passive_dreads_embrace	Passive ability: "Dread's Embrace"	false
 effects_description_nag_effect_upkeep_ethereal	Upkeep: %+n% for Ethereal units	false
 effects_description_nag_effect_skill_rank_increase_ethereal	Recruit rank: %+n for Ethereal units	false
-effects_description_nag_effect_force_replenishment_rate_ethereal	Casualty replenishment rate: %+n% for Ethbereal units	false
+effects_description_nag_effect_force_replenishment_rate_ethereal	Casualty replenishment rate: %+n% for Ethereal units	false
 effects_description_nag_effect_force_stat_melee_defence_ethereal	Melee defence: %+n for Ethereal units	false

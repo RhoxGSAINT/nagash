@@ -1,6 +1,6 @@
 local nagash_faction = "mixer_nag_nagash"
 
-local nagash_ai_bonus =100
+local nagash_ai_bonus =1
 local enable_ai_nagash=true
 local nagash_ai_level_bonus =30
 local nagash_ai_building_tier =5
