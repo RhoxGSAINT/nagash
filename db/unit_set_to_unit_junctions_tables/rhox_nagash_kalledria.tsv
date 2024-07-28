@@ -37,3 +37,4 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_syreen	wh2_dlc11_vmp_vets_zombies_skeletons_grave_guard_cairn_wraiths	false
 			nag_vanilla_cst_inf_syreen	wh2_dlc17_cairnwraith_hexwraith_rank7	false
 			nag_vanilla_cst_inf_syreen	wh_pro02_isabella_extra_upkeep	false
+			nag_mortarch_kalledria	nag_mortarch_unit_set	false
