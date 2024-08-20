@@ -30,6 +30,7 @@ local function rhox_nagash_init_setting()
     local faction_leader_cqi = faction:faction_leader():command_queue_index();
     
     
+    local x, y = cm:find_valid_spawn_location_for_character_from_settlement(nagash_faction, "cr_oldworld_region_nagashizzar", false, true, 10)
     
     local nagash_character
     cm:create_force_with_general(
@@ -37,8 +38,8 @@ local function rhox_nagash_init_setting()
     nagash_faction,
     "nag_bone_golems,nag_nagashi_guard,nag_nagashi_guard,nag_vanilla_vmp_mon_fell_bats,nag_vanilla_vmp_mon_fell_bats,nag_skeleton_reaper,nag_vanilla_tmb_inf_skeleton_warriors_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_vanilla_tmb_inf_skeleton_spearmen_0,nag_bone_thrower",
     "cr_oldworld_region_nagashizzar",
-    1237,
-    191,
+    x,
+    y,
     "general",
     nagash_character_type,
     "names_name_1937224327",
@@ -59,8 +60,8 @@ local function rhox_nagash_init_setting()
     
     local ax,ay = cm:find_valid_spawn_location_for_character_from_position(
         nagash_faction,
-        1237,
-        191,
+        x,
+        y,
         true,
         5
     )
