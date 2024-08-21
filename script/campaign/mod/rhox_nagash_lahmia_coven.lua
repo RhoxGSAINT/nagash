@@ -380,7 +380,7 @@ local function coven_visibility()
         if not child then
             return
         end
-        local vampire_coven = find_uicomponent(child, "settlement_view", "hostile_views", "wh3_daemon_factions")
+        local vampire_coven = find_uicomponent(child, "settlement_view", "hostile_views", "wh3_dlc25_emp_empire")
         if not vampire_coven then 
             return
         end
