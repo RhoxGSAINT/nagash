@@ -10,13 +10,13 @@ effects_description_nag_effect_landmark_nagash_buff_golems_defence	Melee defence
 effects_description_nag_effect_landmark_nagash_buff_ethereal_magic_res	Spell resistance: %n% for all Ethereal units	true
 effects_description_nag_effect_landmark_nagash_buff_morghasts_regen	Ability: "Regeneration" for Morghasts units	true
 effects_description_nag_effect_landmark_nagash_enemy_undead_hex	Enemy Leadership: %+n when fighting against Undead	true
-effects_description_nag_effect_landmark_nagash_character_wom_reserves	Winds of Magic power reserve: %+n	true
+effects_description_nag_effect_landmark_nagash_character_wom_reserves	Winds of Magic power reserve capacity: %+n	true
 effects_description_nag_effect_landmark_arkhan_character_melee	Melee attack: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
 effects_description_nag_effect_landmark_arkhan_character_defence	Melee defence: %+n for [[img:icon_general]][[/img]]Lords and embedded [[img:icon_hero]][[/img]]Heroes	true
-effects_description_nag_effect_landmark_arkhan_character_wom_reserves	Winds of Magic power reserve: %+n	true
+effects_description_nag_effect_landmark_arkhan_character_wom_reserves	Winds of Magic power reserve capacity: %+n	true
 effects_description_nag_effect_landmark_arkhan_buff_magic_attacks_scorpion	Enables magical attacks for Tomb Scorpion	true
 effects_description_nag_effect_landmark_arkhan_buff_magic_attacks_warshpinx	Enables magical attacks for Khemrian Warsphinx	true
-effects_description_nag_effect_landmark_manny_character_wom_reserves	Winds of Magic power reserve: %+n	true
+effects_description_nag_effect_landmark_manny_character_wom_reserves	Winds of Magic power reserve capacity: %+n	true
 effects_description_nag_effect_landmark_manny_spell_cost	Winds of Magic cost: %n for Lore of Vampires	true
 effects_description_nag_effect_landmark_manny_movement	Campaign movement range: %+n%	true
 effects_description_nag_effect_landmark_manny_recruit_rank_knights	Recruit rank: %+n for Black Knight units	true
@@ -367,7 +367,7 @@ effects_description_nag_effect_unit_ability_magic_attacks_morghasts_hidden	[HIDD
 effects_description_nag_effect_book_stack_dummy	Effects below stack with each Book unlocked:	true
 effects_description_nag_effect_book_extra_stack_dummy	Effects below are now at: Max stack	true
 effects_description_nag_effect_character_stat_mod_miscast_chance_dummy	Miscast base chance: -2% (Max stack -20%)	true
-effects_description_nag_effect_military_force_winds_of_magic_depletion_mod_character_dummy	Winds of Magic power reserve: +2 (Max stack +20%)	true
+effects_description_nag_effect_military_force_winds_of_magic_depletion_mod_character_dummy	Winds of Magic power reserve capacity: +2 (Max stack +20)	true
 effects_description_nag_effect_morghast_archai_ward_save_dummy	Ward save: +2% (Max stack +20%) for Morghast units and Morghast Archai heroes ([[img:ui/campaign ui/effect_bundles/army.png]][[/img]]Lord's army)	true
 effects_description_nag_effect_mortarch_ward_save_dummy	Ward save: +1% (Max stack +10%) for Mortarch lords (factionwide)	true
 effects_description_nag_effect_force_army_battle_leadership_all_defending	Leadership: %+n for all units when defending	true
