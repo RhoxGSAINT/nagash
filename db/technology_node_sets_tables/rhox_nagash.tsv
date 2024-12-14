@@ -1,4 +1,4 @@
-key	campaign_key	faction_key	culture	subculture	technology_category	colour_hex
-#technology_node_sets_tables;2;db/technology_node_sets_tables/rhox_nagash						
-nagash_tech		mixer_nag_nagash	mixer_nag_nagash	mixer_nag_nagash	rom_roman_mil_top	FFB62F
-nagash_tech_dummy		mixer_nag_nagash	mixer_nag_nagash	mixer_nag_nagash	rom_roman_mil_top	FFB62F
+key	campaign_key	faction_key	culture	subculture	colour_hex
+#technology_node_sets_tables;3;db/technology_node_sets_tables/rhox_nagash					
+nagash_tech		mixer_nag_nagash	mixer_nag_nagash	mixer_nag_nagash	FFB62F
+nagash_tech_dummy		mixer_nag_nagash	mixer_nag_nagash	mixer_nag_nagash	FFB62F

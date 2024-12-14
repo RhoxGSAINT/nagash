@@ -66,6 +66,7 @@ local function rhox_nagash_lahmia_init_setting()
 			end,
 			0.5
 		)
+		cm:set_character_unique(cm:char_lookup_str(cqi),true)
     end);
     local agent_x, agent_y = cm:find_valid_spawn_location_for_character_from_position(lahmia_faction, x, y, false, 5);
     cm:create_agent(lahmia_faction, "dignitary", "wh_dlc05_vmp_vampire_shadow", agent_x, agent_y);       

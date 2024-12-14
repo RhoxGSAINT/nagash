@@ -90,6 +90,7 @@ cm:add_first_tick_callback_new(
                 "",
                 true,
                 function(cqi)
+                    cm:set_character_unique(cm:char_lookup_str(cqi),true)
                 end
             );
             cm:disable_event_feed_events(true, "wh_event_category_character", "", "")

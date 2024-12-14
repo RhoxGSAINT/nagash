@@ -1,8 +1,8 @@
-key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors
-#pooled_resources_tables;1;db/pooled_resources_tables/rhox_nagash													
-nag_warpstone	50	0	false	wh2_main_resource_factor_other	icon_warpstone.png	END_OF_ROUND	false	FACTION	false	0		false	true
-nag_grand_spell_01	20	0	false	nag_grand_spell_01_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true
-nag_grand_spell_02	20	0	false	nag_grand_spell_02_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true
-nag_grand_spell_03	20	0	false	nag_grand_spell_03_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true
-rhox_nagash_influence	100	0	false	other	icon_warpstone.png	END_OF_TURN	false	FACTION	false	0		false	true
-rhox_nagash_lahmia_coven_influence	100	0	false	other	icon_blood_kiss.png	END_OF_TURN	false	FACTION	false	0		false	true
+key	maximum	minimum	ai_ignored	default_factor	optional_icon_path	income_policy	reset_before_income	scope	has_persistent_factors	sort_order	battle_conversion	appy_income_on_creation	always_display_zero_factors	can_scale_effect_thresholds_per_unit
+#pooled_resources_tables;2;db/pooled_resources_tables/rhox_nagash														
+nag_warpstone	50	0	false	wh2_main_resource_factor_other	icon_warpstone.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+nag_grand_spell_01	20	0	false	nag_grand_spell_01_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+nag_grand_spell_02	20	0	false	nag_grand_spell_02_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+nag_grand_spell_03	20	0	false	nag_grand_spell_03_recharge	icon_oathgold.png	END_OF_ROUND	false	FACTION	false	0		false	true	false
+rhox_nagash_influence	100	0	false	other	icon_warpstone.png	END_OF_TURN	false	FACTION	false	0		false	true	false
+rhox_nagash_lahmia_coven_influence	100	0	false	other	icon_blood_kiss.png	END_OF_TURN	false	FACTION	false	0		false	true	false

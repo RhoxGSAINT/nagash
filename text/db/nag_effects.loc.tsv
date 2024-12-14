@@ -403,7 +403,7 @@ effects_description_nag_effect_arkhan_devastating_flanker_chariots	Attribute: De
 effects_description_rhox_nagash_all_vassal_dummy	All Undead factions will become your vassal	false
 effects_description_rhox_nagash_zombie_apocalypse_dummy	Endless ranks of Undead armies will rise from the dead	false
 effects_description_rhox_nagash_rift_dummy	Creats a rift that connects all the important places of Nagash	false
-effects_description_rhox_nagash_brain_searching_dummy	Has access to the 'Empower' stance which replaces the 	false
+effects_description_rhox_nagash_brain_searching	Has access to the 'Empower' stance	false
 effects_description_nag_effect_force_stat_melee_attack_vs_daemons	Melee attack: %+n when fighting against Daemons of Chaos	false
 effects_description_nag_effect_force_stat_ward_save_vs_daemons	Ward save: %n% when fighting against Daemons of Chaos	false
 effects_description_rhox_nagash_effect_campaign_enable_attrition	Enables [[img:icon_attrition]][[/img]]attrition	false

@@ -56,5 +56,10 @@ key	model_id	building_bmd	port_bmd	construction_bmd	damaged_bmd	destroyed_bmd	po
 7784651	nag_dk_horde_3	prefabs/campaign/dkl_acropolis_01.bmd								
 7784652	nag_dk_horde_4	prefabs/campaign/dkl_acropolis_01.bmd								
 7784653	nag_dk_horde_5	prefabs/campaign/dkl_acropolis_01.bmd								
+7784654	nag_kalledria_horde_special_1	prefabs\campaign\cst_encampment.bmd								
+7784655	nag_kalledria_horde_special_2	prefabs\campaign\cst_encampment.bmd								
+7784656	nag_kalledria_horde_special_3	prefabs\campaign\cst_encampment.bmd								
+7784657	nag_kalledria_horde_special_4	prefabs\campaign\cst_encampment.bmd								
+7784658	nag_kalledria_horde_special_5	prefabs\campaign\cst_encampment.bmd								
 2139423023	cr_nag_special_settlement_nagashizzar_1	prefabs/campaign/nag_nagashizzar_01.bmd	prefabs/campaign/vampire_port_major_5.bmd	prefabs\campaign\construction_minor.bmd	prefabs\campaign\damage_effect.bmd	prefabs\campaign\destroyed_effect.bmd	prefabs\campaign\construction_minor.bmd	prefabs/campaign/vampire_port_major_5.bmd	prefabs/campaign/nag_nagashizzar_01.bmd	
 2139423024	cr_nag_special_settlement_nagashizzar_ruin	prefabs/campaign/nag_nagashizzar_ruin.bmd	prefabs\campaign\human_settlement_port_ruin.bmd					prefabs\campaign\human_settlement_port_ruin.bmd	prefabs/campaign/nag_nagashizzar_ruin.bmd	

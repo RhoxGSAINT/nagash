@@ -181,7 +181,7 @@ nag_effect_force_army_battle_leadership_all_defending	morale.png	65	morale.png	b
 rhox_nagash_remaining_turns	turns.png	130	turns.png	campaign	true
 rhox_nagash_hidden_wrath_abilities		0		battle	true
 rhox_nagash_rift_dummy	champions_rift.png	902	champions_rift.png	campaign	true
-rhox_nagash_brain_searching_dummy	icon_effects_raiding.png	1	icon_effects_raiding.png	campaign	true
+rhox_nagash_brain_searching	icon_effects_raiding.png	1	icon_effects_raiding.png	campaign	true
 rhox_nagash_effect_campaign_enable_attrition	attrition.png	1	attrition.png	campaign	true
 nag_effect_building_restriction_advanced	construction.png	99999	construction.png	campaign	false
 nag_effect_building_restriction_exclusive_recruit	construction.png	99999	construction.png	campaign	false

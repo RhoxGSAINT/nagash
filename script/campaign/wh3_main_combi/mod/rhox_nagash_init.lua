@@ -71,9 +71,11 @@ local function rhox_nagash_init_setting()
 				nagash_character = cm:get_character_by_cqi(cqi)
                 local forename = common:get_localised_string("names_name_1937224327")
                 cm:change_character_custom_name(nagash_character, forename, "","","") --damn it's not working on faction leaders
+                
 			end,
 			0.5
 		)
+		cm:set_character_unique(cm:char_lookup_str(cqi),true)
     end);
     
     local ax,ay = cm:find_valid_spawn_location_for_character_from_position(

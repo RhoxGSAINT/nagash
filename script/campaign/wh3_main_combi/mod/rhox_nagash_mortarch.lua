@@ -545,6 +545,7 @@ function RHOX_NAGASH_MORTARCH:upgrade_into_mortarch(faction, faction_key, mort_k
     false,
     function(cqi)
         new_character = cm:get_character_by_cqi(cqi)
+        cm:set_character_unique(cm:char_lookup_str(cqi),true)
     end); 
     --out("Rhox Nagash character details: ")
     --out(old_char_details.character_forename)
@@ -695,6 +696,7 @@ function RHOX_NAGASH_MORTARCH:spawn_mortarch(mort_key) --ones without a faction,
     false,
     function(cqi)
         new_character = cm:get_character_by_cqi(cqi)
+        cm:set_character_unique(cm:char_lookup_str(cqi),true)
     end);
     
     
@@ -1376,6 +1378,7 @@ function RHOX_NAGASH_MORTARCH:rhox_nag_debug_summon_bone_daddy()
             cm:replenish_action_points(cm:char_lookup_str(new_character))
             local forename = common:get_localised_string("names_name_1937224328")
             cm:change_character_custom_name(new_character, forename, "","","")
+            cm:set_character_unique(cm:char_lookup_str(cqi),true)
         end); 
 end
 

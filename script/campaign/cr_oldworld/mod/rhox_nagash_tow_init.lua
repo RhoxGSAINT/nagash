@@ -56,6 +56,7 @@ local function rhox_nagash_init_setting()
 			end,
 			0.5
 		)
+		cm:set_character_unique(cm:char_lookup_str(cqi),true)
     end);
     
     local ax,ay = cm:find_valid_spawn_location_for_character_from_position(

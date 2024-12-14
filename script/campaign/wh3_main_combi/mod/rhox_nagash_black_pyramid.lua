@@ -330,6 +330,7 @@ function complete_bp_raise()
             cm:add_agent_experience(new_char_lookup,old_char_details.rank, true)
 
             cm:replenish_action_points(cm:char_lookup_str(new_character))
+            cm:set_character_unique(cm:char_lookup_str(cqi),true)
         end); 
     
     --[[

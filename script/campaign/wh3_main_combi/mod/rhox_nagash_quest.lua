@@ -158,6 +158,7 @@ core:add_listener(
                 end,
                 0.5
             )
+            cm:set_character_unique(cm:char_lookup_str(cqi),true)
         end);
 
             
