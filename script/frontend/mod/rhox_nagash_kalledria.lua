@@ -2,7 +2,7 @@ core:add_ui_created_callback(
     function(context)
         if vfs.exists("script/frontend/mod/mixer_frontend.lua")then
     
-            if common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_SHADOWS_OF_CHANGE", "IsOwned") then
+            if common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_SHADOWS_OF_CHANGE", "IsOwned") or common.get_context_value("CcoOwnershipProductRecord", "TW_WH3_SHADOWS_OF_CHANGE_KSL", "IsOwned") then
                 mixer_enable_custom_faction("1568726704")
                 mixer_add_starting_unit_list_for_faction("mixer_vmp_wailing_conclave", {"wh2_dlc11_cst_inf_syreens","wh_main_vmp_inf_crypt_ghouls","wh_main_vmp_cav_hexwraiths", "wh_main_vmp_inf_cairn_wraiths"})
                 

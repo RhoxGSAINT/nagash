@@ -1,18 +1,18 @@
 key	generate	ui_image	prioritised	event_category	override_icon	is_large_incident	additional_sound_event	sepia_fade	use_revealing_text
 #incidents_tables;7;db/incidents_tables/rhox_nagash									
-rhox_nagash_uber_husk	false	mixer_nag_nagash/Nagash_Decides_to_Not_Raise_the_Black_Pyramid	false	Quest		true		0.0000	false
+rhox_nagash_uber_husk	false	mixer_nag_nagash/nagash_decides_to_not_raise_the_black_pyramid	false	Quest		true		0.0000	false
 rhox_nagash_azhag_mortarch	false	mixer_nag_nagash/nagash_dominates_azhag	false	Quest		true		0.0000	false
-rhox_nagash_mortarch_notify	false	mixer_nag_nagash/Nagash_Absorbs_Undead	false	Quest		false		0.0000	false
-rhox_nagash_declare_war	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000	false
-rhox_nagash_victory	false	mixer_nag_nagash/Nagash_Destroys_the_World	false	Quest		true		0.0000	false
-rhox_nagash_force_vassalised	false	mixer_nag_nagash/Nagash_Absorbs_Undead	false	Event		false		0.0000	false
-rhox_nagash_harkon_restoed_incident	false	mixer_nag_nagash/Luthor_Harkon_Restores_His_Mind	false	Quest		false		0.0000	false
-rhox_nagash_force_vassalised_coast	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Vampire_Coast	false	Event		false		0.0000	false
-rhox_nagash_force_vassalised_tk	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Tomb_Kings	false	Event		false		0.0000	false
-rhox_nagash_force_vassalised_jv	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Jade_Vampires	false	Event		false		0.0000	false
-rhox_nagash_mortarch_notify_coast	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Vampire_Coast	false	Quest		false		0.0000	false
-rhox_nagash_mortarch_notify_tk	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Tomb_Kings	false	Quest		false		0.0000	false
-rhox_nagash_mortarch_notify_jv	false	mixer_nag_nagash/Nagash_Absorbs_Undead_Jade_Vampires	false	Quest		false		0.0000	false
+rhox_nagash_mortarch_notify	false	mixer_nag_nagash/nagash_absorbs_undead	false	Quest		false		0.0000	false
+rhox_nagash_declare_war	false	mixer_nag_nagash/nagash_does_not_absorb_undead_faction_goes_to_war	false	Quest		false		0.0000	false
+rhox_nagash_victory	false	mixer_nag_nagash/nagash_destroys_the_world	false	Quest		true		0.0000	false
+rhox_nagash_force_vassalised	false	mixer_nag_nagash/nagash_absorbs_undead	false	Event		false		0.0000	false
+rhox_nagash_harkon_restoed_incident	false	mixer_nag_nagash/luthor_harkon_restores_his_mind	false	Quest		false		0.0000	false
+rhox_nagash_force_vassalised_coast	false	mixer_nag_nagash/nagash_absorbs_undead_vampire_coast	false	Event		false		0.0000	false
+rhox_nagash_force_vassalised_tk	false	mixer_nag_nagash/nagash_absorbs_undead_tomb_kings	false	Event		false		0.0000	false
+rhox_nagash_force_vassalised_jv	false	mixer_nag_nagash/nagash_absorbs_undead_jade_vampires	false	Event		false		0.0000	false
+rhox_nagash_mortarch_notify_coast	false	mixer_nag_nagash/nagash_absorbs_undead_vampire_coast	false	Quest		false		0.0000	false
+rhox_nagash_mortarch_notify_tk	false	mixer_nag_nagash/nagash_absorbs_undead_tomb_kings	false	Quest		false		0.0000	false
+rhox_nagash_mortarch_notify_jv	false	mixer_nag_nagash/nagash_absorbs_undead_jade_vampires	false	Quest		false		0.0000	false
 rhox_nagash_declare_war_coast	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000	false
 rhox_nagash_declare_war_tk	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000	false
 rhox_nagash_declare_war_jv	false	mixer_nag_nagash/Nagash_Does_Not_Absorb_Undead_Faction_Goes_to_War	false	Quest		false		0.0000	false
@@ -20,8 +20,8 @@ rhox_nagash_lahmia_force_vassalised	false	messenger	false	Event		false		0.0000	f
 rhox_nagash_lahmia_faction_available_for_vassalisation	false	messenger	false	Event		false		0.0000	false
 rhox_nagash_lahmia_levy_provided	false	diplomacy	false	Event		false		0.0000	false
 rhox_nagash_lahmia_enemy_deserted	false	army_morale_up	false	Event		false		0.0000	false
-rhox_nagash_lahmia_incident_cult_created	false	Lesser_Bay_biting_a_peasant_in_1	false	Event	event_region_positive.png	false		0.0000	false
-rhox_nagash_lahmia_incident_cult_created2	false	Lesser_Bay_biting_a_peasant_in_2	false	Event	event_region_positive.png	false		0.0000	false
+rhox_nagash_lahmia_incident_cult_created	false	lesser_bay_biting_a_peasant_in_1	false	Event	event_region_positive.png	false		0.0000	false
+rhox_nagash_lahmia_incident_cult_created2	false	lesser_bay_biting_a_peasant_in_2	false	Event	event_region_positive.png	false		0.0000	false
 rhox_nagash_guin_arrive	false	messenger	false	Event		false		0.0000	false
 rhox_nagash_guin_leave	false	messenger	false	Event		false		0.0000	false
 rhox_nagash_kalledria_story_panel_hex_1	false	messenger	false	Event		true		0.0000	false

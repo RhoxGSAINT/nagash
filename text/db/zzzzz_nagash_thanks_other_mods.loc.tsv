@@ -125,8 +125,8 @@ effects_description_dread_legion_all_phyres		false
 effects_description_dread_legion_all_leadership		false
 effects_description_Dread_Aura		false
 effects_description_dread_effect_discouraged_attacks_royal_guard		false
-land_units_onscreen_name_nag_nagash_dummy_for_other_mods	You need other mod in order to play this character/unit	false
-unit_description_short_texts_text_nag_nagash_dummy_for_other_mods	You need other mod in order to play this character/unit.\\nDieter& Drekla: Mixu's LL\\nDread King & Hand: OvN Dread King Legions	false
+land_units_onscreen_name_nag_nagash_dummy_for_other_mods	You need other mod in order to play this character, unit	false
+unit_description_short_texts_text_nag_nagash_dummy_for_other_mods	You need other mod in order to play this character, unit.\\nDieter& Drekla: Mixu's LL\\nDread King & Hand: OvN Dread King Legions	false
 campaigns_bullet_list_cr_oldworld		false
 campaigns_description_cr_oldworld		false
 campaigns_onscreen_name_cr_oldworld		false

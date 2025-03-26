@@ -474,7 +474,7 @@
 				<component_image
 					this="589DA2EE-3192-989C-AA21E71DD0493358"
 					uniqueguid="589DA2EE-3192-989C-AA21E71DD0493358"
-					imagepath="ui/skins/mixer_nag_nagash/PlacesOfDeath.png"/>
+					imagepath="ui/skins/mixer_nag_nagash/placesofdeath.png"/>
 			</componentimages>
 			<states>
 				<default
