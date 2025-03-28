@@ -409,11 +409,15 @@ core:add_listener(
         return context.string == "rituals_panel" and cm:get_local_faction_name(true) == nagash_faction
 	end,
 	function()
-        
         local rituals_list = find_uicomponent(core:get_ui_root(), "rituals_panel", "panel_frame", "context_rituals_list")
+        if not rituals_list then
+            out("Rhox Nagash: Failed to find the parent, so abandoning the scrollbar creation")
+            return false;
+        end 
+        
         local result = core:get_or_create_component("rhox_horizontal_view", "ui/campaign ui/rhox_nagash_rite_scrollbar.twui.xml", rituals_list)
         if not result then
-            script_error("Rhox all rite: ".. "ERROR: could not create horizontal view ui component? How can this be?");
+            out("Rhox all rite: ".. "ERROR: could not create horizontal view ui component? How can this be?");
             return false;
         end;
         
