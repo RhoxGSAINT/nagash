@@ -1,7 +1,6 @@
 unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 #unit_set_to_unit_junctions_tables;1;db/unit_set_to_unit_junctions_tables/rhox_nagash					
 			nag_burning_dead	nag_burning_dead	false
-			nag_tomb_banshee	ethereal	false
 			nag_mortarch_luthor	mixu_cst_luthor_harkon	false
 			nag_mortarch_luthor_terrorgheist	mixu_cst_luthor_harkon	false
 			nag_mortarch_luthor	mp_cap_group_360_degree_fire	false

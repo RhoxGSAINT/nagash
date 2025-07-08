@@ -26,7 +26,6 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_syreen_mournguls	false
 			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_terrorgheist_scurvy_dogs_syreen	false
 			nag_vanilla_cst_inf_syreen	all_units_excluding_terror	false
-			nag_vanilla_cst_inf_syreen	ethereal	false
 			nag_vanilla_cst_inf_syreen	mp_cap_unit_vmp_inf_cairn_wraiths	false
 			nag_vanilla_cst_inf_syreen	vmp_all	false
 			nag_vanilla_cst_inf_syreen	vmp_bound_spirits	false
