@@ -476,6 +476,7 @@ cm:add_first_tick_callback(
     function()
         if cm:model():campaign_name_key() == "cr_combi_expanded" then
             table.insert(rhox_nagash_kalledria.hex_data.rhox_kalledria_jinxed_land.hex, "wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_the_far_place")
+            table.insert(rhox_nagash_kalledria.hex_data.rhox_kalledria_jinxed_land.hex, "wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_aranyas_glade")
         end
         rhox_nagash_kalledria:initialise()
         if cm:get_local_faction_name(true) == rhox_nagash_kalledria.kalledria_faction then           

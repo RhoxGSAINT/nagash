@@ -22,6 +22,8 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	wh2_dlc09_tmb_tomb_guards_chariots	false
 			nag_vanilla_tmb_veh_skeleton_chariot_0	wh2_dlc09_tmb_tomb_guards_chariots	false
 			nag_undead_chariot_unit	wh2_dlc09_tmb_tomb_guards_chariots	false
+			nag_vanilla_tmb_veh_skeleton_archer_chariot_0	wh2_dlc09_tmb_veh_skeleton_archer_chariot_0	false
+			nag_vanilla_tmb_veh_skeleton_chariot_0	wh2_dlc09_tmb_veh_skeleton_chariot_0	false
 			nag_vanilla_vmp_inf_crypt_ghouls	vmp_ghouls	false
 			nag_vanilla_vmp_mon_crypt_horrors	vmp_horrors	false
 			nag_vanilla_vmp_inf_zombie	vmp_zombies	false

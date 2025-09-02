@@ -791,6 +791,10 @@ nag_skill_tmb_tomb_prince_personal_10	nag_skill_tmb_tomb_prince_personal_6	0	1	1
 nag_skill_tmb_tomb_prince_personal_10	nag_skill_tmb_tomb_prince_personal_7	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_tmb_tomb_prince_personal_10	nag_skill_tmb_tomb_prince_personal_8	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
 nag_skill_tmb_tomb_prince_personal_10	nag_skill_tmb_tomb_prince_personal_9	0	1	1	0.0000	0.0000	SUBSET_REQUIRED
+nag_skill_tmb_tomb_prince_unique_1	nag_skill_tmb_tomb_prince_unique_0	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_tmb_tomb_prince_unique_2	nag_skill_tmb_tomb_prince_unique_1	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_tmb_tomb_prince_unique_4	nag_skill_tmb_tomb_prince_unique_3	0	1	1	0.0000	0.0000	REQUIRED
+nag_skill_tmb_tomb_prince_unique_5	nag_skill_tmb_tomb_prince_unique_4	0	1	1	0.0000	0.0000	REQUIRED
 nag_skill_tmb_tomb_king_army_1	nag_skill_tmb_tomb_king_army_0	0	1	1	0.0000	0.0000	REQUIRED
 nag_skill_tmb_tomb_king_army_2	nag_skill_tmb_tomb_king_army_0	0	1	1	0.0000	0.0000	REQUIRED
 nag_skill_tmb_tomb_king_army_3	nag_skill_tmb_tomb_king_army_0	0	1	1	0.0000	0.0000	REQUIRED
