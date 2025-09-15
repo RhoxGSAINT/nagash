@@ -18,4 +18,4 @@ nag_doomed_legion_axe	0	10	34	14	1.0000	axe	axe		1	1.0000	1.2500	0.0000	true	wh2
 nag_burning_dead_axes	0	6	30	9	1.0000	sword	sword		1	1.0000	1.0000	20.0000	true		0	10	4.0000		false
 nag_nagashi_lance	0	0	12	38	1.0000	lance	spear		1	1.0000	0.7500	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	5.1000		false
 nag_nagashi_doom_lance	0	0	15	38	0.0000	lance	spear		1	1.0000	0.7500	0.0000	true	wh_dlc08_unit_contact_frostbite	0	10	5.1000		false
-nag_kalledria_harp	0	10	220	20	3.0000	lance	dlc15_troll_hag_net	very_large	10	2.0000	1.0000	0.0000	true		0	10	4.5000		false
+nag_kalledria_harp	0	10	0	240	3.0000	lance	dlc15_troll_hag_net	very_large	10	2.0000	1.0000	0.0000	true		0	10	4.5000		false
