@@ -1,0 +1,10 @@
+base_battlefield_building	culture	prefab_path	settlement_gun_type	survival_gun_type	settlement_construction_delay	settlement_dismantle_delay	survival_construction_delay	survival_dismantle_delay
+#toggle_system_building_variants_tables;2;db/toggle_system_building_variants_tables/rhox_nagash								
+blk_ksl_tower_30m_01	mixer_nag_nagash	prefabs\vmp_toggle_tower_01.bmd	wh3_main_vmp_placement_tower_1_bones	wh3_survival_tower_vmp_bones	90.0000	45.0000	30.0000	30.0000
+blk_ksl_tower_30m_02	mixer_nag_nagash	prefabs\vmp_toggle_tower_02.bmd	wh3_main_vmp_placement_tower_2_bones_improved	wh3_survival_tower_vmp_bones_improved	90.0000	45.0000	30.0000	30.0000
+blk_ksl_tower_30m_03	mixer_nag_nagash	prefabs\vmp_toggle_tower_03.bmd	wh3_main_vmp_placement_tower_3_caged_bats	wh3_survival_tower_vmp_caged_bats	90.0000	45.0000	30.0000	30.0000
+blk_ksl_tower_30m_04	mixer_nag_nagash	prefabs\vmp_toggle_tower_04.bmd	wh3_main_vmp_placement_tower_4_corpse_ball	wh3_survival_tower_vmp_corpse_ball	90.0000	45.0000	30.0000	30.0000
+glb_barricade_01	mixer_nag_nagash	prefabs\vmp_barricade_01.bmd			30.0000	15.0000	30.0000	15.0000
+glb_barricade_ice_block_01	mixer_nag_nagash	prefabs\vmp_blocker_01.bmd			30.0000	15.0000	30.0000	15.0000
+glb_barricade_monument_01	mixer_nag_nagash	prefabs\vmp_monument_undertakers.bmd			30.0000	15.0000	30.0000	15.0000
+glb_barricade_traps_01	mixer_nag_nagash	prefabs\vmp_trap_01.bmd			30.0000	15.0000	30.0000	15.0000

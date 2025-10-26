@@ -1,0 +1,4 @@
+blockade	culture	model_bmd
+#campaign_settlement_display_building_siege_models_tables;0;db/campaign_settlement_display_building_siege_models_tables/rhox_nagash		
+false	mixer_nag_nagash	prefabs/campaign/greenskins_siege.bmd
+true	mixer_nag_nagash	prefabs/campaign/greenskins_siege.bmd
