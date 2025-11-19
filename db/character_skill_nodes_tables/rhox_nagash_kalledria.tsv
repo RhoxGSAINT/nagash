@@ -28,3 +28,4 @@ nag_kalledria_self_ranged_03		wh2_dlc11_skill_wef_lord_self_piercing_shots		3	2	
 nag_kalledria_self_ranged_04		wh2_dlc11_skill_wef_lord_self_expeditious_endeavour		3	3		0	0	true
 nag_kalledria_self_ranged_05		wh2_dlc11_skill_wef_lord_self_fleetfinger		3	4		0	0	true
 nag_kalledria_self_ranged_06		wh3_dlc24_skill_ksl_druzhina_self_cursed_frontier		3	5		0	4	true
+nag_skill_mentor_kalledria		wh3_main_skill_all_mentor_lord		0	11		0	0	true
