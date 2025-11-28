@@ -114,7 +114,23 @@ local modded_units_nagash_compatch = {
     {"nag_vanilla_vmp_cav_blood_knights_0", "rare", 2},
     {"nag_vanilla_vmp_mon_varghulf", "rare", 2},
     
-        
+     
+    ----Dread King units     
+
+    --Core
+    {"nagash_ovn_dk_inf_skeleton_hoplites", "core"},
+    {"nagash_ovn_dk_inf_skeleton_pikemen", "core"},
+    {"nagash_ovn_dk_inf_skeleton_javelinmen_no_caps", "core"},
+    
+    --Special
+    {"nagash_ovn_dk_cav_royal_guard_lancers", "special", 1},
+    {"nagash_ovn_dk_inf_tomb_guardian", "special", 1},
+    {"nagash_ovn_dk_inf_tomb_guardian_peltasts", "special", 1},
+    
+    --Rare
+    {"nagash_ovn_dk_mon_skeleton_elephant", "rare", 2},
+
+    
     ----Speshul units
     
     --Core
@@ -130,6 +146,37 @@ local modded_units_nagash_compatch = {
     {"vigpro_nagash_skeleton_giant", "rare", 2},
 
     
+    ----Neferata non-Vampire Counts units    
+   
+    --Core
+    {"rhox_nagash_lahmia_brt_cav_knights_of_the_realm", "core"},
+    {"rhox_nagash_lahmia_chd_inf_chaos_dwarf_blunderbusses", "core"},
+    {"rhox_nagash_lahmia_dwf_inf_dwarf_warrior_0", "core"},
+    
+    --Special
+    {"rhox_nagash_lahmia_def_cav_cold_one_knights_1", "special", 1},  
+    {"rhox_nagash_lahmia_hef_inf_white_lions_of_chrace_0", "special", 1},      
+    {"rhox_nagash_lahmia_nor_inf_marauder_berserkers_0", "special", 1},      
+    {"rhox_nagash_lahmia_ogr_inf_ironguts_0", "special", 1},        
+    {"rhox_nagash_lahmia_wef_inf_wardancers_0", "special", 1},    
+    {"rhox_nagash_lahmia_hef_inf_swordmasters_of_hoeth_0", "special", 2},  
+    {"rhox_nagash_lahmia_def_inf_shades_2", "special", 2},
+    {"rhox_nagash_lahmia_brt_cav_questing_knights_0", "special", 2},
+    {"rhox_nagash_lahmia_hef_inf_swordmasters_of_hoeth_0", "special", 2},
+    {"rhox_nagash_lahmia_ksl_cav_war_bear_riders_1", "special", 3},    
+    {"rhox_nagash_lahmia_ksl_veh_heavy_war_sled_0", "special", 3},       
+    
+    --Rare
+    {"rhox_nagash_lahmia_cth_inf_dragon_guard_0", "rare", 1},
+    {"rhox_nagash_lahmia_cth_inf_dragon_guard_crossbowmen_0", "rare", 1}, 
+    {"rhox_nagash_lahmia_wef_inf_waywatchers_0", "rare", 1},     
+    {"rhox_nagash_lahmia_dwf_art_flame_cannon", "rare", 2},    
+    {"rhox_nagash_lahmia_emp_art_helblaster_volley_gun", "rare", 2},  
+    {"rhox_nagash_lahmia_emp_art_helstorm_rocket_battery", "rare", 2},    
+    {"rhox_nagash_lahmia_ogr_cav_crushers_0", "rare", 2},        
+    {"rhox_nagash_lahmia_chd_veh_dreadquake_mortar", "rare", 3},    
+    {"rhox_nagash_lahmia_nor_mon_war_mammoth_1", "rare", 3},    
+
 }
 
 local ttc = core:get_static_object("tabletopcaps")
