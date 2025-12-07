@@ -6,6 +6,8 @@ nag_outpost_primary_main_2				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_
 nag_outpost_primary_main_3				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true	
 nag_outpost_secondary_main_ruin				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	wh_main_settlement_major_ruin	true	
 nag_outpost_secondary_main_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true	
+nag_outpost_secondary_main_port_ruin				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	wh_main_settlement_major_ruin	true	
+nag_outpost_secondary_main_port_1				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	nag_nagash_settlement	true	
 nag_outpost_special_nagashizzar_ruin				wh_main_PLACEHOLDER	tmb_settlement_ruin	false	wh_main_settlement_major_ruin	true	
 nag_outpost_special_nagashizzar_1				wh_main_PLACEHOLDER	nag_city_nagashizzar_building_icon	false	nag_outpost_special_nagashizzar_1	true	
 nag_outpost_special_nagashizzar_2				wh_main_PLACEHOLDER	nag_city_nagashizzar_building_icon	false	nag_outpost_special_nagashizzar_2	true	

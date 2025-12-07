@@ -6,6 +6,8 @@ nag_outpost_primary_main_2	nag_outpost_primary_main	2	3	1600	0		false	false			tr
 nag_outpost_primary_main_3	nag_outpost_primary_main	3	4	3200	0		false	false			true	nag_outpost_primary_main	false	0.0000	2	true	0	wh2_cam_settlement_major_tombkings	true	0	0		0		-1
 nag_outpost_secondary_main_ruin	nag_outpost_secondary_main	0	1	0	0		false	false			true	nag_outpost_secondary_main	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0		-1
 nag_outpost_secondary_main_1	nag_outpost_secondary_main	1	1	300	0		false	false			true	nag_outpost_secondary_main	false	0.0000	0	true	0	wh2_cam_settlement_minor_tombkings	true	0	0		0		-1
+nag_outpost_secondary_main_port_ruin	nag_outpost_secondary_main_port	0	1	0	0		false	false			true	nag_outpost_secondary_main	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0		-1
+nag_outpost_secondary_main_port_1	nag_outpost_secondary_main_port	1	1	300	0		false	false			true	nag_outpost_secondary_main	false	0.0000	0	true	0	wh2_cam_settlement_minor_tombkings	true	0	0		0		-1
 nag_outpost_main_port_ruin	nag_outpost_main_port	0	1	0	0		false	false			true	nag_outpost_main_port	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0		-1
 nag_outpost_main_port_1	nag_outpost_main_port	1	1	500	0		false	false			true	nag_outpost_main_port	false	0.0000	0	true	0	wh_cam_settlement_tombkings_port	true	0	0		1		-1
 nag_outpost_special_nagashizzar_ruin	nag_outpost_special_nagashizzar	0	1	0	0		false	false			true	nag_outpost_special_nagashizzar	false	0.0000	0	false	0	wh_cam_settlement_generic_ruin	true	0	0		0		-1

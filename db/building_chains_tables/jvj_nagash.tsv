@@ -2,6 +2,7 @@ key	tech_category_tab	tech_category_position	chain_category	in_encyclopedia	buil
 #building_chains_tables;10;db/building_chains_tables/jvj_nagash										
 nag_outpost_primary_main			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
 nag_outpost_secondary_main			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
+nag_outpost_secondary_main_port			military	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
 nag_outpost_main_port			money	false	wh_main_sch_port		0		true	false
 nag_outpost_special_nagashizzar			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false
 nag_outpost_special_mourkain			money	false	wh_main_sch_main_settlement	data\UI\Buildings\tier_icons\tier_tmb_city.png	0		true	false

@@ -2,6 +2,7 @@ building_chain	building_instance	building_or_building_range_start_inclusive	buil
 #cai_construction_system_building_values_tables;0;db/cai_construction_system_building_values_tables/jvj_nagash																												
 		nag_outpost_primary_main_1	nag_outpost_primary_main_3			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
 		nag_outpost_secondary_main_1	nag_outpost_secondary_main_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
+		nag_outpost_secondary_main_port_1	nag_outpost_secondary_main_port_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
 		nag_outpost_main_port_1	nag_outpost_main_port_1			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	50	50
 		nag_outpost_special_nagashizzar_1	nag_outpost_special_nagashizzar_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
 		nag_outpost_special_mourkain_1	nag_outpost_special_mourkain_5			cai_military_group					-1	-1	0	0	0	0	0	0	-1	-1	0	0	0	0	0	0	60	25
