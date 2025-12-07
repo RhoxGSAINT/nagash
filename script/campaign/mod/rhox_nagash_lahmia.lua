@@ -75,7 +75,7 @@ local function rhox_nagash_lahmia_init_setting()
     for i=1,#levies do
         local faction = cm:get_faction(lahmia_faction)
         local unit = levies[i]
-        cm:add_unit_to_faction_mercenary_pool(faction, unit, "rhox_nagash_lahmia_levy", 0, 0, 20, 0, "", "", "", true, unit)
+        cm:add_unit_to_faction_mercenary_pool(faction, unit, "", 0, 0, 20, 0, "", "", "", true, unit)
     end
 
     

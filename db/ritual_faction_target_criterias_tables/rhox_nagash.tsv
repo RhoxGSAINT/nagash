@@ -1,4 +1,4 @@
-key	is_human_only	permitted_faction_set	ui_info	require_war_declaration_ability	diplomatic_faction_set	require_not_at_war
-#ritual_faction_target_criterias_tables;1;db/ritual_faction_target_criterias_tables/rhox_nagash						
-rhox_nagash_undead_faction	False	rhox_nagash_undead_faction		false		false
-rhox_nagash_lahmia_vassal_faction	False	rhox_nagash_lahmia_target		false		false
+key	is_human_only	permitted_faction_set	ui_info	require_war_declaration_ability	diplomatic_faction_set	require_not_at_war	allow_vassals_of_humans	context_requirement
+#ritual_faction_target_criterias_tables;3;db/ritual_faction_target_criterias_tables/rhox_nagash								
+rhox_nagash_undead_faction	False	rhox_nagash_undead_faction		false		false	true	
+rhox_nagash_lahmia_vassal_faction	False	rhox_nagash_lahmia_target		false		false	true	

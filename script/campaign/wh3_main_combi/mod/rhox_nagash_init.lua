@@ -647,7 +647,7 @@ cm:add_first_tick_callback(
             for i=0,region_list:num_items()-1 do
                 local region= region_list:item_at(i)
                 for key, unit in pairs(RHOX_NAGASH_BASIC_RAISE_DEAD_UNITS) do
-                    cm:add_unit_to_province_mercenary_pool(region, key, "raise_dead", unit[1], unit[2], unit[3], 1, "", "mixer_nag_nagash", "", false, "wh_main_vmp_province_pool")
+                    cm:add_unit_to_province_mercenary_pool(region, key, "wh_main_vmp_province_pool", unit[1], unit[2], unit[3], 1, "", "mixer_nag_nagash", "", false, key)
                 end
             end
             

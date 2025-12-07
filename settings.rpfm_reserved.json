@@ -8,7 +8,7 @@
   },
   "settings_bool": {
     "disable_autosaves": false,
-    "do_not_generate_existing_locs": false
+    "do_not_generate_existing_locs": true
   },
   "settings_number": {}
 }

@@ -1,4 +1,4 @@
-key	faction_criteria	military_force_criteria	region_criteria
-#ritual_targets_tables;0;db/ritual_targets_tables/rhox_nagash			
-rhox_nagash_undead_faction	rhox_nagash_undead_faction		
-rhox_nagash_lahmia_vassal_faction	rhox_nagash_lahmia_vassal_faction		
+key	faction_criteria	military_force_criteria	region_criteria	enable_outline_highlight	highlight_colour_selected_target	highlight_colour_no_target_selected	highlight_colour_with_target_selected
+#ritual_targets_tables;2;db/ritual_targets_tables/rhox_nagash							
+rhox_nagash_undead_faction	rhox_nagash_undead_faction			false	FFFFFF	FFFFFF	FFFFFF
+rhox_nagash_lahmia_vassal_faction	rhox_nagash_lahmia_vassal_faction			false	FFFFFF	FFFFFF	FFFFFF

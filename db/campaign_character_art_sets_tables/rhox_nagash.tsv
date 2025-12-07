@@ -1,85 +1,85 @@
-art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale
-#campaign_character_art_sets_tables;6;db/campaign_character_art_sets_tables/rhox_nagash								
-nag_nagash_boss	general				false	true	nag_nagash_boss	1.0000
-nag_nagash_husk	general				false	true	nag_nagash_husk	1.0000
-nag_mortarch_luthor_1	general				false	true	nag_mortarch_luthor	1.0000
-nag_mortarch_luthor_2	general				false	true	nag_mortarch_luthor	1.0000
-nag_mortarch_luthor_3	general				false	true	nag_mortarch_luthor	1.0000
-nag_mortarch_luthor_4	general				false	true	nag_mortarch_luthor	1.0000
-nag_mortarch_vlad	general				false	true	nag_mortarch_vlad	1.0000
-nag_mortarch_mannfred	general				false	true	nag_mortarch_mannfred	1.0000
-nag_mortarch_arkhan	general				false	true	nag_mortarch_arkhan	1.0000
-nag_mortarch_krell	general				false	true	nag_mortarch_krell	1.0000
-nag_mortarch_neferata	general				false	true	nag_mortarch_neferata	1.0000
-nag_traitor_king_01	general				false	true	nag_traitor_king	1.0000
-nag_traitor_king_02	general				false	true	nag_traitor_king	1.0000
-nag_traitor_king_03	general				false	true	nag_traitor_king	1.0000
-nag_traitor_king_04	general				false	true	nag_traitor_king	1.0000
-nag_traitor_king_05	general				false	true	nag_traitor_king	1.0000
-nag_mortarch_isabella	dignitary				false	false	nag_mortarch_isabella	1.0000
-nag_tomb_prince_01	champion				false	true	nag_tomb_prince	1.0000
-nag_tomb_prince_02	champion				false	true	nag_tomb_prince	1.0000
-nag_tomb_prince_03	champion				false	true	nag_tomb_prince	1.0000
-nag_tomb_prince_04	champion				false	true	nag_tomb_prince	1.0000
-nag_tomb_prince_05	champion				false	true	nag_tomb_prince	1.0000
-nag_liche_priest_01_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
-nag_liche_priest_01_death	wizard				false	true	nag_liche_priest_death	1.0000
-nag_liche_priest_01_light	wizard				false	true	nag_liche_priest_light	1.0000
-nag_liche_priest_01_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
-nag_liche_priest_01_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
-nag_liche_priest_02_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
-nag_liche_priest_02_death	wizard				false	true	nag_liche_priest_death	1.0000
-nag_liche_priest_02_light	wizard				false	true	nag_liche_priest_light	1.0000
-nag_liche_priest_02_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
-nag_liche_priest_02_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
-nag_liche_priest_03_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
-nag_liche_priest_03_death	wizard				false	true	nag_liche_priest_death	1.0000
-nag_liche_priest_03_light	wizard				false	true	nag_liche_priest_light	1.0000
-nag_liche_priest_03_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
-nag_liche_priest_03_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
-nag_liche_priest_04_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
-nag_liche_priest_04_death	wizard				false	true	nag_liche_priest_death	1.0000
-nag_liche_priest_04_light	wizard				false	true	nag_liche_priest_light	1.0000
-nag_liche_priest_04_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
-nag_liche_priest_04_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
-nag_liche_priest_05_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000
-nag_liche_priest_05_death	wizard				false	true	nag_liche_priest_death	1.0000
-nag_liche_priest_05_light	wizard				false	true	nag_liche_priest_light	1.0000
-nag_liche_priest_05_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000
-nag_liche_priest_05_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000
-nag_vampire_01	dignitary				false	false	nag_vampire	1.0000
-nag_vampire_02	dignitary				false	false	nag_vampire	1.0000
-nag_vampire_03	dignitary				false	false	nag_vampire	1.0000
-nag_vampire_alt_01	dignitary				false	false	nag_vampire_shadow	1.0000
-nag_vampire_alt_02	dignitary				false	false	nag_vampire_shadow	1.0000
-nag_vampire_alt_03	dignitary				false	false	nag_vampire_shadow	1.0000
-nag_wight_king_01	champion				false	true	nag_wight_king	1.0000
-nag_wight_king_02	champion				false	true	nag_wight_king	1.0000
-nag_wight_king_03	champion				false	true	nag_wight_king	1.0000
-nag_wight_king_04	champion				false	true	nag_wight_king	1.0000
-nag_gunnery_wight_01	engineer				false	true	nag_gunnery_wight	1.0000
-nag_gunnery_wight_02	engineer				false	true	nag_gunnery_wight	1.0000
-nag_morghasts_archai	spy				false	true	nag_morghasts_archai	1.0000
-nag_mixu_art_set_vmp_dieter_helsnicht	general				false	true	nag_mortarch_dieter	1.0000
-nag_mortarch_azhag	general				false	true	nag_mortarch_azhag	1.0000
-nag_lahmia_neferata	general				false	true	nag_lahmia_neferata	1.0000
-nag_vampire_lord_01	general				false	true	nag_vampire_lord	1.0000
-nag_vampire_lord_02	general				false	true	nag_vampire_lord	1.0000
-nag_vampire_lord_03	general				false	true	nag_vampire_lord	1.0000
-nag_vampire_lord_04	general				false	true	nag_vampire_lord	1.0000
-nag_vampire_lord_05	general				false	true	nag_vampire_lord	1.0000
-nag_master_necromancer_01	general				false	true	nag_master_necromancer	1.0000
-nag_master_necromancer_02	general				false	true	nag_master_necromancer	1.0000
-nag_master_necromancer_03	general				false	true	nag_master_necromancer	1.0000
-nag_master_necromancer_04	general				false	true	nag_master_necromancer	1.0000
-nag_tomb_banshee_01	runesmith				false	false	nag_tomb_banshee	1.0000
-nag_tomb_banshee_02	runesmith				false	false	nag_tomb_banshee	1.0000
-nag_tomb_banshee_03	runesmith				false	false	nag_tomb_banshee	1.0000
-nag_mortarch_dk	general				false	true	nag_mortarch_dk	1.0000
-nag_mortarch_hand	champion				false	true	nag_mortarch_hand	1.0000
-nag_mortarch_drekla	dignitary				false	false	nag_mortarch_drekla	1.0000
-nag_guinevere	dignitary				false	false	nag_guinevere	1.0000
-nag_guinevere_male	dignitary				false	true	nag_guinevere	1.0000
-nag_mortarch_kalledria	general				false	true	nag_mortarch_kalledria	1.0000
-nag_vmp_kalledria	general				false	true	nag_vmp_kalledria	1.0000
-rhox_nagash_banshee_summoned	general				false	true	rhox_nagash_banshee_summoned	1.0000
+art_set_id	agent_type	culture	subculture	faction	is_custom	is_male	agent_subtype	campaign_map_scale	prebattle_separation_offset
+#campaign_character_art_sets_tables;7;db/campaign_character_art_sets_tables/rhox_nagash									
+nag_nagash_boss	general				false	true	nag_nagash_boss	1.0000	0.0000
+nag_nagash_husk	general				false	true	nag_nagash_husk	1.0000	0.0000
+nag_mortarch_luthor_1	general				false	true	nag_mortarch_luthor	1.0000	0.0000
+nag_mortarch_luthor_2	general				false	true	nag_mortarch_luthor	1.0000	0.0000
+nag_mortarch_luthor_3	general				false	true	nag_mortarch_luthor	1.0000	0.0000
+nag_mortarch_luthor_4	general				false	true	nag_mortarch_luthor	1.0000	0.0000
+nag_mortarch_vlad	general				false	true	nag_mortarch_vlad	1.0000	0.0000
+nag_mortarch_mannfred	general				false	true	nag_mortarch_mannfred	1.0000	0.0000
+nag_mortarch_arkhan	general				false	true	nag_mortarch_arkhan	1.0000	0.0000
+nag_mortarch_krell	general				false	true	nag_mortarch_krell	1.0000	0.0000
+nag_mortarch_neferata	general				false	true	nag_mortarch_neferata	1.0000	0.0000
+nag_traitor_king_01	general				false	true	nag_traitor_king	1.0000	0.0000
+nag_traitor_king_02	general				false	true	nag_traitor_king	1.0000	0.0000
+nag_traitor_king_03	general				false	true	nag_traitor_king	1.0000	0.0000
+nag_traitor_king_04	general				false	true	nag_traitor_king	1.0000	0.0000
+nag_traitor_king_05	general				false	true	nag_traitor_king	1.0000	0.0000
+nag_mortarch_isabella	dignitary				false	false	nag_mortarch_isabella	1.0000	0.0000
+nag_tomb_prince_01	champion				false	true	nag_tomb_prince	1.0000	0.0000
+nag_tomb_prince_02	champion				false	true	nag_tomb_prince	1.0000	0.0000
+nag_tomb_prince_03	champion				false	true	nag_tomb_prince	1.0000	0.0000
+nag_tomb_prince_04	champion				false	true	nag_tomb_prince	1.0000	0.0000
+nag_tomb_prince_05	champion				false	true	nag_tomb_prince	1.0000	0.0000
+nag_liche_priest_01_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000	0.0000
+nag_liche_priest_01_death	wizard				false	true	nag_liche_priest_death	1.0000	0.0000
+nag_liche_priest_01_light	wizard				false	true	nag_liche_priest_light	1.0000	0.0000
+nag_liche_priest_01_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000	0.0000
+nag_liche_priest_01_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000	0.0000
+nag_liche_priest_02_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000	0.0000
+nag_liche_priest_02_death	wizard				false	true	nag_liche_priest_death	1.0000	0.0000
+nag_liche_priest_02_light	wizard				false	true	nag_liche_priest_light	1.0000	0.0000
+nag_liche_priest_02_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000	0.0000
+nag_liche_priest_02_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000	0.0000
+nag_liche_priest_03_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000	0.0000
+nag_liche_priest_03_death	wizard				false	true	nag_liche_priest_death	1.0000	0.0000
+nag_liche_priest_03_light	wizard				false	true	nag_liche_priest_light	1.0000	0.0000
+nag_liche_priest_03_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000	0.0000
+nag_liche_priest_03_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000	0.0000
+nag_liche_priest_04_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000	0.0000
+nag_liche_priest_04_death	wizard				false	true	nag_liche_priest_death	1.0000	0.0000
+nag_liche_priest_04_light	wizard				false	true	nag_liche_priest_light	1.0000	0.0000
+nag_liche_priest_04_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000	0.0000
+nag_liche_priest_04_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000	0.0000
+nag_liche_priest_05_nehek	wizard				false	true	nag_liche_priest_nehekhara	1.0000	0.0000
+nag_liche_priest_05_death	wizard				false	true	nag_liche_priest_death	1.0000	0.0000
+nag_liche_priest_05_light	wizard				false	true	nag_liche_priest_light	1.0000	0.0000
+nag_liche_priest_05_shadow	wizard				false	true	nag_liche_priest_shadow	1.0000	0.0000
+nag_liche_priest_05_undeath	wizard				false	true	nag_liche_priest_undeath	1.0000	0.0000
+nag_vampire_01	dignitary				false	false	nag_vampire	1.0000	0.0000
+nag_vampire_02	dignitary				false	false	nag_vampire	1.0000	0.0000
+nag_vampire_03	dignitary				false	false	nag_vampire	1.0000	0.0000
+nag_vampire_alt_01	dignitary				false	false	nag_vampire_shadow	1.0000	0.0000
+nag_vampire_alt_02	dignitary				false	false	nag_vampire_shadow	1.0000	0.0000
+nag_vampire_alt_03	dignitary				false	false	nag_vampire_shadow	1.0000	0.0000
+nag_wight_king_01	champion				false	true	nag_wight_king	1.0000	0.0000
+nag_wight_king_02	champion				false	true	nag_wight_king	1.0000	0.0000
+nag_wight_king_03	champion				false	true	nag_wight_king	1.0000	0.0000
+nag_wight_king_04	champion				false	true	nag_wight_king	1.0000	0.0000
+nag_gunnery_wight_01	engineer				false	true	nag_gunnery_wight	1.0000	0.0000
+nag_gunnery_wight_02	engineer				false	true	nag_gunnery_wight	1.0000	0.0000
+nag_morghasts_archai	spy				false	true	nag_morghasts_archai	1.0000	0.0000
+nag_mixu_art_set_vmp_dieter_helsnicht	general				false	true	nag_mortarch_dieter	1.0000	0.0000
+nag_mortarch_azhag	general				false	true	nag_mortarch_azhag	1.0000	0.0000
+nag_lahmia_neferata	general				false	true	nag_lahmia_neferata	1.0000	0.0000
+nag_vampire_lord_01	general				false	true	nag_vampire_lord	1.0000	0.0000
+nag_vampire_lord_02	general				false	true	nag_vampire_lord	1.0000	0.0000
+nag_vampire_lord_03	general				false	true	nag_vampire_lord	1.0000	0.0000
+nag_vampire_lord_04	general				false	true	nag_vampire_lord	1.0000	0.0000
+nag_vampire_lord_05	general				false	true	nag_vampire_lord	1.0000	0.0000
+nag_master_necromancer_01	general				false	true	nag_master_necromancer	1.0000	0.0000
+nag_master_necromancer_02	general				false	true	nag_master_necromancer	1.0000	0.0000
+nag_master_necromancer_03	general				false	true	nag_master_necromancer	1.0000	0.0000
+nag_master_necromancer_04	general				false	true	nag_master_necromancer	1.0000	0.0000
+nag_tomb_banshee_01	runesmith				false	false	nag_tomb_banshee	1.0000	0.0000
+nag_tomb_banshee_02	runesmith				false	false	nag_tomb_banshee	1.0000	0.0000
+nag_tomb_banshee_03	runesmith				false	false	nag_tomb_banshee	1.0000	0.0000
+nag_mortarch_dk	general				false	true	nag_mortarch_dk	1.0000	0.0000
+nag_mortarch_hand	champion				false	true	nag_mortarch_hand	1.0000	0.0000
+nag_mortarch_drekla	dignitary				false	false	nag_mortarch_drekla	1.0000	0.0000
+nag_guinevere	dignitary				false	false	nag_guinevere	1.0000	0.0000
+nag_guinevere_male	dignitary				false	true	nag_guinevere	1.0000	0.0000
+nag_mortarch_kalledria	general				false	true	nag_mortarch_kalledria	1.0000	0.0000
+nag_vmp_kalledria	general				false	true	nag_vmp_kalledria	1.0000	0.0000
+rhox_nagash_banshee_summoned	general				false	true	rhox_nagash_banshee_summoned	1.0000	0.0000
