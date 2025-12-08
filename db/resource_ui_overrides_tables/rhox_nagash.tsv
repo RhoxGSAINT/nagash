@@ -90,3 +90,8 @@ override_faction	override_subculture	source_resource	target_resource
 	wh2_main_sc_hef_high_elves	res_nag_warpstone	
 	wh2_main_sc_lzd_lizardmen	res_nag_warpstone	
 	wh2_main_sc_skv_skaven	res_nag_warpstone	
+	mixer_nag_nagash	res_bile_trolls	
+	mixer_nag_nagash	res_chaos_trolls	
+	mixer_nag_nagash	res_river_trolls	
+	mixer_nag_nagash	res_savage	
+	mixer_nag_nagash	res_stone_trolls	
