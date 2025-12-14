@@ -32,7 +32,6 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 				--out("Rhox Nagash: Before doing script_unit thing")
 				--out("Rhox Nagash: Currently looking unit key: "..tostring(type_key))
 				--local su = script_unit:new(army, i)
-				local su = script_unit:new(current_unit, "rhox_nagash_"..tostring(i))
 				
 				
 				
@@ -54,7 +53,44 @@ local function scan_units_for_targets(alliance_armies, enemy_armies)
 				-- for blyramid bombardment, deletes targeting unit and deploys 5 bombardments in that location
 				if type_key == "nag_bombardment_targeting" then
                     --out("Rhox Nagash: Black Pyramid Fire!")
-					summoned = su
+                    
+                    --local su = script_unit:new(current_unit, "rhox_nagash_"..tostring(i))
+                    
+                    --Stupid thing to not make it show script error
+                    -- set up the script unit
+                    local su = {};
+
+                    -- store unit and unitcontroller
+                    su.unit = current_unit;
+                    su.uc = create_unitcontroller(current_unit);
+
+                    set_object_class(su, script_unit);
+
+                    -- store alliance and enemy alliance indexes
+                    local alliance_num = current_unit:alliance_index();
+                    
+                    su.alliance_num = alliance_num;
+
+                    -- determine an enemy alliance number
+                    if alliance_num == 2 then
+                        su.enemy_alliance_num = 1;
+                    else
+                        su.enemy_alliance_num = 2;
+                    end;
+
+                    -- give this sunit a unique name for output purposes
+                    su:set_name("rhox_nagash_"..tostring(i));
+                    
+                    su.start_position = current_unit:ordered_position();
+                    su.start_bearing = current_unit:bearing();
+                    su.start_width = current_unit:ordered_width();
+
+                    -- register the scriptunit with the battle manager, which keeps a flat list of all scriptunits in the battle for reference
+                    bm:register_scriptunit_for_unit(current_unit, su);
+                    --Now let's get this thing
+                    local script_su = script_unit:new(current_unit, "rhox_nagash_"..tostring(i))
+                    
+					summoned = script_su
 					summoned:cache_location()
 					pos = summoned:get_cached_position()
 					b = summoned:get_cached_bearing()
