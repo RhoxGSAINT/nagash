@@ -20,7 +20,7 @@ if (type(lair_culture_to_effects) == "table") then
     lair_culture_to_effects["mixer_nag_nagash"]= "wh2_dlc15_hef_eltharion_dungeon_reward_nagash"
 end
 
-
+table.insert(hef_intrigue_at_the_court.config.favour_loss_config.diplomacy_config.subcultures,"mixer_nag_nagash")
 
 cm:add_first_tick_callback(
 	function()
