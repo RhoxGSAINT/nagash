@@ -7,6 +7,7 @@ nag_outpost_primary_main		wh3_main_special_morgheim_primary		true
 	nag_primary_core_special_major_quintex	wh2_main_special_quintex_primary		false
 nag_outpost_primary_main		wh2_main_special_quintex_primary		true
 nag_outpost_primary_main		wh_main_special_castle_drakenhof_primary		true
+nag_outpost_secondary_main_port		wh2_main_special_the_awakening_primary		true
 nag_outpost_primary_main		wh2_main_special_the_awakening_primary		true
 nag_outpost_primary_main		wh2_main_special_khemri_primary		true
 nag_outpost_primary_main		wh2_main_special_lahmia_primary		true
