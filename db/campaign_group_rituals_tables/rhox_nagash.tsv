@@ -1,13 +1,5 @@
 campaign_group	ritual	unlock_mission	unlock_turn	initially_unlocked
 #campaign_group_rituals_tables;1;db/campaign_group_rituals_tables/rhox_nagash				
-rhox_nagash_feature_group	nag_death		0	false
-rhox_nagash_feature_group	nag_divinity		0	false
-rhox_nagash_feature_group	nag_man		0	false
-rhox_nagash_feature_group	nag_winds		0	false
-rhox_nagash_feature_group	rhox_nagash_ritual_forced_vassalisation		0	true
-rhox_nagash_lahmia_feature	rhox_nagash_lahmia_ritual_forced_vassalisation		0	true
-rhox_nagash_lahmia_feature	rhox_nagash_lahmia_ritual_create_cults		0	true
-rhox_nagash_feature_group	nag_army		0	true
 rhox_nagash_kalledria_feature	rhox_nagash_kalledria_ritual_hex_1		0	false
 rhox_nagash_kalledria_feature	rhox_nagash_kalledria_ritual_hex_1_empowered		0	false
 rhox_nagash_kalledria_feature	wh3_dlc24_ritual_ksl_hex_2_kalledria_ie_forest_of_gloom		0	false

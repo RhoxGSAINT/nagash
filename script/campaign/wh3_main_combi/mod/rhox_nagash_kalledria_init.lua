@@ -25,7 +25,7 @@ local rhox_list={--yes it's a single entry but template is helpful
             y=388,
         },
         additional = function(faction, faction_key) 
-            local vmp_ror ={
+            local vmp_ror_table = {
                 "wh_dlc04_vmp_cav_chillgheists_0",
                 "wh_dlc04_vmp_cav_vereks_reavers_0",
                 "wh_dlc04_vmp_inf_feasters_in_the_dusk_0",
@@ -34,13 +34,134 @@ local rhox_list={--yes it's a single entry but template is helpful
                 "wh_dlc04_vmp_inf_tithe_0",
                 "wh_dlc04_vmp_mon_devils_swartzhafen_0",
                 "wh_dlc04_vmp_veh_claw_of_nagash_0",
-                "wh_dlc04_vmp_mon_direpack_0"
+                "wh_dlc04_vmp_mon_direpack_0",
+                "wh2_dlc11_cst_mon_mournguls_ror_0"
             }
-            for i = 1, #vmp_ror do
-                cm:add_unit_to_faction_mercenary_pool(faction, vmp_ror[i], "renown", 1, 100, 1, 0.1, "", "", "", true, vmp_ror[i])
+            local vmp_raise_dead_faction_table = {
+                "wh3_dlc29_vmp_inf_lahmian_handmaidens_death",
+                "wh3_dlc29_vmp_inf_spirit_host",
+                "wh3_main_vmp_blood_knights_sword_shield",
+                "wh3_dlc29_vmp_inf_lahmian_handmaidens_shadow",
+                "wh3_dlc29_vmp_veh_coven_throne",
+                "wh3_dlc29_vmp_cav_drakenhof_templars",
+                "wh3_dlc29_vmp_mon_zombie_dragon",
+                "wh_main_vmp_cav_hexwraiths",
+                "wh_main_vmp_inf_cairn_wraiths",
+                "wh_main_vmp_mon_terrorgheist",
+                "wh_main_vmp_mon_vargheists",
+                "wh_main_vmp_mon_varghulf",
+                "wh_main_vmp_veh_black_coach",
+                "wh_dlc02_vmp_cav_blood_knights_0",
+                "wh_dlc04_vmp_veh_mortis_engine_0"
+            }
+            local vmp_raise_dead_province_table = {
+                "wh2_dlc11_cst_mon_mournguls_0",
+                "wh_main_vmp_inf_skeleton_warriors_0",
+                "wh_main_vmp_inf_skeleton_warriors_1",
+                "wh_main_vmp_inf_zombie",
+                "wh_main_vmp_cav_black_knights_0",
+                "wh_main_vmp_cav_black_knights_3",
+                "wh_main_vmp_inf_grave_guard_0",
+                "wh_main_vmp_inf_grave_guard_1",
+                "wh_main_vmp_mon_crypt_horrors",
+                "wh_main_vmp_inf_crypt_ghouls",
+                "wh_main_vmp_mon_dire_wolves",
+                "wh_main_vmp_mon_fell_bats",
+                "wh_dlc04_vmp_veh_corpse_cart_0",
+                "wh_dlc04_vmp_veh_corpse_cart_1",
+                "wh_dlc04_vmp_veh_corpse_cart_2",
+                "wh3_main_vmp_inf_grave_guard_2",
+                "wh2_dlc11_cst_inf_syreens"
+            }
+            local vmp_additional_units = {
+                "wh2_dlc11_vmp_inf_crossbowmen",
+                "wh2_dlc11_vmp_inf_handgunners"
+            }
+            local defaults = {
+                replen_chance = 100,
+                max = 1,
+                max_per_turn = 0.1,
+                xp_level = 0,
+                faction_restriction = "",
+                subculture_restriction = "",
+                tech_restriction = "",
+                partial_replenishment = true,
+            }
+            
+            local raise_dead_defaults = {
+                replen_chance = 1,
+                max = 999999,
+                max_per_turn = 100,
+                xp_level = 0,
+                faction_restriction = "",
+                subculture_restriction = "",
+                tech_restriction = "",
+                partial_replenishment = false,
+            }
+            for i, ror in pairs(vmp_ror_table) do
+                cm:add_unit_to_faction_mercenary_pool(
+                    faction,
+                    ror,
+                    "wh3_main_regiments_of_renown_pool",
+                    1,
+                    defaults.replen_chance,
+                    defaults.max,
+                    defaults.max_per_turn,
+                    defaults.faction_restriction,
+                    defaults.subculture_restriction,
+                    defaults.tech_restriction,
+                    defaults.partial_replenishment,
+                    ror
+                )
             end
-            cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_crossbowmen", "renown", 0, 100, 6, 0, "", "", "", true, "wh2_dlc11_vmp_inf_crossbowmen")
-            cm:add_unit_to_faction_mercenary_pool(faction, "wh2_dlc11_vmp_inf_handgunners", "renown", 0, 100, 1, 0, "", "", "", true, "wh2_dlc11_vmp_inf_handgunners")
+            for i, ror in pairs(vmp_additional_units) do
+                cm:add_unit_to_faction_mercenary_pool(
+                    faction,
+                    ror,
+                    "wh3_dlc29_vmp_additional_units",
+                    raise_dead_defaults.max,
+                    raise_dead_defaults.replen_chance,
+                    raise_dead_defaults.max,
+                    raise_dead_defaults.max_per_turn,
+                    raise_dead_defaults.faction_restriction,
+                    raise_dead_defaults.subculture_restriction,
+                    raise_dead_defaults.tech_restriction,
+                    raise_dead_defaults.partial_replenishment,
+                    ror
+                )
+            end
+            for i, ror in pairs(vmp_raise_dead_faction_table) do
+                cm:add_unit_to_faction_mercenary_pool(
+                    faction,
+                    ror,
+                    "wh3_dlc29_vmp_raise_dead_faction",
+                    raise_dead_defaults.max,
+                    raise_dead_defaults.replen_chance,
+                    raise_dead_defaults.max,
+                    raise_dead_defaults.max_per_turn,
+                    raise_dead_defaults.faction_restriction,
+                    raise_dead_defaults.subculture_restriction,
+                    raise_dead_defaults.tech_restriction,
+                    raise_dead_defaults.partial_replenishment,
+                    ror
+                )
+            end
+            for i, ror in pairs(vmp_raise_dead_province_table) do
+                cm:add_unit_to_faction_mercenary_pool(
+                    faction,
+                    ror,
+                    "wh3_dlc29_vmp_raise_dead_province",
+                    raise_dead_defaults.max,
+                    raise_dead_defaults.replen_chance,
+                    raise_dead_defaults.max,
+                    raise_dead_defaults.max_per_turn,
+                    raise_dead_defaults.faction_restriction,
+                    raise_dead_defaults.subculture_restriction,
+                    raise_dead_defaults.tech_restriction,
+                    raise_dead_defaults.partial_replenishment,
+                    ror
+                )
+            end
             
             if faction:is_human() == false then
                 local target_region = cm:get_region("wh3_main_combi_region_waili_village")

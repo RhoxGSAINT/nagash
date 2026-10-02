@@ -6,12 +6,9 @@ rhox_nagash_guinevere_info={ --global so others can approach this too
     trespass_immune_character_cqi =-1,
     bonus_turns =0,
     num_uses=0,
-    cqi = -1,
+    fm_cqi = -1, --family member cqi, it stays valid while she is wounded and after the reassign
     current_faction=nil
-}  
-
-
-local guin_to_kill={}
+}
 
 local guin_base_turn = 20
 
@@ -27,10 +24,10 @@ local guin_culture={
 
 local function get_character_by_subtype(subtype, faction)
     local character_list = faction:character_list()
-    
+
     for i = 0, character_list:num_items() - 1 do
         local character = character_list:item_at(i)
-        
+
         if character:character_subtype(subtype) then
             return character
         end
@@ -38,144 +35,12 @@ local function get_character_by_subtype(subtype, faction)
     return false
 end
 
-function rhox_nagash_kill_guin()
-	if rhox_nagash_guinevere_info.cqi == -1 then
-		return --it means she is not created
-	end
-	local character = cm:get_character_by_cqi(rhox_nagash_guinevere_info.cqi)
-
-	if character and not character:is_null_interface() and character:character_subtype("nag_guinevere") then
-		rhox_nagash_guinevere_info.traits=character:all_traits()
-        rhox_nagash_guinevere_info.rank=character:rank()
-        
-        --out("Rhox Nagash Guin: Stored information")
-
-		cm:disable_event_feed_events(true, "wh_event_category_character", "", "")
-		--cm:set_character_immortality(cm:char_lookup_str(character), false)
-		cm:suppress_immortality(character:family_member():command_queue_index(), true) 
-		cm:kill_character(cm:char_lookup_str(character), false)
-		rhox_nagash_guinevere_info.bonus_turns =0
-		rhox_nagash_guinevere_info.num_uses =0
-		
-		out("Rhox Nagash Guin: Killed her")
-		
-		
-		cm:callback(function() cm:disable_event_feed_events(false, "wh_event_category_character", "", "") end, 0.2)
-		rhox_nagash_guinevere_info.cqi = -1
-	end
-end
-
-core:add_listener(
-    "rhox_nagash_guin_giving_turn_start",
-    "WorldStartRound",
-    function(context)
-        if cm:model():turn_number() < 5 then --don't trigger it until the turn 5
-            return false
-        end
-        
-        for j = 1, #guin_to_kill do
-            local character = cm:get_character_by_cqi(guin_to_kill[j])
-            if character and not character:is_null_interface() and character:character_subtype("nag_guinevere") then
-                rhox_nagash_guinevere_info.traits=character:all_traits()
-                rhox_nagash_guinevere_info.rank=character:rank()
-                cm:disable_event_feed_events(true, "", "", "wh_event_category_character");	
-                cm:suppress_immortality(character:family_member():command_queue_index(), true) 
-                cm:kill_character("character_cqi:"..guin_to_kill[j], true)
-                cm:callback(function() cm:disable_event_feed_events(false, "", "", "wh_event_category_character") end, 0.2);
-                out("Rhox Nagash GUIN: Killed duplicant GUIN: ".. guin_to_kill[j]);
-            end
-        end
-        guin_to_kill = {}--reset it
-        
-		
-		if rhox_nagash_guinevere_info.remaining_turn ~= -100 then
-			rhox_nagash_guinevere_info.remaining_turn = rhox_nagash_guinevere_info.remaining_turn -1
-			out("Rhox Nagash Guin: Checking depart: Remaining turn ".. rhox_nagash_guinevere_info.remaining_turn)
-		end
-
-		if rhox_nagash_guinevere_info.remaining_turn < -1 then --it means Geinever faction is killed. If the player is using recruit defeated lords, Guin is executed or something like that
-			rhox_nagash_guinevere_info.remaining_turn = -100
-		end
-
-        return rhox_nagash_guinevere_info.remaining_turn <= -100
-    end,
-    function(context)
-        out("Rhox Nagash Guin: Sending Guin to somewhere")
-        local all_factions = cm:model():world():faction_list();
-        local visit_candidate ={}
-        for i = 0, all_factions:num_items()-1 do
-            local faction = all_factions:item_at(i);
-            if guin_culture[faction:culture()] and faction:is_dead() == false and faction:has_faction_leader() and faction:faction_leader():has_military_force() then --we're going to summon her to where the faction leader is, so faction leader must have military force
-                table.insert(visit_candidate, faction:name());
-            end
-        end;
-        
-        visit_candidate = cm:random_sort(visit_candidate);
-        local target_faction = nil
-        for i=1,#visit_candidate do
-            if visit_candidate[i] ~= rhox_nagash_guinevere_info.previous_faction then
-                target_faction = visit_candidate[i]
-                break
-            end
-        end
-        
-        local lahmia_faction = cm:get_faction("wh3_main_vmp_lahmian_sisterhood")
-        if cm:model():turn_number() ==5 and lahmia_faction and lahmia_faction:is_dead() ==false then
-            target_faction = "wh3_main_vmp_lahmian_sisterhood"
-        end
-        
-        if not target_faction then
-            out("Rhox Nagash Guin: No available target faction found, ")
-            return
-        end
-        local guin_faction = cm:get_faction(target_faction)
-        
-        rhox_nagash_kill_guin() --kill her before summoning her
-        out("Rhox Nagash Guin: Guin going to ".. target_faction)
-        local x, y = cm:find_valid_spawn_location_for_character_from_character(target_faction, cm:char_lookup_str(guin_faction:faction_leader()), true, 10)
-        if x == -1 then
-            out("Rhox Nagash Guin: This faction had no leader terminating the sending sequence")
-            return
-        end
-        cm:spawn_agent_at_position(guin_faction, x, y, "dignitary", "nag_guinevere")
-        local new_character = cm:get_most_recently_created_character_of_type(target_faction, "dignitary", "nag_guinevere")
-        if new_character then
-            local forename = common:get_localised_string("names_name_1937224343")
-            cm:change_character_custom_name(new_character, forename, "","","")
-            ---aplying the previous bonuses
-            local new_char_lookup = cm:char_lookup_str(new_character)
-            local traits_to_copy = rhox_nagash_guinevere_info.traits
-            if traits_to_copy then
-                for i =1, #traits_to_copy do
-                    local trait_to_copy = traits_to_copy[i]
-                    cm:force_add_trait(new_char_lookup, trait_to_copy)
-                end
-            end
-            cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
-            rhox_nagash_guinevere_info.cqi = new_character:cqi()
-            rhox_nagash_guinevere_info.current_faction =target_faction;
-
-            if guin_faction:is_human() then --trigger incident
-                cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
-            end
-        end
-        rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
-        cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
-        
-        
-    end,
-    true
-)
-
-
-
 local function rhox_nagash_guinevere_remove_trespass_immune()
     if rhox_nagash_guinevere_info.trespass_immune_character_cqi ~= -1 then
         local character = cm:get_character_by_cqi(rhox_nagash_guinevere_info.trespass_immune_character_cqi)
         cm:set_character_excluded_from_trespassing(character, false)
         out("Rhox Nagash Guin: Removing tresspass immune from guy with cqi: ".. rhox_nagash_guinevere_info.trespass_immune_character_cqi)
         rhox_nagash_guinevere_info.trespass_immune_character_cqi = -1
-        
     end
 end
 
@@ -184,7 +49,6 @@ local function rhox_nagash_guinevere_apply_trespass_immune(character)
         return --need skill
     end
 
-    
     if character:is_embedded_in_military_force() then
         local mf = character:embedded_in_military_force()
         local general = mf:general_character()
@@ -197,16 +61,175 @@ local function rhox_nagash_guinevere_apply_trespass_immune(character)
     end
 end
 
+local function rhox_nagash_get_guin_by_fm_cqi(fm_cqi)
+    if fm_cqi == -1 then
+        return false
+    end
+    local fm = cm:get_family_member_by_cqi(fm_cqi)
+    if not fm or fm:is_null_interface() then
+        return false
+    end
+    local character = fm:character()
+    if is_character(character) and character:character_subtype("nag_guinevere") then
+        return character
+    end
+    return false
+end
+
+-- the stored fm_cqi first, then the whole world, so she is only spawned again when she is really dead
+local function rhox_nagash_get_current_guin()
+    local character = rhox_nagash_get_guin_by_fm_cqi(rhox_nagash_guinevere_info.fm_cqi)
+    if character then
+        return character
+    end
+    local all_factions = cm:model():world():faction_list()
+    for i = 0, all_factions:num_items() - 1 do
+        local character = get_character_by_subtype("nag_guinevere", all_factions:item_at(i))
+        if character then
+            return character
+        end
+    end
+    return false
+end
+
+-- same as the mortarch script: next to the faction leader, otherwise next to the capital
+local function rhox_nagash_get_guin_destination(guin_faction)
+    local target_faction = guin_faction:name()
+    local leader = guin_faction:faction_leader()
+    local capital = guin_faction:home_region()
+
+    if is_character(leader) and leader:is_wounded() == false then
+        local x, y = cm:find_valid_spawn_location_for_character_from_character(target_faction, cm:char_lookup_str(leader), true, 10)
+        if x > -1 then
+            return x, y
+        end
+    end
+    if is_region(capital) then
+        local x, y = cm:find_valid_spawn_location_for_character_from_settlement(target_faction, capital:name(), false, true, 10)
+        if x > -1 then
+            return x, y
+        end
+    end
+    return -1, -1
+end
+
+local function rhox_nagash_on_guin_arrived(new_character, guin_faction)
+    local target_faction = guin_faction:name()
+    rhox_nagash_guinevere_info.fm_cqi = new_character:family_member():command_queue_index()
+    rhox_nagash_guinevere_info.current_faction = target_faction
+    rhox_nagash_guinevere_info.bonus_turns = 0
+    rhox_nagash_guinevere_info.num_uses = 0
+    rhox_nagash_guinevere_info.remaining_turn = guin_base_turn
+    cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", target_faction, rhox_nagash_guinevere_info.remaining_turn)
+
+    if guin_faction:is_human() then --trigger incident
+        cm:trigger_incident_with_targets(guin_faction:command_queue_index(), "rhox_nagash_guin_arrive", 0, 0, new_character:command_queue_index(), 0, 0, 0)
+    end
+end
+
+-- first visit or she died somehow: spawn a new one with the stored traits and rank
+local function rhox_nagash_spawn_new_guin(guin_faction, x, y)
+    local target_faction = guin_faction:name()
+    cm:spawn_agent_at_position(guin_faction, x, y, "dignitary", "nag_guinevere")
+    local new_character = cm:get_most_recently_created_character_of_type(target_faction, "dignitary", "nag_guinevere")
+    if not new_character then
+        return
+    end
+    local forename = common:get_localised_string("names_name_1937224343")
+    cm:change_character_custom_name(new_character, forename, "","","")
+    ---aplying the previous bonuses
+    local new_char_lookup = cm:char_lookup_str(new_character)
+    local traits_to_copy = rhox_nagash_guinevere_info.traits
+    if traits_to_copy then
+        for i =1, #traits_to_copy do
+            cm:force_add_trait(new_char_lookup, traits_to_copy[i])
+        end
+    end
+    cm:add_agent_experience(new_char_lookup,rhox_nagash_guinevere_info.rank, true)
+    rhox_nagash_on_guin_arrived(new_character, guin_faction)
+end
+
+local function rhox_nagash_send_guin()
+    out("Rhox Nagash Guin: Sending Guin to somewhere")
+    local all_factions = cm:model():world():faction_list();
+    local visit_candidate ={}
+    for i = 0, all_factions:num_items()-1 do
+        local faction = all_factions:item_at(i);
+        if guin_culture[faction:culture()] and faction:is_dead() == false and faction:has_faction_leader() and faction:faction_leader():has_military_force() then
+            table.insert(visit_candidate, faction:name());
+        end
+    end;
+
+    visit_candidate = cm:random_sort(visit_candidate);
+    local target_faction = nil
+    for i=1,#visit_candidate do
+        if visit_candidate[i] ~= rhox_nagash_guinevere_info.previous_faction then
+            target_faction = visit_candidate[i]
+            break
+        end
+    end
+
+    local lahmia_faction = cm:get_faction("wh3_dlc29_vmp_neferata")
+    if cm:model():turn_number() ==5 and lahmia_faction and lahmia_faction:is_dead() ==false then
+        target_faction = "wh3_dlc29_vmp_neferata"
+    end
+
+    if not target_faction then
+        out("Rhox Nagash Guin: No available target faction found, ")
+        return
+    end
+    local guin_faction = cm:get_faction(target_faction)
+    local x, y = rhox_nagash_get_guin_destination(guin_faction)
+    if x == -1 then
+        out("Rhox Nagash Guin: No valid position in this faction, terminating the sending sequence")
+        return
+    end
+    out("Rhox Nagash Guin: Guin going to ".. target_faction)
+
+    rhox_nagash_guinevere_remove_trespass_immune()
+    local guin = rhox_nagash_get_current_guin()
+
+    if not guin then
+        rhox_nagash_spawn_new_guin(guin_faction, x, y)
+        return
+    end
+
+    -- keep traits and rank in case she has to be spawned again later
+    rhox_nagash_guinevere_info.traits = guin:all_traits()
+    rhox_nagash_guinevere_info.rank = guin:rank()
+
+    -- same as the archaon subjugation: reassign by the character cqi, then end the convalescence so a wounded one comes back right away
+    local guin_fm_cqi = guin:family_member():command_queue_index()
+    if guin:faction():name() ~= target_faction then
+        cm:reassign_character(guin:cqi(), guin_faction:command_queue_index())
+    end
+    if guin:is_wounded() then
+        cm:stop_character_convalescing(guin:cqi())
+    end
+    cm:callback(
+        function()
+            local moved_guin = rhox_nagash_get_guin_by_fm_cqi(guin_fm_cqi) or get_character_by_subtype("nag_guinevere", guin_faction)
+            if not moved_guin then
+                out("Rhox Nagash Guin: Couldn't find her after the reassign")
+                return
+            end
+            cm:teleport_to(cm:char_lookup_str(moved_guin), x, y)
+            rhox_nagash_on_guin_arrived(moved_guin, guin_faction)
+        end,
+        0.1
+    )
+end
+
 local function rhox_nagash_guinevere_check_depart(character, faction)
-    
+
     rhox_nagash_guinevere_remove_trespass_immune()--this is last turn remove the trespass immune
-    
+
     if rhox_nagash_guinevere_info.remaining_turn <= 0 then
         rhox_nagash_guinevere_info.previous_faction = faction:name()
         rhox_nagash_guinevere_info.remaining_turn = -100;
-        
+
         local value = 500+ 1000*rhox_nagash_guinevere_info.num_uses
-        
+
         if faction:is_human() then
             local incident_builder = cm:create_incident_builder("rhox_nagash_guin_leave")
             incident_builder:add_target("default", character)
@@ -216,17 +239,11 @@ local function rhox_nagash_guinevere_check_depart(character, faction)
             payload_builder:text_display("rhox_nagash_guinevere_presents")
             incident_builder:set_payload(payload_builder)
             cm:launch_custom_incident_from_builder(incident_builder, faction)
-            --cm:trigger_incident_with_targets(faction:command_queue_index(), "rhox_nagash_guin_leave", 0, 0, character:command_queue_index(), 0, 0, 0)
-            --out("Rhox Nagash Guin: Triggered incident")
-            
-            
-            rhox_nagash_kill_guin()
-        else
-            cm:treasury_mod(faction:name(), value)--just add gold for the ai
-            table.insert(guin_to_kill,character:cqi()) --this will make world start kill it
-        end
-        
 
+            rhox_nagash_send_guin() --human shouldn't keep her for the rest of the turn
+        else
+            cm:treasury_mod(faction:name(), value)--just add gold for the ai, WorldStartRound will move her
+        end
     end
 end
 
@@ -239,21 +256,20 @@ local function rhox_nagash_guinevere_apply_prostitute(character, faction)
     if not owning_faction then
         return
     end
-    
+
     if owning_faction:has_effect_bundle("rhox_nagash_guinevere_relation_increased_hidden") then
         return --don't apply bonus again
     end
-    
+
     if guin_culture[owning_faction:culture()] then
         cm:apply_effect_bundle("rhox_nagash_guinevere_relation_increased_hidden", owning_faction:name(), 5)
         local value = math.floor((character:bonus_values():scripted_value("rhox_nagash_guine_prostitute", "value")/5)  +0.2)  --doing this just in case
         out("Rhox Nagash Guin: Applying Prostitute bonus ".. value .. " to faction ".. owning_faction:name())
         cm:apply_dilemma_diplomatic_bonus(faction:name(), owning_faction:name(), value)
     end
-    
 end
 
-local function rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character, faction)
+local function rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character)
     if character:has_skill("nag_skill_node_guinevere_diplo_05") == false then
         return--don't do it if she don't have skill
     end
@@ -266,20 +282,18 @@ end
 
 local function rhox_nagash_guinevere_apply_bonus_duration(character, faction)
     local value = character:bonus_values():scripted_value("rhox_nagash_guine_longer_stay", "value")
-    
+
     if value == rhox_nagash_guinevere_info.bonus_turns then --nothing to do
         return
     end
-    
+
     local bonus_value = value - rhox_nagash_guinevere_info.bonus_turns
-    
+
     out("Rhox Nagash Guin: Applying bonus remaining turn: ".. bonus_value)
-    
+
     rhox_nagash_guinevere_info.bonus_turns= value
     rhox_nagash_guinevere_info.remaining_turn = rhox_nagash_guinevere_info.remaining_turn+ bonus_value
     cm:apply_effect_bundle("rhox_nagash_guinevere_remaining_turn_dummy", faction:name(), bonus_value)
-    
-    
 end
 
 local function rhox_nagash_guinevere_check_peace_broker(character, faction)
@@ -289,7 +303,7 @@ local function rhox_nagash_guinevere_check_peace_broker(character, faction)
     if(cm:model():random_percent(90)) then --10% so return with 90% chance
         return
     end
-    
+
     local war_list = faction:factions_at_war_with()
     local target_enemy_candidate = {}
     for j = 0, war_list:num_items() - 1 do
@@ -298,18 +312,18 @@ local function rhox_nagash_guinevere_check_peace_broker(character, faction)
             table.insert(target_enemy_candidate, current_enemy)
         end
     end
-    
+
     if #target_enemy_candidate == 0 then
         return
     end
-    
+
     target_enemy_candidate = cm:random_sort(target_enemy_candidate)
-    
+
     local target_enemy = target_enemy_candidate[1]
-    
+
     core:remove_listener("rhox_nagash_guinvere_peace_DilemmaChoiceMadeEvent")
     core:add_listener(
-        "rhox_nagash_guinvere_peace_DilemmaChoiceMadeEvent", 
+        "rhox_nagash_guinvere_peace_DilemmaChoiceMadeEvent",
         "DilemmaChoiceMadeEvent",
         function(context)
             return context:dilemma() == "rhox_nagash_guinevere_peace_broker"
@@ -317,36 +331,55 @@ local function rhox_nagash_guinevere_check_peace_broker(character, faction)
         function(context)
             local choice = context:choice();
 
-            
-            if choice == 0 then    
+            if choice == 0 then
                 out("Rhox Nagash Guin: Let's make peace!")
                 cm:force_make_peace(faction:name(), target_enemy:name())
             end
         end,
         false
     )
-    
-    
+
     --trigger dilemma
     local dilemma_builder = cm:create_dilemma_builder("rhox_nagash_guinevere_peace_broker");
     local payload_builder = cm:create_payload();
-    
-    
-    
+
     payload_builder:text_display("rhox_nagash_guinevere_peace")
     payload_builder:treasury_adjustment(-5000)
     dilemma_builder:add_choice_payload("FIRST", payload_builder);
     payload_builder:clear();
-    
+
     dilemma_builder:add_choice_payload("SECOND", payload_builder);
-    
+
     dilemma_builder:add_target("default", target_enemy);
     dilemma_builder:add_target("target_faction_1", target_enemy);
-    
-    
+
     cm:launch_custom_dilemma_from_builder(dilemma_builder, faction);
-    
 end
+
+core:add_listener(
+    "rhox_nagash_guin_giving_turn_start",
+    "WorldStartRound",
+    function(context)
+        if cm:model():turn_number() < 5 then --don't trigger it until the turn 5
+            return false
+        end
+
+		if rhox_nagash_guinevere_info.remaining_turn ~= -100 then
+			rhox_nagash_guinevere_info.remaining_turn = rhox_nagash_guinevere_info.remaining_turn -1
+			out("Rhox Nagash Guin: Checking depart: Remaining turn ".. rhox_nagash_guinevere_info.remaining_turn)
+		end
+
+		if rhox_nagash_guinevere_info.remaining_turn < -1 then --it means Geinever faction is killed. If the player is using recruit defeated lords, Guin is executed or something like that
+			rhox_nagash_guinevere_info.remaining_turn = -100
+		end
+
+        return rhox_nagash_guinevere_info.remaining_turn <= -100
+    end,
+    function(context)
+        rhox_nagash_send_guin()
+    end,
+    true
+)
 
 core:add_listener(
     "rhox_nagash_guin_remaining_turn_check",
@@ -358,33 +391,22 @@ core:add_listener(
     function(context)
         local character = context:character()
         local faction = character:faction()
-        out("Rhox Nagash Guin: Check before if")
-        if faction:name() ~= rhox_nagash_guinevere_info.current_faction and faction:is_human() == false then --this is for killing duplicant ones.
-            out("Rhox Nagash Guin: This one should be killed current faction: "..faction:name())
-            table.insert(guin_to_kill,character:cqi())
-        else
-            out("Rhox Nagash Guin: Check GUIN abilities")
-            rhox_nagash_guinevere_remove_trespass_immune()
-            rhox_nagash_guinevere_apply_trespass_immune(character)
-            
-            rhox_nagash_guinevere_apply_prostitute(character, faction)
-            rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character, faction)
-            rhox_nagash_guinevere_apply_bonus_duration(character, faction)
-            rhox_nagash_guinevere_check_peace_broker(character, faction)
-            
-            
-            
-            cm:callback(function()
-                rhox_nagash_guinevere_check_depart(character, faction)--do it last
-                end,
-            2)
-            --out("Rhox Nagash Guin: Check 3")
-        end
+        out("Rhox Nagash Guin: Check GUIN abilities")
+        rhox_nagash_guinevere_remove_trespass_immune()
+        rhox_nagash_guinevere_apply_trespass_immune(character)
+
+        rhox_nagash_guinevere_apply_prostitute(character, faction)
+        rhox_nagash_guinevere_apply_high_vamp_corruption_bonus(character)
+        rhox_nagash_guinevere_apply_bonus_duration(character, faction)
+        rhox_nagash_guinevere_check_peace_broker(character, faction)
+
+        cm:callback(function()
+            rhox_nagash_guinevere_check_depart(character, faction)--do it last
+            end,
+        2)
     end,
     true
 )
-
-
 
 core:add_listener(
     "rhox_nagash_guin_embed_listener",
@@ -414,11 +436,11 @@ core:add_listener(
         if not owning_faction then
             return--it's garrison target so they're likely to have it, but just in case
         end
-        
+
         if owning_faction:has_effect_bundle("rhox_nagash_guinevere_relation_increased_hidden") then
             return --don't apply bonus again
         end
-        
+
         if guin_culture[owning_faction:culture()] then
             cm:apply_effect_bundle("rhox_nagash_guinevere_relation_increased_hidden", owning_faction:name(), 5)
             local value = math.floor((character:bonus_values():scripted_value("rhox_nagash_guine_settlement", "value")/5)  +0.2)  --doing this just in case
@@ -428,7 +450,6 @@ core:add_listener(
     end,
     true
 )
-
 
 ---------------------------guin increase number of uses
 
@@ -462,24 +483,17 @@ core:add_listener(
         local character = context:character()
         local faction = character:faction()
         local guin = get_character_by_subtype("nag_guinevere", faction)
-        
+
         local pb = context:pending_battle();
 
         return pb:has_been_fought() and character:won_battle() and character:has_military_force() and guin and guin:is_embedded_in_military_force() and guin:embedded_in_military_force():command_queue_index() == character:military_force():command_queue_index()
     end,
     function(context)
-        rhox_nagash_guinevere_info.num_uses = rhox_nagash_guinevere_info.num_uses+1        
+        rhox_nagash_guinevere_info.num_uses = rhox_nagash_guinevere_info.num_uses+1
         out("Rhox Nagash Guin: Guin embedded army wins the battle, increasing the num to ".. rhox_nagash_guinevere_info.num_uses)
-    
-    
-        
     end,
     true
 )
-
-
-
-
 
 --------------------------------------------------------------
 ----------------------- SAVING / LOADING ---------------------
@@ -487,14 +501,12 @@ core:add_listener(
 cm:add_saving_game_callback(
 	function(context)
 		cm:save_named_value("rhox_nagash_guinevere_info", rhox_nagash_guinevere_info, context)
-		cm:save_named_value("rhox_nagash_guin_to_kill", guin_to_kill, context)
 	end
 )
 cm:add_loading_game_callback(
 	function(context)
 		if cm:is_new_game() == false then
 			rhox_nagash_guinevere_info = cm:load_named_value("rhox_nagash_guinevere_info", rhox_nagash_guinevere_info, context)
-			guin_to_kill = cm:load_named_value("rhox_nagash_guin_to_kill", guin_to_kill, context)
 		end
 	end
 )

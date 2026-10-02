@@ -1,0 +1,18 @@
+faction	general_unit	unit	siege_unit_attacker	siege_unit_defender	general_portrait	general_uniform	set_piece_character	campaign_exclusive	armory_item_set	supports_upgrades
+#units_custom_battle_permissions_tables;11;db/units_custom_battle_permissions_tables/lon_units										
+wh3_dlc29_nag_host_of_nagash	false	nag_nagashi_guard	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_nagashi_guard_halb	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_bone_thrower	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_bone_golems	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_sand_crawlies	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_carrion_riders	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_bone_colossus	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_skeleton_reaper	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_virion_plaguecart	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_revenants	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_doomed_legion	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_blood_beasts	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_burning_dead	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_druthor	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_warp_ghouls	true	true				true		false
+wh3_dlc29_nag_host_of_nagash	false	nag_undead_chariot_unit	true	true				true		false

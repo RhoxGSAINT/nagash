@@ -558,3 +558,4 @@ effects_description_nag_effect_upkeep_ethereal	Upkeep: %+n% for Ethereal units	f
 effects_description_nag_effect_skill_rank_increase_ethereal	Recruit rank: %+n for Ethereal units	false
 effects_description_nag_effect_force_replenishment_rate_ethereal	Casualty replenishment rate: %+n% for Ethereal units	false
 effects_description_nag_effect_force_stat_melee_defence_ethereal	Melee defence: %+n for Ethereal units	false
+effects_description_rhox_nagash_unit_allowance_syreen	Unit capacity: %+n\\n{{tr:land_units_onscreen_name_wh2_dlc11_cst_inf_syreens}}	false

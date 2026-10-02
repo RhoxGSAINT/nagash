@@ -8,3 +8,7 @@ rhox_nagash_kalledria_ritual_hex_6	The armies of corruption crumble, burdened by
 rhox_nagash_kalledria_high_vampiric_corruption			province	1	spirit_essence_bundle.png	true	false	true
 rhox_nagash_kalledria_physical_resistance	Enhances the ghostly essence, providing increased physical resistance, allowing the specter to withstand the rigors of the mortal realm with spectral fortitude.	Spectral Shroud	none	1		true	false	true
 rhox_nagash_kalledria_magical_resistance	Description: Bestows a mystical barrier upon the ghost, augmenting magical resistance and deflecting the arcane energies that seek to disrupt the ethereal equilibrium.	Ethereal Ward	none	1		true	false	true
+rhox_vmp_kalledria_lord_trait	ph	ph	faction	1	character.png	true	false	true
+rhox_nagash_guinevere_remaining_turn_dummy			faction	1	icon_effects_pyramid.png	true	false	true
+rhox_nagash_guinevere_relation_increased_hidden			faction	1	icon_effects_pyramid.png	false	false	true
+rhox_nagash_guinevere_high_corruption_bonus			military	1	icon_effects_pyramid.png	true	false	true

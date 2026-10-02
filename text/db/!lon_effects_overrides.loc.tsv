@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/!lon_effects_overrides.loc		
+effects_description_wh3_dlc29_nag_all_recruitment_points	Local recruitment capacity for Vampire Coast, Vampire Counts, Tomb Kings and Nagashizzar units: %+n	false
+effects_description_wh3_dlc29_nag_all_recruitment_points_hidden	Local recruitment capacity for Vampire Coast, Vampire Counts, Tomb King and Nagashizzar units: %+n [STATUS: HIDDEN]	false

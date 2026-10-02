@@ -1,0 +1,22 @@
+key	use_unit_exp_level_range	min_unit_exp_level_inclusive	max_unit_exp_level_inclusive	special_category
+#unit_sets_tables;2;db/unit_sets_tables/lon_units				
+nagash_lon_recruitment	false	-1	-1	
+nag_blood_beasts	false	-1	-1	
+nag_bone_colossus	false	-1	-1	
+nag_bone_golems	false	-1	-1	
+nag_bone_thrower	false	-1	-1	
+nag_burning_dead	false	-1	-1	
+nag_carrion_riders	false	-1	-1	
+nag_doomed_legion	false	-1	-1	
+nag_druthor	false	-1	-1	
+nag_nagashi_guard	false	-1	-1	
+nag_nagashi_guard_halb	false	-1	-1	
+nag_revenants	false	-1	-1	
+nag_sand_crawlies	false	-1	-1	
+nag_skeleton_reaper	false	-1	-1	
+nag_virion_plaguecart	false	-1	-1	
+nag_warp_ghouls	false	-1	-1	
+nag_undead_chariot_unit	false	-1	-1	
+nag_nagashi_guards_all	false	-1	-1	
+nag_banshee_unit_set	false	-1	-1	
+nag_kalledria_ghoul_unit_set	false	-1	-1	

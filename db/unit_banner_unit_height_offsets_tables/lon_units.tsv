@@ -1,0 +1,16 @@
+unit_record	height_offset	campaign_height_offset
+#unit_banner_unit_height_offsets_tables;2;db/unit_banner_unit_height_offsets_tables/lon_units		
+nag_nagashi_guard	0.5000	0.0000
+nag_nagashi_guard_halb	0.5000	0.0000
+nag_bone_thrower	1.0000	0.0000
+nag_bone_golems	1.0000	0.0000
+nag_carrion_riders	2.0000	0.0000
+nag_bone_colossus	1.0000	0.0000
+nag_revenants	0.5000	0.0000
+nag_skeleton_reaper	0.5000	0.0000
+nag_doomed_legion	0.5000	0.0000
+nag_blood_beasts	1.0000	0.0000
+nag_virion_plaguecart	1.0000	0.0000
+nag_burning_dead	0.5000	0.0000
+nag_druthor	3.0000	0.0000
+nag_undead_chariot_unit	1.0000	0.0000

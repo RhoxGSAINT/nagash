@@ -1,0 +1,4 @@
+key	text	tooltip
+#Loc;1;text/db/lon_ui_unit_bullet_points.loc		
+ui_unit_bullet_point_enums_onscreen_name_nag_wraithlike	Wraithlike	true
+ui_unit_bullet_point_enums_tooltip_nag_wraithlike	These possessed beings seem to be lacking a material form, yet the blade still bites...\\nThis unit features a compromise between high [[img:ui/battle ui/ability_icons/resistance_physical.png]][[/img]]Physical Resistance and high material resilience compared to fully-ethereal units who only rely on the former.	true

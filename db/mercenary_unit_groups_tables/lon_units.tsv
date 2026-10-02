@@ -1,0 +1,11 @@
+key	chance_to_replenish	max_count	unit_record	use_partial_replenishment	max_replenish_per_turn	ui_order
+#mercenary_unit_groups_tables;3;db/mercenary_unit_groups_tables/lon_units						
+lon_nag_bone_golems_faction_pool	1.0000	999999	nag_bone_golems	false	100.0000	8
+lon_nag_bone_thrower_faction_pool	1.0000	999999	nag_bone_thrower	false	100.0000	9
+lon_nag_carrion_riders_faction_pool	1.0000	999999	nag_carrion_riders	false	100.0000	7
+lon_nag_nagashi_guard_faction_pool	1.0000	999999	nag_nagashi_guard	false	100.0000	4
+lon_nag_nagashi_guard_halb_faction_pool	1.0000	999999	nag_nagashi_guard_halb	false	100.0000	5
+lon_nag_sand_crawlies_faction_pool	1.0000	999999	nag_sand_crawlies	false	100.0000	2
+lon_nag_skeleton_reaper_faction_pool	1.0000	999999	nag_skeleton_reaper	false	100.0000	1
+lon_nag_warp_ghoul_faction_pool	1.0000	999999	nag_warp_ghouls	false	100.0000	3
+lon_nag_undead_chariot_faction_pool	1.0000	999999	nag_undead_chariot_unit	false	100.0000	6

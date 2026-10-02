@@ -1,0 +1,4 @@
+faction	mercenary_set
+#faction_to_mercenary_set_junctions_tables;0;db/faction_to_mercenary_set_junctions_tables/lon_units	
+wh3_dlc29_nag_host_of_nagash	wh3_dlc29_nag_raise_dead_lon_faction_pool
+mixer_vmp_wailing_conclave	wh_dlc04_vmp_units_of_renown_pool

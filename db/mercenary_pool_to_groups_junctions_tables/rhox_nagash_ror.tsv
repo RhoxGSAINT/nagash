@@ -1,0 +1,9 @@
+key	group	initial_unit_count	pool	faction_requirement	subculture_requirement	tech_requirement
+#mercenary_pool_to_groups_junctions_tables;3;db/mercenary_pool_to_groups_junctions_tables/rhox_nagash_ror						
+365884118	nag_blood_beasts	0	wh2_dlc09_tmb_units_of_renown_pool			
+365884119	nag_doomed_legion	0	wh2_dlc09_tmb_units_of_renown_pool			
+365884120	nag_bone_colossus	0	wh2_dlc09_tmb_units_of_renown_pool			
+365884121	nag_virion_plaguecart	0	wh2_dlc09_tmb_units_of_renown_pool			
+365884122	nag_revenants	0	wh2_dlc09_tmb_units_of_renown_pool			
+365884124	nag_burning_dead	0	wh2_dlc09_tmb_units_of_renown_pool			
+365884183	nag_druthor	0	wh2_dlc09_tmb_units_of_renown_pool			

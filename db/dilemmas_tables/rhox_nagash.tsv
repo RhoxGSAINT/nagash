@@ -1,6 +1,4 @@
 key	generate	localised_description	localised_title	ui_image	prioritized	event_category	sound_popup_override	sound_click_override	override_icon	is_large_dilemma
 #dilemmas_tables;3;db/dilemmas_tables/rhox_nagash										
-rhox_nagash_lahmia_confederate_generic	false			army_morale_up	false	Event				false
 rhox_nagash_guinevere_peace_broker	false			diplomacy	false	Event				false
 rhox_nagash_azhag_recruit	false			mixer_nag_nagash/nagash_dominates_azhag	false	Event				false
-rhox_nagash_bp_fly	false			tmb/unique_black_pyramid_floating	false	Event				false

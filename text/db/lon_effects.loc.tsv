@@ -1,0 +1,28 @@
+key	text	tooltip
+#Loc;1;text/db/lon_effects.loc		
+effects_description_lon_force_stat_weapon_damage_armour_piercing_nag_skeleton_reaper	Armour-piercing weapon damage: %+n for Sand Crawler units	false
+effects_description_lon_force_stat_speed_bonus_sand_crawlers	Speed: %+n% for Sand Crawler units	false
+effects_description_lon_force_stat_bonus_vs_infantry_bone_golems	Bonus vs Infantry: %+n for Bone Golem units	false
+effects_description_lon_nag_lon_recruitment_points	Local recruitment capacity for Nagashizzar units: %+n	false
+effects_description_lon_gravecall_unlock_nagashizzar_guard	{{tr:ui_mercenary_recruitment_infos_hire_state_nag_raise_dead_faction}} Recruitment Unlock:\\n[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_nagashi_guard}}\\n[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_nagashi_guard_halb}} 	false
+effects_description_lon_gravecall_unlock_sand_crawlies	[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_sand_crawlies}} 	false
+effects_description_lon_gravecall_unlock_undead_chariot_unit	[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_undead_chariot_unit}}	false
+effects_description_lon_gravecall_unlock_bone_thrower	[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_bone_thrower}} 	false
+effects_description_lon_gravecall_unlock_skeleton_reaper	[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_skeleton_reaper}} 	false
+effects_description_lon_gravecall_unlock_carrion_riders	[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_carrion_riders}} 	false
+effects_description_lon_gravecall_unlock_warp_ghouls	[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_warp_ghouls}} 	false
+effects_description_lon_gravecall_unlock_bone_golems	[[img:bullet_point_white]]{{tr:land_units_onscreen_name_nag_bone_golems}} 	false
+effects_description_lon_unit_allowance_cap_nag_skeleton_reaper	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_skeleton_reaper}}	false
+effects_description_lon_unit_allowance_cap_bone_thrower	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_bone_thrower}}	false
+effects_description_lon_unit_allowance_cap_carrion_riders	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_carrion_riders}}	false
+effects_description_lon_unit_allowance_cap_sand_crawlies_warp_ghouls	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_sand_crawlies}}\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_warp_ghouls}}	false
+effects_description_lon_unit_allowance_cap_nagashi_guards_all	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_nagashi_guard}}\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_nagashi_guard_halb}}	false
+effects_description_lon_unit_allowance_cap_bone_golems	Unit capacity: %+n\\n[[img:bullet_point_white]] {{tr:land_units_onscreen_name_nag_bone_golems}}	false
+effects_description_lon_ability_uses_death_shriek_nag_druthor	Ability number of uses: %+n for "{{tr:unit_abilities_onscreen_name_wh2_main_unit_abilities_death_shriek}}" for Druthor, The King of Grimbarrow	false
+effects_description_lon_immune_to_flanking_nag_guard	Attribute: Unyielding Assault for Nagashizzar Guard units	false
+effects_description_lon_attribute_unyielding_assault_nag_guard	Attribute: Immune to Flanking for Nagashizzar Guard units	false
+effects_description_lon_force_recruit_rank_nag_guard	Recruit rank: %+n for Nagashizzar Guard units	false
+effects_description_lon_ability_enable_guardian_nag_guard	Passive ability: "Guardian" for Nagashizzar Guard units	false
+effects_description_lon_force_stat_ward_save_nag_guard	Ward save: %+n% Nagashizzar Guard units	false
+effects_description_lon_force_stat_speed_bonus_nag_guard	Speed: %+n% for Nagashizzar Guard units	false
+effects_description_lon_attribute_strider_nag_guard	Attribute: Strider for Nagashizzar Guard units	false

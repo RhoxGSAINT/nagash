@@ -1,0 +1,8 @@
+battle_personality	land_unit	attach	riders_attachment_point	engine_articulation_index	jettison_rider
+#land_units_to_battle_personalities_junctions_tables;2;db/land_units_to_battle_personalities_junctions_tables/lon_units					
+nag_blood_beasts_2	nag_blood_beasts	officer		-1	true
+nag_blood_beasts_3	nag_blood_beasts	additional_officer		-1	true
+nag_doomed_legion_officer	nag_doomed_legion	officer		-1	true
+nag_virion_officer	nag_virion_plaguecart	autonomous_rider	ap_crewposition_0	-1	true
+nag_undead_chariot_unit_archer	nag_undead_chariot_unit	autonomous_rider	ap_crewposition_0	-1	true
+nag_undead_chariot_unit	nag_undead_chariot_unit	autonomous_rider	ap_crewposition_1	-1	true

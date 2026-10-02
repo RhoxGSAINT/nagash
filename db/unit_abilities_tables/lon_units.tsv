@@ -1,0 +1,13 @@
+key	requires_effect_enabling	icon_name	overpower_option	type	video	uniqueness	is_unit_upgrade	is_hidden_in_ui	source_type	superseded_abilities_set	is_hidden_in_ui_for_enemy
+#unit_abilities_tables;17;db/unit_abilities_tables/lon_units											
+nag_unit_passive_grim_aura	false	wh_dlc04_unit_passive_the_reliquary_binding		wh_type_direct_damage		wh_main_anc_group_unique	true	false	passive		false
+nag_unit_passive_marshlight_aura	false	nag_passive_marshlight_aura		wh_type_area_of_hexes		wh_main_anc_group_rare	false	false	passive		false
+nag_unit_passive_torment	false	nag_passive_torment		wh_type_augment		wh_main_anc_group_rare	false	false	passive		false
+nag_unit_passive_blood_frenzy	true	wh2_dlc10_lord_passive_blood_frenzy		wh_type_augment		wh_main_anc_group_uncommon	true	false	passive		false
+nag_druthor_raise_dead_crypt_ghouls	false	wh_dlc04_spell_vampires_raise_dead_strigoi		wh_type_augment		wh_main_anc_group_unique	false	false	bound		false
+nag_warp_ghouls_aura	false	nag_warp_ghouls_poison		wh_type_area_of_augments		wh_main_anc_group_uncommon	false	false	passive		false
+nag_warp_ghouls_aura_skaven	false	nag_warp_ghouls_poison		wh_type_area_of_augments		wh_main_anc_group_uncommon	false	true	passive		false
+nag_unit_passive_kalledria_abyssal_howl	false	wh2_dlc10_unit_passive_abyssal_howl		wh_type_area_of_hexes		wh_main_anc_group_uncommon	false	false	passive		false
+nag_lord_passive_dreads_embrace	true	wh3_dlc20_lord_passive_domineering_aura		wh_type_area_of_hexes		wh_main_anc_group_unique	true	false	passive		false
+nag_kalledria_solo_performance	false	nag_kalledria_solo_performance		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	active		false
+nag_kalledria_sonic_boom	false	nag_kalledria_sonic_boom		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false

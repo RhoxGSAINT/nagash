@@ -1,14 +1,9 @@
 unit	faction_override	character_level
 #campaign_mercenary_unit_character_level_restrictions_tables;1;db/campaign_mercenary_unit_character_level_restrictions_tables/rhox_nagash		
-nag_bone_colossus	mixer_nag_nagash	22
-nag_virion_plaguecart	mixer_nag_nagash	12
-nag_revenants	mixer_nag_nagash	8
-nag_shade_haunts	mixer_nag_nagash	5
-nag_doomed_legion	mixer_nag_nagash	0
-nag_blood_beasts	mixer_nag_nagash	18
-nag_thrall_crossbowmen	mixer_nag_nagash	0
-nag_thrall_handgunners	mixer_nag_nagash	0
-nag_burning_dead	mixer_nag_nagash	14
-nag_throne_guard	mixer_nag_nagash	6
-nag_doom_knights	mixer_nag_nagash	10
-nag_druthor	mixer_nag_nagash	20
+nag_bone_colossus	wh3_dlc29_nag_host_of_nagash	22
+nag_virion_plaguecart	wh3_dlc29_nag_host_of_nagash	12
+nag_revenants	wh3_dlc29_nag_host_of_nagash	8
+nag_doomed_legion	wh3_dlc29_nag_host_of_nagash	0
+nag_blood_beasts	wh3_dlc29_nag_host_of_nagash	18
+nag_burning_dead	wh3_dlc29_nag_host_of_nagash	14
+nag_druthor	wh3_dlc29_nag_host_of_nagash	20

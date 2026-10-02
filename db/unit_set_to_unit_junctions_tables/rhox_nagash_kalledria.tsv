@@ -10,30 +10,24 @@ unit_caste	unit_category	unit_class	unit_record	unit_set	exclude
 			wh2_dlc11_cst_inf_syreens	wh2_dlc17_cairnwraith_hexwraith_rank7	false
 			wh2_dlc11_cst_inf_syreens	wh_pro02_isabella_extra_upkeep	false
 			wh2_dlc11_cst_inf_syreens	ethereal	false
-			nag_tomb_banshee	nag_banshee_unit_set	false
 			wh_main_vmp_cha_banshee	nag_banshee_unit_set	false
 			wh_main_vmp_inf_crypt_ghouls	nag_kalledria_ghoul_unit_set	false
-			nag_vanilla_vmp_inf_crypt_ghouls	nag_kalledria_ghoul_unit_set	false
-			nag_inf_crypt_ghouls_construct	nag_kalledria_ghoul_unit_set	false
 			nag_warp_ghouls	nag_kalledria_ghoul_unit_set	false
-			nag_vanilla_cst_inf_syreen	mp_cap_unit_cst_inf_deckhands_syreens	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_all_monster_ultility	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_all_monsters	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_army_chain_set_monster	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_inf_syreens	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_infantry_melee	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_rite_vanguard_monsters	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_syreen_mournguls	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_cst_terrorgheist_scurvy_dogs_syreen	false
-			nag_vanilla_cst_inf_syreen	all_units_excluding_terror	false
-			nag_vanilla_cst_inf_syreen	mp_cap_unit_vmp_inf_cairn_wraiths	false
-			nag_vanilla_cst_inf_syreen	vmp_all	false
-			nag_vanilla_cst_inf_syreen	vmp_bound_spirits	false
-			nag_vanilla_cst_inf_syreen	vmp_unit_cairn_wraiths	false
-			nag_vanilla_cst_inf_syreen	vmp_wraiths_mournguls	false
-			nag_vanilla_cst_inf_syreen	vmp_wraiths	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_vmp_cairn_wraith_hex_wraith_mourngul	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc11_vmp_vets_zombies_skeletons_grave_guard_cairn_wraiths	false
-			nag_vanilla_cst_inf_syreen	wh2_dlc17_cairnwraith_hexwraith_rank7	false
-			nag_vanilla_cst_inf_syreen	wh_pro02_isabella_extra_upkeep	false
-			nag_mortarch_kalledria	nag_mortarch_unit_set	false
+			nag_guinevere	nag_vampires	false
+			nag_guinevere	undead_units	false
+			nag_guinevere	vmp_all	false
+			nag_guinevere	vmp_characters	false
+			nag_guinevere_warhorse	nag_vampires	false
+			nag_guinevere_warhorse	undead_units	false
+			nag_guinevere_warhorse	vmp_all	false
+			nag_guinevere_warhorse	vmp_characters	false
+			nag_vmp_kalledria	ethereal	false
+			nag_vmp_kalledria	nag_mourngul_haunter_banshee	false
+			nag_vmp_kalledria	undead_units	false
+			nag_vmp_kalledria	vmp_agents	false
+			nag_vmp_kalledria	vmp_all	false
+			nag_vmp_kalledria	vmp_characters	false
+			nag_vmp_kalledria	vmp_dlc04_all_characters	false
+			nag_vmp_kalledria	wh3_dlc29_nag_all_character	false
+			nag_vmp_kalledria	wh_main_vmp_cha_banshee	false
+			nag_vmp_kalledria	wh_pro02_isabella_extra_upkeep	false
