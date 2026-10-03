@@ -1,8 +1,8 @@
 key	unbound_decision_item_type	conditionally_spawnable_force	plague	ritual	decision_interface	province_initiative	compass_direction	plague_component	plague_recipe	occupation_decision	teleportation_node_template	FIXME	culture_occupation_decision	compass_action	initiative	initiative_set
 #cai_decision_items_tables;13;db/cai_decision_items_tables/lon_units																
-lon_ritual_nag_unit_capacity_tier_1_skeleton_reapers				lon_ritual_nag_unit_capacity_skeleton_reapers	rituals							true	0			
-lon_ritual_nag_unit_capacity_tier_2_nag_bone_thrower				lon_ritual_nag_unit_capacity_nag_bone_thrower	rituals							true	0			
-lon_ritual_nag_unit_capacity_tier_2_nag_carrion_riders				lon_ritual_nag_unit_capacity_nag_carrion_riders	rituals							true	0			
-lon_ritual_nag_unit_capacity_tier_2_nag_sand_crawlies				lon_ritual_nag_unit_capacity_nag_sand_crawlies	rituals							true	0			
-lon_ritual_nag_unit_capacity_tier_3_nagashizzar_guard				lon_ritual_nag_unit_capacity_nagashizzar_guard	rituals							true	0			
-lon_ritual_nag_unit_capacity_tier_3_nag_bone_golems				lon_ritual_nag_unit_capacity_nag_bone_golems	rituals							true	0			
+wh3_dlc29_ritual_nag_unit_capacity_tier_1_skeleton_reapers				wh3_dlc29_ritual_nag_unit_capacity_skeleton_reapers	rituals							true	0			
+wh3_dlc29_ritual_nag_unit_capacity_tier_2_nag_bone_thrower				wh3_dlc29_ritual_nag_unit_capacity_nag_bone_thrower	rituals							true	0			
+wh3_dlc29_ritual_nag_unit_capacity_tier_2_nag_carrion_riders				wh3_dlc29_ritual_nag_unit_capacity_nag_carrion_riders	rituals							true	0			
+wh3_dlc29_ritual_nag_unit_capacity_tier_2_nag_sand_crawlies				wh3_dlc29_ritual_nag_unit_capacity_nag_sand_crawlies	rituals							true	0			
+wh3_dlc29_ritual_nag_unit_capacity_tier_3_nagashizzar_guard				wh3_dlc29_ritual_nag_unit_capacity_nagashizzar_guard	rituals							true	0			
+wh3_dlc29_ritual_nag_unit_capacity_tier_3_nag_bone_golems				wh3_dlc29_ritual_nag_unit_capacity_nag_bone_golems	rituals							true	0			

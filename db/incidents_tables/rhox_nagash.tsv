@@ -18,3 +18,7 @@ rhox_nagash_kalledria_performed_hex_3_received	false	messenger	false	Event		fals
 rhox_nagash_kalledria_performed_hex_4	false	messenger	false	Event		false		0.0000	false
 rhox_nagash_kalledria_performed_hex_4_received	false	messenger	false	Event		false		0.0000	false
 rhox_nagash_kalledria_performed_hex_5	false	messenger	false	Event		false		0.0000	false
+rhox_nagash_force_vassalised	false	mixer_nag_nagash/nagash_absorbs_undead	false	Event		false		0.0000	false
+rhox_nagash_force_vassalised_coast	false	mixer_nag_nagash/nagash_absorbs_undead_vampire_coast	false	Event		false		0.0000	false
+rhox_nagash_force_vassalised_tk	false	mixer_nag_nagash/nagash_absorbs_undead_tomb_kings	false	Event		false		0.0000	false
+rhox_nagash_force_vassalised_jv	false	mixer_nag_nagash/nagash_absorbs_undead_jade_vampires	false	Event		false		0.0000	false

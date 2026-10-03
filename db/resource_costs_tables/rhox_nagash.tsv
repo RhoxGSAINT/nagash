@@ -1,0 +1,4 @@
+id	treasury_cost	expenditure_type	income_type	expenditure_type_when_regular	income_type_when_regular
+#resource_costs_tables;0;db/resource_costs_tables/rhox_nagash					
+rhox_nagash_kalledria_upgrade_cost	0	ACTIONS	BATTLE_KILLS	ARMY_UPKEEP	BACKGROUND_INCOME
+nag_vassal_ritual	0	RITUAL	RITUAL	ARMY_UPKEEP	BACKGROUND_INCOME

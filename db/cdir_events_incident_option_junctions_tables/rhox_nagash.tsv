@@ -6,3 +6,7 @@ id	incident_key	option_key	value	target
 1450500446	rhox_nagash_guin_arrive	GEN_TARGET_MODEL		default
 1450500447	rhox_nagash_guin_leave	VAR_CHANCE	100	default
 1450500448	rhox_nagash_guin_leave	GEN_TARGET_MODEL		default
+1450500419	rhox_nagash_force_vassalised	GEN_TARGET_MODEL		default
+1450500426	rhox_nagash_force_vassalised_coast	GEN_TARGET_MODEL		default
+1450500431	rhox_nagash_force_vassalised_tk	GEN_TARGET_MODEL		default
+1450500436	rhox_nagash_force_vassalised_jv	GEN_TARGET_MODEL		default

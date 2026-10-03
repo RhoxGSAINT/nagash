@@ -25,7 +25,7 @@ campaign_group_rituals_unlock_text_rhox_nagash_feature_groupnag_divinity	Get Nag
 campaign_group_rituals_unlock_text_rhox_nagash_feature_groupnag_man	Conquer and hold 10 regions	true
 campaign_group_rituals_unlock_text_rhox_nagash_feature_groupnag_winds	Build the Black Obelisk [level 4] (Black Pyramid)	true
 rituals_display_name_rhox_nagash_ritual_forced_vassalisation	Nagash's Will	false
-rituals_description_rhox_nagash_ritual_forced_vassalisation	It'll make target undead faction a vassal under Nagash	false
+rituals_description_rhox_nagash_ritual_forced_vassalisation	All who walk in death owe their existence to Nagash. Through this rite, he reminds a wayward undead realm of that debt, binding its ruler to his will as a vassal of the Great Necromancer.\\n\\n[[col:yellow]]Restrictions:[[/col]]\\n[[img:bullet_point_white]] Mortarch factions cannot be targeted – Nagash will claim them in their entirety through the panel.\\n[[img:bullet_point_white]] Factions led by a Tomb Kings legendary lord cannot be targeted – their ancient hatred of the Usurper runs too deep.	false
 campaign_group_rituals_unlock_text_rhox_nagash_feature_grouprhox_nagash_ritual_forced_vassalisation	Nagash's Omnipotence	false
 ritual_categories_display_name_FORCE_VASSAL_NAGASH	Nagash's Omnipotence	false
 ritual_categories_display_name_FORCE_VASSAL_LAHMIA	Dominate	false

@@ -1,0 +1,4 @@
+subculture	culture	index	audio_state_override	audio_corruption_state_override	audio_rtpc_override	region_owner_audio_switch
+#cultures_subcultures_tables;6;db/cultures_subcultures_tables/zzz_rhox_nagash						
+wh_main_sc_vmp_jade_vampires	mixer_vmp_jade_vampires	954291746	Cathay			Vampire_Counts
+jiangshi_subculture	wh_main_vmp_vampire_counts	1911443795				Vampire_Counts

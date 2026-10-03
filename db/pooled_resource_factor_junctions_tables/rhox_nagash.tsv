@@ -1,0 +1,3 @@
+unique_id	factor	resource	minimum	maximum	specific_faction_set	sort_order
+#pooled_resource_factor_junctions_tables;3;db/pooled_resource_factor_junctions_tables/rhox_nagash						
+rhox_nagash_influence_other	other	rhox_nagash_influence	-2147483647	2147483647		0

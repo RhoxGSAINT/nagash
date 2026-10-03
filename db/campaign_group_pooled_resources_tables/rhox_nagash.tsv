@@ -1,3 +1,4 @@
 campaign_group	resource	initial_amount
 #campaign_group_pooled_resources_tables;1;db/campaign_group_pooled_resources_tables/rhox_nagash		
 rhox_nagash_kalledria_feature	wh3_dlc24_ksl_spirit_essence	10
+rhox_nagash_seducible_factions	rhox_nagash_influence	100

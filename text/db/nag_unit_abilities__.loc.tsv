@@ -74,7 +74,6 @@ unit_abilities_onscreen_name_nag_vlad_passive_mortarch_of_shadows_aura	Aura of D
 unit_abilities_tooltip_text_nag_vlad_passive_mortarch_of_shadows_aura	Vlad motivates his devoted followers with his majestic presence; the Lord of Undeath is without peer.	true
 unit_abilities_onscreen_name_nag_vlad_passive_mortarch_of_shadows_aura_upgrade	Aura of Dark Grandeur	true
 unit_abilities_tooltip_text_nag_vlad_passive_mortarch_of_shadows_aura_upgrade	Vlad motivates his devoted followers with his majestic presence; the Lord of Undeath is without peer.	true
-unit_abilities_tooltip_text_nag_arkhan_abilities_mortarch_of_sacraments_swarm	An Unholy swarm obliterates all in its path.	true
 unit_abilities_onscreen_name_nag_arkhan_abilities_mortarch_of_sacraments_swarm	Unholy Communion	true
 unit_abilities_tooltip_text_nag_nag_neferata_abilities_mortarch_of_blood_death	Neferrata calls forth her handmaidens to swarm and envelop the target in a whirlwind of beauty and death.	true
 unit_abilities_onscreen_name_nag_neferata_abilities_mortarch_of_blood_death	Beautiful Death	true
@@ -130,15 +129,6 @@ unit_abilities_tooltip_text_nag_unit_passive_spectre_swarm_vortex	This stuff doe
 unit_abilities_onscreen_name_nag_unit_passive_spectre_swarm_vortex	Restless ghosts vortex  [HIDDEN]	true
 unit_abilities_tooltip_text_nag_unit_passive_spectre_swarm_vortex_visual_dummy	Wildly swirling ghosts will tear apart any enemy they can reach.	true
 unit_abilities_onscreen_name_nag_unit_passive_spectre_swarm_vortex_visual_dummy	Restless ghosts	true
-unit_abilities_onscreen_name_nag_unit_passive_grim_aura	The Last Journey	true
-unit_abilities_tooltip_text_nag_unit_passive_grim_aura	The plague cart is the very symbol of the last journey, that which ends at the cemetery gates and it is Lord Virions task to guide them to their fated destination.	true
-unit_abilities_onscreen_name_nag_unit_passive_marshlight_aura	Marshlight Lanterns	true
-unit_abilities_tooltip_text_nag_unit_passive_marshlight_aura	Marshlights are ethereal creatures taking the form of glowing lights or lanterns, they emit a compelling hypnotic effect by which they lead mesmerised individuals to their deaths and feed on their ebbing life-force.	true
-unit_abilities_onscreen_name_nag_unit_passive_torment	Tormented Execution	true
-unit_abilities_tooltip_text_nag_unit_passive_torment	As these spirits near closer to their own demise, they grow in fury and malice to make sure all beings that draw breath will breath their last.	true
-unit_abilities_onscreen_name_nag_warp_ghouls_aura	The Sickly Glow	true
-unit_abilities_tooltip_text_nag_warp_ghouls_aura	Warpstone and undeath may go hand in hand, despite only one or none of them having hands. There are also... paws out there eager to acquire warpstone.	true
-unit_abilities_onscreen_name_nag_warp_ghouls_aura_skaven	HIDDEN	true
 unit_abilities_onscreen_name_nag_unit_passive_grasping_hands	Grasping Hands	true
 unit_abilities_tooltip_text_nag_unit_passive_grasping_hands	Cold long, taloned hands grasping aimlessly towards their warm-blooded victims with terrible inevitability.	true
 unit_abilities_onscreen_name_nag_unit_abilities_malevolent_assault	Malevolent Assault	true
@@ -171,8 +161,6 @@ unit_abilities_onscreen_name_nag_bound_spell_raise_dead_corpse_cart_balefire	Inf
 unit_abilities_tooltip_text_nag_bound_spell_raise_dead_corpse_cart_balefire	The green flames lick through the fog, empowering the dead around them.	false
 unit_abilities_onscreen_name_nag_bound_spell_raise_dead_corpse_cart_lodestone	For Whom the Bell Tolls	false
 unit_abilities_tooltip_text_nag_bound_spell_raise_dead_corpse_cart_lodestone	Ask not for whom the bell tolls, as it tolls for thee...	false
-unit_abilities_onscreen_name_nag_unit_passive_blood_frenzy	Blood Frenzy	false
-unit_abilities_tooltip_text_nag_unit_passive_blood_frenzy	The smell and taste of blood intensifies the rage of these most brutal creatures – driving them forward to rip, tear and devour.	false
 unit_abilities_onscreen_name_nag_unit_passive_fresh_hunger	Fresh Hunger	false
 unit_abilities_tooltip_text_nag_unit_passive_fresh_hunger	Recently turned to vampirism these thralls find it difficult to control their innate thirst and hunger for blood.	false
 unit_abilities_onscreen_name_nag_unit_passive_dread_prowess	Dreaded Dead	false
@@ -181,7 +169,6 @@ unit_abilities_onscreen_name_nag_unit_passive_doom_of_nagashizzar	Doom of Nagash
 unit_abilities_tooltip_text_nag_unit_passive_doom_of_nagashizzar	Cursed energy from dark magic thousands of years old, flares in green flame and frozen fire, immolating the very souls of those it touches.	false
 unit_abilities_onscreen_name_nag_unit_passive_doom_of_nagashizzar_hidden	Doom of Nagashizzar [HIDDEN]	false
 unit_abilities_tooltip_text_nag_unit_passive_doom_of_nagashizzar_hidden	Hidden - Executor generator	false
-unit_abilities_onscreen_name_nag_druthor_raise_dead_crypt_ghouls	The King of Grimbarrow	false
 unit_abilities_tooltip_text_nag_druthor_raise_dead_crypt_ghouls	Lord over a foetid field of bones, his kingdom a dismal graveyard of a populace that died in infamy in a forgotten age of the world.	false
 unit_abilities_onscreen_name_nag_kalledria_sonic_boom	Piercing Anguish	false
 unit_abilities_tooltip_text_nag_kalledria_sonic_boom	Kalledria strikes all the notes on her cursed harp, causing listeners to feel 100 years of anguish all at once.	false
