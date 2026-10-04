@@ -109,3 +109,23 @@ core:add_listener(
     end,
     true
 )
+
+
+--[[core:add_listener(
+    "rhox_debug_sigil_progress",
+    "RitualAboutToStartEvent",
+    function(context)
+    return string.find(context:ritual():ritual_key(), "wh3_dlc29_ritual_nag_unit_capacity_") ~= nil
+    end,
+    function(context)
+    local ritual = context:ritual()
+    local faction = context:performing_faction()
+    local res = ritual:ritual_target():get_target_expended_resources()
+    local ssm = cm:model():shared_states_manager()
+    out("rhox sigil debug: " .. ritual:ritual_key()
+    .. " cost=" .. tostring(not res:is_null_interface() and res:absolute_resource_change("wh3_dlc29_nag_necromantic_energy"))
+    .. " value=" .. tostring(ssm:get_state_as_float_value(faction, "nag_necromancy_current_value"))
+    .. " target=" .. tostring(ssm:get_state_as_float_value(faction, "nag_necromancy_current_target")))
+    end,
+    true
+)--]]
