@@ -3,3 +3,4 @@ key	auto_generate	is_caster	small_icon	associated_unit_override	audio_voiceover_
 nag_guinevere	false	false		nag_guinevere	wh_main_vo_actor_Vampire_FemaleVamp	false	-1	true	true	false	false			names_vmp_vampire_counts	false	false	cannot_be_loaded_in_campaign		false	true	0			false
 nag_vmp_kalledria	false	false		nag_vmp_kalledria	wh_main_vo_actor_Vampire_Banshee	true	-1	true	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	0			false
 rhox_nagash_banshee_summoned	false	false		wh_main_vmp_cha_banshee	wh_main_vo_actor_Vampire_Banshee	true	-1	false	false	false	true	vmp_lord			true	false	cannot_be_saved_loaded		false	false	750			false
+nag_mortarch_krell	false	false	ui/campaign ui/agents/wh_main_vmp_champion.png	wh3_dlc29_vmp_cha_krell	wh_pro03_vo_actor_Vampire_chaos_Krell	true	-1	false	true	false	false	legendary_lords			false	true	cannot_be_loaded_in_campaign		false	true	1550			false

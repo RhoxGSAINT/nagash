@@ -2,3 +2,4 @@ uniform_name	filename	battle_filename	campaign_porthole_filename	campaign_politi
 #agent_uniforms_tables;10;db/agent_uniforms_tables/rhox_nagash					
 nag_mortarch_kalledria	nag_kalledria	nag_kalledria	nag_kalledria		
 nag_guinevere	vmp_genevieve	vmp_genevieve	vmp_genevieve		
+nag_mortarch_krell	wh_pro03_vmp_ch_krell	wh_pro03_vmp_ch_krell	wh_pro03_vmp_ch_krell		

@@ -22,5 +22,6 @@ table.insert(vampire_technology.starting_necromancer_techs, {faction = "mixer_vm
 cm:add_first_tick_callback(
     function()
         campaign_traits.legendary_lord_defeated_traits["nag_vmp_kalledria"] ="rhox_nagash_kalledria_defeat_trait"
+        campaign_traits.legendary_lord_defeated_traits["nag_mortarch_krell"] ="rhox_nagash_krell_defeat_trait"
     end
 )

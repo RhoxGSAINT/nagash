@@ -44,3 +44,9 @@ cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_bp_flyFIFT
 cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_bp_flyFIFTH	Fifth Candidate	false
 cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_bp_flyCANCEL	Do nothing	false
 cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_bp_flyCANCEL	Let's just stay here	false
+dilemmas_localised_title_rhox_nagash_krell_lord_dilemma	Krell, Mortarch of Despair	false
+dilemmas_localised_description_rhox_nagash_krell_lord_dilemma	Once a champion of the Blood God, Krell was slain long ago and raised again by the will of Nagash. Now the Great Necromancer has reclaimed his servant. Krell's loyalty is not in question, for his will is no longer his own. All that remains is to decide how he will serve: as a deathless blade at his master's side, or as a general leading a legion of the dead to war.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_krell_lord_dilemmaFIRST	The Master's Blade	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_krell_lord_dilemmaFIRST	Krell will stand beside his lord as a Legendary Hero, cleaving through the champions of the living wherever Nagash's armies march.	false
+cdir_events_dilemma_choice_details_localised_choice_label_rhox_nagash_krell_lord_dilemmaSECOND	The Legion's Lord	false
+cdir_events_dilemma_choice_details_localised_choice_title_rhox_nagash_krell_lord_dilemmaSECOND	Krell will rise as a Legendary Lord. He will take command of his own host and carry the Black Axe at the head of a legion that does not tire, does not falter and does not fear.	false

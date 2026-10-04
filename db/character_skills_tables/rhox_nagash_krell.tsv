@@ -1,0 +1,19 @@
+key	image_path	localised_description	localised_name	unlocked_at_rank	is_background_skill	is_female_only_background_skill	is_male_only_background_skill	background_weighting	influence_cost
+#character_skills_tables;5;db/character_skills_tables/rhox_nagash_krell									
+nag_skill_mortarch_innate_krell	trait_mortarch.png		Mortarch of Despair	0	true	false	false	5.0000	0
+nag_skill_self_krell_hatred_of_the_gods	character_damage.png		Hatred of the Gods	0	false	false	false	0.0000	0
+nag_skill_personal_krell_immortal_challenger	wh_pro03_lord_abilities_lord_of_undeath.png		Immortal Challenger	0	false	false	false	0.0000	0
+nag_skill_personal_krell_champion_of_nagash	wh_main_character_abilities_heroic_killing_blow.png		Champion of Nagash	0	false	false	false	0.0000	0
+nag_skill_personal_krell_might_makes_wight	wh2_hef_wrath_of_khaine.png		Might Makes Wight	0	false	false	false	0.0000	0
+nag_skill_personal_krell_spectral_executioner	character_raise_dead.png		Spectral Executioner	0	false	false	false	0.0000	0
+nag_skill_personal_krell_skull_throne	character_wound_time.png		Skulls for the Skull Throne	0	false	false	false	0.0000	0
+nag_skill_personal_krell_abandoned_by_khorne	character_chaos_corruption.png		Forsaken by Khorne	0	false	false	false	0.0000	0
+nag_skill_personal_krell_the_doomed_legion	wh_pro03_lord_abilities_lord_of_undeath.png		The Doomed Legion	0	false	false	false	0.0000	0
+nag_skill_personal_krell_his_will_be_done	wh2_dlc11_loyalty.png		His Will be Done	0	false	false	false	0.0000	0
+nag_skill_mortarch_krell_unique_1	wh3_dlc29_character_passive_legion_commander.png	{{tr:unit_abilities_tooltip_text_wh3_dlc29_character_passive_legion_commander}}	{{tr:unit_abilities_onscreen_name_wh3_dlc29_character_passive_legion_commander}}	0	false	false	false	0.0000	0
+nag_skill_mortarch_krell_unique_2	character_agent.png	Wights flock to the strongest of their kind, just as they did in life.	Lord of the Barrows	0	false	false	false	0.0000	0
+nag_skill_mortarch_krell_unique_3	wh_main_unit_passive_regeneration.png	Though flesh rots, and consciousness fades, a dead warrior's bones do not forget the weight of his axe.	Deathless Juggernaut	0	false	false	false	0.0000	0
+nag_skill_mortarch_krell_unique_4	character_raise_dead.png	A simple sword blow has little chance of stopping the unnatural resilience of the Undead.	Chosen of the Grave	0	false	false	false	0.0000	0
+nag_skill_mortarch_krell_unique_6	wh_main_unit_passive_frenzy.png	An old servant of Khorne remembers the taste of his bloodlust.	Engine of War	0	false	false	false	0.0000	0
+nag_skill_mortarch_krell_unique_7	wh2_dlc11_grave_sentinels.png	Only the most resilient champions can be tasked with waging eternal war.	Battle, Eternal	0	false	false	false	0.0000	0
+nag_skill_mortarch_krell_hidden				0	false	false	false	0.0000	0

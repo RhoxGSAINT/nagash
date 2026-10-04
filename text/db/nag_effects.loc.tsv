@@ -115,7 +115,7 @@ effects_description_nag_effect_self_krell_infantry_melee_defence_skill	Melee def
 effects_description_nag_effect_self_krell_infantry_upkeep_skill	Upkeep: %+n% for Grave Guard & Nagashizzar Guard units	true
 effects_description_nag_effect_self_krell_melee_attack_versus_nor_chs_bst	Melee attack: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
 effects_description_nag_effect_self_krell_melee_damage_versus_nor_chs_bst	Weapon strength: %+n% for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
-effects_description_nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	Charge bonus: %+n for all units when fighting against Warriors of Chaos, Norsca and Beastmen	true
+effects_description_nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	Charge bonus: %+n for all units when fighting against Norsca, Warriors of Chaos, Chaos Dwarfs, Daemons of Chaos and Beastmen	true
 effects_description_nag_effect_self_luthor_missile_strength_arty	Missile strength: %+n% for all Artillery units	true
 effects_description_nag_effect_self_luthor_missile_strength_gunnery_carronade	Missile strength: %+n% for Zombie Pirate Gunnery Mobs, Deck Gunners and Carronade units	true
 effects_description_nag_effect_enable_mount_arkhan_abyssal	Mount: Razarak (Abyssal Terror)	true

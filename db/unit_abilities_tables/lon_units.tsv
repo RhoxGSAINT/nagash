@@ -9,5 +9,3 @@ nag_warp_ghouls_aura	false	nag_warp_ghouls_poison		wh_type_area_of_augments		wh_
 nag_warp_ghouls_aura_skaven	false	nag_warp_ghouls_poison		wh_type_area_of_augments		wh_main_anc_group_uncommon	false	true	passive		false
 nag_unit_passive_kalledria_abyssal_howl	false	wh2_dlc10_unit_passive_abyssal_howl		wh_type_area_of_hexes		wh_main_anc_group_uncommon	false	false	passive		false
 nag_lord_passive_dreads_embrace	true	wh3_dlc20_lord_passive_domineering_aura		wh_type_area_of_hexes		wh_main_anc_group_unique	true	false	passive		false
-nag_kalledria_solo_performance	false	nag_kalledria_solo_performance		wh_type_area_of_augments		wh_main_anc_group_uncommon	true	false	active		false
-nag_kalledria_sonic_boom	false	nag_kalledria_sonic_boom		wh_type_explosion		wh_main_anc_group_rare	true	false	active		false

@@ -1,0 +1,29 @@
+key	campaign_key	character_skill_key	faction_key	indent	tier	subculture	points_on_creation	required_num_parents	visible_in_ui
+#character_skill_nodes_tables;6;db/character_skill_nodes_tables/rhox_nagash_krell									
+nag_skill_mortarch_krell_personal_00		nag_skill_personal_krell_immortal_challenger		1	0		0	0	true
+nag_skill_mortarch_krell_personal_01		nag_skill_personal_krell_might_makes_wight		1	1		0	0	true
+nag_skill_mortarch_krell_personal_02		nag_skill_personal_krell_spectral_executioner		1	2		0	0	true
+nag_skill_mortarch_krell_personal_03		nag_skill_personal_krell_skull_throne		1	3		0	0	true
+nag_skill_mortarch_krell_personal_04		nag_skill_personal_krell_abandoned_by_khorne		1	4		0	0	true
+nag_skill_mortarch_krell_personal_05		nag_skill_personal_krell_the_doomed_legion		1	5		0	0	true
+nag_skill_mortarch_krell_personal_06		nag_skill_personal_krell_his_will_be_done		1	6		0	3	true
+nag_skill_mortarch_krell_personal_07		nag_skill_personal_krell_champion_of_nagash		1	7		0	0	true
+nag_skill_mortarch_krell_self_00		nag_skill_self_krell_hatred_of_the_gods		3	0		0	0	true
+nag_skill_mortarch_krell_self_01		wh2_dlc11_skill_all_lord_self_devastating_charge		3	1		0	0	true
+nag_skill_mortarch_krell_self_02		wh2_dlc11_skill_all_lord_self_thick-skinned		3	2		0	0	true
+nag_skill_mortarch_krell_self_03		wh2_dlc11_skill_all_lord_self_hard_to_hit		3	3		0	0	true
+nag_skill_mortarch_krell_self_04		wh2_dlc11_skill_all_lord_self_deadly_blade		3	4		0	0	true
+nag_skill_mortarch_krell_self_05		wh_main_skill_all_all_self_foe-seeker		3	5		0	4	true
+nag_skill_mortarch_krell_self_06		wh2_dlc11_skill_all_lord_self_wound-maker		3	6		0	0	true
+nag_skill_mortarch_krell_self_07		wh2_dlc11_skill_all_lord_self_scarred_veteran		3	7		0	0	true
+nag_skill_mortarch_krell_self_08		wh2_dlc11_skill_all_lord_self_self_indomitable		3	8		0	0	true
+nag_skill_mortarch_krell_self_09		wh2_dlc11_skill_all_lord_self_blade_shield		3	9		0	0	true
+nag_skill_mortarch_krell_self_10		wh3_dlc24_skill_all_all_self_colossal_strike		3	10		0	4	true
+nag_skill_mortarch_innate_krell		nag_skill_mortarch_innate_krell		6	0		1	0	false
+nag_skill_mortarch_krell_unique_1		nag_skill_mortarch_krell_unique_1		2	0		0	0	true
+nag_skill_mortarch_krell_unique_2		nag_skill_mortarch_krell_unique_2		2	1		0	0	true
+nag_skill_mortarch_krell_unique_3		nag_skill_mortarch_krell_unique_6		2	2		0	0	true
+nag_skill_mortarch_krell_unique_4		nag_skill_mortarch_krell_unique_7		2	3		0	0	true
+nag_skill_mortarch_krell_unique_5		nag_skill_mortarch_krell_unique_4		2	4		0	0	true
+nag_skill_mortarch_krell_unique_6		nag_skill_mortarch_krell_unique_3		2	5		0	3	true
+nag_skill_mortarch_krell_hidden		nag_skill_mortarch_krell_hidden		6	1		1	0	true

@@ -1,3 +1,5 @@
 key	level	trait	threshold_points
 #character_trait_levels_tables;0;db/character_trait_levels_tables/rhox_nagash			
 rhox_nagash_kalledria_defeat_trait	1	rhox_nagash_kalledria_defeat_trait	1
+rhox_nagash_krell_defeat_trait	1	rhox_nagash_krell_defeat_trait	1
+rhox_nagash_krell_hero_carryover_trait	1	rhox_nagash_krell_hero_carryover_trait	1

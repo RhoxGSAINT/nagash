@@ -2,3 +2,4 @@ key	agent_key	for_army	faction_key	subculture	for_navy	campaign_key	agent_subtyp
 #character_skill_node_sets_tables;0;db/character_skill_node_sets_tables/rhox_nagash							
 nag_skill_node_set_guinevere	dignitary	false			false		nag_guinevere
 nag_skill_node_set_vmp_kalledria	general	false			false		nag_vmp_kalledria
+nag_skill_node_set_mortarch_krell	general	false			false		nag_mortarch_krell
