@@ -22,3 +22,4 @@ rhox_nagash_force_vassalised	false	mixer_nag_nagash/nagash_absorbs_undead	false	
 rhox_nagash_force_vassalised_coast	false	mixer_nag_nagash/nagash_absorbs_undead_vampire_coast	false	Event		false		0.0000	false
 rhox_nagash_force_vassalised_tk	false	mixer_nag_nagash/nagash_absorbs_undead_tomb_kings	false	Event		false		0.0000	false
 rhox_nagash_force_vassalised_jv	false	mixer_nag_nagash/nagash_absorbs_undead_jade_vampires	false	Event		false		0.0000	false
+rhox_nagash_harkon_restoed_incident	false	mixer_nag_nagash/luthor_harkon_restores_his_mind	false	Quest		false		0.0000	false

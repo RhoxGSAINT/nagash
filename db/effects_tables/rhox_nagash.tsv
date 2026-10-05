@@ -11,3 +11,4 @@ rhox_nagash_guinevere_effect_peace_broker_dummy	diplomacy.png	1	diplomacy.png	ca
 nag_effect_self_krell_charge_bonus_versus_nor_chs_bst	charge.png	3	charge.png	battle	true
 nag_effect_self_krell_infantry_melee_defence_skill	defence.png	3	defence.png	battle	true
 nag_effect_self_krell_infantry_upkeep_skill	treasury.png	5	treasury.png	battle	false
+rhox_nagash_cst_lord_trait_harkon_split_personality	fractured_mind.png	1	fractured_mind.png	campaign	false
