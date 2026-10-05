@@ -9,7 +9,7 @@
 local units = {
 	{ unit = 'nag_skeleton_reaper', group = 'lon_nag_skeleton_reaper_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_skeleton_10' },
 	{ unit = 'nag_sand_crawlies', group = 'lon_nag_sand_crawlies_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_beasts_1' },
-    { unit = 'nag_nagashi_guard', group = 'lon_nag_nagashi_guard_halb_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_nagash_mid_8' },
+    { unit = 'nag_nagashi_guard', group = 'lon_nag_nagashi_guard_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_nagash_mid_8' },
     { unit = 'nag_nagashi_guard_halb', group = 'lon_nag_nagashi_guard_halb_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_nagash_mid_8' },
     { unit = 'nag_carrion_riders', group = 'lon_nag_carrion_riders_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_wraith_1' },
     { unit = 'nag_bone_thrower', group = 'lon_nag_bone_thrower_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_guards_6' },
