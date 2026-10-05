@@ -35,11 +35,12 @@ local pools = {
 if black_pyramid and black_pyramid.gravecall then
 	for _, u in ipairs(units) do
 		local section = black_pyramid.gravecall.initiatives[u.section]
-		local locks = u.sigil and section and section[u.sigil]
-		if locks then
-			table.insert(locks, u.unit)
+		if u.sigil and section then
+			-- CA's lock/unlock loops read every key in the section, so a sigil missing from this section can just be added
+			section[u.sigil] = section[u.sigil] or {}
+			table.insert(section[u.sigil], u.unit)
 		elseif u.sigil then
-			out('gravecall units: no sigil ' .. u.sigil .. ' in section ' .. tostring(u.section) .. ', ' .. u.unit .. ' stays unlocked')
+			out('gravecall units: no section ' .. tostring(u.section) .. ', ' .. u.unit .. ' stays unlocked')
 		end
 	end
 end
@@ -72,10 +73,6 @@ cm:add_first_tick_callback_new(function()
 	for _, u in ipairs(units) do
         local pool = pools[u.section]
         cm:add_unit_to_faction_mercenary_pool(faction, u.unit, pool, 999999, 100, 999999, 100, '', subculture_key, '', false, u.group)
-        -- on a save past turn 1 CA's lock has already run, so lock the new unit ourselves
-        if u.sigil and cm:model():turn_number() > 1 and not sigils:lookup_initiative_by_key(u.sigil):is_active() then
-            cm:add_event_restricted_unit_record_for_faction_and_source(u.unit, faction_key, pool, 'nagash_gravecall_lock_tooltip_' .. u.sigil)
-        end
 	end
 	
 	for _, unit_key in ipairs(nagash_ror_units) do
@@ -109,23 +106,3 @@ core:add_listener(
     end,
     true
 )
-
-
---[[core:add_listener(
-    "rhox_debug_sigil_progress",
-    "RitualAboutToStartEvent",
-    function(context)
-    return string.find(context:ritual():ritual_key(), "wh3_dlc29_ritual_nag_unit_capacity_") ~= nil
-    end,
-    function(context)
-    local ritual = context:ritual()
-    local faction = context:performing_faction()
-    local res = ritual:ritual_target():get_target_expended_resources()
-    local ssm = cm:model():shared_states_manager()
-    out("rhox sigil debug: " .. ritual:ritual_key()
-    .. " cost=" .. tostring(not res:is_null_interface() and res:absolute_resource_change("wh3_dlc29_nag_necromantic_energy"))
-    .. " value=" .. tostring(ssm:get_state_as_float_value(faction, "nag_necromancy_current_value"))
-    .. " target=" .. tostring(ssm:get_state_as_float_value(faction, "nag_necromancy_current_target")))
-    end,
-    true
-)--]]
