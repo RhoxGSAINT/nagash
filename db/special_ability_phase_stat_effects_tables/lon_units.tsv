@@ -16,7 +16,3 @@ nag_warp_ghouls_aura	stat_resistance_magic	20.0000	add
 nag_warp_ghouls_aura	stat_melee_attack	6.0000	add
 nag_warp_ghouls_aura_skaven	stat_melee_attack	6.0000	add
 nag_warp_ghouls_aura_skaven	stat_melee_defence	-6.0000	add
-nag_unit_passive_kalledria_abyssal_howl	stat_melee_attack	-4.0000	add
-nag_lord_passive_dreads_embrace	stat_melee_attack	-15.0000	add
-nag_lord_passive_dreads_embrace	stat_melee_defence	-15.0000	add
-nag_lord_passive_dreads_embrace	stat_morale	-15.0000	add

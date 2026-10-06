@@ -3,3 +3,4 @@ key	agent_key	for_army	faction_key	subculture	for_navy	campaign_key	agent_subtyp
 nag_skill_node_set_guinevere	dignitary	false			false		nag_guinevere
 nag_skill_node_set_vmp_kalledria	general	false			false		nag_vmp_kalledria
 nag_skill_node_set_mortarch_krell	general	false			false		nag_mortarch_krell
+nag_skill_node_set_mortarch_azhag	spy	false			false		nag_mortarch_azhag

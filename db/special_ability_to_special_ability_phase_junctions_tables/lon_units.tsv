@@ -9,6 +9,3 @@ order	special_ability	target_self	target_friends	target_enemies	phase
 3	nag_unit_passive_blood_frenzy	true	false	false	nag_passive_blood_frenzy_3
 1	nag_warp_ghouls_aura	true	true	false	nag_warp_ghouls_aura
 1	nag_warp_ghouls_aura_skaven	true	true	false	nag_warp_ghouls_aura_skaven
-1	nag_kalledria_solo_performance	false	false	true	nag_kalledria_solo_performance
-1	nag_unit_passive_kalledria_abyssal_howl	false	false	true	nag_unit_passive_kalledria_abyssal_howl
-1	nag_lord_passive_dreads_embrace	false	false	true	nag_lord_passive_dreads_embrace

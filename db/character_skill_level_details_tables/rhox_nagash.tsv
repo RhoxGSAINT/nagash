@@ -4,3 +4,8 @@ campaign_key	faction_key	level	skill_key	subculture_key	image_path	unlocked_at_r
 		1	nag_skill_unique_kalledria_unique_1		x	12
 		1	nag_anc_enchanted_item_lament_of_the_lost		x	16
 		1	nag_skill_mortarch_krell_unique_1		x	11
+		1	nag_skill_azhag_anc_armour_azhags_ard_armour		x	11
+		1	nag_skill_azhag_anc_enchanted_item_the_crown_of_sorcery		x	6
+		1	nag_skill_azhag_anc_weapon_slaggas_slashas		x	16
+		1	nag_skill_grn_lord_unique_azhag_skullmuncha		x	13
+		1	nag_skill_grn_azhag_unique_0		x	11

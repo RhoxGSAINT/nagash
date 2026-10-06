@@ -1,0 +1,4 @@
+effect_key	set_key	effect_scope	value
+#ancillary_set_effect_junctions_tables;0;db/ancillary_set_effect_junctions_tables/rhox_nagash			
+wh3_main_effect_winds_of_magic_pool_cap	rhox_nagash_azhag_set	general_to_force_own	20.0000
+wh_main_effect_public_order_characters	rhox_nagash_azhag_set	character_to_province_own_factionwide	1.0000
