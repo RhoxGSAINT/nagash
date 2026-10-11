@@ -18,6 +18,8 @@ local units = {
     { unit = 'nag_undead_chariot_unit', group = 'lon_nag_undead_chariot_faction_pool', section = 'vmp', sigil = 'wh3_dlc29_black_pyramid_chariots_1' },
 }
 
+
+
 -- Change the prefix if you copy this file into another mod, so the saved flags don't clash.
 local save_prefix = 'lon_gravecall_units_'
 
@@ -44,6 +46,13 @@ if black_pyramid and black_pyramid.gravecall then
 		end
 	end
 end
+
+table.insert(nag_mortarchs_config.initial_missions["wh3_dlc29_nag_mortarchs_dieter"].unique_objectives_config.ritual_list, "wh3_dlc29_ritual_nag_unit_capacity_skeleton_reapers")
+table.insert(nag_mortarchs_config.initial_missions["wh3_dlc29_nag_mortarchs_dieter"].unique_objectives_config.ritual_list, "wh3_dlc29_ritual_nag_unit_capacity_nag_bone_thrower")
+table.insert(nag_mortarchs_config.initial_missions["wh3_dlc29_nag_mortarchs_dieter"].unique_objectives_config.ritual_list, "wh3_dlc29_ritual_nag_unit_capacity_nag_carrion_riders")
+table.insert(nag_mortarchs_config.initial_missions["wh3_dlc29_nag_mortarchs_dieter"].unique_objectives_config.ritual_list, "wh3_dlc29_ritual_nag_unit_capacity_nag_sand_crawlies")
+table.insert(nag_mortarchs_config.initial_missions["wh3_dlc29_nag_mortarchs_dieter"].unique_objectives_config.ritual_list, "wh3_dlc29_ritual_nag_unit_capacity_nagashizzar_guard")
+table.insert(nag_mortarchs_config.initial_missions["wh3_dlc29_nag_mortarchs_dieter"].unique_objectives_config.ritual_list, "wh3_dlc29_ritual_nag_unit_capacity_nag_bone_golems")
 
 local defaults = {
     replen_chance = 100,
