@@ -1,0 +1,4 @@
+id	mission_key	option_key	value	target
+#cdir_events_mission_option_junctions_tables;2;db/cdir_events_mission_option_junctions_tables/rhox_nagash				
+867696802	rhox_nagash_vmp_mission_confederate_lord_kalledria	VAR_CHANCE	100	default
+867696803	rhox_nagash_vmp_mission_confederate_lord_kalledria	GEN_TARGET_NONE		default

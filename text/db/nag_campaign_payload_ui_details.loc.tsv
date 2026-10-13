@@ -26,3 +26,4 @@ campaign_payload_ui_details_description_rhox_nagash_guinevere_departs	Geneviève
 campaign_payload_ui_details_description_rhox_nagash_guinevere_presents	[[col:yellow]]The value of present increases as you have used Geneviève Dieudonné more and more.[[/col]]	false
 campaign_payload_ui_details_description_rhox_nagash_guinevere_peace	Peace will be made with target faction	false
 campaign_payload_ui_details_description_nag_azhag_will_join	Azhag will become Mortarch and join your forces	false
+campaign_payload_ui_details_description_dummy_confederate_lord_kalledria	[[col:yellow]]Kalledria the Queen of Sorrows[[/col]] is now available to confederate via the Confederation panel	false
